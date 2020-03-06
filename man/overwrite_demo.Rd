@@ -19,7 +19,10 @@ overwrite_demo
 
 Other demo datasets: 
 \code{\link{ald_demo}},
+\code{\link{data_dictionary}()},
+\code{\link{iso_codes}},
 \code{\link{loanbook_demo}},
+\code{\link{region_isos}},
 \code{\link{scenario_demo}}
 }
 \concept{demo datasets}
