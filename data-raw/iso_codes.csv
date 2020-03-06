@@ -1,0 +1,287 @@
+country,country_iso
+afghanistan,af
+albania,al
+algeria,dz
+american samoa,as
+andorra,ad
+angola,ao
+anguilla,ai
+antigua and barbuda,ag
+argentina,ar
+armenia,am
+aruba,aw
+australia,au
+austria,at
+azerbaijan,az
+bahamas,bs
+bahrain,bh
+bangladesh,bd
+barbados,bb
+belarus,by
+belgium,be
+belize,bz
+benin,bj
+bermuda,bm
+bhutan,bt
+bolivia,bo
+bosnia and herzegovina,ba
+botswana,bw
+brazil,br
+british virgin islands,vg
+brunei darussalam,bn
+bulgaria,bg
+burkina faso,bf
+burundi,bi
+cambodia,kh
+cameroon,cm
+canada,ca
+cape verde,cv
+cayman islands,ky
+chad,td
+chile,cl
+china,cn
+colombia,co
+cook islands,ck
+costa rica,cr
+croatia,hr
+cuba,cu
+curacao,cw
+cyprus,cy
+czech republic,cz
+democratic people's republic of korea,kp
+democratic republic of the congo,cd
+denmark,dk
+djibouti,dj
+dominica,dm
+dominican republic,do
+ecuador,ec
+egypt,eg
+el salvador,sv
+equatorial guinea,gq
+eritrea,er
+estonia,ee
+ethiopia,et
+faroe islands,fo
+fiji,fj
+finland,fi
+france,fr
+french guiana,gf
+french polynesia,pf
+gabon,ga
+gambia,gm
+georgia,ge
+germany,de
+ghana,gh
+gibraltar,gi
+greece,gr
+greenland,gl
+grenada,gd
+guadeloupe,gp
+guam,gu
+guatemala,gt
+guernsey,gg
+guinea,gn
+guinea-bissau,gw
+guyana,gy
+haiti,ht
+honduras,hn
+hong kong special administrative region of china,hk
+hungary,hu
+iceland,is
+india,in
+indonesia,id
+iran (islamic republic of iran),ir
+iraq,iq
+ireland,ie
+islamic republic of mauritania,mr
+isle of man,im
+israel,il
+italy,it
+ivory coast,ci
+jamaica,jm
+japan,jp
+jersey,je
+jordan,jo
+kazakhstan,kz
+kenya,ke
+kiribati,ki
+kosovo,rs
+kuwait,kw
+kyrgyzstan,kg
+lao people's democratic republic,la
+latvia,lv
+lebanon,lb
+lesotho,ls
+liberia,lr
+libyan arab jamahiriya,ly
+lithuania,lt
+luxembourg,lu
+macau special administrative region of china,mo
+madagascar,mg
+malawi,mw
+malaysia,my
+maldives,mv
+mali,ml
+malta,mt
+marshall islands,mh
+martinique,mq
+mauritius,mu
+mayotte,yt
+mexico,mx
+micronesia (federated states of),fm
+mongolia,mn
+montenegro,me
+morocco,ma
+mozambique,mz
+myanmar,mm
+nepal,np
+netherlands,nl
+new caledonia,nc
+new zealand,nz
+nicaragua,ni
+niger,ne
+nigeria,ng
+norway,no
+oman,om
+pakistan,pk
+palau,pw
+panama,pa
+papua new guinea,pg
+paraguay,py
+peru,pe
+philippines,ph
+poland,pl
+portugal,pt
+puerto rico,pr
+qatar,qa
+republic of congo,cg
+republic of korea,kp
+republic of macedonia,mk
+republic of moldova,md
+reunion,re
+romania,ro
+russian federation,ru
+rwanda,rw
+samoa,ws
+saudi arabia,sa
+senegal,sn
+serbia,rs
+seychelles,sc
+sierra leone,sl
+singapore,sg
+slovakia,sk
+slovenia,si
+solomon islands,sb
+somalia,so
+somaliland,so
+south africa,za
+spain,es
+sri lanka,lk
+sudan,sd
+suriname,sr
+swaziland,sz
+sweden,se
+switzerland,ch
+syrian arab republic,sy
+taiwan,tw
+tajikistan,tj
+thailand,th
+timor-leste,tl
+togo,tg
+tokelau,tk
+tonga,to
+trinidad and tobago,tt
+tunisia,tn
+turkey,tr
+turkmenistan,tm
+tuvalu,tv
+uganda,ug
+ukraine,ua
+united arab emirates,ae
+united kingdom,gb
+united republic of tanzania,tz
+united states,us
+uruguay,uy
+uzbekistan,uz
+vanuatu,vu
+venezuela,ve
+vietnam,vn
+virgin islands (us),vi
+yemen,ye
+zambia,zm
+zimbabwe,zw
+angola-congo republic joint development area,ao
+brunei,bn
+comoros,km
+congo republic,cg
+cote d'ivoire,ci
+falkland islands,fk
+iran,ir
+kuwait-saudi arabia partitioned neutral zone,kw
+libya,ly
+malaysia - thailand joint development area,my
+malaysia - vietnam pm-3 commercial arrangement area,my
+mauritania,mr
+russia,ru
+south korea,kr
+south sudan,ss
+syria,sy
+tanzania,tz
+timor sea joint petroleum development area,tl
+saint barthelemy,bl
+"saint helena, ascension and tristan da cunha",sh
+saint kitts and nevis,kn
+saint lucia,lc
+saint pierre and miquelon,pm
+saint vincent and the grenadines,vc
+sint maarten,mf
+antarctica,aq
+bonaire,bq
+bouvet island,bv
+british indian ocean territory,io
+central african republic,cf
+christmas island,cx
+cocos (keeling) islands,cc
+congo,cg
+falkland islands (malvinas),fk
+french southern territories,tf
+heard island and mcdonald mcdonald islands,hm
+holy see (vatican city state),va
+hong kong,hk
+"iran, islamic republic of",ir
+"korea, democratic people's republic of",kp
+"korea, republic of",kr
+liechtenstein,li
+macao,mo
+"macedonia, the former yugoslav republic of",mk
+"micronesia, federated states of",fm
+"moldova, republic of",md
+monaco,mc
+montserrat,ms
+namibia,na
+nauru,nr
+niue,nu
+norfolk island,nf
+northern mariana islands,mp
+"palestine, state of",ps
+pitcairn,pn
+saint helena,sh
+saint martin (french part),mf
+san marino,sm
+sao tome and principe,st
+sint maarten (dutch part),sx
+south georgia and the south sandwich islands,gs
+svalbard and jan mayen,sj
+"taiwan, province of china",tw
+turks and caicos islands,tc
+united states minor outlying islands,um
+viet nam,vn
+us virgin islands,vi
+wallis and futuna,wf
+western sahara,eh
+aland islands,ax
+turks,tc
+caicos islands,tc
+macedonia,mk
+moldova,md
+global,global

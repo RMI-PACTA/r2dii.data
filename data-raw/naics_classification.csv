@@ -1,0 +1,69 @@
+code,code_level,sector,borderline
+11,sector,not in scope,FALSE
+21,sector,not in scope,FALSE
+22,sector,not in scope,FALSE
+23,sector,not in scope,FALSE
+31,sector,not in scope,FALSE
+32,sector,not in scope,FALSE
+33,sector,not in scope,FALSE
+42,sector,not in scope,FALSE
+44,sector,not in scope,FALSE
+45,sector,not in scope,FALSE
+48,sector,not in scope,FALSE
+49,sector,not in scope,FALSE
+51,sector,not in scope,FALSE
+52,sector,not in scope,FALSE
+53,sector,not in scope,FALSE
+54,sector,not in scope,FALSE
+55,sector,not in scope,FALSE
+56,sector,not in scope,FALSE
+61,sector,not in scope,FALSE
+62,sector,not in scope,FALSE
+71,sector,not in scope,FALSE
+72,sector,not in scope,FALSE
+81,sector,not in scope,FALSE
+92,sector,not in scope,FALSE
+211,subsector,fossil fuels,FALSE
+212,subsector,not in scope,FALSE
+221,subsector,not in scope,FALSE
+331,subsector,not in scope,FALSE
+332,subsector,not in scope,FALSE
+336,subsector,not in scope,FALSE
+481,subsector,aviation,FALSE
+483,subsector,shipping,FALSE
+212111,industry,fossil fuels,FALSE
+212112,industry,fossil fuels,FALSE
+212113,industry,fossil fuels,FALSE
+221111,industry,power,FALSE
+221112,industry,power,FALSE
+221113,industry,power,FALSE
+221114,industry,power,FALSE
+221115,industry,power,FALSE
+221116,industry,power,FALSE
+221117,industry,power,FALSE
+221118,industry,power,FALSE
+221124,industry,power,FALSE
+221125,industry,power,FALSE
+221126,industry,power,FALSE
+221127,industry,power,FALSE
+221130,industry,power,FALSE
+221131,industry,power,FALSE
+221132,industry,power,FALSE
+221133,industry,power,FALSE
+221134,industry,power,FALSE
+221135,industry,power,FALSE
+327310,industry,cement,FALSE
+327320,industry,not in scope,FALSE
+327331,industry,not in scope,FALSE
+327332,industry,not in scope,FALSE
+327390,industry,not in scope,FALSE
+331110,industry,steel,FALSE
+331210,industry,steel,FALSE
+331221,industry,steel,FALSE
+331222,industry,steel,FALSE
+331512,industry,steel,FALSE
+331513,industry,steel,FALSE
+332111,industry,not in scope,FALSE
+336111,industry,automotive,FALSE
+336112,industry,automotive,FALSE
+336120,industry,automotive,FALSE

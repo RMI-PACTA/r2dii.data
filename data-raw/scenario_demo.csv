@@ -1,0 +1,1324 @@
+﻿scenario,sector,technology,region,year,value,units
+sds,power,coalcap,global,2020,548613.3667,MW
+sds,power,coalcap,global,2021,534475.2333,MW
+sds,power,coalcap,global,2022,520337.1,MW
+sds,power,coalcap,global,2023,506198.9667,MW
+sds,power,coalcap,global,2024,492060.8333,MW
+sds,power,coalcap,global,2025,477922.7,MW
+sds,power,coalcap,global,2026,449565.98,MW
+sds,power,coalcap,global,2027,421209.26,MW
+sds,power,coalcap,global,2028,392852.54,MW
+sds,power,coalcap,global,2029,364495.82,MW
+sds,power,coalcap,global,2030,336139.1,MW
+sds,power,coalcap,global,2031,316817.37,MW
+sds,power,coalcap,global,2032,297495.64,MW
+sds,power,coalcap,global,2033,278173.91,MW
+sds,power,coalcap,global,2034,258852.18,MW
+sds,power,coalcap,global,2035,239530.45,MW
+sds,power,coalcap,global,2036,220208.72,MW
+sds,power,coalcap,global,2037,200886.99,MW
+sds,power,coalcap,global,2038,181565.26,MW
+sds,power,coalcap,global,2039,162243.53,MW
+sds,power,coalcap,global,2040,142921.8,MW
+sds,power,gascap,global,2020,932980.0222,MW
+sds,power,gascap,global,2021,937938.9778,MW
+sds,power,gascap,global,2022,942897.9333,MW
+sds,power,gascap,global,2023,947856.8889,MW
+sds,power,gascap,global,2024,952815.8444,MW
+sds,power,gascap,global,2025,957774.8,MW
+sds,power,gascap,global,2026,961995.62,MW
+sds,power,gascap,global,2027,966216.44,MW
+sds,power,gascap,global,2028,970437.26,MW
+sds,power,gascap,global,2029,974658.08,MW
+sds,power,gascap,global,2030,978878.9,MW
+sds,power,gascap,global,2031,985014.08,MW
+sds,power,gascap,global,2032,991149.26,MW
+sds,power,gascap,global,2033,997284.44,MW
+sds,power,gascap,global,2034,1003419.62,MW
+sds,power,gascap,global,2035,1009554.8,MW
+sds,power,gascap,global,2036,1015689.98,MW
+sds,power,gascap,global,2037,1021825.16,MW
+sds,power,gascap,global,2038,1027960.34,MW
+sds,power,gascap,global,2039,1034095.52,MW
+sds,power,gascap,global,2040,1040230.7,MW
+sds,power,hydrocap,global,2020,501471.4556,MW
+sds,power,hydrocap,global,2021,505631.5444,MW
+sds,power,hydrocap,global,2022,509791.6333,MW
+sds,power,hydrocap,global,2023,513951.7222,MW
+sds,power,hydrocap,global,2024,518111.8111,MW
+sds,power,hydrocap,global,2025,522271.9,MW
+sds,power,hydrocap,global,2026,527379.12,MW
+sds,power,hydrocap,global,2027,532486.34,MW
+sds,power,hydrocap,global,2028,537593.56,MW
+sds,power,hydrocap,global,2029,542700.78,MW
+sds,power,hydrocap,global,2030,547808,MW
+sds,power,hydrocap,global,2031,551643.94,MW
+sds,power,hydrocap,global,2032,555479.88,MW
+sds,power,hydrocap,global,2033,559315.82,MW
+sds,power,hydrocap,global,2034,563151.76,MW
+sds,power,hydrocap,global,2035,566987.7,MW
+sds,power,hydrocap,global,2036,570823.64,MW
+sds,power,hydrocap,global,2037,574659.58,MW
+sds,power,hydrocap,global,2038,578495.52,MW
+sds,power,hydrocap,global,2039,582331.46,MW
+sds,power,hydrocap,global,2040,586167.4,MW
+sds,power,nuclearcap,global,2020,304802.5556,MW
+sds,power,nuclearcap,global,2021,302479.4444,MW
+sds,power,nuclearcap,global,2022,300156.3333,MW
+sds,power,nuclearcap,global,2023,297833.2222,MW
+sds,power,nuclearcap,global,2024,295510.1111,MW
+sds,power,nuclearcap,global,2025,293187,MW
+sds,power,nuclearcap,global,2026,295503.4,MW
+sds,power,nuclearcap,global,2027,297819.8,MW
+sds,power,nuclearcap,global,2028,300136.2,MW
+sds,power,nuclearcap,global,2029,302452.6,MW
+sds,power,nuclearcap,global,2030,304769,MW
+sds,power,nuclearcap,global,2031,306080.2,MW
+sds,power,nuclearcap,global,2032,307391.4,MW
+sds,power,nuclearcap,global,2033,308702.6,MW
+sds,power,nuclearcap,global,2034,310013.8,MW
+sds,power,nuclearcap,global,2035,311325,MW
+sds,power,nuclearcap,global,2036,312636.2,MW
+sds,power,nuclearcap,global,2037,313947.4,MW
+sds,power,nuclearcap,global,2038,315258.6,MW
+sds,power,nuclearcap,global,2039,316569.8,MW
+sds,power,nuclearcap,global,2040,317881,MW
+sds,power,oilcap,global,2020,143512.5444,MW
+sds,power,oilcap,global,2021,132272.0556,MW
+sds,power,oilcap,global,2022,121031.5667,MW
+sds,power,oilcap,global,2023,109791.0778,MW
+sds,power,oilcap,global,2024,98550.58889,MW
+sds,power,oilcap,global,2025,87310.1,MW
+sds,power,oilcap,global,2026,82594.26,MW
+sds,power,oilcap,global,2027,77878.42,MW
+sds,power,oilcap,global,2028,73162.58,MW
+sds,power,oilcap,global,2029,68446.74,MW
+sds,power,oilcap,global,2030,63730.9,MW
+sds,power,oilcap,global,2031,61133.18,MW
+sds,power,oilcap,global,2032,58535.46,MW
+sds,power,oilcap,global,2033,55937.74,MW
+sds,power,oilcap,global,2034,53340.02,MW
+sds,power,oilcap,global,2035,50742.3,MW
+sds,power,oilcap,global,2036,48144.58,MW
+sds,power,oilcap,global,2037,45546.86,MW
+sds,power,oilcap,global,2038,42949.14,MW
+sds,power,oilcap,global,2039,40351.42,MW
+sds,power,oilcap,global,2040,37753.7,MW
+sds,power,renewablescap,global,2020,810111.1444,MW
+sds,power,renewablescap,global,2021,874997.4556,MW
+sds,power,renewablescap,global,2022,939883.7667,MW
+sds,power,renewablescap,global,2023,1004770.078,MW
+sds,power,renewablescap,global,2024,1069656.389,MW
+sds,power,renewablescap,global,2025,1134542.7,MW
+sds,power,renewablescap,global,2026,1213956.02,MW
+sds,power,renewablescap,global,2027,1293369.34,MW
+sds,power,renewablescap,global,2028,1372782.66,MW
+sds,power,renewablescap,global,2029,1452195.98,MW
+sds,power,renewablescap,global,2030,1531609.3,MW
+sds,power,renewablescap,global,2031,1611099.14,MW
+sds,power,renewablescap,global,2032,1690588.98,MW
+sds,power,renewablescap,global,2033,1770078.82,MW
+sds,power,renewablescap,global,2034,1849568.66,MW
+sds,power,renewablescap,global,2035,1929058.5,MW
+sds,power,renewablescap,global,2036,2008548.34,MW
+sds,power,renewablescap,global,2037,2088038.18,MW
+sds,power,renewablescap,global,2038,2167528.02,MW
+sds,power,renewablescap,global,2039,2247017.86,MW
+sds,power,renewablescap,global,2040,2326507.7,MW
+cps,power,coalcap,global,2020,575765.5444,MW
+cps,power,coalcap,global,2021,568415.4556,MW
+cps,power,coalcap,global,2022,561065.3667,MW
+cps,power,coalcap,global,2023,553715.2778,MW
+cps,power,coalcap,global,2024,546365.1889,MW
+cps,power,coalcap,global,2025,539015.1,MW
+cps,power,coalcap,global,2026,534158.14,MW
+cps,power,coalcap,global,2027,529301.18,MW
+cps,power,coalcap,global,2028,524444.22,MW
+cps,power,coalcap,global,2029,519587.26,MW
+cps,power,coalcap,global,2030,514730.3,MW
+cps,power,coalcap,global,2031,512077.37,MW
+cps,power,coalcap,global,2032,509424.44,MW
+cps,power,coalcap,global,2033,506771.51,MW
+cps,power,coalcap,global,2034,504118.58,MW
+cps,power,coalcap,global,2035,501465.65,MW
+cps,power,coalcap,global,2036,498812.72,MW
+cps,power,coalcap,global,2037,496159.79,MW
+cps,power,coalcap,global,2038,493506.86,MW
+cps,power,coalcap,global,2039,490853.93,MW
+cps,power,coalcap,global,2040,488201,MW
+cps,power,gascap,global,2020,985237.3556,MW
+cps,power,gascap,global,2021,1003260.644,MW
+cps,power,gascap,global,2022,1021283.933,MW
+cps,power,gascap,global,2023,1039307.222,MW
+cps,power,gascap,global,2024,1057330.511,MW
+cps,power,gascap,global,2025,1075353.8,MW
+cps,power,gascap,global,2026,1092476.78,MW
+cps,power,gascap,global,2027,1109599.76,MW
+cps,power,gascap,global,2028,1126722.74,MW
+cps,power,gascap,global,2029,1143845.72,MW
+cps,power,gascap,global,2030,1160968.7,MW
+cps,power,gascap,global,2031,1179921.22,MW
+cps,power,gascap,global,2032,1198873.74,MW
+cps,power,gascap,global,2033,1217826.26,MW
+cps,power,gascap,global,2034,1236778.78,MW
+cps,power,gascap,global,2035,1255731.3,MW
+cps,power,gascap,global,2036,1274683.82,MW
+cps,power,gascap,global,2037,1293636.34,MW
+cps,power,gascap,global,2038,1312588.86,MW
+cps,power,gascap,global,2039,1331541.38,MW
+cps,power,gascap,global,2040,1350493.9,MW
+cps,power,hydrocap,global,2020,495182.6556,MW
+cps,power,hydrocap,global,2021,497770.5444,MW
+cps,power,hydrocap,global,2022,500358.4333,MW
+cps,power,hydrocap,global,2023,502946.3222,MW
+cps,power,hydrocap,global,2024,505534.2111,MW
+cps,power,hydrocap,global,2025,508122.1,MW
+cps,power,hydrocap,global,2026,510517.16,MW
+cps,power,hydrocap,global,2027,512912.22,MW
+cps,power,hydrocap,global,2028,515307.28,MW
+cps,power,hydrocap,global,2029,517702.34,MW
+cps,power,hydrocap,global,2030,520097.4,MW
+cps,power,hydrocap,global,2031,522154.68,MW
+cps,power,hydrocap,global,2032,524211.96,MW
+cps,power,hydrocap,global,2033,526269.24,MW
+cps,power,hydrocap,global,2034,528326.52,MW
+cps,power,hydrocap,global,2035,530383.8,MW
+cps,power,hydrocap,global,2036,532441.08,MW
+cps,power,hydrocap,global,2037,534498.36,MW
+cps,power,hydrocap,global,2038,536555.64,MW
+cps,power,hydrocap,global,2039,538612.92,MW
+cps,power,hydrocap,global,2040,540670.2,MW
+cps,power,nuclearcap,global,2020,300874.5556,MW
+cps,power,nuclearcap,global,2021,297569.4444,MW
+cps,power,nuclearcap,global,2022,294264.3333,MW
+cps,power,nuclearcap,global,2023,290959.2222,MW
+cps,power,nuclearcap,global,2024,287654.1111,MW
+cps,power,nuclearcap,global,2025,284349,MW
+cps,power,nuclearcap,global,2026,282255.4,MW
+cps,power,nuclearcap,global,2027,280161.8,MW
+cps,power,nuclearcap,global,2028,278068.2,MW
+cps,power,nuclearcap,global,2029,275974.6,MW
+cps,power,nuclearcap,global,2030,273881,MW
+cps,power,nuclearcap,global,2031,272703.9,MW
+cps,power,nuclearcap,global,2032,271526.8,MW
+cps,power,nuclearcap,global,2033,270349.7,MW
+cps,power,nuclearcap,global,2034,269172.6,MW
+cps,power,nuclearcap,global,2035,267995.5,MW
+cps,power,nuclearcap,global,2036,266818.4,MW
+cps,power,nuclearcap,global,2037,265641.3,MW
+cps,power,nuclearcap,global,2038,264464.2,MW
+cps,power,nuclearcap,global,2039,263287.1,MW
+cps,power,nuclearcap,global,2040,262110,MW
+cps,power,oilcap,global,2020,148341.7,MW
+cps,power,oilcap,global,2021,138308.5,MW
+cps,power,oilcap,global,2022,128275.3,MW
+cps,power,oilcap,global,2023,118242.1,MW
+cps,power,oilcap,global,2024,108208.9,MW
+cps,power,oilcap,global,2025,98175.7,MW
+cps,power,oilcap,global,2026,94084.16,MW
+cps,power,oilcap,global,2027,89992.62,MW
+cps,power,oilcap,global,2028,85901.08,MW
+cps,power,oilcap,global,2029,81809.54,MW
+cps,power,oilcap,global,2030,77718,MW
+cps,power,oilcap,global,2031,75499.54,MW
+cps,power,oilcap,global,2032,73281.08,MW
+cps,power,oilcap,global,2033,71062.62,MW
+cps,power,oilcap,global,2034,68844.16,MW
+cps,power,oilcap,global,2035,66625.7,MW
+cps,power,oilcap,global,2036,64407.24,MW
+cps,power,oilcap,global,2037,62188.78,MW
+cps,power,oilcap,global,2038,59970.32,MW
+cps,power,oilcap,global,2039,57751.86,MW
+cps,power,oilcap,global,2040,55533.4,MW
+cps,power,renewablescap,global,2020,705231.1889,MW
+cps,power,renewablescap,global,2021,743897.5111,MW
+cps,power,renewablescap,global,2022,782563.8333,MW
+cps,power,renewablescap,global,2023,821230.1556,MW
+cps,power,renewablescap,global,2024,859896.4778,MW
+cps,power,renewablescap,global,2025,898562.8,MW
+cps,power,renewablescap,global,2026,920092.42,MW
+cps,power,renewablescap,global,2027,941622.04,MW
+cps,power,renewablescap,global,2028,963151.66,MW
+cps,power,renewablescap,global,2029,984681.28,MW
+cps,power,renewablescap,global,2030,1006210.9,MW
+cps,power,renewablescap,global,2031,1025395.84,MW
+cps,power,renewablescap,global,2032,1044580.78,MW
+cps,power,renewablescap,global,2033,1063765.72,MW
+cps,power,renewablescap,global,2034,1082950.66,MW
+cps,power,renewablescap,global,2035,1102135.6,MW
+cps,power,renewablescap,global,2036,1121320.54,MW
+cps,power,renewablescap,global,2037,1140505.48,MW
+cps,power,renewablescap,global,2038,1159690.42,MW
+cps,power,renewablescap,global,2039,1178875.36,MW
+cps,power,renewablescap,global,2040,1198060.3,MW
+sps,power,coalcap,global,2020,565692.8333,MW
+sps,power,coalcap,global,2021,555824.5667,MW
+sps,power,coalcap,global,2022,545956.3,MW
+sps,power,coalcap,global,2023,536088.0333,MW
+sps,power,coalcap,global,2024,526219.7667,MW
+sps,power,coalcap,global,2025,516351.5,MW
+sps,power,coalcap,global,2026,508637.82,MW
+sps,power,coalcap,global,2027,500924.14,MW
+sps,power,coalcap,global,2028,493210.46,MW
+sps,power,coalcap,global,2029,485496.78,MW
+sps,power,coalcap,global,2030,477783.1,MW
+sps,power,coalcap,global,2031,468595.02,MW
+sps,power,coalcap,global,2032,459406.94,MW
+sps,power,coalcap,global,2033,450218.86,MW
+sps,power,coalcap,global,2034,441030.78,MW
+sps,power,coalcap,global,2035,431842.7,MW
+sps,power,coalcap,global,2036,426502.98,MW
+sps,power,coalcap,global,2037,421163.26,MW
+sps,power,coalcap,global,2038,415823.54,MW
+sps,power,coalcap,global,2039,410483.82,MW
+sps,power,coalcap,global,2040,405144.1,MW
+sps,power,gascap,global,2020,970524.6444,MW
+sps,power,gascap,global,2021,984869.7556,MW
+sps,power,gascap,global,2022,999214.8667,MW
+sps,power,gascap,global,2023,1013559.978,MW
+sps,power,gascap,global,2024,1027905.089,MW
+sps,power,gascap,global,2025,1042250.2,MW
+sps,power,gascap,global,2026,1055323.42,MW
+sps,power,gascap,global,2027,1068396.64,MW
+sps,power,gascap,global,2028,1081469.86,MW
+sps,power,gascap,global,2029,1094543.08,MW
+sps,power,gascap,global,2030,1107616.3,MW
+sps,power,gascap,global,2031,1123374.24,MW
+sps,power,gascap,global,2032,1139132.18,MW
+sps,power,gascap,global,2033,1154890.12,MW
+sps,power,gascap,global,2034,1170648.06,MW
+sps,power,gascap,global,2035,1186406,MW
+sps,power,gascap,global,2036,1199696.4,MW
+sps,power,gascap,global,2037,1212986.8,MW
+sps,power,gascap,global,2038,1226277.2,MW
+sps,power,gascap,global,2039,1239567.6,MW
+sps,power,gascap,global,2040,1252858,MW
+sps,power,hydrocap,global,2020,496191.9444,MW
+sps,power,hydrocap,global,2021,499032.1556,MW
+sps,power,hydrocap,global,2022,501872.3667,MW
+sps,power,hydrocap,global,2023,504712.5778,MW
+sps,power,hydrocap,global,2024,507552.7889,MW
+sps,power,hydrocap,global,2025,510393,MW
+sps,power,hydrocap,global,2026,513230.56,MW
+sps,power,hydrocap,global,2027,516068.12,MW
+sps,power,hydrocap,global,2028,518905.68,MW
+sps,power,hydrocap,global,2029,521743.24,MW
+sps,power,hydrocap,global,2030,524580.8,MW
+sps,power,hydrocap,global,2031,526873.18,MW
+sps,power,hydrocap,global,2032,529165.56,MW
+sps,power,hydrocap,global,2033,531457.94,MW
+sps,power,hydrocap,global,2034,533750.32,MW
+sps,power,hydrocap,global,2035,536042.7,MW
+sps,power,hydrocap,global,2036,538170.2,MW
+sps,power,hydrocap,global,2037,540297.7,MW
+sps,power,hydrocap,global,2038,542425.2,MW
+sps,power,hydrocap,global,2039,544552.7,MW
+sps,power,hydrocap,global,2040,546680.2,MW
+sps,power,nuclearcap,global,2020,297153.6667,MW
+sps,power,nuclearcap,global,2021,292918.3333,MW
+sps,power,nuclearcap,global,2022,288683,MW
+sps,power,nuclearcap,global,2023,284447.6667,MW
+sps,power,nuclearcap,global,2024,280212.3333,MW
+sps,power,nuclearcap,global,2025,275977,MW
+sps,power,nuclearcap,global,2026,271451.8,MW
+sps,power,nuclearcap,global,2027,266926.6,MW
+sps,power,nuclearcap,global,2028,262401.4,MW
+sps,power,nuclearcap,global,2029,257876.2,MW
+sps,power,nuclearcap,global,2030,253351,MW
+sps,power,nuclearcap,global,2031,250829,MW
+sps,power,nuclearcap,global,2032,248307,MW
+sps,power,nuclearcap,global,2033,245785,MW
+sps,power,nuclearcap,global,2034,243263,MW
+sps,power,nuclearcap,global,2035,240741,MW
+sps,power,nuclearcap,global,2036,239907.2,MW
+sps,power,nuclearcap,global,2037,239073.4,MW
+sps,power,nuclearcap,global,2038,238239.6,MW
+sps,power,nuclearcap,global,2039,237405.8,MW
+sps,power,nuclearcap,global,2040,236572,MW
+sps,power,oilcap,global,2020,147925.6556,MW
+sps,power,oilcap,global,2021,137788.4444,MW
+sps,power,oilcap,global,2022,127651.2333,MW
+sps,power,oilcap,global,2023,117514.0222,MW
+sps,power,oilcap,global,2024,107376.8111,MW
+sps,power,oilcap,global,2025,97239.6,MW
+sps,power,oilcap,global,2026,92735.6,MW
+sps,power,oilcap,global,2027,88231.6,MW
+sps,power,oilcap,global,2028,83727.6,MW
+sps,power,oilcap,global,2029,79223.6,MW
+sps,power,oilcap,global,2030,74719.6,MW
+sps,power,oilcap,global,2031,72369.04,MW
+sps,power,oilcap,global,2032,70018.48,MW
+sps,power,oilcap,global,2033,67667.92,MW
+sps,power,oilcap,global,2034,65317.36,MW
+sps,power,oilcap,global,2035,62966.8,MW
+sps,power,oilcap,global,2036,60778.5,MW
+sps,power,oilcap,global,2037,58590.2,MW
+sps,power,oilcap,global,2038,56401.9,MW
+sps,power,oilcap,global,2039,54213.6,MW
+sps,power,oilcap,global,2040,52025.3,MW
+sps,power,renewablescap,global,2020,737251.3222,MW
+sps,power,renewablescap,global,2021,783922.6778,MW
+sps,power,renewablescap,global,2022,830594.0333,MW
+sps,power,renewablescap,global,2023,877265.3889,MW
+sps,power,renewablescap,global,2024,923936.7444,MW
+sps,power,renewablescap,global,2025,970608.1,MW
+sps,power,renewablescap,global,2026,1004613.56,MW
+sps,power,renewablescap,global,2027,1038619.02,MW
+sps,power,renewablescap,global,2028,1072624.48,MW
+sps,power,renewablescap,global,2029,1106629.94,MW
+sps,power,renewablescap,global,2030,1140635.4,MW
+sps,power,renewablescap,global,2031,1173629.2,MW
+sps,power,renewablescap,global,2032,1206623,MW
+sps,power,renewablescap,global,2033,1239616.8,MW
+sps,power,renewablescap,global,2034,1272610.6,MW
+sps,power,renewablescap,global,2035,1305604.4,MW
+sps,power,renewablescap,global,2036,1334238.54,MW
+sps,power,renewablescap,global,2037,1362872.68,MW
+sps,power,renewablescap,global,2038,1391506.82,MW
+sps,power,renewablescap,global,2039,1420140.96,MW
+sps,power,renewablescap,global,2040,1448775.1,MW
+cps,power,coalcap,europe,2020,1587205.178,MW
+cps,power,coalcap,europe,2021,1630235.922,MW
+cps,power,coalcap,europe,2022,1673266.667,MW
+cps,power,coalcap,europe,2023,1716297.411,MW
+cps,power,coalcap,europe,2024,1759328.156,MW
+cps,power,coalcap,europe,2025,1802358.9,MW
+cps,power,coalcap,europe,2026,1845700.92,MW
+cps,power,coalcap,europe,2027,1889042.94,MW
+cps,power,coalcap,europe,2028,1932384.96,MW
+cps,power,coalcap,europe,2029,1975726.98,MW
+cps,power,coalcap,europe,2030,2019069,MW
+cps,power,coalcap,europe,2031,2063854.2,MW
+cps,power,coalcap,europe,2032,2108639.4,MW
+cps,power,coalcap,europe,2033,2153424.6,MW
+cps,power,coalcap,europe,2034,2198209.8,MW
+cps,power,coalcap,europe,2035,2242995,MW
+cps,power,coalcap,europe,2036,2287780.2,MW
+cps,power,coalcap,europe,2037,2332565.4,MW
+cps,power,coalcap,europe,2038,2377350.6,MW
+cps,power,coalcap,europe,2039,2422135.8,MW
+cps,power,coalcap,europe,2040,2466921,MW
+cps,power,gascap,europe,2020,881648.0778,MW
+cps,power,gascap,europe,2021,917900.7222,MW
+cps,power,gascap,europe,2022,954153.3667,MW
+cps,power,gascap,europe,2023,990406.0111,MW
+cps,power,gascap,europe,2024,1026658.656,MW
+cps,power,gascap,europe,2025,1062911.3,MW
+cps,power,gascap,europe,2026,1103013.76,MW
+cps,power,gascap,europe,2027,1143116.22,MW
+cps,power,gascap,europe,2028,1183218.68,MW
+cps,power,gascap,europe,2029,1223321.14,MW
+cps,power,gascap,europe,2030,1263423.6,MW
+cps,power,gascap,europe,2031,1300440.57,MW
+cps,power,gascap,europe,2032,1337457.54,MW
+cps,power,gascap,europe,2033,1374474.51,MW
+cps,power,gascap,europe,2034,1411491.48,MW
+cps,power,gascap,europe,2035,1448508.45,MW
+cps,power,gascap,europe,2036,1485525.42,MW
+cps,power,gascap,europe,2037,1522542.39,MW
+cps,power,gascap,europe,2038,1559559.36,MW
+cps,power,gascap,europe,2039,1596576.33,MW
+cps,power,gascap,europe,2040,1633593.3,MW
+cps,power,hydrocap,europe,2020,834951.8,MW
+cps,power,hydrocap,europe,2021,854538,MW
+cps,power,hydrocap,europe,2022,874124.2,MW
+cps,power,hydrocap,europe,2023,893710.4,MW
+cps,power,hydrocap,europe,2024,913296.6,MW
+cps,power,hydrocap,europe,2025,932882.8,MW
+cps,power,hydrocap,europe,2026,953837.32,MW
+cps,power,hydrocap,europe,2027,974791.84,MW
+cps,power,hydrocap,europe,2028,995746.36,MW
+cps,power,hydrocap,europe,2029,1016700.88,MW
+cps,power,hydrocap,europe,2030,1037655.4,MW
+cps,power,hydrocap,europe,2031,1055529.28,MW
+cps,power,hydrocap,europe,2032,1073403.16,MW
+cps,power,hydrocap,europe,2033,1091277.04,MW
+cps,power,hydrocap,europe,2034,1109150.92,MW
+cps,power,hydrocap,europe,2035,1127024.8,MW
+cps,power,hydrocap,europe,2036,1144898.68,MW
+cps,power,hydrocap,europe,2037,1162772.56,MW
+cps,power,hydrocap,europe,2038,1180646.44,MW
+cps,power,hydrocap,europe,2039,1198520.32,MW
+cps,power,hydrocap,europe,2040,1216394.2,MW
+cps,power,nuclearcap,europe,2020,128536.4444,MW
+cps,power,nuclearcap,europe,2021,135927.5556,MW
+cps,power,nuclearcap,europe,2022,143318.6667,MW
+cps,power,nuclearcap,europe,2023,150709.7778,MW
+cps,power,nuclearcap,europe,2024,158100.8889,MW
+cps,power,nuclearcap,europe,2025,165492,MW
+cps,power,nuclearcap,europe,2026,171948.8,MW
+cps,power,nuclearcap,europe,2027,178405.6,MW
+cps,power,nuclearcap,europe,2028,184862.4,MW
+cps,power,nuclearcap,europe,2029,191319.2,MW
+cps,power,nuclearcap,europe,2030,197776,MW
+cps,power,nuclearcap,europe,2031,203059.7,MW
+cps,power,nuclearcap,europe,2032,208343.4,MW
+cps,power,nuclearcap,europe,2033,213627.1,MW
+cps,power,nuclearcap,europe,2034,218910.8,MW
+cps,power,nuclearcap,europe,2035,224194.5,MW
+cps,power,nuclearcap,europe,2036,229478.2,MW
+cps,power,nuclearcap,europe,2037,234761.9,MW
+cps,power,nuclearcap,europe,2038,240045.6,MW
+cps,power,nuclearcap,europe,2039,245329.3,MW
+cps,power,nuclearcap,europe,2040,250613,MW
+cps,power,oilcap,europe,2020,247215.7444,MW
+cps,power,oilcap,europe,2021,245378.7556,MW
+cps,power,oilcap,europe,2022,243541.7667,MW
+cps,power,oilcap,europe,2023,241704.7778,MW
+cps,power,oilcap,europe,2024,239867.7889,MW
+cps,power,oilcap,europe,2025,238030.8,MW
+cps,power,oilcap,europe,2026,233496.52,MW
+cps,power,oilcap,europe,2027,228962.24,MW
+cps,power,oilcap,europe,2028,224427.96,MW
+cps,power,oilcap,europe,2029,219893.68,MW
+cps,power,oilcap,europe,2030,215359.4,MW
+cps,power,oilcap,europe,2031,212440.33,MW
+cps,power,oilcap,europe,2032,209521.26,MW
+cps,power,oilcap,europe,2033,206602.19,MW
+cps,power,oilcap,europe,2034,203683.12,MW
+cps,power,oilcap,europe,2035,200764.05,MW
+cps,power,oilcap,europe,2036,197844.98,MW
+cps,power,oilcap,europe,2037,194925.91,MW
+cps,power,oilcap,europe,2038,192006.84,MW
+cps,power,oilcap,europe,2039,189087.77,MW
+cps,power,oilcap,europe,2040,186168.7,MW
+cps,power,renewablescap,europe,2020,625489.8667,MW
+cps,power,renewablescap,europe,2021,692076.7333,MW
+cps,power,renewablescap,europe,2022,758663.6,MW
+cps,power,renewablescap,europe,2023,825250.4667,MW
+cps,power,renewablescap,europe,2024,891837.3333,MW
+cps,power,renewablescap,europe,2025,958424.2,MW
+cps,power,renewablescap,europe,2026,1020661.44,MW
+cps,power,renewablescap,europe,2027,1082898.68,MW
+cps,power,renewablescap,europe,2028,1145135.92,MW
+cps,power,renewablescap,europe,2029,1207373.16,MW
+cps,power,renewablescap,europe,2030,1269610.4,MW
+cps,power,renewablescap,europe,2031,1327263.64,MW
+cps,power,renewablescap,europe,2032,1384916.88,MW
+cps,power,renewablescap,europe,2033,1442570.12,MW
+cps,power,renewablescap,europe,2034,1500223.36,MW
+cps,power,renewablescap,europe,2035,1557876.6,MW
+cps,power,renewablescap,europe,2036,1615529.84,MW
+cps,power,renewablescap,europe,2037,1673183.08,MW
+cps,power,renewablescap,europe,2038,1730836.32,MW
+cps,power,renewablescap,europe,2039,1788489.56,MW
+cps,power,renewablescap,europe,2040,1846142.8,MW
+sps,power,coalcap,europe,2020,1546695.489,MW
+sps,power,coalcap,europe,2021,1579598.811,MW
+sps,power,coalcap,europe,2022,1612502.133,MW
+sps,power,coalcap,europe,2023,1645405.456,MW
+sps,power,coalcap,europe,2024,1678308.778,MW
+sps,power,coalcap,europe,2025,1711212.1,MW
+sps,power,coalcap,europe,2026,1732579.04,MW
+sps,power,coalcap,europe,2027,1753945.98,MW
+sps,power,coalcap,europe,2028,1775312.92,MW
+sps,power,coalcap,europe,2029,1796679.86,MW
+sps,power,coalcap,europe,2030,1818046.8,MW
+sps,power,coalcap,europe,2031,1840045.12,MW
+sps,power,coalcap,europe,2032,1862043.44,MW
+sps,power,coalcap,europe,2033,1884041.76,MW
+sps,power,coalcap,europe,2034,1906040.08,MW
+sps,power,coalcap,europe,2035,1928038.4,MW
+sps,power,coalcap,europe,2036,1948106.66,MW
+sps,power,coalcap,europe,2037,1968174.92,MW
+sps,power,coalcap,europe,2038,1988243.18,MW
+sps,power,coalcap,europe,2039,2008311.44,MW
+sps,power,coalcap,europe,2040,2028379.7,MW
+sps,power,gascap,europe,2020,873388.3444,MW
+sps,power,gascap,europe,2021,907576.0556,MW
+sps,power,gascap,europe,2022,941763.7667,MW
+sps,power,gascap,europe,2023,975951.4778,MW
+sps,power,gascap,europe,2024,1010139.189,MW
+sps,power,gascap,europe,2025,1044326.9,MW
+sps,power,gascap,europe,2026,1078882.08,MW
+sps,power,gascap,europe,2027,1113437.26,MW
+sps,power,gascap,europe,2028,1147992.44,MW
+sps,power,gascap,europe,2029,1182547.62,MW
+sps,power,gascap,europe,2030,1217102.8,MW
+sps,power,gascap,europe,2031,1250502.38,MW
+sps,power,gascap,europe,2032,1283901.96,MW
+sps,power,gascap,europe,2033,1317301.54,MW
+sps,power,gascap,europe,2034,1350701.12,MW
+sps,power,gascap,europe,2035,1384100.7,MW
+sps,power,gascap,europe,2036,1416680.4,MW
+sps,power,gascap,europe,2037,1449260.1,MW
+sps,power,gascap,europe,2038,1481839.8,MW
+sps,power,gascap,europe,2039,1514419.5,MW
+sps,power,gascap,europe,2040,1546999.2,MW
+sps,power,hydrocap,europe,2020,842601.6667,MW
+sps,power,hydrocap,europe,2021,864100.3333,MW
+sps,power,hydrocap,europe,2022,885599,MW
+sps,power,hydrocap,europe,2023,907097.6667,MW
+sps,power,hydrocap,europe,2024,928596.3333,MW
+sps,power,hydrocap,europe,2025,950095,MW
+sps,power,hydrocap,europe,2026,976411.5,MW
+sps,power,hydrocap,europe,2027,1002728,MW
+sps,power,hydrocap,europe,2028,1029044.5,MW
+sps,power,hydrocap,europe,2029,1055361,MW
+sps,power,hydrocap,europe,2030,1081677.5,MW
+sps,power,hydrocap,europe,2031,1103968.18,MW
+sps,power,hydrocap,europe,2032,1126258.86,MW
+sps,power,hydrocap,europe,2033,1148549.54,MW
+sps,power,hydrocap,europe,2034,1170840.22,MW
+sps,power,hydrocap,europe,2035,1193130.9,MW
+sps,power,hydrocap,europe,2036,1211220.76,MW
+sps,power,hydrocap,europe,2037,1229310.62,MW
+sps,power,hydrocap,europe,2038,1247400.48,MW
+sps,power,hydrocap,europe,2039,1265490.34,MW
+sps,power,hydrocap,europe,2040,1283580.2,MW
+sps,power,nuclearcap,europe,2020,131443.1111,MW
+sps,power,nuclearcap,europe,2021,139560.8889,MW
+sps,power,nuclearcap,europe,2022,147678.6667,MW
+sps,power,nuclearcap,europe,2023,155796.4444,MW
+sps,power,nuclearcap,europe,2024,163914.2222,MW
+sps,power,nuclearcap,europe,2025,172032,MW
+sps,power,nuclearcap,europe,2026,180517.2,MW
+sps,power,nuclearcap,europe,2027,189002.4,MW
+sps,power,nuclearcap,europe,2028,197487.6,MW
+sps,power,nuclearcap,europe,2029,205972.8,MW
+sps,power,nuclearcap,europe,2030,214458,MW
+sps,power,nuclearcap,europe,2031,221787.8,MW
+sps,power,nuclearcap,europe,2032,229117.6,MW
+sps,power,nuclearcap,europe,2033,236447.4,MW
+sps,power,nuclearcap,europe,2034,243777.2,MW
+sps,power,nuclearcap,europe,2035,251107,MW
+sps,power,nuclearcap,europe,2036,256801.4,MW
+sps,power,nuclearcap,europe,2037,262495.8,MW
+sps,power,nuclearcap,europe,2038,268190.2,MW
+sps,power,nuclearcap,europe,2039,273884.6,MW
+sps,power,nuclearcap,europe,2040,279579,MW
+sps,power,oilcap,europe,2020,246737.6111,MW
+sps,power,oilcap,europe,2021,244781.0889,MW
+sps,power,oilcap,europe,2022,242824.5667,MW
+sps,power,oilcap,europe,2023,240868.0444,MW
+sps,power,oilcap,europe,2024,238911.5222,MW
+sps,power,oilcap,europe,2025,236955,MW
+sps,power,oilcap,europe,2026,232092.82,MW
+sps,power,oilcap,europe,2027,227230.64,MW
+sps,power,oilcap,europe,2028,222368.46,MW
+sps,power,oilcap,europe,2029,217506.28,MW
+sps,power,oilcap,europe,2030,212644.1,MW
+sps,power,oilcap,europe,2031,209402.7,MW
+sps,power,oilcap,europe,2032,206161.3,MW
+sps,power,oilcap,europe,2033,202919.9,MW
+sps,power,oilcap,europe,2034,199678.5,MW
+sps,power,oilcap,europe,2035,196437.1,MW
+sps,power,oilcap,europe,2036,193295.38,MW
+sps,power,oilcap,europe,2037,190153.66,MW
+sps,power,oilcap,europe,2038,187011.94,MW
+sps,power,oilcap,europe,2039,183870.22,MW
+sps,power,oilcap,europe,2040,180728.5,MW
+sps,power,renewablescap,europe,2020,697019.1556,MW
+sps,power,renewablescap,europe,2021,781488.3444,MW
+sps,power,renewablescap,europe,2022,865957.5333,MW
+sps,power,renewablescap,europe,2023,950426.7222,MW
+sps,power,renewablescap,europe,2024,1034895.911,MW
+sps,power,renewablescap,europe,2025,1119365.1,MW
+sps,power,renewablescap,europe,2026,1215890.38,MW
+sps,power,renewablescap,europe,2027,1312415.66,MW
+sps,power,renewablescap,europe,2028,1408940.94,MW
+sps,power,renewablescap,europe,2029,1505466.22,MW
+sps,power,renewablescap,europe,2030,1601991.5,MW
+sps,power,renewablescap,europe,2031,1709685.32,MW
+sps,power,renewablescap,europe,2032,1817379.14,MW
+sps,power,renewablescap,europe,2033,1925072.96,MW
+sps,power,renewablescap,europe,2034,2032766.78,MW
+sps,power,renewablescap,europe,2035,2140460.6,MW
+sps,power,renewablescap,europe,2036,2252188.24,MW
+sps,power,renewablescap,europe,2037,2363915.88,MW
+sps,power,renewablescap,europe,2038,2475643.52,MW
+sps,power,renewablescap,europe,2039,2587371.16,MW
+sps,power,renewablescap,europe,2040,2699098.8,MW
+sds,power,coalcap,europe,2020,1458436.644,MW
+sds,power,coalcap,europe,2021,1469275.256,MW
+sds,power,coalcap,europe,2022,1480113.867,MW
+sds,power,coalcap,europe,2023,1490952.478,MW
+sds,power,coalcap,europe,2024,1501791.089,MW
+sds,power,coalcap,europe,2025,1512629.7,MW
+sds,power,coalcap,europe,2026,1480109.32,MW
+sds,power,coalcap,europe,2027,1447588.94,MW
+sds,power,coalcap,europe,2028,1415068.56,MW
+sds,power,coalcap,europe,2029,1382548.18,MW
+sds,power,coalcap,europe,2030,1350027.8,MW
+sds,power,coalcap,europe,2031,1315707.65,MW
+sds,power,coalcap,europe,2032,1281387.5,MW
+sds,power,coalcap,europe,2033,1247067.35,MW
+sds,power,coalcap,europe,2034,1212747.2,MW
+sds,power,coalcap,europe,2035,1178427.05,MW
+sds,power,coalcap,europe,2036,1144106.9,MW
+sds,power,coalcap,europe,2037,1109786.75,MW
+sds,power,coalcap,europe,2038,1075466.6,MW
+sds,power,coalcap,europe,2039,1041146.45,MW
+sds,power,coalcap,europe,2040,1006826.3,MW
+sds,power,gascap,europe,2020,844944.6556,MW
+sds,power,gascap,europe,2021,872021.4444,MW
+sds,power,gascap,europe,2022,899098.2333,MW
+sds,power,gascap,europe,2023,926175.0222,MW
+sds,power,gascap,europe,2024,953251.8111,MW
+sds,power,gascap,europe,2025,980328.6,MW
+sds,power,gascap,europe,2026,994874.86,MW
+sds,power,gascap,europe,2027,1009421.12,MW
+sds,power,gascap,europe,2028,1023967.38,MW
+sds,power,gascap,europe,2029,1038513.64,MW
+sds,power,gascap,europe,2030,1053059.9,MW
+sds,power,gascap,europe,2031,1073417.31,MW
+sds,power,gascap,europe,2032,1093774.72,MW
+sds,power,gascap,europe,2033,1114132.13,MW
+sds,power,gascap,europe,2034,1134489.54,MW
+sds,power,gascap,europe,2035,1154846.95,MW
+sds,power,gascap,europe,2036,1175204.36,MW
+sds,power,gascap,europe,2037,1195561.77,MW
+sds,power,gascap,europe,2038,1215919.18,MW
+sds,power,gascap,europe,2039,1236276.59,MW
+sds,power,gascap,europe,2040,1256634,MW
+sds,power,hydrocap,europe,2020,866772.1556,MW
+sds,power,hydrocap,europe,2021,894313.4444,MW
+sds,power,hydrocap,europe,2022,921854.7333,MW
+sds,power,hydrocap,europe,2023,949396.0222,MW
+sds,power,hydrocap,europe,2024,976937.3111,MW
+sds,power,hydrocap,europe,2025,1004478.6,MW
+sds,power,hydrocap,europe,2026,1038716.12,MW
+sds,power,hydrocap,europe,2027,1072953.64,MW
+sds,power,hydrocap,europe,2028,1107191.16,MW
+sds,power,hydrocap,europe,2029,1141428.68,MW
+sds,power,hydrocap,europe,2030,1175666.2,MW
+sds,power,hydrocap,europe,2031,1205468.82,MW
+sds,power,hydrocap,europe,2032,1235271.44,MW
+sds,power,hydrocap,europe,2033,1265074.06,MW
+sds,power,hydrocap,europe,2034,1294876.68,MW
+sds,power,hydrocap,europe,2035,1324679.3,MW
+sds,power,hydrocap,europe,2036,1354481.92,MW
+sds,power,hydrocap,europe,2037,1384284.54,MW
+sds,power,hydrocap,europe,2038,1414087.16,MW
+sds,power,hydrocap,europe,2039,1443889.78,MW
+sds,power,hydrocap,europe,2040,1473692.4,MW
+sds,power,nuclearcap,europe,2020,142836.8889,MW
+sds,power,nuclearcap,europe,2021,153803.1111,MW
+sds,power,nuclearcap,europe,2022,164769.3333,MW
+sds,power,nuclearcap,europe,2023,175735.5556,MW
+sds,power,nuclearcap,europe,2024,186701.7778,MW
+sds,power,nuclearcap,europe,2025,197668,MW
+sds,power,nuclearcap,europe,2026,214308.8,MW
+sds,power,nuclearcap,europe,2027,230949.6,MW
+sds,power,nuclearcap,europe,2028,247590.4,MW
+sds,power,nuclearcap,europe,2029,264231.2,MW
+sds,power,nuclearcap,europe,2030,280872,MW
+sds,power,nuclearcap,europe,2031,292967.08,MW
+sds,power,nuclearcap,europe,2032,305062.16,MW
+sds,power,nuclearcap,europe,2033,317157.24,MW
+sds,power,nuclearcap,europe,2034,329252.32,MW
+sds,power,nuclearcap,europe,2035,341347.4,MW
+sds,power,nuclearcap,europe,2036,353442.48,MW
+sds,power,nuclearcap,europe,2037,365537.56,MW
+sds,power,nuclearcap,europe,2038,377632.64,MW
+sds,power,nuclearcap,europe,2039,389727.72,MW
+sds,power,nuclearcap,europe,2040,401822.8,MW
+sds,power,oilcap,europe,2020,245979.8778,MW
+sds,power,oilcap,europe,2021,243833.9222,MW
+sds,power,oilcap,europe,2022,241687.9667,MW
+sds,power,oilcap,europe,2023,239542.0111,MW
+sds,power,oilcap,europe,2024,237396.0556,MW
+sds,power,oilcap,europe,2025,235250.1,MW
+sds,power,oilcap,europe,2026,230247.34,MW
+sds,power,oilcap,europe,2027,225244.58,MW
+sds,power,oilcap,europe,2028,220241.82,MW
+sds,power,oilcap,europe,2029,215239.06,MW
+sds,power,oilcap,europe,2030,210236.3,MW
+sds,power,oilcap,europe,2031,206468.92,MW
+sds,power,oilcap,europe,2032,202701.54,MW
+sds,power,oilcap,europe,2033,198934.16,MW
+sds,power,oilcap,europe,2034,195166.78,MW
+sds,power,oilcap,europe,2035,191399.4,MW
+sds,power,oilcap,europe,2036,187632.02,MW
+sds,power,oilcap,europe,2037,183864.64,MW
+sds,power,oilcap,europe,2038,180097.26,MW
+sds,power,oilcap,europe,2039,176329.88,MW
+sds,power,oilcap,europe,2040,172562.5,MW
+sds,power,renewablescap,europe,2020,864438.8444,MW
+sds,power,renewablescap,europe,2021,990762.9556,MW
+sds,power,renewablescap,europe,2022,1117087.067,MW
+sds,power,renewablescap,europe,2023,1243411.178,MW
+sds,power,renewablescap,europe,2024,1369735.289,MW
+sds,power,renewablescap,europe,2025,1496059.4,MW
+sds,power,renewablescap,europe,2026,1677966.92,MW
+sds,power,renewablescap,europe,2027,1859874.44,MW
+sds,power,renewablescap,europe,2028,2041781.96,MW
+sds,power,renewablescap,europe,2029,2223689.48,MW
+sds,power,renewablescap,europe,2030,2405597,MW
+sds,power,renewablescap,europe,2031,2598787.15,MW
+sds,power,renewablescap,europe,2032,2791977.3,MW
+sds,power,renewablescap,europe,2033,2985167.45,MW
+sds,power,renewablescap,europe,2034,3178357.6,MW
+sds,power,renewablescap,europe,2035,3371547.75,MW
+sds,power,renewablescap,europe,2036,3564737.9,MW
+sds,power,renewablescap,europe,2037,3757928.05,MW
+sds,power,renewablescap,europe,2038,3951118.2,MW
+sds,power,renewablescap,europe,2039,4144308.35,MW
+sds,power,renewablescap,europe,2040,4337498.5,MW
+cps,automotive,electric,global,2020,0.83626903,cars produced
+cps,automotive,electric,global,2021,0.936861926,cars produced
+cps,automotive,electric,global,2022,1.03534006,cars produced
+cps,automotive,electric,global,2023,1.131979784,cars produced
+cps,automotive,electric,global,2024,1.197718884,cars produced
+cps,automotive,electric,global,2025,1.262744176,cars produced
+cps,automotive,electric,global,2026,1.327106596,cars produced
+cps,automotive,electric,global,2027,1.39085072,cars produced
+cps,automotive,electric,global,2028,1.454015859,cars produced
+cps,automotive,electric,global,2029,1.538965963,cars produced
+cps,automotive,electric,global,2030,1.622988467,cars produced
+cps,automotive,electric,global,2031,1.706149913,cars produced
+cps,automotive,electric,global,2032,1.788508492,cars produced
+cps,automotive,electric,global,2033,1.870115491,cars produced
+cps,automotive,electric,global,2034,1.982592205,cars produced
+cps,automotive,electric,global,2035,2.093807028,cars produced
+cps,automotive,electric,global,2036,2.20385281,cars produced
+cps,automotive,electric,global,2037,2.312810468,cars produced
+cps,automotive,electric,global,2038,2.420751098,cars produced
+cps,automotive,electric,global,2039,2.394389744,cars produced
+cps,automotive,electric,global,2040,2.367970215,cars produced
+cps,automotive,hybrid,global,2020,12.77874902,cars produced
+cps,automotive,hybrid,global,2021,14.32334406,cars produced
+cps,automotive,hybrid,global,2022,15.83031771,cars produced
+cps,automotive,hybrid,global,2023,17.30583791,cars produced
+cps,automotive,hybrid,global,2024,19.10953472,cars produced
+cps,automotive,hybrid,global,2025,20.87446644,cars produced
+cps,automotive,hybrid,global,2026,22.60631726,cars produced
+cps,automotive,hybrid,global,2027,24.30932208,cars produced
+cps,automotive,hybrid,global,2028,25.98676304,cars produced
+cps,automotive,hybrid,global,2029,27.95797205,cars produced
+cps,automotive,hybrid,global,2030,29.90020302,cars produced
+cps,automotive,hybrid,global,2031,31.81631721,cars produced
+cps,automotive,hybrid,global,2032,33.70867676,cars produced
+cps,automotive,hybrid,global,2033,35.57926505,cars produced
+cps,automotive,hybrid,global,2034,36.3044836,cars produced
+cps,automotive,hybrid,global,2035,37.02552796,cars produced
+cps,automotive,hybrid,global,2036,37.74258307,cars produced
+cps,automotive,hybrid,global,2037,38.45581871,cars produced
+cps,automotive,hybrid,global,2038,39.16539127,cars produced
+cps,automotive,hybrid,global,2039,36.89004492,cars produced
+cps,automotive,hybrid,global,2040,34.51804898,cars produced
+cps,automotive,ice,global,2020,79.90659789,cars produced
+cps,automotive,ice,global,2021,81.66149783,cars produced
+cps,automotive,ice,global,2022,83.44218407,cars produced
+cps,automotive,ice,global,2023,85.24803586,cars produced
+cps,automotive,ice,global,2024,86.13147329,cars produced
+cps,automotive,ice,global,2025,87.04258248,cars produced
+cps,automotive,ice,global,2026,87.98057077,cars produced
+cps,automotive,ice,global,2027,88.94470918,cars produced
+cps,automotive,ice,global,2028,89.93432354,cars produced
+cps,automotive,ice,global,2029,90.49089586,cars produced
+cps,automotive,ice,global,2030,91.08221946,cars produced
+cps,automotive,ice,global,2031,91.70683677,cars produced
+cps,automotive,ice,global,2032,92.36342896,cars produced
+cps,automotive,ice,global,2033,93.05079348,cars produced
+cps,automotive,ice,global,2034,94.34117116,cars produced
+cps,automotive,ice,global,2035,95.66842263,cars produced
+cps,automotive,ice,global,2036,97.03150052,cars produced
+cps,automotive,ice,global,2037,98.42944203,cars produced
+cps,automotive,ice,global,2038,99.86135802,cars produced
+cps,automotive,ice,global,2039,91.33781501,cars produced
+cps,automotive,ice,global,2040,82.79037955,cars produced
+sps,automotive,electric,global,2020,0.881672605,cars produced
+sps,automotive,electric,global,2021,1.008937872,cars produced
+sps,automotive,electric,global,2022,1.136203139,cars produced
+sps,automotive,electric,global,2023,1.263468406,cars produced
+sps,automotive,electric,global,2024,1.35151868,cars produced
+sps,automotive,electric,global,2025,1.439568954,cars produced
+sps,automotive,electric,global,2026,1.527619228,cars produced
+sps,automotive,electric,global,2027,1.615669502,cars produced
+sps,automotive,electric,global,2028,1.703719776,cars produced
+sps,automotive,electric,global,2029,1.823166482,cars produced
+sps,automotive,electric,global,2030,1.942613189,cars produced
+sps,automotive,electric,global,2031,2.062059895,cars produced
+sps,automotive,electric,global,2032,2.181506602,cars produced
+sps,automotive,electric,global,2033,2.300953308,cars produced
+sps,automotive,electric,global,2034,2.467020271,cars produced
+sps,automotive,electric,global,2035,2.633087234,cars produced
+sps,automotive,electric,global,2036,2.799154196,cars produced
+sps,automotive,electric,global,2037,2.965221159,cars produced
+sps,automotive,electric,global,2038,3.131288122,cars produced
+sps,automotive,electric,global,2039,3.090369419,cars produced
+sps,automotive,electric,global,2040,3.049450715,cars produced
+sps,automotive,hybrid,global,2020,13.50274899,cars produced
+sps,automotive,hybrid,global,2021,15.48743298,cars produced
+sps,automotive,hybrid,global,2022,17.47211696,cars produced
+sps,automotive,hybrid,global,2023,19.45680094,cars produced
+sps,automotive,hybrid,global,2024,21.9472457,cars produced
+sps,automotive,hybrid,global,2025,24.43769047,cars produced
+sps,automotive,hybrid,global,2026,26.92813523,cars produced
+sps,automotive,hybrid,global,2027,29.41857999,cars produced
+sps,automotive,hybrid,global,2028,31.90902475,cars produced
+sps,automotive,hybrid,global,2029,34.87421659,cars produced
+sps,automotive,hybrid,global,2030,37.83940844,cars produced
+sps,automotive,hybrid,global,2031,40.80460029,cars produced
+sps,automotive,hybrid,global,2032,43.76979214,cars produced
+sps,automotive,hybrid,global,2033,46.73498398,cars produced
+sps,automotive,hybrid,global,2034,47.95099589,cars produced
+sps,automotive,hybrid,global,2035,49.16700781,cars produced
+sps,automotive,hybrid,global,2036,50.38301971,cars produced
+sps,automotive,hybrid,global,2037,51.59903163,cars produced
+sps,automotive,hybrid,global,2038,52.81504354,cars produced
+sps,automotive,hybrid,global,2039,49.69033693,cars produced
+sps,automotive,hybrid,global,2040,46.56563033,cars produced
+sps,automotive,ice,global,2020,78.74523553,cars produced
+sps,automotive,ice,global,2021,79.87937348,cars produced
+sps,automotive,ice,global,2022,81.01351142,cars produced
+sps,automotive,ice,global,2023,82.14764935,cars produced
+sps,automotive,ice,global,2024,82.25791583,cars produced
+sps,automotive,ice,global,2025,82.3681823,cars produced
+sps,automotive,ice,global,2026,82.47844876,cars produced
+sps,automotive,ice,global,2027,82.58871523,cars produced
+sps,automotive,ice,global,2028,82.6989817,cars produced
+sps,automotive,ice,global,2029,82.30717736,cars produced
+sps,automotive,ice,global,2030,81.91537301,cars produced
+sps,automotive,ice,global,2031,81.52356867,cars produced
+sps,automotive,ice,global,2032,81.13176433,cars produced
+sps,automotive,ice,global,2033,80.73995999,cars produced
+sps,automotive,ice,global,2034,81.27430694,cars produced
+sps,automotive,ice,global,2035,81.8086539,cars produced
+sps,automotive,ice,global,2036,82.34300084,cars produced
+sps,automotive,ice,global,2037,82.8773478,cars produced
+sps,automotive,ice,global,2038,83.41169475,cars produced
+sps,automotive,ice,global,2039,72.08087438,cars produced
+sps,automotive,ice,global,2040,60.75005401,cars produced
+sds,automotive,electric,global,2020,3.432249768,cars produced
+sds,automotive,electric,global,2021,3.986419719,cars produced
+sds,automotive,electric,global,2022,4.540589669,cars produced
+sds,automotive,electric,global,2023,5.09475962,cars produced
+sds,automotive,electric,global,2024,5.574276874,cars produced
+sds,automotive,electric,global,2025,6.053794129,cars produced
+sds,automotive,electric,global,2026,6.533311383,cars produced
+sds,automotive,electric,global,2027,7.012828638,cars produced
+sds,automotive,electric,global,2028,7.492345892,cars produced
+sds,automotive,electric,global,2029,7.814084702,cars produced
+sds,automotive,electric,global,2030,8.135823513,cars produced
+sds,automotive,electric,global,2031,8.457562323,cars produced
+sds,automotive,electric,global,2032,8.779301134,cars produced
+sds,automotive,electric,global,2033,9.101039944,cars produced
+sds,automotive,electric,global,2034,9.455363323,cars produced
+sds,automotive,electric,global,2035,9.809686702,cars produced
+sds,automotive,electric,global,2036,10.16401008,cars produced
+sds,automotive,electric,global,2037,10.51833346,cars produced
+sds,automotive,electric,global,2038,10.87265684,cars produced
+sds,automotive,electric,global,2039,9.541510017,cars produced
+sds,automotive,electric,global,2040,8.210363194,cars produced
+sds,automotive,hybrid,global,2020,15.06147945,cars produced
+sds,automotive,hybrid,global,2021,17.27579736,cars produced
+sds,automotive,hybrid,global,2022,19.49011527,cars produced
+sds,automotive,hybrid,global,2023,21.70443318,cars produced
+sds,automotive,hybrid,global,2024,24.55052807,cars produced
+sds,automotive,hybrid,global,2025,27.39662297,cars produced
+sds,automotive,hybrid,global,2026,30.24271787,cars produced
+sds,automotive,hybrid,global,2027,33.08881277,cars produced
+sds,automotive,hybrid,global,2028,35.93490767,cars produced
+sds,automotive,hybrid,global,2029,39.32247044,cars produced
+sds,automotive,hybrid,global,2030,42.71003321,cars produced
+sds,automotive,hybrid,global,2031,46.09759598,cars produced
+sds,automotive,hybrid,global,2032,49.48515875,cars produced
+sds,automotive,hybrid,global,2033,52.87272152,cars produced
+sds,automotive,hybrid,global,2034,54.27240759,cars produced
+sds,automotive,hybrid,global,2035,55.67209366,cars produced
+sds,automotive,hybrid,global,2036,57.07177974,cars produced
+sds,automotive,hybrid,global,2037,58.47146581,cars produced
+sds,automotive,hybrid,global,2038,59.87115188,cars produced
+sds,automotive,hybrid,global,2039,57.8205737,cars produced
+sds,automotive,hybrid,global,2040,55.76999553,cars produced
+sds,automotive,ice,global,2020,66.39690217,cars produced
+sds,automotive,ice,global,2021,65.28232985,cars produced
+sds,automotive,ice,global,2022,64.16775751,cars produced
+sds,automotive,ice,global,2023,63.05318518,cars produced
+sds,automotive,ice,global,2024,61.35990562,cars produced
+sds,automotive,ice,global,2025,59.66662608,cars produced
+sds,automotive,ice,global,2026,57.97334652,cars produced
+sds,automotive,ice,global,2027,56.28006697,cars produced
+sds,automotive,ice,global,2028,54.58678742,cars produced
+sds,automotive,ice,global,2029,53.30470725,cars produced
+sds,automotive,ice,global,2030,52.02262709,cars produced
+sds,automotive,ice,global,2031,50.74054693,cars produced
+sds,automotive,ice,global,2032,49.45846677,cars produced
+sds,automotive,ice,global,2033,48.1763866,cars produced
+sds,automotive,ice,global,2034,48.91156122,cars produced
+sds,automotive,ice,global,2035,49.64673585,cars produced
+sds,automotive,ice,global,2036,50.38191047,cars produced
+sds,automotive,ice,global,2037,51.11708509,cars produced
+sds,automotive,ice,global,2038,51.85225971,cars produced
+sds,automotive,ice,global,2039,45.78134518,cars produced
+sds,automotive,ice,global,2040,39.71043065,cars produced
+cps,coal,coal,global,2020,1191316667,tce
+cps,coal,coal,global,2021,1195923333,tce
+cps,coal,coal,global,2022,1200530000,tce
+cps,coal,coal,global,2023,1205136667,tce
+cps,coal,coal,global,2024,1209743333,tce
+cps,coal,coal,global,2025,1214350000,tce
+cps,coal,coal,global,2026,1215136000,tce
+cps,coal,coal,global,2027,1215922000,tce
+cps,coal,coal,global,2028,1216708000,tce
+cps,coal,coal,global,2029,1217494000,tce
+cps,coal,coal,global,2030,1218280000,tce
+cps,coal,coal,global,2031,1220163000,tce
+cps,coal,coal,global,2032,1222046000,tce
+cps,coal,coal,global,2033,1223929000,tce
+cps,coal,coal,global,2034,1225812000,tce
+cps,coal,coal,global,2035,1227695000,tce
+cps,coal,coal,global,2036,1229578000,tce
+cps,coal,coal,global,2037,1231461000,tce
+cps,coal,coal,global,2038,1233344000,tce
+cps,coal,coal,global,2039,1235227000,tce
+cps,coal,coal,global,2040,1237110000,tce
+cps,oil and gas,gas,global,2020,1.43E+12,cm
+cps,oil and gas,gas,global,2021,1.46E+12,cm
+cps,oil and gas,gas,global,2022,1.49E+12,cm
+cps,oil and gas,gas,global,2023,1.52E+12,cm
+cps,oil and gas,gas,global,2024,1.55E+12,cm
+cps,oil and gas,gas,global,2025,1.58E+12,cm
+cps,oil and gas,gas,global,2026,1.59E+12,cm
+cps,oil and gas,gas,global,2027,1.61E+12,cm
+cps,oil and gas,gas,global,2028,1.62E+12,cm
+cps,oil and gas,gas,global,2029,1.63E+12,cm
+cps,oil and gas,gas,global,2030,1.64E+12,cm
+cps,oil and gas,gas,global,2031,1.66E+12,cm
+cps,oil and gas,gas,global,2032,1.68E+12,cm
+cps,oil and gas,gas,global,2033,1.70E+12,cm
+cps,oil and gas,gas,global,2034,1.71E+12,cm
+cps,oil and gas,gas,global,2035,1.73E+12,cm
+cps,oil and gas,gas,global,2036,1.75E+12,cm
+cps,oil and gas,gas,global,2037,1.77E+12,cm
+cps,oil and gas,gas,global,2038,1.78E+12,cm
+cps,oil and gas,gas,global,2039,1.80E+12,cm
+cps,oil and gas,gas,global,2040,1.82E+12,cm
+cps,oil and gas,oil,global,2020,9631707433,bpa
+cps,oil and gas,oil,global,2021,9904200167,bpa
+cps,oil and gas,oil,global,2022,10176692900,bpa
+cps,oil and gas,oil,global,2023,10449185633,bpa
+cps,oil and gas,oil,global,2024,10721678367,bpa
+cps,oil and gas,oil,global,2025,10994171100,bpa
+cps,oil and gas,oil,global,2026,11044831275,bpa
+cps,oil and gas,oil,global,2027,11095491450,bpa
+cps,oil and gas,oil,global,2028,11146151625,bpa
+cps,oil and gas,oil,global,2029,11196811800,bpa
+cps,oil and gas,oil,global,2030,11247471975,bpa
+cps,oil and gas,oil,global,2031,11219402513,bpa
+cps,oil and gas,oil,global,2032,11191333050,bpa
+cps,oil and gas,oil,global,2033,11163263588,bpa
+cps,oil and gas,oil,global,2034,11135194125,bpa
+cps,oil and gas,oil,global,2035,11107124663,bpa
+cps,oil and gas,oil,global,2036,11079055200,bpa
+cps,oil and gas,oil,global,2037,11050985738,bpa
+cps,oil and gas,oil,global,2038,11022916275,bpa
+cps,oil and gas,oil,global,2039,10994846813,bpa
+cps,oil and gas,oil,global,2040,10966777350,bpa
+sps,coal,coal,global,2020,1136001111,tce
+sps,coal,coal,global,2021,1126778889,tce
+sps,coal,coal,global,2022,1117556667,tce
+sps,coal,coal,global,2023,1108334444,tce
+sps,coal,coal,global,2024,1099112222,tce
+sps,coal,coal,global,2025,1089890000,tce
+sps,coal,coal,global,2026,1082216000,tce
+sps,coal,coal,global,2027,1074542000,tce
+sps,coal,coal,global,2028,1066868000,tce
+sps,coal,coal,global,2029,1059194000,tce
+sps,coal,coal,global,2030,1051520000,tce
+sps,coal,coal,global,2031,1044200000,tce
+sps,coal,coal,global,2032,1036880000,tce
+sps,coal,coal,global,2033,1029560000,tce
+sps,coal,coal,global,2034,1022240000,tce
+sps,coal,coal,global,2035,1014920000,tce
+sps,coal,coal,global,2036,1017184000,tce
+sps,coal,coal,global,2037,1019448000,tce
+sps,coal,coal,global,2038,1021712000,tce
+sps,coal,coal,global,2039,1023976000,tce
+sps,coal,coal,global,2040,1026240000,tce
+sps,oil and gas,gas,global,2020,1.41E+12,cm
+sps,oil and gas,gas,global,2021,1.44E+12,cm
+sps,oil and gas,gas,global,2022,1.46E+12,cm
+sps,oil and gas,gas,global,2023,1.49E+12,cm
+sps,oil and gas,gas,global,2024,1.51E+12,cm
+sps,oil and gas,gas,global,2025,1.54E+12,cm
+sps,oil and gas,gas,global,2026,1.55E+12,cm
+sps,oil and gas,gas,global,2027,1.56E+12,cm
+sps,oil and gas,gas,global,2028,1.57E+12,cm
+sps,oil and gas,gas,global,2029,1.58E+12,cm
+sps,oil and gas,gas,global,2030,1.59E+12,cm
+sps,oil and gas,gas,global,2031,1.61E+12,cm
+sps,oil and gas,gas,global,2032,1.63E+12,cm
+sps,oil and gas,gas,global,2033,1.64E+12,cm
+sps,oil and gas,gas,global,2034,1.66E+12,cm
+sps,oil and gas,gas,global,2035,1.68E+12,cm
+sps,oil and gas,gas,global,2036,1.69E+12,cm
+sps,oil and gas,gas,global,2037,1.70E+12,cm
+sps,oil and gas,gas,global,2038,1.71E+12,cm
+sps,oil and gas,gas,global,2039,1.73E+12,cm
+sps,oil and gas,gas,global,2040,1.74E+12,cm
+sps,oil and gas,oil,global,2020,9446306533,bpa
+sps,oil and gas,oil,global,2021,9672449042,bpa
+sps,oil and gas,oil,global,2022,9898591550,bpa
+sps,oil and gas,oil,global,2023,10124734058,bpa
+sps,oil and gas,oil,global,2024,10350876567,bpa
+sps,oil and gas,oil,global,2025,10577019075,bpa
+sps,oil and gas,oil,global,2026,10591424535,bpa
+sps,oil and gas,oil,global,2027,10605829995,bpa
+sps,oil and gas,oil,global,2028,10620235455,bpa
+sps,oil and gas,oil,global,2029,10634640915,bpa
+sps,oil and gas,oil,global,2030,10649046375,bpa
+sps,oil and gas,oil,global,2031,10602615795,bpa
+sps,oil and gas,oil,global,2032,10556185215,bpa
+sps,oil and gas,oil,global,2033,10509754635,bpa
+sps,oil and gas,oil,global,2034,10463324055,bpa
+sps,oil and gas,oil,global,2035,10416893475,bpa
+sps,oil and gas,oil,global,2036,10360440435,bpa
+sps,oil and gas,oil,global,2037,10303987395,bpa
+sps,oil and gas,oil,global,2038,10247534355,bpa
+sps,oil and gas,oil,global,2039,10191081315,bpa
+sps,oil and gas,oil,global,2040,10134628275,bpa
+sds,coal,coal,global,2020,951994444.4,tce
+sds,coal,coal,global,2021,896770555.6,tce
+sds,coal,coal,global,2022,841546666.7,tce
+sds,coal,coal,global,2023,786322777.8,tce
+sds,coal,coal,global,2024,731098888.9,tce
+sds,coal,coal,global,2025,675875000,tce
+sds,coal,coal,global,2026,636325200,tce
+sds,coal,coal,global,2027,596775400,tce
+sds,coal,coal,global,2028,557225600,tce
+sds,coal,coal,global,2029,517675800,tce
+sds,coal,coal,global,2030,478126000,tce
+sds,coal,coal,global,2031,468699100,tce
+sds,coal,coal,global,2032,459272200,tce
+sds,coal,coal,global,2033,449845300,tce
+sds,coal,coal,global,2034,440418400,tce
+sds,coal,coal,global,2035,430991500,tce
+sds,coal,coal,global,2036,421564600,tce
+sds,coal,coal,global,2037,412137700,tce
+sds,coal,coal,global,2038,402710800,tce
+sds,coal,coal,global,2039,393283900,tce
+sds,coal,coal,global,2040,383857000,tce
+sds,oil and gas,gas,global,2020,1.41E+12,cm
+sds,oil and gas,gas,global,2021,1.44E+12,cm
+sds,oil and gas,gas,global,2022,1.46E+12,cm
+sds,oil and gas,gas,global,2023,1.49E+12,cm
+sds,oil and gas,gas,global,2024,1.51E+12,cm
+sds,oil and gas,gas,global,2025,1.53E+12,cm
+sds,oil and gas,gas,global,2026,1.53E+12,cm
+sds,oil and gas,gas,global,2027,1.53E+12,cm
+sds,oil and gas,gas,global,2028,1.53E+12,cm
+sds,oil and gas,gas,global,2029,1.53E+12,cm
+sds,oil and gas,gas,global,2030,1.53E+12,cm
+sds,oil and gas,gas,global,2031,1.52E+12,cm
+sds,oil and gas,gas,global,2032,1.50E+12,cm
+sds,oil and gas,gas,global,2033,1.48E+12,cm
+sds,oil and gas,gas,global,2034,1.46E+12,cm
+sds,oil and gas,gas,global,2035,1.44E+12,cm
+sds,oil and gas,gas,global,2036,1.42E+12,cm
+sds,oil and gas,gas,global,2037,1.40E+12,cm
+sds,oil and gas,gas,global,2038,1.39E+12,cm
+sds,oil and gas,gas,global,2039,1.37E+12,cm
+sds,oil and gas,gas,global,2040,1.35E+12,cm
+sds,oil and gas,oil,global,2020,9113766700,bpa
+sds,oil and gas,oil,global,2021,9256774250,bpa
+sds,oil and gas,oil,global,2022,9399781800,bpa
+sds,oil and gas,oil,global,2023,9542789350,bpa
+sds,oil and gas,oil,global,2024,9685796900,bpa
+sds,oil and gas,oil,global,2025,9828804450,bpa
+sds,oil and gas,oil,global,2026,9702267240,bpa
+sds,oil and gas,oil,global,2027,9575730030,bpa
+sds,oil and gas,oil,global,2028,9449192820,bpa
+sds,oil and gas,oil,global,2029,9322655610,bpa
+sds,oil and gas,oil,global,2030,9196118400,bpa
+sds,oil and gas,oil,global,2031,8970536348,bpa
+sds,oil and gas,oil,global,2032,8744954295,bpa
+sds,oil and gas,oil,global,2033,8519372243,bpa
+sds,oil and gas,oil,global,2034,8293790190,bpa
+sds,oil and gas,oil,global,2035,8068208138,bpa
+sds,oil and gas,oil,global,2036,7842626085,bpa
+sds,oil and gas,oil,global,2037,7617044033,bpa
+sds,oil and gas,oil,global,2038,7391461980,bpa
+sds,oil and gas,oil,global,2039,7165879928,bpa
+sds,oil and gas,oil,global,2040,6940297875,bpa
+cps,coal,coal,europe,2020,4381555556,tce
+cps,coal,coal,europe,2021,4452454444,tce
+cps,coal,coal,europe,2022,4523353333,tce
+cps,coal,coal,europe,2023,4594252222,tce
+cps,coal,coal,europe,2024,4665151111,tce
+cps,coal,coal,europe,2025,4736050000,tce
+cps,coal,coal,europe,2026,4820264000,tce
+cps,coal,coal,europe,2027,4904478000,tce
+cps,coal,coal,europe,2028,4988692000,tce
+cps,coal,coal,europe,2029,5072906000,tce
+cps,coal,coal,europe,2030,5157120000,tce
+cps,coal,coal,europe,2031,5238474000,tce
+cps,coal,coal,europe,2032,5319828000,tce
+cps,coal,coal,europe,2033,5401182000,tce
+cps,coal,coal,europe,2034,5482536000,tce
+cps,coal,coal,europe,2035,5563890000,tce
+cps,coal,coal,europe,2036,5645244000,tce
+cps,coal,coal,europe,2037,5726598000,tce
+cps,coal,coal,europe,2038,5807952000,tce
+cps,coal,coal,europe,2039,5889306000,tce
+cps,coal,coal,europe,2040,5970660000,tce
+cps,oil and gas,gas,europe,2020,2.47774E+12,cm
+cps,oil and gas,gas,europe,2021,2.51963E+12,cm
+cps,oil and gas,gas,europe,2022,2.56151E+12,cm
+cps,oil and gas,gas,europe,2023,2.60339E+12,cm
+cps,oil and gas,gas,europe,2024,2.64528E+12,cm
+cps,oil and gas,gas,europe,2025,2.68716E+12,cm
+cps,oil and gas,gas,europe,2026,2.76511E+12,cm
+cps,oil and gas,gas,europe,2027,2.84305E+12,cm
+cps,oil and gas,gas,europe,2028,2.921E+12,cm
+cps,oil and gas,gas,europe,2029,2.99894E+12,cm
+cps,oil and gas,gas,europe,2030,3.07689E+12,cm
+cps,oil and gas,gas,europe,2031,3.1577E+12,cm
+cps,oil and gas,gas,europe,2032,3.23852E+12,cm
+cps,oil and gas,gas,europe,2033,3.31933E+12,cm
+cps,oil and gas,gas,europe,2034,3.40015E+12,cm
+cps,oil and gas,gas,europe,2035,3.48096E+12,cm
+cps,oil and gas,gas,europe,2036,3.56177E+12,cm
+cps,oil and gas,gas,europe,2037,3.64259E+12,cm
+cps,oil and gas,gas,europe,2038,3.7234E+12,cm
+cps,oil and gas,gas,europe,2039,3.80422E+12,cm
+cps,oil and gas,gas,europe,2040,3.88503E+12,cm
+cps,oil and gas,oil,europe,2020,93164961668,bpa
+cps,oil and gas,oil,europe,2021,79743495130,bpa
+cps,oil and gas,oil,europe,2022,66322028591,bpa
+cps,oil and gas,oil,europe,2023,52900562052,bpa
+cps,oil and gas,oil,europe,2024,39479095514,bpa
+cps,oil and gas,oil,europe,2025,26057628975,bpa
+cps,oil and gas,oil,europe,2026,26356198935,bpa
+cps,oil and gas,oil,europe,2027,26654768895,bpa
+cps,oil and gas,oil,europe,2028,26953338855,bpa
+cps,oil and gas,oil,europe,2029,27251908815,bpa
+cps,oil and gas,oil,europe,2030,27550478775,bpa
+cps,oil and gas,oil,europe,2031,27911922870,bpa
+cps,oil and gas,oil,europe,2032,28273366965,bpa
+cps,oil and gas,oil,europe,2033,28634811060,bpa
+cps,oil and gas,oil,europe,2034,28996255155,bpa
+cps,oil and gas,oil,europe,2035,29357699250,bpa
+cps,oil and gas,oil,europe,2036,29719143345,bpa
+cps,oil and gas,oil,europe,2037,30080587440,bpa
+cps,oil and gas,oil,europe,2038,30442031535,bpa
+cps,oil and gas,oil,europe,2039,30803475630,bpa
+cps,oil and gas,oil,europe,2040,31164919725,bpa
+sps,coal,coal,europe,2020,4231466667,tce
+sps,coal,coal,europe,2021,4264843333,tce
+sps,coal,coal,europe,2022,4298220000,tce
+sps,coal,coal,europe,2023,4331596667,tce
+sps,coal,coal,europe,2024,4364973333,tce
+sps,coal,coal,europe,2025,4398350000,tce
+sps,coal,coal,europe,2026,4421522000,tce
+sps,coal,coal,europe,2027,4444694000,tce
+sps,coal,coal,europe,2028,4467866000,tce
+sps,coal,coal,europe,2029,4491038000,tce
+sps,coal,coal,europe,2030,4514210000,tce
+sps,coal,coal,europe,2031,4525210000,tce
+sps,coal,coal,europe,2032,4536210000,tce
+sps,coal,coal,europe,2033,4547210000,tce
+sps,coal,coal,europe,2034,4558210000,tce
+sps,coal,coal,europe,2035,4569210000,tce
+sps,coal,coal,europe,2036,4572672000,tce
+sps,coal,coal,europe,2037,4576134000,tce
+sps,coal,coal,europe,2038,4579596000,tce
+sps,coal,coal,europe,2039,4583058000,tce
+sps,coal,coal,europe,2040,4586520000,tce
+sps,oil and gas,gas,europe,2020,2.45432E+12,cm
+sps,oil and gas,gas,europe,2021,2.49034E+12,cm
+sps,oil and gas,gas,europe,2022,2.52637E+12,cm
+sps,oil and gas,gas,europe,2023,2.5624E+12,cm
+sps,oil and gas,gas,europe,2024,2.59842E+12,cm
+sps,oil and gas,gas,europe,2025,2.63445E+12,cm
+sps,oil and gas,gas,europe,2026,2.69867E+12,cm
+sps,oil and gas,gas,europe,2027,2.76289E+12,cm
+sps,oil and gas,gas,europe,2028,2.82712E+12,cm
+sps,oil and gas,gas,europe,2029,2.89134E+12,cm
+sps,oil and gas,gas,europe,2030,2.95556E+12,cm
+sps,oil and gas,gas,europe,2031,3.01871E+12,cm
+sps,oil and gas,gas,europe,2032,3.08186E+12,cm
+sps,oil and gas,gas,europe,2033,3.14501E+12,cm
+sps,oil and gas,gas,europe,2034,3.20816E+12,cm
+sps,oil and gas,gas,europe,2035,3.27131E+12,cm
+sps,oil and gas,gas,europe,2036,3.33024E+12,cm
+sps,oil and gas,gas,europe,2037,3.38916E+12,cm
+sps,oil and gas,gas,europe,2038,3.44809E+12,cm
+sps,oil and gas,gas,europe,2039,3.50701E+12,cm
+sps,oil and gas,gas,europe,2040,3.56594E+12,cm
+sps,oil and gas,oil,europe,2020,2.35839E+11,bpa
+sps,oil and gas,oil,europe,2021,2.43419E+11,bpa
+sps,oil and gas,oil,europe,2022,2.51E+11,bpa
+sps,oil and gas,oil,europe,2023,2.5858E+11,bpa
+sps,oil and gas,oil,europe,2024,2.6616E+11,bpa
+sps,oil and gas,oil,europe,2025,2.73741E+11,bpa
+sps,oil and gas,oil,europe,2026,2.81437E+11,bpa
+sps,oil and gas,oil,europe,2027,2.89133E+11,bpa
+sps,oil and gas,oil,europe,2028,2.96829E+11,bpa
+sps,oil and gas,oil,europe,2029,3.04524E+11,bpa
+sps,oil and gas,oil,europe,2030,3.1222E+11,bpa
+sps,oil and gas,oil,europe,2031,3.19932E+11,bpa
+sps,oil and gas,oil,europe,2032,3.27644E+11,bpa
+sps,oil and gas,oil,europe,2033,3.35356E+11,bpa
+sps,oil and gas,oil,europe,2034,3.43068E+11,bpa
+sps,oil and gas,oil,europe,2035,3.5078E+11,bpa
+sps,oil and gas,oil,europe,2036,3.58523E+11,bpa
+sps,oil and gas,oil,europe,2037,3.66266E+11,bpa
+sps,oil and gas,oil,europe,2038,3.74008E+11,bpa
+sps,oil and gas,oil,europe,2039,3.81751E+11,bpa
+sps,oil and gas,oil,europe,2040,3.89494E+11,bpa
+sds,coal,coal,europe,2020,3895560000,tce
+sds,coal,coal,europe,2021,3844960000,tce
+sds,coal,coal,europe,2022,3794360000,tce
+sds,coal,coal,europe,2023,3743760000,tce
+sds,coal,coal,europe,2024,3693160000,tce
+sds,coal,coal,europe,2025,3642560000,tce
+sds,coal,coal,europe,2026,3520528000,tce
+sds,coal,coal,europe,2027,3398496000,tce
+sds,coal,coal,europe,2028,3276464000,tce
+sds,coal,coal,europe,2029,3154432000,tce
+sds,coal,coal,europe,2030,3032400000,tce
+sds,coal,coal,europe,2031,2944654000,tce
+sds,coal,coal,europe,2032,2856908000,tce
+sds,coal,coal,europe,2033,2769162000,tce
+sds,coal,coal,europe,2034,2681416000,tce
+sds,coal,coal,europe,2035,2593670000,tce
+sds,coal,coal,europe,2036,2505924000,tce
+sds,coal,coal,europe,2037,2418178000,tce
+sds,coal,coal,europe,2038,2330432000,tce
+sds,coal,coal,europe,2039,2242686000,tce
+sds,coal,coal,europe,2040,2154940000,tce
+sds,oil and gas,gas,europe,2020,2.43526E+12,cm
+sds,oil and gas,gas,europe,2021,2.46652E+12,cm
+sds,oil and gas,gas,europe,2022,2.49778E+12,cm
+sds,oil and gas,gas,europe,2023,2.52905E+12,cm
+sds,oil and gas,gas,europe,2024,2.56031E+12,cm
+sds,oil and gas,gas,europe,2025,2.59157E+12,cm
+sds,oil and gas,gas,europe,2026,2.62012E+12,cm
+sds,oil and gas,gas,europe,2027,2.64867E+12,cm
+sds,oil and gas,gas,europe,2028,2.67723E+12,cm
+sds,oil and gas,gas,europe,2029,2.70578E+12,cm
+sds,oil and gas,gas,europe,2030,2.73433E+12,cm
+sds,oil and gas,gas,europe,2031,2.74772E+12,cm
+sds,oil and gas,gas,europe,2032,2.76111E+12,cm
+sds,oil and gas,gas,europe,2033,2.77451E+12,cm
+sds,oil and gas,gas,europe,2034,2.7879E+12,cm
+sds,oil and gas,gas,europe,2035,2.80129E+12,cm
+sds,oil and gas,gas,europe,2036,2.81468E+12,cm
+sds,oil and gas,gas,europe,2037,2.82807E+12,cm
+sds,oil and gas,gas,europe,2038,2.84147E+12,cm
+sds,oil and gas,gas,europe,2039,2.85486E+12,cm
+sds,oil and gas,gas,europe,2040,2.86825E+12,cm
+sds,oil and gas,oil,europe,2020,42046288343,bpa
+sds,oil and gas,oil,europe,2021,38253177055,bpa
+sds,oil and gas,oil,europe,2022,34460065766,bpa
+sds,oil and gas,oil,europe,2023,30666954477,bpa
+sds,oil and gas,oil,europe,2024,26873843189,bpa
+sds,oil and gas,oil,europe,2025,23080731900,bpa
+sds,oil and gas,oil,europe,2026,22798744290,bpa
+sds,oil and gas,oil,europe,2027,22516756680,bpa
+sds,oil and gas,oil,europe,2028,22234769070,bpa
+sds,oil and gas,oil,europe,2029,21952781460,bpa
+sds,oil and gas,oil,europe,2030,21670793850,bpa
+sds,oil and gas,oil,europe,2031,21395654678,bpa
+sds,oil and gas,oil,europe,2032,21120515505,bpa
+sds,oil and gas,oil,europe,2033,20845376333,bpa
+sds,oil and gas,oil,europe,2034,20570237160,bpa
+sds,oil and gas,oil,europe,2035,20295097988,bpa
+sds,oil and gas,oil,europe,2036,20019958815,bpa
+sds,oil and gas,oil,europe,2037,19744819643,bpa
+sds,oil and gas,oil,europe,2038,19469680470,bpa
+sds,oil and gas,oil,europe,2039,19194541298,bpa
+sds,oil and gas,oil,europe,2040,18919402125,bpa
