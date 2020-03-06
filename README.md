@@ -8,6 +8,8 @@
 [![lifecycle](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 [![CRAN
 status](https://www.r-pkg.org/badges/version/r2dii.data)](https://CRAN.R-project.org/package=r2dii.data)
+[![Codecov test
+coverage](https://codecov.io/gh/2DegreesInvesting/r2dii.data/branch/master/graph/badge.svg)](https://codecov.io/gh/2DegreesInvesting/r2dii.data?branch=master)
 <!-- badges: end -->
 
 The goal of r2dii.data is to host and document r2dii datasets, including
