@@ -1,0 +1,3 @@
+dataset,column,typeof,definition
+iso_codes,country,character,Country name
+iso_codes,country_iso,character,Corresponding ISO code

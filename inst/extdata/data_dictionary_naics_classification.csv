@@ -1,0 +1,5 @@
+dataset,column,typeof,definition
+naics_classification,code,double,Original NAICS code
+naics_classification,code_level,double,Level of granularity of NAICS code
+naics_classification,sector,character,Associated 2dii sector
+naics_classification,borderline,logical,Flag indicating if 2dii sector and classification code are a borderline match

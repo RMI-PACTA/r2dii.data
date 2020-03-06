@@ -1,0 +1,5 @@
+dataset,column,typeof,definition
+isic_classification,code,character,Original ISIC code
+isic_classification,code_level,double,Level of granularity of ISIC code
+isic_classification,sector,character,Associated 2dii sector
+isic_classification,borderline,logical,Flag indicating if 2dii sector and classification code are a borderline match

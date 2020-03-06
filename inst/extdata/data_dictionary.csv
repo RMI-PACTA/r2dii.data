@@ -1,0 +1,5 @@
+dataset,column,typeof,definition
+data_dictionary,dataset,character,The name of a dataset
+data_dictionary,column,character,The name of a dataset-column
+data_dictionary,definition,character,The definition of a dataset-column
+data_dictionary,typeof,character,"The result of `typeof()`, one of double, integer, logical, or character."

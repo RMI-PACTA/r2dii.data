@@ -1,0 +1,14 @@
+dataset,column,typeof,definition
+ald,name_company,character,The name of the company owning the asset
+ald,sector,character,Sector to which the asset belongs
+ald,technology,character,Technology implemented by the asset
+ald,production_unit,character,The units that production is measured in
+ald,year,integer,Year at which the production value is predicted
+ald,production,double,Company level production of the technology
+ald,emission_factor,double,Company level emission factor of the technology
+ald,country_of_domicile,character,Country where company is registered
+ald,plant_location,character,Country where asset is located
+ald,number_of_assets,integer,Number of assets of a given technology owned by the company
+ald,is_ultimate_owner,logical,Flag if company is the ultimate parent in our database
+ald,is_ultimate_listed_owner,logical,Flag if company is the listed ultimate parent
+ald,ald_timestamp,character,Date at which asset data was pulled from database

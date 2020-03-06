@@ -1,0 +1,6 @@
+dataset,column,typeof,definition
+nace_classification,original_code,double,Original NACE code
+nace_classification,code,double,Formatted NACE code removing periods
+nace_classification,code_level,double,Level of granularity of NACE code
+nace_classification,sector,character,Associated 2dii sector
+nace_classification,borderline,logical,Flag indicating if 2dii sector and classification code are a borderline match
