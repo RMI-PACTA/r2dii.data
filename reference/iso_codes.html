@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Function reference • r2dii.data</title>
+<title>A dataset linking country names with their ISO code — iso_codes • r2dii.data</title>
 
 
 <!-- jquery -->
@@ -35,7 +35,9 @@
 
 
 
-<meta property="og:title" content="Function reference" />
+<meta property="og:title" content="A dataset linking country names with their ISO code — iso_codes" />
+<meta property="og:description" content="This is a dataset useful when mapping regional benchmarks to countries." />
+<meta name="twitter:card" content="summary" />
 
 
 
@@ -54,7 +56,7 @@
   </head>
 
   <body>
-    <div class="container template-reference-index">
+    <div class="container template-reference-topic">
       <header>
       <div class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container">
@@ -101,90 +103,58 @@
       </header>
 
 <div class="row">
-  <div class="contents col-md-9">
+  <div class="col-md-9 contents">
     <div class="page-header">
-      <h1>Reference</h1>
+    <h1>A dataset linking country names with their ISO code</h1>
+    <small class="dont-index">Source: <a href='https://github.com/2DegreesInvesting/r2dii.data/blob/master/R/iso_codes.R'><code>R/iso_codes.R</code></a></small>
+    <div class="hidden name"><code>iso_codes.Rd</code></div>
     </div>
 
-    <table class="ref-index">
+    <div class="ref-description">
+    <p>This is a dataset useful when mapping regional benchmarks to countries.</p>
+    </div>
 
-    <colgroup>
-      
-      <col class="alias" />
-      <col class="title" />
-    </colgroup>
+    <pre class="usage"><span class='no'>iso_codes</span></pre>
 
-    <tbody>
-      <tr>
-        <th colspan="2">
-          <h2 id="section-all-functions" class="hasAnchor"><a href="#section-all-functions" class="anchor"></a>All functions</h2>
-          <p class="section-desc"></p>
-        </th>
-      </tr>
-      <tr>
-        
-        <td>
-          <p><code><a href="ald_demo.html">ald_demo</a></code> </p>
-        </td>
-        <td><p>An asset level dataset for demonstration</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="classification_bridge.html">isic_classification</a></code> <code><a href="classification_bridge.html">nace_classification</a></code> <code><a href="classification_bridge.html">naics_classification</a></code> </p>
-        </td>
-        <td><p>Datasets to bridge (translate) common sector-classification codes</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="data_dictionary.html">data_dictionary()</a></code> </p>
-        </td>
-        <td><p>A dataset that defiles the columns of r2dii datasets</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="iso_codes.html">iso_codes</a></code> </p>
-        </td>
-        <td><p>A dataset linking country names with their ISO code</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="loanbook_demo.html">loanbook_demo</a></code> </p>
-        </td>
-        <td><p>A loanbook dataset for demonstration</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="overwrite_demo.html">overwrite_demo</a></code> </p>
-        </td>
-        <td><p>A demonstration dataset used to overwrite specific entity names or sectors</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="region_isos.html">region_isos</a></code> </p>
-        </td>
-        <td><p>A dataset outlining various region definitions (using iso codes)</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="scenario_demo.html">scenario_demo</a></code> </p>
-        </td>
-        <td><p>A climate scenario dataset for demonstration</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="sector_classification_df.html">sector_classification_df()</a></code> </p>
-        </td>
-        <td><p>A view of available sector classification datasets</p></td>
-      </tr>
-    </tbody>
-    </table>
+
+    <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
+
+    <p>An object of class <code>spec_tbl_df</code> (inherits from <code>tbl_df</code>, <code>tbl</code>, <code>data.frame</code>) with 286 rows and 2 columns.</p>
+    <h2 class="hasAnchor" id="see-also"><a class="anchor" href="#see-also"></a>See also</h2>
+
+    <div class='dont-index'><p><a href='data_dictionary.html'>data_dictionary</a></p>
+<p>Other demo datasets: 
+<code><a href='ald_demo.html'>ald_demo</a></code>,
+<code><a href='data_dictionary.html'>data_dictionary</a>()</code>,
+<code><a href='loanbook_demo.html'>loanbook_demo</a></code>,
+<code><a href='overwrite_demo.html'>overwrite_demo</a></code>,
+<code><a href='region_isos.html'>region_isos</a></code>,
+<code><a href='scenario_demo.html'>scenario_demo</a></code></p></div>
+
+    <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
+    <pre class="examples"><div class='input'><span class='no'>iso_codes</span></div><div class='output co'>#&gt; <span style='color: #555555;'># A tibble: 286 x 2</span><span>
+#&gt;    country             country_iso
+#&gt;    </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>               </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>      
+#&gt; </span><span style='color: #555555;'> 1</span><span> afghanistan         af         
+#&gt; </span><span style='color: #555555;'> 2</span><span> albania             al         
+#&gt; </span><span style='color: #555555;'> 3</span><span> algeria             dz         
+#&gt; </span><span style='color: #555555;'> 4</span><span> american samoa      as         
+#&gt; </span><span style='color: #555555;'> 5</span><span> andorra             ad         
+#&gt; </span><span style='color: #555555;'> 6</span><span> angola              ao         
+#&gt; </span><span style='color: #555555;'> 7</span><span> anguilla            ai         
+#&gt; </span><span style='color: #555555;'> 8</span><span> antigua and barbuda ag         
+#&gt; </span><span style='color: #555555;'> 9</span><span> argentina           ar         
+#&gt; </span><span style='color: #555555;'>10</span><span> armenia             am         
+#&gt; </span><span style='color: #555555;'># … with 276 more rows</span><span></div></span></pre>
   </div>
-
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <h2>Contents</h2>
     <ul class="nav nav-pills nav-stacked">
-      <li><a href="#section-all-functions">All functions</a></li>
+      <li><a href="#format">Format</a></li>
+      <li><a href="#see-also">See also</a></li>
+      <li><a href="#examples">Examples</a></li>
     </ul>
+
   </div>
 </div>
 
