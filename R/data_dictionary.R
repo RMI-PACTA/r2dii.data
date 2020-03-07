@@ -30,7 +30,7 @@ data_dictionary <- function() {
 
 path_inst_extdata <- function(regexp = NULL) {
   fs::dir_ls(
-    system.file("extdata", package = "r2dii.dataraw"),
+    system.file("extdata", package = "r2dii.data"),
     regexp = regexp
   )
 }

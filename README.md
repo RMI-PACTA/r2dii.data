@@ -21,7 +21,7 @@ Install the development version of r2dii.data with something like this:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("2DegreesInvesting/r2dii.dataraw")
+devtools::install_github("2DegreesInvesting/r2dii.data")
 ```
 
 [How to minimize installation

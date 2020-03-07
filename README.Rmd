@@ -27,7 +27,7 @@ Install the development version of r2dii.data with something like this:
 
 ```r
 # install.packages("devtools")
-devtools::install_github("2DegreesInvesting/r2dii.dataraw")
+devtools::install_github("2DegreesInvesting/r2dii.data")
 ```
 
 [How to minimize installation errors?](https://gist.github.com/maurolepore/a0187be9d40aee95a43f20a85f4caed6#installation)

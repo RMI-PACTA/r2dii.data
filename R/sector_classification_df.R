@@ -19,7 +19,7 @@
 #'  ) %>%
 #'  dplyr::arrange(column)
 sector_classification_df <- function() {
-  enlist_datasets("r2dii.dataraw", pattern = "_classification$") %>%
+  enlist_datasets("r2dii.data", pattern = "_classification$") %>%
     purrr::imap(~ dplyr::mutate(.x, code_system = toupper(.y))) %>%
     purrr::map(
       dplyr::select,
