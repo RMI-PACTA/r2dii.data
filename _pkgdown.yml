@@ -1,1 +1,49 @@
 destination: docs
+
+template:
+  params:
+    bootswatch: flatly
+
+url: https://github.com/2DegreesInvesting/r2dii.data/
+
+authors:
+  Mauro Lepore:
+    href: https://github.com/maurolepore/
+  2 Degrees Investing Initiative:
+    href: https://2degrees-investing.org/
+
+home:
+  links:
+  - text: Learn more
+    href: https://2degrees-investing.org/
+
+
+
+navbar:
+
+  type: default
+
+  right:
+    - icon: fa-gavel
+      href: https://github.com/maurolepore/
+
+    - icon: fa-github
+      href: https://github.com/2DegreesInvesting/r2dii.data/
+
+    - text: r2dii
+      href: https://2degreesinvesting.github.io/r2dii/index.html
+
+reference:
+
+  - title: Generic datasets
+    contents:
+      - has_concept("generic datasets")
+
+  - title: Demo datasets
+    contents:
+      - has_concept("demo datasets")
+
+  - title: Datasets to look up sector-classification codes
+    contents:
+      - has_concept("datasets for bridging sector classification codes")
+
