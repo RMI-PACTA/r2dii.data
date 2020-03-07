@@ -1,16 +1,27 @@
 Package: r2dii.data
-Title: What the Package Does (One Line, Title Case)
+Title: Datasets
 Version: 0.0.0.9000
 Authors@R: 
     c(person(given = "Mauro",
              family = "Lepore",
-             role = c("aut", "ctr", "cre"),
+             role = c("aut", "cre"),
              email = "maurolepore@gmail.com",
              comment = c(ORCID = "0000-0002-1986-7988")),
+      person(given = "Jackson",
+             family = "Hoffart",
+             role = "aut",
+             email = "jackson@2degrees-investing.org",
+             comment = c(ORCID = "0000-0002-8600-5042")),
+      person(given = "Klaus",
+             family = "Hagedorn",
+             role = "aut",
+             email = "klaus@2degrees-investing.org"),
       person(given = "2 Degrees Investing Initiative",
              role = c("cph", "fnd"),
              email = "contact@2degrees-investing.org"))
-Description: For more information visit
+Description: The goal of r2dii.data is to host and document
+    r2dii datasets, including generic datasets, and fake datasets for
+    examples and tests. For more information visit
     <https://2degrees-investing.org/>.
 License: GPL-3
 URL: https://github.com/2DegreesInvesting/r2dii.data
