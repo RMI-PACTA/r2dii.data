@@ -37,7 +37,8 @@ Imports:
     readr,
     withr
 Suggests: 
-    covr
+    covr,
+    testthat
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
