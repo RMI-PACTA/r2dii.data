@@ -34,7 +34,9 @@ Imports:
     fs,
     magrittr,
     purrr,
+    r2dii.utils,
     readr,
+    utils,
     withr
 Suggests: 
     covr,
