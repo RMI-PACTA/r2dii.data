@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Function reference • r2dii.data</title>
+<title>Description of a generic ald dataset — ald_description • r2dii.data</title>
 
 
 <!-- jquery -->
@@ -35,7 +35,11 @@
 
 
 
-<meta property="og:title" content="Function reference" />
+<meta property="og:title" content="Description of a generic ald dataset — ald_description" />
+<meta property="og:description" content="Asset Level Data: Physical asset production and capacity data across a
+variety of sectors and technologies, including forward looking projected
+additions or retirements." />
+<meta name="twitter:card" content="summary" />
 
 
 
@@ -54,7 +58,7 @@
   </head>
 
   <body>
-    <div class="container template-reference-index">
+    <div class="container template-reference-topic">
       <header>
       <div class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container">
@@ -110,120 +114,44 @@
       </header>
 
 <div class="row">
-  <div class="contents col-md-9">
+  <div class="col-md-9 contents">
     <div class="page-header">
-      <h1>Reference</h1>
+    <h1>Description of a generic ald dataset</h1>
+    <small class="dont-index">Source: <a href='https://github.com/2DegreesInvesting/r2dii.data/blob/master/R/ald_description.R'><code>R/ald_description.R</code></a></small>
+    <div class="hidden name"><code>ald_description.Rd</code></div>
     </div>
 
-    <table class="ref-index">
+    <div class="ref-description">
+    <p>Asset Level Data: Physical asset production and capacity data across a
+variety of sectors and technologies, including forward looking projected
+additions or retirements.</p>
+    </div>
 
-    <colgroup>
-      
-      <col class="alias" />
-      <col class="title" />
-    </colgroup>
 
-    <tbody>
-      <tr>
-        <th colspan="2">
-          <h2 id="section-generic-datasets" class="hasAnchor"><a href="#section-generic-datasets" class="anchor"></a>Generic datasets</h2>
-          <p class="section-desc"></p>
-        </th>
-      </tr>
-      <tr>
-        
-        <td>
-          <p><code><a href="ald_description.html">ald_description</a></code> </p>
-        </td>
-        <td><p>Description of a generic ald dataset</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="loanbook_description.html">loanbook_description</a></code> </p>
-        </td>
-        <td><p>Description of a generic loanbook dataset</p></td>
-      </tr>
-    </tbody><tbody>
-      <tr>
-        <th colspan="2">
-          <h2 id="section-demo-datasets" class="hasAnchor"><a href="#section-demo-datasets" class="anchor"></a>Demo datasets</h2>
-          <p class="section-desc"></p>
-        </th>
-      </tr>
-      <tr>
-        
-        <td>
-          <p><code><a href="ald_demo.html">ald_demo</a></code> </p>
-        </td>
-        <td><p>An asset level dataset for demonstration</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="data_dictionary.html">data_dictionary()</a></code> </p>
-        </td>
-        <td><p>A dataset that defiles the columns of r2dii datasets</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="iso_codes.html">iso_codes</a></code> </p>
-        </td>
-        <td><p>A dataset linking country names with their ISO code</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="loanbook_demo.html">loanbook_demo</a></code> </p>
-        </td>
-        <td><p>A loanbook dataset for demonstration</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="overwrite_demo.html">overwrite_demo</a></code> </p>
-        </td>
-        <td><p>A demonstration dataset used to overwrite specific entity names or sectors</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="region_isos.html">region_isos</a></code> </p>
-        </td>
-        <td><p>A dataset outlining various region definitions (using iso codes)</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="scenario_demo.html">scenario_demo</a></code> </p>
-        </td>
-        <td><p>A climate scenario dataset for demonstration</p></td>
-      </tr>
-    </tbody><tbody>
-      <tr>
-        <th colspan="2">
-          <h2 id="section-datasets-to-look-up-sector-classification-codes" class="hasAnchor"><a href="#section-datasets-to-look-up-sector-classification-codes" class="anchor"></a>Datasets to look up sector-classification codes</h2>
-          <p class="section-desc"></p>
-        </th>
-      </tr>
-      <tr>
-        
-        <td>
-          <p><code><a href="classification_bridge.html">isic_classification</a></code> <code><a href="classification_bridge.html">nace_classification</a></code> <code><a href="classification_bridge.html">naics_classification</a></code> </p>
-        </td>
-        <td><p>Datasets to bridge (translate) common sector-classification codes</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="sector_classification_df.html">sector_classification_df()</a></code> </p>
-        </td>
-        <td><p>A view of available sector classification datasets</p></td>
-      </tr>
-    </tbody>
-    </table>
+
+    <h2 class="hasAnchor" id="see-also"><a class="anchor" href="#see-also"></a>See also</h2>
+
+    <div class='dont-index'><p><a href='data_dictionary.html'>data_dictionary</a>, <a href='ald_demo.html'>ald_demo</a>.</p>
+<p>Other generic datasets: 
+<code><a href='loanbook_description.html'>loanbook_description</a></code></p></div>
+
+    <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
+    <pre class="examples"><div class='input'><span class='fu'><a href='https://rdrr.io/r/base/library.html'>library</a></span>(<span class='no'>dplyr</span>)</div><div class='output co'>#&gt; <span class='message'></span>
+#&gt; <span class='message'>Attaching package: ‘dplyr’</span></div><div class='output co'>#&gt; <span class='message'>The following objects are masked from ‘package:stats’:</span>
+#&gt; <span class='message'></span>
+#&gt; <span class='message'>    filter, lag</span></div><div class='output co'>#&gt; <span class='message'>The following objects are masked from ‘package:base’:</span>
+#&gt; <span class='message'></span>
+#&gt; <span class='message'>    intersect, setdiff, setequal, union</span></div><div class='input'>
+<span class='fu'><a href='data_dictionary.html'>data_dictionary</a></span>() <span class='kw'>%&gt;%</span>
+  <span class='fu'><a href='https://dplyr.tidyverse.org/reference/filter.html'>filter</a></span>(<span class='no'>dataset</span> <span class='kw'>==</span> <span class='st'>"ald"</span>)</div><div class='output co'>#&gt; <span class='error'>Error: [ENOENT] Failed to search directory '': no such file or directory</span></div></pre>
   </div>
-
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <h2>Contents</h2>
     <ul class="nav nav-pills nav-stacked">
-      <li><a href="#section-generic-datasets">Generic datasets</a></li>
-      <li><a href="#section-demo-datasets">Demo datasets</a></li>
-      <li><a href="#section-datasets-to-look-up-sector-classification-codes">Datasets to look up sector-classification codes</a></li>
+      <li><a href="#see-also">See also</a></li>
+      <li><a href="#examples">Examples</a></li>
     </ul>
+
   </div>
 </div>
 

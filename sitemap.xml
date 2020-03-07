@@ -7,6 +7,9 @@
     <loc>https://github.com/2DegreesInvesting/r2dii.data//reference/ald_demo.html</loc>
   </url>
   <url>
+    <loc>https://github.com/2DegreesInvesting/r2dii.data//reference/ald_description.html</loc>
+  </url>
+  <url>
     <loc>https://github.com/2DegreesInvesting/r2dii.data//reference/classification_bridge.html</loc>
   </url>
   <url>
@@ -17,6 +20,9 @@
   </url>
   <url>
     <loc>https://github.com/2DegreesInvesting/r2dii.data//reference/loanbook_demo.html</loc>
+  </url>
+  <url>
+    <loc>https://github.com/2DegreesInvesting/r2dii.data//reference/loanbook_description.html</loc>
   </url>
   <url>
     <loc>https://github.com/2DegreesInvesting/r2dii.data//reference/overwrite_demo.html</loc>
