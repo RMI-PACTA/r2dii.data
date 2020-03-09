@@ -12,5 +12,5 @@
 #' library(dplyr)
 #'
 #' data_dictionary() %>%
-#'   filter(dataset == "loanbook")
+#'   filter(dataset == "loanbook_demo")
 NULL

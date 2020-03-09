@@ -11,9 +11,9 @@ test_that("data_dictionary defines the expected objects", {
     "loanbook_demo",
     "nace_classification",
     "naics_classification",
-    "overwrite",
+    "overwrite_demo",
     "region_isos",
-    "scenario"
+    "scenario_demo"
   )
 
   expect_equal(sort(datasets), sort(expected_datasets))
@@ -22,7 +22,7 @@ test_that("data_dictionary defines the expected objects", {
 test_that("data_dictionary hasn't changed", {
   expect_known_value(
     data_dictionary(), "ref-data_dictionary",
-    update = TRUE
+    update = FALSE
   )
 })
 

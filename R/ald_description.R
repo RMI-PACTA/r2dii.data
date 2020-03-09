@@ -11,5 +11,5 @@
 #' library(dplyr)
 #'
 #' data_dictionary() %>%
-#'   filter(dataset == "ald")
+#'   filter(dataset == "ald_demo")
 NULL
