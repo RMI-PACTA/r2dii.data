@@ -13,7 +13,8 @@
 #' @examples
 #' data_dictionary()
 data_dictionary <- function() {
-  paths <- fs::dir_ls(system.file("extdata", package = "r2dii.data"))
+  parent <- system.file("extdata", package = "r2dii.data")
+  paths <- list.files(parent, full.names = TRUE)
   out <- purrr::map_dfr(paths, readr::read_csv, col_types = "cccc")
   dplyr::arrange(out, .data$dataset, .data$column)
 }
