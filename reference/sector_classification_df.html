@@ -69,7 +69,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="../index.html">r2dii.data</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.0.0.9000</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.0.1</span>
       </span>
     </div>
 
@@ -153,22 +153,23 @@ classification systems that 2dii uses. All other columns are defined at
 #&gt; </span><span style='color: #555555;'>10</span><span> not in scope FALSE      119   ISIC       
 #&gt; </span><span style='color: #555555;'># … with 2,590 more rows</span><span></div><div class='input'>
 <span class='fu'><a href='data_dictionary.html'>data_dictionary</a></span>() <span class='kw'>%&gt;%</span>
-  <span class='kw pkg'>dplyr</span><span class='kw ns'>::</span><span class='fu'><a href='https://dplyr.tidyverse.org/reference/filter.html'>filter</a></span>(
-    <span class='fu'><a href='https://rdrr.io/r/base/grep.html'>grepl</a></span>(<span class='st'>"_classification"</span>, <span class='no'>dataset</span>),
-    <span class='no'>column</span> <span class='kw'>%in%</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span>(<span class='st'>"sector"</span>, <span class='st'>"borderline"</span>, <span class='st'>"code"</span>, <span class='st'>"code_system"</span>)
- ) <span class='kw'>%&gt;%</span>
- <span class='kw pkg'>dplyr</span><span class='kw ns'>::</span><span class='fu'><a href='https://dplyr.tidyverse.org/reference/arrange.html'>arrange</a></span>(<span class='no'>column</span>)</div><div class='output co'>#&gt; </span><span style='color: #555555;'># A tibble: 9 x 4</span><span>
-#&gt;   dataset        column    typeof  definition                                   
-#&gt;   </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>          </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>     </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>   </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>                                        
-#&gt; </span><span style='color: #555555;'>1</span><span> isic_classifi… borderli… logical Flag indicating if 2dii sector and classific…
-#&gt; </span><span style='color: #555555;'>2</span><span> nace_classifi… borderli… logical Flag indicating if 2dii sector and classific…
-#&gt; </span><span style='color: #555555;'>3</span><span> naics_classif… borderli… logical Flag indicating if 2dii sector and classific…
-#&gt; </span><span style='color: #555555;'>4</span><span> isic_classifi… code      charac… Original ISIC code                           
-#&gt; </span><span style='color: #555555;'>5</span><span> nace_classifi… code      double  Formatted NACE code removing periods         
-#&gt; </span><span style='color: #555555;'>6</span><span> naics_classif… code      double  Formatted NAICS code                         
-#&gt; </span><span style='color: #555555;'>7</span><span> isic_classifi… sector    charac… Associated 2dii sector                       
-#&gt; </span><span style='color: #555555;'>8</span><span> nace_classifi… sector    charac… Associated 2dii sector                       
-#&gt; </span><span style='color: #555555;'>9</span><span> naics_classif… sector    charac… Associated 2dii sector                       </div></span></pre>
+  <span class='kw pkg'>dplyr</span><span class='kw ns'>::</span><span class='fu'><a href='https://dplyr.tidyverse.org/reference/filter.html'>filter</a></span>(<span class='fu'><a href='https://rdrr.io/r/base/grep.html'>grepl</a></span>(<span class='st'>"_classification"</span>, <span class='no'>dataset</span>))</div><div class='output co'>#&gt; </span><span style='color: #555555;'># A tibble: 14 x 4</span><span>
+#&gt;    dataset        column     typeof  definition                                 
+#&gt;    </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>          </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>      </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>   </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>                                      
+#&gt; </span><span style='color: #555555;'> 1</span><span> isic_classifi… borderline logical Flag indicating if 2dii sector and classif…
+#&gt; </span><span style='color: #555555;'> 2</span><span> isic_classifi… code       charac… Original ISIC code                         
+#&gt; </span><span style='color: #555555;'> 3</span><span> isic_classifi… code_level double  Level of granularity of ISIC code          
+#&gt; </span><span style='color: #555555;'> 4</span><span> isic_classifi… sector     charac… Associated 2dii sector                     
+#&gt; </span><span style='color: #555555;'> 5</span><span> nace_classifi… borderline logical Flag indicating if 2dii sector and classif…
+#&gt; </span><span style='color: #555555;'> 6</span><span> nace_classifi… code       double  Formatted NACE code removing periods       
+#&gt; </span><span style='color: #555555;'> 7</span><span> nace_classifi… code_level double  Level of granularity of NACE code          
+#&gt; </span><span style='color: #555555;'> 8</span><span> nace_classifi… original_… double  Original NACE code                         
+#&gt; </span><span style='color: #555555;'> 9</span><span> nace_classifi… sector     charac… Associated 2dii sector                     
+#&gt; </span><span style='color: #555555;'>10</span><span> naics_classif… borderline logical Flag indicating if 2dii sector and classif…
+#&gt; </span><span style='color: #555555;'>11</span><span> naics_classif… code       double  Formatted NAICS code                       
+#&gt; </span><span style='color: #555555;'>12</span><span> naics_classif… code_level double  Level of granularity of NAICS code         
+#&gt; </span><span style='color: #555555;'>13</span><span> naics_classif… original_… double  Original NAICS code                        
+#&gt; </span><span style='color: #555555;'>14</span><span> naics_classif… sector     charac… Associated 2dii sector                     </div></span></pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <h2>Contents</h2>
