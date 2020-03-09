@@ -15,6 +15,15 @@
 data_dictionary <- function() {
   parent <- system.file("extdata", package = "r2dii.data")
   paths <- list.files(parent, full.names = TRUE)
-  out <- purrr::map_dfr(paths, readr::read_csv, col_types = "cccc")
-  dplyr::arrange(out, .data$dataset, .data$column)
+  # out <- purrr::map_dfr(paths, readr::read_csv, col_types = "cccc")
+  out <- purrr::map_dfr(
+    paths,
+    ~ utils::read.csv(
+      .x,
+      colClasses = "character",
+      na.strings = c("", "NA"),
+      stringsAsFactors = FALSE
+    )
+  )
+  dplyr::arrange(dplyr::as_tibble(out), .data$dataset, .data$column)
 }
