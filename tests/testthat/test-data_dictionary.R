@@ -4,7 +4,7 @@ test_that("data_dictionary defines the expected objects", {
     unique()
 
   expected_datasets <- c(
-    "ald",
+    "ald_demo",
     "data_dictionary",
     "isic_classification",
     "iso_codes",
@@ -20,15 +20,9 @@ test_that("data_dictionary defines the expected objects", {
 })
 
 test_that("data_dictionary hasn't changed", {
-  # TODO: Remove once the object is complete (once #2 is merged)
-  expect_known_output(
-    as.data.frame(data_dictionary()), "ref-data_dictionary-output",
-    update = TRUE,
-    print = TRUE
-  )
   expect_known_value(
     data_dictionary(), "ref-data_dictionary",
-    update = TRUE
+    update = FALSE
   )
 })
 
@@ -47,4 +41,9 @@ test_that("data_dictionary defines all its names", {
 
   dd_columns <- sort(dd_definitions$column)
   expect_equal(dd_columns, sort(names(data_dictionary())))
+})
+
+test_that("includes suffix _demo", {
+  dd <- data_dictionary()$dataset
+  expect_true("ald_demo" %in% dd)
 })
