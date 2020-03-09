@@ -31,18 +31,13 @@ Depends:
     R (>= 3.3)
 Imports: 
     dplyr,
-    fs,
     magrittr,
     purrr,
-    r2dii.utils (>= 0.0.0.9003),
-    readr,
     utils,
     withr
 Suggests: 
     covr,
     testthat (>= 2.1.0)
-Remotes: 
-    2DegreesInvesting/r2dii.utils
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)

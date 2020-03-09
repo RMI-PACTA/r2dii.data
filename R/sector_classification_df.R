@@ -37,7 +37,7 @@ sector_classification_df <- function() {
 }
 
 enlist_datasets <- function(package, pattern) {
-  # Preserve attached packages
+  # Preserve attached packages (this is tricky, hence on.exit and withr)
   packages <- sub("package:", "", grep("package", search(), value = TRUE))
   on.exit(purrr::walk(packages, library, character.only = TRUE), add = TRUE)
 

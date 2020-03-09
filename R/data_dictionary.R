@@ -13,7 +13,17 @@
 #' @examples
 #' data_dictionary()
 data_dictionary <- function() {
-  paths <- fs::dir_ls(system.file("extdata", package = "r2dii.data"))
-  out <- purrr::map_dfr(paths, readr::read_csv, col_types = "cccc")
-  dplyr::arrange(out, .data$dataset, .data$column)
+  parent <- system.file("extdata", package = "r2dii.data")
+  paths <- list.files(parent, full.names = TRUE)
+  # out <- purrr::map_dfr(paths, readr::read_csv, col_types = "cccc")
+  out <- purrr::map_dfr(
+    paths,
+    ~ utils::read.csv(
+      .x,
+      colClasses = "character",
+      na.strings = c("", "NA"),
+      stringsAsFactors = FALSE
+    )
+  )
+  dplyr::arrange(dplyr::as_tibble(out), .data$dataset, .data$column)
 }
