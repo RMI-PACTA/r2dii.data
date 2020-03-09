@@ -1,0 +1,132 @@
+                dataset                                 column    typeof
+1                   ald                          ald_timestamp character
+2                   ald                    country_of_domicile character
+3                   ald                        emission_factor    double
+4                   ald               is_ultimate_listed_owner   logical
+5                   ald                      is_ultimate_owner   logical
+6                   ald                           name_company character
+7                   ald                       number_of_assets   integer
+8                   ald                         plant_location character
+9                   ald                             production    double
+10                  ald                        production_unit character
+11                  ald                                 sector character
+12                  ald                             technology character
+13                  ald                                   year   integer
+14      data_dictionary                                 column character
+15      data_dictionary                                dataset character
+16      data_dictionary                             definition character
+17      data_dictionary                                 typeof character
+18  isic_classification                             borderline   logical
+19  isic_classification                                   code character
+20  isic_classification                             code_level    double
+21  isic_classification                                 sector character
+22            iso_codes                                country character
+23            iso_codes                            country_iso character
+24             loanbook                                fi_type character
+25             loanbook              flag_project_finance_loan character
+26             loanbook                    id_direct_loantaker character
+27             loanbook               id_intermediate_parent_n character
+28             loanbook                                id_loan character
+29             loanbook                     id_ultimate_parent character
+30             loanbook                  isin_direct_loantaker   logical
+31             loanbook                   lei_direct_loantaker   logical
+32             loanbook                 loan_size_credit_limit    double
+33             loanbook        loan_size_credit_limit_currency character
+34             loanbook                  loan_size_outstanding    double
+35             loanbook         loan_size_outstanding_currency character
+36             loanbook                  name_direct_loantaker character
+37             loanbook             name_intermediate_parent_n character
+38             loanbook                           name_project   logical
+39             loanbook                   name_ultimate_parent character
+40             loanbook sector_classification_direct_loantaker    double
+41             loanbook       sector_classification_input_type character
+42             loanbook           sector_classification_system character
+43  nace_classification                             borderline   logical
+44  nace_classification                                   code    double
+45  nace_classification                             code_level    double
+46  nace_classification                          original_code    double
+47  nace_classification                                 sector character
+48 naics_classification                             borderline   logical
+49 naics_classification                                   code    double
+50 naics_classification                             code_level    double
+51 naics_classification                                 sector character
+52            overwrite                                id_2dii character
+53            overwrite                                  level character
+54            overwrite                                   name character
+55            overwrite                                 sector character
+56            overwrite                                 source character
+57          region_isos                                   isos character
+58          region_isos                                 region character
+59             scenario                                 region character
+60             scenario                               scenario character
+61             scenario                                 sector character
+62             scenario                             technology character
+63             scenario                                  units character
+64             scenario                                  value    double
+65             scenario                                   year    double
+                                                                                                                                                                                                            definition
+1                                                                                                                                                                    Date at which asset data was pulled from database
+2                                                                                                                                                                                  Country where company is registered
+3                                                                                                                                                                      Company level emission factor of the technology
+4                                                                                                                                                                        Flag if company is the listed ultimate parent
+5                                                                                                                                                               Flag if company is the ultimate parent in our database
+6                                                                                                                                                                             The name of the company owning the asset
+7                                                                                                                                                          Number of assets of a given technology owned by the company
+8                                                                                                                                                                                       Country where asset is located
+9                                                                                                                                                                           Company level production of the technology
+10                                                                                                                                                                            The units that production is measured in
+11                                                                                                                                                                                   Sector to which the asset belongs
+12                                                                                                                                                                                 Technology implemented by the asset
+13                                                                                                                                                                     Year at which the production value is predicted
+14                                                                                                                                                                                        The name of a dataset-column
+15                                                                                                                                                                                               The name of a dataset
+16                                                                                                                                                                                  The definition of a dataset-column
+17                                                                                                                                            The result of `typeof()`, one of double, integer, logical, or character.
+18                                                                                                                                       Flag indicating if 2dii sector and classification code are a borderline match
+19                                                                                                                                                                                                  Original ISIC code
+20                                                                                                                                                                                   Level of granularity of ISIC code
+21                                                                                                                                                                                              Associated 2dii sector
+22                                                                                                                                                                                                        Country name
+23                                                                                                                                                                                              Corresponding ISO code
+24                                                                                                                                                                            Financial instrument name or asset class
+25                                                                                                                              Project finance flag denoting whether a loan is given out to a particular asset or not
+26                                                                                                                                          Borrower identifier unique to each borrower/sector combination in loanbook
+27 Optional input: id of the n-th intermediate parent company within the company structure that can be used for more granular mapping than the ultimate parent. Smaller values of n are closer to the direct_loantaker
+28                                                                                                                                                                                              Unique loan identifier
+29                                                                                                                                        Ultimate parent identifier unique to each ultimate parent/sector combination
+30                                                                                                             Optional input: providing the isin identifier of the direct loan taker to improve the matching coverage
+31                                                                                               Optional input: providing the lei (legal entity identifier) of the direct loan taker to improve the matching coverage
+32                                                                                                                                                                           Total credit limit or exposure at default
+33                                                                                                                                                                              Currency corresponding to credit limit
+34                                                                                                                                                                    Amount drawn by borrower from total credit limit
+35                                                                                                                                                                              Currency corresponding to outstandings
+36                                                                                                                                                                        Name of the company directly taking the loan
+37        Optional input: name of intermediate parent company within the company structure that can be used for more granular mapping than the ultimate parent. Smaller values of n are closer to the direct_loantaker
+38                                                                                                              Required input for loans with the flag_project_finance_loan = TRUE: Name of the project being financed
+39                                                                                                                      Name of the ultimate parent company to which the borrower belongs. Can be the same as borrower
+40                                                                                                                                                                  Sector classification code of the direct loantaker
+41                                                                                                                                 Flag identifying if the sector classification code or character description is used
+42                                                                                                                                                               Name of the sector classification standard being used
+43                                                                                                                                       Flag indicating if 2dii sector and classification code are a borderline match
+44                                                                                                                                                                                Formatted NACE code removing periods
+45                                                                                                                                                                                   Level of granularity of NACE code
+46                                                                                                                                                                                                  Original NACE code
+47                                                                                                                                                                                              Associated 2dii sector
+48                                                                                                                                       Flag indicating if 2dii sector and classification code are a borderline match
+49                                                                                                                                                                                                 Original NAICS code
+50                                                                                                                                                                                  Level of granularity of NAICS code
+51                                                                                                                                                                                              Associated 2dii sector
+52                                                                                                                                                                                    IDs of the entities to overwrite
+53                                                                                                                                        Which level should be overwritten (e.g. direct_loantaker or ultimate_parent)
+54                                                                                                                                                                Overwrite name (if only overwriting sector, type NA)
+55                                                                                                                                                                Overwrite sector (if only overwriting name, type NA)
+56                                                                                                                      What is the source of this information (leave as "manual" for now, may remove this flag later)
+57                                                                                                                                                                            Countries in region, defined by iso code
+58                                                                                                                                                                                               Benchmark region name
+59                                                                                                                                                                     The region for which the benchmark has been set
+60                                                                                                                                                                      Climate scenario from which the value is drawn
+61                                                                                                                                                                               Sector in which the value is relevant
+62                                                                                                                                                                                        Technology within the sector
+63                                                                                                                                                                           Units of the production or capacity value
+64                                                                                                                                                                                        Production or capacity value
+65                                                                                                                                                               The year for which the value projection has been made
