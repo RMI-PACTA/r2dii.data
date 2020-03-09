@@ -25,7 +25,9 @@ from the wild to codes we use in 2dii such as 'power', 'oil and gas', 'coal',
 }
 \examples{
 isic_classification
+
 nace_classification
+
 naics_classification
 }
 \seealso{

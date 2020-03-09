@@ -14,7 +14,9 @@
 #'
 #' @examples
 #' isic_classification
+#'
 #' nace_classification
+#'
 #' naics_classification
 NULL
 

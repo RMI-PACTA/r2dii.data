@@ -21,8 +21,8 @@ data_dictionary() \%>\%
   dplyr::filter(
     grepl("_classification", dataset),
     column \%in\% c("sector", "borderline", "code", "code_system")
- ) \%>\%
- dplyr::arrange(column)
+  ) \%>\%
+  dplyr::arrange(column)
 }
 \seealso{
 \code{\link[=data_dictionary]{data_dictionary()}}.

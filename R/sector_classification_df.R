@@ -16,8 +16,8 @@
 #'   dplyr::filter(
 #'     grepl("_classification", dataset),
 #'     column %in% c("sector", "borderline", "code", "code_system")
-#'  ) %>%
-#'  dplyr::arrange(column)
+#'   ) %>%
+#'   dplyr::arrange(column)
 sector_classification_df <- function() {
   enlist_datasets("r2dii.data", pattern = "_classification$") %>%
     purrr::imap(~ dplyr::mutate(.x, code_system = toupper(.y))) %>%
@@ -42,10 +42,9 @@ enlist_datasets <- function(package, pattern) {
   on.exit(purrr::walk(packages, library, character.only = TRUE), add = TRUE)
 
   withr::with_package(package, {
-      data <- grep(pattern, exported_data(package), value = TRUE)
-      purrr::set_names(mget(data, inherits = TRUE), data)
-    }
-  )
+    data <- grep(pattern, exported_data(package), value = TRUE)
+    purrr::set_names(mget(data, inherits = TRUE), data)
+  })
 }
 
 exported_data <- function(package) {
