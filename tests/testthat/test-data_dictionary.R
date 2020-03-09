@@ -22,7 +22,7 @@ test_that("data_dictionary defines the expected objects", {
 test_that("data_dictionary hasn't changed", {
   expect_known_value(
     data_dictionary(), "ref-data_dictionary",
-    update = FALSE
+    update = TRUE
   )
 })
 
@@ -46,9 +46,5 @@ test_that("data_dictionary defines all its names", {
 test_that("includes suffix _demo", {
   dd <- data_dictionary()$dataset
   expect_true("ald_demo" %in% dd)
-<<<<<<< HEAD
   expect_true("loanbook_demo" %in% dd)
-
-=======
->>>>>>> ald_demo
 })

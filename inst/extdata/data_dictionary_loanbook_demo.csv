@@ -1,20 +1,20 @@
 dataset,column,typeof,definition
-loanbook,id_loan,character,Unique loan identifier
-loanbook,id_direct_loantaker,character,Borrower identifier unique to each borrower/sector combination in loanbook
-loanbook,name_direct_loantaker,character,Name of the company directly taking the loan
-loanbook,id_intermediate_parent_n,character,Optional input: id of the n-th intermediate parent company within the company structure that can be used for more granular mapping than the ultimate parent. Smaller values of n are closer to the direct_loantaker
-loanbook,name_intermediate_parent_n,character,Optional input: name of intermediate parent company within the company structure that can be used for more granular mapping than the ultimate parent. Smaller values of n are closer to the direct_loantaker
-loanbook,id_ultimate_parent,character,Ultimate parent identifier unique to each ultimate parent/sector combination
-loanbook,name_ultimate_parent,character,Name of the ultimate parent company to which the borrower belongs. Can be the same as borrower
-loanbook,loan_size_outstanding,double,Amount drawn by borrower from total credit limit
-loanbook,loan_size_outstanding_currency,character,Currency corresponding to outstandings
-loanbook,loan_size_credit_limit,double,Total credit limit or exposure at default
-loanbook,loan_size_credit_limit_currency,character,Currency corresponding to credit limit
-loanbook,sector_classification_system,character,Name of the sector classification standard being used
-loanbook,sector_classification_input_type,character,Flag identifying if the sector classification code or character description is used
-loanbook,sector_classification_direct_loantaker,double,Sector classification code of the direct loantaker
-loanbook,fi_type,character,Financial instrument name or asset class
-loanbook,flag_project_finance_loan,character,Project finance flag denoting whether a loan is given out to a particular asset or not
-loanbook,name_project,logical,Required input for loans with the flag_project_finance_loan = TRUE: Name of the project being financed
-loanbook,lei_direct_loantaker,logical,Optional input: providing the lei (legal entity identifier) of the direct loan taker to improve the matching coverage
-loanbook,isin_direct_loantaker,logical,Optional input: providing the isin identifier of the direct loan taker to improve the matching coverage
+loanbook_demo,id_loan,character,Unique loan identifier
+loanbook_demo,id_direct_loantaker,character,Borrower identifier unique to each borrower/sector combination in loanbook
+loanbook_demo,name_direct_loantaker,character,Name of the company directly taking the loan
+loanbook_demo,id_intermediate_parent_n,character,Optional input: id of the n-th intermediate parent company within the company structure that can be used for more granular mapping than the ultimate parent. Smaller values of n are closer to the direct_loantaker
+loanbook_demo,name_intermediate_parent_n,character,Optional input: name of intermediate parent company within the company structure that can be used for more granular mapping than the ultimate parent. Smaller values of n are closer to the direct_loantaker
+loanbook_demo,id_ultimate_parent,character,Ultimate parent identifier unique to each ultimate parent/sector combination
+loanbook_demo,name_ultimate_parent,character,Name of the ultimate parent company to which the borrower belongs. Can be the same as borrower
+loanbook_demo,loan_size_outstanding,double,Amount drawn by borrower from total credit limit
+loanbook_demo,loan_size_outstanding_currency,character,Currency corresponding to outstandings
+loanbook_demo,loan_size_credit_limit,double,Total credit limit or exposure at default
+loanbook_demo,loan_size_credit_limit_currency,character,Currency corresponding to credit limit
+loanbook_demo,sector_classification_system,character,Name of the sector classification standard being used
+loanbook_demo,sector_classification_input_type,character,Flag identifying if the sector classification code or character description is used
+loanbook_demo,sector_classification_direct_loantaker,double,Sector classification code of the direct loantaker
+loanbook_demo,fi_type,character,Financial instrument name or asset class
+loanbook_demo,flag_project_finance_loan,character,Project finance flag denoting whether a loan is given out to a particular asset or not
+loanbook_demo,name_project,logical,Required input for loans with the flag_project_finance_loan = TRUE: Name of the project being financed
+loanbook_demo,lei_direct_loantaker,logical,Optional input: providing the lei (legal entity identifier) of the direct loan taker to improve the matching coverage
+loanbook_demo,isin_direct_loantaker,logical,Optional input: providing the isin identifier of the direct loan taker to improve the matching coverage
