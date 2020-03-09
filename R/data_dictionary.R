@@ -40,3 +40,4 @@ get_inst_extdata <- function(regexp = NULL) {
     readr::read_csv(path_inst_extdata(regexp))
   )
 }
+
