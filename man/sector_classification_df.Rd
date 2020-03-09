@@ -18,11 +18,7 @@ A view of available sector classification datasets
 sector_classification_df()
 
 data_dictionary() \%>\%
-  dplyr::filter(
-    grepl("_classification", dataset),
-    column \%in\% c("sector", "borderline", "code", "code_system")
-  ) \%>\%
-  dplyr::arrange(column)
+  dplyr::filter(grepl("_classification", dataset))
 }
 \seealso{
 \code{\link[=data_dictionary]{data_dictionary()}}.
