@@ -12,7 +12,7 @@ additions or retirements.
 library(dplyr)
 
 data_dictionary() \%>\%
-  filter(dataset == "ald")
+  filter(dataset == "ald_demo")
 }
 \seealso{
 \link{data_dictionary}, \link{ald_demo}.

@@ -13,7 +13,7 @@ is proprietary data.
 library(dplyr)
 
 data_dictionary() \%>\%
-  filter(dataset == "loanbook")
+  filter(dataset == "loanbook_demo")
 }
 \seealso{
 \link{data_dictionary}

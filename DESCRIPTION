@@ -40,7 +40,7 @@ Imports:
     withr
 Suggests: 
     covr,
-    testthat
+    testthat (>= 2.1.0)
 Remotes: 
     2DegreesInvesting/r2dii.utils
 Encoding: UTF-8

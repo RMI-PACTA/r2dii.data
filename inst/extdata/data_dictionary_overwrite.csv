@@ -1,6 +1,0 @@
-dataset,column,typeof,definition
-overwrite,id_2dii,character,IDs of the entities to overwrite
-overwrite,level,character,Which level should be overwritten (e.g. direct_loantaker or ultimate_parent)
-overwrite,name,character,"Overwrite name (if only overwriting sector, type NA)"
-overwrite,sector,character,"Overwrite sector (if only overwriting name, type NA)"
-overwrite,source,character,"What is the source of this information (leave as ""manual"" for now, may remove this flag later)"
