@@ -13,30 +13,7 @@
 #' @examples
 #' data_dictionary()
 data_dictionary <- function() {
-  out <- dplyr::bind_rows(
-    get_inst_extdata("data_dictionary.csv"),
-    get_inst_extdata("loanbook.csv"),
-    get_inst_extdata("ald.csv"),
-    get_inst_extdata("overwrite.csv"),
-    get_inst_extdata("scenario.csv"),
-    get_inst_extdata("nace_classification.csv"),
-    get_inst_extdata("isic_classification.csv"),
-    get_inst_extdata("iso_codes.csv"),
-    get_inst_extdata("region_isos.csv")
-  )
-
+  paths <- fs::dir_ls(system.file("extdata", package = "r2dii.data"))
+  out <- purrr::map_dfr(paths, readr::read_csv, col_types = "cccc")
   dplyr::arrange(out, .data$dataset, .data$column)
-}
-
-path_inst_extdata <- function(regexp = NULL) {
-  fs::dir_ls(
-    system.file("extdata", package = "r2dii.data"),
-    regexp = regexp
-  )
-}
-
-get_inst_extdata <- function(regexp = NULL) {
-  suppressMessages(
-    readr::read_csv(path_inst_extdata(regexp))
-  )
 }

@@ -4,24 +4,31 @@ test_that("data_dictionary defines the expected objects", {
     unique()
 
   expected_datasets <- c(
-    "data_dictionary",
-    "loanbook",
     "ald",
-    "overwrite",
-    "scenario",
-    "nace_classification",
+    "data_dictionary",
     "isic_classification",
     "iso_codes",
-    "region_isos"
+    "loanbook",
+    "nace_classification",
+    "naics_classification",
+    "overwrite",
+    "region_isos",
+    "scenario"
   )
 
   expect_equal(sort(datasets), sort(expected_datasets))
 })
 
 test_that("data_dictionary hasn't changed", {
+  # TODO: Remove once the object is complete (once #2 is merged)
+  expect_known_output(
+    as.data.frame(data_dictionary()), "ref-data_dictionary-output",
+    update = TRUE,
+    print = TRUE
+  )
   expect_known_value(
     data_dictionary(), "ref-data_dictionary",
-    update = FALSE
+    update = TRUE
   )
 })
 
