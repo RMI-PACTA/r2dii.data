@@ -1,6 +1,6 @@
 dataset,column,typeof,definition
-overwrite_demo,id_2dii,character,IDs of the entities to overwrite
-overwrite_demo,level,character,Which level should be overwritten (e.g. direct_loantaker or ultimate_parent)
-overwrite_demo,name,character,"Overwrite name (if only overwriting sector, type NA)"
-overwrite_demo,sector,character,"Overwrite sector (if only overwriting name, type NA)"
-overwrite_demo,source,character,"What is the source of this information (leave as ""manual"" for now, may remove this flag later)"
+overwrite,id_2dii,character,IDs of the entities to overwrite
+overwrite,level,character,Which level should be overwritten (e.g. direct_loantaker or ultimate_parent)
+overwrite,name,character,"Overwrite name (if only overwriting sector, type NA)"
+overwrite,sector,character,"Overwrite sector (if only overwriting name, type NA)"
+overwrite,source,character,"What is the source of this information (leave as ""manual"" for now, may remove this flag later)"
