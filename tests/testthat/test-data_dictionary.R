@@ -48,3 +48,22 @@ test_that("includes suffix _demo", {
   expect_true("ald_demo" %in% dd)
   expect_true("loanbook_demo" %in% dd)
 })
+
+test_that("outputs as many rows per `dataset` as columns in `dataset`", {
+  n_defined <- data_dictionary() %>%
+    dplyr::filter(dataset != "data_dictionary") %>%
+    dplyr::select(.data$dataset, .data$column) %>%
+    dplyr::count(.data$dataset)
+
+  datasets <- purrr::map(mget(n_defined$dataset, inherits = TRUE), ncol)
+  n_cols <- datasets[sort(names(purrr::discard(datasets, is.null)))]
+
+  expect_equal(n_defined$dataset, names(n_cols))
+  out <- n_defined %>%
+    dplyr::mutate(
+      n_col = as.integer(n_cols),
+      is_equal = n == n_col
+    )
+
+  expect_true(all(out$is_equal))
+})
