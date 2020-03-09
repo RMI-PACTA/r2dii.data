@@ -48,3 +48,9 @@ test_that("data_dictionary defines all its names", {
   dd_columns <- sort(dd_definitions$column)
   expect_equal(dd_columns, sort(names(data_dictionary())))
 })
+
+test_that("defines column original_code of dataset naics_classification", {
+  dd <- data_dictionary()
+  defined <- dd[dd$dataset == "naics_classification", ]$column
+  expect_true(any(defined %in% "original_code"))
+})
