@@ -49,21 +49,22 @@
 48 naics_classification                             borderline   logical
 49 naics_classification                                   code    double
 50 naics_classification                             code_level    double
-51 naics_classification                                 sector character
-52            overwrite                                id_2dii character
-53            overwrite                                  level character
-54            overwrite                                   name character
-55            overwrite                                 sector character
-56            overwrite                                 source character
-57          region_isos                                   isos character
-58          region_isos                                 region character
-59             scenario                                 region character
-60             scenario                               scenario character
-61             scenario                                 sector character
-62             scenario                             technology character
-63             scenario                                  units character
-64             scenario                                  value    double
-65             scenario                                   year    double
+51 naics_classification                          original_code    double
+52 naics_classification                                 sector character
+53            overwrite                                id_2dii character
+54            overwrite                                  level character
+55            overwrite                                   name character
+56            overwrite                                 sector character
+57            overwrite                                 source character
+58          region_isos                                   isos character
+59          region_isos                                 region character
+60             scenario                                 region character
+61             scenario                               scenario character
+62             scenario                                 sector character
+63             scenario                             technology character
+64             scenario                                  units character
+65             scenario                                  value    double
+66             scenario                                   year    double
                                                                                                                                                                                                             definition
 1                                                                                                                                                                    Date at which asset data was pulled from database
 2                                                                                                                                                                                  Country where company is registered
@@ -113,20 +114,21 @@
 46                                                                                                                                                                                                  Original NACE code
 47                                                                                                                                                                                              Associated 2dii sector
 48                                                                                                                                       Flag indicating if 2dii sector and classification code are a borderline match
-49                                                                                                                                                                                                 Original NAICS code
+49                                                                                                                                                                                                Formatted NAICS code
 50                                                                                                                                                                                  Level of granularity of NAICS code
-51                                                                                                                                                                                              Associated 2dii sector
-52                                                                                                                                                                                    IDs of the entities to overwrite
-53                                                                                                                                        Which level should be overwritten (e.g. direct_loantaker or ultimate_parent)
-54                                                                                                                                                                Overwrite name (if only overwriting sector, type NA)
-55                                                                                                                                                                Overwrite sector (if only overwriting name, type NA)
-56                                                                                                                      What is the source of this information (leave as "manual" for now, may remove this flag later)
-57                                                                                                                                                                            Countries in region, defined by iso code
-58                                                                                                                                                                                               Benchmark region name
-59                                                                                                                                                                     The region for which the benchmark has been set
-60                                                                                                                                                                      Climate scenario from which the value is drawn
-61                                                                                                                                                                               Sector in which the value is relevant
-62                                                                                                                                                                                        Technology within the sector
-63                                                                                                                                                                           Units of the production or capacity value
-64                                                                                                                                                                                        Production or capacity value
-65                                                                                                                                                               The year for which the value projection has been made
+51                                                                                                                                                                                                 Original NAICS code
+52                                                                                                                                                                                              Associated 2dii sector
+53                                                                                                                                                                                    IDs of the entities to overwrite
+54                                                                                                                                        Which level should be overwritten (e.g. direct_loantaker or ultimate_parent)
+55                                                                                                                                                                Overwrite name (if only overwriting sector, type NA)
+56                                                                                                                                                                Overwrite sector (if only overwriting name, type NA)
+57                                                                                                                      What is the source of this information (leave as "manual" for now, may remove this flag later)
+58                                                                                                                                                                            Countries in region, defined by iso code
+59                                                                                                                                                                                               Benchmark region name
+60                                                                                                                                                                     The region for which the benchmark has been set
+61                                                                                                                                                                      Climate scenario from which the value is drawn
+62                                                                                                                                                                               Sector in which the value is relevant
+63                                                                                                                                                                                        Technology within the sector
+64                                                                                                                                                                           Units of the production or capacity value
+65                                                                                                                                                                                        Production or capacity value
+66                                                                                                                                                               The year for which the value projection has been made
