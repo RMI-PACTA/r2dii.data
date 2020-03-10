@@ -7,7 +7,7 @@
 #' then create a new dataset issue at <http://bit.ly/new-dataset-issue>.
 #'
 #' @family demo datasets
-#' @return A [dplyr::tibble].
+#' @return A [tibble::tibble].
 #'
 #' @export
 #' @examples
@@ -15,15 +15,16 @@
 data_dictionary <- function() {
   parent <- system.file("extdata", package = "r2dii.data")
   paths <- list.files(parent, full.names = TRUE)
-  # out <- purrr::map_dfr(paths, readr::read_csv, col_types = "cccc")
-  out <- purrr::map_dfr(
+
+  out <- purrr::map(
     paths,
-    ~ utils::read.csv(
+    ~ tibble::as_tibble(utils::read.csv(
       .x,
       colClasses = "character",
       na.strings = c("", "NA"),
       stringsAsFactors = FALSE
-    )
-  )
-  dplyr::arrange(dplyr::as_tibble(out), .data$dataset, .data$column)
+    ))
+  ) %>% purrr::reduce(rbind)
+
+  out[order(out$dataset, out$column), , drop = FALSE]
 }

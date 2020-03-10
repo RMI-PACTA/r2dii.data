@@ -7,7 +7,7 @@
 data_dictionary()
 }
 \value{
-A \link[dplyr:tibble]{dplyr::tibble}.
+A \link[tibble:tibble]{tibble::tibble}.
 }
 \description{
 A dataset that defiles the columns of r2dii datasets

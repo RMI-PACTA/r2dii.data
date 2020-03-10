@@ -10,10 +10,8 @@ the borrower and the size of the loan. The information comes from banks and
 is proprietary data.
 }
 \examples{
-library(dplyr)
-
-data_dictionary() \%>\%
-  filter(dataset == "loanbook_demo")
+dd <- data_dictionary()
+dd[dd$dataset == "loanbook_demo", ]
 }
 \seealso{
 \link{data_dictionary}

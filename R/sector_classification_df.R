@@ -12,24 +12,24 @@
 #' @examples
 #' sector_classification_df()
 #'
-#' data_dictionary() %>%
-#'   dplyr::filter(grepl("_classification", dataset))
+#' dd <- data_dictionary()
+#' dd[grepl("_classification", dd$dataset), ]
 sector_classification_df <- function() {
-  enlist_datasets("r2dii.data", pattern = "_classification$") %>%
-    purrr::imap(~ dplyr::mutate(.x, code_system = toupper(.y))) %>%
-    purrr::map(
-      dplyr::select,
-      .data$sector, .data$borderline, .data$code, .data$code_system
-    ) %>%
+  out <- enlist_datasets("r2dii.data", pattern = "_classification$") %>%
+    purrr::imap(~ transform(.x, code_system = toupper(.y))) %>%
+    purrr::map(~ .x[c("sector", "borderline", "code", "code_system")]) %>%
     # Coerce every column to character for more robust reduce() and join()
     purrr::map(~ purrr::modify(.x, as.character)) %>%
     # Collapse the list of dataframes to a single, row-bind dataframe
-    purrr::reduce(dplyr::bind_rows) %>%
+    purrr::reduce(rbind) %>%
     purrr::modify_at("borderline", as.logical) %>%
     # Avoid duplicates
-    unique() %>%
+    unique()
+
+  out %>%
     # Reformat code_system
-    dplyr::mutate(code_system = gsub("_CLASSIFICATION", "", .data$code_system))
+    transform(code_system = gsub("_CLASSIFICATION", "", out$code_system)) %>%
+    tibble::as_tibble()
 }
 
 enlist_datasets <- function(package, pattern) {
@@ -37,7 +37,7 @@ enlist_datasets <- function(package, pattern) {
   packages <- sub("package:", "", grep("package", search(), value = TRUE))
   on.exit(purrr::walk(packages, library, character.only = TRUE), add = TRUE)
 
-  withr::with_package(package, {
+  with_package(package, {
     data <- grep(pattern, exported_data(package), value = TRUE)
     purrr::set_names(mget(data, inherits = TRUE), data)
   })
@@ -45,4 +45,30 @@ enlist_datasets <- function(package, pattern) {
 
 exported_data <- function(package) {
   utils::data(package = package)$results[, "Item"]
+}
+
+# Copy from withr::with_package to avoid dependency
+with_package <- function(package,
+                         code,
+                         help,
+                         pos = 2,
+                         lib.loc = NULL,
+                         character.only = TRUE,
+                         logical.return = FALSE,
+                         warn.conflicts = FALSE,
+                         quietly = TRUE,
+                         verbose = getOption("verbose")) {
+  suppressPackageStartupMessages((get("library"))(
+    package,
+    help = help,
+    pos = pos,
+    lib.loc = lib.loc,
+    character.only = character.only,
+    logical.return = logical.return,
+    warn.conflicts = warn.conflicts,
+    quietly = quietly,
+    verbose = verbose
+  ))
+  on.exit(detach(paste0("package:", package), character.only = TRUE))
+  force(code)
 }

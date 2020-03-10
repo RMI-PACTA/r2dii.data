@@ -8,8 +8,6 @@
 #' @seealso [data_dictionary], [ald_demo].
 #' @family generic datasets
 #' @examples
-#' library(dplyr)
-#'
-#' data_dictionary() %>%
-#'   filter(dataset == "ald_demo")
+#' dd <- data_dictionary()
+#' dd[dd$dataset == "ald_demo", ]
 NULL

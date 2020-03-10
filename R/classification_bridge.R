@@ -8,7 +8,7 @@
 #'
 #' @family datasets for bridging sector classification codes
 #'
-#' @return A [dplyr::tibble].
+#' @return A [tibble::tibble].
 #'
 #' @name classification_bridge
 #'

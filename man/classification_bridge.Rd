@@ -16,7 +16,7 @@ nace_classification
 naics_classification
 }
 \value{
-A \link[dplyr:tibble]{dplyr::tibble}.
+A \link[tibble:tibble]{tibble::tibble}.
 }
 \description{
 These datasets help to bridge (translate) common sector classification codes

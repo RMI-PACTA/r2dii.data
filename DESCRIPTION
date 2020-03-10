@@ -19,9 +19,9 @@ Authors@R:
       person(given = "2 Degrees Investing Initiative",
              role = c("cph", "fnd"),
              email = "contact@2degrees-investing.org"))
-Description: A collection of datasets to facilitate analyses aimed to better
-    understand how financial markets align with climate goals. For more 
-    information visit <https://2degrees-investing.org/>.
+Description: A collection of datasets to facilitate analyses
+    aimed to better understand how financial markets align with climate
+    goals. For more information visit <https://2degrees-investing.org/>.
 License: GPL-3
 URL: https://github.com/2DegreesInvesting/r2dii.data
 BugReports: 
@@ -29,11 +29,10 @@ BugReports:
 Depends: 
     R (>= 3.3)
 Imports: 
-    dplyr,
     magrittr,
     purrr,
-    utils,
-    withr
+    tibble,
+    utils
 Suggests: 
     covr,
     testthat (>= 2.1.0)

@@ -1,7 +1,5 @@
 test_that("data_dictionary defines the expected objects", {
-  datasets <- data_dictionary() %>%
-    dplyr::pull(dataset) %>%
-    unique()
+  datasets <- unique(data_dictionary()$dataset)
 
   expected_datasets <- c(
     "ald_demo",
@@ -26,6 +24,15 @@ test_that("data_dictionary hasn't changed", {
   )
 })
 
+test_that("known output", {
+  expect_known_output(
+    as.data.frame(data_dictionary()),
+    "ref-data_dictionary-output",
+    print = TRUE,
+    update = FALSE
+  )
+})
+
 test_that("data_dictionary has the expected names", {
   expect_named(
     data_dictionary(),
@@ -34,9 +41,8 @@ test_that("data_dictionary has the expected names", {
 })
 
 test_that("data_dictionary defines all its names", {
-  dd_definitions <- data_dictionary() %>%
-    dplyr::filter(.data$dataset == "data_dictionary")
-
+  dd <- data_dictionary()
+  dd_definitions <- dd[dd$dataset == "data_dictionary", , drop = FALSE]
   expect_equal(nrow(dd_definitions), 4L)
 
   dd_columns <- sort(dd_definitions$column)
@@ -50,20 +56,24 @@ test_that("includes suffix _demo", {
 })
 
 test_that("outputs as many rows per `dataset` as columns in `dataset`", {
-  n_defined <- data_dictionary() %>%
-    dplyr::filter(dataset != "data_dictionary") %>%
-    dplyr::select(.data$dataset, .data$column) %>%
-    dplyr::count(.data$dataset)
+  # Data in data_dictionary
+  dic <- data_dictionary()
+  defined1 <- dic[dic$dataset != "data_dictionary", c("dataset", "column")]
+  defined2 <- table(defined1$dataset)
 
-  datasets <- purrr::map(mget(n_defined$dataset, inherits = TRUE), ncol)
+  # Data in data/
+  datasets <- purrr::map(mget(names(defined2), inherits = TRUE), ncol)
   n_cols <- datasets[sort(names(purrr::discard(datasets, is.null)))]
 
-  expect_equal(n_defined$dataset, names(n_cols))
-  out <- n_defined %>%
-    dplyr::mutate(
-      n_col = as.integer(n_cols),
-      is_equal = n == n_col
-    )
+  # Should have the same names
+  expect_equal(names(defined2), names(n_cols))
 
-  expect_true(all(out$is_equal))
+  # Compare num cols of each dataset in data/ to num of rows in data_dictionary
+  out <- tibble::tibble(
+    dataset = names(defined2),
+    n = unname(defined2),
+    n_col = as.integer(n_cols)
+  )
+  out2 <- transform(out, is_equal = out$n == out$n_col)
+  expect_true(all(out2$is_equal))
 })

@@ -9,10 +9,8 @@ variety of sectors and technologies, including forward looking projected
 additions or retirements.
 }
 \examples{
-library(dplyr)
-
-data_dictionary() \%>\%
-  filter(dataset == "ald_demo")
+dd <- data_dictionary()
+dd[dd$dataset == "ald_demo", ]
 }
 \seealso{
 \link{data_dictionary}, \link{ald_demo}.
