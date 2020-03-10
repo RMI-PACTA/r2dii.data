@@ -1,5 +1,6 @@
 Package: r2dii.data
-Title: Datasets to Aligning Financial Markets with Climate Goals
+Title: Datasets to Help Align Financial Markets with Climate
+    Goals
 Version: 0.0.1
 Authors@R: 
     c(person(given = "Mauro",
@@ -19,9 +20,9 @@ Authors@R:
       person(given = "2 Degrees Investing Initiative",
              role = c("cph", "fnd"),
              email = "contact@2degrees-investing.org"))
-Description: A collection of datasets to facilitate analyses
-    aimed to better understand how financial markets align with climate
-    goals. For more information visit <https://2degrees-investing.org/>.
+Description: A collection of datasets to facilitate studying how
+    financial markets align with climate goals. For more information visit
+    <https://2degrees-investing.org/>.
 License: GPL-3
 URL: https://github.com/2DegreesInvesting/r2dii.data
 BugReports: 
