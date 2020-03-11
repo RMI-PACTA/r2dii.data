@@ -19,7 +19,7 @@ knitr::opts_chunk$set(
 [![Codecov test coverage](https://codecov.io/gh/2DegreesInvesting/r2dii.data/branch/master/graph/badge.svg)](https://codecov.io/gh/2DegreesInvesting/r2dii.data?branch=master)
 <!-- badges: end -->
 
-The goal of r2dii.data is to host and document r2dii datasets, including generic datasets, and fake datasets for examples and tests.
+The goal of r2dii.data is to provide datasets to facilitate studying how financial markets align with climate goals. It contains mostly fake datasets for examples and tests.
 
 ## Installation
 
@@ -33,6 +33,12 @@ devtools::install_github("2DegreesInvesting/r2dii.data")
 [How to minimize installation errors?](https://gist.github.com/maurolepore/a0187be9d40aee95a43f20a85f4caed6#installation)
 
 ## Example 
+
+```{r}
+library(r2dii.data)
+
+data_dictionary()
+```
 
 [Go to examples](https://2degreesinvesting.github.io/r2dii/#examples).
 
