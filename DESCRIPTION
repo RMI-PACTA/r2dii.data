@@ -20,14 +20,13 @@ Authors@R:
              role = c("cph", "fnd"),
              email = "contact@2degrees-investing.org"))
 Description: These datasets support the implementation in R of
-    the software 'PACTA' (Paris Agreement Capital Transition Assessment).
-    'PACTA' is a free tool that calculates the alignment between financial
+    the software 'PACTA' (Paris Agreement Capital Transition Assessment),
+    which is a free tool that calculates the alignment between financial
     assets and climate scenarios (<https://www.transitionmonitor.com/>).
-    Banks, for example, use it to test if their corporate lending
-    portfolios align with a benchmark of two degrees Celsius, and thus to
-    understand how the money they lend may impact the climate. Because
-    financial institutions keep their data private, this package provides
-    public datasets to help build and train users of 'PACTA' in R.
+    Banks, for example, use 'PACTA' to study how the money they lend
+    impacts the climate. Because financial institutions keep their data
+    private, this package provides public data to enable the development
+    and use of 'PACTA' in R.
 License: GPL-3
 URL: https://github.com/2DegreesInvesting/r2dii.data
 BugReports: 
