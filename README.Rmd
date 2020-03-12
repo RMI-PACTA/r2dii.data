@@ -19,7 +19,7 @@ knitr::opts_chunk$set(
 [![Codecov test coverage](https://codecov.io/gh/2DegreesInvesting/r2dii.data/branch/master/graph/badge.svg)](https://codecov.io/gh/2DegreesInvesting/r2dii.data?branch=master)
 <!-- badges: end -->
 
-The goal of r2dii.data is to provide datasets to facilitate studying how financial markets align with climate goals. It contains mostly fake datasets for examples and tests.
+These datasets support the implementation in R of the software 'PACTA' (Paris Agreement Capital Transition Assessment). 'PACTA' is free software tool that calculates the alignment between climate scenarios and financial assets (<https://www.transitionmonitor.com/>). Banks, for example, use it to test if their corporate-lending portfolios align with a benchmark of two degrees celsius, and thus understand how the money they lend may impact the climate. Because financial institutions keep their data private, this package provides public datasets to enable the development of 'PACTA' in R.
 
 ## Installation
 
