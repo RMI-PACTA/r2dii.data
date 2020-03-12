@@ -10,8 +10,7 @@ test_that("data_dictionary defines the expected objects", {
     "nace_classification",
     "naics_classification",
     "overwrite_demo",
-    "region_isos",
-    "scenario_demo"
+    "region_isos"
   )
 
   expect_equal(sort(datasets), sort(expected_datasets))
@@ -22,9 +21,7 @@ test_that("data_dictionary hasn't changed", {
     data_dictionary(), "ref-data_dictionary",
     update = FALSE
   )
-})
 
-test_that("known output", {
   expect_known_output(
     as.data.frame(data_dictionary()),
     "ref-data_dictionary-output",

@@ -1,8 +1,0 @@
-dataset,column,typeof,definition
-scenario_demo,scenario,character,Climate scenario from which the value is drawn
-scenario_demo,sector,character,Sector in which the value is relevant
-scenario_demo,technology,character,Technology within the sector
-scenario_demo,region,character,The region for which the benchmark has been set
-scenario_demo,year,double,The year for which the value projection has been made
-scenario_demo,value,double,Production or capacity value
-scenario_demo,units,character,Units of the production or capacity value

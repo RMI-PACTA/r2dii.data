@@ -58,13 +58,6 @@
 57       overwrite_demo                                 source character
 58          region_isos                                   isos character
 59          region_isos                                 region character
-60        scenario_demo                                 region character
-61        scenario_demo                               scenario character
-62        scenario_demo                                 sector character
-63        scenario_demo                             technology character
-64        scenario_demo                                  units character
-65        scenario_demo                                  value    double
-66        scenario_demo                                   year    double
                                                                                                                                                                                                             definition
 1                                                                                                                                                                    Date at which asset data was pulled from database
 2                                                                                                                                                                                  Country where company is registered
@@ -125,10 +118,3 @@
 57                                                                                                                      What is the source of this information (leave as "manual" for now, may remove this flag later)
 58                                                                                                                                                                            Countries in region, defined by iso code
 59                                                                                                                                                                                               Benchmark region name
-60                                                                                                                                                                     The region for which the benchmark has been set
-61                                                                                                                                                                      Climate scenario from which the value is drawn
-62                                                                                                                                                                               Sector in which the value is relevant
-63                                                                                                                                                                                        Technology within the sector
-64                                                                                                                                                                           Units of the production or capacity value
-65                                                                                                                                                                                        Production or capacity value
-66                                                                                                                                                               The year for which the value projection has been made

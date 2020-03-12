@@ -23,8 +23,7 @@ Other demo datasets:
 \code{\link{data_dictionary}()},
 \code{\link{iso_codes}},
 \code{\link{overwrite_demo}},
-\code{\link{region_isos}},
-\code{\link{scenario_demo}}
+\code{\link{region_isos}}
 }
 \concept{demo datasets}
 \keyword{datasets}
