@@ -4,9 +4,7 @@
 \name{loanbook_demo}
 \alias{loanbook_demo}
 \title{A loanbook dataset for demonstration}
-\format{
-An object of class \code{spec_tbl_df} (inherits from \code{tbl_df}, \code{tbl}, \code{data.frame}) with 320 rows and 19 columns.
-}
+\format{An object of class \code{spec_tbl_df} (inherits from \code{tbl_df}, \code{tbl}, \code{data.frame}) with 320 rows and 19 columns.}
 \usage{
 loanbook_demo
 }

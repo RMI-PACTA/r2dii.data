@@ -7,13 +7,7 @@
 \alias{nace_classification}
 \alias{naics_classification}
 \title{Datasets to bridge (translate) common sector-classification codes}
-\format{
-An object of class \code{spec_tbl_df} (inherits from \code{tbl_df}, \code{tbl}, \code{data.frame}) with 768 rows and 4 columns.
-
-An object of class \code{spec_tbl_df} (inherits from \code{tbl_df}, \code{tbl}, \code{data.frame}) with 929 rows and 5 columns.
-
-An object of class \code{spec_tbl_df} (inherits from \code{tbl_df}, \code{tbl}, \code{data.frame}) with 929 rows and 5 columns.
-}
+\format{An object of class \code{spec_tbl_df} (inherits from \code{tbl_df}, \code{tbl}, \code{data.frame}) with 768 rows and 4 columns.}
 \usage{
 isic_classification
 

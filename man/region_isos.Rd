@@ -4,9 +4,7 @@
 \name{region_isos}
 \alias{region_isos}
 \title{A dataset outlining various region definitions (using iso codes)}
-\format{
-An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 1044 rows and 2 columns.
-}
+\format{An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 1044 rows and 2 columns.}
 \usage{
 region_isos
 }

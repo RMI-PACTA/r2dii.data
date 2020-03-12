@@ -4,9 +4,7 @@
 \name{iso_codes}
 \alias{iso_codes}
 \title{A dataset linking country names with their ISO code}
-\format{
-An object of class \code{spec_tbl_df} (inherits from \code{tbl_df}, \code{tbl}, \code{data.frame}) with 286 rows and 2 columns.
-}
+\format{An object of class \code{spec_tbl_df} (inherits from \code{tbl_df}, \code{tbl}, \code{data.frame}) with 286 rows and 2 columns.}
 \usage{
 iso_codes
 }
