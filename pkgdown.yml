@@ -1,7 +1,17 @@
 pandoc: 2.7.3
 pkgdown: 1.4.1.9000
-pkgdown_sha: 42bd8ad4b801cbfbb9494f415ca5ac39a8511dfb
+pkgdown_sha: 569bf425e015f4ecbd4d135213bd799bfa349e6a
 articles: []
+last_built:
+  sec: 0.0
+  min: 22
+  hour: 15
+  mday: 12
+  mon: 2
+  year: 120
+  wday: 4
+  yday: 71
+  isdst: 0
 urls:
   reference: https://github.com/2DegreesInvesting/r2dii.data//reference
   article: https://github.com/2DegreesInvesting/r2dii.data//articles
