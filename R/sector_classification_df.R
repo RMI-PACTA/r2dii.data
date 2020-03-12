@@ -15,21 +15,19 @@
 #' dd <- data_dictionary()
 #' dd[grepl("_classification", dd$dataset), ]
 sector_classification_df <- function() {
-  out <- enlist_datasets("r2dii.data", pattern = "_classification$") %>%
-    purrr::imap(~ transform(.x, code_system = toupper(.y))) %>%
-    purrr::map(~ .x[c("sector", "borderline", "code", "code_system")]) %>%
-    # Coerce every column to character for more robust reduce() and join()
-    purrr::map(~ purrr::modify(.x, as.character)) %>%
-    # Collapse the list of dataframes to a single, row-bind dataframe
-    purrr::reduce(rbind) %>%
-    purrr::modify_at("borderline", as.logical) %>%
-    # Avoid duplicates
-    unique()
+  out <- enlist_datasets("r2dii.data", pattern = "_classification$")
+  out <- purrr::imap(out, ~ transform(.x, code_system = toupper(.y)))
+  out <- purrr::map(out, ~ .x[c("sector", "borderline", "code", "code_system")])
+  # Coerce every column to character for more robust reduce() and join()
+  out <- purrr::map(out, ~ purrr::modify(.x, as.character))
+  # Collapse the list of dataframes to a single, row-bind dataframe
+  out <- purrr::reduce(out, rbind)
+  out <- unique(purrr::modify_at(out, "borderline", as.logical))
 
-  out %>%
+  tibble::as_tibble(
     # Reformat code_system
-    transform(code_system = gsub("_CLASSIFICATION", "", out$code_system)) %>%
-    tibble::as_tibble()
+    transform(out, code_system = gsub("_CLASSIFICATION", "", out$code_system))
+  )
 }
 
 enlist_datasets <- function(package, pattern) {

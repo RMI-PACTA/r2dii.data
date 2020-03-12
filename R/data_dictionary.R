@@ -24,7 +24,8 @@ data_dictionary <- function() {
       na.strings = c("", "NA"),
       stringsAsFactors = FALSE
     ))
-  ) %>% purrr::reduce(rbind)
+  )
 
+  out <- purrr::reduce(out, rbind)
   out[order(out$dataset, out$column), , drop = FALSE]
 }
