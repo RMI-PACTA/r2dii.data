@@ -1,4 +1,25 @@
-test_that("data_dictionary defines the expected objects", {
+test_that("hasn't changed", {
+  expect_known_value(
+    data_dictionary(), "ref-data_dictionary",
+    update = FALSE
+  )
+
+  expect_known_output(
+    as.data.frame(data_dictionary()),
+    "ref-data_dictionary-output",
+    print = TRUE,
+    update = FALSE
+  )
+})
+
+test_that("has the expected names", {
+  expect_named(
+    data_dictionary(),
+    c("dataset", "column", "typeof", "definition")
+  )
+})
+
+test_that("defines the expected objects", {
   datasets <- unique(data_dictionary()$dataset)
 
   expected_datasets <- c(
@@ -16,28 +37,7 @@ test_that("data_dictionary defines the expected objects", {
   expect_equal(sort(datasets), sort(expected_datasets))
 })
 
-test_that("data_dictionary hasn't changed", {
-  expect_known_value(
-    data_dictionary(), "ref-data_dictionary",
-    update = FALSE
-  )
-
-  expect_known_output(
-    as.data.frame(data_dictionary()),
-    "ref-data_dictionary-output",
-    print = TRUE,
-    update = FALSE
-  )
-})
-
-test_that("data_dictionary has the expected names", {
-  expect_named(
-    data_dictionary(),
-    c("dataset", "column", "typeof", "definition")
-  )
-})
-
-test_that("data_dictionary defines all its names", {
+test_that("defines all its names", {
   dd <- data_dictionary()
   dd_definitions <- dd[dd$dataset == "data_dictionary", , drop = FALSE]
   expect_equal(nrow(dd_definitions), 4L)
