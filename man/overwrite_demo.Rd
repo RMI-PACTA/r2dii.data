@@ -4,7 +4,9 @@
 \name{overwrite_demo}
 \alias{overwrite_demo}
 \title{A demonstration dataset used to overwrite specific entity names or sectors}
-\format{An object of class \code{spec_tbl_df} (inherits from \code{tbl_df}, \code{tbl}, \code{data.frame}) with 2 rows and 5 columns.}
+\format{
+An object of class \code{spec_tbl_df} (inherits from \code{tbl_df}, \code{tbl}, \code{data.frame}) with 2 rows and 5 columns.
+}
 \usage{
 overwrite_demo
 }

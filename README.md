@@ -13,14 +13,13 @@ coverage](https://codecov.io/gh/2DegreesInvesting/r2dii.data/branch/master/graph
 <!-- badges: end -->
 
 These datasets support the implementation in R of the software ‘PACTA’
-(Paris Agreement Capital Transition Assessment). ‘PACTA’ is a free tool
+(Paris Agreement Capital Transition Assessment), which is a free tool
 that calculates the alignment between financial assets and climate
 scenarios (<https://www.transitionmonitor.com/>). Banks, for example,
-use it to test if their corporate lending portfolios align with a
-benchmark of two degrees Celsius, and thus to understand how the money
-they lend may impact the climate. Because financial institutions keep
-their data private, this package provides public datasets to help build
-and train users of ‘PACTA’ in R.
+use ‘PACTA’ to study how the money they lend impacts the climate.
+Because financial institutions keep their data private, this package
+provides fake, public data to enable the development and use of ‘PACTA’
+in R.
 
 ## Installation
 
@@ -40,7 +39,7 @@ errors?](https://gist.github.com/maurolepore/a0187be9d40aee95a43f20a85f4caed6#in
 library(r2dii.data)
 
 data_dictionary()
-#> # A tibble: 66 x 4
+#> # A tibble: 59 x 4
 #>    dataset  column             typeof  definition                               
 #>    <chr>    <chr>              <chr>   <chr>                                    
 #>  1 ald_demo ald_timestamp      charac… Date at which asset data was pulled from…
@@ -53,7 +52,7 @@ data_dictionary()
 #>  8 ald_demo plant_location     charac… Country where asset is located           
 #>  9 ald_demo production         double  Company level production of the technolo…
 #> 10 ald_demo production_unit    charac… The units that production is measured in 
-#> # … with 56 more rows
+#> # … with 49 more rows
 ```
 
 [Go to examples](https://2degreesinvesting.github.io/r2dii/#examples).
