@@ -1,6 +1,6 @@
 Package: r2dii.data
 Title: Datasets to Align Financial Markets with Climate Goals
-Version: 0.0.1
+Version: 0.0.1.9000
 Authors@R: 
     c(person(given = "Mauro",
              family = "Lepore",
