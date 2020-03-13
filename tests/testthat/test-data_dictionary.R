@@ -1,14 +1,7 @@
 test_that("hasn't changed", {
   expect_known_value(
     data_dictionary(), "ref-data_dictionary",
-    update = T
-  )
-
-  expect_known_output(
-    as.data.frame(data_dictionary()),
-    "ref-data_dictionary-output",
-    print = TRUE,
-    update = T
+    update = FALSE
   )
 })
 

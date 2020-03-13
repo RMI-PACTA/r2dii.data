@@ -3,11 +3,6 @@ test_that("hasn't change", {
     sector_classifications, "ref-sector_classifications",
     update = FALSE
   )
-  expect_known_output(
-    sector_classifications, "ref-sector_classifications-output",
-    update = FALSE,
-    print = TRUE
-  )
 })
 
 test_that("has an entry in data_dictionary", {
