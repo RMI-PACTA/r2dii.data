@@ -40,7 +40,8 @@ naics_classification
 \code{\link[=data_dictionary]{data_dictionary()}}.
 
 Other datasets for bridging sector classification codes: 
-\code{\link{sector_classification_df}()}
+\code{\link{sector_classification_df}()},
+\code{\link{sector_classifications}}
 }
 \concept{datasets for bridging sector classification codes}
 \keyword{datasets}

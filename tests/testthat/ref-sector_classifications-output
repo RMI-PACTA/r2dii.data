@@ -1,0 +1,14 @@
+# A tibble: 2,600 x 4
+   sector       borderline code  code_system
+   <chr>        <lgl>      <chr> <chr>      
+ 1 not in scope FALSE      A     ISIC       
+ 2 not in scope FALSE      1     ISIC       
+ 3 not in scope FALSE      11    ISIC       
+ 4 not in scope FALSE      111   ISIC       
+ 5 not in scope FALSE      112   ISIC       
+ 6 not in scope FALSE      113   ISIC       
+ 7 not in scope FALSE      114   ISIC       
+ 8 not in scope FALSE      115   ISIC       
+ 9 not in scope FALSE      116   ISIC       
+10 not in scope FALSE      119   ISIC       
+# … with 2,590 more rows

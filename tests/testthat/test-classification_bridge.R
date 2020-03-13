@@ -1,9 +1,15 @@
 test_that("all classification datasets have minimum expected names", {
-  all_data <- enlist_datasets("r2dii.data", pattern = "")
-  classification_data <- all_data[grepl("_classification", names(all_data))]
-  crucial <- c("code", "sector", "borderline")
+  classification_data <- list(
+    isic_classification = isic_classification,
+    nace_classification = nace_classification,
+    naics_classification = naics_classification
+  )
 
-  actual <- purrr::map_lgl(classification_data, ~ all(crucial %in% names(.x)))
+  actual <- vapply(
+    classification_data,
+    function(.x) all(c("code", "sector", "borderline") %in% names(.x)),
+    FUN.VALUE = logical(1)
+  )
   expect <- c(
     isic_classification = TRUE,
     nace_classification = TRUE,

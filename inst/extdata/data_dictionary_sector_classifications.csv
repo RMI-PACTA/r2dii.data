@@ -1,0 +1,5 @@
+dataset,column,typeof,definition
+sector_classifications,sector,character,Associated 2dii sector
+sector_classifications,borderline,character,Flag indicating if 2dii sector and classification code are a borderline match
+sector_classifications,code,character,Formatted code
+sector_classifications,code_system,character,Code system
