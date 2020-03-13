@@ -1,23 +1,9 @@
 # Source: https://github.com/2DegreesInvesting/r2dii.dataraw/pull/4
 
-#' Helper: If column `X1` exists, remove it
-#'
-#' The column `X1` may exist and contain needless rownames. It's likely the
-#' result of the default argument `row.names = FALSE` to `read.table()`.
-#'
-#' @examples
-#' remove_rownames_column(data.frame(X1 = 1, x = 2))
-#' @noRd
-remove_rownames_column <- function(data) {
-  if (!rlang::has_name(data, "X1")) {
-    return(data)
-  }
-
-  data$X1 <- NULL
-  data
-}
-
-path <- here::here("data-raw/loanbook.csv")
+path <- here::here("data-raw/loanbook_demo.csv")
+# The column `X1` may exist and contain needless rownames -- that's likely
+# because the data was read with `read.table()` using `row.names = FALSE`
+if (hasName(data, "X1")) stop("Must remove column `X1`")
 loanbook_demo <- remove_rownames_column(readr::read_csv(path))
 
 usethis::use_data(loanbook_demo, overwrite = TRUE)

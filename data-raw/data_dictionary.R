@@ -1,5 +1,4 @@
-parent <- system.file("extdata", package = "r2dii.data")
-paths <- list.files(parent, full.names = TRUE)
+paths <- list.files(here::here("data-raw/data_dictionary"), full.names = TRUE)
 
 out <- lapply(
   paths,
