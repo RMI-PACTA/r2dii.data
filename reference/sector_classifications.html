@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>A dataset that defiles the columns of r2dii datasets — data_dictionary • r2dii.data</title>
+<title>A view of available sector classification datasets — sector_classifications • r2dii.data</title>
 
 
 <!-- jquery -->
@@ -35,8 +35,8 @@
 
 
 
-<meta property="og:title" content="A dataset that defiles the columns of r2dii datasets — data_dictionary" />
-<meta property="og:description" content="A dataset that defiles the columns of r2dii datasets" />
+<meta property="og:title" content="A view of available sector classification datasets — sector_classifications" />
+<meta property="og:description" content="A view of available sector classification datasets" />
 
 
 
@@ -113,59 +113,61 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>A dataset that defiles the columns of r2dii datasets</h1>
-    <small class="dont-index">Source: <a href='https://github.com/2DegreesInvesting/r2dii.data/blob/master/R/data_dictionary.R'><code>R/data_dictionary.R</code></a></small>
-    <div class="hidden name"><code>data_dictionary.Rd</code></div>
+    <h1>A view of available sector classification datasets</h1>
+    <small class="dont-index">Source: <a href='https://github.com/2DegreesInvesting/r2dii.data/blob/master/R/sector_classifications.R'><code>R/sector_classifications.R</code></a></small>
+    <div class="hidden name"><code>sector_classifications.Rd</code></div>
     </div>
 
     <div class="ref-description">
-    <p>A dataset that defiles the columns of r2dii datasets</p>
+    <p>A view of available sector classification datasets</p>
     </div>
 
-    <pre class="usage"><span class='fu'>data_dictionary</span>()</pre>
+    <pre class="usage"><span class='no'>sector_classifications</span></pre>
 
 
+    <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
+
+    <p>An object of class <code>tbl_df</code> (inherits from <code>tbl</code>, <code>data.frame</code>) with 2600 rows and 4 columns.</p>
     <h2 class="hasAnchor" id="value"><a class="anchor" href="#value"></a>Value</h2>
 
-    <p>A <a href='https://tibble.tidyverse.org/reference/tibble.html'>tibble::tibble</a>.</p>
-    <h2 class="hasAnchor" id="extending-the-data-dictionary"><a class="anchor" href="#extending-the-data-dictionary"></a>Extending the data dictionary</h2>
-
-    
-
-<p>To extend the output of <code>data_dictionary()</code> so that it includes
-the <code>definition</code> and <code>typeof</code> each <code>column</code> of a new <code>dataset</code>,
-you should fill the Google Sheet at <a href='http://bit.ly/data_dictionary_template'>http://bit.ly/data_dictionary_template</a>,
-then create a new dataset issue at <a href='http://bit.ly/new-dataset-issue'>http://bit.ly/new-dataset-issue</a>.</p>
+    <p>A <code><a href='https://tibble.tidyverse.org/reference/tibble.html'>tibble::tibble()</a></code>. The column <code>code_system</code> names one of the
+classification systems that 2dii uses. All other columns are defined at
+<code><a href='data_dictionary.html'>data_dictionary()</a></code>.</p>
     <h2 class="hasAnchor" id="see-also"><a class="anchor" href="#see-also"></a>See also</h2>
 
-    <div class='dont-index'><p>Other demo datasets: 
-<code><a href='ald_demo.html'>ald_demo</a></code>,
-<code><a href='iso_codes.html'>iso_codes</a></code>,
-<code><a href='loanbook_demo.html'>loanbook_demo</a></code>,
-<code><a href='overwrite_demo.html'>overwrite_demo</a></code>,
-<code><a href='region_isos.html'>region_isos</a></code></p></div>
+    <div class='dont-index'><p><code><a href='data_dictionary.html'>data_dictionary()</a></code>.</p>
+<p>Other datasets for bridging sector classification codes: 
+<code><a href='classification_bridge.html'>classification_bridge</a></code></p></div>
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
-    <pre class="examples"><div class='input'><span class='fu'>data_dictionary</span>()</div><div class='output co'>#&gt; <span style='color: #555555;'># A tibble: 63 x 4</span><span>
-#&gt;    dataset  column             typeof  definition                               
-#&gt;    </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>    </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>              </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>   </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>                                    
-#&gt; </span><span style='color: #555555;'> 1</span><span> ald_demo ald_timestamp      charac… Date at which asset data was pulled from…
-#&gt; </span><span style='color: #555555;'> 2</span><span> ald_demo country_of_domici… charac… Country where company is registered      
-#&gt; </span><span style='color: #555555;'> 3</span><span> ald_demo emission_factor    double  Company level emission factor of the tec…
-#&gt; </span><span style='color: #555555;'> 4</span><span> ald_demo is_ultimate_liste… logical Flag if company is the listed ultimate p…
-#&gt; </span><span style='color: #555555;'> 5</span><span> ald_demo is_ultimate_owner  logical Flag if company is the ultimate parent i…
-#&gt; </span><span style='color: #555555;'> 6</span><span> ald_demo name_company       charac… The name of the company owning the asset 
-#&gt; </span><span style='color: #555555;'> 7</span><span> ald_demo number_of_assets   integer Number of assets of a given technology o…
-#&gt; </span><span style='color: #555555;'> 8</span><span> ald_demo plant_location     charac… Country where asset is located           
-#&gt; </span><span style='color: #555555;'> 9</span><span> ald_demo production         double  Company level production of the technolo…
-#&gt; </span><span style='color: #555555;'>10</span><span> ald_demo production_unit    charac… The units that production is measured in 
-#&gt; </span><span style='color: #555555;'># … with 53 more rows</span><span></div></span></pre>
+    <pre class="examples"><div class='input'><span class='no'>sector_classifications</span></div><div class='output co'>#&gt; <span style='color: #555555;'># A tibble: 2,600 x 4</span><span>
+#&gt;    sector       borderline code  code_system
+#&gt;    </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>        </span><span style='color: #555555;font-style: italic;'>&lt;lgl&gt;</span><span>      </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span> </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>      
+#&gt; </span><span style='color: #555555;'> 1</span><span> not in scope FALSE      A     ISIC       
+#&gt; </span><span style='color: #555555;'> 2</span><span> not in scope FALSE      1     ISIC       
+#&gt; </span><span style='color: #555555;'> 3</span><span> not in scope FALSE      11    ISIC       
+#&gt; </span><span style='color: #555555;'> 4</span><span> not in scope FALSE      111   ISIC       
+#&gt; </span><span style='color: #555555;'> 5</span><span> not in scope FALSE      112   ISIC       
+#&gt; </span><span style='color: #555555;'> 6</span><span> not in scope FALSE      113   ISIC       
+#&gt; </span><span style='color: #555555;'> 7</span><span> not in scope FALSE      114   ISIC       
+#&gt; </span><span style='color: #555555;'> 8</span><span> not in scope FALSE      115   ISIC       
+#&gt; </span><span style='color: #555555;'> 9</span><span> not in scope FALSE      116   ISIC       
+#&gt; </span><span style='color: #555555;'>10</span><span> not in scope FALSE      119   ISIC       
+#&gt; </span><span style='color: #555555;'># … with 2,590 more rows</span><span></div><div class='input'>
+<span class='no'>dd</span> <span class='kw'>&lt;-</span> <span class='fu'><a href='data_dictionary.html'>data_dictionary</a></span>()
+<span class='no'>dd</span>[<span class='no'>dd</span>$<span class='no'>dataset</span> <span class='kw'>==</span> <span class='st'>"sector_classifications"</span>, ]</div><div class='output co'>#&gt; </span><span style='color: #555555;'># A tibble: 4 x 4</span><span>
+#&gt;   dataset         column    typeof  definition                                  
+#&gt;   </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>           </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>     </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>   </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>                                       
+#&gt; </span><span style='color: #555555;'>1</span><span> sector_classif… borderli… charac… Flag indicating if 2dii sector and classifi…
+#&gt; </span><span style='color: #555555;'>2</span><span> sector_classif… code      charac… Formatted code                              
+#&gt; </span><span style='color: #555555;'>3</span><span> sector_classif… code_sys… charac… Code system                                 
+#&gt; </span><span style='color: #555555;'>4</span><span> sector_classif… sector    charac… Associated 2dii sector                      </div></span></pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <h2>Contents</h2>
     <ul class="nav nav-pills nav-stacked">
+      <li><a href="#format">Format</a></li>
       <li><a href="#value">Value</a></li>
-      <li><a href="#extending-the-data-dictionary">Extending the data dictionary</a></li>
       <li><a href="#see-also">See also</a></li>
       <li><a href="#examples">Examples</a></li>
     </ul>
