@@ -38,21 +38,21 @@ errors?](https://gist.github.com/maurolepore/a0187be9d40aee95a43f20a85f4caed6#in
 ``` r
 library(r2dii.data)
 
-data_dictionary()
-#> # A tibble: 59 x 4
-#>    dataset  column             typeof  definition                               
-#>    <chr>    <chr>              <chr>   <chr>                                    
-#>  1 ald_demo ald_timestamp      charac… Date at which asset data was pulled from…
-#>  2 ald_demo country_of_domici… charac… Country where company is registered      
-#>  3 ald_demo emission_factor    double  Company level emission factor of the tec…
-#>  4 ald_demo is_ultimate_liste… logical Flag if company is the listed ultimate p…
-#>  5 ald_demo is_ultimate_owner  logical Flag if company is the ultimate parent i…
-#>  6 ald_demo name_company       charac… The name of the company owning the asset 
-#>  7 ald_demo number_of_assets   integer Number of assets of a given technology o…
-#>  8 ald_demo plant_location     charac… Country where asset is located           
-#>  9 ald_demo production         double  Company level production of the technolo…
-#> 10 ald_demo production_unit    charac… The units that production is measured in 
-#> # … with 49 more rows
+head(data_dictionary)
+#>    dataset                   column    typeof
+#> 1 ald_demo            ald_timestamp character
+#> 2 ald_demo      country_of_domicile character
+#> 3 ald_demo          emission_factor    double
+#> 4 ald_demo is_ultimate_listed_owner   logical
+#> 5 ald_demo        is_ultimate_owner   logical
+#> 6 ald_demo             name_company character
+#>                                               definition
+#> 1      Date at which asset data was pulled from database
+#> 2                    Country where company is registered
+#> 3        Company level emission factor of the technology
+#> 4          Flag if company is the listed ultimate parent
+#> 5 Flag if company is the ultimate parent in our database
+#> 6               The name of the company owning the asset
 ```
 
 [Go to examples](https://2degreesinvesting.github.io/r2dii/#examples).

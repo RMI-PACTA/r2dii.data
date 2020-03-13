@@ -2,9 +2,9 @@
 
 #' A view of available sector classification datasets
 #'
-#' @return A [tibble::tibble()]. The column `code_system` names one of the
-#'   classification systems that 2dii uses. All other columns are defined at
-#'   [data_dictionary()].
+#' @return A [data.frame] (subclass 'tbl'). The column `code_system` names one
+#'   of the classification systems that 2dii uses. All other columns are defined
+#'   at [data_dictionary].
 #' @noRd
 sector_classification_df <- function() {
   out <- enlist_datasets("r2dii.data", pattern = "_classification$")

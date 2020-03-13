@@ -44,7 +44,7 @@ devtools::install_github("2DegreesInvesting/r2dii.data")
 ```{r}
 library(r2dii.data)
 
-data_dictionary()
+head(data_dictionary)
 ```
 
 [Go to examples](https://2degreesinvesting.github.io/r2dii/#examples).

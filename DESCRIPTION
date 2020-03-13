@@ -33,11 +33,7 @@ URL: https://github.com/2DegreesInvesting/r2dii.data
 BugReports: 
     https://github.com/2DegreesInvesting/r2dii.data/issues
 Depends: 
-    R (>= 3.3)
-Imports: 
-    purrr,
-    tibble,
-    utils
+    R (>= 2.10)
 Suggests: 
     covr,
     testthat (>= 2.1.0)

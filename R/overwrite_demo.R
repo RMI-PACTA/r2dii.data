@@ -4,6 +4,7 @@
 #'
 #' @family demo datasets
 #' @seealso [data_dictionary]
+#'
 #' @examples
-#' overwrite_demo
+#' head(overwrite_demo)
 "overwrite_demo"

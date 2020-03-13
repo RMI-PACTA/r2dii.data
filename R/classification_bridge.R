@@ -4,20 +4,20 @@
 #' from the wild to codes we use in 2dii such as 'power', 'oil and gas', 'coal',
 #' 'automotive', 'aviation', 'concrete', 'steel', and 'shipping'.
 #'
-#' @seealso [data_dictionary()].
+#' @seealso [data_dictionary].
 #'
 #' @family datasets for bridging sector classification codes
 #'
-#' @return A [tibble::tibble].
+#' @return A [data.frame] (subclass 'tbl').
 #'
 #' @name classification_bridge
 #'
 #' @examples
-#' isic_classification
+#' head(isic_classification)
 #'
-#' nace_classification
+#' head(nace_classification)
 #'
-#' naics_classification
+#' head(naics_classification)
 NULL
 
 #' @rdname classification_bridge

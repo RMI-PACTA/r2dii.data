@@ -8,7 +8,8 @@
 #' @name loanbook_description
 #' @seealso [data_dictionary]
 #' @family generic datasets
+#'
 #' @examples
-#' dd <- data_dictionary()
-#' dd[dd$dataset == "loanbook_demo", ]
+#' dd <- data_dictionary
+#' head(dd[dd$dataset == "loanbook_demo", ])
 NULL

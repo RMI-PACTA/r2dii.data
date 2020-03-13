@@ -7,7 +7,8 @@
 #' @name ald_description
 #' @seealso [data_dictionary], [ald_demo].
 #' @family generic datasets
+#'
 #' @examples
-#' dd <- data_dictionary()
-#' dd[dd$dataset == "ald_demo", ]
+#' dd <- data_dictionary
+#' head(dd[dd$dataset == "ald_demo", ])
 NULL

@@ -4,6 +4,7 @@
 #'
 #' @family demo datasets
 #' @seealso [data_dictionary]
+#'
 #' @examples
-#' iso_codes
+#' head(iso_codes)
 "iso_codes"

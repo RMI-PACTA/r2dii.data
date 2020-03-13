@@ -11,21 +11,21 @@ An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) w
 sector_classifications
 }
 \value{
-A \code{\link[tibble:tibble]{tibble::tibble()}}. The column \code{code_system} names one of the
-classification systems that 2dii uses. All other columns are defined at
-\code{\link[=data_dictionary]{data_dictionary()}}.
+A \link{data.frame} (subclass 'tbl'). The column \code{code_system} names one
+of the classification systems that 2dii uses. All other columns are defined
+at \link{data_dictionary}.
 }
 \description{
 A view of available sector classification datasets
 }
 \examples{
-sector_classifications
+head(sector_classifications)
 
-dd <- data_dictionary()
-dd[dd$dataset == "sector_classifications", ]
+dd <- data_dictionary
+head(dd[dd$dataset == "sector_classifications", ])
 }
 \seealso{
-\code{\link[=data_dictionary]{data_dictionary()}}.
+\link{data_dictionary}.
 
 Other datasets for bridging sector classification codes: 
 \code{\link{classification_bridge}}

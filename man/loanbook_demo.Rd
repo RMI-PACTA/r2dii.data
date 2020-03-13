@@ -15,14 +15,14 @@ This is a public dataset that may be used as a template for banks to create
 their own loanbook datasets. It is also useful for examples and tests.
 }
 \examples{
-loanbook_demo
+head(loanbook_demo)
 }
 \seealso{
 \link{data_dictionary}
 
 Other demo datasets: 
 \code{\link{ald_demo}},
-\code{\link{data_dictionary}()},
+\code{\link{data_dictionary}},
 \code{\link{iso_codes}},
 \code{\link{overwrite_demo}},
 \code{\link{region_isos}}

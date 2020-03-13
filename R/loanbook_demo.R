@@ -5,6 +5,7 @@
 #'
 #' @family demo datasets
 #' @seealso [data_dictionary]
+#'
 #' @examples
-#' loanbook_demo
+#' head(loanbook_demo)
 "loanbook_demo"

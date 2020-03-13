@@ -22,7 +22,7 @@ nace_classification
 naics_classification
 }
 \value{
-A \link[tibble:tibble]{tibble::tibble}.
+A \link{data.frame} (subclass 'tbl').
 }
 \description{
 These datasets help to bridge (translate) common sector classification codes
@@ -30,14 +30,14 @@ from the wild to codes we use in 2dii such as 'power', 'oil and gas', 'coal',
 'automotive', 'aviation', 'concrete', 'steel', and 'shipping'.
 }
 \examples{
-isic_classification
+head(isic_classification)
 
-nace_classification
+head(nace_classification)
 
-naics_classification
+head(naics_classification)
 }
 \seealso{
-\code{\link[=data_dictionary]{data_dictionary()}}.
+\link{data_dictionary}.
 
 Other datasets for bridging sector classification codes: 
 \code{\link{sector_classifications}}

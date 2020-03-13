@@ -14,13 +14,13 @@ ald_demo
 This is a public dataset that may be used for examples and tests.
 }
 \examples{
-ald_demo
+head(ald_demo)
 }
 \seealso{
 \link{data_dictionary}
 
 Other demo datasets: 
-\code{\link{data_dictionary}()},
+\code{\link{data_dictionary}},
 \code{\link{iso_codes}},
 \code{\link{loanbook_demo}},
 \code{\link{overwrite_demo}},

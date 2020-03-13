@@ -9,8 +9,8 @@ variety of sectors and technologies, including forward looking projected
 additions or retirements.
 }
 \examples{
-dd <- data_dictionary()
-dd[dd$dataset == "ald_demo", ]
+dd <- data_dictionary
+head(dd[dd$dataset == "ald_demo", ])
 }
 \seealso{
 \link{data_dictionary}, \link{ald_demo}.

@@ -4,6 +4,7 @@
 #'
 #' @family demo datasets
 #' @seealso [data_dictionary]
+#'
 #' @examples
-#' region_isos
+#' head(region_isos)
 "region_isos"

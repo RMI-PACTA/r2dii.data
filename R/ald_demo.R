@@ -4,6 +4,7 @@
 #'
 #' @family demo datasets
 #' @seealso [data_dictionary]
+#'
 #' @examples
-#' ald_demo
+#' head(ald_demo)
 "ald_demo"

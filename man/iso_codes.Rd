@@ -14,14 +14,14 @@ iso_codes
 This is a dataset useful when mapping regional benchmarks to countries.
 }
 \examples{
-iso_codes
+head(iso_codes)
 }
 \seealso{
 \link{data_dictionary}
 
 Other demo datasets: 
 \code{\link{ald_demo}},
-\code{\link{data_dictionary}()},
+\code{\link{data_dictionary}},
 \code{\link{loanbook_demo}},
 \code{\link{overwrite_demo}},
 \code{\link{region_isos}}
