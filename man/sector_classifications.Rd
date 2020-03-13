@@ -28,8 +28,7 @@ dd[dd$dataset == "sector_classifications", ]
 \code{\link[=data_dictionary]{data_dictionary()}}.
 
 Other datasets for bridging sector classification codes: 
-\code{\link{classification_bridge}},
-\code{\link{sector_classification_df}()}
+\code{\link{classification_bridge}}
 }
 \concept{datasets for bridging sector classification codes}
 \keyword{datasets}
