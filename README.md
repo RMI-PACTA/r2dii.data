@@ -8,8 +8,6 @@
 [![lifecycle](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 [![CRAN
 status](https://www.r-pkg.org/badges/version/r2dii.data)](https://CRAN.R-project.org/package=r2dii.data)
-[![Codecov test
-coverage](https://codecov.io/gh/2DegreesInvesting/r2dii.data/branch/master/graph/badge.svg)](https://codecov.io/gh/2DegreesInvesting/r2dii.data?branch=master)
 <!-- badges: end -->
 
 These datasets support the implementation in R of the software ‘PACTA’
@@ -54,5 +52,3 @@ head(data_dictionary)
 #> 5 Flag if company is the ultimate parent in our database
 #> 6               The name of the company owning the asset
 ```
-
-[Go to examples](https://2degreesinvesting.github.io/r2dii/#examples).
