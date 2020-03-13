@@ -132,30 +132,25 @@
 
     <div class='dont-index'><p><a href='data_dictionary.html'>data_dictionary</a></p>
 <p>Other demo datasets: 
-<code><a href='data_dictionary.html'>data_dictionary</a>()</code>,
+<code><a href='data_dictionary.html'>data_dictionary</a></code>,
 <code><a href='iso_codes.html'>iso_codes</a></code>,
 <code><a href='loanbook_demo.html'>loanbook_demo</a></code>,
 <code><a href='overwrite_demo.html'>overwrite_demo</a></code>,
 <code><a href='region_isos.html'>region_isos</a></code></p></div>
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
-    <pre class="examples"><div class='input'><span class='no'>ald_demo</span></div><div class='output co'>#&gt; <span style='color: #555555;'># A tibble: 17,368 x 13</span><span>
-#&gt;    name_company sector technology production_unit  year production
-#&gt;    </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>        </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>  </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>      </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>           </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span>      </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span>
-#&gt; </span><span style='color: #555555;'> 1</span><span> aba hydropo… power  hydrocap   MW               </span><span style='text-decoration: underline;'>2</span><span>013    </span><span style='text-decoration: underline;'>133</span><span>340.
-#&gt; </span><span style='color: #555555;'> 2</span><span> aba hydropo… power  hydrocap   MW               </span><span style='text-decoration: underline;'>2</span><span>014    </span><span style='text-decoration: underline;'>131</span><span>582.
-#&gt; </span><span style='color: #555555;'> 3</span><span> aba hydropo… power  hydrocap   MW               </span><span style='text-decoration: underline;'>2</span><span>015    </span><span style='text-decoration: underline;'>129</span><span>824.
-#&gt; </span><span style='color: #555555;'> 4</span><span> aba hydropo… power  hydrocap   MW               </span><span style='text-decoration: underline;'>2</span><span>016    </span><span style='text-decoration: underline;'>128</span><span>065.
-#&gt; </span><span style='color: #555555;'> 5</span><span> aba hydropo… power  hydrocap   MW               </span><span style='text-decoration: underline;'>2</span><span>017    </span><span style='text-decoration: underline;'>126</span><span>307.
-#&gt; </span><span style='color: #555555;'> 6</span><span> aba hydropo… power  hydrocap   MW               </span><span style='text-decoration: underline;'>2</span><span>018    </span><span style='text-decoration: underline;'>124</span><span>549.
-#&gt; </span><span style='color: #555555;'> 7</span><span> aba hydropo… power  hydrocap   MW               </span><span style='text-decoration: underline;'>2</span><span>019    </span><span style='text-decoration: underline;'>122</span><span>790.
-#&gt; </span><span style='color: #555555;'> 8</span><span> aba hydropo… power  hydrocap   MW               </span><span style='text-decoration: underline;'>2</span><span>020    </span><span style='text-decoration: underline;'>121</span><span>032.
-#&gt; </span><span style='color: #555555;'> 9</span><span> aba hydropo… power  hydrocap   MW               </span><span style='text-decoration: underline;'>2</span><span>021    </span><span style='text-decoration: underline;'>119</span><span>274.
-#&gt; </span><span style='color: #555555;'>10</span><span> aba hydropo… power  hydrocap   MW               </span><span style='text-decoration: underline;'>2</span><span>022    </span><span style='text-decoration: underline;'>117</span><span>515.
-#&gt; </span><span style='color: #555555;'># … with 17,358 more rows, and 7 more variables: emission_factor </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span style='color: #555555;'>,
-#&gt; #   country_of_domicile </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span style='color: #555555;'>, plant_location </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span style='color: #555555;'>, number_of_assets </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span style='color: #555555;'>,
-#&gt; #   is_ultimate_owner </span><span style='color: #555555;font-style: italic;'>&lt;lgl&gt;</span><span style='color: #555555;'>, is_ultimate_listed_owner </span><span style='color: #555555;font-style: italic;'>&lt;lgl&gt;</span><span style='color: #555555;'>,
-#&gt; #   ald_timestamp </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span></div></span></pre>
+    <pre class="examples"><div class='input'><span class='fu'><a href='https://rdrr.io/r/utils/head.html'>head</a></span>(<span class='no'>ald_demo</span>)</div><div class='output co'>#&gt; <span style='color: #555555;'># A tibble: 6 x 13</span><span>
+#&gt;   name_company sector technology production_unit  year production
+#&gt;   </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>        </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>  </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>      </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>           </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span>      </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span>
+#&gt; </span><span style='color: #555555;'>1</span><span> aba hydropo… power  hydrocap   MW               </span><span style='text-decoration: underline;'>2</span><span>013    </span><span style='text-decoration: underline;'>133</span><span>340.
+#&gt; </span><span style='color: #555555;'>2</span><span> aba hydropo… power  hydrocap   MW               </span><span style='text-decoration: underline;'>2</span><span>014    </span><span style='text-decoration: underline;'>131</span><span>582.
+#&gt; </span><span style='color: #555555;'>3</span><span> aba hydropo… power  hydrocap   MW               </span><span style='text-decoration: underline;'>2</span><span>015    </span><span style='text-decoration: underline;'>129</span><span>824.
+#&gt; </span><span style='color: #555555;'>4</span><span> aba hydropo… power  hydrocap   MW               </span><span style='text-decoration: underline;'>2</span><span>016    </span><span style='text-decoration: underline;'>128</span><span>065.
+#&gt; </span><span style='color: #555555;'>5</span><span> aba hydropo… power  hydrocap   MW               </span><span style='text-decoration: underline;'>2</span><span>017    </span><span style='text-decoration: underline;'>126</span><span>307.
+#&gt; </span><span style='color: #555555;'>6</span><span> aba hydropo… power  hydrocap   MW               </span><span style='text-decoration: underline;'>2</span><span>018    </span><span style='text-decoration: underline;'>124</span><span>549.
+#&gt; </span><span style='color: #555555;'># … with 7 more variables: emission_factor </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span style='color: #555555;'>, country_of_domicile </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span style='color: #555555;'>,
+#&gt; #   plant_location </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span style='color: #555555;'>, number_of_assets </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span style='color: #555555;'>, is_ultimate_owner </span><span style='color: #555555;font-style: italic;'>&lt;lgl&gt;</span><span style='color: #555555;'>,
+#&gt; #   is_ultimate_listed_owner </span><span style='color: #555555;font-style: italic;'>&lt;lgl&gt;</span><span style='color: #555555;'>, ald_timestamp </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span></div></span></pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <h2>Contents</h2>

@@ -82,12 +82,12 @@
 
       </header><div class="row">
   <div class="contents col-md-9">
-<div id="-r2diidata" class="section level1">
+<div id="-datasets-to-align-financial-markets-with-climate-goals" class="section level1">
 <div class="page-header"><h1 class="hasAnchor">
-<a href="#-r2diidata" class="anchor"></a><img src="https://i.imgur.com/3jITMq8.png" align="right" height="40"> r2dii.data</h1></div>
+<a href="#-datasets-to-align-financial-markets-with-climate-goals" class="anchor"></a><img src="https://i.imgur.com/3jITMq8.png" align="right" height="40"> Datasets to Align Financial Markets with Climate Goals</h1></div>
 <!-- badges: start -->
 
-<p>These datasets support the implementation in R of the software ‘PACTA’ (Paris Agreement Capital Transition Assessment), which is a free tool that calculates the alignment between financial assets and climate scenarios (<a href="https://www.transitionmonitor.com/" class="uri">https://www.transitionmonitor.com/</a>). Banks, for example, use ‘PACTA’ to study how the money they lend impacts the climate. Because financial institutions keep their data private, this package provides fake, public data to enable the development and use of ‘PACTA’ in R.</p>
+<p>These datasets support the implementation in R of the software ‘PACTA’ (Paris Agreement Capital Transition Assessment), which is a free tool that calculates the alignment between financial assets and climate scenarios (<a href="https://www.transitionmonitor.com/" class="uri">https://www.transitionmonitor.com/</a>). Financial institutions use ‘PACTA’ to study how their capital allocation impacts the climate. Because both financial institutions and market data providers keep their data private, this package provides fake, public data to enable the development and use of ‘PACTA’ in R.</p>
 <div id="installation" class="section level2">
 <h2 class="hasAnchor">
 <a href="#installation" class="anchor"></a>Installation</h2>
@@ -101,22 +101,21 @@
 <a href="#example" class="anchor"></a>Example</h2>
 <div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1"></a><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span>(r2dii.data)</span>
 <span id="cb2-2"><a href="#cb2-2"></a></span>
-<span id="cb2-3"><a href="#cb2-3"></a><span class="kw"><a href="reference/data_dictionary.html">data_dictionary</a></span>()</span>
-<span id="cb2-4"><a href="#cb2-4"></a><span class="co">#&gt; # A tibble: 59 x 4</span></span>
-<span id="cb2-5"><a href="#cb2-5"></a><span class="co">#&gt;    dataset  column             typeof  definition                               </span></span>
-<span id="cb2-6"><a href="#cb2-6"></a><span class="co">#&gt;    &lt;chr&gt;    &lt;chr&gt;              &lt;chr&gt;   &lt;chr&gt;                                    </span></span>
-<span id="cb2-7"><a href="#cb2-7"></a><span class="co">#&gt;  1 ald_demo ald_timestamp      charac… Date at which asset data was pulled from…</span></span>
-<span id="cb2-8"><a href="#cb2-8"></a><span class="co">#&gt;  2 ald_demo country_of_domici… charac… Country where company is registered      </span></span>
-<span id="cb2-9"><a href="#cb2-9"></a><span class="co">#&gt;  3 ald_demo emission_factor    double  Company level emission factor of the tec…</span></span>
-<span id="cb2-10"><a href="#cb2-10"></a><span class="co">#&gt;  4 ald_demo is_ultimate_liste… logical Flag if company is the listed ultimate p…</span></span>
-<span id="cb2-11"><a href="#cb2-11"></a><span class="co">#&gt;  5 ald_demo is_ultimate_owner  logical Flag if company is the ultimate parent i…</span></span>
-<span id="cb2-12"><a href="#cb2-12"></a><span class="co">#&gt;  6 ald_demo name_company       charac… The name of the company owning the asset </span></span>
-<span id="cb2-13"><a href="#cb2-13"></a><span class="co">#&gt;  7 ald_demo number_of_assets   integer Number of assets of a given technology o…</span></span>
-<span id="cb2-14"><a href="#cb2-14"></a><span class="co">#&gt;  8 ald_demo plant_location     charac… Country where asset is located           </span></span>
-<span id="cb2-15"><a href="#cb2-15"></a><span class="co">#&gt;  9 ald_demo production         double  Company level production of the technolo…</span></span>
-<span id="cb2-16"><a href="#cb2-16"></a><span class="co">#&gt; 10 ald_demo production_unit    charac… The units that production is measured in </span></span>
-<span id="cb2-17"><a href="#cb2-17"></a><span class="co">#&gt; # … with 49 more rows</span></span></code></pre></div>
-<p><a href="https://2degreesinvesting.github.io/r2dii/#examples">Go to examples</a>.</p>
+<span id="cb2-3"><a href="#cb2-3"></a><span class="kw"><a href="https://rdrr.io/r/utils/head.html">head</a></span>(data_dictionary)</span>
+<span id="cb2-4"><a href="#cb2-4"></a><span class="co">#&gt;    dataset                   column    typeof</span></span>
+<span id="cb2-5"><a href="#cb2-5"></a><span class="co">#&gt; 1 ald_demo            ald_timestamp character</span></span>
+<span id="cb2-6"><a href="#cb2-6"></a><span class="co">#&gt; 2 ald_demo      country_of_domicile character</span></span>
+<span id="cb2-7"><a href="#cb2-7"></a><span class="co">#&gt; 3 ald_demo          emission_factor    double</span></span>
+<span id="cb2-8"><a href="#cb2-8"></a><span class="co">#&gt; 4 ald_demo is_ultimate_listed_owner   logical</span></span>
+<span id="cb2-9"><a href="#cb2-9"></a><span class="co">#&gt; 5 ald_demo        is_ultimate_owner   logical</span></span>
+<span id="cb2-10"><a href="#cb2-10"></a><span class="co">#&gt; 6 ald_demo             name_company character</span></span>
+<span id="cb2-11"><a href="#cb2-11"></a><span class="co">#&gt;                                               definition</span></span>
+<span id="cb2-12"><a href="#cb2-12"></a><span class="co">#&gt; 1      Date at which asset data was pulled from database</span></span>
+<span id="cb2-13"><a href="#cb2-13"></a><span class="co">#&gt; 2                    Country where company is registered</span></span>
+<span id="cb2-14"><a href="#cb2-14"></a><span class="co">#&gt; 3        Company level emission factor of the technology</span></span>
+<span id="cb2-15"><a href="#cb2-15"></a><span class="co">#&gt; 4          Flag if company is the listed ultimate parent</span></span>
+<span id="cb2-16"><a href="#cb2-16"></a><span class="co">#&gt; 5 Flag if company is the ultimate parent in our database</span></span>
+<span id="cb2-17"><a href="#cb2-17"></a><span class="co">#&gt; 6               The name of the company owning the asset</span></span></code></pre></div>
 </div>
 </div>
   </div>
@@ -158,7 +157,6 @@
 <ul class="list-unstyled">
 <li><a href="https://www.tidyverse.org/lifecycle/#experimental"><img src="https://img.shields.io/badge/lifecycle-experimental-orange.svg" alt="lifecycle"></a></li>
 <li><a href="https://CRAN.R-project.org/package=r2dii.data"><img src="https://www.r-pkg.org/badges/version/r2dii.data" alt="CRAN status"></a></li>
-<li><a href="https://codecov.io/gh/2DegreesInvesting/r2dii.data?branch=master"><img src="https://codecov.io/gh/2DegreesInvesting/r2dii.data/branch/master/graph/badge.svg" alt="Codecov test coverage"></a></li>
 </ul>
 </div>
 </div>
