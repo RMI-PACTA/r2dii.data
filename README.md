@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# <img src="https://i.imgur.com/3jITMq8.png" align="right" height=40 /> r2dii.data
+# <img src="https://i.imgur.com/3jITMq8.png" align="right" height=40 /> Datasets to Align Financial Markets with Climate Goals
 
 <!-- badges: start -->
 
