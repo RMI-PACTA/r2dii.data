@@ -13,7 +13,7 @@ status](https://www.r-pkg.org/badges/version/r2dii.data)](https://CRAN.R-project
 These datasets support the implementation in R of the software ‘PACTA’
 (Paris Agreement Capital Transition Assessment), which is a free tool
 that calculates the alignment between financial assets and climate
-scenarios (<https://www.transitionmonitor.com/>). Financial institutions
+scenarios (<https://2degrees-investing.org/>). Financial institutions
 use ‘PACTA’ to study how their capital allocation impacts the climate.
 Because both financial institutions and market data providers keep their
 data private, this package provides fake, public data to enable the
