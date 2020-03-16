@@ -3,7 +3,7 @@
 \docType{data}
 \name{data_dictionary}
 \alias{data_dictionary}
-\title{A dataset that defiles the columns of r2dii datasets}
+\title{A dataset that defines the columns of r2dii datasets}
 \format{
 An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 63 rows and 4 columns.
 }
@@ -14,7 +14,7 @@ data_dictionary
 A \link{data.frame} (subclass 'tbl').
 }
 \description{
-A dataset that defiles the columns of r2dii datasets
+A dataset that defines the columns of r2dii datasets
 }
 \examples{
 head(data_dictionary)
