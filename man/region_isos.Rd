@@ -29,6 +29,10 @@ Other demo datasets:
 \code{\link{iso_codes}},
 \code{\link{loanbook_demo}},
 \code{\link{overwrite_demo}}
+
+Other iso codes: 
+\code{\link{iso_codes}}
 }
 \concept{demo datasets}
+\concept{iso codes}
 \keyword{datasets}

@@ -5,38 +5,40 @@
 \alias{ald_demo}
 \title{An asset level dataset for demonstration}
 \format{
-\code{ald_demo} is a \link{data.frame} with columns:
+\code{ald_demo} is a \link{data.frame} with columns: * \code{ald_timestamp}
+(character): Date at which asset data was pulled from database. *
+\code{country_of_domicile} (character): Country where company is registered. *
+\code{emission_factor} (double): Company level emission factor of the technology.
 \itemize{
-\item \code{ald_timestamp} (character): Date at which asset data was pulled from
-database.
-\item \code{country_of_domicile} (character): Country where company is registered.
-\item \code{emission_factor} (double): Company level emission factor of the
-technology.
 \item \code{is_ultimate_listed_owner} (logical): Flag if company is the listed
-ultimate parent.
-\item \code{is_ultimate_owner} (logical): Flag if company is the ultimate parent in
-our database.
-\item \code{name_company} (character): The name of the company owning the asset.
-\item \code{number_of_assets} (integer): Number of assets of a given technology owned
-by the company.
-\item \code{plant_location} (character): Country where asset is located.
-\item \code{production} (double): Company level production of the technology.
-\item \code{production_unit} (character): The units that production is measured in.
-\item \code{sector} (character): Sector to which the asset belongs.
-\item \code{technology} (character): Technology implemented by the asset.
-\item \code{year} (integer): Year at which the production value is predicted.
+ultimate parent. * \code{is_ultimate_owner} (logical): Flag if company is the
+ultimate parent in our database. * \code{name_company} (character): The name of
+the company owning the asset. * \code{number_of_assets} (integer): Number of
+assets of a given technology owned by the company. * \code{plant_location}
+(character): Country where asset is located. * \code{production} (double): Company
+level production of the technology. * \code{production_unit} (character): The
+units that production is measured in. * \code{sector} (character): Sector to which
+the asset belongs. * \code{technology} (character): Technology implemented by the
+asset. * \code{year} (integer): Year at which the production value is predicted.
 }
 }
 \usage{
 ald_demo
 }
 \description{
-Information about all datasets in general.
+These datasets support the implementation in R of the software 'PACTA' (Paris
+Agreement Capital Transition Assessment), which is a free tool that
+calculates the alignment between financial assets and climate scenarios
+(\url{https://2degrees-investing.org/}).
 
-Information about the family to which this dataset belongs.
+Most financial data is strictly private. These synthetic datasets serve to
+demonstrate tand help test the implementation of PACTA in R.
 
-This is a public dataset that may be used for examples and
-tests.
+Data gathered about individual physical assets (e.g. Wind
+turbine power plant capacities) are used to assess the climate alignment of
+financial portfolios. The real data is gathered from market-intelligence
+databases and is private. This synthetic asset level dataset serves to test
+and demonstrate the PACTA tool.
 }
 \examples{
 head(ald_demo)

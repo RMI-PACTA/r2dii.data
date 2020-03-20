@@ -1,8 +1,9 @@
 #' Datasets to bridge (translate) common sector-classification codes
 #'
-#' These datasets help to bridge (translate) common sector classification codes
-#' from the wild to codes we use in 2dii such as 'power', 'oil and gas', 'coal',
-#' 'automotive', 'aviation', 'concrete', 'steel', and 'shipping'.
+#' @template info_general
+#' @template info_classification-datasets
+#' @description This dataset serves as a translation key between common
+#'   sector-classification systems and 2dii's sectors.
 #'
 #' @seealso [data_dictionary].
 #'

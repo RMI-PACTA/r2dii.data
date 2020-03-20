@@ -1,5 +1,10 @@
 #' A view of available sector classification datasets
 #'
+#' @template info_general
+#' @template info_classification-datasets
+#' @description This dataset lists all sector classification code standards
+#'   (e.g. NACE, ISIC) currently bridged.
+#'
 #' @seealso [data_dictionary].
 #' @family datasets for bridging sector classification codes
 #'
