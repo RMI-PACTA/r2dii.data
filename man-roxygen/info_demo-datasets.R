@@ -1,1 +1,2 @@
-#' Information about this family.
+#' @description
+#' Information about the family to which this dataset belongs.
