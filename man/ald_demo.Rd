@@ -5,13 +5,7 @@
 \alias{ald_demo}
 \title{An asset level dataset for demonstration}
 \format{
-An object of class \code{spec_tbl_df} (inherits from \code{tbl_df}, \code{tbl}, \code{data.frame}) with 17368 rows and 13 columns.
-}
-\usage{
-ald_demo
-}
-\value{
-A \link{data.frame} with columns:
+\code{ald_demo} is a \link{data.frame} with columns:
 \itemize{
 \item \code{ald_timestamp} (character): Date at which asset data was pulled from
 database.
@@ -32,6 +26,9 @@ by the company.
 \item \code{technology} (character): Technology implemented by the asset.
 \item \code{year} (integer): Year at which the production value is predicted.
 }
+}
+\usage{
+ald_demo
 }
 \description{
 Information about all datasets in general.

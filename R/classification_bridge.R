@@ -32,7 +32,7 @@ NULL
 
 #' @rdname classification_bridge
 #' @format
-#' `nace_classification` is a data.frame with columns:
+#' `nace_classification` is a [data.frame] with columns:
 #' * `borderline` (logical): Flag indicating if 2dii sector and classification
 #' code are a borderline match.
 #' * `code` (double): Formatted NACE code removing periods.
@@ -44,7 +44,7 @@ NULL
 
 #' @rdname classification_bridge
 #' @format
-#' `naics_classification` is a data.frame with columns:
+#' `naics_classification` is a [data.frame] with columns:
 #' * `borderline` (logical): Flag indicating if 2dii sector and classification
 #' code are a borderline match.
 #' * `code` (double): Formatted NAICS code.

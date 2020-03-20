@@ -17,7 +17,7 @@ code are a borderline match.
 \item \code{sector} (character): Associated 2dii sector.
 }
 
-\code{nace_classification} is a data.frame with columns:
+\code{nace_classification} is a \link{data.frame} with columns:
 \itemize{
 \item \code{borderline} (logical): Flag indicating if 2dii sector and classification
 code are a borderline match.
@@ -27,7 +27,7 @@ code are a borderline match.
 \item \code{sector} (character): Associated 2dii sector.
 }
 
-\code{naics_classification} is a data.frame with columns:
+\code{naics_classification} is a \link{data.frame} with columns:
 \itemize{
 \item \code{borderline} (logical): Flag indicating if 2dii sector and classification
 code are a borderline match.

@@ -8,8 +8,8 @@
 #' @family demo datasets
 #' @seealso [data_dictionary]
 #'
-#' @return
-#' A [data.frame] with columns:
+#' @format
+#' `ald_demo` is a [data.frame] with columns:
 #' * `ald_timestamp` (character): Date at which asset data was pulled from
 #' database.
 #' * `country_of_domicile` (character): Country where company is registered.
