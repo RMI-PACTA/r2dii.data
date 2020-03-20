@@ -5,6 +5,11 @@
 #' @family demo datasets
 #' @seealso [data_dictionary]
 #'
+#' @format
+#' `region_isos` is a [data.frame] with columns:
+#' * `isos` (character): Countries in region, defined by iso code.
+#' * `region` (character): Benchmark region name.
+#'
 #' @examples
 #' head(region_isos)
 "region_isos"
