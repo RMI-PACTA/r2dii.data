@@ -5,7 +5,16 @@
 \alias{overwrite_demo}
 \title{A demonstration dataset used to overwrite specific entity names or sectors}
 \format{
-An object of class \code{spec_tbl_df} (inherits from \code{tbl_df}, \code{tbl}, \code{data.frame}) with 2 rows and 5 columns.
+\code{overwrite_demo} is a \link{data.frame} with columns:
+\itemize{
+\item \code{id_2dii} (character): IDs of the entities to overwrite.
+\item \code{level} (character): Which level should be overwritten (e.g.
+direct_loantaker or ultimate_parent).
+\item \code{name} (character): Overwrite name (if only overwriting sector, type NA).
+\item \code{sector} (character): Overwrite sector (if only overwriting name, type NA).
+\item \code{source} (character): What is the source of this information (leave as
+"manual" for now, may remove this flag later).
+}
 }
 \usage{
 overwrite_demo
