@@ -9,4 +9,5 @@
 ^pkgdown$
 ^data-raw$
 ^cran-comments\.md$
+^man-roxygen$
 ^CRAN-RELEASE$

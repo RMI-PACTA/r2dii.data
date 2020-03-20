@@ -11,7 +11,12 @@ An object of class \code{spec_tbl_df} (inherits from \code{tbl_df}, \code{tbl}, 
 ald_demo
 }
 \description{
-This is a public dataset that may be used for examples and tests.
+Information about all datasets in general.
+
+Information about the family to which this dataset belongs.
+
+This is a public dataset that may be used for examples and
+tests.
 }
 \examples{
 head(ald_demo)

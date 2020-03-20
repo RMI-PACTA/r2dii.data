@@ -1,3 +1,11 @@
+## Resubmission
+
+This is a resubmission. In this version I have:
+
+* Added more detailed information of the datasets.
+* Described the vectors of all datasets and the structure.
+* Increased the version number to reduce confusion.
+
 ## Test environments
 
 * ubuntu 18.04 (local), R 3.6.3
@@ -13,3 +21,4 @@
 0 errors | 0 warnings | 1 note
 
 * New submission.
+
