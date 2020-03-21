@@ -1,13 +1,13 @@
 #' Datasets to bridge (translate) common sector-classification codes
 #'
-#' @template info_general
+#' @description
+#' This dataset serves as a translation key between common sector-classification
+#' systems and 2dii's sectors.
 #' @template info_classification-datasets
-#' @description This dataset serves as a translation key between common
-#'   sector-classification systems and 2dii's sectors.
-#'
-#' @seealso [data_dictionary].
+#' @template info_general
 #'
 #' @family datasets for bridging sector classification codes
+#' @seealso [data_dictionary].
 #'
 #' @name classification_bridge
 #' @aliases isic_classification nace_classification naics_classification

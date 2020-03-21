@@ -15,14 +15,14 @@
 region_isos
 }
 \description{
+This is a dataset useful when mapping regional benchmarks to countries.
+
+TODO: Add description for family iso code.
+
 These datasets support the implementation in R of the software 'PACTA' (Paris
 Agreement Capital Transition Assessment), which is a free tool that
 calculates the alignment between financial assets and climate scenarios
 (\url{https://2degrees-investing.org/}).
-
-TODO: Add description for family iso code.
-
-This is a dataset useful when mapping regional benchmarks to countries.
 }
 \examples{
 head(region_isos)
@@ -30,16 +30,8 @@ head(region_isos)
 \seealso{
 \link{data_dictionary}
 
-Other demo datasets: 
-\code{\link{ald_demo}},
-\code{\link{data_dictionary}},
-\code{\link{iso_codes}},
-\code{\link{loanbook_demo}},
-\code{\link{overwrite_demo}}
-
 Other iso codes: 
 \code{\link{iso_codes}}
 }
-\concept{demo datasets}
 \concept{iso codes}
 \keyword{datasets}

@@ -1,11 +1,10 @@
 #' A dataset linking country names with their ISO code
 #'
-#' @template info_general
-#' @template info_iso-codes
 #' @description
 #' This is a dataset useful when mapping regional benchmarks to countries.
+#' @template info_iso-codes
+#' @template info_general
 #'
-#' @family demo datasets
 #' @family iso codes
 #' @seealso [data_dictionary]
 #'

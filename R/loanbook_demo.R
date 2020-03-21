@@ -1,10 +1,11 @@
 #' A loanbook dataset for demonstration
 #'
-#' @template info_general
+#' @description
+#' Financial portfolios, such as corporate debt loanbooks, are analyzed using
+#' the PACTA tool. Real financial data is private. This synthetic loanbook
+#' dataset serves to test and demonstrate the PACTA tool.
 #' @template info_demo-datasets
-#' @description Financial portfolios, such as corporate debt loanbooks, are
-#'   analyzed using the PACTA tool. Real financial data is private. This
-#'   synthetic loanbook dataset serves to test and demonstrate the PACTA tool.
+#' @template info_general
 #'
 #' @family demo datasets
 #' @seealso [data_dictionary]

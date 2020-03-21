@@ -45,17 +45,17 @@ nace_classification
 naics_classification
 }
 \description{
-These datasets support the implementation in R of the software 'PACTA' (Paris
-Agreement Capital Transition Assessment), which is a free tool that
-calculates the alignment between financial assets and climate scenarios
-(\url{https://2degrees-investing.org/}).
+This dataset serves as a translation key between common sector-classification
+systems and 2dii's sectors.
 
 These datasets help to bridge (translate) common sector classification codes
 from the wild to codes we use in 2dii such as 'power', 'oil and gas', 'coal',
 'automotive', 'aviation', 'concrete', 'steel', and 'shipping'.
 
-This dataset serves as a translation key between common
-sector-classification systems and 2dii's sectors.
+These datasets support the implementation in R of the software 'PACTA' (Paris
+Agreement Capital Transition Assessment), which is a free tool that
+calculates the alignment between financial assets and climate scenarios
+(\url{https://2degrees-investing.org/}).
 }
 \examples{
 head(isic_classification)
