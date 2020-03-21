@@ -18,8 +18,8 @@ code are a borderline match.
 sector_classifications
 }
 \description{
-This dataset lists all sector classification code standards (e.g. NACE, ISIC)
-currently bridged.
+This dataset lists all sector classification code standards used by 'PACTA'
+(\url{https://2degrees-investing.org/resource/pacta/}).
 
 Classification datasets help to standardize sector classification codes from
 the wild to a relevant subset including 'power', 'oil and gas', 'coal',

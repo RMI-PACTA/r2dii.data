@@ -49,7 +49,7 @@ reference:
     contents:
       - has_concept("iso codes")
 
-  - title: Relevant sector-classification codes
+  - title: Sector-classification codes
     contents:
       - has_concept("datasets for bridging sector classification codes")
 
