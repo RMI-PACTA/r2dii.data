@@ -1,4 +1,4 @@
-#' A dataset that defines the columns of r2dii datasets
+#' A dataset that defines the columns of all other datasets in this package
 #'
 #' @family meta
 #'

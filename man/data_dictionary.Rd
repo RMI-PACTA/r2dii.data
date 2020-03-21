@@ -3,7 +3,7 @@
 \docType{data}
 \name{data_dictionary}
 \alias{data_dictionary}
-\title{A dataset that defines the columns of r2dii datasets}
+\title{A dataset that defines the columns of all other datasets in this package}
 \format{
 \code{data_dictionary} is a \link{data.frame} with columns:
 \itemize{
@@ -18,7 +18,7 @@ logical, or character.
 data_dictionary
 }
 \description{
-A dataset that defines the columns of r2dii datasets
+A dataset that defines the columns of all other datasets in this package
 }
 \examples{
 head(data_dictionary)
