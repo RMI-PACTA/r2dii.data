@@ -3,7 +3,6 @@
 #' @description
 #' This is a dataset useful when mapping regional benchmarks to countries.
 #' @template info_iso-codes
-#' @template info_general
 #'
 #' @family iso codes
 #' @seealso [data_dictionary]

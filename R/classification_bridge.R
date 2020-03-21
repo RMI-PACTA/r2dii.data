@@ -4,7 +4,6 @@
 #' This dataset serves as a translation key between common sector-classification
 #' systems and 2dii's sectors.
 #' @template info_classification-datasets
-#' @template info_general
 #'
 #' @family datasets for bridging sector classification codes
 #' @seealso [data_dictionary].

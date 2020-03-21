@@ -5,7 +5,6 @@
 #' the PACTA tool. Real financial data is private. This synthetic loanbook
 #' dataset serves to test and demonstrate the PACTA tool.
 #' @template info_demo-datasets
-#' @template info_general
 #'
 #' @family demo datasets
 #' @seealso [data_dictionary]

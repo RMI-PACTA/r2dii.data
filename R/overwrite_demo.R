@@ -3,7 +3,6 @@
 #' @description
 #' Used to manually link loanbook entities to mismatched asset level entities.
 #' @template info_demo-datasets
-#' @template info_general
 #'
 #' @family demo datasets
 #' @seealso [data_dictionary]
