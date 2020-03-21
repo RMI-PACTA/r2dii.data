@@ -1,11 +1,9 @@
 #' An asset level dataset for demonstration
 #'
 #' @description
-#' Data gathered about individual physical assets (e.g. wind turbine power plant
-#' capacities) are used to assess the climate alignment of financial portfolios.
-#' The real data is gathered from market-intelligence databases and is private.
-#' This synthetic asset level dataset serves to test and demonstrate the 'PACTA'
-#' tool (<https://2degrees-investing.org/resource/pacta/>).
+#' Fake data about individual physical assets (e.g. wind turbine power plant
+#' capacities) used to assess the climate alignment of financial portfolios.
+#' It imitates data from market-intelligence databases.
 #' @template info_demo-datasets
 #'
 #' @family demo datasets

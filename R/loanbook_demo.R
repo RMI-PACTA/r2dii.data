@@ -1,9 +1,7 @@
 #' A loanbook dataset for demonstration
 #'
 #' @description
-#' Financial portfolios, such as corporate debt loanbooks, are analyzed using
-#' the 'PACTA' tool (<https://2degrees-investing.org/resource/pacta/>). Real
-#' financial data is private.
+#' Fake financial portfolio.
 #' @template info_demo-datasets
 #'
 #' @family demo datasets

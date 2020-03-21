@@ -53,9 +53,7 @@ classification standard being used.
 loanbook_demo
 }
 \description{
-Financial portfolios, such as corporate debt loanbooks, are analyzed using
-the 'PACTA' tool (\url{https://2degrees-investing.org/resource/pacta/}). Real
-financial data is private.
+Fake financial portfolio.
 
 Demo datasets are synthetic because most financial data is strictly private;
 they help to demonstrate and test the implementation in R of 'PACTA'
