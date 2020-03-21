@@ -20,7 +20,8 @@ direct_loantaker or ultimate_parent).
 overwrite_demo
 }
 \description{
-Used to manually link loanbook entities to mismatched asset level entities.
+Fake dataset used to manually link loanbook entities to mismatched asset
+level entities.
 
 Demo datasets are synthetic because most financial data is strictly private;
 they help to demonstrate and test the implementation in R of 'PACTA'

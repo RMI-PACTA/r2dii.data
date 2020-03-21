@@ -1,7 +1,8 @@
 #' A demonstration dataset used to overwrite specific entity names or sectors
 #'
 #' @description
-#' Used to manually link loanbook entities to mismatched asset level entities.
+#' Fake dataset used to manually link loanbook entities to mismatched asset
+#' level entities.
 #' @template info_demo-datasets
 #'
 #' @family demo datasets
