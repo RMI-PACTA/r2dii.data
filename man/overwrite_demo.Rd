@@ -21,6 +21,14 @@ overwrite_demo
 }
 \description{
 Used to manually link loanbook entities to mismatched asset level entities.
+
+These datasets support the implementation in R of the software 'PACTA' (Paris
+Agreement Capital Transition Assessment), which is a free tool that
+calculates the alignment between financial assets and climate scenarios
+(\url{https://2degrees-investing.org/}).
+
+Most financial data is strictly private. These synthetic datasets serve to
+demonstrate tand help test the implementation of PACTA in R.
 }
 \examples{
 head(overwrite_demo)
