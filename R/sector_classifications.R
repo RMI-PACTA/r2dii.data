@@ -18,7 +18,4 @@
 #'
 #' @examples
 #' head(sector_classifications)
-#'
-#' dd <- data_dictionary
-#' head(dd[dd$dataset == "sector_classifications", ])
 "sector_classifications"

@@ -1,8 +1,9 @@
 #' Datasets to bridge (translate) common sector-classification codes
 #'
 #' @description
-#' This dataset serves as a translation key between common sector-classification
-#' systems and 2dii's sectors.
+#' These datasets serve as a translation key between common sector-classification
+#' systems and sectors relevant to the 'PACTA' tool
+#' (<https://2degrees-investing.org/resource/pacta/>).
 #' @template info_classification-datasets
 #'
 #' @family datasets for bridging sector classification codes

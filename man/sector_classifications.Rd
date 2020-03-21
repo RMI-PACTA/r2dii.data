@@ -27,9 +27,6 @@ the wild to a relevant subset including 'power', 'oil and gas', 'coal',
 }
 \examples{
 head(sector_classifications)
-
-dd <- data_dictionary
-head(dd[dd$dataset == "sector_classifications", ])
 }
 \seealso{
 \link{data_dictionary}.

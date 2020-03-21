@@ -3,7 +3,7 @@
 \docType{data}
 \name{region_isos}
 \alias{region_isos}
-\title{A dataset outlining various region definitions (using iso codes)}
+\title{A dataset outlining various region definitions}
 \format{
 \code{region_isos} is a \link{data.frame} with columns:
 \itemize{
@@ -15,10 +15,10 @@
 region_isos
 }
 \description{
-This is a dataset useful when mapping regional benchmarks to countries.
+This dataset maps codes representing countries to regions.
 
-ISO codes datasets use country codes following the ISO standard
-(\url{https://www.iso.org/home.html}).
+For information about the ISO standard for country codes see
+\url{https://www.iso.org/iso-3166-country-codes.html}.
 }
 \examples{
 head(region_isos)

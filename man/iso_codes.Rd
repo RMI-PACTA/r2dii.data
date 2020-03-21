@@ -3,7 +3,7 @@
 \docType{data}
 \name{iso_codes}
 \alias{iso_codes}
-\title{A dataset linking country names with their ISO code}
+\title{Countries and codes}
 \format{
 \code{iso_codes} is a \link{data.frame} with columns:
 \itemize{
@@ -15,10 +15,10 @@
 iso_codes
 }
 \description{
-This is a dataset useful when mapping regional benchmarks to countries.
+This dataset maps countries to codes.
 
-ISO codes datasets use country codes following the ISO standard
-(\url{https://www.iso.org/home.html}).
+For information about the ISO standard for country codes see
+\url{https://www.iso.org/iso-3166-country-codes.html}.
 }
 \examples{
 head(iso_codes)

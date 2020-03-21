@@ -45,8 +45,9 @@ nace_classification
 naics_classification
 }
 \description{
-This dataset serves as a translation key between common sector-classification
-systems and 2dii's sectors.
+These datasets serve as a translation key between common sector-classification
+systems and sectors relevant to the 'PACTA' tool
+(\url{https://2degrees-investing.org/resource/pacta/}).
 
 Classification datasets help to standardize sector classification codes from
 the wild to a relevant subset including 'power', 'oil and gas', 'coal',
