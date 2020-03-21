@@ -1,5 +1,8 @@
 #' A dataset outlining various region definitions (using iso codes)
 #'
+#' @template info_general
+#' @template info_iso-codes
+#' @description
 #' This is a dataset useful when mapping regional benchmarks to countries.
 #'
 #' @family demo datasets
