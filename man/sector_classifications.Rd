@@ -21,8 +21,8 @@ sector_classifications
 This dataset lists all sector classification code standards (e.g. NACE, ISIC)
 currently bridged.
 
-These datasets help to bridge (translate) common sector classification codes
-from the wild to codes we use in 2dii such as 'power', 'oil and gas', 'coal',
+Classification datasets help to standardize sector classification codes from
+the wild to a relevant subset including 'power', 'oil and gas', 'coal',
 'automotive', 'aviation', 'concrete', 'steel', and 'shipping'.
 }
 \examples{

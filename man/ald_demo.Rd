@@ -37,8 +37,9 @@ The real data is gathered from market-intelligence databases and is private.
 This synthetic asset level dataset serves to test and demonstrate the PACTA
 tool.
 
-Most financial data is strictly private. These synthetic datasets serve to
-demonstrate tand help test the implementation of PACTA in R.
+Demo datasets are synthetic because most financial data is strictly private;
+they help to demonstrate and test the implementation in R of 'PACTA'
+(\url{https://2degrees-investing.org/resource/pacta/}).
 }
 \examples{
 head(ald_demo)

@@ -1,2 +1,3 @@
 #' @description
-#' TODO: Add description for family iso code.
+#' ISO codes datasets use country codes following the ISO standard
+#' (<https://www.iso.org/home.html>).

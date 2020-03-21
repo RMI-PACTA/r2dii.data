@@ -17,7 +17,8 @@ iso_codes
 \description{
 This is a dataset useful when mapping regional benchmarks to countries.
 
-TODO: Add description for family iso code.
+ISO codes datasets use country codes following the ISO standard
+(\url{https://www.iso.org/home.html}).
 }
 \examples{
 head(iso_codes)
