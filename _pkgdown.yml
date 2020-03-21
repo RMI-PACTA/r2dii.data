@@ -37,10 +37,6 @@ navbar:
 
 reference:
 
-  - title: Generic datasets
-    contents:
-      - has_concept("generic datasets")
-
   - title: Demo datasets
     contents:
       - has_concept("demo datasets")
