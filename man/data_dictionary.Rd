@@ -23,11 +23,5 @@ A dataset that defines the columns of r2dii datasets
 \examples{
 head(data_dictionary)
 }
-\seealso{
-Other demo datasets: 
-\code{\link{ald_demo}},
-\code{\link{loanbook_demo}},
-\code{\link{overwrite_demo}}
-}
-\concept{demo datasets}
+\concept{meta}
 \keyword{datasets}

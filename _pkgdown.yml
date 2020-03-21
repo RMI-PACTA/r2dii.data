@@ -37,9 +37,17 @@ navbar:
 
 reference:
 
-  - title: Demo datasets
+  - title: Metadata
+    contents:
+      - has_concept("meta")
+
+  - title: Synthetic datasets for demonstrations and tests
     contents:
       - has_concept("demo datasets")
+
+  - title: Datasets dealing with iso codes
+    contents:
+      - has_concept("iso codes")
 
   - title: Datasets to look up sector-classification codes
     contents:

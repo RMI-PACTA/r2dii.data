@@ -1,6 +1,6 @@
 #' A dataset that defines the columns of r2dii datasets
 #'
-#' @family demo datasets
+#' @family meta
 #'
 #' @format
 #' `data_dictionary` is a [data.frame] with columns:
