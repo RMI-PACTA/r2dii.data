@@ -3,15 +3,22 @@
 \docType{data}
 \name{iso_codes}
 \alias{iso_codes}
-\title{A dataset linking country names with their ISO code}
+\title{Countries and codes}
 \format{
-An object of class \code{spec_tbl_df} (inherits from \code{tbl_df}, \code{tbl}, \code{data.frame}) with 286 rows and 2 columns.
+\code{iso_codes} is a \link{data.frame} with columns:
+\itemize{
+\item \code{country} (character): Country name.
+\item \code{country_iso} (character): Corresponding ISO code.
+}
 }
 \usage{
 iso_codes
 }
 \description{
-This is a dataset useful when mapping regional benchmarks to countries.
+This dataset maps countries to codes.
+
+For information about the ISO standard for country codes see
+\url{https://www.iso.org/iso-3166-country-codes.html}.
 }
 \examples{
 head(iso_codes)
@@ -19,12 +26,8 @@ head(iso_codes)
 \seealso{
 \link{data_dictionary}
 
-Other demo datasets: 
-\code{\link{ald_demo}},
-\code{\link{data_dictionary}},
-\code{\link{loanbook_demo}},
-\code{\link{overwrite_demo}},
+Other iso codes: 
 \code{\link{region_isos}}
 }
-\concept{demo datasets}
+\concept{iso codes}
 \keyword{datasets}

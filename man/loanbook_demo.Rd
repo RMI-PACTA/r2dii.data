@@ -5,14 +5,59 @@
 \alias{loanbook_demo}
 \title{A loanbook dataset for demonstration}
 \format{
-An object of class \code{spec_tbl_df} (inherits from \code{tbl_df}, \code{tbl}, \code{data.frame}) with 320 rows and 19 columns.
+\code{loanbook_demo} is a \link{data.frame} with columns:
+\itemize{
+\item \code{fi_type} (character): Financial instrument name or asset class.
+\item \code{flag_project_finance_loan} (character): Project finance flag denoting
+whether a loan is given out to a particular asset or not.
+\item \code{id_direct_loantaker} (character): Borrower identifier unique to each
+borrower/sector combination in loanbook.
+\item \code{id_intermediate_parent_n} (character): Optional input: id of the n-th
+intermediate parent company within the company structure that can be used for
+more granular mapping than the ultimate parent. Smaller values of n are
+closer to the direct_loantaker.
+\item \code{id_loan} (character): Unique loan identifier.
+\item \code{id_ultimate_parent} (character): Ultimate parent identifier unique to each
+ultimate parent/sector combination.
+\item \code{isin_direct_loantaker} (logical): Optional input: providing the isin
+identifier of the direct loan taker to improve the matching coverage.
+\item \code{lei_direct_loantaker} (logical): Optional input: providing the lei (legal
+entity identifier) of the direct loan taker to improve the matching coverage.
+\item \code{loan_size_credit_limit} (double): Total credit limit or exposure at
+default.
+\item \code{loan_size_credit_limit_currency} (character): Currency corresponding to
+credit limit.
+\item \code{loan_size_outstanding} (double): Amount drawn by borrower from total
+credit limit.
+\item \code{loan_size_outstanding_currency} (character): Currency corresponding to
+outstandings.
+\item \code{name_direct_loantaker} (character): Name of the company directly taking
+the loan.
+\item \code{name_intermediate_parent_n} (character): Optional input: name of
+intermediate parent company within the company structure that can be used for
+more granular mapping than the ultimate parent. Smaller values of n are
+closer to the direct_loantaker.
+\item \code{name_project} (logical): Required input for loans with the
+flag_project_finance_loan = TRUE: Name of the project being financed.
+\item \code{name_ultimate_parent} (character): Name of the ultimate parent company to
+which the borrower belongs. Can be the same as borrower.
+\item \code{sector_classification_direct_loantaker} (double): Sector classification
+code of the direct loantaker.
+\item \code{sector_classification_input_type} (character): Flag identifying if the
+sector classification code or character description is used.
+\item \code{sector_classification_system} (character): Name of the sector
+classification standard being used.
+}
 }
 \usage{
 loanbook_demo
 }
 \description{
-This is a public dataset that may be used as a template for banks to create
-their own loanbook datasets. It is also useful for examples and tests.
+Fake financial portfolio.
+
+Demo datasets are synthetic because most financial data is strictly private;
+they help to demonstrate and test the implementation in R of 'PACTA'
+(\url{https://2degrees-investing.org/resource/pacta/}).
 }
 \examples{
 head(loanbook_demo)
@@ -22,10 +67,7 @@ head(loanbook_demo)
 
 Other demo datasets: 
 \code{\link{ald_demo}},
-\code{\link{data_dictionary}},
-\code{\link{iso_codes}},
-\code{\link{overwrite_demo}},
-\code{\link{region_isos}}
+\code{\link{overwrite_demo}}
 }
 \concept{demo datasets}
 \keyword{datasets}

@@ -8,11 +8,34 @@
 \alias{naics_classification}
 \title{Datasets to bridge (translate) common sector-classification codes}
 \format{
-An object of class \code{spec_tbl_df} (inherits from \code{tbl_df}, \code{tbl}, \code{data.frame}) with 768 rows and 4 columns.
+\code{classification_bridge} is a \link{data.frame} with columns:
+\itemize{
+\item \code{borderline} (logical): Flag indicating if 2dii sector and classification
+code are a borderline match.
+\item \code{code} (character): Original ISIC code.
+\item \code{code_level} (double): Level of granularity of ISIC code.
+\item \code{sector} (character): Associated 2dii sector.
+}
 
-An object of class \code{spec_tbl_df} (inherits from \code{tbl_df}, \code{tbl}, \code{data.frame}) with 929 rows and 5 columns.
+\code{nace_classification} is a \link{data.frame} with columns:
+\itemize{
+\item \code{borderline} (logical): Flag indicating if 2dii sector and classification
+code are a borderline match.
+\item \code{code} (double): Formatted NACE code removing periods.
+\item \code{code_level} (double): Level of granularity of NACE code.
+\item \code{original_code} (double): Original NACE code.
+\item \code{sector} (character): Associated 2dii sector.
+}
 
-An object of class \code{spec_tbl_df} (inherits from \code{tbl_df}, \code{tbl}, \code{data.frame}) with 929 rows and 5 columns.
+\code{naics_classification} is a \link{data.frame} with columns:
+\itemize{
+\item \code{borderline} (logical): Flag indicating if 2dii sector and classification
+code are a borderline match.
+\item \code{code} (double): Formatted NAICS code.
+\item \code{code_level} (double): Level of granularity of NAICS code.
+\item \code{original_code} (double): Original NAICS code.
+\item \code{sector} (character): Associated 2dii sector.
+}
 }
 \usage{
 isic_classification
@@ -21,12 +44,13 @@ nace_classification
 
 naics_classification
 }
-\value{
-A \link{data.frame} (subclass 'tbl').
-}
 \description{
-These datasets help to bridge (translate) common sector classification codes
-from the wild to codes we use in 2dii such as 'power', 'oil and gas', 'coal',
+These datasets serve as a translation key between common sector-classification
+systems and sectors relevant to the 'PACTA' tool
+(\url{https://2degrees-investing.org/resource/pacta/}).
+
+Classification datasets help to standardize sector classification codes from
+the wild to a relevant subset including 'power', 'oil and gas', 'coal',
 'automotive', 'aviation', 'concrete', 'steel', and 'shipping'.
 }
 \examples{

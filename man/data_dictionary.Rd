@@ -3,29 +3,25 @@
 \docType{data}
 \name{data_dictionary}
 \alias{data_dictionary}
-\title{A dataset that defines the columns of r2dii datasets}
+\title{Column definitions of all datasets}
 \format{
-An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 63 rows and 4 columns.
+\code{data_dictionary} is a \link{data.frame} with columns:
+\itemize{
+\item \code{column} (character): The name of a dataset-column.
+\item \code{dataset} (character): The name of a dataset.
+\item \code{definition} (character): The definition of a dataset-column.
+\item \code{typeof} (character): The result of \code{typeof()}, one of double, integer,
+logical, or character.
+}
 }
 \usage{
 data_dictionary
 }
-\value{
-A \link{data.frame} (subclass 'tbl').
-}
 \description{
-A dataset that defines the columns of r2dii datasets
+This dataset provides metadata about all datasets in the package r2dii.data.
 }
 \examples{
 head(data_dictionary)
 }
-\seealso{
-Other demo datasets: 
-\code{\link{ald_demo}},
-\code{\link{iso_codes}},
-\code{\link{loanbook_demo}},
-\code{\link{overwrite_demo}},
-\code{\link{region_isos}}
-}
-\concept{demo datasets}
+\concept{meta}
 \keyword{datasets}

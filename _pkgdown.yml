@@ -37,15 +37,19 @@ navbar:
 
 reference:
 
-  - title: Generic datasets
+  - title: Metadata
     contents:
-      - has_concept("generic datasets")
+      - has_concept("meta")
 
-  - title: Demo datasets
+  - title: Synthetic datasets for demonstrations and tests
     contents:
       - has_concept("demo datasets")
 
-  - title: Datasets to look up sector-classification codes
+  - title: Use country codes following the ISO standard
+    contents:
+      - has_concept("iso codes")
+
+  - title: Sector-classification codes
     contents:
       - has_concept("datasets for bridging sector classification codes")
 

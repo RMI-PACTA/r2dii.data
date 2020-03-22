@@ -1,9 +1,16 @@
-#' A dataset linking country names with their ISO code
+#' Countries and codes
 #'
-#' This is a dataset useful when mapping regional benchmarks to countries.
+#' @description
+#' This dataset maps countries to codes.
+#' @template info_iso-codes
 #'
-#' @family demo datasets
+#' @family iso codes
 #' @seealso [data_dictionary]
+#'
+#' @format
+#' `iso_codes` is a [data.frame] with columns:
+#' * `country` (character): Country name.
+#' * `country_iso` (character): Corresponding ISO code.
 #'
 #' @examples
 #' head(iso_codes)

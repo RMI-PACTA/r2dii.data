@@ -1,9 +1,16 @@
-#' A dataset outlining various region definitions (using iso codes)
+#' A dataset outlining various region definitions
 #'
-#' This is a dataset useful when mapping regional benchmarks to countries.
+#' @description
+#' This dataset maps codes representing countries to regions.
+#' @template info_iso-codes
 #'
-#' @family demo datasets
+#' @family iso codes
 #' @seealso [data_dictionary]
+#'
+#' @format
+#' `region_isos` is a [data.frame] with columns:
+#' * `isos` (character): Countries in region, defined by iso code.
+#' * `region` (character): Benchmark region name.
 #'
 #' @examples
 #' head(region_isos)
