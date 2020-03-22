@@ -31,7 +31,7 @@ by the company.
 ald_demo
 }
 \description{
-Fake data about individual physical assets (e.g. wind turbine power plant
+Fake data about physical assets (e.g. wind turbine power plant
 capacities) used to assess the climate alignment of financial portfolios.
 It imitates data from market-intelligence databases.
 
