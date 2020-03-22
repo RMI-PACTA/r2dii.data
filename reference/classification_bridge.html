@@ -40,8 +40,11 @@
 
 
 <meta property="og:title" content="Datasets to bridge (translate) common sector-classification codes — classification_bridge" />
-<meta property="og:description" content="These datasets help to bridge (translate) common sector classification codes
-from the wild to codes we use in 2dii such as 'power', 'oil and gas', 'coal',
+<meta property="og:description" content="These datasets serve as a translation key between common sector-classification
+systems and sectors relevant to the 'PACTA' tool
+(https://2degrees-investing.org/resource/pacta/).
+Classification datasets help to standardize sector classification codes from
+the wild to a relevant subset including 'power', 'oil and gas', 'coal',
 'automotive', 'aviation', 'concrete', 'steel', and 'shipping'." />
 
 
@@ -125,8 +128,11 @@ from the wild to codes we use in 2dii such as 'power', 'oil and gas', 'coal',
     </div>
 
     <div class="ref-description">
-    <p>These datasets help to bridge (translate) common sector classification codes
-from the wild to codes we use in 2dii such as 'power', 'oil and gas', 'coal',
+    <p>These datasets serve as a translation key between common sector-classification
+systems and sectors relevant to the 'PACTA' tool
+(<a href='https://2degrees-investing.org/resource/pacta/'>https://2degrees-investing.org/resource/pacta/</a>).</p>
+<p>Classification datasets help to standardize sector classification codes from
+the wild to a relevant subset including 'power', 'oil and gas', 'coal',
 'automotive', 'aviation', 'concrete', 'steel', and 'shipping'.</p>
     </div>
 
@@ -139,12 +145,32 @@ from the wild to codes we use in 2dii such as 'power', 'oil and gas', 'coal',
 
     <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
 
-    <p>An object of class <code>spec_tbl_df</code> (inherits from <code>tbl_df</code>, <code>tbl</code>, <code>data.frame</code>) with 768 rows and 4 columns.</p>
-<p>An object of class <code>spec_tbl_df</code> (inherits from <code>tbl_df</code>, <code>tbl</code>, <code>data.frame</code>) with 929 rows and 5 columns.</p>
-<p>An object of class <code>spec_tbl_df</code> (inherits from <code>tbl_df</code>, <code>tbl</code>, <code>data.frame</code>) with 929 rows and 5 columns.</p>
-    <h2 class="hasAnchor" id="value"><a class="anchor" href="#value"></a>Value</h2>
+    <p><code>classification_bridge</code> is a <a href='https://rdrr.io/r/base/data.frame.html'>data.frame</a> with columns:</p><ul>
+<li><p><code>borderline</code> (logical): Flag indicating if 2dii sector and classification
+code are a borderline match.</p></li>
+<li><p><code>code</code> (character): Original ISIC code.</p></li>
+<li><p><code>code_level</code> (double): Level of granularity of ISIC code.</p></li>
+<li><p><code>sector</code> (character): Associated 2dii sector.</p></li>
+</ul>
 
-    <p>A <a href='https://rdrr.io/r/base/data.frame.html'>data.frame</a> (subclass 'tbl').</p>
+<p><code>nace_classification</code> is a <a href='https://rdrr.io/r/base/data.frame.html'>data.frame</a> with columns:</p><ul>
+<li><p><code>borderline</code> (logical): Flag indicating if 2dii sector and classification
+code are a borderline match.</p></li>
+<li><p><code>code</code> (double): Formatted NACE code removing periods.</p></li>
+<li><p><code>code_level</code> (double): Level of granularity of NACE code.</p></li>
+<li><p><code>original_code</code> (double): Original NACE code.</p></li>
+<li><p><code>sector</code> (character): Associated 2dii sector.</p></li>
+</ul>
+
+<p><code>naics_classification</code> is a <a href='https://rdrr.io/r/base/data.frame.html'>data.frame</a> with columns:</p><ul>
+<li><p><code>borderline</code> (logical): Flag indicating if 2dii sector and classification
+code are a borderline match.</p></li>
+<li><p><code>code</code> (double): Formatted NAICS code.</p></li>
+<li><p><code>code_level</code> (double): Level of granularity of NAICS code.</p></li>
+<li><p><code>original_code</code> (double): Original NAICS code.</p></li>
+<li><p><code>sector</code> (character): Associated 2dii sector.</p></li>
+</ul>
+
     <h2 class="hasAnchor" id="see-also"><a class="anchor" href="#see-also"></a>See also</h2>
 
     <div class='dont-index'><p><a href='data_dictionary.html'>data_dictionary</a>.</p>

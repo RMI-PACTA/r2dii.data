@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>A dataset linking country names with their ISO code — iso_codes • r2dii.data</title>
+<title>Countries and codes — iso_codes • r2dii.data</title>
 
 
 <!-- jquery -->
@@ -39,8 +39,10 @@
 
 
 
-<meta property="og:title" content="A dataset linking country names with their ISO code — iso_codes" />
-<meta property="og:description" content="This is a dataset useful when mapping regional benchmarks to countries." />
+<meta property="og:title" content="Countries and codes — iso_codes" />
+<meta property="og:description" content="This dataset maps countries to codes.
+For information about the ISO standard for country codes see
+https://www.iso.org/iso-3166-country-codes.html." />
 
 
 
@@ -117,13 +119,15 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>A dataset linking country names with their ISO code</h1>
+    <h1>Countries and codes</h1>
     <small class="dont-index">Source: <a href='https://github.com/2DegreesInvesting/r2dii.data/blob/master/R/iso_codes.R'><code>R/iso_codes.R</code></a></small>
     <div class="hidden name"><code>iso_codes.Rd</code></div>
     </div>
 
     <div class="ref-description">
-    <p>This is a dataset useful when mapping regional benchmarks to countries.</p>
+    <p>This dataset maps countries to codes.</p>
+<p>For information about the ISO standard for country codes see
+<a href='https://www.iso.org/iso-3166-country-codes.html'>https://www.iso.org/iso-3166-country-codes.html</a>.</p>
     </div>
 
     <pre class="usage"><span class='no'>iso_codes</span></pre>
@@ -131,15 +135,15 @@
 
     <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
 
-    <p>An object of class <code>spec_tbl_df</code> (inherits from <code>tbl_df</code>, <code>tbl</code>, <code>data.frame</code>) with 286 rows and 2 columns.</p>
+    <p><code>iso_codes</code> is a <a href='https://rdrr.io/r/base/data.frame.html'>data.frame</a> with columns:</p><ul>
+<li><p><code>country</code> (character): Country name.</p></li>
+<li><p><code>country_iso</code> (character): Corresponding ISO code.</p></li>
+</ul>
+
     <h2 class="hasAnchor" id="see-also"><a class="anchor" href="#see-also"></a>See also</h2>
 
     <div class='dont-index'><p><a href='data_dictionary.html'>data_dictionary</a></p>
-<p>Other demo datasets: 
-<code><a href='ald_demo.html'>ald_demo</a></code>,
-<code><a href='data_dictionary.html'>data_dictionary</a></code>,
-<code><a href='loanbook_demo.html'>loanbook_demo</a></code>,
-<code><a href='overwrite_demo.html'>overwrite_demo</a></code>,
+<p>Other iso codes: 
 <code><a href='region_isos.html'>region_isos</a></code></p></div>
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>

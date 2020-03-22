@@ -40,7 +40,12 @@
 
 
 <meta property="og:title" content="An asset level dataset for demonstration — ald_demo" />
-<meta property="og:description" content="This is a public dataset that may be used for examples and tests." />
+<meta property="og:description" content="Fake data about physical assets (e.g. wind turbine power plant
+capacities) used to assess the climate alignment of financial portfolios.
+It imitates data from market-intelligence databases.
+Demo datasets are synthetic because most financial data is strictly private;
+they help to demonstrate and test the implementation in R of 'PACTA'
+(https://2degrees-investing.org/resource/pacta/)." />
 
 
 
@@ -123,7 +128,12 @@
     </div>
 
     <div class="ref-description">
-    <p>This is a public dataset that may be used for examples and tests.</p>
+    <p>Fake data about physical assets (e.g. wind turbine power plant
+capacities) used to assess the climate alignment of financial portfolios.
+It imitates data from market-intelligence databases.</p>
+<p>Demo datasets are synthetic because most financial data is strictly private;
+they help to demonstrate and test the implementation in R of 'PACTA'
+(<a href='https://2degrees-investing.org/resource/pacta/'>https://2degrees-investing.org/resource/pacta/</a>).</p>
     </div>
 
     <pre class="usage"><span class='no'>ald_demo</span></pre>
@@ -131,16 +141,33 @@
 
     <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
 
-    <p>An object of class <code>spec_tbl_df</code> (inherits from <code>tbl_df</code>, <code>tbl</code>, <code>data.frame</code>) with 17368 rows and 13 columns.</p>
+    <p><code>ald_demo</code> is a <a href='https://rdrr.io/r/base/data.frame.html'>data.frame</a> with columns:</p><ul>
+<li><p><code>ald_timestamp</code> (character): Date at which asset data was pulled from
+database.</p></li>
+<li><p><code>country_of_domicile</code> (character): Country where company is registered.</p></li>
+<li><p><code>emission_factor</code> (double): Company level emission factor of the
+technology.</p></li>
+<li><p><code>is_ultimate_listed_owner</code> (logical): Flag if company is the listed
+ultimate parent.</p></li>
+<li><p><code>is_ultimate_owner</code> (logical): Flag if company is the ultimate parent in
+our database.</p></li>
+<li><p><code>name_company</code> (character): The name of the company owning the asset.</p></li>
+<li><p><code>number_of_assets</code> (integer): Number of assets of a given technology owned
+by the company.</p></li>
+<li><p><code>plant_location</code> (character): Country where asset is located.</p></li>
+<li><p><code>production</code> (double): Company level production of the technology.</p></li>
+<li><p><code>production_unit</code> (character): The units that production is measured in.</p></li>
+<li><p><code>sector</code> (character): Sector to which the asset belongs.</p></li>
+<li><p><code>technology</code> (character): Technology implemented by the asset.</p></li>
+<li><p><code>year</code> (integer): Year at which the production value is predicted.</p></li>
+</ul>
+
     <h2 class="hasAnchor" id="see-also"><a class="anchor" href="#see-also"></a>See also</h2>
 
     <div class='dont-index'><p><a href='data_dictionary.html'>data_dictionary</a></p>
 <p>Other demo datasets: 
-<code><a href='data_dictionary.html'>data_dictionary</a></code>,
-<code><a href='iso_codes.html'>iso_codes</a></code>,
 <code><a href='loanbook_demo.html'>loanbook_demo</a></code>,
-<code><a href='overwrite_demo.html'>overwrite_demo</a></code>,
-<code><a href='region_isos.html'>region_isos</a></code></p></div>
+<code><a href='overwrite_demo.html'>overwrite_demo</a></code></p></div>
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
     <pre class="examples"><div class='input'><span class='fu'><a href='https://rdrr.io/r/utils/head.html'>head</a></span>(<span class='no'>ald_demo</span>)</div><div class='output co'>#&gt; <span style='color: #555555;'># A tibble: 6 x 13</span><span>
