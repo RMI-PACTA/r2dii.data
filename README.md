@@ -21,7 +21,14 @@ development and use of ‘PACTA’ in R.
 
 ## Installation
 
-Install the development version of r2dii.data with something like this:
+Install the released version of r2dii.data from CRAN with:
+
+``` r
+install.packages("r2dii.data")
+```
+
+Or install the development version of r2dii.data with something like
+this:
 
 ``` r
 # install.packages("devtools")
