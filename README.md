@@ -44,18 +44,18 @@ errors?](https://gist.github.com/maurolepore/a0187be9d40aee95a43f20a85f4caed6#in
 library(r2dii.data)
 
 head(data_dictionary)
-#>    dataset                   column    typeof
-#> 1 ald_demo            ald_timestamp character
-#> 2 ald_demo      country_of_domicile character
-#> 3 ald_demo          emission_factor    double
-#> 4 ald_demo is_ultimate_listed_owner   logical
-#> 5 ald_demo             name_company character
-#> 6 ald_demo         number_of_assets   integer
+#>    dataset              column    typeof
+#> 1 ald_demo       ald_timestamp character
+#> 2 ald_demo country_of_domicile character
+#> 3 ald_demo     emission_factor    double
+#> 4 ald_demo        name_company character
+#> 5 ald_demo    number_of_assets   integer
+#> 6 ald_demo      plant_location character
 #>                                                    definition
 #> 1           Date at which asset data was pulled from database
 #> 2                         Country where company is registered
 #> 3             Company level emission factor of the technology
-#> 4               Flag if company is the listed ultimate parent
-#> 5                    The name of the company owning the asset
-#> 6 Number of assets of a given technology owned by the company
+#> 4                    The name of the company owning the asset
+#> 5 Number of assets of a given technology owned by the company
+#> 6                              Country where asset is located
 ```

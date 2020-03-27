@@ -1,4 +1,4 @@
-# A tibble: 17,368 x 12
+# A tibble: 17,368 x 11
    name_company sector technology production_unit  year production
    <chr>        <chr>  <chr>      <chr>           <dbl>      <dbl>
  1 aba hydropo… power  hydrocap   MW               2013    133340.
@@ -11,6 +11,6 @@
  8 aba hydropo… power  hydrocap   MW               2020    121032.
  9 aba hydropo… power  hydrocap   MW               2021    119274.
 10 aba hydropo… power  hydrocap   MW               2022    117515.
-# … with 17,358 more rows, and 6 more variables: emission_factor <dbl>,
+# … with 17,358 more rows, and 5 more variables: emission_factor <dbl>,
 #   country_of_domicile <chr>, plant_location <chr>, number_of_assets <dbl>,
-#   is_ultimate_listed_owner <lgl>, ald_timestamp <chr>
+#   ald_timestamp <chr>
