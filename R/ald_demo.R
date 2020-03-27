@@ -18,8 +18,6 @@
 #' technology.
 #' * `is_ultimate_listed_owner` (logical): Flag if company is the listed
 #' ultimate parent.
-#' * `is_ultimate_owner` (logical): Flag if company is the ultimate parent in
-#' our database.
 #' * `name_company` (character): The name of the company owning the asset.
 #' * `number_of_assets` (integer): Number of assets of a given technology owned
 #' by the company.

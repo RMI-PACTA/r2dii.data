@@ -4,3 +4,8 @@ test_that("hasn't changed", {
     update = FALSE
   )
 })
+
+test_that("outputs no column `is_ultimate_owner` (#22)", {
+  column_is_gone <- !any(grepl("is_ultimate_owner", names(ald_demo)))
+  expect_true(column_is_gone)
+})

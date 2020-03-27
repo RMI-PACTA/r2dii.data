@@ -49,13 +49,13 @@ head(data_dictionary)
 #> 2 ald_demo      country_of_domicile character
 #> 3 ald_demo          emission_factor    double
 #> 4 ald_demo is_ultimate_listed_owner   logical
-#> 5 ald_demo        is_ultimate_owner   logical
-#> 6 ald_demo             name_company character
-#>                                               definition
-#> 1      Date at which asset data was pulled from database
-#> 2                    Country where company is registered
-#> 3        Company level emission factor of the technology
-#> 4          Flag if company is the listed ultimate parent
-#> 5 Flag if company is the ultimate parent in our database
-#> 6               The name of the company owning the asset
+#> 5 ald_demo             name_company character
+#> 6 ald_demo         number_of_assets   integer
+#>                                                    definition
+#> 1           Date at which asset data was pulled from database
+#> 2                         Country where company is registered
+#> 3             Company level emission factor of the technology
+#> 4               Flag if company is the listed ultimate parent
+#> 5                    The name of the company owning the asset
+#> 6 Number of assets of a given technology owned by the company
 ```

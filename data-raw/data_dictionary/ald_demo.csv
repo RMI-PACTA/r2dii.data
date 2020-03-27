@@ -9,6 +9,5 @@ ald_demo,emission_factor,double,Company level emission factor of the technology
 ald_demo,country_of_domicile,character,Country where company is registered
 ald_demo,plant_location,character,Country where asset is located
 ald_demo,number_of_assets,integer,Number of assets of a given technology owned by the company
-ald_demo,is_ultimate_owner,logical,Flag if company is the ultimate parent in our database
 ald_demo,is_ultimate_listed_owner,logical,Flag if company is the listed ultimate parent
 ald_demo,ald_timestamp,character,Date at which asset data was pulled from database

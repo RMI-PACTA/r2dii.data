@@ -14,8 +14,6 @@ database.
 technology.
 \item \code{is_ultimate_listed_owner} (logical): Flag if company is the listed
 ultimate parent.
-\item \code{is_ultimate_owner} (logical): Flag if company is the ultimate parent in
-our database.
 \item \code{name_company} (character): The name of the company owning the asset.
 \item \code{number_of_assets} (integer): Number of assets of a given technology owned
 by the company.
