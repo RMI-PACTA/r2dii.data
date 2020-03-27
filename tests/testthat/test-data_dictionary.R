@@ -3,11 +3,6 @@ test_that("hasn't changed", {
     data_dictionary, "ref-data_dictionary",
     update = FALSE
   )
-  expect_known_output(
-    tibble::as_tibble(data_dictionary), "ref-data_dictionary-output",
-    print = TRUE,
-    update = FALSE
-  )
 })
 
 test_that("has the expected names", {

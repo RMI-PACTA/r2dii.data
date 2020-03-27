@@ -3,11 +3,6 @@ test_that("hasn't changed", {
     ald_demo, "ref-ald_demo",
     update = FALSE
   )
-  expect_known_output(
-    tibble::as_tibble(ald_demo), "ref-ald_demo-output",
-    print = TRUE,
-    update = FALSE
-  )
 })
 
 test_that("outputs no column `is_ultimate_owner` (#22)", {
