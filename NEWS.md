@@ -1,4 +1,4 @@
 # r2dii.data 0.0.3.9000
 
 * `?r2dii.data` now shows documentation at the package level (#25).
-* Added a `NEWS.md` file to track changes to the package.
+* The News tab of the package website now links the changelog and release notes.
