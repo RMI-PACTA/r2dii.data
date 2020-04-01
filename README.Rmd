@@ -1,5 +1,5 @@
 ---
-output: github_document 
+output: github_document
 ---
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
@@ -16,6 +16,7 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 [![lifecycle](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 [![CRAN status](https://www.r-pkg.org/badges/version/r2dii.data)](https://CRAN.R-project.org/package=r2dii.data)
+[![](https://cranlogs.r-pkg.org/badges/grand-total/r2dii.data)](https://CRAN.R-project.org/package=r2dii.data)
 <!-- badges: end -->
 
 These datasets support the implementation in R of
@@ -45,7 +46,7 @@ devtools::install_github("2DegreesInvesting/r2dii.data")
 
 [How to minimize installation errors?](https://gist.github.com/maurolepore/a0187be9d40aee95a43f20a85f4caed6#installation)
 
-## Example 
+## Example
 
 ```{r}
 library(r2dii.data)
