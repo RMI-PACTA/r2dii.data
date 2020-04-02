@@ -67,7 +67,8 @@ head(loanbook_demo)
 
 Other demo datasets: 
 \code{\link{ald_demo}},
-\code{\link{overwrite_demo}}
+\code{\link{overwrite_demo}},
+\code{\link{scenario_demo_2020}}
 }
 \concept{demo datasets}
 \keyword{datasets}
