@@ -21,8 +21,8 @@
 #' in 2020.
 #' * `technology` (character): The technology within the sector to which the
 #' scenario prescribes a pathway.
-#' * `tmsr` (double): Technology market share ratio of the pathway calculated in
-#' 2020.
+#' * `tmsr` (double): Technology market share ratio of the pathway calculated
+#' in 2020.
 #' * `year` (integer): The year at which the pathway value is prescribed.
 #'
 #' @examples
