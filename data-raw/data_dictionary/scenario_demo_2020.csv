@@ -1,8 +1,8 @@
 dataset,column,typeof,definition
 scenario_demo_2020,scenario,character,The name of the scenario
-scenario_demo_2020,sector,character,The sector to which the scenario perscribes a pathway
-scenario_demo_2020,technology,character,The technology within the sector to which the scenario perscribes a pathway
+scenario_demo_2020,sector,character,The sector to which the scenario prescribes a pathway
+scenario_demo_2020,technology,character,The technology within the sector to which the scenario prescribes a pathway
 scenario_demo_2020,region,character,The region to which the pathway is relevant
-scenario_demo_2020,year,integer,The year at which the pathway value is perscribed
+scenario_demo_2020,year,integer,The year at which the pathway value is prescribed
 scenario_demo_2020,tmsr,double,Technology market share ratio of the pathway calculated in 2020
 scenario_demo_2020,smsp,double,Sector market share percentage of the pathway calculated in 2020
