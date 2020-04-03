@@ -29,15 +29,15 @@ Description: These datasets support the implementation in R of
     provides fake, public data to enable the development and use of
     'PACTA' in R.
 License: GPL-3
-URL: https://2degreesinvesting.github.io/r2dii.data/, 
+URL: https://2degreesinvesting.github.io/r2dii.data/,
     https://github.com/2DegreesInvesting/r2dii.data
 BugReports: 
     https://github.com/2DegreesInvesting/r2dii.data/issues
 Depends: 
     R (>= 2.10)
 Suggests: 
-    testthat (>= 2.1.0),
-    rmarkdown
+    rmarkdown,
+    testthat (>= 2.1.0)
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
