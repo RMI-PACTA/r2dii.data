@@ -15,12 +15,8 @@ pathway.
 in 2020.
 \item \code{technology} (character): The technology within the sector to which the
 scenario prescribes a pathway.
-\item \code{tmsr} (double): Technology market share ratio of the pathway calculated in
-}
-\enumerate{
-\item 
-}
-\itemize{
+\item \code{tmsr} (double): Technology market share ratio of the pathway calculated
+in 2020.
 \item \code{year} (integer): The year at which the pathway value is prescribed.
 }
 }
