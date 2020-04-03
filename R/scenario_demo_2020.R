@@ -3,9 +3,9 @@
 #' @description
 #' Fake climate scenario dataset, prepared for the software PACTA (Paris
 #' Agreement Capital Transition Assessment). It imitates climate scenario data
-#' provided by organizations such as the International Energy Agency (IEA) and
-#' prepared by 2DII (<https://2degrees-investing.org/>) by calculating the
-#' percent and ratio rates of change from the raw scenario production forecasts.
+#' (e.g. from the International Energy Agency (IEA)) including 
+#' the change through time in production across industrial sectors (calculated
+#' by [2DII](https://2degrees-investing.org/)).
 #' @template info_demo-datasets
 #'
 #' @family demo datasets
