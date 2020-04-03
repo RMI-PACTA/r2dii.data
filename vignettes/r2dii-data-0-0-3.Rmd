@@ -1,0 +1,68 @@
+---
+title: "r2dii-data-0-0-3"
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+We're excited to announce that r2dii.data is now on CRAN.
+
+Because both financial institutions and market data providers keep their
+data private, this package provides fake, public data to enable the
+development and use in R of PACTA (Paris Agreement Capital Transition
+Assessment) – a free tool that calculates the alignment between
+financial assets and climate scenarios
+(<a href="https://2degrees-investing.org/" class="uri">https://2degrees-investing.org/</a>).
+
+Install r2dii.data with:
+
+    install.packages("r2dii.data")
+
+And use it with:
+
+    library(r2dii.data)
+
+[`data_dictionary`](https://2degreesinvesting.github.io/r2dii.data/reference/data_dictionary.html)
+provides metadata about all datasets in r2dii.data.
+
+    # Optional: Use tibble to print nice data frames
+    library(tibble)
+
+    data_dictionary
+    #> # A tibble: 63 x 4
+    #>    dataset  column          typeof  definition                       
+    #>    <chr>    <chr>           <chr>   <chr>                            
+    #>  1 ald_demo ald_timestamp   charac… Date at which asset data was pul…
+    #>  2 ald_demo country_of_dom… charac… Country where company is registe…
+    #>  3 ald_demo emission_factor double  Company level emission factor of…
+    #>  4 ald_demo is_ultimate_li… logical Flag if company is the listed ul…
+    #>  5 ald_demo is_ultimate_ow… logical Flag if company is the ultimate …
+    #>  6 ald_demo name_company    charac… The name of the company owning t…
+    #>  7 ald_demo number_of_asse… integer Number of assets of a given tech…
+    #>  8 ald_demo plant_location  charac… Country where asset is located   
+    #>  9 ald_demo production      double  Company level production of the …
+    #> 10 ald_demo production_unit charac… The units that production is mea…
+    #> # … with 53 more rows
+
+Tips:
+
+-   Use the package [tibble](https://tibble.tidyverse.org/) to
+    automatically print nice data frames.
+-   Explore all datasets at the [website of
+    r2dii.data](https://2degreesinvesting.github.io/r2dii.data/index.html),
+    under the tab
+    [Reference](https://2degreesinvesting.github.io/r2dii.data/reference/index.html).
+-   Use `utils::View()` in RStudio to search, sort, and filter keywords.
+
+<!-- -->
+
+    View(loanbook_demo)
+
+<img src=http://i.imgur.com/CsZAPN0.png width=760/>
+
+We look forward to [your
+feedback](https://github.com/2DegreesInvesting/r2dii.data/issues/new/choose).

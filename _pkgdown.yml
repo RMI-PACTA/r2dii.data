@@ -28,23 +28,23 @@ navbar:
   left:
   - text: "Reference"
     href: reference/index.html
-    
+
   - text: "News"
     menu:
     - text: "Release notes"
     - text: "r2dii.data 0.0.3"
-      href: https://2degreesinvesting.github.io/r2dii/articles/r2dii-data-0-0-3.html
+      href: articles/r2dii-data-0-0-3.html
     - text: "----------------------"
     - text: "Change log"
       href: news/index.html
-   
+
   right:
     - icon: fa-gavel
       href: https://github.com/maurolepore/
 
     - icon: fa-github
       href: https://github.com/2DegreesInvesting/r2dii.data/
-      
+
     - text: r2dii
       href: https://2degreesinvesting.github.io/r2dii/index.html
 
