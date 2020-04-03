@@ -5,17 +5,34 @@
 \alias{scenario_demo_2020}
 \title{A prepared climate scenario dataset for demonstration}
 \format{
-An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 1323 rows and 7 columns.
+\code{scenario_demo_2020} is a \link{data.frame} with columns:
+\itemize{
+\item \code{region} (character): The region to which the pathway is relevant.
+\item \code{scenario} (character): The name of the scenario.
+\item \code{sector} (character): The sector to which the scenario prescribes a
+pathway.
+\item \code{smsp} (double): Sector market share percentage of the pathway calculated
+in 2020.
+\item \code{technology} (character): The technology within the sector to which the
+scenario prescribes a pathway.
+\item \code{tmsr} (double): Technology market share ratio of the pathway calculated in
+}
+\enumerate{
+\item 
+}
+\itemize{
+\item \code{year} (integer): The year at which the pathway value is prescribed.
+}
 }
 \usage{
 scenario_demo_2020
 }
 \description{
-Fake data representing a prepared climate scenario dataset, to be used
-directly in a PACTA analysis. It imitates data from climate scenario
-providers, such as the International Energy Agency (IEA), that
-2DII (\url{https://2degrees-investing.org/}) prepares for analysis by
-determining growth rates in comparison to a start year.
+Fake climate scenario dataset, prepared for the software PACTA (Paris
+Agreement Capital Transition Assessment). It imitates climate scenario
+provided by organizations such as the International Energy Agency (IEA) and
+prepared by 2DII (\url{https://2degrees-investing.org/}) by determining growth
+rates in comparison to a start year.
 
 Demo datasets are synthetic because most financial data is strictly private;
 they help to demonstrate and test the implementation in R of 'PACTA'
@@ -26,8 +43,6 @@ head(scenario_demo_2020)
 }
 \seealso{
 \link{data_dictionary}
-
-TODO: format
 
 Other demo datasets: 
 \code{\link{ald_demo}},
