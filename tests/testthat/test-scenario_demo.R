@@ -3,8 +3,4 @@ test_that("hasn't changed", {
     "scenario_demo_2020", "ref-scenario_demo_2020",
     update = FALSE
   )
-  expect_known_output(
-    scenario_demo_2020, "ref-scenario_demo_2020-output.txt",
-    print = TRUE
-  )
 })
