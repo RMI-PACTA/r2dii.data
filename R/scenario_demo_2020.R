@@ -10,6 +10,9 @@
 #'
 #' @family demo datasets
 #' @seealso [data_dictionary]
+#'
+#' TODO: format
+#'
 #' @examples
 #' head(scenario_demo_2020)
 "scenario_demo_2020"
