@@ -25,7 +25,8 @@ test_that("defines the expected objects", {
     "naics_classification",
     "overwrite_demo",
     "region_isos",
-    "sector_classifications"
+    "sector_classifications",
+    "scenario_demo_2020"
   )
 
   expect_equal(sort(datasets), sort(expected_datasets))
