@@ -13,9 +13,9 @@ scenario_demo_2020
 \description{
 Fake data representing a prepared climate scenario dataset, to be used
 directly in a PACTA analysis. It imitates data from climate scenario
-providers such as the International Energy Agency (IEA). Climate scenarios
-are prepared internally by 2Dii for analysis by determining growth rates in
-comparison to a start year.
+providers, such as the International Energy Agency (IEA), that
+2DII (\url{https://2degrees-investing.org/}) prepares for analysis by
+determining growth rates in comparison to a start year.
 
 Demo datasets are synthetic because most financial data is strictly private;
 they help to demonstrate and test the implementation in R of 'PACTA'
