@@ -4,8 +4,12 @@ remove_spec <- function(data) {
     data <- data[]
   })
 
+  check_no_spec(data)
+  data
+}
+
+check_no_spec <- function(data) {
   stopifnot(!inherits(data, "spec_tbl_df"))
   stopifnot(is.null(attributes(data)$spec))
-
-  data
+  invisible(data)
 }
