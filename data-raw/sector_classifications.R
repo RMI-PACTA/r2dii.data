@@ -1,3 +1,5 @@
+source(here::here("data-raw/utils.R"))
+
 # Setup -------------------------------------------------------------------
 
 #' A view of available sector classification datasets
@@ -35,4 +37,5 @@ exported_data <- function(package) {
 
 library(r2dii.data)
 sector_classifications <- sector_classification_df()
+check_no_spec(sector_classifications)
 use_data(sector_classifications, overwrite = TRUE)
