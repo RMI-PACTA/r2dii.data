@@ -1,4 +1,4 @@
-# r2dii.data (development version)
+# r2dii.data 0.0.3.9000
 
 * Removed the attribute "spec" and class "spec_tbl_df" from all datasets (#43).
 * New data `scenario_demo_2020` (#37).
