@@ -29,8 +29,7 @@ ald_scenario_demo <- ald_demo %>%
   dplyr::mutate(
     ald_emission_factor_unit = glue::glue("{ald_sector} emission_factor"),
     .after = ald_emission_factor
-  )
+  ) %>%
+  dplyr::inner_join(r2dii.data::scenario_demo_2020)
 
-# TODO Join scenario_demo_2020 in with the New ald_demo (similar to how
-# r2dii.analysis::join_ald_scenario() does)
-ald_scenario_demo
+use_data(ald_scenario_demo, overwrite = TRUE)
