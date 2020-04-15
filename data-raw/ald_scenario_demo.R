@@ -27,7 +27,7 @@ ald_scenario_demo <- ald_demo %>%
   dplyr::rename(dplyr::all_of(new_names_from_old_names)) %>%
   dplyr::mutate(id_name = "company_name", .before = 1L) %>%
   dplyr::mutate(
-    ald_emission_factor_unit = "FIXME_ald_emission_factor_unit",
+    ald_emission_factor_unit = glue::glue("{ald_sector} emission_factor"),
     .after = ald_emission_factor
   )
 
