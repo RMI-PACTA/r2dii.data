@@ -31,4 +31,6 @@ ald_scenario_demo <- ald_demo %>%
     .after = ald_emission_factor
   )
 
+# TODO Join scenario_demo_2020 in with the New ald_demo (similar to how
+# r2dii.analysis::join_ald_scenario() does)
 ald_scenario_demo
