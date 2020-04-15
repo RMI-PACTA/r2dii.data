@@ -29,7 +29,6 @@ ald_scenario_demo <- ald_demo %>%
   dplyr::mutate(
     ald_emission_factor_unit = "FIXME_ald_emission_factor_unit",
     .after = ald_emission_factor
-  ) %>%
-  dplyr::mutate(company_name = "FIXME_company_name")
+  )
 
 ald_scenario_demo
