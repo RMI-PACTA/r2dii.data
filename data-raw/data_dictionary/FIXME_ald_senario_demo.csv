@@ -10,8 +10,15 @@ ald_location,plant_location,ald_demo,character,Country where asset is located
 ald_production,production,ald_demo,double,Company level production of the technology
 ald_production_unit,production_unit,ald_demo,character,The units that production is measured in
 ald_sector,sector,ald_demo,character,Sector to which the asset belongs
-technology,technology,ald_demo,character,Technology implemented by the asset
-year,year,ald_demo,integer,Year at which the production value is predicted
 ald_sector,sector,scenario_demo_2020,character,The sector to which the scenario perscribes a pathway
+technology,technology,ald_demo,character,Technology implemented by the asset
 technology,technology,scenario_demo_2020,character,The technology within the sector to which the scenario perscribes a pathway
+year,year,ald_demo,integer,Year at which the production value is predicted
 year,year,scenario_demo_2020,integer,The year at which the pathway value is perscribed
+id_name,NA,NA,NA,NA
+ald_emission_factor_unit,NA,NA,NA,NA
+scenario,NA,NA,NA,NA
+sector,NA,NA,NA,NA
+region,NA,NA,NA,NA
+tmsr,NA,NA,NA,NA
+smsp,NA,NA,NA,NA

@@ -42,7 +42,10 @@ tibble::tibble(
   new_column = names(new_names_from_old_names),
   old_column = unname(new_names_from_old_names)
 ) %>%
-  dplyr::inner_join(data_dictionary, by = c("old_column" = "column")) %>%
-  dplyr::filter(dataset %in% c("ald_demo", "scenario_demo_2020")) %>%
-  dplyr::arrange(dataset, old_column) %>%
+  dplyr::right_join(tibble::tibble(new_column = names(ald_scenario_demo))) %>%
+  dplyr::left_join(data_dictionary, by = c("old_column" = "column")) %>%
+  dplyr::filter(is.na(dataset) | dataset %in% c("ald_demo", "scenario_demo_2020")) %>%
+  dplyr::arrange(old_column, dataset) %>%
+# FIXME: Integrate with what Klaus defined at:
+  # https://github.com/2DegreesInvesting/r2dii.data/issues/32#issue-590822964
   readr::write_csv("data-raw/data_dictionary/WIP_ald_senario_demo.csv")
