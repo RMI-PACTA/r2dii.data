@@ -33,3 +33,16 @@ ald_scenario_demo <- ald_demo %>%
   dplyr::inner_join(r2dii.data::scenario_demo_2020)
 
 use_data(ald_scenario_demo, overwrite = TRUE)
+
+
+
+# Data dictionary ---------------------------------------------------------
+
+tibble::tibble(
+  new_column = names(new_names_from_old_names),
+  old_column = unname(new_names_from_old_names)
+) %>%
+  dplyr::inner_join(data_dictionary, by = c("old_column" = "column")) %>%
+  dplyr::filter(dataset %in% c("ald_demo", "scenario_demo_2020")) %>%
+  dplyr::arrange(dataset, old_column) %>%
+  readr::write_csv("data-raw/data_dictionary/WIP_ald_senario_demo.csv")
