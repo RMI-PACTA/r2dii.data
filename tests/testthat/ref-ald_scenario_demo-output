@@ -1,84 +1,105 @@
-        id_name                               id ald_sector technology
-1  company_name aba hydropower generation co ltd      power   hydrocap
-2  company_name aba hydropower generation co ltd      power   hydrocap
-3  company_name aba hydropower generation co ltd      power   hydrocap
-4  company_name aba hydropower generation co ltd      power   hydrocap
-5  company_name aba hydropower generation co ltd      power   hydrocap
-6  company_name aba hydropower generation co ltd      power   hydrocap
-7  company_name aba hydropower generation co ltd      power   hydrocap
-8  company_name aba hydropower generation co ltd      power   hydrocap
-9  company_name aba hydropower generation co ltd      power   hydrocap
-10 company_name aba hydropower generation co ltd      power   hydrocap
-11 company_name aba hydropower generation co ltd      power   hydrocap
-12 company_name aba hydropower generation co ltd      power   hydrocap
-13 company_name aba hydropower generation co ltd      power   hydrocap
-14 company_name aba hydropower generation co ltd      power   hydrocap
-15 company_name aba hydropower generation co ltd      power   hydrocap
-16 company_name aba hydropower generation co ltd      power   hydrocap
-17 company_name aba hydropower generation co ltd      power   hydrocap
-18 company_name aba hydropower generation co ltd      power   hydrocap
-19 company_name aba hydropower generation co ltd      power   hydrocap
-20 company_name aba hydropower generation co ltd      power   hydrocap
-   ald_production_unit year ald_production ald_emission_factor
-1                   MW 2020       121031.9                  NA
-2                   MW 2020       121031.9                  NA
-3                   MW 2020       121031.9                  NA
-4                   MW 2020       121031.9                  NA
-5                   MW 2020       121031.9                  NA
-6                   MW 2020       121031.9                  NA
-7                   MW 2020       121031.9                  NA
-8                   MW 2020       121031.9                  NA
-9                   MW 2020       121031.9                  NA
-10                  MW 2021       119273.6                  NA
-11                  MW 2021       119273.6                  NA
-12                  MW 2021       119273.6                  NA
-13                  MW 2021       119273.6                  NA
-14                  MW 2021       119273.6                  NA
-15                  MW 2021       119273.6                  NA
-16                  MW 2021       119273.6                  NA
-17                  MW 2021       119273.6                  NA
-18                  MW 2021       119273.6                  NA
-19                  MW 2022       117515.3                  NA
-20                  MW 2022       117515.3                  NA
-   ald_emission_factor_unit domicile_region ald_location is_ultimate_owner
-1     power emission_factor              DM           my              TRUE
-2     power emission_factor              DM           my              TRUE
-3     power emission_factor              DM           my              TRUE
-4     power emission_factor              DM           my              TRUE
-5     power emission_factor              DM           my              TRUE
-6     power emission_factor              DM           my              TRUE
-7     power emission_factor              DM           my              TRUE
-8     power emission_factor              DM           my              TRUE
-9     power emission_factor              DM           my              TRUE
-10    power emission_factor              DM           my              TRUE
-11    power emission_factor              DM           my              TRUE
-12    power emission_factor              DM           my              TRUE
-13    power emission_factor              DM           my              TRUE
-14    power emission_factor              DM           my              TRUE
-15    power emission_factor              DM           my              TRUE
-16    power emission_factor              DM           my              TRUE
-17    power emission_factor              DM           my              TRUE
-18    power emission_factor              DM           my              TRUE
-19    power emission_factor              DM           my              TRUE
-20    power emission_factor              DM           my              TRUE
-   scenario scenario_region     tmsr         smsp scenario_source
-1       cps          global 1.000000 0.0000000000        DEMO2020
-2       cps          global 1.000000 0.0000000000        DEMO2020
-3       cps          global 1.000000 0.0000000000        DEMO2020
-4       sds          global 1.000000 0.0000000000        DEMO2020
-5       sds          global 1.000000 0.0000000000        DEMO2020
-6       sds          global 1.000000 0.0000000000        DEMO2020
-7       sps          global 1.000000 0.0000000000        DEMO2020
-8       sps          global 1.000000 0.0000000000        DEMO2020
-9       sps          global 1.000000 0.0000000000        DEMO2020
-10      cps          global 1.005226 0.0008060369        DEMO2020
-11      cps          global 1.005226 0.0008060369        DEMO2020
-12      cps          global 1.005226 0.0008060369        DEMO2020
-13      sds          global 1.008296 0.0012833874        DEMO2020
-14      sds          global 1.008296 0.0012833874        DEMO2020
-15      sds          global 1.008296 0.0012833874        DEMO2020
-16      sps          global 1.005724 0.0008834964        DEMO2020
-17      sps          global 1.005724 0.0008834964        DEMO2020
-18      sps          global 1.005724 0.0008834964        DEMO2020
-19      cps          global 1.010452 0.0016120739        DEMO2020
-20      cps          global 1.010452 0.0016120739        DEMO2020
+   ald_company_sector_id      id_name                               id
+1                      1 company_name aba hydropower generation co ltd
+2                      1 company_name aba hydropower generation co ltd
+3                      1 company_name aba hydropower generation co ltd
+4                      1 company_name aba hydropower generation co ltd
+5                      1 company_name aba hydropower generation co ltd
+6                      1 company_name aba hydropower generation co ltd
+7                      1 company_name aba hydropower generation co ltd
+8                      1 company_name aba hydropower generation co ltd
+9                      1 company_name aba hydropower generation co ltd
+10                     1 company_name aba hydropower generation co ltd
+11                     1 company_name aba hydropower generation co ltd
+12                     1 company_name aba hydropower generation co ltd
+13                     1 company_name aba hydropower generation co ltd
+14                     1 company_name aba hydropower generation co ltd
+15                     1 company_name aba hydropower generation co ltd
+16                     1 company_name aba hydropower generation co ltd
+17                     1 company_name aba hydropower generation co ltd
+18                     1 company_name aba hydropower generation co ltd
+19                     1 company_name aba hydropower generation co ltd
+20                     1 company_name aba hydropower generation co ltd
+   ald_sector ald_location technology year ald_production ald_production_unit
+1       power           my   hydrocap 2020       121031.9                  MW
+2       power           my   hydrocap 2020       121031.9                  MW
+3       power           my   hydrocap 2020       121031.9                  MW
+4       power           my   hydrocap 2020       121031.9                  MW
+5       power           my   hydrocap 2020       121031.9                  MW
+6       power           my   hydrocap 2020       121031.9                  MW
+7       power           my   hydrocap 2020       121031.9                  MW
+8       power           my   hydrocap 2020       121031.9                  MW
+9       power           my   hydrocap 2020       121031.9                  MW
+10      power           my   hydrocap 2021       119273.6                  MW
+11      power           my   hydrocap 2021       119273.6                  MW
+12      power           my   hydrocap 2021       119273.6                  MW
+13      power           my   hydrocap 2021       119273.6                  MW
+14      power           my   hydrocap 2021       119273.6                  MW
+15      power           my   hydrocap 2021       119273.6                  MW
+16      power           my   hydrocap 2021       119273.6                  MW
+17      power           my   hydrocap 2021       119273.6                  MW
+18      power           my   hydrocap 2021       119273.6                  MW
+19      power           my   hydrocap 2022       117515.3                  MW
+20      power           my   hydrocap 2022       117515.3                  MW
+   ald_emission_factor    ald_emission_factor_unit domicile_region
+1                   NA tons of CO2 per hour per MW              DM
+2                   NA tons of CO2 per hour per MW              DM
+3                   NA tons of CO2 per hour per MW              DM
+4                   NA tons of CO2 per hour per MW              DM
+5                   NA tons of CO2 per hour per MW              DM
+6                   NA tons of CO2 per hour per MW              DM
+7                   NA tons of CO2 per hour per MW              DM
+8                   NA tons of CO2 per hour per MW              DM
+9                   NA tons of CO2 per hour per MW              DM
+10                  NA tons of CO2 per hour per MW              DM
+11                  NA tons of CO2 per hour per MW              DM
+12                  NA tons of CO2 per hour per MW              DM
+13                  NA tons of CO2 per hour per MW              DM
+14                  NA tons of CO2 per hour per MW              DM
+15                  NA tons of CO2 per hour per MW              DM
+16                  NA tons of CO2 per hour per MW              DM
+17                  NA tons of CO2 per hour per MW              DM
+18                  NA tons of CO2 per hour per MW              DM
+19                  NA tons of CO2 per hour per MW              DM
+20                  NA tons of CO2 per hour per MW              DM
+   is_ultimate_owner scenario_source scenario scenario_region     tmsr
+1               TRUE        DEMO2020      cps          global 1.000000
+2               TRUE        DEMO2020      cps          global 1.000000
+3               TRUE        DEMO2020      cps          global 1.000000
+4               TRUE        DEMO2020      sds          global 1.000000
+5               TRUE        DEMO2020      sds          global 1.000000
+6               TRUE        DEMO2020      sds          global 1.000000
+7               TRUE        DEMO2020      sps          global 1.000000
+8               TRUE        DEMO2020      sps          global 1.000000
+9               TRUE        DEMO2020      sps          global 1.000000
+10              TRUE        DEMO2020      cps          global 1.005226
+11              TRUE        DEMO2020      cps          global 1.005226
+12              TRUE        DEMO2020      cps          global 1.005226
+13              TRUE        DEMO2020      sds          global 1.008296
+14              TRUE        DEMO2020      sds          global 1.008296
+15              TRUE        DEMO2020      sds          global 1.008296
+16              TRUE        DEMO2020      sps          global 1.005724
+17              TRUE        DEMO2020      sps          global 1.005724
+18              TRUE        DEMO2020      sps          global 1.005724
+19              TRUE        DEMO2020      cps          global 1.010452
+20              TRUE        DEMO2020      cps          global 1.010452
+           smsp
+1  0.0000000000
+2  0.0000000000
+3  0.0000000000
+4  0.0000000000
+5  0.0000000000
+6  0.0000000000
+7  0.0000000000
+8  0.0000000000
+9  0.0000000000
+10 0.0008060369
+11 0.0008060369
+12 0.0008060369
+13 0.0012833874
+14 0.0012833874
+15 0.0012833874
+16 0.0008834964
+17 0.0008834964
+18 0.0008834964
+19 0.0016120739
+20 0.0016120739
