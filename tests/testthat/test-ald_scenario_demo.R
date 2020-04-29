@@ -4,6 +4,6 @@ test_that("hasn't changed", {
     head(as.data.frame(ald_scenario_demo), 20),
     "ref-ald_scenario_demo-output",
     print = TRUE,
-    update = T
+    update = FALSE
   )
 })
