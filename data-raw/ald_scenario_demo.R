@@ -49,15 +49,16 @@ ald_scenario_demo <- ald_demo %>%
     .after = ald_emission_factor
   ) %>%
   dplyr::inner_join(r2dii.data::scenario_demo_2020, by = scenario_columns()) %>%
-  pick_ald_location_in_region()
+  pick_ald_location_in_region() %>%
+  dplyr::rename(scenario_region = region)
 
 usethis::use_data(ald_scenario_demo, overwrite = TRUE)
 
 # Data dictionary ---------------------------------------------------------
 
 tibble::tibble(
-  new_column = names(new_names_from_old_names),
-  old_column = unname(new_names_from_old_names)
+  new_column = names(new_names_from_old_names()),
+  old_column = unname(new_names_from_old_names())
 ) %>%
   dplyr::right_join(tibble::tibble(new_column = names(ald_scenario_demo))) %>%
   dplyr::left_join(data_dictionary, by = c("old_column" = "column")) %>%
