@@ -11,7 +11,7 @@ new_names_from_old_names <- function(){
     "ald_production" = "production",
     "ald_emission_factor" = "emission_factor",
     "country_of_domicile" = "country_of_domicile",
-    "ald_location" = "plant_location",
+    "ald_location" = "ald_location",
     "FIXME_number_of_assets" = "number_of_assets",
     "is_ultimate_owner" = "is_ultimate_owner",
     "FIXME_is_ultimate_listed_owner" = "is_ultimate_listed_owner",
@@ -21,16 +21,16 @@ new_names_from_old_names <- function(){
 
 scenario_columns <- function() {
   c(
-    sector_ald = "sector",
+    ald_sector = "sector",
     technology = "technology",
     year = "year"
   )
 }
 
-pick_plant_location_in_region <- function(data) {
-  data %>% dplyr::mutate(plant_location = tolower(.data$plant_location)) %>%
+pick_ald_location_in_region <- function(data) {
+  data %>% dplyr::mutate(ald_location = tolower(.data$ald_location)) %>%
     dplyr::inner_join(r2dii.data::region_isos,
-                      by = c("region", "plant_location" = "isos")
+                      by = c("region", "ald_location" = "isos")
     )
 }
 
@@ -48,9 +48,10 @@ ald_scenario_demo <- ald_demo %>%
     ald_emission_factor_unit = glue::glue("{ald_sector} emission_factor"),
     .after = ald_emission_factor
   ) %>%
-  dplyr::inner_join(r2dii.data::scenario_demo_2020)
+  dplyr::inner_join(r2dii.data::scenario_demo_2020, by = scenario_columns()) %>%
+  pick_ald_location_in_region()
 
-use_data(ald_scenario_demo, overwrite = TRUE)
+usethis::use_data(ald_scenario_demo, overwrite = TRUE)
 
 # Data dictionary ---------------------------------------------------------
 
