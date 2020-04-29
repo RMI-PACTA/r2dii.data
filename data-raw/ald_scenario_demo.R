@@ -12,10 +12,7 @@ new_names_from_old_names <- function(){
     "ald_emission_factor" = "emission_factor",
     "domicile_region" = "country_of_domicile",
     "ald_location" = "plant_location",
-    "FIXME_number_of_assets" = "number_of_assets",
-    "is_ultimate_owner" = "is_ultimate_owner",
-    "FIXME_is_ultimate_listed_owner" = "is_ultimate_listed_owner",
-    "FIXME_ald_timestamp" = "ald_timestamp"
+    "is_ultimate_owner" = "is_ultimate_owner"
   )
 }
 
@@ -46,6 +43,9 @@ scenario_demo_2020_with_source <- r2dii.data::scenario_demo_2020 %>%
 # > [1] '0.8.99.9002'
 ald_scenario_demo <- ald_demo %>%
   dplyr::rename(dplyr::all_of(new_names_from_old_names())) %>%
+  dplyr::select(-c(    "number_of_assets",
+                       "is_ultimate_listed_owner",
+                       "ald_timestamp")) %>%
   dplyr::mutate(id_name = "company_name", .before = 1L) %>%
   dplyr::mutate(
     ald_emission_factor_unit = glue::glue("{ald_sector} emission_factor"),
@@ -58,15 +58,16 @@ ald_scenario_demo <- ald_demo %>%
 usethis::use_data(ald_scenario_demo, overwrite = TRUE)
 
 # Data dictionary ---------------------------------------------------------
-
-tibble::tibble(
-  new_column = names(new_names_from_old_names()),
-  old_column = unname(new_names_from_old_names())
-) %>%
-  dplyr::right_join(tibble::tibble(new_column = names(ald_scenario_demo))) %>%
-  dplyr::left_join(data_dictionary, by = c("old_column" = "column")) %>%
-  dplyr::filter(is.na(dataset) | dataset %in% c("ald_demo", "scenario_demo_2020")) %>%
-  dplyr::arrange(old_column, dataset) %>%
-  # FIXME: Integrate with what Klaus defined at:
-  # https://github.com/2DegreesInvesting/r2dii.data/issues/32#issue-590822964
-  readr::write_csv("data-raw/data_dictionary/WIP_ald_senario_demo.csv")
+# FIXME: Remove this chunk, I have updated the data_dictionary entry
+#
+# tibble::tibble(
+#   new_column = names(new_names_from_old_names()),
+#   old_column = unname(new_names_from_old_names())
+# ) %>%
+#   dplyr::right_join(tibble::tibble(new_column = names(ald_scenario_demo))) %>%
+#   dplyr::left_join(data_dictionary, by = c("old_column" = "column")) %>%
+#   dplyr::filter(is.na(dataset) | dataset %in% c("ald_demo", "scenario_demo_2020")) %>%
+#   dplyr::arrange(old_column, dataset) %>%
+#   # FIXED: Integrate with what Klaus defined at:
+#   # https://github.com/2DegreesInvesting/r2dii.data/issues/32#issue-590822964
+#   readr::write_csv("data-raw/data_dictionary/WIP_ald_senario_demo.csv")

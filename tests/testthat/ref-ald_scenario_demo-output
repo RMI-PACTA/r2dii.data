@@ -26,80 +26,59 @@
 4                   MW 2020       121031.9                  NA
 5                   MW 2020       121031.9                  NA
 6                   MW 2020       121031.9                  NA
-7                   MW 2021       119273.6                  NA
-8                   MW 2021       119273.6                  NA
-9                   MW 2021       119273.6                  NA
+7                   MW 2020       121031.9                  NA
+8                   MW 2020       121031.9                  NA
+9                   MW 2020       121031.9                  NA
 10                  MW 2021       119273.6                  NA
 11                  MW 2021       119273.6                  NA
 12                  MW 2021       119273.6                  NA
-13                  MW 2022       117515.3                  NA
-14                  MW 2022       117515.3                  NA
-15                  MW 2022       117515.3                  NA
-16                  MW 2022       117515.3                  NA
-17                  MW 2022       117515.3                  NA
-18                  MW 2022       117515.3                  NA
-19                  MW 2023       115757.0                  NA
-20                  MW 2023       115757.0                  NA
-   ald_emission_factor_unit country_of_domicile ald_location
-1     power emission_factor                  DM           MY
-2     power emission_factor                  DM           MY
-3     power emission_factor                  DM           MY
-4     power emission_factor                  DM           MY
-5     power emission_factor                  DM           MY
-6     power emission_factor                  DM           MY
-7     power emission_factor                  DM           MY
-8     power emission_factor                  DM           MY
-9     power emission_factor                  DM           MY
-10    power emission_factor                  DM           MY
-11    power emission_factor                  DM           MY
-12    power emission_factor                  DM           MY
-13    power emission_factor                  DM           MY
-14    power emission_factor                  DM           MY
-15    power emission_factor                  DM           MY
-16    power emission_factor                  DM           MY
-17    power emission_factor                  DM           MY
-18    power emission_factor                  DM           MY
-19    power emission_factor                  DM           MY
-20    power emission_factor                  DM           MY
-   FIXME_number_of_assets is_ultimate_owner FIXME_is_ultimate_listed_owner
-1                       5              TRUE                          FALSE
-2                       5              TRUE                          FALSE
-3                       5              TRUE                          FALSE
-4                       5              TRUE                          FALSE
-5                       5              TRUE                          FALSE
-6                       5              TRUE                          FALSE
-7                       5              TRUE                          FALSE
-8                       5              TRUE                          FALSE
-9                       5              TRUE                          FALSE
-10                      5              TRUE                          FALSE
-11                      5              TRUE                          FALSE
-12                      5              TRUE                          FALSE
-13                      5              TRUE                          FALSE
-14                      5              TRUE                          FALSE
-15                      5              TRUE                          FALSE
-16                      5              TRUE                          FALSE
-17                      5              TRUE                          FALSE
-18                      5              TRUE                          FALSE
-19                      5              TRUE                          FALSE
-20                      5              TRUE                          FALSE
-   FIXME_ald_timestamp scenario sector region     tmsr         smsp
-1               1994Q1      cps  power europe 1.000000 0.0000000000
-2               1994Q1      cps  power global 1.000000 0.0000000000
-3               1994Q1      sds  power europe 1.000000 0.0000000000
-4               1994Q1      sds  power global 1.000000 0.0000000000
-5               1994Q1      sps  power europe 1.000000 0.0000000000
-6               1994Q1      sps  power global 1.000000 0.0000000000
-7               1994Q1      cps  power europe 1.023458 0.0045495902
-8               1994Q1      cps  power global 1.005226 0.0008060369
-9               1994Q1      sds  power europe 1.031775 0.0062262586
-10              1994Q1      sds  power global 1.008296 0.0012833874
-11              1994Q1      sps  power europe 1.025515 0.0049560246
-12              1994Q1      sps  power global 1.005724 0.0008834964
-13              1994Q1      cps  power europe 1.046916 0.0090991803
-14              1994Q1      cps  power global 1.010452 0.0016120739
-15              1994Q1      sds  power europe 1.063549 0.0124525172
-16              1994Q1      sds  power global 1.016592 0.0025667748
-17              1994Q1      sps  power europe 1.051029 0.0099120492
-18              1994Q1      sps  power global 1.011448 0.0017669927
-19              1994Q1      cps  power europe 1.070374 0.0136487705
-20              1994Q1      cps  power global 1.015678 0.0024181109
+13                  MW 2021       119273.6                  NA
+14                  MW 2021       119273.6                  NA
+15                  MW 2021       119273.6                  NA
+16                  MW 2021       119273.6                  NA
+17                  MW 2021       119273.6                  NA
+18                  MW 2021       119273.6                  NA
+19                  MW 2022       117515.3                  NA
+20                  MW 2022       117515.3                  NA
+   ald_emission_factor_unit domicile_region ald_location is_ultimate_owner
+1     power emission_factor              DM           my              TRUE
+2     power emission_factor              DM           my              TRUE
+3     power emission_factor              DM           my              TRUE
+4     power emission_factor              DM           my              TRUE
+5     power emission_factor              DM           my              TRUE
+6     power emission_factor              DM           my              TRUE
+7     power emission_factor              DM           my              TRUE
+8     power emission_factor              DM           my              TRUE
+9     power emission_factor              DM           my              TRUE
+10    power emission_factor              DM           my              TRUE
+11    power emission_factor              DM           my              TRUE
+12    power emission_factor              DM           my              TRUE
+13    power emission_factor              DM           my              TRUE
+14    power emission_factor              DM           my              TRUE
+15    power emission_factor              DM           my              TRUE
+16    power emission_factor              DM           my              TRUE
+17    power emission_factor              DM           my              TRUE
+18    power emission_factor              DM           my              TRUE
+19    power emission_factor              DM           my              TRUE
+20    power emission_factor              DM           my              TRUE
+   scenario scenario_region     tmsr         smsp scenario_source
+1       cps          global 1.000000 0.0000000000        DEMO2020
+2       cps          global 1.000000 0.0000000000        DEMO2020
+3       cps          global 1.000000 0.0000000000        DEMO2020
+4       sds          global 1.000000 0.0000000000        DEMO2020
+5       sds          global 1.000000 0.0000000000        DEMO2020
+6       sds          global 1.000000 0.0000000000        DEMO2020
+7       sps          global 1.000000 0.0000000000        DEMO2020
+8       sps          global 1.000000 0.0000000000        DEMO2020
+9       sps          global 1.000000 0.0000000000        DEMO2020
+10      cps          global 1.005226 0.0008060369        DEMO2020
+11      cps          global 1.005226 0.0008060369        DEMO2020
+12      cps          global 1.005226 0.0008060369        DEMO2020
+13      sds          global 1.008296 0.0012833874        DEMO2020
+14      sds          global 1.008296 0.0012833874        DEMO2020
+15      sds          global 1.008296 0.0012833874        DEMO2020
+16      sps          global 1.005724 0.0008834964        DEMO2020
+17      sps          global 1.005724 0.0008834964        DEMO2020
+18      sps          global 1.005724 0.0008834964        DEMO2020
+19      cps          global 1.010452 0.0016120739        DEMO2020
+20      cps          global 1.010452 0.0016120739        DEMO2020
