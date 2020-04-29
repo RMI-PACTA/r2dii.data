@@ -1,7 +1,7 @@
 source(here::here("data-raw/utils.R"))
 
 # Functions ---------------------------------------------------------------
-new_names_from_old_names <- function(){
+new_names_from_old_names <- function() {
   c(
     "id" = "name_company",
     "ald_sector" = "sector",
@@ -25,9 +25,10 @@ scenario_columns <- function() {
 }
 
 pick_ald_location_in_region <- function(data) {
-  data %>% dplyr::mutate(ald_location = tolower(.data$ald_location)) %>%
+  data %>%
+    dplyr::mutate(ald_location = tolower(.data$ald_location)) %>%
     dplyr::inner_join(r2dii.data::region_isos,
-                      by = c("region", "ald_location" = "isos")
+      by = c("region", "ald_location" = "isos")
     )
 }
 
@@ -43,9 +44,11 @@ scenario_demo_2020_with_source <- r2dii.data::scenario_demo_2020 %>%
 # > [1] '0.8.99.9002'
 ald_scenario_demo <- ald_demo %>%
   dplyr::rename(dplyr::all_of(new_names_from_old_names())) %>%
-  dplyr::select(-c(    "number_of_assets",
-                       "is_ultimate_listed_owner",
-                       "ald_timestamp")) %>%
+  dplyr::select(-c(
+    "number_of_assets",
+    "is_ultimate_listed_owner",
+    "ald_timestamp"
+  )) %>%
   dplyr::mutate(id_name = "company_name", .before = 1L) %>%
   dplyr::mutate(
     ald_emission_factor_unit = glue::glue("{ald_sector} emission_factor"),
