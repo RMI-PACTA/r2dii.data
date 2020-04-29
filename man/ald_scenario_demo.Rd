@@ -33,7 +33,8 @@ ald_scenario_demo
 This dataset is the starting point of any PACTA analysis,
 including the bank's methodology. It can be used for matching as well as for
 the analysis itself. The dataset includes the asset level data connected to
-the prepared scenario data.
+a scenario dataset, having prepared technology market share and sector market
+share values.
 
 Demo datasets are synthetic because most financial data is strictly private;
 they help to demonstrate and test the implementation in R of 'PACTA'
