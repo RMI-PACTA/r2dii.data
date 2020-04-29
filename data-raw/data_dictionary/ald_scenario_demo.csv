@@ -1,11 +1,8 @@
 dataset,column,typeof,definition
-ald_scenario_demo,FIXME_ald_timestamp,character,Date at which asset data was pulled from database
 ald_scenario_demo,domicile_region,character,Country where company is registered
 ald_scenario_demo,ald_emission_factor,double,Company level emission factor of the technology
-ald_scenario_demo,FIXME_is_ultimate_listed_owner,logical,Flag if company is the listed ultimate parent
 ald_scenario_demo,is_ultimate_owner,logical,Flag if company is the ultimate parent in our database
 ald_scenario_demo,id,character,The financial instrument-specific id that defines the company (or corporate bond pool)
-ald_scenario_demo,FIXME_number_of_assets,integer,Number of assets of a given technology owned by the company
 ald_scenario_demo,ald_location,character,Country where asset is located
 ald_scenario_demo,ald_production,double,Company level production of the technology
 ald_scenario_demo,ald_production_unit,character,The units that production is measured in
