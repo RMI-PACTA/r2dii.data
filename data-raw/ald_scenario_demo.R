@@ -59,47 +59,48 @@ ald_scenario_demo <- ald_demo %>%
   dplyr::rename(scenario_region = region)
 
 ald_scenario_demo <- ald_scenario_demo %>%
-  dplyr::mutate(ald_company_sector_id = dplyr::group_indices_(ald_scenario_demo, .dots=c("id", "ald_sector")))
+  dplyr::mutate(ald_company_sector_id = dplyr::group_indices_(ald_scenario_demo, .dots = c("id", "ald_sector")))
 
 # Add emission_factor_units ---------------------------
 emission_factor_units_per_technology <- tibble::tribble(
-      ~technology,              ~ald_emission_factor_unit,
-       "hydrocap",          "tons of CO2 per hour per MW",
-  "renewablescap",          "tons of CO2 per hour per MW",
-            "oil",                   "tons of CO2 per GJ",
-            "gas",                   "tons of CO2 per GJ",
-           "coal",         "tons of CO2 per tons of coal",
-       "electric", "tons of CO2 per km per cars produced",
-         "hybrid", "tons of CO2 per km per cars produced",
-            "ice", "tons of CO2 per km per cars produced",
-        "coalcap",          "tons of CO2 per hour per MW",
-         "gascap",          "tons of CO2 per hour per MW",
-         "oilcap",          "tons of CO2 per hour per MW",
-     "nuclearcap",          "tons of CO2 per hour per MW"
-  )
+  ~technology, ~ald_emission_factor_unit,
+  "hydrocap", "tons of CO2 per hour per MW",
+  "renewablescap", "tons of CO2 per hour per MW",
+  "oil", "tons of CO2 per GJ",
+  "gas", "tons of CO2 per GJ",
+  "coal", "tons of CO2 per tons of coal",
+  "electric", "tons of CO2 per km per cars produced",
+  "hybrid", "tons of CO2 per km per cars produced",
+  "ice", "tons of CO2 per km per cars produced",
+  "coalcap", "tons of CO2 per hour per MW",
+  "gascap", "tons of CO2 per hour per MW",
+  "oilcap", "tons of CO2 per hour per MW",
+  "nuclearcap", "tons of CO2 per hour per MW"
+)
 
 ald_scenario_demo <- ald_scenario_demo %>%
   dplyr::select(-ald_emission_factor_unit) %>%
   dplyr::left_join(emission_factor_units_per_technology, by = "technology") %>%
-  dplyr::select(ald_company_sector_id,
-                id_name,
-                id,
-                ald_sector,
-                ald_location,
-                technology,
-                year,
-                ald_production,
-                ald_production_unit,
-                ald_emission_factor,
-                ald_emission_factor_unit,
-                domicile_region,
-                is_ultimate_owner,
-                scenario_source,
-                scenario,
-                scenario_region,
-                tmsr,
-                smsp
-                )
+  dplyr::select(
+    ald_company_sector_id,
+    id_name,
+    id,
+    ald_sector,
+    ald_location,
+    technology,
+    year,
+    ald_production,
+    ald_production_unit,
+    ald_emission_factor,
+    ald_emission_factor_unit,
+    domicile_region,
+    is_ultimate_owner,
+    scenario_source,
+    scenario,
+    scenario_region,
+    tmsr,
+    smsp
+  )
 
 
 usethis::use_data(ald_scenario_demo, overwrite = TRUE)
