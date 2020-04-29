@@ -3,7 +3,7 @@
 \docType{data}
 \name{ald_scenario_demo}
 \alias{ald_scenario_demo}
-\title{FIXME Asset level data connected to the scenario data}
+\title{Asset level data connected to prepared scenario data for demonstration}
 \format{
 FIXME
 }
@@ -11,10 +11,10 @@ FIXME
 ald_scenario_demo
 }
 \description{
-FIXME This dataset is the starting point of any PACTA analysis, including the
-bank's methodology. It can be used for matching as well as for the analysis
-itself. The dataset includes the asset level data connected to the scenario
-data.
+This dataset is the starting point of any PACTA analysis,
+including the bank's methodology. It can be used for matching as well as for
+the analysis itself. The dataset includes the asset level data connected to
+the prepared scenario data.
 
 Demo datasets are synthetic because most financial data is strictly private;
 they help to demonstrate and test the implementation in R of 'PACTA'
