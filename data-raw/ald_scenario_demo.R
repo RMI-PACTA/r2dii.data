@@ -59,18 +59,3 @@ ald_scenario_demo <- ald_demo %>%
   dplyr::rename(scenario_region = region)
 
 usethis::use_data(ald_scenario_demo, overwrite = TRUE)
-
-# Data dictionary ---------------------------------------------------------
-# FIXME: Remove this chunk, I have updated the data_dictionary entry
-#
-# tibble::tibble(
-#   new_column = names(new_names_from_old_names()),
-#   old_column = unname(new_names_from_old_names())
-# ) %>%
-#   dplyr::right_join(tibble::tibble(new_column = names(ald_scenario_demo))) %>%
-#   dplyr::left_join(data_dictionary, by = c("old_column" = "column")) %>%
-#   dplyr::filter(is.na(dataset) | dataset %in% c("ald_demo", "scenario_demo_2020")) %>%
-#   dplyr::arrange(old_column, dataset) %>%
-#   # FIXED: Integrate with what Klaus defined at:
-#   # https://github.com/2DegreesInvesting/r2dii.data/issues/32#issue-590822964
-#   readr::write_csv("data-raw/data_dictionary/WIP_ald_senario_demo.csv")
