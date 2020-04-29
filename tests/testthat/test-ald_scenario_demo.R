@@ -7,4 +7,3 @@ test_that("hasn't changed", {
     update = T
   )
 })
-

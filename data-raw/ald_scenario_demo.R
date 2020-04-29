@@ -22,7 +22,7 @@ new_names_from_old_names <- c(
 )
 
 # packageVersion("dplyr")
-#> [1] '0.8.99.9002'
+# > [1] '0.8.99.9002'
 ald_scenario_demo <- ald_demo %>%
   dplyr::rename(dplyr::all_of(new_names_from_old_names)) %>%
   dplyr::mutate(id_name = "company_name", .before = 1L) %>%
@@ -46,6 +46,6 @@ tibble::tibble(
   dplyr::left_join(data_dictionary, by = c("old_column" = "column")) %>%
   dplyr::filter(is.na(dataset) | dataset %in% c("ald_demo", "scenario_demo_2020")) %>%
   dplyr::arrange(old_column, dataset) %>%
-# FIXME: Integrate with what Klaus defined at:
+  # FIXME: Integrate with what Klaus defined at:
   # https://github.com/2DegreesInvesting/r2dii.data/issues/32#issue-590822964
   readr::write_csv("data-raw/data_dictionary/WIP_ald_senario_demo.csv")
