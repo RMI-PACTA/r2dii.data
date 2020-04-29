@@ -13,7 +13,7 @@
 #'
 #' @format
 #' `ald_scenario_demo` is a [data.frame] with columns:
-#' * `ald_company_sector_id` (integer): Company ID allocated by 2dii. Each ID is unique per sector and company name.<ca>.
+#' * `ald_company_sector_id` (integer): Company ID allocated by 2dii. Each ID is unique per sector and company name.
 #' * `ald_emission_factor` (double): Company level emission factor of the technology.
 #' * `ald_emission_factor_unit` (character): The units that the emission factor is measured in.
 #' * `ald_location` (character): Country where asset is located.
