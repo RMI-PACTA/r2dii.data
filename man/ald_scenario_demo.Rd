@@ -3,7 +3,7 @@
 \docType{data}
 \name{ald_scenario_demo}
 \alias{ald_scenario_demo}
-\title{Asset level data connected to prepared scenario data for demonstration}
+\title{Asset level data plus scenario with sector/technology market share values}
 \format{
 \code{ald_scenario_demo} is a \link{data.frame} with columns:
 \itemize{
