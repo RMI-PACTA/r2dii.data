@@ -26,7 +26,7 @@ raw_region_data <- lapply(
   }
 )
 
-region_data_tibble<- Reduce(rbind, raw_region_data) %>%
+region_data_tibble <- Reduce(rbind, raw_region_data) %>%
   tibble::as_tibble()
 
 region_country_name <- dplyr::filter(region_data_tibble, type == "country_name") %>%
