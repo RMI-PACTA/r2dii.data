@@ -1,9 +1,7 @@
 test_that("hasn't changed", {
-  # FIXME: When stable, use instead expect_known_value()
-  expect_known_output(
+  expect_known_value(
     head(as.data.frame(ald_scenario_demo), 20),
-    "ref-ald_scenario_demo-output",
-    print = TRUE,
+    "ref-ald_scenario_demo",
     update = FALSE
   )
 })
