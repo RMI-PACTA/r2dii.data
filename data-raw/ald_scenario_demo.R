@@ -1,3 +1,8 @@
+library(dplyr)
+library(readr)
+library(here)
+library(usethis)
+
 source(here::here("data-raw/utils.R"))
 
 # Functions ---------------------------------------------------------------
@@ -37,6 +42,8 @@ pick_ald_location_in_region <- function(data) {
 path <- here::here("data-raw/ald_demo.csv")
 ald_demo <- remove_spec(readr::read_csv(path))
 
+# packageVersion("r2dii.data")
+#> [1] '0.0.3.9001'
 scenario_demo_2020_with_source <- r2dii.data::scenario_demo_2020 %>%
   dplyr::mutate(scenario_source = "DEMO2020")
 
@@ -59,24 +66,30 @@ ald_scenario_demo <- ald_demo %>%
   dplyr::rename(scenario_region = region)
 
 ald_scenario_demo <- ald_scenario_demo %>%
-  dplyr::mutate(ald_company_sector_id = dplyr::group_indices_(ald_scenario_demo, .dots = c("id", "ald_sector")))
+  dplyr::mutate(
+    ald_company_sector_id =
+      dplyr::group_indices_(ald_scenario_demo, .dots = c("id", "ald_sector"))
+  )
 
 # Add emission_factor_units ---------------------------
+# styler: off
+co2_per <- function(x) paste("tons of CO2 per", x)
 emission_factor_units_per_technology <- tibble::tribble(
-  ~technology, ~ald_emission_factor_unit,
-  "hydrocap", "tons of CO2 per hour per MW",
-  "renewablescap", "tons of CO2 per hour per MW",
-  "oil", "tons of CO2 per GJ",
-  "gas", "tons of CO2 per GJ",
-  "coal", "tons of CO2 per tons of coal",
-  "electric", "tons of CO2 per km per cars produced",
-  "hybrid", "tons of CO2 per km per cars produced",
-  "ice", "tons of CO2 per km per cars produced",
-  "coalcap", "tons of CO2 per hour per MW",
-  "gascap", "tons of CO2 per hour per MW",
-  "oilcap", "tons of CO2 per hour per MW",
-  "nuclearcap", "tons of CO2 per hour per MW"
+  ~technology,     ~ald_emission_factor_unit,
+  "hydrocap",      co2_per("hour per MW"),
+  "renewablescap", co2_per("hour per MW"),
+  "oil",           co2_per("GJ"),
+  "gas",           co2_per("GJ"),
+  "coal",          co2_per("tons of coal"),
+  "electric",      co2_per("km per cars produced"),
+  "hybrid",        co2_per("km per cars produced"),
+  "ice",           co2_per("km per cars produced"),
+  "coalcap",       co2_per("hour per MW"),
+  "gascap",        co2_per("hour per MW"),
+  "oilcap",        co2_per("hour per MW"),
+  "nuclearcap",    co2_per("hour per MW"),
 )
+# styler: on
 
 ald_scenario_demo <- ald_scenario_demo %>%
   dplyr::select(-ald_emission_factor_unit) %>%
@@ -101,6 +114,5 @@ ald_scenario_demo <- ald_scenario_demo %>%
     tmsr,
     smsp
   )
-
 
 usethis::use_data(ald_scenario_demo, overwrite = TRUE)
