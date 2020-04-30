@@ -15,4 +15,4 @@ out <- Reduce(rbind, out)
 out <- tibble::as_tibble(out[order(out$dataset, out$column), , drop = FALSE])
 
 data_dictionary <- out
-use_data(data_dictionary, overwrite = TRUE)
+usethis::use_data(data_dictionary, overwrite = TRUE)
