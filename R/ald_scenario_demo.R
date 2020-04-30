@@ -1,4 +1,4 @@
-#' Asset level data connected to prepared scenario data for demonstration
+#' Asset level data plus scenario with sector/technology market share values
 #'
 #' @description This dataset is the starting point of any PACTA analysis,
 #' including the bank's methodology. It can be used for matching as well as for
