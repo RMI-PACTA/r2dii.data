@@ -66,9 +66,8 @@ ald_scenario_demo <- ald_demo %>%
   dplyr::rename(scenario_region = region)
 
 ald_scenario_demo <- ald_scenario_demo %>%
-  dplyr::mutate(
-    ald_company_sector_id =
-      dplyr::group_indices_(ald_scenario_demo, .dots = c("id", "ald_sector"))
+  dplyr::mutate(ald_company_sector_id =
+    dplyr::group_indices(dplyr::group_by(., id, ald_sector))
   )
 
 # Add emission_factor_units ---------------------------
