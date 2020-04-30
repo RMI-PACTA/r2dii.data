@@ -43,7 +43,7 @@ path <- here::here("data-raw/ald_demo.csv")
 ald_demo <- remove_spec(readr::read_csv(path))
 
 # packageVersion("r2dii.data")
-#> [1] '0.0.3.9001'
+# > [1] '0.0.3.9001'
 scenario_demo_2020_with_source <- r2dii.data::scenario_demo_2020 %>%
   dplyr::mutate(scenario_source = "DEMO2020")
 
@@ -66,8 +66,9 @@ ald_scenario_demo <- ald_demo %>%
   dplyr::rename(scenario_region = region)
 
 ald_scenario_demo <- ald_scenario_demo %>%
-  dplyr::mutate(ald_company_sector_id =
-    dplyr::group_indices(dplyr::group_by(., id, ald_sector))
+  dplyr::mutate(
+    ald_company_sector_id =
+      dplyr::group_indices(dplyr::group_by(., id, ald_sector))
   )
 
 # Add emission_factor_units ---------------------------

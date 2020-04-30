@@ -5,4 +5,3 @@ test_that("hasn't changed", {
     update = FALSE
   )
 })
-
