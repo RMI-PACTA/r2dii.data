@@ -18,7 +18,8 @@ raw_region_data <- lapply(
 region_data_tibble <- Reduce(rbind, raw_region_data) %>%
   tibble::as_tibble()
 
-region_country_name <- dplyr::filter(region_data_tibble, type == "country_name") %>%
+region_country_name <- region_data_tibble %>%
+  dplyr::filter(type == "country_name") %>%
   dplyr::select(-type)
 
 # some regions are cyclically defined using other regions in the raw data
@@ -32,11 +33,13 @@ leftover_regions_expanded_by_country <- leftover_regions %>%
   dplyr::select(-value) %>%
   dplyr::rename(value = value.y)
 
-out_only_countries <- rbind(region_country_name, leftover_regions_expanded_by_country) %>%
+out_only_countries <- region_country_name %>%
+  rbind(leftover_regions_expanded_by_country) %>%
   dplyr::arrange(region)
 
 # these are tough to expand programatically
-leftover_special_regions <- dplyr::filter(region_data_tibble, type == "special_region") %>%
+leftover_special_regions <- region_data_tibble %>%
+  dplyr::filter(type == "special_region") %>%
   dplyr::select(-type)
 
 leftover_special_regions
@@ -45,7 +48,8 @@ all_countries <- out_only_countries %>%
   dplyr::select(value) %>%
   unique()
 
-advanced_economies <- dplyr::filter(out_only_countries, region == "advanced economies")
+advanced_economies <- out_only_countries %>%
+  dplyr::filter(region == "advanced economies")
 
 developing_economies <- all_countries %>%
   dplyr::filter(!(value %in% advanced_economies$value)) %>%
@@ -81,7 +85,8 @@ non_opec <- all_countries %>%
 #   dplyr::left_join(r2dii.data::iso_codes, by = c("value" = "country")) %>%
 #   dplyr::filter(is.na(country_iso))
 
-region_isos <- rbind(out_only_countries, developing_economies, iea, non_oecd, non_opec) %>%
+region_isos <- out_only_countries %>%
+  rbind(developing_economies, iea, non_oecd, non_opec) %>%
   dplyr::left_join(r2dii.data::iso_codes, by = c("value" = "country")) %>%
   dplyr::filter(!is.na(country_iso)) %>%
   dplyr::rename(isos = country_iso) %>%
