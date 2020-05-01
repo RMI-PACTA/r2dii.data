@@ -1,17 +1,6 @@
-# # Source:
-# # * raw_regions_weo2019.csv was transcribed from page 780 of the 2019 World Energy Outlook
-#
-# path <- here::here("data-raw/region_isos.rds")
-# region_isos <- readr::read_rds(path) %>%
-#   purrr::map_df(tibble::as_tibble, .id = "region") %>%
-#   dplyr::rename(isos = .data$value)
-#
-# usethis::use_data(region_isos, overwrite = TRUE)
-
-
-#-------------------------------
 # Source:
-# * raw_regions_weo2019.csv was transcribed from page 780 of the 2019 World Energy Outlook
+# * raw_regions_weo2019.csv was transcribed from page 780 of the 2019 World
+# Energy Outlook
 paths <- list.files(here::here("data-raw/region_isos"), full.names = TRUE)
 
 raw_region_data <- lapply(
