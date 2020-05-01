@@ -80,10 +80,21 @@ non_opec <- all_countries %>%
   dplyr::filter(!(value %in% opec$value)) %>%
   dplyr::mutate(region = "non opec", source = "weo2019")
 
-# # check how many countries dont match their isos
-# fix <- rbind(out_only_countries, developing_economies, iea, non_oecd, non_opec) %>%
-#   dplyr::left_join(r2dii.data::iso_codes, by = c("value" = "country")) %>%
-#   dplyr::filter(is.na(country_iso))
+# check how many countries dont match their isos
+fix <- out_only_countries %>%
+  rbind(developing_economies, iea, non_oecd, non_opec) %>%
+  dplyr::left_join(r2dii.data::iso_codes, by = c("value" = "country")) %>%
+  dplyr::filter(is.na(country_iso))
+
+if (nrow(fix) > 0L) {
+  warning(
+    "`country_iso` is missing in ", nrow(fix), " rows:
+    Likely not all countries will match or have isos, e.g. smaller polynesian
+    may be unmatched. Country definitions are now standardized and change.
+    Match only until you are happy.",
+    call. = FALSE
+  )
+}
 
 region_isos <- out_only_countries %>%
   rbind(developing_economies, iea, non_oecd, non_opec) %>%
