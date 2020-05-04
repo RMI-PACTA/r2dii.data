@@ -37,13 +37,6 @@ out_only_countries <- region_country_name %>%
   rbind(leftover_regions_expanded_by_country) %>%
   dplyr::arrange(region)
 
-# these are tough to expand programatically
-leftover_special_regions <- region_data_tibble %>%
-  dplyr::filter(type == "special_region") %>%
-  dplyr::select(-type)
-
-leftover_special_regions
-
 all_countries <- out_only_countries %>%
   dplyr::select(value) %>%
   unique()
