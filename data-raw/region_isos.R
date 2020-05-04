@@ -1,14 +1,21 @@
 # Source:
 # * raw_regions_weo2019.csv was transcribed from page 780 of the 2019 World
 # Energy Outlook
-path <- here::here("data-raw/region_isos_weo2019.csv")
+paths <- list.files(here::here("data-raw/region_isos"), full.names = TRUE)
 
-region_data_tibble <- utils::read.csv(
-  path,
-  colClasses = "character",
-  na.strings = c("", "NA"),
-  stringsAsFactors = FALSE
-) %>%
+raw_region_data <- lapply(
+  paths,
+  function(.x) {
+    utils::read.csv(
+      .x,
+      colClasses = "character",
+      na.strings = c("", "NA"),
+      stringsAsFactors = FALSE
+    )
+  }
+)
+
+region_data_tibble <- Reduce(rbind, raw_region_data) %>%
   tibble::as_tibble()
 
 region_country_name <- region_data_tibble %>%
