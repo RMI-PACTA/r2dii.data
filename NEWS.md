@@ -1,6 +1,6 @@
 # r2dii.data (development version)
 
-# r2dii.data 0.0.3.9000
+# r2dii.data 0.0.3.9002
 
 * `region_isos` gains column `source` and updates from WEO2019 (@jdhoffa #50).
 * New `ald_scenario_demo` combines ald with scenario data, uses a streamlined ald, and excludes needless columns. (#22, #28, #32). 
