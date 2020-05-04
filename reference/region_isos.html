@@ -74,7 +74,7 @@ https://www.iso.org/iso-3166-country-codes.html." />
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="../index.html">r2dii.data</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.0.3.9001</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.0.3.9002</span>
       </span>
     </div>
 
@@ -149,6 +149,7 @@ https://www.iso.org/iso-3166-country-codes.html." />
     <p><code>region_isos</code> is a <a href='https://rdrr.io/r/base/data.frame.html'>data.frame</a> with columns:</p><ul>
 <li><p><code>isos</code> (character): Countries in region, defined by iso code.</p></li>
 <li><p><code>region</code> (character): Benchmark region name.</p></li>
+<li><p><code>source</code> (character): Source publication from which the regions are defined.</p></li>
 </ul>
 
     <h2 class="hasAnchor" id="see-also"><a class="anchor" href="#see-also"></a>See also</h2>
@@ -158,15 +159,15 @@ https://www.iso.org/iso-3166-country-codes.html." />
 <code><a href='iso_codes.html'>iso_codes</a></code></p></div>
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
-    <pre class="examples"><div class='input'><span class='fu'><a href='https://rdrr.io/r/utils/head.html'>head</a></span>(<span class='no'>region_isos</span>)</div><div class='output co'>#&gt; <span style='color: #555555;'># A tibble: 6 x 2</span><span>
-#&gt;   region isos 
-#&gt;   </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>  </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>
-#&gt; </span><span style='color: #555555;'>1</span><span> global af   
-#&gt; </span><span style='color: #555555;'>2</span><span> global al   
-#&gt; </span><span style='color: #555555;'>3</span><span> global dz   
-#&gt; </span><span style='color: #555555;'>4</span><span> global as   
-#&gt; </span><span style='color: #555555;'>5</span><span> global ad   
-#&gt; </span><span style='color: #555555;'>6</span><span> global ao   </div></span></pre>
+    <pre class="examples"><div class='input'><span class='fu'><a href='https://rdrr.io/r/utils/head.html'>head</a></span>(<span class='no'>region_isos</span>)</div><div class='output co'>#&gt; <span style='color: #555555;'># A tibble: 6 x 3</span><span>
+#&gt;   region             isos  source 
+#&gt;   </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>              </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span> </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>  
+#&gt; </span><span style='color: #555555;'>1</span><span> advanced economies bg    weo2019
+#&gt; </span><span style='color: #555555;'>2</span><span> advanced economies hr    weo2019
+#&gt; </span><span style='color: #555555;'>3</span><span> advanced economies cy    weo2019
+#&gt; </span><span style='color: #555555;'>4</span><span> advanced economies mt    weo2019
+#&gt; </span><span style='color: #555555;'>5</span><span> advanced economies ro    weo2019
+#&gt; </span><span style='color: #555555;'>6</span><span> advanced economies au    weo2019</div></span></pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <nav id="toc" data-toggle="toc" class="sticky-top">
