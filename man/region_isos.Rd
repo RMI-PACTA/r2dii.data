@@ -9,6 +9,7 @@
 \itemize{
 \item \code{isos} (character): Countries in region, defined by iso code.
 \item \code{region} (character): Benchmark region name.
+\item \code{source} (character): Source publication from which the regions are defined.
 }
 }
 \usage{
