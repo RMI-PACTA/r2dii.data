@@ -2,3 +2,4 @@
 region_isos,region,character,Benchmark region name
 region_isos,isos,character,"Countries in region, defined by iso code"
 region_isos,source,character,Source publication from which the regions are defined
+region_isos, granularity_score, integer, Number of isos in region

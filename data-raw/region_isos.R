@@ -90,6 +90,8 @@ region_isos <- out_only_countries %>%
   dplyr::left_join(r2dii.data::iso_codes, by = c("value" = "country")) %>%
   dplyr::filter(!is.na(country_iso)) %>%
   dplyr::rename(isos = country_iso) %>%
-  dplyr::select(region, isos, source)
+  dplyr::select(region, isos, source) %>%
+  dplyr::group_by(region) %>%
+  dplyr::mutate(granularity_score = dplyr::summarise(sum(iso)))
 
 usethis::use_data(region_isos, overwrite = TRUE)
