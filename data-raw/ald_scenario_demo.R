@@ -45,7 +45,7 @@ ald_demo <- remove_spec(readr::read_csv(path))
 # packageVersion("r2dii.data")
 # > [1] '0.0.3.9001'
 scenario_demo_2020_with_source <- r2dii.data::scenario_demo_2020 %>%
-  dplyr::mutate(scenario_source = "DEMO2020")
+  dplyr::mutate(scenario_source = "demo_2020")
 
 # packageVersion("dplyr")
 # > [1] '0.8.99.9002'
