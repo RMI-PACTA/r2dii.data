@@ -34,6 +34,9 @@ all_countries <- out_only_countries %>%
   dplyr::select(value) %>%
   unique()
 
+global <- all_countries %>%
+  dplyr::mutate(region = "global", source = "weo2019")
+
 advanced_economies <- out_only_countries %>%
   dplyr::filter(region == "advanced economies")
 
@@ -76,14 +79,14 @@ if (nrow(fix) > 0L) {
   warning(
     "`country_iso` is missing in ", nrow(fix), " rows:
     Likely not all countries will match or have isos, e.g. smaller polynesian
-    may be unmatched. Country definitions are now standardized and change.
-    Match only until you are happy.",
+    islands may be unmatched. Country definitions are not standardized and
+    change. Match only until you are happy.",
     call. = FALSE
   )
 }
 
 region_isos <- out_only_countries %>%
-  rbind(developing_economies, iea, non_oecd, non_opec) %>%
+  rbind(global, developing_economies, iea, non_oecd, non_opec) %>%
   dplyr::left_join(r2dii.data::iso_codes, by = c("value" = "country")) %>%
   dplyr::filter(!is.na(country_iso)) %>%
   dplyr::rename(isos = country_iso) %>%

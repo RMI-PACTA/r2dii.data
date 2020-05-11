@@ -1,4 +1,4 @@
-﻿dataset,column,typeof,definition
+dataset,column,typeof,definition
 region_isos,region,character,Benchmark region name
 region_isos,isos,character,"Countries in region, defined by iso code"
 region_isos,source,character,Source publication from which the regions are defined
