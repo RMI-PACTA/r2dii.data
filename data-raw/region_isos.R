@@ -92,6 +92,6 @@ region_isos <- out_only_countries %>%
   dplyr::rename(isos = country_iso) %>%
   dplyr::select(region, isos, source) %>%
   dplyr::group_by(region) %>%
-  dplyr::mutate(granularity_score = dplyr::summarise(sum(iso)))
+  dplyr::mutate(granularity_score = dplyr::n_distinct(isos))
 
 usethis::use_data(region_isos, overwrite = TRUE)
