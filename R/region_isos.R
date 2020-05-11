@@ -9,6 +9,7 @@
 #'
 #' @format
 #' `region_isos` is a [data.frame] with columns:
+#' * `granularity_score` (integer): Number of isos in region.
 #' * `isos` (character): Countries in region, defined by iso code.
 #' * `region` (character): Benchmark region name.
 #' * `source` (character): Source publication from which the regions are defined.
