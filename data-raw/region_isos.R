@@ -79,7 +79,7 @@ if (nrow(fix) > 0L) {
   warning(
     "`country_iso` is missing in ", nrow(fix), " rows:
     Likely not all countries will match or have isos, e.g. smaller polynesian
-    islands may be unmatched. Country definitions are now standardized and
+    islands may be unmatched. Country definitions are not standardized and
     change. Match only until you are happy.",
     call. = FALSE
   )
