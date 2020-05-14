@@ -26,6 +26,7 @@ test_that("defines the expected objects", {
     "naics_classification",
     "overwrite_demo",
     "region_isos",
+    "region_isos_demo",
     "sector_classifications",
     "scenario_demo_2020"
   )
