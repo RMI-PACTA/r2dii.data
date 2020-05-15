@@ -6,3 +6,4 @@ scenario_demo_2020,region,character,The region to which the pathway is relevant
 scenario_demo_2020,year,integer,The year at which the pathway value is prescribed
 scenario_demo_2020,tmsr,double,Technology market share ratio of the pathway calculated in 2020
 scenario_demo_2020,smsp,double,Sector market share percentage of the pathway calculated in 2020
+scenario_demo_2020,scenario_source,character,The source publication from which the scenario was taken
