@@ -1,0 +1,8 @@
+dataset,column,typeof,definition
+emissions_intensity_scenario_demo,scenario_source,character,The source publication from which the scenario was taken
+emissions_intensity_scenario_demo,scenario,character,The name of the scenario
+emissions_intensity_scenario_demo,sector,character,The sector to which the scenario prescribes a pathway
+emissions_intensity_scenario_demo,region,character,The region to which the pathway is relevant
+emissions_intensity_scenario_demo,year,integer,The year at which the pathway value is prescribed
+emissions_intensity_scenario_demo,unit,character,The unit of the value prescribed by the scenario
+emissions_intensity_scenario_demo,value,double,The value prescribed by the scenario
