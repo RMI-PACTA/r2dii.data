@@ -49,6 +49,7 @@ head(ald_scenario_demo)
 
 Other demo datasets: 
 \code{\link{ald_demo}},
+\code{\link{emissions_intensity_scenario_demo}},
 \code{\link{loanbook_demo}},
 \code{\link{overwrite_demo}},
 \code{\link{region_isos_demo}},
