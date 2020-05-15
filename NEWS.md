@@ -2,6 +2,7 @@
 
 # r2dii.data 0.0.3.9002
 
+* New dataset `region_isos_demo` (#60).
 * `region_isos` now includes a "global" `region` (@jdhoffa #52).
 * `region_isos` gains column `source` and updates from WEO2019 (@jdhoffa #50).
 * New `ald_scenario_demo` combines ald with scenario data, uses a streamlined ald, and excludes needless columns. (#22, #28, #32). 

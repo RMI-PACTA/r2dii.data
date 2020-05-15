@@ -28,7 +28,8 @@ head(region_isos)
 \link{data_dictionary}
 
 Other iso codes: 
-\code{\link{iso_codes}}
+\code{\link{iso_codes}},
+\code{\link{region_isos_demo}}
 }
 \concept{iso codes}
 \keyword{datasets}

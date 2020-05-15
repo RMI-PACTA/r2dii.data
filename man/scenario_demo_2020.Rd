@@ -44,7 +44,8 @@ Other demo datasets:
 \code{\link{ald_demo}},
 \code{\link{ald_scenario_demo}},
 \code{\link{loanbook_demo}},
-\code{\link{overwrite_demo}}
+\code{\link{overwrite_demo}},
+\code{\link{region_isos_demo}}
 }
 \concept{demo datasets}
 \keyword{datasets}
