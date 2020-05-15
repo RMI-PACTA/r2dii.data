@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Changelog • r2dii.data</title>
+<title>A dataset outlining various region definitions — region_isos_demo • r2dii.data</title>
 
 
 <!-- jquery -->
@@ -39,7 +39,14 @@
 
 
 
-<meta property="og:title" content="Changelog" />
+<meta property="og:title" content="A dataset outlining various region definitions — region_isos_demo" />
+<meta property="og:description" content="This dataset maps codes representing countries to regions. It is similar to
+but smaller than region_isos.
+Demo datasets are synthetic because most financial data is strictly private;
+they help to demonstrate and test the implementation in R of 'PACTA'
+(https://2degrees-investing.org/resource/pacta/).
+For information about the ISO standard for country codes see
+https://www.iso.org/iso-3166-country-codes.html." />
 
 
 
@@ -58,7 +65,7 @@
   </head>
 
   <body data-spy="scroll" data-target="#toc">
-    <div class="container template-news">
+    <div class="container template-reference-topic">
       <header>
       <div class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container">
@@ -127,49 +134,66 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-      <h1 data-toc-skip>Changelog <small></small></h1>
-      <small>Source: <a href='https://github.com/2DegreesInvesting/r2dii.data/blob/master/NEWS.md'><code>NEWS.md</code></a></small>
+    <h1>A dataset outlining various region definitions</h1>
+    <small class="dont-index">Source: <a href='https://github.com/2DegreesInvesting/r2dii.data/blob/master/R/region_isos_demo.R'><code>R/region_isos_demo.R</code></a></small>
+    <div class="hidden name"><code>region_isos_demo.Rd</code></div>
     </div>
 
-    <div id="r2diidata-development-version" class="section level1">
-<h1 class="page-header" data-toc-text="development version">
-<a href="#r2diidata-development-version" class="anchor"></a>r2dii.data (development version)<small> Unreleased </small>
-</h1>
-</div>
-    <div id="r2diidata-0039002" class="section level1">
-<h1 class="page-header" data-toc-text="0.0.3.9002">
-<a href="#r2diidata-0039002" class="anchor"></a>r2dii.data 0.0.3.9002<small> Unreleased </small>
-</h1>
-<ul>
-<li>New dataset <code>region_isos_demo</code> (<a href='https://github.com/2DegreesInvesting/r2dii.data/issues/60'>#60</a>).</li>
-<li>
-<code>region_isos</code> now includes a “global” <code>region</code> (<a href='https://github.com/jdhoffa'>@jdhoffa</a> <a href='https://github.com/2DegreesInvesting/r2dii.data/issues/52'>#52</a>).</li>
-<li>
-<code>region_isos</code> gains column <code>source</code> and updates from WEO2019 (<a href='https://github.com/jdhoffa'>@jdhoffa</a> <a href='https://github.com/2DegreesInvesting/r2dii.data/issues/50'>#50</a>).</li>
-<li>New <code>ald_scenario_demo</code> combines ald with scenario data, uses a streamlined ald, and excludes needless columns. (<a href='https://github.com/2DegreesInvesting/r2dii.data/issues/22'>#22</a>, <a href='https://github.com/2DegreesInvesting/r2dii.data/issues/28'>#28</a>, <a href='https://github.com/2DegreesInvesting/r2dii.data/issues/32'>#32</a>).</li>
-<li>Removed the attribute “spec” and class “spec_tbl_df” from all datasets (<a href='https://github.com/2DegreesInvesting/r2dii.data/issues/43'>#43</a>).</li>
-<li>New data <code>scenario_demo_2020</code> (<a href='https://github.com/2DegreesInvesting/r2dii.data/issues/37'>#37</a>).</li>
-<li>
-<code><a href="../reference/r2dii.data-package.html">?r2dii.data</a></code> now shows documentation at the package level (<a href='https://github.com/2DegreesInvesting/r2dii.data/issues/25'>#25</a>).</li>
-<li>The website now links the changelog and release notes under News (<a href='https://github.com/2DegreesInvesting/r2dii.data/issues/27'>#27</a>).</li>
-</ul>
-</div>
-    <div id="r2diidata-003" class="section level1">
-<h1 class="page-header" data-toc-text="0.0.3">
-<a href="#r2diidata-003" class="anchor"></a>r2dii.data 0.0.3<small> 2020-03-25 </small>
-</h1>
-<ul>
-<li>First release on CRAN.</li>
-</ul>
-</div>
-  </div>
+    <div class="ref-description">
+    <p>This dataset maps codes representing countries to regions. It is similar to
+but smaller than <a href='region_isos.html'>region_isos</a>.</p>
+<p>Demo datasets are synthetic because most financial data is strictly private;
+they help to demonstrate and test the implementation in R of 'PACTA'
+(<a href='https://2degrees-investing.org/resource/pacta/'>https://2degrees-investing.org/resource/pacta/</a>).</p>
+<p>For information about the ISO standard for country codes see
+<a href='https://www.iso.org/iso-3166-country-codes.html'>https://www.iso.org/iso-3166-country-codes.html</a>.</p>
+    </div>
 
+    <pre class="usage"><span class='no'>region_isos_demo</span></pre>
+
+
+    <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
+
+    <p><code>region_isos</code> is a <a href='https://rdrr.io/r/base/data.frame.html'>data.frame</a> with columns:</p><ul>
+<li><p><code>isos</code> (character): Countries in region, defined by iso code.</p></li>
+<li><p><code>region</code> (character): Benchmark region name.</p></li>
+<li><p><code>source</code> (character): Source publication from which the regions are
+defined.</p></li>
+</ul>
+
+    <h2 class="hasAnchor" id="see-also"><a class="anchor" href="#see-also"></a>See also</h2>
+
+    <div class='dont-index'><p>Other iso codes: 
+<code><a href='iso_codes.html'>iso_codes</a></code>,
+<code><a href='region_isos.html'>region_isos</a></code></p>
+<p>Other demo datasets: 
+<code><a href='ald_demo.html'>ald_demo</a></code>,
+<code><a href='ald_scenario_demo.html'>ald_scenario_demo</a></code>,
+<code><a href='loanbook_demo.html'>loanbook_demo</a></code>,
+<code><a href='overwrite_demo.html'>overwrite_demo</a></code>,
+<code><a href='scenario_demo_2020.html'>scenario_demo_2020</a></code></p></div>
+
+    <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
+    <pre class="examples"><div class='input'><span class='no'>region_isos_demo</span></div><div class='output co'>#&gt; <span style='color: #555555;'># A tibble: 334 x 3</span><span>
+#&gt;    region             isos  source   
+#&gt;    </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>              </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span> </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>    
+#&gt; </span><span style='color: #555555;'> 1</span><span> advanced economies bg    demo_2020
+#&gt; </span><span style='color: #555555;'> 2</span><span> advanced economies hr    demo_2020
+#&gt; </span><span style='color: #555555;'> 3</span><span> advanced economies cy    demo_2020
+#&gt; </span><span style='color: #555555;'> 4</span><span> advanced economies mt    demo_2020
+#&gt; </span><span style='color: #555555;'> 5</span><span> advanced economies ro    demo_2020
+#&gt; </span><span style='color: #555555;'> 6</span><span> advanced economies au    demo_2020
+#&gt; </span><span style='color: #555555;'> 7</span><span> advanced economies at    demo_2020
+#&gt; </span><span style='color: #555555;'> 8</span><span> advanced economies be    demo_2020
+#&gt; </span><span style='color: #555555;'> 9</span><span> advanced economies ca    demo_2020
+#&gt; </span><span style='color: #555555;'>10</span><span> advanced economies cl    demo_2020
+#&gt; </span><span style='color: #555555;'># … with 324 more rows</span><span></div></span></pre>
+  </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <nav id="toc" data-toggle="toc" class="sticky-top">
       <h2 data-toc-skip>Contents</h2>
     </nav>
   </div>
-
 </div>
 
 
