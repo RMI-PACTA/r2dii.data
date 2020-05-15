@@ -19,6 +19,7 @@ test_that("defines the expected objects", {
     "ald_demo",
     "ald_scenario_demo",
     "data_dictionary",
+    "emissions_intensity_scenario_demo",
     "isic_classification",
     "iso_codes",
     "loanbook_demo",
