@@ -108,7 +108,7 @@ ald_demo <- remove_spec(readr::read_csv(here::here("data-raw/ald_demo.csv")))
 ald_scenario_region <-join_ald_scenario_region(
   ald = rename_ald(ald_demo),
   scenario = r2dii.data::scenario_demo_2020,
-  scenario_source = "DEMO2020",
+  scenario_source = "demo_2020",
   region_isos = r2dii.data::region_isos
 )
 
