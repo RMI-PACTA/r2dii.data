@@ -41,16 +41,17 @@ join_ald_scenario_region <- function(ald,
                                      scenario,
                                      scenario_source,
                                      region_isos) {
-  inner_join(
+  ald_scenario <- inner_join(
     ald, mutate(scenario, scenario_source = scenario_source),
     by = c(ald_sector = "sector", technology = "technology", year = "year")
   ) %>%
+  mutate(ald_location = tolower(.data$ald_location))
 
   # pick ald location in region
-  mutate(ald_location = tolower(.data$ald_location)) %>%
-  inner_join(region_isos, by = c("region", "ald_location" = "isos")) %>%
-
-  # Add or rename columns
+  inner_join(
+    ald_scenario, region_isos,
+    by = c("region", "ald_location" = "isos")
+  ) %>%
   rename(scenario_region = region) %>%
   mutate(ald_company_sector_id = group_indices(group_by(., id, ald_sector)))
 }
