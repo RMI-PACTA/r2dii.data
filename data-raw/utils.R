@@ -37,14 +37,3 @@ new_emission_factor_unit <- function() {
   )
   # styler: on
 }
-
-add_emission_factor_unit <- function(data, emission_factor_unit) {
-  data %>%
-    select(-.data$ald_emission_factor_unit) %>%
-    left_join(emission_factor_unit, by = "technology")
-}
-
-add_emission_factor_unit2 <- function(data, emission_factor_unit) {
-  data %>%
-    left_join(emission_factor_unit, by = "technology")
-}
