@@ -2,7 +2,7 @@ library(dplyr)
 
 set.seed(1)
 
-full <-unique(r2dii.data::region_isos$region)
+full <- unique(r2dii.data::region_isos$region)
 ensure <- c("global", "europe")
 random <- sample(setdiff(full, ensure), 3L)
 picked <- c(ensure, random)
