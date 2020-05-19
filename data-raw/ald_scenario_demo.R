@@ -7,6 +7,8 @@ library(usethis)
 
 # Functions ---------------------------------------------------------------
 
+source(here::here("data-raw/utils.R"))
+
 rename_ald <- function(ald) {
   # Rename columns of ald_demo as per @2diiKlaus's comment
   # https://github.com/2DegreesInvesting/r2dii.data/pull/24#issuecomment-606408655
@@ -56,54 +58,8 @@ join_ald_scenario_region <- function(ald,
   mutate(ald_company_sector_id = group_indices(group_by(., id, ald_sector)))
 }
 
-add_emission_factor_units <- function(data) {
-  # styler: off
-  co2_per <- function(x) paste("tons of CO2 per", x)
-  emission_factor_units_per_technology <- tibble::tribble(
-    ~technology,     ~ald_emission_factor_unit,
-    "hydrocap",      co2_per("hour per MW"),
-    "renewablescap", co2_per("hour per MW"),
-    "oil",           co2_per("GJ"),
-    "gas",           co2_per("GJ"),
-    "coal",          co2_per("tons of coal"),
-    "electric",      co2_per("km per cars produced"),
-    "hybrid",        co2_per("km per cars produced"),
-    "ice",           co2_per("km per cars produced"),
-    "coalcap",       co2_per("hour per MW"),
-    "gascap",        co2_per("hour per MW"),
-    "oilcap",        co2_per("hour per MW"),
-    "nuclearcap",    co2_per("hour per MW"),
-  )
-  # styler: on
-
-  data %>%
-    select(-.data$ald_emission_factor_unit) %>%
-    left_join(emission_factor_units_per_technology, by = "technology") %>%
-    select(
-      .data$ald_company_sector_id,
-      .data$id_name,
-      .data$id,
-      .data$ald_sector,
-      .data$ald_location,
-      .data$technology,
-      .data$year,
-      .data$ald_production,
-      .data$ald_production_unit,
-      .data$ald_emission_factor,
-      .data$ald_emission_factor_unit,
-      .data$domicile_region,
-      .data$is_ultimate_owner,
-      .data$scenario_source,
-      .data$scenario,
-      .data$scenario_region,
-      .data$tmsr,
-      .data$smsp
-    )
-}
-
 # Create ald_scenario_demo ------------------------------------------------
 
-source(here::here("data-raw/utils.R"))
 ald_demo <- remove_spec(readr::read_csv(here::here("data-raw/ald_demo.csv")))
 
 ald_scenario_region <-join_ald_scenario_region(
@@ -113,5 +69,27 @@ ald_scenario_region <-join_ald_scenario_region(
   region_isos = r2dii.data::region_isos
 )
 
-ald_scenario_demo <- add_emission_factor_units(ald_scenario_region)
+ald_scenario_demo <- ald_scenario_region %>%
+  add_emission_factor_unit(new_emission_factor_unit()) %>%
+  select(
+    .data$ald_company_sector_id,
+    .data$id_name,
+    .data$id,
+    .data$ald_sector,
+    .data$ald_location,
+    .data$technology,
+    .data$year,
+    .data$ald_production,
+    .data$ald_production_unit,
+    .data$ald_emission_factor,
+    .data$ald_emission_factor_unit,
+    .data$domicile_region,
+    .data$is_ultimate_owner,
+    .data$scenario_source,
+    .data$scenario,
+    .data$scenario_region,
+    .data$tmsr,
+    .data$smsp
+  )
+
 usethis::use_data(ald_scenario_demo, overwrite = TRUE)

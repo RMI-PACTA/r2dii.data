@@ -7,6 +7,8 @@
 \format{
 \code{ald_demo} is a \link{data.frame} with columns:
 \itemize{
+\item \code{ald_emission_factor_unit} (character): The units that the emission factor
+is measured in.
 \item \code{ald_timestamp} (character): Date at which asset data was pulled from
 database.
 \item \code{country_of_domicile} (character): Country where company is registered.
