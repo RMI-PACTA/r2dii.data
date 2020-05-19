@@ -1,7 +1,6 @@
-# r2dii.data (development version)
+# r2dii.data 0.0.3.9003 (development version)
 
-# r2dii.data 0.0.3.9002
-
+* Dataset `ald_demo` gains the column `ald_emission_factor_unit` (#71).
 * New dataset `region_isos_demo` (#60).
 * `region_isos` now includes a "global" `region` (@jdhoffa #52).
 * `region_isos` gains column `source` and updates from WEO2019 (@jdhoffa #50).
