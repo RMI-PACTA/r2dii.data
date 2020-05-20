@@ -1,8 +1,8 @@
 # Source:
-# * raw_regions_weo2019.csv was transcribed from page 780 of the 2019 World
+# * raw_regions_weo_2019.csv was transcribed from page 780 of the 2019 World
 # Energy Outlook
-this_source <- "weo2019"
-path <- here::here("data-raw/region_isos_weo2019.csv")
+this_source <- "weo_2019"
+path <- here::here("data-raw/region_isos_weo_2019.csv")
 
 region_data_tibble <- utils::read.csv(
   path,
