@@ -5,13 +5,7 @@
 \alias{region_isos_demo}
 \title{A dataset outlining various region definitions}
 \format{
-\code{region_isos} is a \link{data.frame} with columns:
-\itemize{
-\item \code{isos} (character): Countries in region, defined by iso code.
-\item \code{region} (character): Benchmark region name.
-\item \code{source} (character): Source publication from which the regions are
-defined.
-}
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 334 rows and 3 columns.
 }
 \usage{
 region_isos_demo

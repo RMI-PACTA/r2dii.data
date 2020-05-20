@@ -5,14 +5,7 @@
 \alias{sector_classifications}
 \title{A view of available sector classification datasets}
 \format{
-\code{sector_classifications} is a \link{data.frame} with columns:
-\itemize{
-\item \code{borderline} (character): Flag indicating if 2dii sector and classification
-code are a borderline match.
-\item \code{code} (character): Formatted code.
-\item \code{code_system} (character): Code system.
-\item \code{sector} (character): Associated 2dii sector.
-}
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 2600 rows and 4 columns.
 }
 \usage{
 sector_classifications
