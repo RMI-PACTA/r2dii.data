@@ -87,6 +87,7 @@ jobs:
 
       - name: Refresh data
         run: |
+          library(dplyr)
           source("R/utils.R")
           source_data_raw()
         shell: Rscript {0}
