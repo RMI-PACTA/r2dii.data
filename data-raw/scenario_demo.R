@@ -140,7 +140,7 @@ commas <- function(...) paste0(..., collapse = ", ")
 # Source: @jdhoffa
 path <- file.path("data-raw", "scenario_demo.csv")
 
-scenario <- readr::read_csv(path) %>%
+scenario <- read_a_csv(path) %>%
   add_market_share_columns(start_year = 2020) %>%
   dplyr::select(-c("value", "units"))
 

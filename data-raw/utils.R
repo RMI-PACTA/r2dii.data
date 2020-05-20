@@ -2,6 +2,22 @@ library(withr)
 library(tibble)
 library(rlang)
 
+read_a_csv <- function(file) {
+  out <- utils::read.csv(
+    file = file,
+    header = TRUE,
+    sep = ",",
+    quote = "\"",
+    comment.char = "",
+    stringsAsFactors = FALSE,
+    na.strings = c("", "NA"),
+    strip.white = TRUE,
+    skip = 0
+  )
+
+  tibble::as_tibble(out)
+}
+
 remove_spec <- function(data) {
   # https://bit.ly/avoid-cant-combine-spec-tbl-df
   withr::with_namespace("readr", {

@@ -60,7 +60,7 @@ join_ald_scenario_region <- function(ald,
 # Create ald_scenario_demo ------------------------------------------------
 
 path <- file.path("data-raw", "ald_demo.csv")
-ald_demo <- remove_spec(readr::read_csv(path))
+ald_demo <- remove_spec(read_a_csv(path))
 
 ald_scenario_region <- join_ald_scenario_region(
   ald = rename_ald(ald_demo),
