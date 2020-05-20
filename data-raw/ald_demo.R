@@ -1,10 +1,9 @@
-library(here)
 library(dplyr)
 library(usethis)
 
-source(here::here("data-raw/utils.R"))
+source(file.path("data-raw", "utils.R"))
 
-path <- here::here("data-raw/ald_demo.csv")
+path <- "data-raw/ald_demo.csv"
 ald_demo <- remove_spec(readr::read_csv(path))
 
 ald_demo <- dplyr::left_join(

@@ -2,12 +2,12 @@
 # > [1] '0.8.99.9002'
 library(dplyr)
 library(readr)
-library(here)
+
 library(usethis)
 
 # Functions ---------------------------------------------------------------
 
-source(here::here("data-raw/utils.R"))
+source(file.path("data-raw", "utils.R"))
 
 rename_ald <- function(ald) {
   # Rename columns of ald_demo as per @2diiKlaus's comment
@@ -60,7 +60,7 @@ join_ald_scenario_region <- function(ald,
 
 # Create ald_scenario_demo ------------------------------------------------
 
-ald_demo <- remove_spec(readr::read_csv(here::here("data-raw/ald_demo.csv")))
+ald_demo <- remove_spec(readr::read_csv("data-raw/ald_demo.csv"))
 
 ald_scenario_region <- join_ald_scenario_region(
   ald = rename_ald(ald_demo),

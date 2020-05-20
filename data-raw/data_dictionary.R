@@ -1,8 +1,7 @@
-library(here)
 library(tibble)
 library(usethis)
 
-paths <- list.files(here::here("data-raw/data_dictionary"), full.names = TRUE)
+paths <- list.files("data-raw/data_dictionary", full.names = TRUE)
 
 out <- lapply(
   paths,

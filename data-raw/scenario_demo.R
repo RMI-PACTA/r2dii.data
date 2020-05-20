@@ -1,10 +1,10 @@
 library(dplyr)
 library(rlang)
-library(here)
+
 library(readr)
 library(usethis)
 
-source(here::here("data-raw", "utils.R"))
+source(file.path("data-raw", "utils.R"))
 
 # add_market_share_columns ------------------------------------------------
 
@@ -139,13 +139,13 @@ commas <- function(...) paste0(..., collapse = ", ")
 
 # Accessed on 2020-03-12, source r2dii.dataraw::scenario_demo
 # Source: @jdhoffa
-path <- here::here("data-raw/scenario_demo.csv")
+path <- file.path("data-raw/scenario_demo.csv")
 
 scenario <- readr::read_csv(path) %>%
   add_market_share_columns(start_year = 2020) %>%
   dplyr::select(-c("value", "units"))
 
-source(here::here("data-raw/utils.R"))
+source(file.path("data-raw", "utils.R"))
 check_no_spec(scenario)
 
 scenario_demo_2020 <- mutate(scenario, scenario_source = "demo_2020")
