@@ -136,7 +136,7 @@ commas <- function(...) paste0(..., collapse = ", ")
 path <- here::here("data-raw/scenario_demo.csv")
 
 scenario <- readr::read_csv(path) %>%
-  r2dii.scenario::add_market_share_columns(start_year = 2020) %>%
+  add_market_share_columns(start_year = 2020) %>%
   dplyr::select(-c("value", "units"))
 
 source(here::here("data-raw/utils.R"))
