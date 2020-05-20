@@ -147,4 +147,6 @@ source(file.path("data-raw", "utils.R"))
 check_no_spec(scenario)
 
 scenario_demo_2020 <- mutate(scenario, scenario_source = "demo_2020")
+scenario_demo_2020$year <- as.integer(scenario_demo_2020$year)
+
 usethis::use_data(scenario_demo_2020, overwrite = TRUE)
