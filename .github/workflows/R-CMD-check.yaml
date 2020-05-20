@@ -46,6 +46,7 @@ jobs:
           install.packages('dplyr')
           install.packages('readr')
           install.packages('here')
+          devtools::install_github("2degreesinvesting/r2dii.utils")
           devtools::install()
         shell: Rscript {0}
 
