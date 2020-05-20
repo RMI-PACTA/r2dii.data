@@ -10,4 +10,7 @@ ald_demo <- dplyr::left_join(
   ald_demo, new_emission_factor_unit(), by = "sector"
 )
 
+ald_demo$year <- as.double(ald_demo$year)
+ald_demo$number_of_assets <- as.double(ald_demo$number_of_assets)
+
 usethis::use_data(ald_demo, overwrite = TRUE)
