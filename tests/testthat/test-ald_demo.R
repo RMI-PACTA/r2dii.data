@@ -1,8 +1,9 @@
 test_that("hasn't changed", {
   expect_known_value(
     ald_demo, "ref-ald_demo",
-    update = F
+    update = FALSE
   )
+
 })
 
 test_that("is no different to reference", {

@@ -17,7 +17,7 @@ read_csv_ <- function(file) {
     encoding = "UTF-8"
   )
 
-  tibble::as_tibble(out)
+  tibble::as_tibble(tibble::remove_rownames(out))
 }
 
 check_no_spec <- function(data) {
