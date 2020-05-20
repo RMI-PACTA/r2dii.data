@@ -94,4 +94,6 @@ ald_scenario_demo <- ald_scenario_region %>%
     .data$smsp
   )
 
+ald_scenario_demo$year <- as.integer(ald_scenario_demo$year)
+
 usethis::use_data(ald_scenario_demo, overwrite = TRUE)
