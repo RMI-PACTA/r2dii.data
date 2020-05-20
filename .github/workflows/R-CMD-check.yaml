@@ -40,7 +40,7 @@ jobs:
 
       - uses: r-lib/actions/setup-pandoc@master
 
-      - name: Install packages used in data-raw
+      - name: Refresh data
         run: |
           install.packages('devtools')
           install.packages('dplyr')
@@ -48,6 +48,9 @@ jobs:
           install.packages('here')
           devtools::install_github("2degreesinvesting/r2dii.utils")
           devtools::install()
+          library(dplyr)
+          source("R/utils.R")
+          source_data_raw()
         shell: Rscript {0}
 
       - name: Query dependencies
@@ -85,13 +88,6 @@ jobs:
           options(width = 100)
           pkgs <- installed.packages()[, "Package"]
           sessioninfo::session_info(pkgs, include_base = TRUE)
-        shell: Rscript {0}
-
-      - name: Refresh data
-        run: |
-          library(dplyr)
-          source("R/utils.R")
-          source_data_raw()
         shell: Rscript {0}
 
       - name: Check
