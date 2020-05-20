@@ -1,294 +1,294 @@
 region,value,type,source
-advanced economies,oecd,region,weo2019
-advanced economies,bulgaria,country_name,weo2019
-advanced economies,croatia,country_name,weo2019
-advanced economies,cyprus,country_name,weo2019
-advanced economies,malta,country_name,weo2019
-advanced economies,romania,country_name,weo2019
-africa,north africa,region,weo2019
-africa,sub saharan africa,region,weo2019
-asia pacific,southeast asia,region,weo2019
-asia pacific,australia,country_name,weo2019
-asia pacific,bangladesh,country_name,weo2019
-asia pacific,china,country_name,weo2019
-asia pacific,india,country_name,weo2019
-asia pacific,japan,country_name,weo2019
-asia pacific,republic of korea,country_name,weo2019
-asia pacific,republic of korea,country_name,weo2019
-asia pacific,mongolia,country_name,weo2019
-asia pacific,nepal,country_name,weo2019
-asia pacific,new zealand,country_name,weo2019
-asia pacific,pakistan,country_name,weo2019
-asia pacific,sri lanka,country_name,weo2019
-asia pacific,taiwan,country_name,weo2019
-asia pacific,other asia pacific countries and territories,region,weo2019
-other asia pacific countries and territories,afghanistan,country_name,weo2019
-other asia pacific countries and territories,bhutan,country_name,weo2019
-other asia pacific countries and territories,cook islands,country_name,weo2019
-other asia pacific countries and territories,fiji,country_name,weo2019
-other asia pacific countries and territories,french polynesia,country_name,weo2019
-other asia pacific countries and territories,kiribati,country_name,weo2019
-other asia pacific countries and territories,lao people's democratic republic,country_name,weo2019
-other asia pacific countries and territories,macao,country_name,weo2019
-other asia pacific countries and territories,maldives,country_name,weo2019
-other asia pacific countries and territories,new caledonia,country_name,weo2019
-other asia pacific countries and territories,palau,country_name,weo2019
-other asia pacific countries and territories,papua new guinea,country_name,weo2019
-other asia pacific countries and territories,samoa,country_name,weo2019
-other asia pacific countries and territories,solomon islands,country_name,weo2019
-other asia pacific countries and territories,timor-leste,country_name,weo2019
-other asia pacific countries and territories,tonga,country_name,weo2019
-other asia pacific countries and territories,vanuatu,country_name,weo2019
-caspian,armenia,country_name,weo2019
-caspian,azerbaijan,country_name,weo2019
-caspian,georgia,country_name,weo2019
-caspian,kazakhstan,country_name,weo2019
-caspian,kyrgyzstan,country_name,weo2019
-caspian,tajikistan,country_name,weo2019
-caspian,turkmenistan,country_name,weo2019
-caspian,uzbekistan,country_name,weo2019
-central and south america,argentina,country_name,weo2019
-central and south america,bolivia,country_name,weo2019
-central and south america,brazil,country_name,weo2019
-central and south america,chile,country_name,weo2019
-central and south america,colombia,country_name,weo2019
-central and south america,costa rica,country_name,weo2019
-central and south america,cuba,country_name,weo2019
-central and south america,curacao,country_name,weo2019
-central and south america,dominican republic,country_name,weo2019
-central and south america,ecuador,country_name,weo2019
-central and south america,el salvador,country_name,weo2019
-central and south america,guatemala,country_name,weo2019
-central and south america,haiti,country_name,weo2019
-central and south america,honduras,country_name,weo2019
-central and south america,jamaica,country_name,weo2019
-central and south america,nicaragua,country_name,weo2019
-central and south america,panama,country_name,weo2019
-central and south america,paraguay,country_name,weo2019
-central and south america,peru,country_name,weo2019
-central and south america,suriname,country_name,weo2019
-central and south america,trinidad and tobago,country_name,weo2019
-central and south america,uruguay,country_name,weo2019
-central and south america,venezuela,country_name,weo2019
-central and south america,other central and south american countries and territories,region,weo2019
-other central and south american countries and territories,anguilla,country_name,weo2019
-other central and south american countries and territories,antigua and barbuda,country_name,weo2019
-other central and south american countries and territories,aruba,country_name,weo2019
-other central and south american countries and territories,bahamas,country_name,weo2019
-other central and south american countries and territories,barbados,country_name,weo2019
-other central and south american countries and territories,belize,country_name,weo2019
-other central and south american countries and territories,bermuda,country_name,weo2019
-other central and south american countries and territories,bonaire,country_name,weo2019
-other central and south american countries and territories,british virgin islands,country_name,weo2019
-other central and south american countries and territories,cayman islands,country_name,weo2019
-other central and south american countries and territories,dominica,country_name,weo2019
-other central and south american countries and territories,falkland islands,country_name,weo2019
-other central and south american countries and territories,falkland islands (malvinas),country_name,weo2019
-other central and south american countries and territories,french guiana,country_name,weo2019
-other central and south american countries and territories,grenada,country_name,weo2019
-other central and south american countries and territories,guadeloupe,country_name,weo2019
-other central and south american countries and territories,guyana,country_name,weo2019
-other central and south american countries and territories,martinique,country_name,weo2019
-other central and south american countries and territories,montserrat,country_name,weo2019
-other central and south american countries and territories,saint kitts and nevis,country_name,weo2019
-other central and south american countries and territories,saint lucia,country_name,weo2019
-other central and south american countries and territories,saint pierre and miquelon,country_name,weo2019
-other central and south american countries and territories,saint vincent and the grenadines,country_name,weo2019
-other central and south american countries and territories,sint maarten,country_name,weo2019
-other central and south american countries and territories,turks,country_name,weo2019
-china,china,country_name,weo2019
-china,hong kong,country_name,weo2019
-developing asia,southeast asia,region,weo2019
-developing asia,bangladesh,country_name,weo2019
-developing asia,china,country_name,weo2019
-developing asia,india,country_name,weo2019
-developing asia,republic of korea,country_name,weo2019
-developing asia,mongolia,country_name,weo2019
-developing asia,nepal,country_name,weo2019
-developing asia,pakistan,country_name,weo2019
-developing asia,sri lanka,country_name,weo2019
-developing asia,taiwan,country_name,weo2019
-developing asia,other asia pacific countries and territories,region,weo2019
-developing economies,all countries not in advanced economies,special_region,weo2019
-eurasia,caspian,region,weo2019
-eurasia,russia,country_name,weo2019
-europe,european union,region,weo2019
-europe,albania,country_name,weo2019
-europe,belarus,country_name,weo2019
-europe,bosnia and herzegovina,country_name,weo2019
-europe,macedonia,country_name,weo2019
-europe,gibraltar,country_name,weo2019
-europe,iceland,country_name,weo2019
-europe,israel,country_name,weo2019
-europe,kosovo,country_name,weo2019
-europe,montenegro,country_name,weo2019
-europe,norway,country_name,weo2019
-europe,serbia,country_name,weo2019
-europe,switzerland,country_name,weo2019
-europe,moldova,country_name,weo2019
-europe,turkey,country_name,weo2019
-europe,ukraine,country_name,weo2019
-european union,austria,country_name,weo2019
-european union,belgium,country_name,weo2019
-european union,bulgaria,country_name,weo2019
-european union,croatia,country_name,weo2019
-european union,cyprus,country_name,weo2019
-european union,czech republic,country_name,weo2019
-european union,denmark,country_name,weo2019
-european union,estonia,country_name,weo2019
-european union,finland,country_name,weo2019
-european union,france,country_name,weo2019
-european union,germany,country_name,weo2019
-european union,greece,country_name,weo2019
-european union,hungary,country_name,weo2019
-european union,ireland,country_name,weo2019
-european union,italy,country_name,weo2019
-european union,latvia,country_name,weo2019
-european union,lithuania,country_name,weo2019
-european union,luxembourg,country_name,weo2019
-european union,malta,country_name,weo2019
-european union,netherlands,country_name,weo2019
-european union,poland,country_name,weo2019
-european union,portugal,country_name,weo2019
-european union,romania,country_name,weo2019
-european union,slovakia,country_name,weo2019
-european union,slovenia,country_name,weo2019
-european union,spain,country_name,weo2019
-european union,sweden,country_name,weo2019
-european union,united kingdom,country_name,weo2019
-iea,oecd regional grouping excluding chile iceland israel latvia lithuania slovenia,special_region,weo2019
-latin america,central and south america,region,weo2019
-latin america,mexico,country_name,weo2019
-middle east,bahrain,country_name,weo2019
-middle east,iran,country_name,weo2019
-middle east,iraq,country_name,weo2019
-middle east,jordan,country_name,weo2019
-middle east,kuwait,country_name,weo2019
-middle east,lebanon,country_name,weo2019
-middle east,oman,country_name,weo2019
-middle east,qatar,country_name,weo2019
-middle east,saudi arabia,country_name,weo2019
-middle east,syria,country_name,weo2019
-middle east,united arab emirates,country_name,weo2019
-middle east,yemen,country_name,weo2019
-non oecd,all countries not in oecd,special_region,weo2019
-non opec,all countries not in oecd,special_region,weo2019
-north africa,algeria,country_name,weo2019
-north africa,egypt,country_name,weo2019
-north africa,libya,country_name,weo2019
-north africa,morocco,country_name,weo2019
-north africa,tunisia,country_name,weo2019
-north america,canada,country_name,weo2019
-north america,mexico,country_name,weo2019
-north america,united states,country_name,weo2019
-oecd,australia,country_name,weo2019
-oecd,austria,country_name,weo2019
-oecd,belgium,country_name,weo2019
-oecd,canada,country_name,weo2019
-oecd,chile,country_name,weo2019
-oecd,czech republic,country_name,weo2019
-oecd,denmark,country_name,weo2019
-oecd,estonia,country_name,weo2019
-oecd,finland,country_name,weo2019
-oecd,france,country_name,weo2019
-oecd,germany,country_name,weo2019
-oecd,greece,country_name,weo2019
-oecd,hungary,country_name,weo2019
-oecd,iceland,country_name,weo2019
-oecd,ireland,country_name,weo2019
-oecd,israel,country_name,weo2019
-oecd,italy,country_name,weo2019
-oecd,japan,country_name,weo2019
-oecd,republic of korea,country_name,weo2019
-oecd,latvia,country_name,weo2019
-oecd,lithuania,country_name,weo2019
-oecd,luxembourg,country_name,weo2019
-oecd,mexico,country_name,weo2019
-oecd,netherlands,country_name,weo2019
-oecd,new zealand,country_name,weo2019
-oecd,norway,country_name,weo2019
-oecd,poland,country_name,weo2019
-oecd,portugal,country_name,weo2019
-oecd,slovakia,country_name,weo2019
-oecd,slovenia,country_name,weo2019
-oecd,spain,country_name,weo2019
-oecd,sweden,country_name,weo2019
-oecd,switzerland,country_name,weo2019
-oecd,turkey,country_name,weo2019
-oecd,united kingdom,country_name,weo2019
-oecd,united states,country_name,weo2019
-opec,algeria,country_name,weo2019
-opec,angola,country_name,weo2019
-opec,congo,country_name,weo2019
-opec,ecuador,country_name,weo2019
-opec,equatorial guinea,country_name,weo2019
-opec,gabon,country_name,weo2019
-opec,iran,country_name,weo2019
-opec,iraq,country_name,weo2019
-opec,kuwait,country_name,weo2019
-opec,libya,country_name,weo2019
-opec,nigeria,country_name,weo2019
-opec,saudi arabia,country_name,weo2019
-opec,united arab emirates,country_name,weo2019
-opec,venezuela,country_name,weo2019
-southeast asia,brunei darussalam,country_name,weo2019
-southeast asia,cambodia,country_name,weo2019
-southeast asia,indonesia,country_name,weo2019
-southeast asia,lao people's democratic republic,country_name,weo2019
-southeast asia,malaysia,country_name,weo2019
-southeast asia,myanmar,country_name,weo2019
-southeast asia,philippines,country_name,weo2019
-southeast asia,singapore,country_name,weo2019
-southeast asia,thailand,country_name,weo2019
-southeast asia,vietnam,country_name,weo2019
-sub saharan africa,angola,country_name,weo2019
-sub saharan africa,benin,country_name,weo2019
-sub saharan africa,botswana,country_name,weo2019
-sub saharan africa,cameroon,country_name,weo2019
-sub saharan africa,congo,country_name,weo2019
-sub saharan africa,cote d'ivoire,country_name,weo2019
-sub saharan africa,democratic republic of the congo,country_name,weo2019
-sub saharan africa,eritrea,country_name,weo2019
-sub saharan africa,ethiopia,country_name,weo2019
-sub saharan africa,gabon,country_name,weo2019
-sub saharan africa,ghana,country_name,weo2019
-sub saharan africa,kenya,country_name,weo2019
-sub saharan africa,mauritius,country_name,weo2019
-sub saharan africa,mozambique,country_name,weo2019
-sub saharan africa,namibia,country_name,weo2019
-sub saharan africa,niger,country_name,weo2019
-sub saharan africa,nigeria,country_name,weo2019
-sub saharan africa,senegal,country_name,weo2019
-sub saharan africa,south africa,country_name,weo2019
-sub saharan africa,south sudan,country_name,weo2019
-sub saharan africa,sudan,country_name,weo2019
-sub saharan africa,tanzania,country_name,weo2019
-sub saharan africa,togo,country_name,weo2019
-sub saharan africa,zambia,country_name,weo2019
-sub saharan africa,zimbabwe,country_name,weo2019
-sub saharan africa,other african countries and territories,region,weo2019
-other african countries and territories,burkina faso,country_name,weo2019
-other african countries and territories,burundi,country_name,weo2019
-other african countries and territories,cape verde,country_name,weo2019
-other african countries and territories,central african republic,country_name,weo2019
-other african countries and territories,chad,country_name,weo2019
-other african countries and territories,comoros,country_name,weo2019
-other african countries and territories,djibouti,country_name,weo2019
-other african countries and territories,equatorial guinea,country_name,weo2019
-other african countries and territories,kingdom of eswatini,country_name,weo2019
-other african countries and territories,gambia,country_name,weo2019
-other african countries and territories,guinea,country_name,weo2019
-other african countries and territories,guinea-bissau,country_name,weo2019
-other african countries and territories,lesotho,country_name,weo2019
-other african countries and territories,liberia,country_name,weo2019
-other african countries and territories,madagascar,country_name,weo2019
-other african countries and territories,malawi,country_name,weo2019
-other african countries and territories,mali,country_name,weo2019
-other african countries and territories,mauritania,country_name,weo2019
-other african countries and territories,reunion,country_name,weo2019
-other african countries and territories,rwanda,country_name,weo2019
-other african countries and territories,sao tome and principe,country_name,weo2019
-other african countries and territories,seychelles,country_name,weo2019
-other african countries and territories,sierra leone,country_name,weo2019
-other african countries and territories,somalia,country_name,weo2019
-other african countries and territories,uganda,country_name,weo2019
+advanced economies,oecd,region,weo_2019
+advanced economies,bulgaria,country_name,weo_2019
+advanced economies,croatia,country_name,weo_2019
+advanced economies,cyprus,country_name,weo_2019
+advanced economies,malta,country_name,weo_2019
+advanced economies,romania,country_name,weo_2019
+africa,north africa,region,weo_2019
+africa,sub saharan africa,region,weo_2019
+asia pacific,southeast asia,region,weo_2019
+asia pacific,australia,country_name,weo_2019
+asia pacific,bangladesh,country_name,weo_2019
+asia pacific,china,country_name,weo_2019
+asia pacific,india,country_name,weo_2019
+asia pacific,japan,country_name,weo_2019
+asia pacific,republic of korea,country_name,weo_2019
+asia pacific,republic of korea,country_name,weo_2019
+asia pacific,mongolia,country_name,weo_2019
+asia pacific,nepal,country_name,weo_2019
+asia pacific,new zealand,country_name,weo_2019
+asia pacific,pakistan,country_name,weo_2019
+asia pacific,sri lanka,country_name,weo_2019
+asia pacific,taiwan,country_name,weo_2019
+asia pacific,other asia pacific countries and territories,region,weo_2019
+other asia pacific countries and territories,afghanistan,country_name,weo_2019
+other asia pacific countries and territories,bhutan,country_name,weo_2019
+other asia pacific countries and territories,cook islands,country_name,weo_2019
+other asia pacific countries and territories,fiji,country_name,weo_2019
+other asia pacific countries and territories,french polynesia,country_name,weo_2019
+other asia pacific countries and territories,kiribati,country_name,weo_2019
+other asia pacific countries and territories,lao people's democratic republic,country_name,weo_2019
+other asia pacific countries and territories,macao,country_name,weo_2019
+other asia pacific countries and territories,maldives,country_name,weo_2019
+other asia pacific countries and territories,new caledonia,country_name,weo_2019
+other asia pacific countries and territories,palau,country_name,weo_2019
+other asia pacific countries and territories,papua new guinea,country_name,weo_2019
+other asia pacific countries and territories,samoa,country_name,weo_2019
+other asia pacific countries and territories,solomon islands,country_name,weo_2019
+other asia pacific countries and territories,timor-leste,country_name,weo_2019
+other asia pacific countries and territories,tonga,country_name,weo_2019
+other asia pacific countries and territories,vanuatu,country_name,weo_2019
+caspian,armenia,country_name,weo_2019
+caspian,azerbaijan,country_name,weo_2019
+caspian,georgia,country_name,weo_2019
+caspian,kazakhstan,country_name,weo_2019
+caspian,kyrgyzstan,country_name,weo_2019
+caspian,tajikistan,country_name,weo_2019
+caspian,turkmenistan,country_name,weo_2019
+caspian,uzbekistan,country_name,weo_2019
+central and south america,argentina,country_name,weo_2019
+central and south america,bolivia,country_name,weo_2019
+central and south america,brazil,country_name,weo_2019
+central and south america,chile,country_name,weo_2019
+central and south america,colombia,country_name,weo_2019
+central and south america,costa rica,country_name,weo_2019
+central and south america,cuba,country_name,weo_2019
+central and south america,curacao,country_name,weo_2019
+central and south america,dominican republic,country_name,weo_2019
+central and south america,ecuador,country_name,weo_2019
+central and south america,el salvador,country_name,weo_2019
+central and south america,guatemala,country_name,weo_2019
+central and south america,haiti,country_name,weo_2019
+central and south america,honduras,country_name,weo_2019
+central and south america,jamaica,country_name,weo_2019
+central and south america,nicaragua,country_name,weo_2019
+central and south america,panama,country_name,weo_2019
+central and south america,paraguay,country_name,weo_2019
+central and south america,peru,country_name,weo_2019
+central and south america,suriname,country_name,weo_2019
+central and south america,trinidad and tobago,country_name,weo_2019
+central and south america,uruguay,country_name,weo_2019
+central and south america,venezuela,country_name,weo_2019
+central and south america,other central and south american countries and territories,region,weo_2019
+other central and south american countries and territories,anguilla,country_name,weo_2019
+other central and south american countries and territories,antigua and barbuda,country_name,weo_2019
+other central and south american countries and territories,aruba,country_name,weo_2019
+other central and south american countries and territories,bahamas,country_name,weo_2019
+other central and south american countries and territories,barbados,country_name,weo_2019
+other central and south american countries and territories,belize,country_name,weo_2019
+other central and south american countries and territories,bermuda,country_name,weo_2019
+other central and south american countries and territories,bonaire,country_name,weo_2019
+other central and south american countries and territories,british virgin islands,country_name,weo_2019
+other central and south american countries and territories,cayman islands,country_name,weo_2019
+other central and south american countries and territories,dominica,country_name,weo_2019
+other central and south american countries and territories,falkland islands,country_name,weo_2019
+other central and south american countries and territories,falkland islands (malvinas),country_name,weo_2019
+other central and south american countries and territories,french guiana,country_name,weo_2019
+other central and south american countries and territories,grenada,country_name,weo_2019
+other central and south american countries and territories,guadeloupe,country_name,weo_2019
+other central and south american countries and territories,guyana,country_name,weo_2019
+other central and south american countries and territories,martinique,country_name,weo_2019
+other central and south american countries and territories,montserrat,country_name,weo_2019
+other central and south american countries and territories,saint kitts and nevis,country_name,weo_2019
+other central and south american countries and territories,saint lucia,country_name,weo_2019
+other central and south american countries and territories,saint pierre and miquelon,country_name,weo_2019
+other central and south american countries and territories,saint vincent and the grenadines,country_name,weo_2019
+other central and south american countries and territories,sint maarten,country_name,weo_2019
+other central and south american countries and territories,turks,country_name,weo_2019
+china,china,country_name,weo_2019
+china,hong kong,country_name,weo_2019
+developing asia,southeast asia,region,weo_2019
+developing asia,bangladesh,country_name,weo_2019
+developing asia,china,country_name,weo_2019
+developing asia,india,country_name,weo_2019
+developing asia,republic of korea,country_name,weo_2019
+developing asia,mongolia,country_name,weo_2019
+developing asia,nepal,country_name,weo_2019
+developing asia,pakistan,country_name,weo_2019
+developing asia,sri lanka,country_name,weo_2019
+developing asia,taiwan,country_name,weo_2019
+developing asia,other asia pacific countries and territories,region,weo_2019
+developing economies,all countries not in advanced economies,special_region,weo_2019
+eurasia,caspian,region,weo_2019
+eurasia,russia,country_name,weo_2019
+europe,european union,region,weo_2019
+europe,albania,country_name,weo_2019
+europe,belarus,country_name,weo_2019
+europe,bosnia and herzegovina,country_name,weo_2019
+europe,macedonia,country_name,weo_2019
+europe,gibraltar,country_name,weo_2019
+europe,iceland,country_name,weo_2019
+europe,israel,country_name,weo_2019
+europe,kosovo,country_name,weo_2019
+europe,montenegro,country_name,weo_2019
+europe,norway,country_name,weo_2019
+europe,serbia,country_name,weo_2019
+europe,switzerland,country_name,weo_2019
+europe,moldova,country_name,weo_2019
+europe,turkey,country_name,weo_2019
+europe,ukraine,country_name,weo_2019
+european union,austria,country_name,weo_2019
+european union,belgium,country_name,weo_2019
+european union,bulgaria,country_name,weo_2019
+european union,croatia,country_name,weo_2019
+european union,cyprus,country_name,weo_2019
+european union,czech republic,country_name,weo_2019
+european union,denmark,country_name,weo_2019
+european union,estonia,country_name,weo_2019
+european union,finland,country_name,weo_2019
+european union,france,country_name,weo_2019
+european union,germany,country_name,weo_2019
+european union,greece,country_name,weo_2019
+european union,hungary,country_name,weo_2019
+european union,ireland,country_name,weo_2019
+european union,italy,country_name,weo_2019
+european union,latvia,country_name,weo_2019
+european union,lithuania,country_name,weo_2019
+european union,luxembourg,country_name,weo_2019
+european union,malta,country_name,weo_2019
+european union,netherlands,country_name,weo_2019
+european union,poland,country_name,weo_2019
+european union,portugal,country_name,weo_2019
+european union,romania,country_name,weo_2019
+european union,slovakia,country_name,weo_2019
+european union,slovenia,country_name,weo_2019
+european union,spain,country_name,weo_2019
+european union,sweden,country_name,weo_2019
+european union,united kingdom,country_name,weo_2019
+iea,oecd regional grouping excluding chile iceland israel latvia lithuania slovenia,special_region,weo_2019
+latin america,central and south america,region,weo_2019
+latin america,mexico,country_name,weo_2019
+middle east,bahrain,country_name,weo_2019
+middle east,iran,country_name,weo_2019
+middle east,iraq,country_name,weo_2019
+middle east,jordan,country_name,weo_2019
+middle east,kuwait,country_name,weo_2019
+middle east,lebanon,country_name,weo_2019
+middle east,oman,country_name,weo_2019
+middle east,qatar,country_name,weo_2019
+middle east,saudi arabia,country_name,weo_2019
+middle east,syria,country_name,weo_2019
+middle east,united arab emirates,country_name,weo_2019
+middle east,yemen,country_name,weo_2019
+non oecd,all countries not in oecd,special_region,weo_2019
+non opec,all countries not in oecd,special_region,weo_2019
+north africa,algeria,country_name,weo_2019
+north africa,egypt,country_name,weo_2019
+north africa,libya,country_name,weo_2019
+north africa,morocco,country_name,weo_2019
+north africa,tunisia,country_name,weo_2019
+north america,canada,country_name,weo_2019
+north america,mexico,country_name,weo_2019
+north america,united states,country_name,weo_2019
+oecd,australia,country_name,weo_2019
+oecd,austria,country_name,weo_2019
+oecd,belgium,country_name,weo_2019
+oecd,canada,country_name,weo_2019
+oecd,chile,country_name,weo_2019
+oecd,czech republic,country_name,weo_2019
+oecd,denmark,country_name,weo_2019
+oecd,estonia,country_name,weo_2019
+oecd,finland,country_name,weo_2019
+oecd,france,country_name,weo_2019
+oecd,germany,country_name,weo_2019
+oecd,greece,country_name,weo_2019
+oecd,hungary,country_name,weo_2019
+oecd,iceland,country_name,weo_2019
+oecd,ireland,country_name,weo_2019
+oecd,israel,country_name,weo_2019
+oecd,italy,country_name,weo_2019
+oecd,japan,country_name,weo_2019
+oecd,republic of korea,country_name,weo_2019
+oecd,latvia,country_name,weo_2019
+oecd,lithuania,country_name,weo_2019
+oecd,luxembourg,country_name,weo_2019
+oecd,mexico,country_name,weo_2019
+oecd,netherlands,country_name,weo_2019
+oecd,new zealand,country_name,weo_2019
+oecd,norway,country_name,weo_2019
+oecd,poland,country_name,weo_2019
+oecd,portugal,country_name,weo_2019
+oecd,slovakia,country_name,weo_2019
+oecd,slovenia,country_name,weo_2019
+oecd,spain,country_name,weo_2019
+oecd,sweden,country_name,weo_2019
+oecd,switzerland,country_name,weo_2019
+oecd,turkey,country_name,weo_2019
+oecd,united kingdom,country_name,weo_2019
+oecd,united states,country_name,weo_2019
+opec,algeria,country_name,weo_2019
+opec,angola,country_name,weo_2019
+opec,congo,country_name,weo_2019
+opec,ecuador,country_name,weo_2019
+opec,equatorial guinea,country_name,weo_2019
+opec,gabon,country_name,weo_2019
+opec,iran,country_name,weo_2019
+opec,iraq,country_name,weo_2019
+opec,kuwait,country_name,weo_2019
+opec,libya,country_name,weo_2019
+opec,nigeria,country_name,weo_2019
+opec,saudi arabia,country_name,weo_2019
+opec,united arab emirates,country_name,weo_2019
+opec,venezuela,country_name,weo_2019
+southeast asia,brunei darussalam,country_name,weo_2019
+southeast asia,cambodia,country_name,weo_2019
+southeast asia,indonesia,country_name,weo_2019
+southeast asia,lao people's democratic republic,country_name,weo_2019
+southeast asia,malaysia,country_name,weo_2019
+southeast asia,myanmar,country_name,weo_2019
+southeast asia,philippines,country_name,weo_2019
+southeast asia,singapore,country_name,weo_2019
+southeast asia,thailand,country_name,weo_2019
+southeast asia,vietnam,country_name,weo_2019
+sub saharan africa,angola,country_name,weo_2019
+sub saharan africa,benin,country_name,weo_2019
+sub saharan africa,botswana,country_name,weo_2019
+sub saharan africa,cameroon,country_name,weo_2019
+sub saharan africa,congo,country_name,weo_2019
+sub saharan africa,cote d'ivoire,country_name,weo_2019
+sub saharan africa,democratic republic of the congo,country_name,weo_2019
+sub saharan africa,eritrea,country_name,weo_2019
+sub saharan africa,ethiopia,country_name,weo_2019
+sub saharan africa,gabon,country_name,weo_2019
+sub saharan africa,ghana,country_name,weo_2019
+sub saharan africa,kenya,country_name,weo_2019
+sub saharan africa,mauritius,country_name,weo_2019
+sub saharan africa,mozambique,country_name,weo_2019
+sub saharan africa,namibia,country_name,weo_2019
+sub saharan africa,niger,country_name,weo_2019
+sub saharan africa,nigeria,country_name,weo_2019
+sub saharan africa,senegal,country_name,weo_2019
+sub saharan africa,south africa,country_name,weo_2019
+sub saharan africa,south sudan,country_name,weo_2019
+sub saharan africa,sudan,country_name,weo_2019
+sub saharan africa,tanzania,country_name,weo_2019
+sub saharan africa,togo,country_name,weo_2019
+sub saharan africa,zambia,country_name,weo_2019
+sub saharan africa,zimbabwe,country_name,weo_2019
+sub saharan africa,other african countries and territories,region,weo_2019
+other african countries and territories,burkina faso,country_name,weo_2019
+other african countries and territories,burundi,country_name,weo_2019
+other african countries and territories,cape verde,country_name,weo_2019
+other african countries and territories,central african republic,country_name,weo_2019
+other african countries and territories,chad,country_name,weo_2019
+other african countries and territories,comoros,country_name,weo_2019
+other african countries and territories,djibouti,country_name,weo_2019
+other african countries and territories,equatorial guinea,country_name,weo_2019
+other african countries and territories,kingdom of eswatini,country_name,weo_2019
+other african countries and territories,gambia,country_name,weo_2019
+other african countries and territories,guinea,country_name,weo_2019
+other african countries and territories,guinea-bissau,country_name,weo_2019
+other african countries and territories,lesotho,country_name,weo_2019
+other african countries and territories,liberia,country_name,weo_2019
+other african countries and territories,madagascar,country_name,weo_2019
+other african countries and territories,malawi,country_name,weo_2019
+other african countries and territories,mali,country_name,weo_2019
+other african countries and territories,mauritania,country_name,weo_2019
+other african countries and territories,reunion,country_name,weo_2019
+other african countries and territories,rwanda,country_name,weo_2019
+other african countries and territories,sao tome and principe,country_name,weo_2019
+other african countries and territories,seychelles,country_name,weo_2019
+other african countries and territories,sierra leone,country_name,weo_2019
+other african countries and territories,somalia,country_name,weo_2019
+other african countries and territories,uganda,country_name,weo_2019
