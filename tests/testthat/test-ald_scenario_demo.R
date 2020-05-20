@@ -1,8 +1,4 @@
 test_that("hasn't changed", {
-  set.seed(1)
-  rows <- sample(1:nrow(ald_scenario_demo), 500L)
-  expect_known_value(
-    ald_scenario_demo[rows, ], "ref-ald_scenario_demo",
-    update = FALSE
-  )
+  x <- rbind(head(ald_scenario_demo, 250), tail(ald_scenario_demo, 250))
+  expect_known_value(x, "ref-ald_scenario_demo", update = FALSE)
 })
