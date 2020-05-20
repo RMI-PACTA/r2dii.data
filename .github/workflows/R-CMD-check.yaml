@@ -40,6 +40,14 @@ jobs:
 
       - uses: r-lib/actions/setup-pandoc@master
 
+      - name: Install packages used in data-raw
+        run: |
+          install.packages('dplyr')
+          install.packages('readr')
+          install.packages('here')
+          install.packages('usethis')
+        shell: Rscript {0}
+
       - name: Query dependencies
         run: |
           install.packages('remotes')
