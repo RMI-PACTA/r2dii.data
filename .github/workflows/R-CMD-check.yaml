@@ -78,7 +78,9 @@ jobs:
         shell: Rscript {0}
 
       - name: Refresh data
-        run: r2dii.data:::source_data_raw()
+        run: |
+          devtools::load_all()
+          source_data_raw()
         shell: Rscript {0}
 
       - name: Check
