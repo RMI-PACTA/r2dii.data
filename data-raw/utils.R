@@ -12,7 +12,9 @@ read_a_csv <- function(file) {
     stringsAsFactors = FALSE,
     na.strings = c("", "NA"),
     strip.white = TRUE,
-    skip = 0
+    skip = 0,
+    fileEncoding = "UTF-8",
+    encoding = "UTF-8"
   )
 
   tibble::as_tibble(out)
