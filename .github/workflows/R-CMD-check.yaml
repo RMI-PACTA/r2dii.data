@@ -45,15 +45,15 @@ jobs:
           install.packages('usethis')
           install.packages('dplyr')
           install.packages('readr')
-          library(dplyr)
-          source("R/utils.R")
-          source_data_raw()
         shell: Rscript {0}
 
       - name: Install self
         run: |
           R CMD build .
           R CMD INSTALL r2dii.data*.tar.gz
+          library(dplyr)
+          source("R/utils.R")
+          source_data_raw()
         shell: Rscript {0}
 
       - name: Query dependencies
