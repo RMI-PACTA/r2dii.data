@@ -139,7 +139,7 @@ commas <- function(...) paste0(..., collapse = ", ")
 
 # Accessed on 2020-03-12, source r2dii.dataraw::scenario_demo
 # Source: @jdhoffa
-path <- file.path("data-raw/scenario_demo.csv")
+path <- file.path("data-raw", "scenario_demo.csv")
 
 scenario <- readr::read_csv(path) %>%
   add_market_share_columns(start_year = 2020) %>%

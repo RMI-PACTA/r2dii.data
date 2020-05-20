@@ -3,7 +3,7 @@ library(usethis)
 
 source(file.path("data-raw", "utils.R"))
 
-path <- "data-raw/ald_demo.csv"
+path <- file.path("data-raw", "ald_demo.csv")
 ald_demo <- remove_spec(readr::read_csv(path))
 
 ald_demo <- dplyr::left_join(
