@@ -55,6 +55,7 @@ jobs:
 
       - name: Source R files in data-raw
         run: |
+          library(usethis)
           source("R/utils.R")
           source_data_raw()
         shell: Rscript {0}
