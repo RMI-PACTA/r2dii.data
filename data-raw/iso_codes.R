@@ -1,10 +1,9 @@
-library(readr)
 library(usethis)
 
 source(file.path("data-raw", "utils.R"))
 
 # Source: @jdhoffa
 path <- file.path("data-raw", "iso_codes.csv")
-iso_codes <- remove_spec(read_a_csv(path))
+iso_codes <- read_csv_(path)
 
 usethis::use_data(iso_codes, overwrite = TRUE)

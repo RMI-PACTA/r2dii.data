@@ -2,7 +2,7 @@ library(withr)
 library(tibble)
 library(rlang)
 
-read_a_csv <- function(file) {
+read_csv_ <- function(file) {
   out <- utils::read.csv(
     file = file,
     header = TRUE,
@@ -18,16 +18,6 @@ read_a_csv <- function(file) {
   )
 
   tibble::as_tibble(out)
-}
-
-remove_spec <- function(data) {
-  # https://bit.ly/avoid-cant-combine-spec-tbl-df
-  withr::with_namespace("readr", {
-    data <- data[]
-  })
-
-  check_no_spec(data)
-  data
 }
 
 check_no_spec <- function(data) {

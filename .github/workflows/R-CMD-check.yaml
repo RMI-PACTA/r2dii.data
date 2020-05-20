@@ -44,7 +44,6 @@ jobs:
         run: |
           install.packages('usethis')
           install.packages('dplyr')
-          install.packages('readr')
         shell: Rscript {0}
 
       - name: Install r2dii.data

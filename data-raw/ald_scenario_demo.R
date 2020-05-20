@@ -1,7 +1,6 @@
 # packageVersion("dplyr")
 # > [1] '0.8.99.9002'
 library(dplyr)
-library(readr)
 library(usethis)
 
 # Functions ---------------------------------------------------------------
@@ -60,7 +59,7 @@ join_ald_scenario_region <- function(ald,
 # Create ald_scenario_demo ------------------------------------------------
 
 path <- file.path("data-raw", "ald_demo.csv")
-ald_demo <- remove_spec(read_a_csv(path))
+ald_demo <- read_csv_(path)
 
 ald_scenario_region <- join_ald_scenario_region(
   ald = rename_ald(ald_demo),

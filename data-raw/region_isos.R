@@ -1,4 +1,3 @@
-library(readr)
 library(tibble)
 library(dplyr)
 library(usethis)

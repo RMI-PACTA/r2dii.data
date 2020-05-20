@@ -1,6 +1,5 @@
 library(dplyr)
 library(rlang)
-library(readr)
 library(usethis)
 
 source(file.path("data-raw", "utils.R"))
@@ -140,7 +139,7 @@ commas <- function(...) paste0(..., collapse = ", ")
 # Source: @jdhoffa
 path <- file.path("data-raw", "scenario_demo.csv")
 
-scenario <- read_a_csv(path) %>%
+scenario <- read_csv_(path) %>%
   add_market_share_columns(start_year = 2020) %>%
   dplyr::select(-c("value", "units"))
 
