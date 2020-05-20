@@ -85,8 +85,8 @@ jobs:
 
       - name: Source R files in data-raw
         run: |
-          install.packages('dplyr')
-          install.packages('usethis')
+          remotes::install_github('tidyverse/dplyr')
+          remotes::install_github('r-lib/usethis')
           source(file.path('R', 'utils.R'))
           source_data_raw()
         shell: Rscript {0}
