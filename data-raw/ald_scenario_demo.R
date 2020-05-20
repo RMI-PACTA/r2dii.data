@@ -69,9 +69,11 @@ ald_scenario_region <- join_ald_scenario_region(
   region_isos = r2dii.data::region_isos
 )
 
+emission_factor_unit <- new_emission_factor_unit() %>%
+  rename(ald_sector = .data$sector)
 ald_scenario_demo <- ald_scenario_region %>%
   select(-.data$ald_emission_factor_unit) %>%
-  left_join(new_emission_factor_unit(), by = "technology") %>%
+  left_join(emission_factor_unit, by = "ald_sector") %>%
   select(
     .data$ald_company_sector_id,
     .data$id_name,
