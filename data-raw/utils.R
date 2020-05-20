@@ -21,19 +21,15 @@ co2_per <- function(x) {
 new_emission_factor_unit <- function() {
   # styler: off
   tibble::tribble(
-    ~technology,     ~ald_emission_factor_unit,
-    "hydrocap",      co2_per("hour per MW"),
-    "renewablescap", co2_per("hour per MW"),
-    "oil",           co2_per("GJ"),
-    "gas",           co2_per("GJ"),
-    "coal",          co2_per("tons of coal"),
-    "electric",      co2_per("km per cars produced"),
-    "hybrid",        co2_per("km per cars produced"),
-    "ice",           co2_per("km per cars produced"),
-    "coalcap",       co2_per("hour per MW"),
-    "gascap",        co2_per("hour per MW"),
-    "oilcap",        co2_per("hour per MW"),
-    "nuclearcap",    co2_per("hour per MW"),
+    ~sector,     ~ald_emission_factor_unit,
+    "automotive",      co2_per("km per car produced"),
+    "oil and gas",     co2_per("GJ"),
+    "coal",            co2_per("ton of coal"),
+    "steel",           co2_per("ton of steel"),
+    "cement",          co2_per("ton of cement"),
+    "aviation",        co2_per("passenger per km travelled"),
+    "power",           co2_per("per hour per MW")
+
   )
   # styler: on
 }
