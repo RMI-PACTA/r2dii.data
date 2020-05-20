@@ -11,6 +11,8 @@
 #'
 #' @format
 #' `ald_demo` is a [data.frame] with columns:
+#' * `ald_emission_factor_unit` (character): The units that the emission factor
+#' is measured in.
 #' * `ald_timestamp` (character): Date at which asset data was pulled from
 #' database.
 #' * `country_of_domicile` (character): Country where company is registered.

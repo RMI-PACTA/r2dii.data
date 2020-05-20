@@ -18,5 +18,5 @@
 #' defined.
 #'
 #' @examples
-#'region_isos_demo
+#' region_isos_demo
 "region_isos_demo"
