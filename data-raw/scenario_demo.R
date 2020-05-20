@@ -1,9 +1,10 @@
 library(dplyr)
-library(r2dii.utils)
 library(rlang)
 library(here)
 library(readr)
 library(usethis)
+
+source(here::here("data-raw", "utils.R"))
 
 # add_market_share_columns ------------------------------------------------
 
@@ -18,7 +19,7 @@ add_market_share_columns <- function(scenario, start_year) {
     rlang::warn("`start_year` is NA.", class = "missing_start_year")
     return(cero_row_fair_share_tibble(scenario, old_groups))
   }
-  r2dii.utils::check_crucial_names(scenario, crucial_fs_columns())
+  check_crucial_names(scenario, crucial_fs_columns())
   check_consistent_units(scenario)
 
   scenario %>%
