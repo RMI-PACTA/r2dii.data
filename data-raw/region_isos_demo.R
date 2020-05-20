@@ -1,4 +1,6 @@
 library(dplyr)
+library(r2dii.data)
+library(usethis)
 
 picked <-c(
   "advanced economies",
@@ -15,4 +17,4 @@ region_isos_demo <- r2dii.data::region_isos %>%
 length_ok <- identical(length(unique(region_isos_demo$region)), length(picked))
 stopifnot(length_ok)
 
-use_data(region_isos_demo, overwrite = TRUE)
+usethis::use_data(region_isos_demo, overwrite = TRUE)

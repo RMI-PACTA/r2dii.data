@@ -40,18 +40,21 @@ jobs:
 
       - uses: r-lib/actions/setup-pandoc@master
 
-      - name: Refresh data
+      - name: Install packages used in data-raw
         run: |
           install.packages('usethis')
           install.packages('dplyr')
           install.packages('readr')
         shell: Rscript {0}
 
-      - name: Install self
+      - name: Install r2dii.data
         run: |
           R CMD build .
           R CMD INSTALL r2dii.data*.tar.gz
-          library(dplyr)
+        shell: Rscript {0}
+
+      - name: Source R files in data-raw
+        run: |
           source("R/utils.R")
           source_data_raw()
         shell: Rscript {0}

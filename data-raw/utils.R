@@ -1,3 +1,7 @@
+library(withr)
+library(tibble)
+library(rlang)
+
 remove_spec <- function(data) {
   # https://bit.ly/avoid-cant-combine-spec-tbl-df
   withr::with_namespace("readr", {

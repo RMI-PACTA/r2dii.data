@@ -1,3 +1,7 @@
+library(purrr)
+library(usethis)
+library(tibble)
+
 source(file.path("data-raw", "utils.R"))
 
 # Setup -------------------------------------------------------------------

@@ -1,3 +1,6 @@
+library(readr)
+library(usethis)
+
 source(file.path("data-raw", "utils.R"))
 
 # Source: https://github.com/2DegreesInvesting/r2dii.dataraw/pull/4

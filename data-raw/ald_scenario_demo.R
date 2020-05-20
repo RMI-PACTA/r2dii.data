@@ -2,7 +2,6 @@
 # > [1] '0.8.99.9002'
 library(dplyr)
 library(readr)
-
 library(usethis)
 
 # Functions ---------------------------------------------------------------
