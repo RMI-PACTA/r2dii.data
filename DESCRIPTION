@@ -39,10 +39,10 @@ Imports:
     stats,
     utils
 Suggests: 
+    rlang,
     rmarkdown,
     testthat (>= 2.1.0),
-    waldo,
-    rlang
+    waldo
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
