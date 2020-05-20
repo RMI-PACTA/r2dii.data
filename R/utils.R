@@ -10,7 +10,7 @@
 #' @keywords internal
 #'
 #' @examples
-#'source_data_raw()
+#' source_data_raw()
 #' @noRd
 source_data_raw <- function() {
   # The `pattern` argument creates paths with "//"
