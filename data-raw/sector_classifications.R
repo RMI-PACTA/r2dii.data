@@ -24,15 +24,6 @@ sector_classification_df <- function() {
   )
 }
 
-enlist_datasets <- function(package, pattern) {
-  data <- grep(pattern, exported_data(package), value = TRUE)
-  purrr::set_names(mget(data, inherits = TRUE), data)
-}
-
-exported_data <- function(package) {
-  utils::data(package = package)$results[, "Item"]
-}
-
 # Use data ----------------------------------------------------------------
 
 library(r2dii.data)
