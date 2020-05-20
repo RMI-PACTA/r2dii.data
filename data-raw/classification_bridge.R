@@ -1,3 +1,6 @@
+library(here)
+library(readr)
+
 source(here::here("data-raw/utils.R"))
 
 # Source: @jdhoffa https://github.com/2DegreesInvesting/r2dii.dataraw/pull/6

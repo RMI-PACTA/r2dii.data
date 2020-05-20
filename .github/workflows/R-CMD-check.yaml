@@ -46,6 +46,7 @@ jobs:
           install.packages('dplyr')
           install.packages('readr')
           install.packages('here')
+          remotes::install_github("2degreesinvesting/r2dii.scenario@0.0.0.9002")
           devtools::install()
         shell: Rscript {0}
 
