@@ -11,5 +11,5 @@
 #' @family demo datasets
 #'
 #' @examples
-#'region_isos_demo
+#' region_isos_demo
 "region_isos_demo"

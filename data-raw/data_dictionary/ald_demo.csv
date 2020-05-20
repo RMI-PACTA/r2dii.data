@@ -12,3 +12,4 @@ ald_demo,number_of_assets,integer,Number of assets of a given technology owned b
 ald_demo,is_ultimate_owner,logical,Flag if company is the ultimate parent in our database
 ald_demo,is_ultimate_listed_owner,logical,Flag if company is the listed ultimate parent
 ald_demo,ald_timestamp,character,Date at which asset data was pulled from database
+ald_demo,ald_emission_factor_unit,character,The units that the emission factor is measured in
