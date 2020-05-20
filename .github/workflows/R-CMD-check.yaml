@@ -42,10 +42,11 @@ jobs:
 
       - name: Install packages used in data-raw
         run: |
+          install.packages('devtools')
           install.packages('dplyr')
           install.packages('readr')
           install.packages('here')
-          install.packages('usethis')
+          devtools::install()
         shell: Rscript {0}
 
       - name: Query dependencies
