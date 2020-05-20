@@ -10,4 +10,9 @@ test_that("hasn't changed", {
     overwrite_demo, "ref-overwrite_demo",
     update = FALSE
   )
+
+  expect_no_differences(
+    overwrite_demo,
+    test_path("ref-overwrite_demo")
+  )
 })

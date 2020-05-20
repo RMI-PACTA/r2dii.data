@@ -4,10 +4,8 @@ test_that("hasn't changed", {
     update = FALSE
   )
 
+  expect_no_differences(
+    ald_demo,
+    test_path("ref-ald_demo")
+  )
 })
-
-test_that("is no different to reference", {
-  skip_on_cran()
-  expect_no_differences(ald_demo, "ref-ald_demo")
-})
-
