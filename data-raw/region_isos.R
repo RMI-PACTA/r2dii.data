@@ -96,5 +96,5 @@ region_isos <- out_only_countries %>%
   dplyr::rename(isos = country_iso) %>%
   dplyr::select(region, isos, source)
 
-region_isos[1, 1] <- "FIXME this is a test"
+region_isos <- mtcars
 usethis::use_data(region_isos, overwrite = TRUE)
