@@ -1,11 +1,14 @@
 library(dplyr)
+library(r2dii.data)
+library(usethis)
 
-set.seed(1)
-
-full <- unique(r2dii.data::region_isos$region)
-ensure <- c("global", "europe")
-random <- sample(setdiff(full, ensure), 3L)
-picked <- c(ensure, random)
+picked <-c(
+  "advanced economies",
+  "caspian",
+  "developing asia",
+  "europe",
+  "global"
+)
 
 region_isos_demo <- r2dii.data::region_isos %>%
   mutate(source = "demo_2020") %>%
@@ -14,4 +17,4 @@ region_isos_demo <- r2dii.data::region_isos %>%
 length_ok <- identical(length(unique(region_isos_demo$region)), length(picked))
 stopifnot(length_ok)
 
-use_data(region_isos_demo, overwrite = TRUE)
+usethis::use_data(region_isos_demo, overwrite = TRUE)

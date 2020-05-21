@@ -1,11 +1,23 @@
-remove_spec <- function(data) {
-  # https://bit.ly/avoid-cant-combine-spec-tbl-df
-  withr::with_namespace("readr", {
-    data <- data[]
-  })
+library(withr)
+library(tibble)
+library(rlang)
 
-  check_no_spec(data)
-  data
+read_csv_ <- function(file) {
+  out <- utils::read.csv(
+    file = file,
+    header = TRUE,
+    sep = ",",
+    quote = "\"",
+    comment.char = "",
+    stringsAsFactors = FALSE,
+    na.strings = c("", "NA"),
+    strip.white = TRUE,
+    skip = 0,
+    fileEncoding = "UTF-8",
+    encoding = "UTF-8"
+  )
+
+  tibble::as_tibble(tibble::remove_rownames(out))
 }
 
 check_no_spec <- function(data) {
@@ -32,4 +44,40 @@ new_emission_factor_unit <- function() {
 
   )
   # styler: on
+}
+
+#' Check if a named object contains expected names
+#'
+#' Based on fgeo.tool::check_crucial_names()
+#'
+#' @param x A named object.
+#' @param expected_names String; expected names of `x`.
+#'
+#' @return Invisible `x`, or an error with informative message.
+#'
+#' @examples
+#' x <- c(a = 1)
+#' check_crucial_names(x, "a")
+#' try(check_crucial_names(x, "bad"))
+#' @noRd
+check_crucial_names <- function(x, expected_names) {
+  stopifnot(rlang::is_named(x))
+  stopifnot(is.character(expected_names))
+
+  ok <- all(unique(expected_names) %in% names(x))
+  if (!ok) {
+    abort_missing_names(sort(setdiff(expected_names, names(x))))
+  }
+
+  invisible(x)
+}
+
+abort_missing_names <- function(missing_names) {
+  rlang::abort(
+    "missing_names",
+    message = glue(
+      "Must have missing names:
+      {paste0('`', missing_names, '`', collapse = ', ')}"
+    )
+  )
 }
