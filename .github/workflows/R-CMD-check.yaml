@@ -55,6 +55,17 @@ jobs:
           key: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-${{ hashFiles('.github/depends.Rds') }}
           restore-keys: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-
 
+      - name: Install system dependencies failing with R release
+        if: runner.os == 'Linux'
+        env:
+          RHUB_PLATFORM: linux-x86_64-ubuntu-gcc
+        run: |
+          sudo apt -y update && sudo apt -y install \
+            libcurl4-openssl-dev \
+            libgit2-dev \
+            libssh2-1-dev
+        shell: bash
+
       - name: Install system dependencies
         if: runner.os == 'Linux'
         env:
