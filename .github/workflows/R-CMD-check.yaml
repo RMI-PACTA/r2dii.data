@@ -96,6 +96,7 @@ jobs:
 
       - name: Source R files in data-raw
         run: |
+          install.packages('readr')
           install.packages('dplyr')
           install.packages('usethis')
           source(file.path('R', 'utils.R'))
