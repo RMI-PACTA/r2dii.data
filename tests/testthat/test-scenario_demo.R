@@ -4,3 +4,9 @@ test_that("hasn't changed", {
     update = FALSE
   )
 })
+
+test_that("is no different compared to reference", {
+  expect_no_differences(
+    scenario_demo_2020, test_path("ref-scenario_demo_2020")
+  )
+})

@@ -5,6 +5,12 @@ test_that("hasn't changed", {
   )
 })
 
+test_that("is no different compared to reference", {
+  expect_no_differences(
+    data_dictionary, test_path("ref-data_dictionary")
+  )
+})
+
 test_that("has the expected names", {
   expect_named(
     data_dictionary,

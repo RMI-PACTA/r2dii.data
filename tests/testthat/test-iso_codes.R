@@ -4,3 +4,9 @@ test_that("iso_codes hasn't changed", {
     update = FALSE
   )
 })
+
+test_that("is no different compared to reference", {
+  expect_no_differences(
+    iso_codes, test_path("ref-iso_codes")
+  )
+})

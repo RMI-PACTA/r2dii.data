@@ -10,9 +10,10 @@ test_that("hasn't changed", {
     overwrite_demo, "ref-overwrite_demo",
     update = FALSE
   )
+})
 
+test_that("is no different compared to reference", {
   expect_no_differences(
-    overwrite_demo,
-    test_path("ref-overwrite_demo")
+    overwrite_demo, test_path("ref-overwrite_demo")
   )
 })
