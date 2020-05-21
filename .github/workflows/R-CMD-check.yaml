@@ -63,7 +63,6 @@ jobs:
           Rscript -e "remotes::install_github('r-hub/sysreqs')"
           sysreqs=$(Rscript -e "cat(sysreqs::sysreq_commands('DESCRIPTION'))")
           sudo -s eval "$sysreqs"
-          sudo apt-get -y update && sudo apt-get -y install libcurl4-openssl-dev
 
       - name: Install dependencies
         run: |
@@ -86,8 +85,8 @@ jobs:
 
       - name: Source R files in data-raw
         run: |
-          remotes::install_github('tidyverse/dplyr')
-          remotes::install_github('r-lib/usethis')
+          install.packages('dplyr')
+          install.packages('usethis')
           source(file.path('R', 'utils.R'))
           source_data_raw()
         shell: Rscript {0}
