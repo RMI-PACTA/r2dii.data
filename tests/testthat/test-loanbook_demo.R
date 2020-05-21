@@ -1,7 +1,7 @@
 test_that("hasn't changed", {
   expect_known_value(
     loanbook_demo, "ref-loanbook_demo",
-    update = T
+    update = FALSE
   )
 
   expect_no_differences(
