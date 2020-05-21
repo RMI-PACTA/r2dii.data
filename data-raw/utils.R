@@ -3,26 +3,14 @@ library(tibble)
 library(rlang)
 
 read_csv_ <- function(file) {
-  # out <- utils::read.csv(
-  #   file = file,
-  #   header = TRUE,
-  #   sep = ",",
-  #   quote = "\"",
-  #   comment.char = "",
-  #   stringsAsFactors = FALSE,
-  #   na.strings = c("", "NA"),
-  #   strip.white = TRUE,
-  #   skip = 0,
-  #   fileEncoding = "UTF-8",
-  #   encoding = "UTF-8"
-  # )
   out <- readr::read_csv(file)
+
   # https://bit.ly/avoid-cant-combine-spec-tbl-df
   withr::with_namespace("readr", {
     out <- out[]
   })
 
-  tibble::as_tibble(tibble::remove_rownames(out))
+  tibble::remove_rownames(out)
 }
 
 check_no_spec <- function(data) {
