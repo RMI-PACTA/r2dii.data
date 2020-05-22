@@ -149,6 +149,32 @@ they help to demonstrate and test the implementation in R of 'PACTA'
     <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
 
     <p>An object of class <code>tbl_df</code> (inherits from <code>tbl</code>, <code>data.frame</code>) with 320 rows and 19 columns.</p>
+    <h2 class="hasAnchor" id="definitions"><a class="anchor" href="#definitions"></a>Definitions</h2>
+
+    
+
+<ul>
+<li><p><code>fi_type</code> (character): Financial instrument name or asset class.</p></li>
+<li><p><code>flag_project_finance_loan</code> (character): Project finance flag denoting whether a loan is given out to a particular asset or not.</p></li>
+<li><p><code>id_direct_loantaker</code> (character): Borrower identifier unique to each borrower/sector combination in loanbook.</p></li>
+<li><p><code>id_intermediate_parent_n</code> (character): Optional input: id of the n-th intermediate parent company within the company structure that can be used for more granular mapping than the ultimate parent. Smaller values of n are closer to the direct_loantaker.</p></li>
+<li><p><code>id_loan</code> (character): Unique loan identifier.</p></li>
+<li><p><code>id_ultimate_parent</code> (character): Ultimate parent identifier unique to each ultimate parent/sector combination.</p></li>
+<li><p><code>isin_direct_loantaker</code> (logical): Optional input: providing the isin identifier of the direct loan taker to improve the matching coverage.</p></li>
+<li><p><code>lei_direct_loantaker</code> (logical): Optional input: providing the lei (legal entity identifier) of the direct loan taker to improve the matching coverage.</p></li>
+<li><p><code>loan_size_credit_limit</code> (double): Total credit limit or exposure at default.</p></li>
+<li><p><code>loan_size_credit_limit_currency</code> (character): Currency corresponding to credit limit.</p></li>
+<li><p><code>loan_size_outstanding</code> (double): Amount drawn by borrower from total credit limit.</p></li>
+<li><p><code>loan_size_outstanding_currency</code> (character): Currency corresponding to outstandings.</p></li>
+<li><p><code>name_direct_loantaker</code> (character): Name of the company directly taking the loan.</p></li>
+<li><p><code>name_intermediate_parent_n</code> (character): Optional input: name of intermediate parent company within the company structure that can be used for more granular mapping than the ultimate parent. Smaller values of n are closer to the direct_loantaker.</p></li>
+<li><p><code>name_project</code> (logical): Required input for loans with the flag_project_finance_loan = TRUE: Name of the project being financed.</p></li>
+<li><p><code>name_ultimate_parent</code> (character): Name of the ultimate parent company to which the borrower belongs. Can be the same as borrower.</p></li>
+<li><p><code>sector_classification_direct_loantaker</code> (double): Sector classification code of the direct loantaker.</p></li>
+<li><p><code>sector_classification_input_type</code> (character): Flag identifying if the sector classification code or character description is used.</p></li>
+<li><p><code>sector_classification_system</code> (character): Name of the sector classification standard being used.</p></li>
+</ul>
+
     <h2 class="hasAnchor" id="see-also"><a class="anchor" href="#see-also"></a>See also</h2>
 
     <div class='dont-index'><p><a href='data_dictionary.html'>data_dictionary</a></p>

@@ -10,16 +10,22 @@
     <loc>https://github.com/2DegreesInvesting/r2dii.data//reference/ald_scenario_demo.html</loc>
   </url>
   <url>
-    <loc>https://github.com/2DegreesInvesting/r2dii.data//reference/classification_bridge.html</loc>
+    <loc>https://github.com/2DegreesInvesting/r2dii.data//reference/data_dictionary.html</loc>
   </url>
   <url>
-    <loc>https://github.com/2DegreesInvesting/r2dii.data//reference/data_dictionary.html</loc>
+    <loc>https://github.com/2DegreesInvesting/r2dii.data//reference/isic_classification.html</loc>
   </url>
   <url>
     <loc>https://github.com/2DegreesInvesting/r2dii.data//reference/iso_codes.html</loc>
   </url>
   <url>
     <loc>https://github.com/2DegreesInvesting/r2dii.data//reference/loanbook_demo.html</loc>
+  </url>
+  <url>
+    <loc>https://github.com/2DegreesInvesting/r2dii.data//reference/nace_classification.html</loc>
+  </url>
+  <url>
+    <loc>https://github.com/2DegreesInvesting/r2dii.data//reference/naics_classification.html</loc>
   </url>
   <url>
     <loc>https://github.com/2DegreesInvesting/r2dii.data//reference/overwrite_demo.html</loc>
