@@ -7,6 +7,9 @@
 #' @template info_demo-datasets
 #' @template info_iso-codes
 #'
+#' @section Definitions:
+#' `r define("region_isos_demo")`
+#'
 #' @family iso codes
 #' @family demo datasets
 #'

@@ -8,6 +8,9 @@
 #'
 #' @template info_demo-datasets
 #'
+#' @section Definitions:
+#' `r define("ald_scenario_demo")`
+#'
 #' @family demo datasets
 #' @seealso [data_dictionary]
 #'

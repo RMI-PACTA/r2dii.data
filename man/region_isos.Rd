@@ -16,6 +16,15 @@ This dataset maps codes representing countries to regions.
 For information about the ISO standard for country codes see
 \url{https://www.iso.org/iso-3166-country-codes.html}.
 }
+\section{Definitions}{
+
+\itemize{
+\item \code{isos} (character): Countries in region, defined by iso code.
+\item \code{region} (character): Benchmark region name.
+\item \code{source} (character): Source publication from which the regions are defined.
+}
+}
+
 \examples{
 head(region_isos)
 }

@@ -8,6 +8,9 @@
 #' [2DII](https://2degrees-investing.org/)).
 #' @template info_demo-datasets
 #'
+#' @section Definitions:
+#' `r define("scenario_demo_2020")`
+#'
 #' @family demo datasets
 #' @seealso [data_dictionary]
 #'
