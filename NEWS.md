@@ -1,6 +1,6 @@
 # r2dii.data 0.0.3.9004 (development version)
 
-* Remove columns definition from help files; use `data_dictinoary` (#63).
+* Remove columns definition from help files; use `data_dictionary` (#63).
 * Dataset `ald_demo` gains the column `ald_emission_factor_unit` (#71).
 * New dataset `region_isos_demo` (#60).
 * `region_isos` now includes a "global" `region` (@jdhoffa #52).
