@@ -37,8 +37,7 @@ Depends:
     R (>= 2.10)
 Imports:
     stats,
-    utils,
-    here
+    utils
 Suggests: 
     rlang,
     rmarkdown,
