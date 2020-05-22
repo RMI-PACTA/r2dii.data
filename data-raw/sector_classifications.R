@@ -1,4 +1,8 @@
-source(here::here("data-raw/utils.R"))
+library(purrr)
+library(usethis)
+library(tibble)
+
+source(file.path("data-raw", "utils.R"))
 
 # Setup -------------------------------------------------------------------
 
@@ -22,15 +26,6 @@ sector_classification_df <- function() {
     # Reformat code_system
     transform(out, code_system = gsub("_CLASSIFICATION", "", out$code_system))
   )
-}
-
-enlist_datasets <- function(package, pattern) {
-  data <- grep(pattern, exported_data(package), value = TRUE)
-  purrr::set_names(mget(data, inherits = TRUE), data)
-}
-
-exported_data <- function(package) {
-  utils::data(package = package)$results[, "Item"]
 }
 
 # Use data ----------------------------------------------------------------
