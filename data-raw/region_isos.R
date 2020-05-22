@@ -3,9 +3,11 @@ library(dplyr)
 library(usethis)
 
 # Source:
-# * raw_regions_weo2019.csv was transcribed from page 780 of the 2019 World
+# * raw_regions_weo_2019.csv was transcribed from page 780 of the 2019 World
 # Energy Outlook
-path <- file.path("data-raw", "region_isos_weo2019.csv")
+
+this_source <- "weo_2019"
+path <- here::here("data-raw/region_isos_weo_2019.csv")
 
 region_data_tibble <- utils::read.csv(
   path,
@@ -39,14 +41,14 @@ all_countries <- out_only_countries %>%
   unique()
 
 global <- all_countries %>%
-  dplyr::mutate(region = "global", source = "weo2019")
+  dplyr::mutate(region = "global", source = this_source)
 
 advanced_economies <- out_only_countries %>%
   dplyr::filter(region == "advanced economies")
 
 developing_economies <- all_countries %>%
   dplyr::filter(!(value %in% advanced_economies$value)) %>%
-  dplyr::mutate(region = "developing economies", source = "weo2019")
+  dplyr::mutate(region = "developing economies", source = this_source)
 
 oecd <- dplyr::filter(out_only_countries, region == "oecd")
 
@@ -65,13 +67,13 @@ iea <- oecd %>%
 
 non_oecd <- all_countries %>%
   dplyr::filter(!(value %in% oecd$value)) %>%
-  dplyr::mutate(region = "non oecd", source = "weo2019")
+  dplyr::mutate(region = "non oecd", source = this_source)
 
 opec <- dplyr::filter(out_only_countries, region == "opec")
 
 non_opec <- all_countries %>%
   dplyr::filter(!(value %in% opec$value)) %>%
-  dplyr::mutate(region = "non opec", source = "weo2019")
+  dplyr::mutate(region = "non opec", source = this_source)
 
 # check how many countries dont match their isos
 fix <- out_only_countries %>%

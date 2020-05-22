@@ -5,11 +5,7 @@
 \alias{iso_codes}
 \title{Countries and codes}
 \format{
-\code{iso_codes} is a \link{data.frame} with columns:
-\itemize{
-\item \code{country} (character): Country name.
-\item \code{country_iso} (character): Corresponding ISO code.
-}
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 286 rows and 2 columns.
 }
 \usage{
 iso_codes
