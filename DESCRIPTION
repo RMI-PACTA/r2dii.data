@@ -1,6 +1,6 @@
 Package: r2dii.data
 Title: Datasets to Align Financial Markets with Climate Goals
-Version: 0.0.3.9004
+Version: 0.0.3.9005
 Authors@R: 
     c(person(given = "Mauro",
              family = "Lepore",
@@ -35,9 +35,14 @@ BugReports:
     https://github.com/2DegreesInvesting/r2dii.data/issues
 Depends: 
     R (>= 2.10)
+Imports:
+    stats,
+    utils
 Suggests: 
+    rlang,
     rmarkdown,
-    testthat (>= 2.1.0)
+    testthat (>= 2.1.0),
+    waldo
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
