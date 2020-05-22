@@ -13,7 +13,7 @@ source(file.path("data-raw", "utils.R"))
 #'   at [data_dictionary].
 #' @noRd
 sector_classification_df <- function() {
-  out <- enlist_datasets("r2dii.data", pattern = "_classification$")
+  out <- r2dii.data:::enlist_datasets("r2dii.data", pattern = "_classification$")
   out <- purrr::imap(out, ~ transform(.x, code_system = toupper(.y)))
   out <- purrr::map(out, ~ .x[c("sector", "borderline", "code", "code_system")])
   # Coerce every column to character for more robust reduce() and join()
