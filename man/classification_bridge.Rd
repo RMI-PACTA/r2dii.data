@@ -8,34 +8,11 @@
 \alias{naics_classification}
 \title{Datasets to bridge (translate) common sector-classification codes}
 \format{
-\code{classification_bridge} is a \link{data.frame} with columns:
-\itemize{
-\item \code{borderline} (logical): Flag indicating if 2dii sector and classification
-code are a borderline match.
-\item \code{code} (character): Original ISIC code.
-\item \code{code_level} (double): Level of granularity of ISIC code.
-\item \code{sector} (character): Associated 2dii sector.
-}
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 768 rows and 4 columns.
 
-\code{nace_classification} is a \link{data.frame} with columns:
-\itemize{
-\item \code{borderline} (logical): Flag indicating if 2dii sector and classification
-code are a borderline match.
-\item \code{code} (double): Formatted NACE code removing periods.
-\item \code{code_level} (double): Level of granularity of NACE code.
-\item \code{original_code} (double): Original NACE code.
-\item \code{sector} (character): Associated 2dii sector.
-}
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 929 rows and 5 columns.
 
-\code{naics_classification} is a \link{data.frame} with columns:
-\itemize{
-\item \code{borderline} (logical): Flag indicating if 2dii sector and classification
-code are a borderline match.
-\item \code{code} (double): Formatted NAICS code.
-\item \code{code_level} (double): Level of granularity of NAICS code.
-\item \code{original_code} (double): Original NAICS code.
-\item \code{sector} (character): Associated 2dii sector.
-}
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 929 rows and 5 columns.
 }
 \usage{
 isic_classification
