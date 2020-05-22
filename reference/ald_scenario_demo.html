@@ -79,7 +79,7 @@ they help to demonstrate and test the implementation in R of 'PACTA'
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="../index.html">r2dii.data</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.0.3.9003</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.0.3.9004</span>
       </span>
     </div>
 
@@ -156,27 +156,7 @@ they help to demonstrate and test the implementation in R of 'PACTA'
 
     <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
 
-    <p><code>ald_scenario_demo</code> is a <a href='https://rdrr.io/r/base/data.frame.html'>data.frame</a> with columns:</p><ul>
-<li><p><code>ald_company_sector_id</code> (integer): Company ID allocated by 2dii. Each ID is unique per sector and company name.</p></li>
-<li><p><code>ald_emission_factor</code> (double): Company level emission factor of the technology.</p></li>
-<li><p><code>ald_emission_factor_unit</code> (character): The units that the emission factor is measured in.</p></li>
-<li><p><code>ald_location</code> (character): Country where asset is located.</p></li>
-<li><p><code>ald_production</code> (double): Company level production of the technology.</p></li>
-<li><p><code>ald_production_unit</code> (character): The units that production is measured in.</p></li>
-<li><p><code>ald_sector</code> (character): Sector to which the asset belongs.</p></li>
-<li><p><code>domicile_region</code> (character): Country where company is registered.</p></li>
-<li><p><code>id</code> (character): The financial instrument-specific id that defines the company (or corporate bond pool).</p></li>
-<li><p><code>id_name</code> (character): Name of the ID provided in the id column. The id is used for mapping of the dataset to a given portfolio (for credit: company_name for corporate bonds: corporate_ticker for equity: bloomberg_id).</p></li>
-<li><p><code>is_ultimate_owner</code> (logical): Flag if company is the ultimate parent in our database.</p></li>
-<li><p><code>scenario</code> (character): Abbreviation of the scenario pathway name (e.g. Sustainable Development Scenario is sds).</p></li>
-<li><p><code>scenario_region</code> (character): The region of the production (from the asset location). It is aggregated to the regions given by the scenarios to allow the application of the regional scenario pathway.</p></li>
-<li><p><code>scenario_source</code> (character): The source publication from which the scenario was taken.</p></li>
-<li><p><code>smsp</code> (double): Sector market share percentage.</p></li>
-<li><p><code>technology</code> (character): Technology implemented by the asset.</p></li>
-<li><p><code>tmsr</code> (double): Technology market share ratio.</p></li>
-<li><p><code>year</code> (integer): Year at which the production value is predicted.</p></li>
-</ul>
-
+    <p>An object of class <code>tbl_df</code> (inherits from <code>tbl</code>, <code>data.frame</code>) with 26613 rows and 18 columns.</p>
     <h2 class="hasAnchor" id="see-also"><a class="anchor" href="#see-also"></a>See also</h2>
 
     <div class='dont-index'><p><a href='data_dictionary.html'>data_dictionary</a></p>
