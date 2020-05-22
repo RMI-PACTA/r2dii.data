@@ -7,7 +7,7 @@ library(usethis)
 # Energy Outlook
 
 this_source <- "weo_2019"
-path <- here::here("data-raw/region_isos_weo_2019.csv")
+path <- file.path("data-raw", "region_isos_weo_2019.csv")
 
 region_data_tibble <- utils::read.csv(
   path,
