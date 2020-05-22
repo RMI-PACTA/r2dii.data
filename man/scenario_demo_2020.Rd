@@ -21,6 +21,20 @@ Demo datasets are synthetic because most financial data is strictly private;
 they help to demonstrate and test the implementation in R of 'PACTA'
 (\url{https://2degrees-investing.org/resource/pacta/}).
 }
+\section{Definitions}{
+
+\itemize{
+\item \code{region} (character): The region to which the pathway is relevant.
+\item \code{scenario} (character): The name of the scenario.
+\item \code{scenario_source} (character): The source publication from which the scenario was taken.
+\item \code{sector} (character): The sector to which the scenario prescribes a pathway.
+\item \code{smsp} (double): Sector market share percentage of the pathway calculated in 2020.
+\item \code{technology} (character): The technology within the sector to which the scenario prescribes a pathway.
+\item \code{tmsr} (double): Technology market share ratio of the pathway calculated in 2020.
+\item \code{year} (integer): The year at which the pathway value is prescribed.
+}
+}
+
 \examples{
 head(scenario_demo_2020)
 }

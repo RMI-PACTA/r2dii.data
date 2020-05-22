@@ -21,6 +21,30 @@ Demo datasets are synthetic because most financial data is strictly private;
 they help to demonstrate and test the implementation in R of 'PACTA'
 (\url{https://2degrees-investing.org/resource/pacta/}).
 }
+\section{Definitions}{
+
+\itemize{
+\item \code{ald_company_sector_id} (integer): Company ID allocated by 2dii. Each ID is unique per sector and company name..
+\item \code{ald_emission_factor} (double): Company level emission factor of the technology.
+\item \code{ald_emission_factor_unit} (character): The units that the emission factor is measured in.
+\item \code{ald_location} (character): Country where asset is located.
+\item \code{ald_production} (double): Company level production of the technology.
+\item \code{ald_production_unit} (character): The units that production is measured in.
+\item \code{ald_sector} (character): Sector to which the asset belongs.
+\item \code{domicile_region} (character): Country where company is registered.
+\item \code{id} (character): The financial instrument-specific id that defines the company (or corporate bond pool).
+\item \code{id_name} (character): Name of the ID provided in the id column. The id is used for mapping of the dataset to a given portfolio (for credit: company_name for corporate bonds: corporate_ticker for equity: bloomberg_id).
+\item \code{is_ultimate_owner} (logical): Flag if company is the ultimate parent in our database.
+\item \code{scenario} (character): Abbreviation of the scenario pathway name (e.g. Sustainable Development Scenario is sds).
+\item \code{scenario_region} (character): The region of the production (from the asset location). It is aggregated to the regions given by the scenarios to allow the application of the regional scenario pathway.
+\item \code{scenario_source} (character): The source publication from which the scenario was taken.
+\item \code{smsp} (double): Sector market share percentage.
+\item \code{technology} (character): Technology implemented by the asset.
+\item \code{tmsr} (double): Technology market share ratio.
+\item \code{year} (integer): Year at which the production value is predicted.
+}
+}
+
 \examples{
 head(ald_scenario_demo)
 }

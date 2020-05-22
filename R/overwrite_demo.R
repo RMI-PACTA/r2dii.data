@@ -5,6 +5,9 @@
 #' level entities.
 #' @template info_demo-datasets
 #'
+#' @section Definitions:
+#' `r define("overwrite_demo")`
+#'
 #' @family demo datasets
 #' @seealso [data_dictionary]
 #'

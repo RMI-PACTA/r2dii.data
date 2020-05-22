@@ -16,6 +16,14 @@ This dataset maps countries to codes.
 For information about the ISO standard for country codes see
 \url{https://www.iso.org/iso-3166-country-codes.html}.
 }
+\section{Definitions}{
+
+\itemize{
+\item \code{country} (character): Country name.
+\item \code{country_iso} (character): Corresponding ISO code.
+}
+}
+
 \examples{
 head(iso_codes)
 }

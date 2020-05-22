@@ -2,6 +2,9 @@
 #'
 #' This dataset provides metadata about all datasets in the package r2dii.data.
 #'
+#' @section Definitions:
+#' `r define("data_dictionary")`
+#'
 #' @family meta
 #'
 #' @examples
