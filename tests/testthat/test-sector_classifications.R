@@ -5,7 +5,7 @@ test_that("hasn't change", {
   )
 })
 
-test_that("is no different compared to reference", {
+test_that("is not different compared to reference", {
   expect_no_differences(
     sector_classifications, test_path("ref-sector_classifications")
   )

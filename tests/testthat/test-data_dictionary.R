@@ -5,7 +5,7 @@ test_that("hasn't changed", {
   )
 })
 
-test_that("is no different compared to reference", {
+test_that("is not different compared to reference", {
   expect_no_differences(
     data_dictionary, test_path("ref-data_dictionary")
   )

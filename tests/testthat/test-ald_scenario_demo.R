@@ -10,7 +10,7 @@ test_that("hasn't changed", {
   )
 })
 
-test_that("is no different compared to reference", {
+test_that("is not different compared to reference", {
   small_ald_scenario_demo <-rbind(
     head(ald_scenario_demo, 250),
     tail(ald_scenario_demo, 250)
