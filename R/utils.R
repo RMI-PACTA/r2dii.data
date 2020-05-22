@@ -8,11 +8,12 @@
 #' define("region_isos")
 #' @noRd
 define <- function(dataset) {
-  d <- data_dictionary
+  d <- r2dii.data::data_dictionary
   d <- d[d$dataset == dataset, , drop = FALSE]
-  d$dataset <- NULL
 
   out <- sprintf("* `%s` (%s): %s.", d$column, d$typeof, d$definition)
+  # HACK: We don't use glue but it's class helps get the correct format
   class(out) <- c("glue", class(out))
+
   out
 }
