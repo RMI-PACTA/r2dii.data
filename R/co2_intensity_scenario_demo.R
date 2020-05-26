@@ -7,6 +7,15 @@
 #' through time in production across industrial sectors (calculated by
 #' [2DII](https://2degrees-investing.org/)).
 #'
+#' @template info_demo-datasets
+#'
+#'
+#'@section Definitions:
+#' `r define("ald_demo")`
+#'
+#' @family demo datasets
+#' @seealso [data_dictionary]
+#'
 #' @examples
-#' head(co2_intensity_scenario)
-"co2_intensity_scenario"
+#' head(co2_intensity_scenario_demo)
+"co2_intensity_scenario_demo"
