@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Dataset to bridge (translate) common sector-classification codes — nace_classification • r2dii.data</title>
+<title>A prepared co2 intensity climate scenario dataset for demonstration — co2_intensity_scenario_demo • r2dii.data</title>
 
 
 <!-- jquery -->
@@ -39,9 +39,14 @@
 
 
 
-<meta property="og:title" content="Dataset to bridge (translate) common sector-classification codes — nace_classification" />
-<meta property="og:description" content="These dataset serve as a translation key between common sector-classification
-systems and sectors relevant to the 'PACTA' tool
+<meta property="og:title" content="A prepared co2 intensity climate scenario dataset for demonstration — co2_intensity_scenario_demo" />
+<meta property="og:description" content="Fake co2 intensity climate scenario dataset, prepared for the software
+PACTA (Paris Agreement Capital Transition Assessment). It imitates
+climate scenario data (e.g. from the International Energy Agency (IEA))
+including the change through time in production across industrial sectors
+(calculated by 2DII).
+Demo datasets are synthetic because most financial data is strictly private;
+they help to demonstrate and test the implementation in R of 'PACTA'
 (https://2degrees-investing.org/resource/pacta/)." />
 
 
@@ -130,60 +135,70 @@ systems and sectors relevant to the 'PACTA' tool
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Dataset to bridge (translate) common sector-classification codes</h1>
-    <small class="dont-index">Source: <a href='https://github.com/2DegreesInvesting/r2dii.data/blob/master/R/classification_bridge.R'><code>R/classification_bridge.R</code></a></small>
-    <div class="hidden name"><code>nace_classification.Rd</code></div>
+    <h1>A prepared co2 intensity climate scenario dataset for demonstration</h1>
+    <small class="dont-index">Source: <a href='https://github.com/2DegreesInvesting/r2dii.data/blob/master/R/co2_intensity_scenario_demo.R'><code>R/co2_intensity_scenario_demo.R</code></a></small>
+    <div class="hidden name"><code>co2_intensity_scenario_demo.Rd</code></div>
     </div>
 
     <div class="ref-description">
-    <p>These dataset serve as a translation key between common sector-classification
-systems and sectors relevant to the 'PACTA' tool
+    <p>Fake co2 intensity climate scenario dataset, prepared for the software
+PACTA (Paris Agreement Capital Transition Assessment). It imitates
+climate scenario data (e.g. from the International Energy Agency (IEA))
+including the change through time in production across industrial sectors
+(calculated by <a href='https://2degrees-investing.org/'>2DII</a>).</p>
+<p>Demo datasets are synthetic because most financial data is strictly private;
+they help to demonstrate and test the implementation in R of 'PACTA'
 (<a href='https://2degrees-investing.org/resource/pacta/'>https://2degrees-investing.org/resource/pacta/</a>).</p>
     </div>
 
-    <pre class="usage"><span class='no'>nace_classification</span></pre>
+    <pre class="usage"><span class='no'>co2_intensity_scenario_demo</span></pre>
 
 
     <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
 
-    <p>An object of class <code>tbl_df</code> (inherits from <code>tbl</code>, <code>data.frame</code>) with 929 rows and 5 columns.</p>
+    <p>An object of class <code>tbl_df</code> (inherits from <code>tbl</code>, <code>data.frame</code>) with 22 rows and 7 columns.</p>
     <h2 class="hasAnchor" id="definitions"><a class="anchor" href="#definitions"></a>Definitions</h2>
 
     
 
 <ul>
-<li><p><code>borderline</code> (logical): Flag indicating if 2dii sector and classification code are a borderline match.</p></li>
-<li><p><code>code</code> (double): Formatted NACE code removing periods.</p></li>
-<li><p><code>code_level</code> (double): Level of granularity of NACE code.</p></li>
-<li><p><code>original_code</code> (double): Original NACE code.</p></li>
-<li><p><code>sector</code> (character): Associated 2dii sector.</p></li>
+<li><p><code>ald_emission_factor_unit</code> (character): The units that the emission factor is measured in.</p></li>
+<li><p><code>ald_timestamp</code> (character): Date at which asset data was pulled from database.</p></li>
+<li><p><code>country_of_domicile</code> (character): Country where company is registered.</p></li>
+<li><p><code>emission_factor</code> (double): Company level emission factor of the technology.</p></li>
+<li><p><code>is_ultimate_listed_owner</code> (logical): Flag if company is the listed ultimate parent.</p></li>
+<li><p><code>is_ultimate_owner</code> (logical): Flag if company is the ultimate parent in our database.</p></li>
+<li><p><code>name_company</code> (character): The name of the company owning the asset.</p></li>
+<li><p><code>number_of_assets</code> (integer): Number of assets of a given technology owned by the company.</p></li>
+<li><p><code>plant_location</code> (character): Country where asset is located.</p></li>
+<li><p><code>production</code> (double): Company level production of the technology.</p></li>
+<li><p><code>production_unit</code> (character): The units that production is measured in.</p></li>
+<li><p><code>sector</code> (character): Sector to which the asset belongs.</p></li>
+<li><p><code>technology</code> (character): Technology implemented by the asset.</p></li>
+<li><p><code>year</code> (integer): Year at which the production value is predicted.</p></li>
 </ul>
 
-    <h2 class="hasAnchor" id="details"><a class="anchor" href="#details"></a>Details</h2>
-
-    
-
-<p>Classification datasets help to standardize sector classification codes from
-the wild to a relevant subset including 'power', 'oil and gas', 'coal',
-'automotive', 'aviation', 'concrete', 'steel', and 'shipping'.</p>
     <h2 class="hasAnchor" id="see-also"><a class="anchor" href="#see-also"></a>See also</h2>
 
-    <div class='dont-index'><p><a href='data_dictionary.html'>data_dictionary</a>.</p>
-<p>Other datasets for bridging sector classification codes: 
-<code><a href='isic_classification.html'>isic_classification</a></code>,
-<code><a href='naics_classification.html'>naics_classification</a></code>,
-<code><a href='sector_classifications.html'>sector_classifications</a></code></p></div>
+    <div class='dont-index'><p><a href='data_dictionary.html'>data_dictionary</a></p>
+<p>Other demo datasets: 
+<code><a href='ald_demo.html'>ald_demo</a></code>,
+<code><a href='ald_scenario_demo.html'>ald_scenario_demo</a></code>,
+<code><a href='loanbook_demo.html'>loanbook_demo</a></code>,
+<code><a href='overwrite_demo.html'>overwrite_demo</a></code>,
+<code><a href='region_isos_demo.html'>region_isos_demo</a></code>,
+<code><a href='scenario_demo_2020.html'>scenario_demo_2020</a></code></p></div>
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
-    <pre class="examples"><div class='input'><span class='fu'><a href='https://rdrr.io/r/utils/head.html'>head</a></span>(<span class='no'>nace_classification</span>)</div><div class='output co'>#&gt; <span style='color: #555555;'># A tibble: 6 x 5</span><span>
-#&gt;   original_code  code code_level sector   borderline
-#&gt;           </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span> </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span>      </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span> </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>    </span><span style='color: #555555;font-style: italic;'>&lt;lgl&gt;</span><span>     
-#&gt; </span><span style='color: #555555;'>1</span><span>          30.1   301          3 shipping TRUE      
-#&gt; </span><span style='color: #555555;'>2</span><span>          30.1  </span><span style='text-decoration: underline;'>3</span><span>011          4 shipping TRUE      
-#&gt; </span><span style='color: #555555;'>3</span><span>          30.1  </span><span style='text-decoration: underline;'>3</span><span>012          4 shipping TRUE      
-#&gt; </span><span style='color: #555555;'>4</span><span>          33.2  </span><span style='text-decoration: underline;'>3</span><span>315          4 shipping TRUE      
-#&gt; </span><span style='color: #555555;'>5</span><span>          50      50          2 shipping TRUE      
-#&gt; </span><span style='color: #555555;'>6</span><span>          50.1   501          4 shipping TRUE      </div></span></pre>
+    <pre class="examples"><div class='input'><span class='fu'><a href='https://rdrr.io/r/utils/head.html'>head</a></span>(<span class='no'>co2_intensity_scenario_demo</span>)</div><div class='output co'>#&gt; <span style='color: #555555;'># A tibble: 6 x 7</span><span>
+#&gt;   scenario_source scenario sector region  year emission_factor_… emission_factor
+#&gt;   </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>           </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>    </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>  </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>  </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span> </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>                       </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span>
+#&gt; </span><span style='color: #555555;'>1</span><span> demo_2020       demo     cement global  </span><span style='text-decoration: underline;'>2</span><span>020 tons of CO2 per …           0.7  
+#&gt; </span><span style='color: #555555;'>2</span><span> demo_2020       demo     cement global  </span><span style='text-decoration: underline;'>2</span><span>021 tons of CO2 per …           0.64 
+#&gt; </span><span style='color: #555555;'>3</span><span> demo_2020       demo     cement global  </span><span style='text-decoration: underline;'>2</span><span>022 tons of CO2 per …           0.580
+#&gt; </span><span style='color: #555555;'>4</span><span> demo_2020       demo     cement global  </span><span style='text-decoration: underline;'>2</span><span>023 tons of CO2 per …           0.52 
+#&gt; </span><span style='color: #555555;'>5</span><span> demo_2020       demo     cement global  </span><span style='text-decoration: underline;'>2</span><span>024 tons of CO2 per …           0.46 
+#&gt; </span><span style='color: #555555;'>6</span><span> demo_2020       demo     cement global  </span><span style='text-decoration: underline;'>2</span><span>025 tons of CO2 per …           0.4  </div></span></pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <nav id="toc" data-toggle="toc" class="sticky-top">
