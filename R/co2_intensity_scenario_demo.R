@@ -9,8 +9,7 @@
 #'
 #' @template info_demo-datasets
 #'
-#'
-#'@section Definitions:
+#' @section Definitions:
 #' `r define("ald_demo")`
 #'
 #' @family demo datasets
