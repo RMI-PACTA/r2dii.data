@@ -1,5 +1,6 @@
-# r2dii.data 0.0.3.9005 (development version)
+# r2dii.data 0.0.3.9006 (development version)
 
+* New dataset `co2_intensity_scenario_demo` (@jdhoffa #83).
 * Reproduce data from data-raw and test on CI (#61).
 * Remove columns definition from help files; use `data_dictionary` (#63).
 * Dataset `ald_demo` gains the column `ald_emission_factor_unit` (#71).
