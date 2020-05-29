@@ -6,9 +6,8 @@ test_that("hasn't change", {
 })
 
 test_that("is not different compared to reference", {
-  expect_no_differences(
-    sector_classifications, test_path("ref-sector_classifications")
-  )
+  reference <- readRDS(test_path("ref-sector_classifications"))
+  expect_identical(sector_classifications, reference)
 })
 
 test_that("has an entry in data_dictionary", {

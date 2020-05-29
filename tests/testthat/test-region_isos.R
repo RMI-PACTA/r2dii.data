@@ -6,7 +6,6 @@ test_that("hasn't changed", {
 })
 
 test_that("is not different compared to reference", {
-  expect_no_differences(
-    region_isos, test_path("ref-region_isos")
-  )
+  reference <- readRDS(test_path("ref-region_isos"))
+  expect_identical(region_isos, reference)
 })
