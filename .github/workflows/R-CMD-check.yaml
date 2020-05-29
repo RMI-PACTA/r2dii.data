@@ -79,6 +79,8 @@ jobs:
         run: |
           remotes::install_deps(dependencies = TRUE)
           remotes::install_cran("rcmdcheck")
+          # Using waldo via testthat-dev for nicer regression-tests for data
+          remotes::install_github("r-lib/testthat")
         shell: Rscript {0}
 
       - name: Session info

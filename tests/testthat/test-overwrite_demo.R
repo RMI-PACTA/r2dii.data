@@ -13,7 +13,6 @@ test_that("hasn't changed", {
 })
 
 test_that("is not different compared to reference", {
-  expect_no_differences(
-    overwrite_demo, test_path("ref-overwrite_demo")
-  )
+  reference <- readRDS(test_path("ref-overwrite_demo"))
+  expect_identical(overwrite_demo, reference)
 })

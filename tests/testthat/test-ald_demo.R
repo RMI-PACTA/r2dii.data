@@ -6,7 +6,6 @@ test_that("hasn't changed", {
 })
 
 test_that("is not different compared to reference", {
-  expect_no_differences(
-    ald_demo, test_path("ref-ald_demo")
-  )
+  reference <- readRDS(test_path("ref-ald_demo"))
+  expect_identical(ald_demo, reference)
 })

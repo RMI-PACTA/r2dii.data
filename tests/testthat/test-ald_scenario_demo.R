@@ -16,7 +16,6 @@ test_that("is not different compared to reference", {
     tail(ald_scenario_demo, 250)
   )
 
-  expect_no_differences(
-    small_ald_scenario_demo, test_path("ref-ald_scenario_demo")
-  )
+  reference <- readRDS(test_path("ref-ald_scenario_demo"))
+  expect_identical(small_ald_scenario_demo, reference)
 })

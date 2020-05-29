@@ -6,9 +6,8 @@ test_that("hasn't changed", {
 })
 
 test_that("is not different compared to reference", {
-  expect_no_differences(
-    data_dictionary, test_path("ref-data_dictionary")
-  )
+  reference <- readRDS(test_path("ref-data_dictionary"))
+  expect_identical(data_dictionary, reference)
 })
 
 test_that("has the expected names", {
