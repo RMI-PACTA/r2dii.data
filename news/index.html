@@ -135,23 +135,49 @@
 <h1 class="page-header" data-toc-text="0.0.3.9006">
 <a href="#r2diidata-0039006-development-version" class="anchor"></a>r2dii.data 0.0.3.9006 (development version)<small> Unreleased </small>
 </h1>
+<div id="questioning" class="section level2">
+<h2 class="hasAnchor">
+<a href="#questioning" class="anchor"></a>Questioning</h2>
+<ul>
+<li>New <code>ald_scenario_demo</code> combines ald with scenario data, uses a streamlined ald, and excludes needless columns. (<a href='https://github.com/2DegreesInvesting/r2dii.data/issues/22'>#22</a>, <a href='https://github.com/2DegreesInvesting/r2dii.data/issues/28'>#28</a>, <a href='https://github.com/2DegreesInvesting/r2dii.data/issues/32'>#32</a>).</li>
+</ul>
+</div>
+<div id="next-cran-release" class="section level2">
+<h2 class="hasAnchor">
+<a href="#next-cran-release" class="anchor"></a>Next CRAN release</h2>
+</div>
+<div id="user-facing" class="section level2">
+<h2 class="hasAnchor">
+<a href="#user-facing" class="anchor"></a>User-facing</h2>
+<p>Added:</p>
 <ul>
 <li>New dataset <code>co2_intensity_scenario_demo</code> (<a href='https://github.com/jdhoffa'>@jdhoffa</a> <a href='https://github.com/2DegreesInvesting/r2dii.data/issues/83'>#83</a>).</li>
-<li>Reproduce data from data-raw and test on CI (<a href='https://github.com/2DegreesInvesting/r2dii.data/issues/61'>#61</a>).</li>
-<li>Remove columns definition from help files; use <code>data_dictionary</code> (<a href='https://github.com/2DegreesInvesting/r2dii.data/issues/63'>#63</a>).</li>
-<li>Dataset <code>ald_demo</code> gains the column <code>ald_emission_factor_unit</code> (<a href='https://github.com/2DegreesInvesting/r2dii.data/issues/71'>#71</a>).</li>
 <li>New dataset <code>region_isos_demo</code> (<a href='https://github.com/2DegreesInvesting/r2dii.data/issues/60'>#60</a>).</li>
+<li>New dataset <code>scenario_demo_2020</code> (<a href='https://github.com/2DegreesInvesting/r2dii.data/issues/37'>#37</a>).</li>
+</ul>
+<p>Changed:</p>
+<ul>
+<li>
+<code>ald_demo</code> gains the column <code>ald_emission_factor_unit</code> (<a href='https://github.com/2DegreesInvesting/r2dii.data/issues/71'>#71</a>).</li>
 <li>
 <code>region_isos</code> now includes a “global” <code>region</code> (<a href='https://github.com/jdhoffa'>@jdhoffa</a> <a href='https://github.com/2DegreesInvesting/r2dii.data/issues/52'>#52</a>).</li>
 <li>
 <code>region_isos</code> gains column <code>source</code> and updates from WEO2019 (<a href='https://github.com/jdhoffa'>@jdhoffa</a> <a href='https://github.com/2DegreesInvesting/r2dii.data/issues/50'>#50</a>).</li>
-<li>New <code>ald_scenario_demo</code> combines ald with scenario data, uses a streamlined ald, and excludes needless columns. (<a href='https://github.com/2DegreesInvesting/r2dii.data/issues/22'>#22</a>, <a href='https://github.com/2DegreesInvesting/r2dii.data/issues/28'>#28</a>, <a href='https://github.com/2DegreesInvesting/r2dii.data/issues/32'>#32</a>).</li>
-<li>Removed the attribute “spec” and class “spec_tbl_df” from all datasets (<a href='https://github.com/2DegreesInvesting/r2dii.data/issues/43'>#43</a>).</li>
-<li>New data <code>scenario_demo_2020</code> (<a href='https://github.com/2DegreesInvesting/r2dii.data/issues/37'>#37</a>).</li>
+</ul>
+<div id="developer-facing" class="section level3">
+<h3 class="hasAnchor">
+<a href="#developer-facing" class="anchor"></a>Developer-facing</h3>
+<ul>
+<li>Dataset columns are now defined under <code>@format</code> in a dynamic way (<a href='https://github.com/2DegreesInvesting/r2dii.data/issues/63'>#63</a>).</li>
+<li>Datasets in data-raw/ are now reproduced and tested on GitHub Actions (<a href='https://github.com/2DegreesInvesting/r2dii.data/issues/61'>#61</a>).</li>
+<li>Datasets no longer have attribute “spec” and class “spec_tbl_df” (<a href='https://github.com/2DegreesInvesting/r2dii.data/issues/43'>#43</a>).</li>
 <li>
 <code><a href="../reference/r2dii.data-package.html">?r2dii.data</a></code> now shows documentation at the package level (<a href='https://github.com/2DegreesInvesting/r2dii.data/issues/25'>#25</a>).</li>
-<li>The website now links the changelog and release notes under News (<a href='https://github.com/2DegreesInvesting/r2dii.data/issues/27'>#27</a>).</li>
+<li>The website now includes a News menu</li>
+<li>The package-website includes the changelog and release notes under News (<a href='https://github.com/2DegreesInvesting/r2dii.data/issues/27'>#27</a>).</li>
 </ul>
+</div>
+</div>
 </div>
     <div id="r2diidata-003" class="section level1">
 <h1 class="page-header" data-toc-text="0.0.3">
