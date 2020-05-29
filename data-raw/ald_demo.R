@@ -13,5 +13,4 @@ ald_demo <- dplyr::left_join(
 ald_demo$year <- as.integer(ald_demo$year)
 ald_demo$number_of_assets <- as.integer(ald_demo$number_of_assets)
 
-ald_demo <-ald_demo[-1]
-usethis::use_data(ald_demo, overwrite = TRUE)
+usethis::use_data(ald_demo[-1], overwrite = TRUE)
