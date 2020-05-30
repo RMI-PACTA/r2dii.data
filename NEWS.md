@@ -1,9 +1,5 @@
 # r2dii.data 0.0.3.9006 (development version)
 
-## Questioning
-
-* New `ald_scenario_demo` combines ald with scenario data, uses a streamlined ald, and excludes needless columns. (#22, #28, #32). 
-
 ## Next CRAN release
 
 ## User-facing
