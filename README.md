@@ -9,6 +9,8 @@
 [![CRAN
 status](https://www.r-pkg.org/badges/version/r2dii.data)](https://CRAN.R-project.org/package=r2dii.data)
 [![](https://cranlogs.r-pkg.org/badges/grand-total/r2dii.data)](https://CRAN.R-project.org/package=r2dii.data)
+[![R build
+status](https://github.com/2DegreesInvesting/r2dii.data/workflows/R-CMD-check/badge.svg)](https://github.com/2DegreesInvesting/r2dii.data/actions)
 <!-- badges: end -->
 
 These datasets support the implementation in R of the software PACTA
@@ -46,17 +48,17 @@ library(r2dii.data)
 
 head(data_dictionary)
 #>    dataset                   column    typeof
-#> 1 ald_demo            ald_timestamp character
-#> 2 ald_demo      country_of_domicile character
-#> 3 ald_demo          emission_factor    double
-#> 4 ald_demo is_ultimate_listed_owner   logical
-#> 5 ald_demo        is_ultimate_owner   logical
-#> 6 ald_demo             name_company character
+#> 1 ald_demo ald_emission_factor_unit character
+#> 2 ald_demo            ald_timestamp character
+#> 3 ald_demo      country_of_domicile character
+#> 4 ald_demo          emission_factor    double
+#> 5 ald_demo is_ultimate_listed_owner   logical
+#> 6 ald_demo        is_ultimate_owner   logical
 #>                                               definition
-#> 1      Date at which asset data was pulled from database
-#> 2                    Country where company is registered
-#> 3        Company level emission factor of the technology
-#> 4          Flag if company is the listed ultimate parent
-#> 5 Flag if company is the ultimate parent in our database
-#> 6               The name of the company owning the asset
+#> 1      The units that the emission factor is measured in
+#> 2      Date at which asset data was pulled from database
+#> 3                    Country where company is registered
+#> 4        Company level emission factor of the technology
+#> 5          Flag if company is the listed ultimate parent
+#> 6 Flag if company is the ultimate parent in our database
 ```
