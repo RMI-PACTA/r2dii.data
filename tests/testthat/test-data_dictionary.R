@@ -22,6 +22,7 @@ test_that("defines the expected objects", {
 
   expected_datasets <- c(
     "ald_demo",
+    "ald_scenario_demo",
     "co2_intensity_scenario_demo",
     "data_dictionary",
     "isic_classification",

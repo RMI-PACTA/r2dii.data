@@ -46,6 +46,7 @@ head(ald_demo)
 \link{data_dictionary}
 
 Other demo datasets: 
+\code{\link{ald_scenario_demo}},
 \code{\link{co2_intensity_scenario_demo}},
 \code{\link{loanbook_demo}},
 \code{\link{overwrite_demo}},

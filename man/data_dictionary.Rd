@@ -5,7 +5,7 @@
 \alias{data_dictionary}
 \title{Column definitions of all datasets}
 \format{
-An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 83 rows and 4 columns.
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 101 rows and 4 columns.
 }
 \usage{
 data_dictionary
