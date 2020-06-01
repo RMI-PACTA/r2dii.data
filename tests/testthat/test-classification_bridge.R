@@ -17,3 +17,7 @@ test_that("all classification datasets have minimum expected names", {
   )
   expect_equal(actual, expect)
 })
+
+test_that("nace and naics are not equal (#85)", {
+  expect_false(identical(nace_classification,naics_classification))
+})
