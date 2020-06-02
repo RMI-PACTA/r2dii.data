@@ -50,18 +50,3 @@
 #' @examples
 #' head(naics_classification)
 "naics_classification"
-
-#' @inherit isic_classification title
-#' @inherit isic_classification description
-#'
-#' @section Definitions:
-#' `r define("manual_classification")`
-#'
-#' @template info_classification-datasets
-#'
-#' @family datasets for bridging sector classification codes
-#' @seealso [data_dictionary].
-#'
-#' @examples
-#' head(manual_classification)
-"manual_classification"
