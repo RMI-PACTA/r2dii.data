@@ -1,4 +1,0 @@
-dataset,column,typeof,definition
-manual_classification,code,character,Manual 2dii sector code name
-manual_classification,sector,character,Associated 2dii sector (for manual matches this is one-to-one)
-manual_classification,borderlin,logical,Flag indicating if 2dii sector and classification code are a borderline match
