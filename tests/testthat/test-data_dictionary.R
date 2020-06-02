@@ -27,6 +27,7 @@ test_that("defines the expected objects", {
     "isic_classification",
     "iso_codes",
     "loanbook_demo",
+    "manual_classification",
     "nace_classification",
     "naics_classification",
     "overwrite_demo",
