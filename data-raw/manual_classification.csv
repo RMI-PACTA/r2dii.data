@@ -1,0 +1,10 @@
+code,sector,borderline
+power,power,FALSE
+cement,cement,FALSE
+oil and gas,oil and gas,FALSE
+shipping,shipping,FALSE
+aviation,aviation,FALSE
+coal,coal,FALSE
+automotive,automotive,FALSE
+steel,steel,FALSE
+not in scope,not in scope,FALSE
