@@ -1,0 +1,4 @@
+dataset,column,typeof,definition
+manual_classification,code,character,2dii sector code
+manual_classification,sector,character,2dii sector code (identical to code in this case)
+manual_classification,borderline,logical,Flag indicating if 2dii sector and classification code are a borderline match
