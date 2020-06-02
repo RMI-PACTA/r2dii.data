@@ -1,0 +1,12 @@
+ald_demo                An asset level dataset for demonstration
+classification_bridge   Datasets to bridge (translate) common
+                        sector-classification codes
+data_dictionary         Column definitions of all datasets
+iso_codes               Countries and codes
+loanbook_demo           A loanbook dataset for demonstration
+overwrite_demo          A demonstration dataset used to overwrite
+                        specific entity names or sectors
+region_isos             A dataset outlining various region definitions
+sector_classifications
+                        A view of available sector classification
+                        datasets
