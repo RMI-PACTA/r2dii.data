@@ -19,9 +19,8 @@ systems and sectors relevant to the 'PACTA' tool
 
 \itemize{
 \item \code{borderline} (logical): Flag indicating if 2dii sector and classification code are a borderline match.
-\item \code{code} (double): Formatted NAICS code.
+\item \code{code} (double): NAICS code.
 \item \code{code_level} (double): Level of granularity of NAICS code.
-\item \code{original_code} (double): Original NAICS code.
 \item \code{sector} (character): Associated 2dii sector.
 }
 }
