@@ -1,5 +1,6 @@
 # r2dii.data 0.0.3.9006 (development version)
 
+* r2dii.data is now [maturing](https://www.tidyverse.org/lifecycle/#maturing).
 * `naics_classification` now includes correct data (@maurolepore #94).
 * `ald_demo` gains the column `ald_emission_factor_unit` (#71).
 * `region_isos` now includes a "global" `region` (@jdhoffa #52).
