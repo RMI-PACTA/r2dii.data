@@ -1,5 +1,6 @@
 # r2dii.data 0.0.3.9006 (development version)
 
+* `naics_classification` now includes correct data (@maurolepore #94).
 * `ald_demo` gains the column `ald_emission_factor_unit` (#71).
 * `region_isos` now includes a "global" `region` (@jdhoffa #52).
 * `region_isos` gains column `source` and updates from WEO2019 (@jdhoffa #50).
