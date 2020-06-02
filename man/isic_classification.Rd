@@ -39,6 +39,7 @@ head(isic_classification)
 \link{data_dictionary}.
 
 Other datasets for bridging sector classification codes: 
+\code{\link{manual_classification}},
 \code{\link{nace_classification}},
 \code{\link{naics_classification}},
 \code{\link{sector_classifications}}
