@@ -1,69 +1,1058 @@
-code,code_level,sector,borderline
-11,sector,not in scope,FALSE
-21,sector,not in scope,FALSE
-22,sector,not in scope,FALSE
-23,sector,not in scope,FALSE
-31,sector,not in scope,FALSE
-32,sector,not in scope,FALSE
-33,sector,not in scope,FALSE
-42,sector,not in scope,FALSE
-44,sector,not in scope,FALSE
-45,sector,not in scope,FALSE
-48,sector,not in scope,FALSE
-49,sector,not in scope,FALSE
-51,sector,not in scope,FALSE
-52,sector,not in scope,FALSE
-53,sector,not in scope,FALSE
-54,sector,not in scope,FALSE
-55,sector,not in scope,FALSE
-56,sector,not in scope,FALSE
-61,sector,not in scope,FALSE
-62,sector,not in scope,FALSE
-71,sector,not in scope,FALSE
-72,sector,not in scope,FALSE
-81,sector,not in scope,FALSE
-92,sector,not in scope,FALSE
-211,subsector,fossil fuels,FALSE
-212,subsector,not in scope,FALSE
-221,subsector,not in scope,FALSE
-331,subsector,not in scope,FALSE
-332,subsector,not in scope,FALSE
-336,subsector,not in scope,FALSE
-481,subsector,aviation,FALSE
-483,subsector,shipping,FALSE
-212111,industry,fossil fuels,FALSE
-212112,industry,fossil fuels,FALSE
-212113,industry,fossil fuels,FALSE
-221111,industry,power,FALSE
-221112,industry,power,FALSE
-221113,industry,power,FALSE
-221114,industry,power,FALSE
-221115,industry,power,FALSE
-221116,industry,power,FALSE
-221117,industry,power,FALSE
-221118,industry,power,FALSE
-221124,industry,power,FALSE
-221125,industry,power,FALSE
-221126,industry,power,FALSE
-221127,industry,power,FALSE
-221130,industry,power,FALSE
-221131,industry,power,FALSE
-221132,industry,power,FALSE
-221133,industry,power,FALSE
-221134,industry,power,FALSE
-221135,industry,power,FALSE
-327310,industry,cement,FALSE
-327320,industry,not in scope,FALSE
-327331,industry,not in scope,FALSE
-327332,industry,not in scope,FALSE
-327390,industry,not in scope,FALSE
-331110,industry,steel,FALSE
-331210,industry,steel,FALSE
-331221,industry,steel,FALSE
-331222,industry,steel,FALSE
-331512,industry,steel,FALSE
-331513,industry,steel,FALSE
-332111,industry,not in scope,FALSE
-336111,industry,automotive,FALSE
-336112,industry,automotive,FALSE
-336120,industry,automotive,FALSE
+code,naics_title,sector,borderline
+111110,Soybean Farming,not in scope,FALSE
+111120,Oilseed (except Soybean) Farming,not in scope,FALSE
+111130,Dry Pea and Bean Farming,not in scope,FALSE
+111140,Wheat Farming,not in scope,FALSE
+111150,Corn Farming,not in scope,FALSE
+111160,Rice Farming,not in scope,FALSE
+111191,Oilseed and Grain Combination Farming,not in scope,FALSE
+111199,All Other Grain Farming,not in scope,FALSE
+111211,Potato Farming,not in scope,FALSE
+111219,Other Vegetable (except Potato) and Melon Farming,not in scope,FALSE
+111310,Orange Groves,not in scope,FALSE
+111320,Citrus (except Orange) Groves,not in scope,FALSE
+111331,Apple Orchards,not in scope,FALSE
+111332,Grape Vineyards,not in scope,FALSE
+111333,Strawberry Farming,not in scope,FALSE
+111334,Berry (except Strawberry) Farming,not in scope,FALSE
+111335,Tree Nut Farming,not in scope,FALSE
+111336,Fruit and Tree Nut Combination Farming,not in scope,FALSE
+111339,Other Noncitrus Fruit Farming,not in scope,FALSE
+111411,Mushroom Production,not in scope,FALSE
+111419,Other Food Crops Grown Under Cover,not in scope,FALSE
+111421,Nursery and Tree Production,not in scope,FALSE
+111422,Floriculture Production,not in scope,FALSE
+111910,Tobacco Farming,not in scope,FALSE
+111920,Cotton Farming,not in scope,FALSE
+111930,Sugarcane Farming,not in scope,FALSE
+111940,Hay Farming,not in scope,FALSE
+111991,Sugar Beet Farming,not in scope,FALSE
+111992,Peanut Farming,not in scope,FALSE
+111998,All Other Miscellaneous Crop Farming,not in scope,FALSE
+112111,Beef Cattle Ranching and Farming,not in scope,FALSE
+112112,Cattle Feedlots,not in scope,FALSE
+112120,Dairy Cattle and Milk Production,not in scope,FALSE
+112130,Dual-Purpose Cattle Ranching and Farming,not in scope,FALSE
+112210,Hog and Pig Farming,not in scope,FALSE
+112310,Chicken Egg Production,not in scope,FALSE
+112320,Broilers and Other Meat Type Chicken Production,not in scope,FALSE
+112330,Turkey Production,not in scope,FALSE
+112340,Poultry Hatcheries,not in scope,FALSE
+112390,Other Poultry Production,not in scope,FALSE
+112410,Sheep Farming,not in scope,FALSE
+112420,Goat Farming,not in scope,FALSE
+112511,Finfish Farming and Fish Hatcheries,not in scope,FALSE
+112512,Shellfish Farming,not in scope,FALSE
+112519,Other Aquaculture,not in scope,FALSE
+112910,Apiculture,not in scope,FALSE
+112920,Horses and Other Equine Production,not in scope,FALSE
+112930,Fur-Bearing Animal and Rabbit Production,not in scope,FALSE
+112990,All Other Animal Production,not in scope,FALSE
+113110,Timber Tract Operations,not in scope,FALSE
+113210,Forest Nurseries and Gathering of Forest Products,not in scope,FALSE
+113310,Logging,not in scope,FALSE
+114111,Finfish Fishing,not in scope,FALSE
+114112,Shellfish Fishing,not in scope,FALSE
+114119,Other Marine Fishing,not in scope,FALSE
+114210,Hunting and Trapping,not in scope,FALSE
+115111,Cotton Ginning,not in scope,FALSE
+115112,"Soil Preparation, Planting, and Cultivating",not in scope,FALSE
+115113,"Crop Harvesting, Primarily by Machine",not in scope,FALSE
+115114,Postharvest Crop Activities (except Cotton Ginning),not in scope,FALSE
+115115,Farm Labor Contractors and Crew Leaders,not in scope,FALSE
+115116,Farm Management Services,not in scope,FALSE
+115210,Support Activities for Animal Production,not in scope,FALSE
+115310,Support Activities for Forestry,not in scope,FALSE
+211120,Crude Petroleum Extraction ,oil and gas,FALSE
+211130,Natural Gas Extraction,oil and gas,FALSE
+212111,Bituminous Coal and Lignite Surface Mining,coal,FALSE
+212112,Bituminous Coal Underground Mining,coal,FALSE
+212113,Anthracite Mining,coal,FALSE
+212210,Iron Ore Mining,not in scope,FALSE
+212221,Gold Ore Mining,not in scope,FALSE
+212222,Silver Ore Mining,not in scope,FALSE
+212230,"Copper, Nickel, Lead, and Zinc Mining",not in scope,FALSE
+212291,Uranium-Radium-Vanadium Ore Mining,not in scope,FALSE
+212299,All Other Metal Ore Mining,not in scope,FALSE
+212311,Dimension Stone Mining and Quarrying,not in scope,FALSE
+212312,Crushed and Broken Limestone Mining and Quarrying,not in scope,FALSE
+212313,Crushed and Broken Granite Mining and Quarrying,not in scope,FALSE
+212319,Other Crushed and Broken Stone Mining and Quarrying,not in scope,FALSE
+212321,Construction Sand and Gravel Mining,not in scope,FALSE
+212322,Industrial Sand Mining,not in scope,FALSE
+212324,Kaolin and Ball Clay Mining,not in scope,FALSE
+212325,Clay and Ceramic and Refractory Minerals Mining,not in scope,FALSE
+212391,"Potash, Soda, and Borate Mineral Mining",not in scope,FALSE
+212392,Phosphate Rock Mining,not in scope,FALSE
+212393,Other Chemical and Fertilizer Mineral Mining,not in scope,FALSE
+212399,All Other Nonmetallic Mineral Mining,not in scope,FALSE
+213111,Drilling Oil and Gas Wells,not in scope,FALSE
+213112,Support Activities for Oil and Gas Operations,not in scope,FALSE
+213113,Support Activities for Coal Mining,not in scope,FALSE
+213114,Support Activities for Metal Mining,not in scope,FALSE
+213115,Support Activities for Nonmetallic Minerals (except Fuels) Mining,not in scope,FALSE
+221111,Hydroelectric Power Generation,power,FALSE
+221112,Fossil Fuel Electric Power Generation,power,FALSE
+221113,Nuclear Electric Power Generation,power,FALSE
+221114,Solar Electric Power Generation,power,FALSE
+221115,Wind Electric Power Generation,power,FALSE
+221116,Geothermal Electric Power Generation,power,FALSE
+221117,Biomass Electric Power Generation,power,FALSE
+221118,Other Electric Power Generation,power,FALSE
+221121,Electric Bulk Power Transmission and Control,power,TRUE
+221122,Electric Power Distribution,power,TRUE
+221210,Natural Gas Distribution,not in scope,FALSE
+221310,Water Supply and Irrigation Systems,not in scope,FALSE
+221320,Sewage Treatment Facilities,not in scope,FALSE
+221330,Steam and Air-Conditioning Supply,not in scope,FALSE
+236115,New Single-Family Housing Construction (except For-Sale Builders),not in scope,FALSE
+236116,New Multifamily Housing Construction (except For-Sale Builders),not in scope,FALSE
+236117,New Housing For-Sale Builders,not in scope,FALSE
+236118,Residential Remodelers,not in scope,FALSE
+236210,Industrial Building Construction,not in scope,FALSE
+236220,Commercial and Institutional Building Construction,not in scope,FALSE
+237110,Water and Sewer Line and Related Structures Construction,not in scope,FALSE
+237120,Oil and Gas Pipeline and Related Structures Construction,not in scope,FALSE
+237130,Power and Communication Line and Related Structures Construction,not in scope,FALSE
+237210,Land Subdivision,not in scope,FALSE
+237310,"Highway, Street, and Bridge Construction",not in scope,FALSE
+237990,Other Heavy and Civil Engineering Construction,not in scope,FALSE
+238110,Poured Concrete Foundation and Structure Contractors,not in scope,FALSE
+238120,Structural Steel and Precast Concrete Contractors,not in scope,FALSE
+238130,Framing Contractors,not in scope,FALSE
+238140,Masonry Contractors,not in scope,FALSE
+238150,Glass and Glazing Contractors,not in scope,FALSE
+238160,Roofing Contractors,not in scope,FALSE
+238170,Siding Contractors,not in scope,FALSE
+238190,"Other Foundation, Structure, and Building Exterior Contractors",not in scope,FALSE
+238210,Electrical Contractors and Other Wiring Installation Contractors,not in scope,FALSE
+238220,"Plumbing, Heating, and Air-Conditioning Contractors",not in scope,FALSE
+238290,Other Building Equipment Contractors,not in scope,FALSE
+238310,Drywall and Insulation Contractors,not in scope,FALSE
+238320,Painting and Wall Covering Contractors,not in scope,FALSE
+238330,Flooring Contractors,not in scope,FALSE
+238340,Tile and Terrazzo Contractors,not in scope,FALSE
+238350,Finish Carpentry Contractors,not in scope,FALSE
+238390,Other Building Finishing Contractors,not in scope,FALSE
+238910,Site Preparation Contractors,not in scope,FALSE
+238990,All Other Specialty Trade Contractors,not in scope,FALSE
+311111,Dog and Cat Food Manufacturing,not in scope,FALSE
+311119,Other Animal Food Manufacturing,not in scope,FALSE
+311211,Flour Milling,not in scope,FALSE
+311212,Rice Milling,not in scope,FALSE
+311213,Malt Manufacturing,not in scope,FALSE
+311221,Wet Corn Milling,not in scope,FALSE
+311224,Soybean and Other Oilseed Processing,not in scope,FALSE
+311225,Fats and Oils Refining and Blending,not in scope,FALSE
+311230,Breakfast Cereal Manufacturing,not in scope,FALSE
+311313,Beet Sugar Manufacturing,not in scope,FALSE
+311314,Cane Sugar Manufacturing,not in scope,FALSE
+311340,Nonchocolate Confectionery Manufacturing,not in scope,FALSE
+311351,Chocolate and Confectionery Manufacturing from Cacao Beans,not in scope,FALSE
+311352,Confectionery Manufacturing from Purchased Chocolate,not in scope,FALSE
+311411,"Frozen Fruit, Juice, and Vegetable Manufacturing",not in scope,FALSE
+311412,Frozen Specialty Food Manufacturing,not in scope,FALSE
+311421,Fruit and Vegetable Canning,not in scope,FALSE
+311422,Specialty Canning,not in scope,FALSE
+311423,Dried and Dehydrated Food Manufacturing,not in scope,FALSE
+311511,Fluid Milk Manufacturing,not in scope,FALSE
+311512,Creamery Butter Manufacturing,not in scope,FALSE
+311513,Cheese Manufacturing,not in scope,FALSE
+311514,"Dry, Condensed, and Evaporated Dairy Product Manufacturing",not in scope,FALSE
+311520,Ice Cream and Frozen Dessert Manufacturing,not in scope,FALSE
+311611,Animal (except Poultry) Slaughtering,not in scope,FALSE
+311612,Meat Processed from Carcasses,not in scope,FALSE
+311613,Rendering and Meat Byproduct Processing,not in scope,FALSE
+311615,Poultry Processing,not in scope,FALSE
+311710,Seafood Product Preparation and Packaging,not in scope,FALSE
+311811,Retail Bakeries,not in scope,FALSE
+311812,Commercial Bakeries,not in scope,FALSE
+311813,"Frozen Cakes, Pies, and Other Pastries Manufacturing",not in scope,FALSE
+311821,Cookie and Cracker Manufacturing,not in scope,FALSE
+311824,"Dry Pasta, Dough, and Flour Mixes Manufacturing from Purchased Flour",not in scope,FALSE
+311830,Tortilla Manufacturing,not in scope,FALSE
+311911,Roasted Nuts and Peanut Butter Manufacturing,not in scope,FALSE
+311919,Other Snack Food Manufacturing,not in scope,FALSE
+311920,Coffee and Tea Manufacturing,not in scope,FALSE
+311930,Flavoring Syrup and Concentrate Manufacturing,not in scope,FALSE
+311941,"Mayonnaise, Dressing, and Other Prepared Sauce Manufacturing",not in scope,FALSE
+311942,Spice and Extract Manufacturing,not in scope,FALSE
+311991,Perishable Prepared Food Manufacturing,not in scope,FALSE
+311999,All Other Miscellaneous Food Manufacturing,not in scope,FALSE
+312111,Soft Drink Manufacturing,not in scope,FALSE
+312112,Bottled Water Manufacturing,not in scope,FALSE
+312113,Ice Manufacturing,not in scope,FALSE
+312120,Breweries,not in scope,FALSE
+312130,Wineries,not in scope,FALSE
+312140,Distilleries,not in scope,FALSE
+312230,Tobacco Manufacturing,not in scope,FALSE
+313110,"Fiber, Yarn, and Thread Mills",not in scope,FALSE
+313210,Broadwoven Fabric Mills,not in scope,FALSE
+313220,Narrow Fabric Mills and Schiffli Machine Embroidery,not in scope,FALSE
+313230,Nonwoven Fabric Mills,not in scope,FALSE
+313240,Knit Fabric Mills,not in scope,FALSE
+313310,Textile and Fabric Finishing Mills,not in scope,FALSE
+313320,Fabric Coating Mills,not in scope,FALSE
+314110,Carpet and Rug Mills,not in scope,FALSE
+314120,Curtain and Linen Mills,not in scope,FALSE
+314910,Textile Bag and Canvas Mills,not in scope,FALSE
+314994,"Rope, Cordage, Twine, Tire Cord, and Tire Fabric Mills",not in scope,FALSE
+314999,All Other Miscellaneous Textile Product Mills,not in scope,FALSE
+315110,Hosiery and Sock Mills,not in scope,FALSE
+315190,Other Apparel Knitting Mills,not in scope,FALSE
+315210,Cut and Sew Apparel Contractors,not in scope,FALSE
+315220,Men’s and Boys’ Cut and Sew Apparel Manufacturing,not in scope,FALSE
+315240,"Women’s, Girls’, and Infants’ Cut and Sew Apparel Manufacturing",not in scope,FALSE
+315280,Other Cut and Sew Apparel Manufacturing,not in scope,FALSE
+315990,Apparel Accessories and Other Apparel Manufacturing,not in scope,FALSE
+316110,Leather and Hide Tanning and Finishing,not in scope,FALSE
+316210,Footwear Manufacturing,not in scope,FALSE
+316992,Women's Handbag and Purse Manufacturing,not in scope,FALSE
+316998,All Other Leather Good and Allied Product Manufacturing,not in scope,FALSE
+321113,Sawmills,not in scope,FALSE
+321114,Wood Preservation,not in scope,FALSE
+321211,Hardwood Veneer and Plywood Manufacturing,not in scope,FALSE
+321212,Softwood Veneer and Plywood Manufacturing,not in scope,FALSE
+321213,Engineered Wood Member (except Truss) Manufacturing,not in scope,FALSE
+321214,Truss Manufacturing,not in scope,FALSE
+321219,Reconstituted Wood Product Manufacturing,not in scope,FALSE
+321911,Wood Window and Door Manufacturing,not in scope,FALSE
+321912,"Cut Stock, Resawing Lumber, and Planing",not in scope,FALSE
+321918,Other Millwork (including Flooring),not in scope,FALSE
+321920,Wood Container and Pallet Manufacturing,not in scope,FALSE
+321991,Manufactured Home (Mobile Home) Manufacturing,not in scope,FALSE
+321992,Prefabricated Wood Building Manufacturing,not in scope,FALSE
+321999,All Other Miscellaneous Wood Product Manufacturing,not in scope,FALSE
+322110,Pulp Mills,not in scope,FALSE
+322121,Paper (except Newsprint) Mills,not in scope,FALSE
+322122,Newsprint Mills,not in scope,FALSE
+322130,Paperboard Mills,not in scope,FALSE
+322211,Corrugated and Solid Fiber Box Manufacturing,not in scope,FALSE
+322212,Folding Paperboard Box Manufacturing,not in scope,FALSE
+322219,Other Paperboard Container Manufacturing,not in scope,FALSE
+322220,Paper Bag and Coated and Treated Paper Manufacturing,not in scope,FALSE
+322230,Stationery Product Manufacturing,not in scope,FALSE
+322291,Sanitary Paper Product Manufacturing,not in scope,FALSE
+322299,All Other Converted Paper Product Manufacturing,not in scope,FALSE
+323111,Commercial Printing (except Screen and Books),not in scope,FALSE
+323113,Commercial Screen Printing,not in scope,FALSE
+323117,Books Printing,not in scope,FALSE
+323120,Support Activities for Printing,not in scope,FALSE
+324110,Petroleum Refineries,not in scope,FALSE
+324121,Asphalt Paving Mixture and Block Manufacturing,not in scope,FALSE
+324122,Asphalt Shingle and Coating Materials Manufacturing,not in scope,FALSE
+324191,Petroleum Lubricating Oil and Grease Manufacturing,not in scope,FALSE
+324199,All Other Petroleum and Coal Products Manufacturing,not in scope,FALSE
+325110,Petrochemical Manufacturing,not in scope,FALSE
+325120,Industrial Gas Manufacturing,not in scope,FALSE
+325130,Synthetic Dye and Pigment Manufacturing,not in scope,FALSE
+325180,Other Basic Inorganic Chemical Manufacturing,not in scope,FALSE
+325193,Ethyl Alcohol Manufacturing,not in scope,FALSE
+325194,"Cyclic Crude, Intermediate, and Gum and Wood Chemical Manufacturing",not in scope,FALSE
+325199,All Other Basic Organic Chemical Manufacturing,not in scope,FALSE
+325211,Plastics Material and Resin Manufacturing,not in scope,FALSE
+325212,Synthetic Rubber Manufacturing,not in scope,FALSE
+325220,Artificial and Synthetic Fibers and Filaments Manufacturing,not in scope,FALSE
+325311,Nitrogenous Fertilizer Manufacturing,not in scope,FALSE
+325312,Phosphatic Fertilizer Manufacturing,not in scope,FALSE
+325314,Fertilizer (Mixing Only) Manufacturing,not in scope,FALSE
+325320,Pesticide and Other Agricultural Chemical Manufacturing,not in scope,FALSE
+325411,Medicinal and Botanical Manufacturing,not in scope,FALSE
+325412,Pharmaceutical Preparation Manufacturing,not in scope,FALSE
+325413,In-Vitro Diagnostic Substance Manufacturing,not in scope,FALSE
+325414,Biological Product (except Diagnostic) Manufacturing,not in scope,FALSE
+325510,Paint and Coating Manufacturing,not in scope,FALSE
+325520,Adhesive Manufacturing,not in scope,FALSE
+325611,Soap and Other Detergent Manufacturing,not in scope,FALSE
+325612,Polish and Other Sanitation Good Manufacturing,not in scope,FALSE
+325613,Surface Active Agent Manufacturing,not in scope,FALSE
+325620,Toilet Preparation Manufacturing,not in scope,FALSE
+325910,Printing Ink Manufacturing,not in scope,FALSE
+325920,Explosives Manufacturing,not in scope,FALSE
+325991,Custom Compounding of Purchased Resins,not in scope,FALSE
+325992,"Photographic Film, Paper, Plate, and Chemical Manufacturing",not in scope,FALSE
+325998,All Other Miscellaneous Chemical Product and Preparation Manufacturing,not in scope,FALSE
+326111,Plastics Bag and Pouch Manufacturing,not in scope,FALSE
+326112,Plastics Packaging Film and Sheet (including Laminated) Manufacturing,not in scope,FALSE
+326113,Unlaminated Plastics Film and Sheet (except Packaging) Manufacturing,not in scope,FALSE
+326121,Unlaminated Plastics Profile Shape Manufacturing,not in scope,FALSE
+326122,Plastics Pipe and Pipe Fitting Manufacturing,not in scope,FALSE
+326130,"Laminated Plastics Plate, Sheet (except Packaging), and Shape Manufacturing",not in scope,FALSE
+326140,Polystyrene Foam Product Manufacturing,not in scope,FALSE
+326150,Urethane and Other Foam Product (except Polystyrene) Manufacturing,not in scope,FALSE
+326160,Plastics Bottle Manufacturing,not in scope,FALSE
+326191,Plastics Plumbing Fixture Manufacturing,not in scope,FALSE
+326199,All Other Plastics Product Manufacturing,not in scope,FALSE
+326211,Tire Manufacturing (except Retreading),not in scope,FALSE
+326212,Tire Retreading,not in scope,FALSE
+326220,Rubber and Plastics Hoses and Belting Manufacturing,not in scope,FALSE
+326291,Rubber Product Manufacturing for Mechanical Use,not in scope,FALSE
+326299,All Other Rubber Product Manufacturing,not in scope,FALSE
+327110,"Pottery, Ceramics, and Plumbing Fixture Manufacturing",not in scope,FALSE
+327120,Clay Building Material and Refractories Manufacturing,not in scope,FALSE
+327211,Flat Glass Manufacturing,not in scope,FALSE
+327212,Other Pressed and Blown Glass and Glassware Manufacturing,not in scope,FALSE
+327213,Glass Container Manufacturing,not in scope,FALSE
+327215,Glass Product Manufacturing Made of Purchased Glass,not in scope,FALSE
+327310,Cement Manufacturing,cement,FALSE
+327320,Ready-Mix Concrete Manufacturing,not in scope,FALSE
+327331,Concrete Block and Brick Manufacturing,not in scope,FALSE
+327332,Concrete Pipe Manufacturing,not in scope,FALSE
+327390,Other Concrete Product Manufacturing,not in scope,FALSE
+327410,Lime Manufacturing,not in scope,FALSE
+327420,Gypsum Product Manufacturing,not in scope,FALSE
+327910,Abrasive Product Manufacturing,not in scope,FALSE
+327991,Cut Stone and Stone Product Manufacturing,not in scope,FALSE
+327992,Ground or Treated Mineral and Earth Manufacturing,not in scope,FALSE
+327993,Mineral Wool Manufacturing,not in scope,FALSE
+327999,All Other Miscellaneous Nonmetallic Mineral Product Manufacturing,not in scope,FALSE
+331110,Iron and Steel Mills and Ferroalloy Manufacturing,steel,FALSE
+331210,Iron and Steel Pipe and Tube Manufacturing from Purchased Steel,steel,TRUE
+331221,Rolled Steel Shape Manufacturing,steel,TRUE
+331222,Steel Wire Drawing,steel,TRUE
+331313,Alumina Refining and Primary Aluminum Production,not in scope,FALSE
+331314,Secondary Smelting and Alloying of Aluminum,not in scope,FALSE
+331315,"Aluminum Sheet, Plate, and Foil Manufacturing",not in scope,FALSE
+331318,"Other Aluminum Rolling, Drawing, and Extruding",not in scope,FALSE
+331410,Nonferrous Metal (except Aluminum) Smelting and Refining,not in scope,FALSE
+331420,"Copper Rolling, Drawing, Extruding, and Alloying",not in scope,FALSE
+331491,"Nonferrous Metal (except Copper and Aluminum) Rolling, Drawing, and Extruding",not in scope,FALSE
+331492,"Secondary Smelting, Refining, and Alloying of Nonferrous Metal (except Copper and Aluminum)",not in scope,FALSE
+331511,Iron Foundries,not in scope,FALSE
+331512,Steel Investment Foundries,steel,FALSE
+331513,Steel Foundries (except Investment),steel,FALSE
+331523,Nonferrous Metal Die-Casting Foundries,not in scope,FALSE
+331524,Aluminum Foundries (except Die-Casting),not in scope,FALSE
+331529,Other Nonferrous Metal Foundries (except Die-Casting),not in scope,FALSE
+332111,Iron and Steel Forging,not in scope,FALSE
+332112,Nonferrous Forging,not in scope,FALSE
+332114,Custom Roll Forming,not in scope,FALSE
+332117,Powder Metallurgy Part Manufacturing,not in scope,FALSE
+332119,"Metal Crown, Closure, and Other Metal Stamping (except Automotive)",not in scope,FALSE
+332215,"Metal Kitchen Cookware, Utensil, Cutlery, and Flatware (except Precious) Manufacturing",not in scope,FALSE
+332216,Saw Blade and Handtool Manufacturing,not in scope,FALSE
+332311,Prefabricated Metal Building and Component Manufacturing,not in scope,FALSE
+332312,Fabricated Structural Metal Manufacturing,not in scope,FALSE
+332313,Plate Work Manufacturing,not in scope,FALSE
+332321,Metal Window and Door Manufacturing,not in scope,FALSE
+332322,Sheet Metal Work Manufacturing,not in scope,FALSE
+332323,Ornamental and Architectural Metal Work Manufacturing,not in scope,FALSE
+332410,Power Boiler and Heat Exchanger Manufacturing,not in scope,FALSE
+332420,Metal Tank (Heavy Gauge) Manufacturing,not in scope,FALSE
+332431,Metal Can Manufacturing,not in scope,FALSE
+332439,Other Metal Container Manufacturing,not in scope,FALSE
+332510,Hardware Manufacturing,not in scope,FALSE
+332613,Spring Manufacturing,not in scope,FALSE
+332618,Other Fabricated Wire Product Manufacturing,not in scope,FALSE
+332710,Machine Shops,not in scope,FALSE
+332721,Precision Turned Product Manufacturing,not in scope,FALSE
+332722,"Bolt, Nut, Screw, Rivet, and Washer Manufacturing",not in scope,FALSE
+332811,Metal Heat Treating,not in scope,FALSE
+332812,"Metal Coating, Engraving (except Jewelry and Silverware), and Allied Services to Manufacturers",not in scope,FALSE
+332813,"Electroplating, Plating, Polishing, Anodizing, and Coloring",not in scope,FALSE
+332911,Industrial Valve Manufacturing,not in scope,FALSE
+332912,Fluid Power Valve and Hose Fitting Manufacturing,not in scope,FALSE
+332913,Plumbing Fixture Fitting and Trim Manufacturing,not in scope,FALSE
+332919,Other Metal Valve and Pipe Fitting Manufacturing,not in scope,FALSE
+332991,Ball and Roller Bearing Manufacturing,not in scope,FALSE
+332992,Small Arms Ammunition Manufacturing,not in scope,FALSE
+332993,Ammunition (except Small Arms) Manufacturing,not in scope,FALSE
+332994,"Small Arms, Ordnance, and Ordnance Accessories Manufacturing",not in scope,FALSE
+332996,Fabricated Pipe and Pipe Fitting Manufacturing,not in scope,FALSE
+332999,All Other Miscellaneous Fabricated Metal Product Manufacturing,not in scope,FALSE
+333111,Farm Machinery and Equipment Manufacturing,not in scope,FALSE
+333112,Lawn and Garden Tractor and Home Lawn and Garden Equipment Manufacturing,not in scope,FALSE
+333120,Construction Machinery Manufacturing,not in scope,FALSE
+333131,Mining Machinery and Equipment Manufacturing,not in scope,FALSE
+333132,Oil and Gas Field Machinery and Equipment Manufacturing,not in scope,FALSE
+333241,Food Product Machinery Manufacturing,not in scope,FALSE
+333242,Semiconductor Machinery Manufacturing,not in scope,FALSE
+333243,"Sawmill, Woodworking, and Paper Machinery Manufacturing",not in scope,FALSE
+333244,Printing Machinery and Equipment Manufacturing,not in scope,FALSE
+333249,Other Industrial Machinery Manufacturing,not in scope,FALSE
+333314,Optical Instrument and Lens Manufacturing,not in scope,FALSE
+333316,Photographic and Photocopying Equipment Manufacturing,not in scope,FALSE
+333318,Other Commercial and Service Industry Machinery Manufacturing,not in scope,FALSE
+333413,Industrial and Commercial Fan and Blower and Air Purification Equipment Manufacturing,not in scope,FALSE
+333414,Heating Equipment (except Warm Air Furnaces) Manufacturing,not in scope,FALSE
+333415,Air-Conditioning and Warm Air Heating Equipment and Commercial and Industrial Refrigeration Equipment Manufacturing,not in scope,FALSE
+333511,Industrial Mold Manufacturing,not in scope,FALSE
+333514,"Special Die and Tool, Die Set, Jig, and Fixture Manufacturing",not in scope,FALSE
+333515,Cutting Tool and Machine Tool Accessory Manufacturing,not in scope,FALSE
+333517,Machine Tool Manufacturing,not in scope,FALSE
+333519,Rolling Mill and Other Metalworking Machinery Manufacturing,not in scope,FALSE
+333611,Turbine and Turbine Generator Set Units Manufacturing,not in scope,FALSE
+333612,"Speed Changer, Industrial High-Speed Drive, and Gear Manufacturing",not in scope,FALSE
+333613,Mechanical Power Transmission Equipment Manufacturing,not in scope,FALSE
+333618,Other Engine Equipment Manufacturing,not in scope,FALSE
+333912,Air and Gas Compressor Manufacturing,not in scope,FALSE
+333914,"Measuring, Dispensing, and Other Pumping Equipment Manufacturing",not in scope,FALSE
+333921,Elevator and Moving Stairway Manufacturing,not in scope,FALSE
+333922,Conveyor and Conveying Equipment Manufacturing,not in scope,FALSE
+333923,"Overhead Traveling Crane, Hoist, and Monorail System Manufacturing",not in scope,FALSE
+333924,"Industrial Truck, Tractor, Trailer, and Stacker Machinery Manufacturing",not in scope,FALSE
+333991,Power-Driven Handtool Manufacturing,not in scope,FALSE
+333992,Welding and Soldering Equipment Manufacturing,not in scope,FALSE
+333993,Packaging Machinery Manufacturing,not in scope,FALSE
+333994,Industrial Process Furnace and Oven Manufacturing,not in scope,FALSE
+333995,Fluid Power Cylinder and Actuator Manufacturing,not in scope,FALSE
+333996,Fluid Power Pump and Motor Manufacturing,not in scope,FALSE
+333997,Scale and Balance Manufacturing,not in scope,FALSE
+333999,All Other Miscellaneous General Purpose Machinery Manufacturing,not in scope,FALSE
+334111,Electronic Computer Manufacturing,not in scope,FALSE
+334112,Computer Storage Device Manufacturing,not in scope,FALSE
+334118,Computer Terminal and Other Computer Peripheral Equipment Manufacturing,not in scope,FALSE
+334210,Telephone Apparatus Manufacturing,not in scope,FALSE
+334220,Radio and Television Broadcasting and Wireless Communications Equipment Manufacturing,not in scope,FALSE
+334290,Other Communications Equipment Manufacturing,not in scope,FALSE
+334310,Audio and Video Equipment Manufacturing,not in scope,FALSE
+334412,Bare Printed Circuit Board Manufacturing,not in scope,FALSE
+334413,Semiconductor and Related Device Manufacturing,not in scope,FALSE
+334416,"Capacitor, Resistor, Coil, Transformer, and Other Inductor Manufacturing",not in scope,FALSE
+334417,Electronic Connector Manufacturing,not in scope,FALSE
+334418,Printed Circuit Assembly (Electronic Assembly) Manufacturing,not in scope,FALSE
+334419,Other Electronic Component Manufacturing,not in scope,FALSE
+334510,Electromedical and Electrotherapeutic Apparatus Manufacturing,not in scope,FALSE
+334511,"Search, Detection, Navigation, Guidance, Aeronautical, and Nautical System and Instrument Manufacturing",not in scope,FALSE
+334512,"Automatic Environmental Control Manufacturing for Residential, Commercial, and Appliance Use",not in scope,FALSE
+334513,"Instruments and Related Products Manufacturing for Measuring, Displaying, and Controlling Industrial Process Variables",not in scope,FALSE
+334514,Totalizing Fluid Meter and Counting Device Manufacturing,not in scope,FALSE
+334515,Instrument Manufacturing for Measuring and Testing Electricity and Electrical Signals,not in scope,FALSE
+334516,Analytical Laboratory Instrument Manufacturing,not in scope,FALSE
+334517,Irradiation Apparatus Manufacturing,not in scope,FALSE
+334519,Other Measuring and Controlling Device Manufacturing,not in scope,FALSE
+334613,Blank Magnetic and Optical Recording Media Manufacturing,not in scope,FALSE
+334614,"Software and Other Prerecorded Compact Disc, Tape, and Record Reproducing",not in scope,FALSE
+335110,Electric Lamp Bulb and Part Manufacturing,not in scope,FALSE
+335121,Residential Electric Lighting Fixture Manufacturing,not in scope,FALSE
+335122,"Commercial, Industrial, and Institutional Electric Lighting Fixture Manufacturing",not in scope,FALSE
+335129,Other Lighting Equipment Manufacturing,not in scope,FALSE
+335210,Small Electrical Appliance Manufacturing,not in scope,FALSE
+335220,Major Household Appliance Manufacturing,not in scope,FALSE
+335311,"Power, Distribution, and Specialty Transformer Manufacturing",not in scope,FALSE
+335312,Motor and Generator Manufacturing,not in scope,FALSE
+335313,Switchgear and Switchboard Apparatus Manufacturing,not in scope,FALSE
+335314,Relay and Industrial Control Manufacturing,not in scope,FALSE
+335911,Storage Battery Manufacturing,not in scope,FALSE
+335912,Primary Battery Manufacturing,not in scope,FALSE
+335921,Fiber Optic Cable Manufacturing,not in scope,FALSE
+335929,Other Communication and Energy Wire Manufacturing,not in scope,FALSE
+335931,Current-Carrying Wiring Device Manufacturing,not in scope,FALSE
+335932,Noncurrent-Carrying Wiring Device Manufacturing,not in scope,FALSE
+335991,Carbon and Graphite Product Manufacturing,not in scope,FALSE
+335999,All Other Miscellaneous Electrical Equipment and Component Manufacturing,not in scope,FALSE
+336111,Automobile Manufacturing,automotive,FALSE
+336112,Light Truck and Utility Vehicle Manufacturing,automotive,FALSE
+336120,Heavy Duty Truck Manufacturing,automotive,FALSE
+336211,Motor Vehicle Body Manufacturing,not in scope,FALSE
+336212,Truck Trailer Manufacturing,not in scope,FALSE
+336213,Motor Home Manufacturing,not in scope,FALSE
+336214,Travel Trailer and Camper Manufacturing,not in scope,FALSE
+336310,Motor Vehicle Gasoline Engine and Engine Parts Manufacturing,not in scope,FALSE
+336320,Motor Vehicle Electrical and Electronic Equipment Manufacturing,not in scope,FALSE
+336330,Motor Vehicle Steering and Suspension Components (except Spring) Manufacturing,not in scope,FALSE
+336340,Motor Vehicle Brake System Manufacturing,not in scope,FALSE
+336350,Motor Vehicle Transmission and Power Train Parts Manufacturing,not in scope,FALSE
+336360,Motor Vehicle Seating and Interior Trim Manufacturing,not in scope,FALSE
+336370,Motor Vehicle Metal Stamping,not in scope,FALSE
+336390,Other Motor Vehicle Parts Manufacturing,not in scope,FALSE
+336411,Aircraft Manufacturing,not in scope,FALSE
+336412,Aircraft Engine and Engine Parts Manufacturing,not in scope,FALSE
+336413,Other Aircraft Parts and Auxiliary Equipment Manufacturing,not in scope,FALSE
+336414,Guided Missile and Space Vehicle Manufacturing,not in scope,FALSE
+336415,Guided Missile and Space Vehicle Propulsion Unit and Propulsion Unit Parts Manufacturing,not in scope,FALSE
+336419,Other Guided Missile and Space Vehicle Parts and Auxiliary Equipment Manufacturing,not in scope,FALSE
+336510,Railroad Rolling Stock Manufacturing,not in scope,FALSE
+336611,Ship Building and Repairing,not in scope,FALSE
+336612,Boat Building,not in scope,FALSE
+336991,"Motorcycle, Bicycle, and Parts Manufacturing",not in scope,FALSE
+336992,"Military Armored Vehicle, Tank, and Tank Component Manufacturing",not in scope,FALSE
+336999,All Other Transportation Equipment Manufacturing,not in scope,FALSE
+337110,Wood Kitchen Cabinet and Countertop Manufacturing,not in scope,FALSE
+337121,Upholstered Household Furniture Manufacturing,not in scope,FALSE
+337122,Nonupholstered Wood Household Furniture Manufacturing,not in scope,FALSE
+337124,Metal Household Furniture Manufacturing,not in scope,FALSE
+337125,Household Furniture (except Wood and Metal) Manufacturing,not in scope,FALSE
+337127,Institutional Furniture Manufacturing,not in scope,FALSE
+337211,Wood Office Furniture Manufacturing,not in scope,FALSE
+337212,Custom Architectural Woodwork and Millwork Manufacturing,not in scope,FALSE
+337214,Office Furniture (except Wood) Manufacturing,not in scope,FALSE
+337215,"Showcase, Partition, Shelving, and Locker Manufacturing",not in scope,FALSE
+337910,Mattress Manufacturing,not in scope,FALSE
+337920,Blind and Shade Manufacturing,not in scope,FALSE
+339112,Surgical and Medical Instrument Manufacturing,not in scope,FALSE
+339113,Surgical Appliance and Supplies Manufacturing,not in scope,FALSE
+339114,Dental Equipment and Supplies Manufacturing,not in scope,FALSE
+339115,Ophthalmic Goods Manufacturing,not in scope,FALSE
+339116,Dental Laboratories,not in scope,FALSE
+339910,Jewelry and Silverware Manufacturing,not in scope,FALSE
+339920,Sporting and Athletic Goods Manufacturing,not in scope,FALSE
+339930,"Doll, Toy, and Game Manufacturing",not in scope,FALSE
+339940,Office Supplies (except Paper) Manufacturing,not in scope,FALSE
+339950,Sign Manufacturing,not in scope,FALSE
+339991,"Gasket, Packing, and Sealing Device Manufacturing",not in scope,FALSE
+339992,Musical Instrument Manufacturing,not in scope,FALSE
+339993,"Fastener, Button, Needle, and Pin Manufacturing",not in scope,FALSE
+339994,"Broom, Brush, and Mop Manufacturing",not in scope,FALSE
+339995,Burial Casket Manufacturing,not in scope,FALSE
+339999,All Other Miscellaneous Manufacturing,not in scope,FALSE
+423110,Automobile and Other Motor Vehicle Merchant Wholesalers,not in scope,FALSE
+423120,Motor Vehicle Supplies and New Parts Merchant Wholesalers,not in scope,FALSE
+423130,Tire and Tube Merchant Wholesalers,not in scope,FALSE
+423140,Motor Vehicle Parts (Used) Merchant Wholesalers,not in scope,FALSE
+423210,Furniture Merchant Wholesalers,not in scope,FALSE
+423220,Home Furnishing Merchant Wholesalers,not in scope,FALSE
+423310,"Lumber, Plywood, Millwork, and Wood Panel Merchant Wholesalers",not in scope,FALSE
+423320,"Brick, Stone, and Related Construction Material Merchant Wholesalers",not in scope,FALSE
+423330,"Roofing, Siding, and Insulation Material Merchant Wholesalers",not in scope,FALSE
+423390,Other Construction Material Merchant Wholesalers,not in scope,FALSE
+423410,Photographic Equipment and Supplies Merchant Wholesalers,not in scope,FALSE
+423420,Office Equipment Merchant Wholesalers,not in scope,FALSE
+423430,Computer and Computer Peripheral Equipment and Software Merchant Wholesalers,not in scope,FALSE
+423440,Other Commercial Equipment Merchant Wholesalers,not in scope,FALSE
+423450,"Medical, Dental, and Hospital Equipment and Supplies Merchant Wholesalers",not in scope,FALSE
+423460,Ophthalmic Goods Merchant Wholesalers,not in scope,FALSE
+423490,Other Professional Equipment and Supplies Merchant Wholesalers,not in scope,FALSE
+423510,Metal Service Centers and Other Metal Merchant Wholesalers,not in scope,FALSE
+423520,Coal and Other Mineral and Ore Merchant Wholesalers,not in scope,FALSE
+423610,"Electrical Apparatus and Equipment, Wiring Supplies, and Related Equipment Merchant Wholesalers",not in scope,FALSE
+423620,"Household Appliances, Electric Housewares, and Consumer Electronics Merchant Wholesalers",not in scope,FALSE
+423690,Other Electronic Parts and Equipment Merchant Wholesalers,not in scope,FALSE
+423710,Hardware Merchant Wholesalers,not in scope,FALSE
+423720,Plumbing and Heating Equipment and Supplies (Hydronics) Merchant Wholesalers,not in scope,FALSE
+423730,Warm Air Heating and Air-Conditioning Equipment and Supplies Merchant Wholesalers,not in scope,FALSE
+423740,Refrigeration Equipment and Supplies Merchant Wholesalers,not in scope,FALSE
+423810,Construction and Mining (except Oil Well) Machinery and Equipment Merchant Wholesalers,not in scope,FALSE
+423820,Farm and Garden Machinery and Equipment Merchant Wholesalers,not in scope,FALSE
+423830,Industrial Machinery and Equipment Merchant Wholesalers,not in scope,FALSE
+423840,Industrial Supplies Merchant Wholesalers,not in scope,FALSE
+423850,Service Establishment Equipment and Supplies Merchant Wholesalers,not in scope,FALSE
+423860,Transportation Equipment and Supplies (except Motor Vehicle) Merchant Wholesalers,not in scope,FALSE
+423910,Sporting and Recreational Goods and Supplies Merchant Wholesalers,not in scope,FALSE
+423920,Toy and Hobby Goods and Supplies Merchant Wholesalers,not in scope,FALSE
+423930,Recyclable Material Merchant Wholesalers,not in scope,FALSE
+423940,"Jewelry, Watch, Precious Stone, and Precious Metal Merchant Wholesalers",not in scope,FALSE
+423990,Other Miscellaneous Durable Goods Merchant Wholesalers,not in scope,FALSE
+424110,Printing and Writing Paper Merchant Wholesalers,not in scope,FALSE
+424120,Stationery and Office Supplies Merchant Wholesalers,not in scope,FALSE
+424130,Industrial and Personal Service Paper Merchant Wholesalers,not in scope,FALSE
+424210,Drugs and Druggists' Sundries Merchant Wholesalers,not in scope,FALSE
+424310,"Piece Goods, Notions, and Other Dry Goods Merchant Wholesalers",not in scope,FALSE
+424320,Men's and Boys' Clothing and Furnishings Merchant Wholesalers,not in scope,FALSE
+424330,"Women's, Children's, and Infants' Clothing and Accessories Merchant Wholesalers",not in scope,FALSE
+424340,Footwear Merchant Wholesalers,not in scope,FALSE
+424410,General Line Grocery Merchant Wholesalers,not in scope,FALSE
+424420,Packaged Frozen Food Merchant Wholesalers,not in scope,FALSE
+424430,Dairy Product (except Dried or Canned) Merchant Wholesalers,not in scope,FALSE
+424440,Poultry and Poultry Product Merchant Wholesalers,not in scope,FALSE
+424450,Confectionery Merchant Wholesalers,not in scope,FALSE
+424460,Fish and Seafood Merchant Wholesalers,not in scope,FALSE
+424470,Meat and Meat Product Merchant Wholesalers,not in scope,FALSE
+424480,Fresh Fruit and Vegetable Merchant Wholesalers,not in scope,FALSE
+424490,Other Grocery and Related Products Merchant Wholesalers,not in scope,FALSE
+424510,Grain and Field Bean Merchant Wholesalers,not in scope,FALSE
+424520,Livestock Merchant Wholesalers,not in scope,FALSE
+424590,Other Farm Product Raw Material Merchant Wholesalers,not in scope,FALSE
+424610,Plastics Materials and Basic Forms and Shapes Merchant Wholesalers,not in scope,FALSE
+424690,Other Chemical and Allied Products Merchant Wholesalers,not in scope,FALSE
+424710,Petroleum Bulk Stations and Terminals,not in scope,FALSE
+424720,Petroleum and Petroleum Products Merchant Wholesalers (except Bulk Stations and Terminals),not in scope,FALSE
+424810,Beer and Ale Merchant Wholesalers,not in scope,FALSE
+424820,Wine and Distilled Alcoholic Beverage Merchant Wholesalers,not in scope,FALSE
+424910,Farm Supplies Merchant Wholesalers,not in scope,FALSE
+424920,"Book, Periodical, and Newspaper Merchant Wholesalers",not in scope,FALSE
+424930,"Flower, Nursery Stock, and Florists' Supplies Merchant Wholesalers",not in scope,FALSE
+424940,Tobacco and Tobacco Product Merchant Wholesalers,not in scope,FALSE
+424950,"Paint, Varnish, and Supplies Merchant Wholesalers",not in scope,FALSE
+424990,Other Miscellaneous Nondurable Goods Merchant Wholesalers,not in scope,FALSE
+425110,Business to Business Electronic Markets,not in scope,FALSE
+425120,Wholesale Trade Agents and Brokers,not in scope,FALSE
+441110,New Car Dealers,not in scope,FALSE
+441120,Used Car Dealers,not in scope,FALSE
+441210,Recreational Vehicle Dealers,not in scope,FALSE
+441222,Boat Dealers,not in scope,FALSE
+441228,"Motorcycle, ATV, and All Other Motor Vehicle Dealers",not in scope,FALSE
+441310,Automotive Parts and Accessories Stores,not in scope,FALSE
+441320,Tire Dealers,not in scope,FALSE
+442110,Furniture Stores,not in scope,FALSE
+442210,Floor Covering Stores,not in scope,FALSE
+442291,Window Treatment Stores,not in scope,FALSE
+442299,All Other Home Furnishings Stores,not in scope,FALSE
+443141,Household Appliance Stores,not in scope,FALSE
+443142,Electronics Stores,not in scope,FALSE
+444110,Home Centers,not in scope,FALSE
+444120,Paint and Wallpaper Stores,not in scope,FALSE
+444130,Hardware Stores,not in scope,FALSE
+444190,Other Building Material Dealers,not in scope,FALSE
+444210,Outdoor Power Equipment Stores,not in scope,FALSE
+444220,"Nursery, Garden Center, and Farm Supply Stores",not in scope,FALSE
+445110,Supermarkets and Other Grocery (except Convenience) Stores,not in scope,FALSE
+445120,Convenience Stores,not in scope,FALSE
+445210,Meat Markets,not in scope,FALSE
+445220,Fish and Seafood Markets,not in scope,FALSE
+445230,Fruit and Vegetable Markets,not in scope,FALSE
+445291,Baked Goods Stores,not in scope,FALSE
+445292,Confectionery and Nut Stores,not in scope,FALSE
+445299,All Other Specialty Food Stores,not in scope,FALSE
+445310,"Beer, Wine, and Liquor Stores",not in scope,FALSE
+446110,Pharmacies and Drug Stores,not in scope,FALSE
+446120,"Cosmetics, Beauty Supplies, and Perfume Stores",not in scope,FALSE
+446130,Optical Goods Stores,not in scope,FALSE
+446191,Food (Health) Supplement Stores,not in scope,FALSE
+446199,All Other Health and Personal Care Stores,not in scope,FALSE
+447110,Gasoline Stations with Convenience Stores,not in scope,FALSE
+447190,Other Gasoline Stations,not in scope,FALSE
+448110,Men's Clothing Stores,not in scope,FALSE
+448120,Women's Clothing Stores,not in scope,FALSE
+448130,Children's and Infants' Clothing Stores,not in scope,FALSE
+448140,Family Clothing Stores,not in scope,FALSE
+448150,Clothing Accessories Stores,not in scope,FALSE
+448190,Other Clothing Stores,not in scope,FALSE
+448210,Shoe Stores,not in scope,FALSE
+448310,Jewelry Stores,not in scope,FALSE
+448320,Luggage and Leather Goods Stores,not in scope,FALSE
+451110,Sporting Goods Stores,not in scope,FALSE
+451120,"Hobby, Toy, and Game Stores",not in scope,FALSE
+451130,"Sewing, Needlework, and Piece Goods Stores",not in scope,FALSE
+451140,Musical Instrument and Supplies Stores,not in scope,FALSE
+451211,Book Stores,not in scope,FALSE
+451212,News Dealers and Newsstands,not in scope,FALSE
+452210,Department Stores,not in scope,FALSE
+452311,Warehouse Clubs and Supercenters,not in scope,FALSE
+452319,All Other General Merchandise Stores,not in scope,FALSE
+453110,Florists,not in scope,FALSE
+453210,Office Supplies and Stationery Stores,not in scope,FALSE
+453220,"Gift, Novelty, and Souvenir Stores",not in scope,FALSE
+453310,Used Merchandise Stores,not in scope,FALSE
+453910,Pet and Pet Supplies Stores,not in scope,FALSE
+453920,Art Dealers,not in scope,FALSE
+453930,Manufactured (Mobile) Home Dealers,not in scope,FALSE
+453991,Tobacco Stores,not in scope,FALSE
+453998,All Other Miscellaneous Store Retailers (except Tobacco Stores),not in scope,FALSE
+454110,Electronic Shopping and Mail-Order Houses,not in scope,FALSE
+454210,Vending Machine Operators,not in scope,FALSE
+454310,Fuel Dealers,not in scope,FALSE
+454390,Other Direct Selling Establishments,not in scope,FALSE
+481111,Scheduled Passenger Air Transportation,aviation,FALSE
+481112,Scheduled Freight Air Transportation,aviation,FALSE
+481211,Nonscheduled Chartered Passenger Air Transportation,aviation,FALSE
+481212,Nonscheduled Chartered Freight Air Transportation,aviation,FALSE
+481219,Other Nonscheduled Air Transportation,aviation,FALSE
+482111,Line-Haul Railroads,not in scope,FALSE
+482112,Short Line Railroads,not in scope,FALSE
+483111,Deep Sea Freight Transportation,shipping,FALSE
+483112,Deep Sea Passenger Transportation,not in scope,FALSE
+483113,Coastal and Great Lakes Freight Transportation,shipping,FALSE
+483114,Coastal and Great Lakes Passenger Transportation,not in scope,FALSE
+483211,Inland Water Freight Transportation,shipping,FALSE
+483212,Inland Water Passenger Transportation,not in scope,FALSE
+484110,"General Freight Trucking, Local",not in scope,FALSE
+484121,"General Freight Trucking, Long-Distance, Truckload",not in scope,FALSE
+484122,"General Freight Trucking, Long-Distance, Less Than Truckload",not in scope,FALSE
+484210,Used Household and Office Goods Moving,not in scope,FALSE
+484220,"Specialized Freight (except Used Goods) Trucking, Local",not in scope,FALSE
+484230,"Specialized Freight (except Used Goods) Trucking, Long-Distance",not in scope,FALSE
+485111,Mixed Mode Transit Systems,not in scope,FALSE
+485112,Commuter Rail Systems,not in scope,FALSE
+485113,Bus and Other Motor Vehicle Transit Systems,not in scope,FALSE
+485119,Other Urban Transit Systems,not in scope,FALSE
+485210,Interurban and Rural Bus Transportation,not in scope,FALSE
+485310,Taxi Service,not in scope,FALSE
+485320,Limousine Service,not in scope,FALSE
+485410,School and Employee Bus Transportation,not in scope,FALSE
+485510,Charter Bus Industry,not in scope,FALSE
+485991,Special Needs Transportation,not in scope,FALSE
+485999,All Other Transit and Ground Passenger Transportation,not in scope,FALSE
+486110,Pipeline Transportation of Crude Oil,not in scope,FALSE
+486210,Pipeline Transportation of Natural Gas,not in scope,FALSE
+486910,Pipeline Transportation of Refined Petroleum Products,not in scope,FALSE
+486990,All Other Pipeline Transportation,not in scope,FALSE
+487110,"Scenic and Sightseeing Transportation, Land",not in scope,FALSE
+487210,"Scenic and Sightseeing Transportation, Water",not in scope,FALSE
+487990,"Scenic and Sightseeing Transportation, Other",not in scope,FALSE
+488111,Air Traffic Control,not in scope,FALSE
+488119,Other Airport Operations,not in scope,FALSE
+488190,Other Support Activities for Air Transportation,not in scope,FALSE
+488210,Support Activities for Rail Transportation,not in scope,FALSE
+488310,Port and Harbor Operations,not in scope,FALSE
+488320,Marine Cargo Handling,not in scope,FALSE
+488330,Navigational Services to Shipping,not in scope,FALSE
+488390,Other Support Activities for Water Transportation,not in scope,FALSE
+488410,Motor Vehicle Towing,not in scope,FALSE
+488490,Other Support Activities for Road Transportation,not in scope,FALSE
+488510,Freight Transportation Arrangement,not in scope,FALSE
+488991,Packing and Crating,not in scope,FALSE
+488999,All Other Support Activities for Transportation,not in scope,FALSE
+491110,Postal Service,not in scope,FALSE
+492110,Couriers and Express Delivery Services,not in scope,FALSE
+492210,Local Messengers and Local Delivery,not in scope,FALSE
+493110,General Warehousing and Storage,not in scope,FALSE
+493120,Refrigerated Warehousing and Storage,not in scope,FALSE
+493130,Farm Product Warehousing and Storage,not in scope,FALSE
+493190,Other Warehousing and Storage,not in scope,FALSE
+511110,Newspaper Publishers,not in scope,FALSE
+511120,Periodical Publishers,not in scope,FALSE
+511130,Book Publishers,not in scope,FALSE
+511140,Directory and Mailing List Publishers,not in scope,FALSE
+511191,Greeting Card Publishers,not in scope,FALSE
+511199,All Other Publishers,not in scope,FALSE
+511210,Software Publishers,not in scope,FALSE
+512110,Motion Picture and Video Production,not in scope,FALSE
+512120,Motion Picture and Video Distribution,not in scope,FALSE
+512131,Motion Picture Theaters (except Drive-Ins),not in scope,FALSE
+512132,Drive-In Motion Picture Theaters,not in scope,FALSE
+512191,Teleproduction and Other Postproduction Services,not in scope,FALSE
+512199,Other Motion Picture and Video Industries,not in scope,FALSE
+512230,Music Publishers,not in scope,FALSE
+512240,Sound Recording Studios,not in scope,FALSE
+512250,Record Production and Distribution,not in scope,FALSE
+512290,Other Sound Recording Industries,not in scope,FALSE
+515111,Radio Networks,not in scope,FALSE
+515112,Radio Stations,not in scope,FALSE
+515120,Television Broadcasting,not in scope,FALSE
+515210,Cable and Other Subscription Programming,not in scope,FALSE
+517311,Wired Telecommunications Carriers,not in scope,FALSE
+517312,Wireless Telecommunications Carriers (except Satellite),not in scope,FALSE
+517410,Satellite Telecommunications,not in scope,FALSE
+517911,Telecommunications Resellers,not in scope,FALSE
+517919,All Other Telecommunications,not in scope,FALSE
+518210,"Data Processing, Hosting, and Related Services",not in scope,FALSE
+519110,News Syndicates,not in scope,FALSE
+519120,Libraries and Archives,not in scope,FALSE
+519130,Internet Publishing and Broadcasting and Web Search Portals,not in scope,FALSE
+519190,All Other Information Services,not in scope,FALSE
+521110,Monetary Authorities-Central Bank,not in scope,FALSE
+522110,Commercial Banking,not in scope,FALSE
+522120,Savings Institutions,not in scope,FALSE
+522130,Credit Unions,not in scope,FALSE
+522190,Other Depository Credit Intermediation,not in scope,FALSE
+522210,Credit Card Issuing,not in scope,FALSE
+522220,Sales Financing,not in scope,FALSE
+522291,Consumer Lending,not in scope,FALSE
+522292,Real Estate Credit,not in scope,FALSE
+522293,International Trade Financing,not in scope,FALSE
+522294,Secondary Market Financing,not in scope,FALSE
+522298,All Other Nondepository Credit Intermediation,not in scope,FALSE
+522310,Mortgage and Nonmortgage Loan Brokers,not in scope,FALSE
+522320,"Financial Transactions Processing, Reserve, and Clearinghouse Activities",not in scope,FALSE
+522390,Other Activities Related to Credit Intermediation,not in scope,FALSE
+523110,Investment Banking and Securities Dealing,not in scope,FALSE
+523120,Securities Brokerage,not in scope,FALSE
+523130,Commodity Contracts Dealing,not in scope,FALSE
+523140,Commodity Contracts Brokerage,not in scope,FALSE
+523210,Securities and Commodity Exchanges,not in scope,FALSE
+523910,Miscellaneous Intermediation,not in scope,FALSE
+523920,Portfolio Management,not in scope,FALSE
+523930,Investment Advice,not in scope,FALSE
+523991,"Trust, Fiduciary, and Custody Activities",not in scope,FALSE
+523999,Miscellaneous Financial Investment Activities,not in scope,FALSE
+524113,Direct Life Insurance Carriers,not in scope,FALSE
+524114,Direct Health and Medical Insurance Carriers,not in scope,FALSE
+524126,Direct Property and Casualty Insurance Carriers,not in scope,FALSE
+524127,Direct Title Insurance Carriers,not in scope,FALSE
+524128,"Other Direct Insurance (except Life, Health, and Medical) Carriers",not in scope,FALSE
+524130,Reinsurance Carriers,not in scope,FALSE
+524210,Insurance Agencies and Brokerages,not in scope,FALSE
+524291,Claims Adjusting,not in scope,FALSE
+524292,Third Party Administration of Insurance and Pension Funds,not in scope,FALSE
+524298,All Other Insurance Related Activities,not in scope,FALSE
+525110,Pension Funds,not in scope,FALSE
+525120,Health and Welfare Funds,not in scope,FALSE
+525190,Other Insurance Funds,not in scope,FALSE
+525910,Open-End Investment Funds,not in scope,FALSE
+525920,"Trusts, Estates, and Agency Accounts",not in scope,FALSE
+525990,Other Financial Vehicles,not in scope,FALSE
+531110,Lessors of Residential Buildings and Dwellings,not in scope,FALSE
+531120,Lessors of Nonresidential Buildings (except Miniwarehouses),not in scope,FALSE
+531130,Lessors of Miniwarehouses and Self-Storage Units,not in scope,FALSE
+531190,Lessors of Other Real Estate Property,not in scope,FALSE
+531210,Offices of Real Estate Agents and Brokers,not in scope,FALSE
+531311,Residential Property Managers,not in scope,FALSE
+531312,Nonresidential Property Managers,not in scope,FALSE
+531320,Offices of Real Estate Appraisers,not in scope,FALSE
+531390,Other Activities Related to Real Estate,not in scope,FALSE
+532111,Passenger Car Rental,not in scope,FALSE
+532112,Passenger Car Leasing,not in scope,FALSE
+532120,"Truck, Utility Trailer, and RV (Recreational Vehicle) Rental and Leasing",not in scope,FALSE
+532210,Consumer Electronics and Appliances Rental,not in scope,FALSE
+532281,Formal Wear and Costume Rental,not in scope,FALSE
+532282,Video Tape and Disc Rental,not in scope,FALSE
+532283,Home Health Equipment Rental,not in scope,FALSE
+532284,Recreational Goods Rental,not in scope,FALSE
+532289,All Other Consumer Goods Rental,not in scope,FALSE
+532310,General Rental Centers,not in scope,FALSE
+532411,"Commercial Air, Rail, and Water Transportation Equipment Rental and Leasing",not in scope,FALSE
+532412,"Construction, Mining, and Forestry Machinery and Equipment Rental and Leasing",not in scope,FALSE
+532420,Office Machinery and Equipment Rental and Leasing,not in scope,FALSE
+532490,Other Commercial and Industrial Machinery and Equipment Rental and Leasing,not in scope,FALSE
+533110,Lessors of Nonfinancial Intangible Assets (except Copyrighted Works),not in scope,FALSE
+541110,Offices of Lawyers,not in scope,FALSE
+541120,Offices of Notaries,not in scope,FALSE
+541191,Title Abstract and Settlement Offices,not in scope,FALSE
+541199,All Other Legal Services,not in scope,FALSE
+541211,Offices of Certified Public Accountants,not in scope,FALSE
+541213,Tax Preparation Services,not in scope,FALSE
+541214,Payroll Services,not in scope,FALSE
+541219,Other Accounting Services,not in scope,FALSE
+541310,Architectural Services,not in scope,FALSE
+541320,Landscape Architectural Services,not in scope,FALSE
+541330,Engineering Services,not in scope,FALSE
+541340,Drafting Services,not in scope,FALSE
+541350,Building Inspection Services,not in scope,FALSE
+541360,Geophysical Surveying and Mapping Services,not in scope,FALSE
+541370,Surveying and Mapping (except Geophysical) Services,not in scope,FALSE
+541380,Testing Laboratories,not in scope,FALSE
+541410,Interior Design Services,not in scope,FALSE
+541420,Industrial Design Services,not in scope,FALSE
+541430,Graphic Design Services,not in scope,FALSE
+541490,Other Specialized Design Services,not in scope,FALSE
+541511,Custom Computer Programming Services,not in scope,FALSE
+541512,Computer Systems Design Services,not in scope,FALSE
+541513,Computer Facilities Management Services,not in scope,FALSE
+541519,Other Computer Related Services,not in scope,FALSE
+541611,Administrative Management and General Management Consulting Services,not in scope,FALSE
+541612,Human Resources Consulting Services,not in scope,FALSE
+541613,Marketing Consulting Services,not in scope,FALSE
+541614,"Process, Physical Distribution, and Logistics Consulting Services",not in scope,FALSE
+541618,Other Management Consulting Services,not in scope,FALSE
+541620,Environmental Consulting Services,not in scope,FALSE
+541690,Other Scientific and Technical Consulting Services,not in scope,FALSE
+541713,Research and Development in Nanotechnology,not in scope,FALSE
+541714,Research and Development in Biotechnology (except Nanobiotechnology),not in scope,FALSE
+541715,"Research and Development in the Physical, Engineering, and Life Sciences (except Nanotechnology and Biotechnology)",not in scope,FALSE
+541720,Research and Development in the Social Sciences and Humanities,not in scope,FALSE
+541810,Advertising Agencies,not in scope,FALSE
+541820,Public Relations Agencies,not in scope,FALSE
+541830,Media Buying Agencies,not in scope,FALSE
+541840,Media Representatives,not in scope,FALSE
+541850,Outdoor Advertising,not in scope,FALSE
+541860,Direct Mail Advertising,not in scope,FALSE
+541870,Advertising Material Distribution Services,not in scope,FALSE
+541890,Other Services Related to Advertising,not in scope,FALSE
+541910,Marketing Research and Public Opinion Polling,not in scope,FALSE
+541921,"Photography Studios, Portrait",not in scope,FALSE
+541922,Commercial Photography,not in scope,FALSE
+541930,Translation and Interpretation Services,not in scope,FALSE
+541940,Veterinary Services,not in scope,FALSE
+541990,"All Other Professional, Scientific, and Technical Services",not in scope,FALSE
+551111,Offices of Bank Holding Companies,not in scope,FALSE
+551112,Offices of Other Holding Companies,not in scope,FALSE
+551114,"Corporate, Subsidiary, and Regional Managing Offices",not in scope,FALSE
+561110,Office Administrative Services,not in scope,FALSE
+561210,Facilities Support Services,not in scope,FALSE
+561311,Employment Placement Agencies,not in scope,FALSE
+561312,Executive Search Services,not in scope,FALSE
+561320,Temporary Help Services,not in scope,FALSE
+561330,Professional Employer Organizations,not in scope,FALSE
+561410,Document Preparation Services,not in scope,FALSE
+561421,Telephone Answering Services,not in scope,FALSE
+561422,Telemarketing Bureaus and Other Contact Centers,not in scope,FALSE
+561431,Private Mail Centers,not in scope,FALSE
+561439,Other Business Service Centers (including Copy Shops),not in scope,FALSE
+561440,Collection Agencies,not in scope,FALSE
+561450,Credit Bureaus,not in scope,FALSE
+561491,Repossession Services,not in scope,FALSE
+561492,Court Reporting and Stenotype Services,not in scope,FALSE
+561499,All Other Business Support Services,not in scope,FALSE
+561510,Travel Agencies,not in scope,FALSE
+561520,Tour Operators,not in scope,FALSE
+561591,Convention and Visitors Bureaus,not in scope,FALSE
+561599,All Other Travel Arrangement and Reservation Services,not in scope,FALSE
+561611,Investigation Services,not in scope,FALSE
+561612,Security Guards and Patrol Services,not in scope,FALSE
+561613,Armored Car Services,not in scope,FALSE
+561621,Security Systems Services (except Locksmiths),not in scope,FALSE
+561622,Locksmiths,not in scope,FALSE
+561710,Exterminating and Pest Control Services,not in scope,FALSE
+561720,Janitorial Services,not in scope,FALSE
+561730,Landscaping Services,not in scope,FALSE
+561740,Carpet and Upholstery Cleaning Services,not in scope,FALSE
+561790,Other Services to Buildings and Dwellings,not in scope,FALSE
+561910,Packaging and Labeling Services,not in scope,FALSE
+561920,Convention and Trade Show Organizers,not in scope,FALSE
+561990,All Other Support Services,not in scope,FALSE
+562111,Solid Waste Collection,not in scope,FALSE
+562112,Hazardous Waste Collection,not in scope,FALSE
+562119,Other Waste Collection,not in scope,FALSE
+562211,Hazardous Waste Treatment and Disposal,not in scope,FALSE
+562212,Solid Waste Landfill,not in scope,FALSE
+562213,Solid Waste Combustors and Incinerators,not in scope,FALSE
+562219,Other Nonhazardous Waste Treatment and Disposal,not in scope,FALSE
+562910,Remediation Services,not in scope,FALSE
+562920,Materials Recovery Facilities,not in scope,FALSE
+562991,Septic Tank and Related Services,not in scope,FALSE
+562998,All Other Miscellaneous Waste Management Services,not in scope,FALSE
+611110,Elementary and Secondary Schools,not in scope,FALSE
+611210,Junior Colleges,not in scope,FALSE
+611310,"Colleges, Universities, and Professional Schools",not in scope,FALSE
+611410,Business and Secretarial Schools,not in scope,FALSE
+611420,Computer Training,not in scope,FALSE
+611430,Professional and Management Development Training,not in scope,FALSE
+611511,Cosmetology and Barber Schools,not in scope,FALSE
+611512,Flight Training,not in scope,FALSE
+611513,Apprenticeship Training,not in scope,FALSE
+611519,Other Technical and Trade Schools,not in scope,FALSE
+611610,Fine Arts Schools,not in scope,FALSE
+611620,Sports and Recreation Instruction,not in scope,FALSE
+611630,Language Schools,not in scope,FALSE
+611691,Exam Preparation and Tutoring,not in scope,FALSE
+611692,Automobile Driving Schools,not in scope,FALSE
+611699,All Other Miscellaneous Schools and Instruction,not in scope,FALSE
+611710,Educational Support Services,not in scope,FALSE
+621111,Offices of Physicians (except Mental Health Specialists),not in scope,FALSE
+621112,"Offices of Physicians, Mental Health Specialists",not in scope,FALSE
+621210,Offices of Dentists,not in scope,FALSE
+621310,Offices of Chiropractors,not in scope,FALSE
+621320,Offices of Optometrists,not in scope,FALSE
+621330,Offices of Mental Health Practitioners (except Physicians),not in scope,FALSE
+621340,"Offices of Physical, Occupational and Speech Therapists, and Audiologists",not in scope,FALSE
+621391,Offices of Podiatrists,not in scope,FALSE
+621399,Offices of All Other Miscellaneous Health Practitioners,not in scope,FALSE
+621410,Family Planning Centers,not in scope,FALSE
+621420,Outpatient Mental Health and Substance Abuse Centers,not in scope,FALSE
+621491,HMO Medical Centers,not in scope,FALSE
+621492,Kidney Dialysis Centers,not in scope,FALSE
+621493,Freestanding Ambulatory Surgical and Emergency Centers,not in scope,FALSE
+621498,All Other Outpatient Care Centers,not in scope,FALSE
+621511,Medical Laboratories,not in scope,FALSE
+621512,Diagnostic Imaging Centers,not in scope,FALSE
+621610,Home Health Care Services,not in scope,FALSE
+621910,Ambulance Services,not in scope,FALSE
+621991,Blood and Organ Banks,not in scope,FALSE
+621999,All Other Miscellaneous Ambulatory Health Care Services,not in scope,FALSE
+622110,General Medical and Surgical Hospitals,not in scope,FALSE
+622210,Psychiatric and Substance Abuse Hospitals,not in scope,FALSE
+622310,Specialty (except Psychiatric and Substance Abuse) Hospitals,not in scope,FALSE
+623110,Nursing Care Facilities (Skilled Nursing Facilities),not in scope,FALSE
+623210,Residential Intellectual and Developmental Disability Facilities,not in scope,FALSE
+623220,Residential Mental Health and Substance Abuse Facilities,not in scope,FALSE
+623311,Continuing Care Retirement Communities,not in scope,FALSE
+623312,Assisted Living Facilities for the Elderly,not in scope,FALSE
+623990,Other Residential Care Facilities,not in scope,FALSE
+624110,Child and Youth Services,not in scope,FALSE
+624120,Services for the Elderly and Persons with Disabilities,not in scope,FALSE
+624190,Other Individual and Family Services,not in scope,FALSE
+624210,Community Food Services,not in scope,FALSE
+624221,Temporary Shelters,not in scope,FALSE
+624229,Other Community Housing Services,not in scope,FALSE
+624230,Emergency and Other Relief Services,not in scope,FALSE
+624310,Vocational Rehabilitation Services,not in scope,FALSE
+624410,Child Day Care Services,not in scope,FALSE
+711110,Theater Companies and Dinner Theaters,not in scope,FALSE
+711120,Dance Companies,not in scope,FALSE
+711130,Musical Groups and Artists,not in scope,FALSE
+711190,Other Performing Arts Companies,not in scope,FALSE
+711211,Sports Teams and Clubs,not in scope,FALSE
+711212,Racetracks,not in scope,FALSE
+711219,Other Spectator Sports,not in scope,FALSE
+711310,"Promoters of Performing Arts, Sports, and Similar Events with Facilities",not in scope,FALSE
+711320,"Promoters of Performing Arts, Sports, and Similar Events without Facilities",not in scope,FALSE
+711410,"Agents and Managers for Artists, Athletes, Entertainers, and Other Public Figures",not in scope,FALSE
+711510,"Independent Artists, Writers, and Performers",not in scope,FALSE
+712110,Museums,not in scope,FALSE
+712120,Historical Sites,not in scope,FALSE
+712130,Zoos and Botanical Gardens,not in scope,FALSE
+712190,Nature Parks and Other Similar Institutions,not in scope,FALSE
+713110,Amusement and Theme Parks,not in scope,FALSE
+713120,Amusement Arcades,not in scope,FALSE
+713210,Casinos (except Casino Hotels),not in scope,FALSE
+713290,Other Gambling Industries,not in scope,FALSE
+713910,Golf Courses and Country Clubs,not in scope,FALSE
+713920,Skiing Facilities,not in scope,FALSE
+713930,Marinas,not in scope,FALSE
+713940,Fitness and Recreational Sports Centers,not in scope,FALSE
+713950,Bowling Centers,not in scope,FALSE
+713990,All Other Amusement and Recreation Industries,not in scope,FALSE
+721110,Hotels (except Casino Hotels) and Motels,not in scope,FALSE
+721120,Casino Hotels,not in scope,FALSE
+721191,Bed-and-Breakfast Inns,not in scope,FALSE
+721199,All Other Traveler Accommodation,not in scope,FALSE
+721211,RV (Recreational Vehicle) Parks and Campgrounds,not in scope,FALSE
+721214,Recreational and Vacation Camps (except Campgrounds),not in scope,FALSE
+721310,"Rooming and Boarding Houses, Dormitories, and Workers' Camps",not in scope,FALSE
+722310,Food Service Contractors,not in scope,FALSE
+722320,Caterers,not in scope,FALSE
+722330,Mobile Food Services,not in scope,FALSE
+722410,Drinking Places (Alcoholic Beverages),not in scope,FALSE
+722511,Full-Service Restaurants,not in scope,FALSE
+722513,Limited-Service Restaurants,not in scope,FALSE
+722514,"Cafeterias, Grill Buffets, and Buffets",not in scope,FALSE
+722515,Snack and Nonalcoholic Beverage Bars,not in scope,FALSE
+811111,General Automotive Repair,not in scope,FALSE
+811112,Automotive Exhaust System Repair,not in scope,FALSE
+811113,Automotive Transmission Repair,not in scope,FALSE
+811118,Other Automotive Mechanical and Electrical Repair and Maintenance,not in scope,FALSE
+811121,"Automotive Body, Paint, and Interior Repair and Maintenance",not in scope,FALSE
+811122,Automotive Glass Replacement Shops,not in scope,FALSE
+811191,Automotive Oil Change and Lubrication Shops,not in scope,FALSE
+811192,Car Washes,not in scope,FALSE
+811198,All Other Automotive Repair and Maintenance,not in scope,FALSE
+811211,Consumer Electronics Repair and Maintenance,not in scope,FALSE
+811212,Computer and Office Machine Repair and Maintenance,not in scope,FALSE
+811213,Communication Equipment Repair and Maintenance,not in scope,FALSE
+811219,Other Electronic and Precision Equipment Repair and Maintenance,not in scope,FALSE
+811310,Commercial and Industrial Machinery and Equipment (except Automotive and Electronic) Repair and Maintenance,not in scope,FALSE
+811411,Home and Garden Equipment Repair and Maintenance,not in scope,FALSE
+811412,Appliance Repair and Maintenance,not in scope,FALSE
+811420,Reupholstery and Furniture Repair,not in scope,FALSE
+811430,Footwear and Leather Goods Repair,not in scope,FALSE
+811490,Other Personal and Household Goods Repair and Maintenance,not in scope,FALSE
+812111,Barber Shops,not in scope,FALSE
+812112,Beauty Salons,not in scope,FALSE
+812113,Nail Salons,not in scope,FALSE
+812191,Diet and Weight Reducing Centers,not in scope,FALSE
+812199,Other Personal Care Services,not in scope,FALSE
+812210,Funeral Homes and Funeral Services,not in scope,FALSE
+812220,Cemeteries and Crematories,not in scope,FALSE
+812310,Coin-Operated Laundries and Drycleaners,not in scope,FALSE
+812320,Drycleaning and Laundry Services (except Coin-Operated),not in scope,FALSE
+812331,Linen Supply,not in scope,FALSE
+812332,Industrial Launderers,not in scope,FALSE
+812910,Pet Care (except Veterinary) Services,not in scope,FALSE
+812921,Photofinishing Laboratories (except One-Hour),not in scope,FALSE
+812922,One-Hour Photofinishing,not in scope,FALSE
+812930,Parking Lots and Garages,not in scope,FALSE
+812990,All Other Personal Services,not in scope,FALSE
+813110,Religious Organizations,not in scope,FALSE
+813211,Grantmaking Foundations,not in scope,FALSE
+813212,Voluntary Health Organizations,not in scope,FALSE
+813219,Other Grantmaking and Giving Services,not in scope,FALSE
+813311,Human Rights Organizations,not in scope,FALSE
+813312,"Environment, Conservation and Wildlife Organizations",not in scope,FALSE
+813319,Other Social Advocacy Organizations,not in scope,FALSE
+813410,Civic and Social Organizations,not in scope,FALSE
+813910,Business Associations,not in scope,FALSE
+813920,Professional Organizations,not in scope,FALSE
+813930,Labor Unions and Similar Labor Organizations,not in scope,FALSE
+813940,Political Organizations,not in scope,FALSE
+813990,"Other Similar Organizations (except Business, Professional, Labor, and Political Organizations)",not in scope,FALSE
+814110,Private Households,not in scope,FALSE
+921110,Executive Offices,not in scope,FALSE
+921120,Legislative Bodies,not in scope,FALSE
+921130,Public Finance Activities,not in scope,FALSE
+921140,"Executive and Legislative Offices, Combined",not in scope,FALSE
+921150,American Indian and Alaska Native Tribal Governments,not in scope,FALSE
+921190,Other General Government Support,not in scope,FALSE
+922110,Courts,not in scope,FALSE
+922120,Police Protection,not in scope,FALSE
+922130,Legal Counsel and Prosecution,not in scope,FALSE
+922140,Correctional Institutions,not in scope,FALSE
+922150,Parole Offices and Probation Offices,not in scope,FALSE
+922160,Fire Protection,not in scope,FALSE
+922190,"Other Justice, Public Order, and Safety Activities",not in scope,FALSE
+923110,Administration of Education Programs,not in scope,FALSE
+923120,Administration of Public Health Programs,not in scope,FALSE
+923130,"Administration of Human Resource Programs (except Education, Public Health, and Veterans' Affairs Programs)",not in scope,FALSE
+923140,Administration of Veterans' Affairs,not in scope,FALSE
+924110,Administration of Air and Water Resource and Solid Waste Management Programs,not in scope,FALSE
+924120,Administration of Conservation Programs,not in scope,FALSE
+925110,Administration of Housing Programs,not in scope,FALSE
+925120,Administration of Urban Planning and Community and Rural Development,not in scope,FALSE
+926110,Administration of General Economic Programs,not in scope,FALSE
+926120,Regulation and Administration of Transportation Programs,not in scope,FALSE
+926130,"Regulation and Administration of Communications, Electric, Gas, and Other Utilities",not in scope,FALSE
+926140,Regulation of Agricultural Marketing and Commodities,not in scope,FALSE
+926150,"Regulation, Licensing, and Inspection of Miscellaneous Commercial Sectors",not in scope,FALSE
+927110,Space Research and Technology,not in scope,FALSE
+928110,National Security,not in scope,FALSE
+928120,International Affairs,not in scope,FALSE
