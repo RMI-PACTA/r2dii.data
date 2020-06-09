@@ -5,7 +5,7 @@
 \alias{naics_classification}
 \title{Dataset to bridge (translate) common sector-classification codes}
 \format{
-An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 68 rows and 4 columns.
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 1057 rows and 4 columns.
 }
 \usage{
 naics_classification
@@ -19,8 +19,8 @@ systems and sectors relevant to the 'PACTA' tool
 
 \itemize{
 \item \code{borderline} (logical): Flag indicating if 2dii sector and classification code are a borderline match.
-\item \code{code} (double): NAICS code.
-\item \code{code_level} (double): Level of granularity of NAICS code.
+\item \code{code} (double): Six-digit NAICS code.
+\item \code{naics_title} (character): Original NAICS sector title.
 \item \code{sector} (character): Associated 2dii sector.
 }
 }
