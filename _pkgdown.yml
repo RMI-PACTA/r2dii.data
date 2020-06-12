@@ -35,7 +35,7 @@ navbar:
     - text: "r2dii.data 0.0.3"
       href: articles/r2dii-data-0-0-3.html
     - text: "r2dii.data 0.1.0"
-      href: https://2degreesinvesting.github.io/ds-at-2dii/posts/2020-06-02-r2diidata-010/
+      href: https://2degreesinvesting.github.io/posts/2020-06-03-r2dii-data-0-1-0/
     - text: "----------------------"
     - text: "Change log"
       href: news/index.html
