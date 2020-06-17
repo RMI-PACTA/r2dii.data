@@ -1,0 +1,258 @@
+region,value,type,source
+africa,algeria,country_name,etp_2017
+africa,angola,country_name,etp_2017
+africa,benin,country_name,etp_2017
+africa,botswana,country_name,etp_2017
+africa,cameroon,country_name,etp_2017
+africa,congo,country_name,etp_2017
+africa,democratic republic of congo,country_name,etp_2017
+africa,cote d'ivoire,country_name,etp_2017
+africa,egypt,country_name,etp_2017
+africa,eritrea,country_name,etp_2017
+africa,ethiopia,country_name,etp_2017
+africa,gabon,country_name,etp_2017
+africa,ghana,country_name,etp_2017
+africa,kenya,country_name,etp_2017
+africa,libya,country_name,etp_2017
+africa,morocco,country_name,etp_2017
+africa,mozambique,country_name,etp_2017
+africa,namibia,country_name,etp_2017
+africa,nigeria,country_name,etp_2017
+africa,senegal,country_name,etp_2017
+africa,south africa,country_name,etp_2017
+africa,south sudan,country_name,etp_2017
+africa,sudan,country_name,etp_2017
+africa,united republic of tanzania,country_name,etp_2017
+africa,togo,country_name,etp_2017
+africa,tunisia,country_name,etp_2017
+africa,zambia,country_name,etp_2017
+africa,zimbabwe,country_name,etp_2017
+africa,burkina faso,country_name,etp_2017
+africa,burundi,country_name,etp_2017
+africa,cape verde,country_name,etp_2017
+africa,central african republic,country_name,etp_2017
+africa,chad,country_name,etp_2017
+africa,comoros,country_name,etp_2017
+africa,djibouti,country_name,etp_2017
+africa,equatorial guinea,country_name,etp_2017
+africa,gambia,country_name,etp_2017
+africa,guinea,country_name,etp_2017
+africa,guinea-bissau,country_name,etp_2017
+africa,lesotho,country_name,etp_2017
+africa,liberia,country_name,etp_2017
+africa,madagascar,country_name,etp_2017
+africa,malawi,country_name,etp_2017
+africa,mali,country_name,etp_2017
+africa,mauritania,country_name,etp_2017
+africa,mauritius,country_name,etp_2017
+africa,nigeria,country_name,etp_2017
+africa,reunion,country_name,etp_2017
+africa,rwanda,country_name,etp_2017
+africa,sao tome and principe,country_name,etp_2017
+africa,seychelles,country_name,etp_2017
+africa,sierra leone,country_name,etp_2017
+africa,somalia,country_name,etp_2017
+africa,swaziland,country_name,etp_2017
+africa,uganda,country_name,etp_2017
+association of southeast asian nations,brunei darussalam,country_name,etp_2017
+association of southeast asian nations,cambodia,country_name,etp_2017
+association of southeast asian nations,indonesia,country_name,etp_2017
+association of southeast asian nations,lao people's democratic republic,country_name,etp_2017
+association of southeast asian nations,malaysia,country_name,etp_2017
+association of southeast asian nations,myanmar,country_name,etp_2017
+association of southeast asian nations,philippines,country_name,etp_2017
+association of southeast asian nations,singapore,country_name,etp_2017
+association of southeast asian nations,thailand,country_name,etp_2017
+association of southeast asian nations,vietnam,country_name,etp_2017
+asia,bangladesh,country_name,etp_2017
+asia,brunei darussalam,country_name,etp_2017
+asia,cambodia,country_name,etp_2017
+asia,people's republic of china,country_name,etp_2017
+asia,india,country_name,etp_2017
+asia,indonesia,country_name,etp_2017
+asia,japan,country_name,etp_2017
+asia,korea,country_name,etp_2017
+asia,the democratic people's republic of korea,country_name,etp_2017
+asia,malaysia,country_name,etp_2017
+asia,mongolia,country_name,etp_2017
+asia,myanmar,country_name,etp_2017
+asia,nepal,country_name,etp_2017
+asia,pakistan,country_name,etp_2017
+asia,philippines,country_name,etp_2017
+asia,singapore,country_name,etp_2017
+asia,sri lanka,country_name,etp_2017
+asia,chinese taipei,country_name,etp_2017
+asia,thailand,country_name,etp_2017
+asia,vietnam,country_name,etp_2017
+asia,afghanistan,country_name,etp_2017
+asia,bhutan,country_name,etp_2017
+asia,cook islands,country_name,etp_2017
+asia,east timor,country_name,etp_2017
+asia,fiji,country_name,etp_2017
+asia,french polynesia,country_name,etp_2017
+asia,kiribati,country_name,etp_2017
+asia,lao people's democratic republic,country_name,etp_2017
+asia,macau,country_name,etp_2017
+asia,maldives,country_name,etp_2017
+asia,new caledonia,country_name,etp_2017
+asia,palau,country_name,etp_2017
+asia,papua new guinea,country_name,etp_2017
+asia,samoa,country_name,etp_2017
+asia,solomon islands,country_name,etp_2017
+asia,tongo and vanuatu,country_name,etp_2017
+china,people's republic of china,country_name,etp_2017
+european union,austria,country_name,etp_2017
+european union,belgium,country_name,etp_2017
+european union,bulgaria,country_name,etp_2017
+european union,croatia,country_name,etp_2017
+european union,cyprus,country_name,etp_2017
+european union,czech republic,country_name,etp_2017
+european union,denmark,country_name,etp_2017
+european union,estonia,country_name,etp_2017
+european union,finland,country_name,etp_2017
+european union,france,country_name,etp_2017
+european union,germany,country_name,etp_2017
+european union,greece,country_name,etp_2017
+european union,hungary,country_name,etp_2017
+european union,ireland,country_name,etp_2017
+european union,italy,country_name,etp_2017
+european union,latvia,country_name,etp_2017
+european union,lithuania,country_name,etp_2017
+european union,luxembourg,country_name,etp_2017
+european union,malta,country_name,etp_2017
+european union,netherlands,country_name,etp_2017
+european union,poland,country_name,etp_2017
+european union,portugal,country_name,etp_2017
+european union,romania,country_name,etp_2017
+european union,slovak republic,country_name,etp_2017
+european union,slovenia,country_name,etp_2017
+european union,spain,country_name,etp_2017
+european union,sweden,country_name,etp_2017
+european union,united kingdom,country_name,etp_2017
+latin america,argentina,country_name,etp_2017
+latin america,bolivia,country_name,etp_2017
+latin america,brazil,country_name,etp_2017
+latin america,colombia,country_name,etp_2017
+latin america,costa rica,country_name,etp_2017
+latin america,cuba,country_name,etp_2017
+latin america,dominican republic,country_name,etp_2017
+latin america,ecuador,country_name,etp_2017
+latin america,el salvador,country_name,etp_2017
+latin america,guatemala,country_name,etp_2017
+latin america,haiti,country_name,etp_2017
+latin america,honduras,country_name,etp_2017
+latin america,jamaica,country_name,etp_2017
+latin america,netherlands antilles,country_name,etp_2017
+latin america,nicaragua,country_name,etp_2017
+latin america,panama,country_name,etp_2017
+latin america,paraguay,country_name,etp_2017
+latin america,peru,country_name,etp_2017
+latin america,trinidad and tobago,country_name,etp_2017
+latin america,uruguay,country_name,etp_2017
+latin america,venezuela,country_name,etp_2017
+latin america,antigua and barbuda,country_name,etp_2017
+latin america,aruba,country_name,etp_2017
+latin america,bahamas,country_name,etp_2017
+latin america,barbados,country_name,etp_2017
+latin america,belize,country_name,etp_2017
+latin america,bermuda,country_name,etp_2017
+latin america,british virgin islands,country_name,etp_2017
+latin america,cayman islands,country_name,etp_2017
+latin america,dominica,country_name,etp_2017
+latin america,malvinas,country_name,etp_2017
+latin america,french guyana,country_name,etp_2017
+latin america,grenada,country_name,etp_2017
+latin america,guadeloupe,country_name,etp_2017
+latin america,guyana,country_name,etp_2017
+latin america,martinique,country_name,etp_2017
+latin america,montserrat,country_name,etp_2017
+latin america,st kitts and nevis,country_name,etp_2017
+latin america,saint lucia,country_name,etp_2017
+latin america,saint pierre et miquelon,country_name,etp_2017
+latin america,st vincent and the grenadines,country_name,etp_2017
+latin america,suriname,country_name,etp_2017
+latin america,turks and caicos,country_name,etp_2017
+middle east,bahrain,country_name,etp_2017
+middle east,islamic republic of iran,country_name,etp_2017
+middle east,iraq,country_name,etp_2017
+middle east,jordan,country_name,etp_2017
+middle east,kuwait,country_name,etp_2017
+middle east,lebanon,country_name,etp_2017
+middle east,oman,country_name,etp_2017
+middle east,qatar,country_name,etp_2017
+middle east,saudi arabia,country_name,etp_2017
+middle east,syria,country_name,etp_2017
+middle east,united arab emirates,country_name,etp_2017
+middle east,yemen,country_name,etp_2017
+oecd,oecd europe,region,etp_2017
+oecd,oecd americas,region,etp_2017
+oecd,oecd asia oceania,region,etp_2017
+oecd americas,canada,country_name,etp_2017
+oecd americas,chile,country_name,etp_2017
+oecd americas,mexico,country_name,etp_2017
+oecd americas,united states,country_name,etp_2017
+oecd asia,japan,country_name,etp_2017
+oecd asia,korea,country_name,etp_2017
+oecd asia,israel,country_name,etp_2017
+oecd oceania,australia,country_name,etp_2017
+oecd oceania,new zealand,country_name,etp_2017
+oecd asia oceania,oecd asia,region,etp_2017
+oecd asia oceania,oecd oceania,region,etp_2017
+oecd europe,austria,country_name,etp_2017
+oecd europe,belgium,country_name,etp_2017
+oecd europe,czech republic,country_name,etp_2017
+oecd europe,denmark,country_name,etp_2017
+oecd europe,estonia,country_name,etp_2017
+oecd europe,finland,country_name,etp_2017
+oecd europe,france,country_name,etp_2017
+oecd europe,germany,country_name,etp_2017
+oecd europe,greece,country_name,etp_2017
+oecd europe,hungary,country_name,etp_2017
+oecd europe,iceland,country_name,etp_2017
+oecd europe,ireland,country_name,etp_2017
+oecd europe,italy,country_name,etp_2017
+oecd europe,latvia,country_name,etp_2017
+oecd europe,luxembourg,country_name,etp_2017
+oecd europe,netherlands,country_name,etp_2017
+oecd europe,norway,country_name,etp_2017
+oecd europe,poland,country_name,etp_2017
+oecd europe,portugal,country_name,etp_2017
+oecd europe,slovak republic,country_name,etp_2017
+oecd europe,slovenia,country_name,etp_2017
+oecd europe,spain,country_name,etp_2017
+oecd europe,sweden,country_name,etp_2017
+oecd europe,switzerland,country_name,etp_2017
+oecd europe,turkey,country_name,etp_2017
+oecd europe,united kingdom,country_name,etp_2017
+other developing asia,bangladesh,country_name,etp_2017
+other developing asia,brunei darussalam,country_name,etp_2017
+other developing asia,cambodia,country_name,etp_2017
+other developing asia,indonesia,country_name,etp_2017
+other developing asia,the democratic people's republic of korea,country_name,etp_2017
+other developing asia,malaysia,country_name,etp_2017
+other developing asia,mongolia,country_name,etp_2017
+other developing asia,myanmar,country_name,etp_2017
+other developing asia,nepal,country_name,etp_2017
+other developing asia,pakistan,country_name,etp_2017
+other developing asia,philippines,country_name,etp_2017
+other developing asia,singapore,country_name,etp_2017
+other developing asia,sri lanka,country_name,etp_2017
+other developing asia,chinese taipei,country_name,etp_2017
+other developing asia,thailand,country_name,etp_2017
+other developing asia,vietnam,country_name,etp_2017
+other developing asia,afghanistan,country_name,etp_2017
+other developing asia,bhutan,country_name,etp_2017
+other developing asia,cook islands,country_name,etp_2017
+other developing asia,east timor,country_name,etp_2017
+other developing asia,fiji,country_name,etp_2017
+other developing asia,french polynesia,country_name,etp_2017
+other developing asia,kiribati,country_name,etp_2017
+other developing asia,lao people's democratic republic,country_name,etp_2017
+other developing asia,macau,country_name,etp_2017
+other developing asia,maldives,country_name,etp_2017
+other developing asia,new caledonia,country_name,etp_2017
+other developing asia,palau,country_name,etp_2017
+other developing asia,papua new guinea,country_name,etp_2017
+other developing asia,samoa,country_name,etp_2017
+other developing asia,solomon islands,country_name,etp_2017
+other developing asia,tongo and vanuatu,country_name,etp_2017
