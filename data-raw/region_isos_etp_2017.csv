@@ -5,7 +5,7 @@ africa,benin,country_name,etp_2017
 africa,botswana,country_name,etp_2017
 africa,cameroon,country_name,etp_2017
 africa,congo,country_name,etp_2017
-africa,democratic republic of congo,country_name,etp_2017
+africa,democratic republic of the congo,country_name,etp_2017
 africa,cote d'ivoire,country_name,etp_2017
 africa,egypt,country_name,etp_2017
 africa,eritrea,country_name,etp_2017
@@ -67,12 +67,12 @@ association of southeast asian nations,vietnam,country_name,etp_2017
 asia,bangladesh,country_name,etp_2017
 asia,brunei darussalam,country_name,etp_2017
 asia,cambodia,country_name,etp_2017
-asia,people's republic of china,country_name,etp_2017
+asia,china,country_name,etp_2017
 asia,india,country_name,etp_2017
 asia,indonesia,country_name,etp_2017
 asia,japan,country_name,etp_2017
-asia,korea,country_name,etp_2017
-asia,the democratic people's republic of korea,country_name,etp_2017
+asia,south korea,country_name,etp_2017
+asia,republic of korea,country_name,etp_2017
 asia,malaysia,country_name,etp_2017
 asia,mongolia,country_name,etp_2017
 asia,myanmar,country_name,etp_2017
@@ -81,26 +81,26 @@ asia,pakistan,country_name,etp_2017
 asia,philippines,country_name,etp_2017
 asia,singapore,country_name,etp_2017
 asia,sri lanka,country_name,etp_2017
-asia,chinese taipei,country_name,etp_2017
+asia,taiwan,country_name,etp_2017
 asia,thailand,country_name,etp_2017
 asia,vietnam,country_name,etp_2017
 asia,afghanistan,country_name,etp_2017
 asia,bhutan,country_name,etp_2017
 asia,cook islands,country_name,etp_2017
-asia,east timor,country_name,etp_2017
+asia,timor-leste,country_name,etp_2017
 asia,fiji,country_name,etp_2017
 asia,french polynesia,country_name,etp_2017
 asia,kiribati,country_name,etp_2017
 asia,lao people's democratic republic,country_name,etp_2017
-asia,macau,country_name,etp_2017
+asia,macau special administrative region of china,country_name,etp_2017
 asia,maldives,country_name,etp_2017
 asia,new caledonia,country_name,etp_2017
 asia,palau,country_name,etp_2017
 asia,papua new guinea,country_name,etp_2017
 asia,samoa,country_name,etp_2017
 asia,solomon islands,country_name,etp_2017
-asia,tongo and vanuatu,country_name,etp_2017
-china,people's republic of china,country_name,etp_2017
+asia,vanuatu,country_name,etp_2017
+china,china,country_name,etp_2017
 european union,austria,country_name,etp_2017
 european union,belgium,country_name,etp_2017
 european union,bulgaria,country_name,etp_2017
@@ -124,7 +124,7 @@ european union,netherlands,country_name,etp_2017
 european union,poland,country_name,etp_2017
 european union,portugal,country_name,etp_2017
 european union,romania,country_name,etp_2017
-european union,slovak republic,country_name,etp_2017
+european union,slovakia,country_name,etp_2017
 european union,slovenia,country_name,etp_2017
 european union,spain,country_name,etp_2017
 european union,sweden,country_name,etp_2017
@@ -159,21 +159,21 @@ latin america,bermuda,country_name,etp_2017
 latin america,british virgin islands,country_name,etp_2017
 latin america,cayman islands,country_name,etp_2017
 latin america,dominica,country_name,etp_2017
-latin america,malvinas,country_name,etp_2017
-latin america,french guyana,country_name,etp_2017
+latin america,falkland islands (malvinas),country_name,etp_2017
+latin america,french guiana,country_name,etp_2017
 latin america,grenada,country_name,etp_2017
 latin america,guadeloupe,country_name,etp_2017
 latin america,guyana,country_name,etp_2017
 latin america,martinique,country_name,etp_2017
 latin america,montserrat,country_name,etp_2017
-latin america,st kitts and nevis,country_name,etp_2017
+latin america,saint kitts and nevis,country_name,etp_2017
 latin america,saint lucia,country_name,etp_2017
-latin america,saint pierre et miquelon,country_name,etp_2017
-latin america,st vincent and the grenadines,country_name,etp_2017
+latin america,saint pierre and miquelon,country_name,etp_2017
+latin america,saint vincent and the grenadines,country_name,etp_2017
 latin america,suriname,country_name,etp_2017
-latin america,turks and caicos,country_name,etp_2017
+latin america,turks and caicos islands,country_name,etp_2017
 middle east,bahrain,country_name,etp_2017
-middle east,islamic republic of iran,country_name,etp_2017
+middle east,iran,country_name,etp_2017
 middle east,iraq,country_name,etp_2017
 middle east,jordan,country_name,etp_2017
 middle east,kuwait,country_name,etp_2017
@@ -192,7 +192,7 @@ oecd americas,chile,country_name,etp_2017
 oecd americas,mexico,country_name,etp_2017
 oecd americas,united states,country_name,etp_2017
 oecd asia,japan,country_name,etp_2017
-oecd asia,korea,country_name,etp_2017
+oecd asia,south korea,country_name,etp_2017
 oecd asia,israel,country_name,etp_2017
 oecd oceania,australia,country_name,etp_2017
 oecd oceania,new zealand,country_name,etp_2017
@@ -217,7 +217,7 @@ oecd europe,netherlands,country_name,etp_2017
 oecd europe,norway,country_name,etp_2017
 oecd europe,poland,country_name,etp_2017
 oecd europe,portugal,country_name,etp_2017
-oecd europe,slovak republic,country_name,etp_2017
+oecd europe,slovakia,country_name,etp_2017
 oecd europe,slovenia,country_name,etp_2017
 oecd europe,spain,country_name,etp_2017
 oecd europe,sweden,country_name,etp_2017
@@ -228,7 +228,7 @@ other developing asia,bangladesh,country_name,etp_2017
 other developing asia,brunei darussalam,country_name,etp_2017
 other developing asia,cambodia,country_name,etp_2017
 other developing asia,indonesia,country_name,etp_2017
-other developing asia,the democratic people's republic of korea,country_name,etp_2017
+other developing asia,republic of korea,country_name,etp_2017
 other developing asia,malaysia,country_name,etp_2017
 other developing asia,mongolia,country_name,etp_2017
 other developing asia,myanmar,country_name,etp_2017
@@ -237,22 +237,22 @@ other developing asia,pakistan,country_name,etp_2017
 other developing asia,philippines,country_name,etp_2017
 other developing asia,singapore,country_name,etp_2017
 other developing asia,sri lanka,country_name,etp_2017
-other developing asia,chinese taipei,country_name,etp_2017
+other developing asia,taiwan,country_name,etp_2017
 other developing asia,thailand,country_name,etp_2017
 other developing asia,vietnam,country_name,etp_2017
 other developing asia,afghanistan,country_name,etp_2017
 other developing asia,bhutan,country_name,etp_2017
 other developing asia,cook islands,country_name,etp_2017
-other developing asia,east timor,country_name,etp_2017
+other developing asia,timor-leste,country_name,etp_2017
 other developing asia,fiji,country_name,etp_2017
 other developing asia,french polynesia,country_name,etp_2017
 other developing asia,kiribati,country_name,etp_2017
 other developing asia,lao people's democratic republic,country_name,etp_2017
-other developing asia,macau,country_name,etp_2017
+other developing asia,macau special administrative region of china,country_name,etp_2017
 other developing asia,maldives,country_name,etp_2017
 other developing asia,new caledonia,country_name,etp_2017
 other developing asia,palau,country_name,etp_2017
 other developing asia,papua new guinea,country_name,etp_2017
 other developing asia,samoa,country_name,etp_2017
 other developing asia,solomon islands,country_name,etp_2017
-other developing asia,tongo and vanuatu,country_name,etp_2017
+other developing asia,vanuatu,country_name,etp_2017
