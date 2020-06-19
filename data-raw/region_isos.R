@@ -70,8 +70,6 @@ bound1 <- bind_countries(countries, region_data, regions = NULL)
 
 all_countries <-  unique_countries(bound1)
 
-global <- all_countries %>%
-  dplyr::mutate(region = "global", source = weo_year)
 
 advanced_economies <- bound1 %>%
   dplyr::filter(region == "advanced economies")
@@ -121,6 +119,10 @@ if (nrow(fix) > 0L) {
   )
 }
 
+global <- bound1 %>%
+  unique_countries() %>%
+  dplyr::mutate(region = "global", source = weo_year)
+
 region_isos_weo_2019 <- bound1 %>%
   rbind(global, developing_economies, iea, non_oecd, non_opec) %>%
   dplyr::left_join(r2dii.data::iso_codes, by = c("value" = "country")) %>%
@@ -157,11 +159,8 @@ bound2 <- bind_countries(countries, region_data, "oecd asia oceania")
 
 bound3 <- bind_countries(bound2, region_data, "oecd")
 
-all_countries <- bound3 %>%
-  dplyr::select(value) %>%
-  unique()
-
-global <- all_countries %>%
+global <- bound3 %>%
+  unique_countries() %>%
   dplyr::mutate(region = "global", source = weo_year)
 
 # check how many countries dont match their isos
