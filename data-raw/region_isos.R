@@ -53,6 +53,10 @@ bind_countries <- function(countries, region_data, regions) {
     dplyr::arrange(region)
 }
 
+unique_countries <- function(data) {
+  unique(dplyr::select(data, value))
+}
+
 
 
 # Source: raw_regions_weo_2019.csv was transcribed from page 780 of the 2019
@@ -64,14 +68,7 @@ countries <- subset_country_name(region_data)
 
 bound1 <- bind_countries(countries, region_data, regions = NULL)
 
-all_countries <- bound1 %>%
-  dplyr::select(value) %>%
-  unique()
-
-unique_countries <- function(data) {
-  unique(dplyr::select(data, value))
-}
-all_countries <- bound1 %>% unique_countries()
+all_countries <-  unique_countries(bound1)
 
 global <- all_countries %>%
   dplyr::mutate(region = "global", source = weo_year)
