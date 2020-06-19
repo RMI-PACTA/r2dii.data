@@ -68,6 +68,11 @@ all_countries <- bound1 %>%
   dplyr::select(value) %>%
   unique()
 
+unique_countries <- function(data) {
+  unique(dplyr::select(data, value))
+}
+all_countries <- bound1 %>% unique_countries()
+
 global <- all_countries %>%
   dplyr::mutate(region = "global", source = weo_year)
 
