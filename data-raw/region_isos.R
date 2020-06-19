@@ -123,6 +123,12 @@ global <- bound1 %>%
   unique_countries() %>%
   dplyr::mutate(region = "global", source = weo_year)
 
+global_data <- function(data, source) {
+  data %>%
+    unique_countries() %>%
+    dplyr::mutate(region = "global", source = source)
+}
+
 region_isos_weo_2019 <- bound1 %>%
   rbind(global, developing_economies, iea, non_oecd, non_opec) %>%
   dplyr::left_join(r2dii.data::iso_codes, by = c("value" = "country")) %>%
