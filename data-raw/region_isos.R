@@ -186,9 +186,8 @@ if (nrow(fix) > 0L) {
   )
 }
 
-global <- bound3 %>% global_data(weo_year)
 region_isos_etp_2017 <- bound3 %>%
-  rbind(global) %>%
+  rbind(global_data(., weo_year)) %>%
   dplyr::left_join(r2dii.data::iso_codes, by = c("value" = "country")) %>%
   dplyr::filter(!is.na(country_iso)) %>%
   dplyr::rename(isos = country_iso) %>%
