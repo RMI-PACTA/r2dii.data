@@ -10,14 +10,6 @@ weo_year <- "weo_2019"
 weo_path <- function(x) file.path("data-raw", paste0("region_isos_", x, ".csv"))
 path <- weo_path(weo_year)
 
-region_data_tibble <- utils::read.csv(
-  weo_path(weo_year),
-  colClasses = "character",
-  na.strings = c("", "NA"),
-  stringsAsFactors = FALSE
-) %>%
-  tibble::as_tibble()
-
 read_region <- function(path) {
   utils::read.csv(
     path,
@@ -28,8 +20,7 @@ read_region <- function(path) {
     tibble::as_tibble()
 }
 
-region_data_tibble <- read_region(weo_path(weo_year))
-
+region_data_tibble <- weo_year %>% weo_path() %>% read_region()
 
 region_country_name <- region_data_tibble %>%
   dplyr::filter(type == "country_name") %>%
@@ -119,15 +110,7 @@ region_isos_weo_2019 <- out_only_countries %>%
 
 weo_year <- "etp_2017"
 
-region_data_tibble <- utils::read.csv(
-  weo_path(weo_year),
-  colClasses = "character",
-  na.strings = c("", "NA"),
-  stringsAsFactors = FALSE
-) %>%
-  tibble::as_tibble()
-
-region_data_tibble <- read_region(weo_path(weo_year))
+region_data_tibble <- weo_year %>% weo_path() %>% read_region()
 
 region_country_name <- region_data_tibble %>%
   dplyr::filter(type == "country_name") %>%
