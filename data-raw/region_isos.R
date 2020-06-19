@@ -46,6 +46,13 @@ prepare_regions <- function(data, countries, regions = NULL) {
     join_countries(countries)
 }
 
+# some regions are cyclically defined using other regions in the raw data
+# we need to expand these and join them back in
+bind_countries <- function(countries, region_data, regions) {
+  rbind(countries, prepare_regions(region_data, countries, regions = regions)) %>%
+    dplyr::arrange(region)
+}
+
 
 
 # Source: raw_regions_weo_2019.csv was transcribed from page 780 of the 2019
@@ -54,13 +61,6 @@ weo_year <- "weo_2019"
 
 region_data <- read_regions(regions_path(weo_year))
 countries <- subset_country_name(region_data)
-
-# some regions are cyclically defined using other regions in the raw data
-# we need to expand these and join them back in
-bind_countries <- function(countries, region_data, regions) {
-  rbind(countries, prepare_regions(region_data, countries, regions = regions)) %>%
-  dplyr::arrange(region)
-}
 
 out_only_countries <- bind_countries(countries, region_data, regions = NULL)
 
@@ -151,9 +151,8 @@ countries <- subset_country_name(region_data)
 
 # some regions are cyclically defined using other regions in the raw data
 # we need to expand these and join them back in
-region <- "oecd asia oceania"
-countries2 <- rbind(countries, prepare_regions(region_data, countries, region)) %>%
-  dplyr::arrange(region)
+countries2 <- bind_countries(countries, region_data, "oecd asia oceania")
+
 
 region <- "oecd"
 out_only_countries <- rbind(countries2, prepare_regions(region_data, countries2, region)) %>%
