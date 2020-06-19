@@ -37,7 +37,7 @@ join_countries <- function(data, countries) {
     dplyr::rename(value = value.y)
 }
 
-prepare_regional_data <- function(data, countries, regions = NULL) {
+prepare_regions <- function(data, countries, regions = NULL) {
   regions <- regions %||% as.character(na.omit(unique(data$region)))
 
   data %>%
@@ -57,7 +57,7 @@ countries <- subset_country_name(region_data)
 
 # some regions are cyclically defined using other regions in the raw data
 # we need to expand these and join them back in
-by_country <- prepare_regional_data(region_data, countries)
+by_country <- prepare_regions(region_data, countries)
 
 out_only_countries <- countries %>%
   rbind(by_country) %>%
@@ -153,12 +153,12 @@ countries <- subset_country_name(region_data)
 this_region <- "oecd asia oceania"
 countries2 <- rbind(
   countries,
-  prepare_regional_data(region_data, countries, this_region)
+  prepare_regions(region_data, countries, this_region)
 )
 
 this_region <- "oecd"
 oecd <- region_data %>%
-  prepare_regional_data(countries2, this_region)
+  prepare_regions(countries2, this_region)
 
 out_only_countries <- countries2 %>%
   rbind(oecd) %>%
