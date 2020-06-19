@@ -63,8 +63,11 @@ unique_countries <- function(data) {
 # World Energy Outlook
 weo_year <- "weo_2019"
 region_data <- read_regions(regions_path(weo_year))
-countries <- subset_country_name(region_data)
-bound1 <- bind_countries(countries, region_data, regions = NULL)
+
+bound1 <- bind_countries(
+  subset_country_name(region_data),
+  region_data, regions = NULL
+)
 
 advanced_economies <- bound1 %>%
   dplyr::filter(region == "advanced economies")
@@ -149,11 +152,14 @@ region_isos_weo_2019 <- bound1 %>%
 weo_year <- "etp_2017"
 
 region_data <-  read_regions(regions_path(weo_year))
-countries <- subset_country_name(region_data)
 
 # some regions are cyclically defined using other regions in the raw data
 # we need to expand these and join them back in
-bound2 <- bind_countries(countries, region_data, "oecd asia oceania")
+bound2 <- bind_countries(
+  subset_country_name(region_data),
+  region_data,
+  "oecd asia oceania"
+)
 
 bound3 <- bind_countries(bound2, region_data, "oecd")
 
