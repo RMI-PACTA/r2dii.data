@@ -28,6 +28,14 @@ subset_leftover_regions <- function(data) {
   dplyr::select(-type)
 }
 
+join_countries <- function(data, countries) {
+  data %>%
+    dplyr::select(region, value) %>%
+    dplyr::left_join(countries, by = c("value" = "region")) %>%
+    dplyr::select(-value) %>%
+    dplyr::rename(value = value.y)
+}
+
 # Source: raw_regions_weo_2019.csv was transcribed from page 780 of the 2019
 # World Energy Outlook
 weo_year <- "weo_2019"
@@ -39,10 +47,7 @@ region_country_name <- subset_country_name(region_data)
 # we need to expand these and join them back in
 leftover_regions_expanded_by_country <- region_data %>%
   subset_leftover_regions() %>%
-  dplyr::select(region, value) %>%
-  dplyr::left_join(region_country_name, by = c("value" = "region")) %>%
-  dplyr::select(-value) %>%
-  dplyr::rename(value = value.y)
+  join_countries(region_country_name)
 
 out_only_countries <- region_country_name %>%
   rbind(leftover_regions_expanded_by_country) %>%
@@ -139,10 +144,7 @@ this_region <- "oecd asia oceania"
 oecd_asia_oceania_expanded_by_country <- region_data %>%
   subset_leftover_regions() %>%
   dplyr::filter(region == this_region) %>%
-  dplyr::select(region, value) %>%
-  dplyr::left_join(region_country_name, by = c("value" = "region")) %>%
-  dplyr::select(-value) %>%
-  dplyr::rename(value = value.y)
+  join_countries(region_country_name)
 
 region_country_name <- rbind(region_country_name, oecd_asia_oceania_expanded_by_country)
 
@@ -150,10 +152,17 @@ this_region <- "oecd"
 oecd <- region_data %>%
   subset_leftover_regions() %>%
   dplyr::filter(region == this_region) %>%
-  dplyr::select(region, value) %>%
-  dplyr::left_join(region_country_name, by = c("value" = "region")) %>%
-  dplyr::select(-value) %>%
-  dplyr::rename(value = value.y)
+  join_countries(region_country_name)
+
+prepare_regional_data <- function(data, countries, this_region) {
+  data %>%
+    subset_leftover_regions() %>%
+    dplyr::filter(region == this_region) %>%
+    join_countries(countries)
+}
+
+oecd <- region_data %>%
+  prepare_regional_data(region_country_name, this_region)
 
 out_only_countries <- region_country_name %>%
   rbind(oecd) %>%
