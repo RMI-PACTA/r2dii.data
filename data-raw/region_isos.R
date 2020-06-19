@@ -151,10 +151,10 @@ region_country_name <- subset_country_name(region_data)
 # some regions are cyclically defined using other regions in the raw data
 # we need to expand these and join them back in
 this_region <- "oecd asia oceania"
-by_country <- region_data %>%
-  prepare_regional_data(region_country_name, this_region)
-
-region_country_name2 <- rbind(region_country_name, by_country)
+region_country_name2 <- rbind(
+  region_country_name,
+  prepare_regional_data(region_data, region_country_name, this_region)
+)
 
 this_region <- "oecd"
 oecd <- region_data %>%
