@@ -36,6 +36,13 @@ join_countries <- function(data, countries) {
     dplyr::rename(value = value.y)
 }
 
+prepare_regional_data <- function(data, countries, this_region) {
+  data %>%
+    subset_leftover_regions() %>%
+    dplyr::filter(region == this_region) %>%
+    join_countries(countries)
+}
+
 # Source: raw_regions_weo_2019.csv was transcribed from page 780 of the 2019
 # World Energy Outlook
 weo_year <- "weo_2019"
@@ -141,23 +148,16 @@ region_country_name <- subset_country_name(region_data)
 # some regions are cyclically defined using other regions in the raw data
 # we need to expand these and join them back in
 this_region <- "oecd asia oceania"
-oecd_asia_oceania_expanded_by_country <- region_data %>%
+by_country <- region_data %>%
   prepare_regional_data(region_country_name, this_region)
 
-region_country_name <- rbind(region_country_name, oecd_asia_oceania_expanded_by_country)
-
-prepare_regional_data <- function(data, countries, this_region) {
-  data %>%
-    subset_leftover_regions() %>%
-    dplyr::filter(region == this_region) %>%
-    join_countries(countries)
-}
+region_country_name2 <- rbind(region_country_name, by_country)
 
 this_region <- "oecd"
 oecd <- region_data %>%
-  prepare_regional_data(region_country_name, this_region)
+  prepare_regional_data(region_country_name2, this_region)
 
-out_only_countries <- region_country_name %>%
+out_only_countries <- region_country_name2 %>%
   rbind(oecd) %>%
   dplyr::arrange(region)
 
