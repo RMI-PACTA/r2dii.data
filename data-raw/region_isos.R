@@ -2,9 +2,8 @@ library(tibble)
 library(dplyr)
 library(usethis)
 
-# Source:
-# * raw_regions_weo_2019.csv was transcribed from page 780 of the 2019 World
-# Energy Outlook
+# Source: raw_regions_weo_2019.csv was transcribed from page 780 of the 2019
+# World Energy Outlook
 
 this_source <- "weo_2019"
 path <- file.path("data-raw", paste0("region_isos_", this_source, ".csv"))
