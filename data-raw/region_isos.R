@@ -36,10 +36,12 @@ join_countries <- function(data, countries) {
     dplyr::rename(value = value.y)
 }
 
-prepare_regional_data <- function(data, countries, this_region) {
+`%||%` <- function (x, y) if (is.null(x)) y else x
+prepare_regional_data <- function(data, countries, this_region = NULL) {
+  this_region <- this_region %||% as.character(na.ommit(unique(data$region)))
   data %>%
     subset_leftover_regions() %>%
-    dplyr::filter(region == this_region) %>%
+    dplyr::filter(region %in% this_region) %>%
     join_countries(countries)
 }
 
