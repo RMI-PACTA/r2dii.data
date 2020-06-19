@@ -62,9 +62,7 @@ bind_countries <- function(countries, region_data, regions) {
   dplyr::arrange(region)
 }
 
-out_only_countries <- rbind(countries, prepare_regions(region_data, countries)) %>%
-  dplyr::arrange(region)
-out_only_countries <- bind_countries(countries, region_data, NULL)
+out_only_countries <- bind_countries(countries, region_data, regions = NULL)
 
 all_countries <- out_only_countries %>%
   dplyr::select(value) %>%
