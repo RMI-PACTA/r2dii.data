@@ -135,9 +135,10 @@ region_country_name <- subset_country_name(region_data)
 
 # some regions are cyclically defined using other regions in the raw data
 # we need to expand these and join them back in
+this_region <- "oecd asia oceania"
 oecd_asia_oceania_expanded_by_country <- region_data %>%
   subset_leftover_regions() %>%
-  dplyr::filter(region == "oecd asia oceania") %>%
+  dplyr::filter(region == this_region) %>%
   dplyr::select(region, value) %>%
   dplyr::left_join(region_country_name, by = c("value" = "region")) %>%
   dplyr::select(-value) %>%
@@ -145,9 +146,10 @@ oecd_asia_oceania_expanded_by_country <- region_data %>%
 
 region_country_name <- rbind(region_country_name, oecd_asia_oceania_expanded_by_country)
 
+this_region <- "oecd"
 oecd <- region_data %>%
   subset_leftover_regions() %>%
-  dplyr::filter(region == "oecd") %>%
+  dplyr::filter(region == this_region) %>%
   dplyr::select(region, value) %>%
   dplyr::left_join(region_country_name, by = c("value" = "region")) %>%
   dplyr::select(-value) %>%
