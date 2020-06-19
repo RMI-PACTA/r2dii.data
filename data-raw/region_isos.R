@@ -1,6 +1,7 @@
 library(tibble)
 library(dplyr)
 library(usethis)
+library(rlang)
 
 regions_path <- function(x) {
   file.path("data-raw", paste0("region_isos_", x, ".csv"))
@@ -36,19 +37,11 @@ join_countries <- function(data, countries) {
     dplyr::rename(value = value.y)
 }
 
-`%||%` <- function(x, y) {
-  if (is.null(x)) {
-    y
-  } else {
-    x
-  }
-}
-
-prepare_regional_data <- function(data, countries, this_region = NULL) {
-  this_region <- this_region %||% as.character(na.ommit(unique(data$region)))
+prepare_regional_data <- function(data, countries, regions = NULL) {
+  regions <- regions %||% as.character(na.ommit(unique(data$region)))
   data %>%
     subset_leftover_regions() %>%
-    dplyr::filter(region %in% this_region) %>%
+    dplyr::filter(region %in% regions) %>%
     join_countries(countries)
 }
 
