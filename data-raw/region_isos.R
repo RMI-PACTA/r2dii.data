@@ -68,13 +68,13 @@ countries <- subset_country_name(region_data)
 
 bound1 <- bind_countries(countries, region_data, regions = NULL)
 
-all_countries <-  unique_countries(bound1)
 
 
 advanced_economies <- bound1 %>%
   dplyr::filter(region == "advanced economies")
 
-developing_economies <- all_countries %>%
+developing_economies <- bound1 %>%
+  unique_countries() %>%
   dplyr::filter(!(value %in% advanced_economies$value)) %>%
   dplyr::mutate(region = "developing economies", source = weo_year)
 
@@ -92,6 +92,9 @@ not_in_iea <- c(
 iea <- oecd %>%
   dplyr::filter(!(value %in% not_in_iea)) %>%
   dplyr::mutate(region = "iea")
+
+all_countries <-  bound1 %>%
+  unique_countries()
 
 non_oecd <- all_countries %>%
   dplyr::filter(!(value %in% oecd$value)) %>%
