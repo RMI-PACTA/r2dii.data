@@ -8,6 +8,9 @@ library(usethis)
 this_source <- "weo_2019"
 path <- file.path("data-raw", paste0("region_isos_", this_source, ".csv"))
 
+weo_path <- function(x) file.path("data-raw", paste0("region_isos_", x, ".csv"))
+path <- weo_path(this_source)
+
 region_data_tibble <- utils::read.csv(
   path,
   colClasses = "character",
