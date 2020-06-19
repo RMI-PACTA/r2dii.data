@@ -26,12 +26,12 @@ subset_country_name <- function(data) {
 # World Energy Outlook
 weo_year <- "weo_2019"
 
-region_data_tibble <-  read_regions(regions_path(weo_year))
-region_country_name <- subset_country_name(region_data_tibble)
+region_data <-  read_regions(regions_path(weo_year))
+region_country_name <- subset_country_name(region_data)
 
 # some regions are cyclically defined using other regions in the raw data
 # we need to expand these and join them back in
-leftover_regions <- dplyr::filter(region_data_tibble, type == "region") %>%
+leftover_regions <- dplyr::filter(region_data, type == "region") %>%
   dplyr::select(-type)
 
 leftover_regions_expanded_by_country <- leftover_regions %>%
@@ -126,13 +126,13 @@ region_isos_weo_2019 <- out_only_countries %>%
 
 weo_year <- "etp_2017"
 
-region_data_tibble <-  read_regions(regions_path(weo_year))
-region_country_name <- subset_country_name(region_data_tibble)
+region_data <-  read_regions(regions_path(weo_year))
+region_country_name <- subset_country_name(region_data)
 
 
 # some regions are cyclically defined using other regions in the raw data
 # we need to expand these and join them back in
-leftover_regions <- dplyr::filter(region_data_tibble, type == "region") %>%
+leftover_regions <- dplyr::filter(region_data, type == "region") %>%
   dplyr::select(-type)
 
 oecd_asia_oceania_expanded_by_country <- leftover_regions %>%
