@@ -5,11 +5,11 @@ library(usethis)
 # Source: raw_regions_weo_2019.csv was transcribed from page 780 of the 2019
 # World Energy Outlook
 
-this_source <- "weo_2019"
-path <- file.path("data-raw", paste0("region_isos_", this_source, ".csv"))
+weo_year <- "weo_2019"
+path <- file.path("data-raw", paste0("region_isos_", weo_year, ".csv"))
 
 weo_path <- function(x) file.path("data-raw", paste0("region_isos_", x, ".csv"))
-path <- weo_path(this_source)
+path <- weo_path(weo_year)
 
 region_data_tibble <- utils::read.csv(
   path,
@@ -43,14 +43,14 @@ all_countries <- out_only_countries %>%
   unique()
 
 global <- all_countries %>%
-  dplyr::mutate(region = "global", source = this_source)
+  dplyr::mutate(region = "global", source = weo_year)
 
 advanced_economies <- out_only_countries %>%
   dplyr::filter(region == "advanced economies")
 
 developing_economies <- all_countries %>%
   dplyr::filter(!(value %in% advanced_economies$value)) %>%
-  dplyr::mutate(region = "developing economies", source = this_source)
+  dplyr::mutate(region = "developing economies", source = weo_year)
 
 oecd <- dplyr::filter(out_only_countries, region == "oecd")
 
@@ -69,13 +69,13 @@ iea <- oecd %>%
 
 non_oecd <- all_countries %>%
   dplyr::filter(!(value %in% oecd$value)) %>%
-  dplyr::mutate(region = "non oecd", source = this_source)
+  dplyr::mutate(region = "non oecd", source = weo_year)
 
 opec <- dplyr::filter(out_only_countries, region == "opec")
 
 non_opec <- all_countries %>%
   dplyr::filter(!(value %in% opec$value)) %>%
-  dplyr::mutate(region = "non opec", source = this_source)
+  dplyr::mutate(region = "non opec", source = weo_year)
 
 # check how many countries don't match their isos
 fix <- out_only_countries %>%
@@ -105,8 +105,8 @@ region_isos_weo_2019 <- out_only_countries %>%
 # * raw_regions_etp_2017.csv was transcribed from page 780 of the 2017 Energy
 # Technology Perspectives
 
-this_source <- "etp_2017"
-path <- file.path("data-raw", paste0("region_isos_", this_source, ".csv"))
+weo_year <- "etp_2017"
+path <- file.path("data-raw", paste0("region_isos_", weo_year, ".csv"))
 
 region_data_tibble <- utils::read.csv(
   path,
@@ -150,7 +150,7 @@ all_countries <- out_only_countries %>%
   unique()
 
 global <- all_countries %>%
-  dplyr::mutate(region = "global", source = this_source)
+  dplyr::mutate(region = "global", source = weo_year)
 
 # check how many countries dont match their isos
 fix <- out_only_countries %>%
