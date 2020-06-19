@@ -142,9 +142,7 @@ region_country_name <- subset_country_name(region_data)
 # we need to expand these and join them back in
 this_region <- "oecd asia oceania"
 oecd_asia_oceania_expanded_by_country <- region_data %>%
-  subset_leftover_regions() %>%
-  dplyr::filter(region == this_region) %>%
-  join_countries(region_country_name)
+  prepare_regional_data(region_country_name, this_region)
 
 region_country_name <- rbind(region_country_name, oecd_asia_oceania_expanded_by_country)
 
