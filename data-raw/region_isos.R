@@ -62,23 +62,23 @@ weo_year <- "weo_2019"
 region_data <- read_regions(regions_path(weo_year))
 countries <- subset_country_name(region_data)
 
-out_only_countries <- bind_countries(countries, region_data, regions = NULL)
+bound1 <- bind_countries(countries, region_data, regions = NULL)
 
-all_countries <- out_only_countries %>%
+all_countries <- bound1 %>%
   dplyr::select(value) %>%
   unique()
 
 global <- all_countries %>%
   dplyr::mutate(region = "global", source = weo_year)
 
-advanced_economies <- out_only_countries %>%
+advanced_economies <- bound1 %>%
   dplyr::filter(region == "advanced economies")
 
 developing_economies <- all_countries %>%
   dplyr::filter(!(value %in% advanced_economies$value)) %>%
   dplyr::mutate(region = "developing economies", source = weo_year)
 
-oecd <- dplyr::filter(out_only_countries, region == "oecd")
+oecd <- dplyr::filter(bound1, region == "oecd")
 
 not_in_iea <- c(
   "chile",
@@ -97,14 +97,14 @@ non_oecd <- all_countries %>%
   dplyr::filter(!(value %in% oecd$value)) %>%
   dplyr::mutate(region = "non oecd", source = weo_year)
 
-opec <- dplyr::filter(out_only_countries, region == "opec")
+opec <- dplyr::filter(bound1, region == "opec")
 
 non_opec <- all_countries %>%
   dplyr::filter(!(value %in% opec$value)) %>%
   dplyr::mutate(region = "non opec", source = weo_year)
 
 # check how many countries don't match their isos
-fix <- out_only_countries %>%
+fix <- bound1 %>%
   rbind(developing_economies, iea, non_oecd, non_opec) %>%
   dplyr::left_join(r2dii.data::iso_codes, by = c("value" = "country")) %>%
   dplyr::filter(is.na(country_iso))
@@ -119,7 +119,7 @@ if (nrow(fix) > 0L) {
   )
 }
 
-region_isos_weo_2019 <- out_only_countries %>%
+region_isos_weo_2019 <- bound1 %>%
   rbind(global, developing_economies, iea, non_oecd, non_opec) %>%
   dplyr::left_join(r2dii.data::iso_codes, by = c("value" = "country")) %>%
   dplyr::filter(!is.na(country_iso)) %>%
@@ -151,11 +151,9 @@ countries <- subset_country_name(region_data)
 
 # some regions are cyclically defined using other regions in the raw data
 # we need to expand these and join them back in
-region <- "oecd asia oceania"
-countries2 <- bind_countries(countries, region_data, region)
+bound2 <- bind_countries(countries, region_data, "oecd asia oceania")
 
-region <- "oecd"
-out_only_countries <- bind_countries(countries2, region_data, "oecd")
+out_only_countries <- bind_countries(bound2, region_data, "oecd")
 
 all_countries <- out_only_countries %>%
   dplyr::select(value) %>%
