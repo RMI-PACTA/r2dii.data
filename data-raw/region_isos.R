@@ -2,9 +2,11 @@ library(tibble)
 library(dplyr)
 library(usethis)
 
-weo_path <- function(x) file.path("data-raw", paste0("region_isos_", x, ".csv"))
+regions_path <- function(x) {
+  file.path("data-raw", paste0("region_isos_", x, ".csv"))
+}
 
-read_region <- function(path) {
+read_regions <- function(path) {
   utils::read.csv(
     path,
     colClasses = "character",
@@ -24,11 +26,8 @@ subset_country_name <- function(data) {
 # World Energy Outlook
 weo_year <- "weo_2019"
 
-region_data_tibble <- weo_year %>% weo_path() %>% read_region()
-region_country_name <- weo_year %>%
-  weo_path() %>%
-  read_region() %>%
-  subset_country_name()
+region_data_tibble <-  read_regions(regions_path(weo_year))
+region_country_name <- subset_country_name(region_data_tibble)
 
 # some regions are cyclically defined using other regions in the raw data
 # we need to expand these and join them back in
@@ -107,6 +106,19 @@ region_isos_weo_2019 <- out_only_countries %>%
   dplyr::rename(isos = country_iso) %>%
   dplyr::select(region, isos, source)
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 ######################## SAME but for ETP 2017
 # Source:
 # * raw_regions_etp_2017.csv was transcribed from page 780 of the 2017 Energy
@@ -114,11 +126,9 @@ region_isos_weo_2019 <- out_only_countries %>%
 
 weo_year <- "etp_2017"
 
-region_data_tibble <- weo_year %>% weo_path() %>% read_region()
-region_country_name <- weo_year %>%
-  weo_path() %>%
-  read_region() %>%
-  subset_country_name()
+region_data_tibble <-  read_regions(regions_path(weo_year))
+region_country_name <- subset_country_name(region_data_tibble)
+
 
 # some regions are cyclically defined using other regions in the raw data
 # we need to expand these and join them back in
