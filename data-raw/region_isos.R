@@ -6,13 +6,12 @@ library(usethis)
 # World Energy Outlook
 
 weo_year <- "weo_2019"
-path <- file.path("data-raw", paste0("region_isos_", weo_year, ".csv"))
 
 weo_path <- function(x) file.path("data-raw", paste0("region_isos_", x, ".csv"))
 path <- weo_path(weo_year)
 
 region_data_tibble <- utils::read.csv(
-  path,
+  weo_path(weo_year),
   colClasses = "character",
   na.strings = c("", "NA"),
   stringsAsFactors = FALSE
@@ -106,10 +105,9 @@ region_isos_weo_2019 <- out_only_countries %>%
 # Technology Perspectives
 
 weo_year <- "etp_2017"
-path <- file.path("data-raw", paste0("region_isos_", weo_year, ".csv"))
 
 region_data_tibble <- utils::read.csv(
-  path,
+  weo_path(weo_year),
   colClasses = "character",
   na.strings = c("", "NA"),
   stringsAsFactors = FALSE
