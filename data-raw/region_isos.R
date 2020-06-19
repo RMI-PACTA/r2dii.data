@@ -38,25 +38,27 @@ join_countries <- function(data, countries) {
 }
 
 prepare_regional_data <- function(data, countries, regions = NULL) {
-  regions <- regions %||% as.character(na.ommit(unique(data$region)))
+  regions <- regions %||% as.character(na.omit(unique(data$region)))
+
   data %>%
     subset_leftover_regions() %>%
     dplyr::filter(region %in% regions) %>%
     join_countries(countries)
 }
 
+
+
 # Source: raw_regions_weo_2019.csv was transcribed from page 780 of the 2019
 # World Energy Outlook
 weo_year <- "weo_2019"
 
-region_data <-  read_regions(regions_path(weo_year))
+region_data <- read_regions(regions_path(weo_year))
 region_country_name <- subset_country_name(region_data)
 
 # some regions are cyclically defined using other regions in the raw data
 # we need to expand these and join them back in
 leftover_regions_expanded_by_country <- region_data %>%
-  subset_leftover_regions() %>%
-  join_countries(region_country_name)
+  prepare_regional_data(region_country_name)
 
 out_only_countries <- region_country_name %>%
   rbind(leftover_regions_expanded_by_country) %>%
