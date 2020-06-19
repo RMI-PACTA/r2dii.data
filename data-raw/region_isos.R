@@ -148,12 +148,6 @@ oecd_asia_oceania_expanded_by_country <- region_data %>%
 
 region_country_name <- rbind(region_country_name, oecd_asia_oceania_expanded_by_country)
 
-this_region <- "oecd"
-oecd <- region_data %>%
-  subset_leftover_regions() %>%
-  dplyr::filter(region == this_region) %>%
-  join_countries(region_country_name)
-
 prepare_regional_data <- function(data, countries, this_region) {
   data %>%
     subset_leftover_regions() %>%
@@ -161,6 +155,7 @@ prepare_regional_data <- function(data, countries, this_region) {
     join_countries(countries)
 }
 
+this_region <- "oecd"
 oecd <- region_data %>%
   prepare_regional_data(region_country_name, this_region)
 
