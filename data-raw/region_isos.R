@@ -63,6 +63,18 @@ global_data <- function(data, source) {
     dplyr::mutate(region = "global", source = source)
 }
 
+warn_if_country_iso_is_missing <- function(fix) {
+  if (nrow(fix) > 0L) {
+    warning(
+      "`country_iso` is missing in ", nrow(fix), " rows:
+      Likely not all countries will match or have isos, e.g. smaller polynesian
+      islands may be unmatched. Country definitions are not standardized and
+      change. Match only until you are happy.",
+      call. = FALSE
+    )
+  }
+}
+
 
 
 # Source: raw_regions_weo_2019.csv was transcribed from page 780 of the 2019
@@ -115,17 +127,7 @@ fix <- bound1 %>%
   dplyr::left_join(r2dii.data::iso_codes, by = c("value" = "country")) %>%
   dplyr::filter(is.na(country_iso))
 
-warn_if_country_iso_is_missing <- function(fix) {
-  if (nrow(fix) > 0L) {
-    warning(
-      "`country_iso` is missing in ", nrow(fix), " rows:
-      Likely not all countries will match or have isos, e.g. smaller polynesian
-      islands may be unmatched. Country definitions are not standardized and
-      change. Match only until you are happy.",
-      call. = FALSE
-    )
-  }
-}
+
 warn_if_country_iso_is_missing(fix)
 
 region_isos_weo_2019 <- bound1 %>%
@@ -179,15 +181,7 @@ fix <- bound3 %>%
   dplyr::left_join(r2dii.data::iso_codes, by = c("value" = "country")) %>%
   dplyr::filter(is.na(country_iso))
 
-if (nrow(fix) > 0L) {
-  warning(
-    "`country_iso` is missing in ", nrow(fix), " rows:
-    Likely not all countries will match or have isos, e.g. smaller polynesian
-    islands may be unmatched. Country definitions are not standardized and
-    change. Match only until you are happy.",
-    call. = FALSE
-  )
-}
+warn_if_country_iso_is_missing(fix)
 
 region_isos_etp_2017 <- bound3 %>%
   rbind(global_data(., weo_year)) %>%
