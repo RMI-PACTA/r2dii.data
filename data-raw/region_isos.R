@@ -74,7 +74,7 @@ non_opec <- all_countries %>%
   dplyr::filter(!(value %in% opec$value)) %>%
   dplyr::mutate(region = "non opec", source = this_source)
 
-# check how many countries dont match their isos
+# check how many countries don't match their isos
 fix <- out_only_countries %>%
   rbind(developing_economies, iea, non_oecd, non_opec) %>%
   dplyr::left_join(r2dii.data::iso_codes, by = c("value" = "country")) %>%
