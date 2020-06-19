@@ -18,6 +18,19 @@ region_data_tibble <- utils::read.csv(
 ) %>%
   tibble::as_tibble()
 
+read_region <- function(path) {
+  utils::read.csv(
+    path,
+    colClasses = "character",
+    na.strings = c("", "NA"),
+    stringsAsFactors = FALSE
+  ) %>%
+    tibble::as_tibble()
+}
+
+region_data_tibble <- read_region(weo_path(weo_year))
+
+
 region_country_name <- region_data_tibble %>%
   dplyr::filter(type == "country_name") %>%
   dplyr::select(-type)
@@ -113,6 +126,8 @@ region_data_tibble <- utils::read.csv(
   stringsAsFactors = FALSE
 ) %>%
   tibble::as_tibble()
+
+region_data_tibble <- read_region(weo_path(weo_year))
 
 region_country_name <- region_data_tibble %>%
   dplyr::filter(type == "country_name") %>%
