@@ -57,6 +57,12 @@ unique_countries <- function(data) {
   unique(dplyr::select(data, value))
 }
 
+global_data <- function(data, source) {
+  data %>%
+    unique_countries() %>%
+    dplyr::mutate(region = "global", source = source)
+}
+
 
 
 # Source: raw_regions_weo_2019.csv was transcribed from page 780 of the 2019
@@ -123,11 +129,7 @@ global <- bound1 %>%
   unique_countries() %>%
   dplyr::mutate(region = "global", source = weo_year)
 
-global_data <- function(data, source) {
-  data %>%
-    unique_countries() %>%
-    dplyr::mutate(region = "global", source = source)
-}
+global <- global_data(bound1, weo_year)
 
 region_isos_weo_2019 <- bound1 %>%
   rbind(global, developing_economies, iea, non_oecd, non_opec) %>%
