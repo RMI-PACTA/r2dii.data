@@ -153,9 +153,9 @@ countries <- subset_country_name(region_data)
 # we need to expand these and join them back in
 bound2 <- bind_countries(countries, region_data, "oecd asia oceania")
 
-out_only_countries <- bind_countries(bound2, region_data, "oecd")
+bound3 <- bind_countries(bound2, region_data, "oecd")
 
-all_countries <- out_only_countries %>%
+all_countries <- bound3 %>%
   dplyr::select(value) %>%
   unique()
 
@@ -163,7 +163,7 @@ global <- all_countries %>%
   dplyr::mutate(region = "global", source = weo_year)
 
 # check how many countries dont match their isos
-fix <- out_only_countries %>%
+fix <- bound3 %>%
   dplyr::left_join(r2dii.data::iso_codes, by = c("value" = "country")) %>%
   dplyr::filter(is.na(country_iso))
 
@@ -177,7 +177,7 @@ if (nrow(fix) > 0L) {
   )
 }
 
-region_isos_etp_2017 <- out_only_countries %>%
+region_isos_etp_2017 <- bound3 %>%
   rbind(global) %>%
   dplyr::left_join(r2dii.data::iso_codes, by = c("value" = "country")) %>%
   dplyr::filter(!is.na(country_iso)) %>%
