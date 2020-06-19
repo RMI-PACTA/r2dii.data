@@ -57,11 +57,10 @@ region_country_name <- subset_country_name(region_data)
 
 # some regions are cyclically defined using other regions in the raw data
 # we need to expand these and join them back in
-leftover_regions_expanded_by_country <- region_data %>%
-  prepare_regional_data(region_country_name)
+by_country <- prepare_regional_data(region_data, region_country_name)
 
 out_only_countries <- region_country_name %>%
-  rbind(leftover_regions_expanded_by_country) %>%
+  rbind(by_country) %>%
   dplyr::arrange(region)
 
 all_countries <- out_only_countries %>%
