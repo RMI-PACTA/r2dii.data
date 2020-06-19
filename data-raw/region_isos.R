@@ -78,6 +78,8 @@ developing_economies <- bound1 %>%
   dplyr::filter(!(value %in% advanced_economies$value)) %>%
   dplyr::mutate(region = "developing economies", source = weo_year)
 
+oecd <- dplyr::filter(bound1, region == "oecd")
+
 not_in_iea <- c(
   "chile",
   "iceland",
@@ -86,8 +88,6 @@ not_in_iea <- c(
   "lithuania",
   "slovenia"
 )
-
-oecd <- dplyr::filter(bound1, region == "oecd")
 
 iea <- oecd %>%
   dplyr::filter(!(value %in% not_in_iea)) %>%
