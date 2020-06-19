@@ -62,16 +62,11 @@ unique_countries <- function(data) {
 # Source: raw_regions_weo_2019.csv was transcribed from page 780 of the 2019
 # World Energy Outlook
 weo_year <- "weo_2019"
-
 region_data <- read_regions(regions_path(weo_year))
 countries <- subset_country_name(region_data)
-
 bound1 <- bind_countries(countries, region_data, regions = NULL)
 
-
-
-advanced_economies <- bound1 %>%
-  dplyr::filter(region == "advanced economies")
+advanced_economies <- bound1 %>% dplyr::filter(region == "advanced economies")
 
 developing_economies <- bound1 %>%
   unique_countries() %>%
