@@ -14,15 +14,21 @@ read_region <- function(path) {
     tibble::as_tibble()
 }
 
+subset_country_name <- function(data) {
+  data %>%
+  dplyr::filter(type == "country_name") %>%
+  dplyr::select(-type)
+}
+
 # Source: raw_regions_weo_2019.csv was transcribed from page 780 of the 2019
 # World Energy Outlook
 weo_year <- "weo_2019"
 
 region_data_tibble <- weo_year %>% weo_path() %>% read_region()
-
-region_country_name <- region_data_tibble %>%
-  dplyr::filter(type == "country_name") %>%
-  dplyr::select(-type)
+region_country_name <- weo_year %>%
+  weo_path() %>%
+  read_region() %>%
+  subset_country_name()
 
 # some regions are cyclically defined using other regions in the raw data
 # we need to expand these and join them back in
@@ -109,10 +115,10 @@ region_isos_weo_2019 <- out_only_countries %>%
 weo_year <- "etp_2017"
 
 region_data_tibble <- weo_year %>% weo_path() %>% read_region()
-
-region_country_name <- region_data_tibble %>%
-  dplyr::filter(type == "country_name") %>%
-  dplyr::select(-type)
+region_country_name <- weo_year %>%
+  weo_path() %>%
+  read_region() %>%
+  subset_country_name()
 
 # some regions are cyclically defined using other regions in the raw data
 # we need to expand these and join them back in
