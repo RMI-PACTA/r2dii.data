@@ -19,14 +19,14 @@ read_regions <- function(path) {
 
 subset_leftover_regions <- function(data) {
   data %>%
-  dplyr::filter(type == "region") %>%
-  dplyr::select(-type)
+    dplyr::filter(.data$type == "region") %>%
+    dplyr::select(-.data$type)
 }
 
 pick_type <- function(data, type) {
   data %>%
-  dplyr::filter(type == type) %>%
-  dplyr::select(-type)
+  dplyr::filter(.data$type == type) %>%
+  dplyr::select(-.data$type)
 }
 
 join_countries <- function(data, countries) {
