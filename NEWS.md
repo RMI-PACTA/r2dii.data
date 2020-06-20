@@ -1,5 +1,7 @@
 # r2dii.data (development version)
 
+* `region_isos` gains data from ETP 2017 (@jdhoffa #110).
+
 # r2dii.data 0.1.1
 
 * `naics_classification` now includes only 6-digit codes (@QianFeng2020 #102; @jdhoffa #103).
