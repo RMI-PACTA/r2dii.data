@@ -32,13 +32,13 @@ join_countries <- function(data, countries) {
     rename(value = .data$value.y)
 }
 
-prepare_regions <- function(data, countries, regions = NULL) {
-  regions <- regions %||% as.character(na.omit(unique(data$region)))
+prepare_regions <- function(data_region, data_countries, regions = NULL) {
+  regions <- regions %||% as.character(na.omit(unique(data_region$region)))
 
-  data %>%
+  data_region %>%
     pick_type("region") %>%
     filter(.data$region %in% regions) %>%
-    join_countries(countries)
+    join_countries(data_countries)
 }
 
 # some regions are cyclically defined using other regions in the raw data
