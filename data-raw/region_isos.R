@@ -98,14 +98,14 @@ bound1 <- bind_countries(
 )
 
 advanced_economies <- bound1 %>%
-  dplyr::filter(region == "advanced economies")
+  dplyr::filter(.data$region == "advanced economies")
 
 developing_economies <- bound1 %>%
   unique_countries() %>%
-  dplyr::filter(!(value %in% advanced_economies$value)) %>%
+  dplyr::filter(!(.data$value %in% advanced_economies$value)) %>%
   dplyr::mutate(region = "developing economies", source = weo_year)
 
-oecd <- dplyr::filter(bound1, region == "oecd")
+oecd <- dplyr::filter(bound1, .data$region == "oecd")
 
 not_in_iea <- c(
   "chile",
@@ -117,26 +117,26 @@ not_in_iea <- c(
 )
 
 iea <- oecd %>%
-  dplyr::filter(!(value %in% not_in_iea)) %>%
+  dplyr::filter(!(.data$value %in% not_in_iea)) %>%
   dplyr::mutate(region = "iea")
 
 non_oecd <- bound1 %>%
   unique_countries() %>%
-  dplyr::filter(!(value %in% oecd$value)) %>%
+  dplyr::filter(!(.data$value %in% oecd$value)) %>%
   dplyr::mutate(region = "non oecd", source = weo_year)
 
-opec <- dplyr::filter(bound1, region == "opec")
+opec <- dplyr::filter(bound1, .data$region == "opec")
 
 non_opec <- bound1 %>%
   unique_countries() %>%
-  dplyr::filter(!(value %in% opec$value)) %>%
+  dplyr::filter(!(.data$value %in% opec$value)) %>%
   dplyr::mutate(region = "non opec", source = weo_year)
 
 # check how many countries don't match their isos
 fix <- bound1 %>%
   rbind(developing_economies, iea, non_oecd, non_opec) %>%
   dplyr::left_join(r2dii.data::iso_codes, by = c("value" = "country")) %>%
-  dplyr::filter(is.na(country_iso))
+  dplyr::filter(is.na(.data$country_iso))
 
 warn_if_country_iso_is_missing(fix)
 
