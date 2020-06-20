@@ -31,10 +31,10 @@ pick_type <- function(data, .type) {
 
 join_countries <- function(data, countries) {
   data %>%
-    dplyr::select(region, value) %>%
+    dplyr::select(region, .data$value) %>%
     dplyr::left_join(countries, by = c("value" = "region")) %>%
     dplyr::select(-value) %>%
-    dplyr::rename(value = value.y)
+    dplyr::rename(value = .data$value.y)
 }
 
 prepare_regions <- function(data, countries, regions = NULL) {
@@ -81,9 +81,9 @@ warn_if_country_iso_is_missing <- function(fix) {
 prepare_isos <- function(data) {
   data %>%
     dplyr::left_join(r2dii.data::iso_codes, by = c("value" = "country")) %>%
-    dplyr::filter(!is.na(country_iso)) %>%
-    dplyr::rename(isos = country_iso) %>%
-    dplyr::select(region, isos, source)
+    dplyr::filter(!is.na(.data$country_iso)) %>%
+    dplyr::rename(isos = .data$country_iso) %>%
+    dplyr::select(.data$region, .data$isos, .data$source)
 }
 
 
