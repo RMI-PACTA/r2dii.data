@@ -155,7 +155,9 @@ region_isos_weo_2019 <- bound1 %>%
   ) %>%
   prepare_isos()
 
-# SAME but for ETP 2017 ---------------------------------------------------
+
+
+# Same but for ETP 2017 ---------------------------------------------------
 
 # Source: raw_regions_etp_2017.csv was transcribed from page 780 of the 2017
 # Energy Technology Perspectives
