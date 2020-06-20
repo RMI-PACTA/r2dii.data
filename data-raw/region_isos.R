@@ -58,7 +58,7 @@ global_data <- function(data, source) {
     mutate(region = "global", source = source)
 }
 
-warn_if_is_missing_country_isos2 <- function(data) {
+warn_if_is_missing_country_isos <- function(data) {
   fix <- data %>%
     left_join(r2dii.data::iso_codes, by = c("value" = "country")) %>%
     filter(is.na(.data$country_iso))
@@ -132,7 +132,7 @@ non_opec <- bound1 %>%
 # check how many countries don't match their isos
 bound1 %>%
   rbind(developing_economies, iea, non_oecd, non_opec) %>%
-  warn_if_is_missing_country_isos2()
+  warn_if_is_missing_country_isos()
 
 region_isos_weo_2019 <- bound1 %>%
   rbind(
@@ -164,7 +164,7 @@ bound3 <- region_data %>%
 
 
 # check how many countries dont match their isos
-bound3 %>% warn_if_is_missing_country_isos2()
+bound3 %>% warn_if_is_missing_country_isos()
 
 region_isos_etp_2017 <- bound3 %>%
   rbind(global_data(., weo_year)) %>%
