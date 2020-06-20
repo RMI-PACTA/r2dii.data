@@ -96,21 +96,22 @@ exclude_values <- function(data, values, .region) {
 # Source: raw_regions_weo_2019.csv was transcribed from page 780 of the 2019
 # World Energy Outlook
 weo_year <- "weo_2019"
-
 region_data <- read_regions(regions_path(weo_year))
 
 bound1 <- region_data %>%
   pick_type("country_name") %>%
   bind_countries(region_data, regions = NULL)
 
-advanced_economies <- bound1 %>% filter(.data$region == "advanced economies")
+advanced_economies <- bound1 %>%
+  filter(.data$region == "advanced economies")
 
 developing_economies <- bound1 %>%
   unique_countries() %>%
   filter(!(.data$value %in% advanced_economies$value)) %>%
   mutate(region = "developing economies", source = weo_year)
 
-oecd <- filter(bound1, .data$region == "oecd")
+oecd <- bound1 %>%
+  filter(.data$region == "oecd")
 
 not_in_iea <- c(
   "chile",
@@ -129,7 +130,8 @@ non_oecd <- bound1 %>%
   exclude_values(oecd$value, .region = "non oecd") %>%
   mutate(source = weo_year)
 
-opec <- region_data %>% filter(.data$region == "opec")
+opec <- region_data %>%
+  filter(.data$region == "opec")
 
 non_opec <- bound1 %>%
   unique_countries() %>%
@@ -160,7 +162,6 @@ region_isos_weo_2019 <- bound1 %>%
 # Source: raw_regions_etp_2017.csv was transcribed from page 780 of the 2017
 # Energy Technology Perspectives
 weo_year <- "etp_2017"
-
 region_data <- read_regions(regions_path(weo_year))
 
 # some regions are cyclically defined using other regions in the raw data
