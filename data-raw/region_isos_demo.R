@@ -11,8 +11,8 @@ picked <- c(
 )
 
 region_isos_demo <- r2dii.data::region_isos %>%
-  dplyr::mutate(source = "demo_2020") %>%
-  dplyr::filter(.data$region %in% picked)
+  mutate(source = "demo_2020") %>%
+  filter(.data$region %in% picked)
 
 length_ok <- identical(length(unique(region_isos_demo$region)), length(picked))
 stopifnot(length_ok)

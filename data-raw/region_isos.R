@@ -19,16 +19,16 @@ read_regions <- function(path) {
 
 pick_type <- function(data, .type) {
   data %>%
-    dplyr::filter(.data$type == .type) %>%
-    dplyr::select(-.data$type)
+    filter(.data$type == .type) %>%
+    select(-.data$type)
 }
 
 join_countries <- function(data, countries) {
   data %>%
-    dplyr::select(region, .data$value) %>%
-    dplyr::left_join(countries, by = c("value" = "region")) %>%
-    dplyr::select(-value) %>%
-    dplyr::rename(value = .data$value.y)
+    select(region, .data$value) %>%
+    left_join(countries, by = c("value" = "region")) %>%
+    select(-value) %>%
+    rename(value = .data$value.y)
 }
 
 prepare_regions <- function(data, countries, regions = NULL) {
@@ -36,7 +36,7 @@ prepare_regions <- function(data, countries, regions = NULL) {
 
   data %>%
     pick_type("region") %>%
-    dplyr::filter(.data$region %in% regions) %>%
+    filter(.data$region %in% regions) %>%
     join_countries(countries)
 }
 
@@ -44,17 +44,17 @@ prepare_regions <- function(data, countries, regions = NULL) {
 # we need to expand these and join them back in
 bind_countries <- function(countries, region_data, regions = NULL) {
   rbind(countries, prepare_regions(region_data, countries, regions)) %>%
-    dplyr::arrange(.data$region)
+    arrange(.data$region)
 }
 
 unique_countries <- function(data) {
-  unique(dplyr::select(data, .data$value))
+  unique(select(data, .data$value))
 }
 
 global_data <- function(data, source) {
   data %>%
     unique_countries() %>%
-    dplyr::mutate(region = "global", source = source)
+    mutate(region = "global", source = source)
 }
 
 warn_if_is_missing_country_isos <- function(fix) {
@@ -71,10 +71,10 @@ warn_if_is_missing_country_isos <- function(fix) {
 
 prepare_isos <- function(data) {
   data %>%
-    dplyr::left_join(r2dii.data::iso_codes, by = c("value" = "country")) %>%
-    dplyr::filter(!is.na(.data$country_iso)) %>%
-    dplyr::rename(isos = .data$country_iso) %>%
-    dplyr::select(.data$region, .data$isos, .data$source)
+    left_join(r2dii.data::iso_codes, by = c("value" = "country")) %>%
+    filter(!is.na(.data$country_iso)) %>%
+    rename(isos = .data$country_iso) %>%
+    select(.data$region, .data$isos, .data$source)
 }
 
 
@@ -90,14 +90,14 @@ bound1 <- bind_countries(
 )
 
 advanced_economies <- bound1 %>%
-  dplyr::filter(.data$region == "advanced economies")
+  filter(.data$region == "advanced economies")
 
 developing_economies <- bound1 %>%
   unique_countries() %>%
-  dplyr::filter(!(.data$value %in% advanced_economies$value)) %>%
-  dplyr::mutate(region = "developing economies", source = weo_year)
+  filter(!(.data$value %in% advanced_economies$value)) %>%
+  mutate(region = "developing economies", source = weo_year)
 
-oecd <- dplyr::filter(bound1, .data$region == "oecd")
+oecd <- filter(bound1, .data$region == "oecd")
 
 not_in_iea <- c(
   "chile",
@@ -109,26 +109,26 @@ not_in_iea <- c(
 )
 
 iea <- oecd %>%
-  dplyr::filter(!(.data$value %in% not_in_iea)) %>%
-  dplyr::mutate(region = "iea")
+  filter(!(.data$value %in% not_in_iea)) %>%
+  mutate(region = "iea")
 
 non_oecd <- bound1 %>%
   unique_countries() %>%
-  dplyr::filter(!(.data$value %in% oecd$value)) %>%
-  dplyr::mutate(region = "non oecd", source = weo_year)
+  filter(!(.data$value %in% oecd$value)) %>%
+  mutate(region = "non oecd", source = weo_year)
 
-opec <- dplyr::filter(bound1, .data$region == "opec")
+opec <- filter(bound1, .data$region == "opec")
 
 non_opec <- bound1 %>%
   unique_countries() %>%
-  dplyr::filter(!(.data$value %in% opec$value)) %>%
-  dplyr::mutate(region = "non opec", source = weo_year)
+  filter(!(.data$value %in% opec$value)) %>%
+  mutate(region = "non opec", source = weo_year)
 
 # check how many countries don't match their isos
 fix <- bound1 %>%
   rbind(developing_economies, iea, non_oecd, non_opec) %>%
-  dplyr::left_join(r2dii.data::iso_codes, by = c("value" = "country")) %>%
-  dplyr::filter(is.na(.data$country_iso))
+  left_join(r2dii.data::iso_codes, by = c("value" = "country")) %>%
+  filter(is.na(.data$country_iso))
 
 warn_if_is_missing_country_isos(fix)
 
@@ -166,8 +166,8 @@ bound3 <- bind_countries(
 
 # check how many countries dont match their isos
 fix <- bound3 %>%
-  dplyr::left_join(r2dii.data::iso_codes, by = c("value" = "country")) %>%
-  dplyr::filter(is.na(.data$country_iso))
+  left_join(r2dii.data::iso_codes, by = c("value" = "country")) %>%
+  filter(is.na(.data$country_iso))
 
 warn_if_is_missing_country_isos(fix)
 
