@@ -166,6 +166,9 @@ region_isos_etp_2017 <- bound3 %>%
   rbind(global_data(., weo_year)) %>%
   prepare_isos()
 
-region_isos <- rbind(region_isos_weo_2019, region_isos_etp_2017)
+region_isos <- rbind(
+  region_isos_weo_2019,
+  region_isos_etp_2017
+)
 
 usethis::use_data(region_isos, overwrite = TRUE)
