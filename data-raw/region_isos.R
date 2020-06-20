@@ -154,13 +154,10 @@ region_data <- read_regions(regions_path(weo_year))
 
 # some regions are cyclically defined using other regions in the raw data
 # we need to expand these and join them back in
-bound2 <- region_data %>%
+bound3 <- region_data %>%
   pick_type("country_name") %>%
-  bind_countries(region_data, "oecd asia oceania")
-
-bound3 <- bind_countries(
-  bound2, region_data, "oecd"
-)
+  bind_countries(region_data, "oecd asia oceania") %>%
+  bind_countries(region_data, "oecd")
 
 
 # check how many countries dont match their isos
