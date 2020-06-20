@@ -68,6 +68,8 @@ warn_if_is_missing_country_isos <- function(fix) {
       call. = FALSE
     )
   }
+
+  invisible(fix)
 }
 
 prepare_isos <- function(data) {
