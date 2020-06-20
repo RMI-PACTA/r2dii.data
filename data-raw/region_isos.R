@@ -162,11 +162,10 @@ bound3 <- region_data %>%
 
 
 # check how many countries dont match their isos
-fix <- bound3 %>%
+bound3 %>%
   left_join(r2dii.data::iso_codes, by = c("value" = "country")) %>%
-  filter(is.na(.data$country_iso))
-
-warn_if_is_missing_country_isos(fix)
+  filter(is.na(.data$country_iso)) %>%
+  warn_if_is_missing_country_isos()
 
 region_isos_etp_2017 <- bound3 %>%
   rbind(global_data(., weo_year)) %>%
