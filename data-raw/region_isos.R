@@ -175,7 +175,7 @@ bound3 <- bind_countries(
 # check how many countries dont match their isos
 fix <- bound3 %>%
   dplyr::left_join(r2dii.data::iso_codes, by = c("value" = "country")) %>%
-  dplyr::filter(is.na(country_iso))
+  dplyr::filter(is.na(.data$country_iso))
 
 warn_if_country_iso_is_missing(fix)
 
