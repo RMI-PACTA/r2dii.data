@@ -17,15 +17,15 @@ read_regions <- function(path) {
     tibble::as_tibble()
 }
 
-subset_country_name <- function(data) {
-  data %>%
-  dplyr::filter(type == "country_name") %>%
-  dplyr::select(-type)
-}
-
 subset_leftover_regions <- function(data) {
   data %>%
   dplyr::filter(type == "region") %>%
+  dplyr::select(-type)
+}
+
+pick_type <- function(data, type) {
+  data %>%
+  dplyr::filter(type == type) %>%
   dplyr::select(-type)
 }
 
@@ -91,7 +91,7 @@ weo_year <- "weo_2019"
 region_data <- read_regions(regions_path(weo_year))
 
 bound1 <- bind_countries(
-  subset_country_name(region_data), region_data, regions = NULL
+  pick_type(region_data, "country_name"), region_data, regions = NULL
 )
 
 advanced_economies <- bound1 %>%
@@ -161,7 +161,7 @@ region_data <-  read_regions(regions_path(weo_year))
 # some regions are cyclically defined using other regions in the raw data
 # we need to expand these and join them back in
 bound2 <- bind_countries(
-  subset_country_name(region_data), region_data, "oecd asia oceania"
+  pick_type(region_data, "country_name"), region_data, "oecd asia oceania"
 )
 
 bound3 <- bind_countries(
