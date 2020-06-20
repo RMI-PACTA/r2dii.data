@@ -26,7 +26,7 @@ pick_type <- function(data, .type) {
 
 join_countries <- function(data, countries) {
   data %>%
-    select(region, .data$value) %>%
+    select(.data$region, .data$value) %>%
     left_join(countries, by = c("value" = "region")) %>%
     select(-.data$value) %>%
     rename(value = .data$value.y)
