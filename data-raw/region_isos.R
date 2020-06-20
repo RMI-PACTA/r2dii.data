@@ -23,9 +23,9 @@ subset_leftover_regions <- function(data) {
     dplyr::select(-.data$type)
 }
 
-pick_type <- function(data, type) {
+pick_type <- function(data, .type) {
   data %>%
-    dplyr::filter(.data$type == type) %>%
+    dplyr::filter(.data$type == .type) %>%
     dplyr::select(-.data$type)
 }
 
@@ -41,8 +41,9 @@ prepare_regions <- function(data, countries, regions = NULL) {
   regions <- regions %||% as.character(na.omit(unique(data$region)))
 
   data %>%
-    subset_leftover_regions() %>%
-    dplyr::filter(region %in% regions) %>%
+    pick_type("region") %>%
+    # subset_leftover_regions() %>%
+    dplyr::filter(.data$region %in% regions) %>%
     join_countries(countries)
 }
 
