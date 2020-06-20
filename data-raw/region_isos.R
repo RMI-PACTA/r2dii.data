@@ -127,9 +127,16 @@ fix <- bound1 %>%
   dplyr::left_join(r2dii.data::iso_codes, by = c("value" = "country")) %>%
   dplyr::filter(is.na(country_iso))
 
-
 warn_if_country_iso_is_missing(fix)
 
+
+prepare_isos <- function(data) {
+  data %>%
+    dplyr::left_join(r2dii.data::iso_codes, by = c("value" = "country")) %>%
+    dplyr::filter(!is.na(country_iso)) %>%
+    dplyr::rename(isos = country_iso) %>%
+    dplyr::select(region, isos, source)
+}
 region_isos_weo_2019 <- bound1 %>%
   rbind(
     global_data(., weo_year),
@@ -138,10 +145,11 @@ region_isos_weo_2019 <- bound1 %>%
     non_oecd,
     non_opec
   ) %>%
-  dplyr::left_join(r2dii.data::iso_codes, by = c("value" = "country")) %>%
-  dplyr::filter(!is.na(country_iso)) %>%
-  dplyr::rename(isos = country_iso) %>%
-  dplyr::select(region, isos, source)
+  prepare_isos()
+  # dplyr::left_join(r2dii.data::iso_codes, by = c("value" = "country")) %>%
+  # dplyr::filter(!is.na(country_iso)) %>%
+  # dplyr::rename(isos = country_iso) %>%
+  # dplyr::select(region, isos, source)
 
 
 
