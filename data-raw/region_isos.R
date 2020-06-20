@@ -57,7 +57,7 @@ global_data <- function(data, source) {
     dplyr::mutate(region = "global", source = source)
 }
 
-warn_if_country_iso_is_missing <- function(fix) {
+warn_if_is_missing_country_isos <- function(fix) {
   if (nrow(fix) > 0L) {
     warning(
       "`country_iso` is missing in ", nrow(fix), " rows:
@@ -130,7 +130,7 @@ fix <- bound1 %>%
   dplyr::left_join(r2dii.data::iso_codes, by = c("value" = "country")) %>%
   dplyr::filter(is.na(.data$country_iso))
 
-warn_if_country_iso_is_missing(fix)
+warn_if_is_missing_country_isos(fix)
 
 region_isos_weo_2019 <- bound1 %>%
   rbind(
@@ -169,7 +169,7 @@ fix <- bound3 %>%
   dplyr::left_join(r2dii.data::iso_codes, by = c("value" = "country")) %>%
   dplyr::filter(is.na(.data$country_iso))
 
-warn_if_country_iso_is_missing(fix)
+warn_if_is_missing_country_isos(fix)
 
 region_isos_etp_2017 <- bound3 %>%
   rbind(global_data(., weo_year)) %>%
