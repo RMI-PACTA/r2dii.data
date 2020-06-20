@@ -114,9 +114,18 @@ not_in_iea <- c(
   "slovenia"
 )
 
+exclude_region <- function(data, not_in_region, .region) {
+  data %>%
+    filter(!(.data$value %in% not_in_region)) %>%
+    mutate(region = .region)
+}
+
 iea <- oecd %>%
   filter(!(.data$value %in% not_in_iea)) %>%
   mutate(region = "iea")
+
+iea <- oecd %>% exclude_region(not_in_iea, .region = "iea")
+
 
 non_oecd <- bound1 %>%
   unique_countries() %>%
