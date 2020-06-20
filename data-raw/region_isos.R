@@ -85,13 +85,11 @@ prepare_isos <- function(data) {
 weo_year <- "weo_2019"
 region_data <- read_regions(regions_path(weo_year))
 
-bound1 <- bind_countries(
-  pick_type(region_data, "country_name"), region_data,
-  regions = NULL
-)
+bound1 <- region_data %>%
+  pick_type("country_name") %>%
+  bind_countries(region_data, regions = NULL)
 
-advanced_economies <- bound1 %>%
-  filter(.data$region == "advanced economies")
+advanced_economies <- bound1 %>% filter(.data$region == "advanced economies")
 
 developing_economies <- bound1 %>%
   unique_countries() %>%
