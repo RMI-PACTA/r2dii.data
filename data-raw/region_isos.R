@@ -87,7 +87,8 @@ weo_year <- "weo_2019"
 region_data <- read_regions(regions_path(weo_year))
 
 bound1 <- bind_countries(
-  pick_type(region_data, "country_name"), region_data, regions = NULL
+  pick_type(region_data, "country_name"), region_data,
+  regions = NULL
 )
 
 advanced_economies <- bound1 %>%
@@ -152,7 +153,7 @@ region_isos_weo_2019 <- bound1 %>%
 
 weo_year <- "etp_2017"
 
-region_data <-  read_regions(regions_path(weo_year))
+region_data <- read_regions(regions_path(weo_year))
 
 # some regions are cyclically defined using other regions in the raw data
 # we need to expand these and join them back in
