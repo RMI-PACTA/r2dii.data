@@ -89,6 +89,7 @@ prepare_isos <- function(data) {
 # Source: raw_regions_weo_2019.csv was transcribed from page 780 of the 2019
 # World Energy Outlook
 weo_year <- "weo_2019"
+
 region_data <- read_regions(regions_path(weo_year))
 
 bound1 <- region_data %>%
@@ -147,10 +148,8 @@ region_isos_weo_2019 <- bound1 %>%
 
 
 ######################## SAME but for ETP 2017
-# Source:
-# * raw_regions_etp_2017.csv was transcribed from page 780 of the 2017 Energy
-# Technology Perspectives
-
+# Source: raw_regions_etp_2017.csv was transcribed from page 780 of the 2017
+# Energy Technology Perspectives
 weo_year <- "etp_2017"
 
 region_data <- read_regions(regions_path(weo_year))
@@ -162,11 +161,8 @@ bound3 <- region_data %>%
   bind_countries(region_data, "oecd asia oceania") %>%
   bind_countries(region_data, "oecd")
 
-
-# check how many countries dont match their isos
-bound3 %>% warn_if_is_missing_country_isos()
-
 region_isos_etp_2017 <- bound3 %>%
+  warn_if_is_missing_country_isos() %>%
   rbind(global_data(., weo_year)) %>%
   prepare_isos()
 
