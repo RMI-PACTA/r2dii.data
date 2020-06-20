@@ -27,7 +27,7 @@ join_countries <- function(data, countries) {
   data %>%
     select(region, .data$value) %>%
     left_join(countries, by = c("value" = "region")) %>%
-    select(-value) %>%
+    select(-.data$value) %>%
     rename(value = .data$value.y)
 }
 
