@@ -84,6 +84,12 @@ prepare_isos <- function(data) {
     select(.data$region, .data$isos, .data$source)
 }
 
+exclude_values <- function(data, values, .region) {
+  data %>%
+    filter(!(.data$value %in% values)) %>%
+    mutate(region = .region)
+}
+
 
 
 # Source: raw_regions_weo_2019.csv was transcribed from page 780 of the 2019
@@ -113,12 +119,6 @@ not_in_iea <- c(
   "lithuania",
   "slovenia"
 )
-
-exclude_values <- function(data, values, .region) {
-  data %>%
-    filter(!(.data$value %in% values)) %>%
-    mutate(region = .region)
-}
 
 iea <- oecd %>%
   exclude_values(not_in_iea, .region = "iea")
