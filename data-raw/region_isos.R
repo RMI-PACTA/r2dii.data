@@ -125,11 +125,6 @@ iea <- oecd %>%
 
 non_oecd <- bound1 %>%
   unique_countries() %>%
-  filter(!(.data$value %in% oecd$value)) %>%
-  mutate(region = "non oecd", source = weo_year)
-
-non_oecd <- bound1 %>%
-  unique_countries() %>%
   exclude_values(oecd$value, .region = "non oecd") %>%
   mutate(source = weo_year)
 
