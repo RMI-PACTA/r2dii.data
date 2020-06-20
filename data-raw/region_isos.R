@@ -126,12 +126,11 @@ non_opec <- bound1 %>%
   mutate(region = "non opec", source = weo_year)
 
 # check how many countries don't match their isos
-fix <- bound1 %>%
+bound1 %>%
   rbind(developing_economies, iea, non_oecd, non_opec) %>%
   left_join(r2dii.data::iso_codes, by = c("value" = "country")) %>%
-  filter(is.na(.data$country_iso))
-
-warn_if_is_missing_country_isos(fix)
+  filter(is.na(.data$country_iso)) %>%
+  warn_if_is_missing_country_isos()
 
 region_isos_weo_2019 <- bound1 %>%
   rbind(
