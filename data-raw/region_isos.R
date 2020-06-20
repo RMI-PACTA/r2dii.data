@@ -137,7 +137,8 @@ opec <- region_data %>% filter(.data$region == "opec")
 non_opec <- bound1 %>%
   unique_countries() %>%
   filter(!(.data$value %in% opec$value)) %>%
-  mutate(region = "non opec", source = weo_year)
+  mutate(region = "non opec") %>%
+  mutate(source = weo_year)
 
 # check how many countries don't match their isos
 bound1 %>%
