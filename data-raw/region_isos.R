@@ -42,10 +42,8 @@ prepare_regions <- function(data, countries, regions = NULL) {
 
 # some regions are cyclically defined using other regions in the raw data
 # we need to expand these and join them back in
-bind_countries <- function(countries, region_data, regions) {
-  rbind(
-    countries, prepare_regions(region_data, countries, regions = regions)
-  ) %>%
+bind_countries <- function(countries, region_data, regions = NULL) {
+  rbind(countries, prepare_regions(region_data, countries, regions)) %>%
     dplyr::arrange(.data$region)
 }
 
