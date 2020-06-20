@@ -137,7 +137,12 @@ non_opec <- bound1 %>%
 
 # check how many countries don't match their isos
 bound1 %>%
-  rbind(developing_economies, iea, non_oecd, non_opec) %>%
+  rbind(
+    developing_economies,
+    iea,
+    non_oecd,
+    non_opec
+  ) %>%
   warn_if_is_missing_country_isos()
 
 region_isos_weo_2019 <- bound1 %>%
