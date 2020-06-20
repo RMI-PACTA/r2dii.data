@@ -120,7 +120,8 @@ exclude_values <- function(data, values, .region) {
     mutate(region = .region)
 }
 
-iea <- oecd %>% exclude_values(not_in_iea, .region = "iea")
+iea <- oecd %>%
+  exclude_values(not_in_iea, .region = "iea")
 
 non_oecd <- bound1 %>%
   unique_countries() %>%
@@ -136,8 +137,7 @@ opec <- region_data %>% filter(.data$region == "opec")
 
 non_opec <- bound1 %>%
   unique_countries() %>%
-  filter(!(.data$value %in% opec$value)) %>%
-  mutate(region = "non opec") %>%
+  exclude_values(opec$value, .region = "non opec") %>%
   mutate(source = weo_year)
 
 # check how many countries don't match their isos
