@@ -127,6 +127,13 @@ non_oecd <- bound1 %>%
   filter(!(.data$value %in% oecd$value)) %>%
   mutate(region = "non oecd", source = weo_year)
 
+non_oecd <- bound1 %>%
+  unique_countries() %>%
+  exclude_values(oecd$value, .region = "non oecd") %>%
+  # filter(!(.data$value %in% oecd$value)) %>%
+  # mutate(region = "non oecd") %>%
+  mutate(source = weo_year)
+
 opec <- region_data %>% filter(.data$region == "opec")
 
 non_opec <- bound1 %>%
