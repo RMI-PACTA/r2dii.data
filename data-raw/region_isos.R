@@ -116,7 +116,7 @@ non_oecd <- bound1 %>%
   filter(!(.data$value %in% oecd$value)) %>%
   mutate(region = "non oecd", source = weo_year)
 
-opec <- filter(bound1, .data$region == "opec")
+opec <- region_data %>% filter(.data$region == "opec")
 
 non_opec <- bound1 %>%
   unique_countries() %>%
@@ -154,9 +154,9 @@ region_data <- read_regions(regions_path(weo_year))
 
 # some regions are cyclically defined using other regions in the raw data
 # we need to expand these and join them back in
-bound2 <- bind_countries(
-  pick_type(region_data, "country_name"), region_data, "oecd asia oceania"
-)
+bound2 <- region_data %>%
+  pick_type("country_name") %>%
+  bind_countries(region_data, "oecd asia oceania")
 
 bound3 <- bind_countries(
   bound2, region_data, "oecd"
