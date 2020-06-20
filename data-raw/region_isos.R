@@ -17,12 +17,6 @@ read_regions <- function(path) {
     tibble::as_tibble()
 }
 
-subset_leftover_regions <- function(data) {
-  data %>%
-    dplyr::filter(.data$type == "region") %>%
-    dplyr::select(-.data$type)
-}
-
 pick_type <- function(data, .type) {
   data %>%
     dplyr::filter(.data$type == .type) %>%
@@ -50,8 +44,7 @@ prepare_regions <- function(data, countries, regions = NULL) {
 # we need to expand these and join them back in
 bind_countries <- function(countries, region_data, regions) {
   rbind(
-    countries,
-    prepare_regions(region_data, countries, regions = regions)
+    countries, prepare_regions(region_data, countries, regions = regions)
   ) %>%
     dplyr::arrange(.data$region)
 }
