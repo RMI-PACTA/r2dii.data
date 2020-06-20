@@ -1,7 +1,8 @@
-library(tibble)
 library(dplyr)
 library(usethis)
 library(rlang)
+
+# Helpers -----------------------------------------------------------------
 
 regions_path <- function(x) {
   file.path("data-raw", paste0("region_isos_", x, ".csv"))
@@ -90,7 +91,7 @@ exclude_values <- function(data, values, .region) {
     mutate(region = .region)
 }
 
-
+# Process raw_regions_weo_2019.csv ----------------------------------------
 
 # Source: raw_regions_weo_2019.csv was transcribed from page 780 of the 2019
 # World Energy Outlook
@@ -135,7 +136,6 @@ non_opec <- bound1 %>%
   exclude_values(opec$value, .region = "non opec") %>%
   mutate(source = weo_year)
 
-# check how many countries don't match their isos
 bound1 %>%
   rbind(
     developing_economies,
@@ -155,9 +155,7 @@ region_isos_weo_2019 <- bound1 %>%
   ) %>%
   prepare_isos()
 
-
-
-# Same but for ETP 2017 ---------------------------------------------------
+# Process raw_regions_etp_2017.csv ----------------------------------------
 
 # Source: raw_regions_etp_2017.csv was transcribed from page 780 of the 2017
 # Energy Technology Perspectives
@@ -174,6 +172,8 @@ region_isos_etp_2017 <- region_data %>%
   warn_if_is_missing_country_isos() %>%
   rbind(global_data(., weo_year)) %>%
   prepare_isos()
+
+# Combine -----------------------------------------------------------------
 
 region_isos <- rbind(
   region_isos_weo_2019,
