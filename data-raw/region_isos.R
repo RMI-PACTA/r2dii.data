@@ -42,7 +42,6 @@ prepare_regions <- function(data, countries, regions = NULL) {
 
   data %>%
     pick_type("region") %>%
-    # subset_leftover_regions() %>%
     dplyr::filter(.data$region %in% regions) %>%
     join_countries(countries)
 }
