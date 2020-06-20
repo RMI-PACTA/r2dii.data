@@ -75,6 +75,14 @@ warn_if_country_iso_is_missing <- function(fix) {
   }
 }
 
+prepare_isos <- function(data) {
+  data %>%
+    dplyr::left_join(r2dii.data::iso_codes, by = c("value" = "country")) %>%
+    dplyr::filter(!is.na(country_iso)) %>%
+    dplyr::rename(isos = country_iso) %>%
+    dplyr::select(region, isos, source)
+}
+
 
 
 # Source: raw_regions_weo_2019.csv was transcribed from page 780 of the 2019
@@ -129,14 +137,6 @@ fix <- bound1 %>%
 
 warn_if_country_iso_is_missing(fix)
 
-
-prepare_isos <- function(data) {
-  data %>%
-    dplyr::left_join(r2dii.data::iso_codes, by = c("value" = "country")) %>%
-    dplyr::filter(!is.na(country_iso)) %>%
-    dplyr::rename(isos = country_iso) %>%
-    dplyr::select(region, isos, source)
-}
 region_isos_weo_2019 <- bound1 %>%
   rbind(
     global_data(., weo_year),
@@ -146,21 +146,6 @@ region_isos_weo_2019 <- bound1 %>%
     non_opec
   ) %>%
   prepare_isos()
-  # dplyr::left_join(r2dii.data::iso_codes, by = c("value" = "country")) %>%
-  # dplyr::filter(!is.na(country_iso)) %>%
-  # dplyr::rename(isos = country_iso) %>%
-  # dplyr::select(region, isos, source)
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -193,10 +178,7 @@ warn_if_country_iso_is_missing(fix)
 
 region_isos_etp_2017 <- bound3 %>%
   rbind(global_data(., weo_year)) %>%
-  dplyr::left_join(r2dii.data::iso_codes, by = c("value" = "country")) %>%
-  dplyr::filter(!is.na(country_iso)) %>%
-  dplyr::rename(isos = country_iso) %>%
-  dplyr::select(region, isos, source)
+  prepare_isos()
 
 region_isos <- rbind(region_isos_weo_2019, region_isos_etp_2017)
 
