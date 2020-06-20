@@ -49,12 +49,15 @@ prepare_regions <- function(data, countries, regions = NULL) {
 # some regions are cyclically defined using other regions in the raw data
 # we need to expand these and join them back in
 bind_countries <- function(countries, region_data, regions) {
-  rbind(countries, prepare_regions(region_data, countries, regions = regions)) %>%
-    dplyr::arrange(region)
+  rbind(
+    countries,
+    prepare_regions(region_data, countries, regions = regions)
+  ) %>%
+    dplyr::arrange(.data$region)
 }
 
 unique_countries <- function(data) {
-  unique(dplyr::select(data, value))
+  unique(dplyr::select(data, .data$value))
 }
 
 global_data <- function(data, source) {
