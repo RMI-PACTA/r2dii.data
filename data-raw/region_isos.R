@@ -179,6 +179,9 @@ region_isos_etp_2017 <- region_data %>%
 region_isos <- rbind(
   region_isos_weo_2019,
   region_isos_etp_2017
-)
+) %>%
+  group_by(region, source) %>%
+  distinct(isos) %>%
+  ungroup()
 
 usethis::use_data(region_isos, overwrite = TRUE)
