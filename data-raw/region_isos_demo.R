@@ -11,6 +11,7 @@ picked <- c(
 )
 
 region_isos_demo <- r2dii.data::region_isos %>%
+  filter(source == "weo_2019") %>%
   mutate(source = "demo_2020") %>%
   filter(.data$region %in% picked)
 
