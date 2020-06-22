@@ -1,5 +1,11 @@
 # r2dii.data (development version)
 
+Bug fixes:
+
+* `region_isos` no longer has duplicated rows (@jdhoffa #111).
+
+Enhancements:
+
 * `region_isos` gains data from ETP 2017 (@jdhoffa #110).
 
 # r2dii.data 0.1.1
