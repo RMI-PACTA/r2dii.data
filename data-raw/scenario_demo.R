@@ -9,8 +9,8 @@ source(file.path("data-raw", "utils.R"))
 add_market_share_columns <- function(scenario, start_year) {
   stopifnot(is.data.frame(scenario), is.numeric(start_year))
 
-  old_groups <- dplyr::groups(scenario)
-  scenario <- dplyr::ungroup(scenario)
+  old_groups <- groups(scenario)
+  scenario <- ungroup(scenario)
 
   abort_invalid_start_year(start_year)
   if (is.na(start_year)) {
@@ -21,10 +21,10 @@ add_market_share_columns <- function(scenario, start_year) {
   check_consistent_units(scenario)
 
   scenario %>%
-    dplyr::filter(.data$year >= round_start_year(start_year)) %>%
+    filter(.data$year >= round_start_year(start_year)) %>%
     add_technology_fair_share_ratio() %>%
     add_market_fair_share_percentage() %>%
-    dplyr::group_by(!!!old_groups)
+    group_by(!!!old_groups)
 }
 
 abort_invalid_start_year <- function(start_year) {
@@ -41,7 +41,7 @@ abort_invalid_start_year <- function(start_year) {
 cero_row_fair_share_tibble <- function(scenario, old_groups) {
   minimum_names_add_scenario_fair_share(scenario) %>%
     named_tibble() %>%
-    dplyr::group_by(!!!old_groups)
+    group_by(!!!old_groups)
 }
 
 crucial_fs_columns <- function() {
@@ -60,14 +60,14 @@ common_fs_groups <- function() {
 
 check_consistent_units <- function(scenario) {
   units <- scenario %>%
-    dplyr::group_by(!!!syms(c(common_fs_groups(), "technology"))) %>%
-    dplyr::summarise(are_consistent = (length(unique(units)) == 1L))
+    group_by(!!!syms(c(common_fs_groups(), "technology"))) %>%
+    summarise(are_consistent = (length(unique(units)) == 1L))
 
   if (all(units$are_consistent)) {
     return(invisible(scenario))
   }
 
-  bad <- dplyr::ungroup(dplyr::filter(units, !.data$are_consistent))
+  bad <- ungroup(filter(units, !.data$are_consistent))
   rlang::abort(
     class = "inconsistent_units",
     message = glue::glue(
@@ -91,30 +91,30 @@ round_start_year <- function(start_year) {
 
 add_technology_fair_share_ratio <- function(scenario) {
   scenario %>%
-    dplyr::ungroup() %>%
-    dplyr::group_by(!!!syms(c(common_fs_groups(), "technology"))) %>%
-    dplyr::arrange(.data$year, .by_group = TRUE) %>%
-    dplyr::mutate(tmsr = .data$value / dplyr::first(.data$value)) %>%
-    dplyr::ungroup()
+    ungroup() %>%
+    group_by(!!!syms(c(common_fs_groups(), "technology"))) %>%
+    arrange(.data$year, .by_group = TRUE) %>%
+    mutate(tmsr = .data$value / first(.data$value)) %>%
+    ungroup()
 }
 
 add_market_fair_share_percentage <- function(scenario) {
   scenario %>%
-    dplyr::ungroup() %>%
-    dplyr::group_by(!!!syms(c(common_fs_groups(), "year"))) %>%
-    dplyr::arrange(.data$year, .by_group = TRUE) %>%
-    dplyr::mutate(sector_total_by_year = sum(.data$value)) %>%
-    dplyr::group_by(!!!syms(c(common_fs_groups(), "technology"))) %>%
-    dplyr::mutate(
-      smsp = (.data$value - dplyr::first(.data$value)) /
-        dplyr::first(.data$sector_total_by_year),
+    ungroup() %>%
+    group_by(!!!syms(c(common_fs_groups(), "year"))) %>%
+    arrange(.data$year, .by_group = TRUE) %>%
+    mutate(sector_total_by_year = sum(.data$value)) %>%
+    group_by(!!!syms(c(common_fs_groups(), "technology"))) %>%
+    mutate(
+      smsp = (.data$value - first(.data$value)) /
+        first(.data$sector_total_by_year),
       sector_total_by_year = NULL
     ) %>%
-    dplyr::ungroup()
+    ungroup()
 }
 
 named_tibble <- function(names) {
-  dplyr::slice(tibble::as_tibble(rlang::set_names(as.list(names))), 0L)
+  slice(tibble::as_tibble(rlang::set_names(as.list(names))), 0L)
 }
 
 minimum_names_add_scenario_fair_share <- function(scenario) {
@@ -141,7 +141,7 @@ path <- file.path("data-raw", "scenario_demo.csv")
 
 scenario <- read_csv_(path) %>%
   add_market_share_columns(start_year = 2020) %>%
-  dplyr::select(-c("value", "units"))
+  select(-c("value", "units"))
 
 source(file.path("data-raw", "utils.R"))
 check_no_spec(scenario)

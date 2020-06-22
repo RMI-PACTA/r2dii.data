@@ -2,7 +2,7 @@ library(dplyr)
 library(r2dii.data)
 library(usethis)
 
-picked <-c(
+picked <- c(
   "advanced economies",
   "caspian",
   "developing asia",

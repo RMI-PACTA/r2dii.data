@@ -5,7 +5,7 @@
 \alias{region_isos_demo}
 \title{A dataset outlining various region definitions}
 \format{
-An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 334 rows and 3 columns.
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 517 rows and 3 columns.
 }
 \usage{
 region_isos_demo
