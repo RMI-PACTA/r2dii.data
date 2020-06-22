@@ -11,13 +11,9 @@ test_that("is not different compared to reference", {
 })
 
 test_that("isos are not duplicated per region, scenario", {
-  count_duplicates <- function(data) {
-    sum(duplicated(data))
-  }
-
   out <- aggregate(isos ~ .,
     data = region_isos,
-    FUN = count_duplicates
+    FUN = function(x) sum(duplicated(x))
   )
 
   num_duplicates <- sum(out$isos)
