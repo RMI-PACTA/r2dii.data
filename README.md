@@ -13,7 +13,7 @@ Installation
 
 Before you install r2dii.analysis you may want to:
 
--   [Try an rstudio.cloud project that has r2dii.match already installed](https://rstudio.cloud/project/1424833).
+-   [Try an rstudio.cloud project with this package already installed](https://rstudio.cloud/project/1424833).
 -   [Learn how to minimize installation errors](https://gist.github.com/maurolepore/a0187be9d40aee95a43f20a85f4caed6#installation).
 
 When you are ready, install the released version of r2dii.data from CRAN with:
@@ -29,7 +29,7 @@ Or install the development version of r2dii.data with something like this:
 devtools::install_github("2DegreesInvesting/r2dii.data")
 ```
 
--   [How to raise an issue?](https://2degreesinvesting.github.io/posts/2020-06-26-instructions-to-raise-an-issue/)
+[How to raise an issue?](https://2degreesinvesting.github.io/posts/2020-06-26-instructions-to-raise-an-issue/)
 
 Example
 -------
