@@ -29,7 +29,7 @@ Or install the development version of r2dii.data with something like this:
 devtools::install_github("2DegreesInvesting/r2dii.data")
 ```
 
--   [How to raise an issue?](https://2degreesinvesting.github.io/posts/2020-06-26-instructions-to-raise-an-issue/)
+[How to raise an issue?](https://2degreesinvesting.github.io/posts/2020-06-26-instructions-to-raise-an-issue/)
 
 Example
 -------
