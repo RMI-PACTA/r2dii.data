@@ -8,6 +8,11 @@ Enhancements:
 
 * `region_isos` gains data from ETP 2017 (@jdhoffa #110).
 
+Internal:
+
+* Require R >= 3.4, which is what we check for (@maurolepore #117).
+
+
 # r2dii.data 0.1.1
 
 * `naics_classification` now includes only 6-digit codes (@QianFeng2020 #102; @jdhoffa #103).
