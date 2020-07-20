@@ -6,6 +6,7 @@ Bug fixes:
 
 Enhancements:
 
+* `ald_demo` drops the column `number_of_assets` (@tposey28 #121)
 * `region_isos` gains data from ETP 2017 (@jdhoffa #110).
 
 Internal:
