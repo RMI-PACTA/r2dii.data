@@ -12,6 +12,7 @@ ald_demo <- left_join(
 )
 
 ald_demo$year <- as.integer(ald_demo$year)
-ald_demo$number_of_assets <- as.integer(ald_demo$number_of_assets)
+
+ald_demo <- select(ald_demo, -number_of_assets)
 
 usethis::use_data(ald_demo, overwrite = TRUE)
