@@ -10,5 +10,5 @@ ald_demo,country_of_domicile,character,Country where company is registered
 ald_demo,plant_location,character,Country where asset is located
 ald_demo,is_ultimate_owner,logical,Flag if company is the ultimate parent in our database
 ald_demo,is_ultimate_listed_owner,logical,Flag if company is the listed ultimate parent
-ald_demo,ald_timestamp,character,Date at which asset data was pulled from database
+ald_demo,ald_timestamp,character,Date at which asset data was sourced from the data provider
 ald_demo,ald_emission_factor_unit,character,The units that the emission factor is measured in
