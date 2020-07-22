@@ -24,20 +24,13 @@ they help to demonstrate and test the implementation in R of 'PACTA'
 \section{Definitions}{
 
 \itemize{
-\item \code{ald_emission_factor_unit} (character): The units that the emission factor is measured in.
-\item \code{ald_timestamp} (character): Date at which asset data was pulled from database.
-\item \code{country_of_domicile} (character): Country where company is registered.
-\item \code{emission_factor} (double): Company level emission factor of the technology.
-\item \code{is_ultimate_listed_owner} (logical): Flag if company is the listed ultimate parent.
-\item \code{is_ultimate_owner} (logical): Flag if company is the ultimate parent in our database.
-\item \code{name_company} (character): The name of the company owning the asset.
-\item \code{number_of_assets} (integer): Number of assets of a given technology owned by the company.
-\item \code{plant_location} (character): Country where asset is located.
-\item \code{production} (double): Company level production of the technology.
-\item \code{production_unit} (character): The units that production is measured in.
-\item \code{sector} (character): Sector to which the asset belongs.
-\item \code{technology} (character): Technology implemented by the asset.
-\item \code{year} (integer): Year at which the production value is predicted.
+\item \code{emission_factor} (double): The target sector level emissions factor that the scenario prescribes.
+\item \code{emission_factor_unit} (character): The units that the emissions factor is measured in.
+\item \code{region} (character): The region to which the pathway is relevant.
+\item \code{scenario} (character): The name of the scenario.
+\item \code{scenario_source} (character): The source publication from which the scenario was taken.
+\item \code{sector} (character): The sector to which the scenario perscribes a pathway.
+\item \code{year} (integer): The year at which the pathway value is prescribed.
 }
 }
 

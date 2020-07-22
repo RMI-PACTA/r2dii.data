@@ -5,7 +5,7 @@
 \alias{ald_demo}
 \title{An asset level dataset for demonstration}
 \format{
-An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 17368 rows and 14 columns.
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 17368 rows and 13 columns.
 }
 \usage{
 ald_demo
@@ -23,13 +23,12 @@ they help to demonstrate and test the implementation in R of 'PACTA'
 
 \itemize{
 \item \code{ald_emission_factor_unit} (character): The units that the emission factor is measured in.
-\item \code{ald_timestamp} (character): Date at which asset data was pulled from database.
+\item \code{ald_timestamp} (character): Date at which asset data was sourced from the data provider.
 \item \code{country_of_domicile} (character): Country where company is registered.
 \item \code{emission_factor} (double): Company level emission factor of the technology.
 \item \code{is_ultimate_listed_owner} (logical): Flag if company is the listed ultimate parent.
 \item \code{is_ultimate_owner} (logical): Flag if company is the ultimate parent in our database.
 \item \code{name_company} (character): The name of the company owning the asset.
-\item \code{number_of_assets} (integer): Number of assets of a given technology owned by the company.
 \item \code{plant_location} (character): Country where asset is located.
 \item \code{production} (double): Company level production of the technology.
 \item \code{production_unit} (character): The units that production is measured in.

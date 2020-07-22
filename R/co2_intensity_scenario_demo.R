@@ -10,7 +10,7 @@
 #' @template info_demo-datasets
 #'
 #' @section Definitions:
-#' `r define("ald_demo")`
+#' `r define("co2_intensity_scenario_demo")`
 #'
 #' @family demo datasets
 #' @seealso [data_dictionary]
