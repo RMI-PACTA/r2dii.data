@@ -17,3 +17,8 @@ naics_classification <- read_csv_(
   file.path("data-raw", "naics_classification.csv")
 )
 usethis::use_data(naics_classification, overwrite = TRUE)
+
+sic_classification <- read_csv_(
+  file.path("data-raw", "sic_classification.csv")
+)
+usethis::use_data(sic_classification, overwrite = TRUE)
