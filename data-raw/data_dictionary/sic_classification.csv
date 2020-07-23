@@ -1,0 +1,5 @@
+dataset,column,typeof,definition
+sic_classification,code,integer,Original SIC code
+sic_classification,description,character,Original SIC description
+sic_classification,sector,character,Associated 2dii sector
+sic_classification,borderline,character,Flag indicating if 2dii scetor and classification are a borderline match
