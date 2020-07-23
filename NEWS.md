@@ -6,7 +6,7 @@ Bug fixes:
 
 Enhancements:
 
-* New dataset `green_or_brown` (#124)
+* New dataset `green_or_brown` (#124).
 * New dataset `sic_classification` (@georgeharris2deg, @daisy-pacheco #125).
 * `ald_demo` drops the column `number_of_assets` (@tposey28 #121).
 * `region_isos` gains data from ETP 2017 (@jdhoffa #110).
