@@ -1,0 +1,4 @@
+dataset,column,typeof,definition
+green_or_brown,sector,character,The sector to which the technology belongs
+green_or_brown,technology,character,The technology sub-category within the sector
+green_or_brown,green_or_brown,character,"If the technology is green (increasing) or brown (decreasing), as defined by the Paris-aligned IEA scenarios"

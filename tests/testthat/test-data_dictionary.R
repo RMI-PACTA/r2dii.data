@@ -24,6 +24,7 @@ test_that("defines the expected objects", {
     "ald_demo",
     "co2_intensity_scenario_demo",
     "data_dictionary",
+    "green_or_brown",
     "isic_classification",
     "iso_codes",
     "loanbook_demo",
