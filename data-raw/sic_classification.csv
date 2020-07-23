@@ -1,0 +1,257 @@
+code,description,sector,borderline
+0,"private households, exterritorial organisations, representatives of foreign governments and other activities not adequately defined",not in scope,FALSE
+00000,"private households, exterritorial organisations, representatives of foreign governments and other activities not adequately defined",not in scope,FALSE
+11110,growing of cereals and other crops n.e.c.,not in scope,FALSE
+11130,"growing of fruit, nuts, beverage and spice crops",not in scope,FALSE
+11210,"farming  of cattle, sheep, goats, horses, asses, mules and hinnies;dairy farming",not in scope,FALSE
+11300,growing of crops combined with farming of animals (mixed farming),not in scope,FALSE
+12100,forestry and related services,not in scope,FALSE
+12200,logging and related services,not in scope,FALSE
+13100,ocean and coastal fishing,not in scope,FALSE
+21000,mining of coal and lignite,coal,FALSE
+22110,extraction of crude petroleum and natural gas,oil and gas,FALSE
+22120,"service activities incidental to oil and gas extraction, excluding surveying",oil and gas,FALSE
+23000,mining of gold and uranium ore,not in scope,FALSE
+24100,mining of iron ore,not in scope,FALSE
+24210,chrome,not in scope,FALSE
+24220,copper,not in scope,FALSE
+24240,platinum group metals,not in scope,FALSE
+24290,"other metal ore mining, except gold and uranium",not in scope,FALSE
+25110,"dimension stone (granite, marble, slate, and wonderstone)",not in scope,FALSE
+25120,limestone and limeworks,not in scope,FALSE
+25190,"other stone quarrying, including stone crushing and clay and sandpits",not in scope,FALSE
+25200,mining of diamonds (including alluvial diamonds),not in scope,FALSE
+25311,phosphates,not in scope,FALSE
+25319,other chemical and fertilizer mineral mining,not in scope,FALSE
+25399,other minerals and materials n.e.c.,not in scope,FALSE
+29000,service activities incidental to mining of minerals,not in scope,FALSE
+30111,"slaughtering, dressing and packing of livestock, including poultry and small game for meat",not in scope,FALSE
+30120,"manufacture of canned, preserved and processed fish, crustacea and similar foods (except soups)",not in scope,FALSE
+30130,"manufacture of canned, preserved, processed and dehydrated fruit and vegetables (except soups), including fruit juices, juice extracts and potato flour meal",not in scope,FALSE
+30203,"manufacture of ice cream and other edible ice, whether or not containing cream or chocolate",not in scope,FALSE
+30311,"manufacture of flour and grain mill products, including rice and vegetable milling; grain mill residues",not in scope,FALSE
+30330,manufacture of prepared animal feeds,not in scope,FALSE
+30410,manufacture of bakery products,not in scope,FALSE
+30420,"manufacture of sugar, including golden syrup and castor sugar",not in scope,FALSE
+30499,"manufacture of spices, condiments, vinegar, yeast, egg products, soups and other food products n.e.c.",not in scope,FALSE
+30521,"breweries, except sorghum beer breweries",not in scope,FALSE
+30522,sorghum beer breweries,not in scope,FALSE
+30530,manufacture of soft drinks; production of mineral waters,not in scope,FALSE
+30600,manufacture of tobacco products,not in scope,FALSE
+31111,"preparatory activities in respect of animal fibres, including washing, combing and carding of wool",not in scope,FALSE
+31213,"manufacture of automotive textile goods (including safety belts, and seat covers)",not in scope,FALSE
+31290,manufacture of other textiles n.e.c.,not in scope,FALSE
+31301,garment and hosiery knitting mills,not in scope,FALSE
+31700,manufacture of footwear,not in scope,FALSE
+32210,"manufacture of veneer sheets; manufacture of plywood, laminboard, particle board and other panels and boards",not in scope,FALSE
+32310,"manufacture of pulp, paper and paperboard",not in scope,FALSE
+32321,manufacture of corrugated paper and paperboard,not in scope,FALSE
+32399,other paper products,not in scope,FALSE
+32410,"publishing of books, brochures, musical books and other publications",not in scope,FALSE
+32420,"publishing of newspapers, journals and periodicals",not in scope,FALSE
+32510,printing,not in scope,FALSE
+32520,service activities related to printing,not in scope,FALSE
+33210,"petrol, fuel oils, lubricating oils and greases, primarily from crude oil",oil and gas,TRUE
+33220,"petrol, fuel oils, lubricating oils and greases, primarily from coal",oil and gas,TRUE
+33230,"petrol, fuel oils, lubricating oils and greases, primarily from natural gas",oil and gas,TRUE
+33290,other petroleum/synthesised products n.e.c.,oil and gas,TRUE
+33410,"manufacture of basic chemicals, except fertilizers and nitrogen compounds",not in scope,FALSE
+33420,manufacture of fertilizers and nitrogen compounds,not in scope,FALSE
+33430,manufacture of plastics in primary form and of synthetic rubber,not in scope,FALSE
+33520,"manufacture of paints, varnishes and similar coatings, printing ink and mastics",not in scope,FALSE
+33530,"manufacture of pharmaceuticals, medicinal chemicals and botanical products",not in scope,FALSE
+33541,manufacture of soap and other cleaning compounds,not in scope,FALSE
+33542,"manufacture of perfumes, cosmetics and other toilet preparations",not in scope,FALSE
+33593,"manufacture of adhesives, glues, sizes and cements",not in scope,FALSE
+33599,manufacture of other chemical products n.e.c.,not in scope,FALSE
+33800,manufacture of plastic products,not in scope,FALSE
+34111,"manufacture of sheet and plate glass, glass blocks, tubes and rods; glass fibres and glass wool",not in scope,FALSE
+34112,"manufacture of glass containers; glass kitchenware and tableware; scientific and laboratory glassware, clock and watch glasses and other glass products n.e.c.",not in scope,FALSE
+34220,manufacture of refractory ceramic products,not in scope,FALSE
+34230,manufacture of structural non-refractory clay and ceramic products,not in scope,FALSE
+34240,"manufacture of cement, lime and plaster",cement,TRUE
+34250,"manufacture of articles of concrete, cement and plaster",cement,TRUE
+35101,"basic iron and steel industries, except steel pipe and tube mills",steel,FALSE
+35102,steel pipe and tube mills,steel,FALSE
+35201,"refining of precious metals, e.g. gold, silver, platinum",not in scope,FALSE
+35202,"manufacture of primary non-ferrous metal products, excluding precious metals",not in scope,FALSE
+35310,casting of iron and steel,steel,TRUE
+35320,casting of non-ferrous metals,not in scope,FALSE
+35411,manufacture of metal structures or parts thereof,not in scope,FALSE
+35419,"other structural metal products, e.g. metal doors, windows and gates",not in scope,FALSE
+35510,"forging, pressing, stamping and roll-forming of metal; powder metallurgy",not in scope,FALSE
+35521,treating and coating of metals,not in scope,FALSE
+35522,general mechanical engineering on a fee or contract basis,not in scope,FALSE
+35591,"manufacture of metal containers, e.g. cans and tins",not in scope,FALSE
+35592,manufacture of cables and wire products,not in scope,FALSE
+35594,manufacture of metal fasteners,not in scope,FALSE
+35599,manufacture of other metal products n.e.c.,not in scope,FALSE
+35620,"manufacture of pumps, compressors, taps and valves",not in scope,FALSE
+35630,"manufacture of bearings, gears, gearing and driving elements",not in scope,FALSE
+35650,manufacture of lifting and handling equipment,not in scope,FALSE
+35690,manufacture of other general purpose machinery,not in scope,FALSE
+35720,manufacture of machine tools,not in scope,FALSE
+35730,manufacture of machinery for metallurgy,not in scope,FALSE
+35740,"manufacture of machinery for mining, quarrying and construction",not in scope,FALSE
+35750,"manufacture of machinery for food, beverage and tobacco processing",not in scope,FALSE
+35770,manufacture of weapons and ammunition,not in scope,FALSE
+35790,manufacture of other special purpose machinery,not in scope,FALSE
+35800,manufacture of household appliances n.e.c.,not in scope,FALSE
+36100,"manufacture of electric motors, generators and transformers",power,TRUE
+36200,manufacture of electricity distribution and control apparatus,power,TRUE
+36300,manufacture of insulated wire and cable,not in scope,FALSE
+36600,manufacture of other electrical equipment n.e.c.,not in scope,FALSE
+37100,manufacture of electronic valves and tubes and other electronic components,not in scope,FALSE
+37200,manufacture of television and radio transmitters and apparatus for line telephony and line telegraphy,not in scope,FALSE
+37300,"manufacture of television and radio receivers, sound or video recording or reproducing apparatus and associated goods",not in scope,FALSE
+37412,"surgical, medical and dental supplies",not in scope,FALSE
+37420,"manufacture of instruments and appliances for measuring, checking, testing, navigating and for other purposes, except industrial process control equipment",not in scope,FALSE
+38100,manufacture of motor vehicles,automotive,FALSE
+38200,manufacture of bodies (coachwork) for motor vehicles; manufacture of trailers and semi-trailers,automotive,TRUE
+38301,manufacture of radiators,not in scope,FALSE
+38309,manufacture of other motor vehicle parts and accessories,automotive,TRUE
+38600,manufacture of aircraft and spacecraft,aviation,FALSE
+39101,manufacture of furniture made predominantly of metal,not in scope,FALSE
+39102,manufacture of furniture made predominantly of plastic materials,not in scope,FALSE
+39103,"manufacture of furniture made predominantly of materials other than metal, plastic or concrete",not in scope,FALSE
+39212,diamond cutting and polishing,not in scope,FALSE
+39230,manufacture of sports goods,not in scope,FALSE
+39295,engraving,not in scope,FALSE
+39299,"other industries not elsewhere classified, including rubber stamps, taxidermists, ostrich feathers, costume jewellery and novelties, umbrellas and canes",not in scope,FALSE
+39510,recycling of metal waste and scrap n.e.c.,not in scope,FALSE
+41111,generation,power,FALSE
+41200,manufacture of gas; distribution of gaseous fuels through mains,oil and gas,FALSE
+41300,steam and hot water supply,not in scope,FALSE
+42000,"collection, purification and distribution of water",not in scope,FALSE
+50100,site preparation,not in scope,FALSE
+50211,construction of homes,not in scope,FALSE
+50219,construction of other buildings,not in scope,FALSE
+50220,construction of civil engineering structures,not in scope,FALSE
+50230,construction of other structures,not in scope,FALSE
+50240,construction by specialist trade contractors,not in scope,FALSE
+50320,electrical contracting,power,TRUE
+50410,painting and decorating,not in scope,FALSE
+50490,other building completion n.e.c.,not in scope,FALSE
+50500,renting of construction or demolition equipment with operators,not in scope,FALSE
+61101,sales by commission agents,not in scope,FALSE
+61102,sales by commodity brokers,not in scope,FALSE
+61103,sales by auctioneers,not in scope,FALSE
+61210,wholesale trade in agricultural raw materials and livestock,not in scope,FALSE
+61221,wholesale trade in foodstuffs,not in scope,FALSE
+61310,"wholesale trade in textiles, clothing and footwear",not in scope,FALSE
+61391,wholesale trade in household furniture requisites and appliances,not in scope,FALSE
+61394,"wholesale trade in pharmaceuticals, toiletries and medical equipment",not in scope,FALSE
+61399,wholesale trade in other household goods n.e.c,not in scope,FALSE
+61410,"wholesale trade in solid, liquid and gaseous fuels and related products",not in scope,FALSE
+61420,wholesale trade in metal and metal ores,not in scope,FALSE
+61430,"wholesale trade in construction materials, hardware, plumbing and heating equipment and supplies",not in scope,FALSE
+61490,"wholesale trade in other intermediate products, waste and scrap",not in scope,FALSE
+61501,office machinery and equipment including computers,not in scope,FALSE
+61509,other machinery,not in scope,FALSE
+61901,general wholesale trade,not in scope,FALSE
+61909,other wholesale trade n.e.c.,not in scope,FALSE
+62110,"retail trade in non-specialised stores with food, beverages and tobacco predominating",not in scope,FALSE
+62190,other retail trade in non-specialised stores,not in scope,FALSE
+62202,retail trade in meat and meat products,not in scope,FALSE
+62203,retail trade in bakery products,not in scope,FALSE
+62209,"other retail trade in food, beverages and tobacco n.e.c.",not in scope,FALSE
+62310,"retail trade in pharmaceutical and medical goods, cosmetic and toilet articles",not in scope,FALSE
+62322,retail trade in ladies' and girls' clothing,not in scope,FALSE
+62323,"retail trade by general outfitters and by dealers in piece goods, textiles, leather and travel accessories",not in scope,FALSE
+62330,"retail trade in household furniture appliances, articles and equipment",not in scope,FALSE
+62340,"retail trade in hardware, paints and glass",not in scope,FALSE
+62393,retail trade in sports goods and entertainment requisites,not in scope,FALSE
+62399,retail trade by other specialised stores,not in scope,FALSE
+62520,retail trade via stalls and markets,not in scope,FALSE
+62590,other retail trade not in stores,not in scope,FALSE
+63110,wholesale sale of motor vehicles,not in scope,FALSE
+63121,retail sale of new motor vehicles,not in scope,FALSE
+63122,retail sale of used motor vehicles,not in scope,FALSE
+63201,general repairs,not in scope,FALSE
+63202,electrical repairs,not in scope,FALSE
+63204,body repairs,not in scope,FALSE
+63319,sale of other new parts and accessories,not in scope,FALSE
+63500,retail sale of automotive fuel,not in scope,FALSE
+64101,"hotels, motels, botels and inns registered with the sa tourism board",not in scope,FALSE
+64103,guest-houses and guest-farms,not in scope,FALSE
+64201,restaurants or tearooms with liquor licence,not in scope,FALSE
+64204,caterers,not in scope,FALSE
+64209,other catering services n.e.c.,not in scope,FALSE
+71112,railway commuter services,not in scope,FALSE
+71229,"other passenger transport, including the renting of passenger motor vehicles with drivers",not in scope,FALSE
+71239,other freight transport by road,not in scope,FALSE
+71300,transport via pipelines,not in scope,FALSE
+72112,ocean shipping,shipping,FALSE
+72200,inland water transport,not in scope,FALSE
+73000,air transport,aviation,TRUE
+74110,cargo handling,not in scope,FALSE
+74120,storage and warehousing,not in scope,FALSE
+74133,"maintenance and operation of harbour works, lighthouses, etc., pilotage",not in scope,FALSE
+74134,"operation of airports, flying fields and air navigation facilities",not in scope,FALSE
+74135,operation of roads and toll roads,not in scope,FALSE
+74139,other supporting transport activities n.e.c.,not in scope,FALSE
+74140,travel agency and related activities,not in scope,FALSE
+74190,activities of other transport agencies,not in scope,FALSE
+75120,courier activities other than national postal activities,not in scope,FALSE
+75200,telecommunication,not in scope,FALSE
+81110,central banking,not in scope,FALSE
+81121,discount houses and commercial and other banking,not in scope,FALSE
+81122,building society activities,not in scope,FALSE
+81910,lease financing,not in scope,FALSE
+81920,other credit granting,not in scope,FALSE
+81990,other financial intermediation n.e.c.,not in scope,FALSE
+82110,life insurance,not in scope,FALSE
+82120,pension funding,not in scope,FALSE
+82130,medical aid funding,not in scope,FALSE
+82190,other insurance n.e.c.,not in scope,FALSE
+83110,administration of financial markets,not in scope,FALSE
+83120,security dealing activities,not in scope,FALSE
+83190,activities auxiliary to financial intermediation n.e.c.,not in scope,FALSE
+83200,activities auxiliary to insurance and pension funding,not in scope,FALSE
+84110,property owning and letting,not in scope,FALSE
+84120,"developing real estate, subdividing real estate into lots and residential development on own account",not in scope,FALSE
+84130,owning and/or sale of own fixed property,not in scope,FALSE
+84210,"activities of estate agencies, rent collectors, appraisers and valuers",not in scope,FALSE
+85220,renting of construction and civil engineering machinery and equipment,not in scope,FALSE
+85230,renting of office machinery and equipment (including computers),not in scope,FALSE
+85290,renting of other machinery and equipment n.e.c.,not in scope,FALSE
+86100,hardware consultancy,not in scope,FALSE
+86200,software consultancy and supply,not in scope,FALSE
+86300,data processing,not in scope,FALSE
+86400,data base activities,not in scope,FALSE
+86900,other computer related activities,not in scope,FALSE
+87120,agricultural and livestock research,not in scope,FALSE
+87190,other research n.e.c.,not in scope,FALSE
+88111,"activities of attorneys, notaries and conveyancers",not in scope,FALSE
+88121,activities of accountants and auditors registered in terms of the public accountants and auditors act,not in scope,FALSE
+88140,business and management consultancy activities,not in scope,FALSE
+88212,architectural activities,not in scope,FALSE
+88214,activities of land surveyors,not in scope,FALSE
+88311,activities of advertising agents,not in scope,FALSE
+88911,activities of employment agencies and recruiting organisations,not in scope,FALSE
+88920,investigation and security activities,not in scope,FALSE
+88950,packaging activities,not in scope,FALSE
+88991,credit rating agency activities,not in scope,FALSE
+88999,other business activities n.e.c.,not in scope,FALSE
+92006,education by teachers' training colleges of education for further training,not in scope,FALSE
+92007,education by universities,not in scope,FALSE
+92008,education by correspondence and private vocational colleges,not in scope,FALSE
+92009,"other educational services - own account teachers, motor vehicle driving schools/tutors and music, dancing and other art schools, etc.",not in scope,FALSE
+93111,general hospitals,not in scope,FALSE
+93119,"other hospitals, n.e.c.",not in scope,FALSE
+93121,medical practitioner and specialist activities,not in scope,FALSE
+93122,dentist and specialist dentist activities,not in scope,FALSE
+93192,clinics and related health care services,not in scope,FALSE
+93194,chiropractors and other associated health care services,not in scope,FALSE
+93199,other health services,not in scope,FALSE
+93300,social work activities,not in scope,FALSE
+94000,"sewage and refuse disposal, sanitation and similar activities",not in scope,FALSE
+95110,activities of business and employers' organisations,not in scope,FALSE
+95120,activities of professional organisations,not in scope,FALSE
+95910,activities of religious organisations,not in scope,FALSE
+96130,radio and television activities,not in scope,FALSE
+96200,news agency activities,not in scope,FALSE
+96330,botanical and zoological gardens and nature reserve activities,not in scope,FALSE
+96410,sporting activities,not in scope,FALSE
+96490,other recreational activities,not in scope,FALSE
+99090,other service activities n.e.c.,not in scope,FALSE
