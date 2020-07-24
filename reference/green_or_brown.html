@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>r2dii.data: Datasets to Align Financial Markets with Climate Goals — r2dii.data-package • r2dii.data</title>
+<title>Determine if a technology is green or brown — green_or_brown • r2dii.data</title>
 
 
 <!-- jquery -->
@@ -39,16 +39,10 @@
 
 
 
-<meta property="og:title" content="r2dii.data: Datasets to Align Financial Markets with Climate Goals — r2dii.data-package" />
-<meta property="og:description" content="These datasets support the implementation in R of
-    the software 'PACTA' (Paris Agreement Capital Transition Assessment),
-    which is a free tool that calculates the alignment between financial
-    assets and climate scenarios (&amp;lt;https://2degrees-investing.org/&amp;gt;).
-    Financial institutions use 'PACTA' to study how their capital
-    allocation impacts the climate. Because both financial institutions
-    and market data providers keep their data private, this package
-    provides fake, public data to enable the development and use of
-    'PACTA' in R." />
+<meta property="og:title" content="Determine if a technology is green or brown — green_or_brown" />
+<meta property="og:description" content="This dataset provides a simple lookup table to determine if a technology is
+meant to increase (green) or decrease (brown) to align with a future global
+warming of less than 2 degrees." />
 
 
 
@@ -148,35 +142,47 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>r2dii.data: Datasets to Align Financial Markets with Climate Goals</h1>
-    <small class="dont-index">Source: <a href='https://github.com/2DegreesInvesting/r2dii.data/blob/master/R/r2dii.data-package.R'><code>R/r2dii.data-package.R</code></a></small>
-    <div class="hidden name"><code>r2dii.data-package.Rd</code></div>
+    <h1>Determine if a technology is green or brown</h1>
+    <small class="dont-index">Source: <a href='https://github.com/2DegreesInvesting/r2dii.data/blob/master/R/green_or_brown.R'><code>R/green_or_brown.R</code></a></small>
+    <div class="hidden name"><code>green_or_brown.Rd</code></div>
     </div>
 
     <div class="ref-description">
-    <p>These datasets support the implementation in R of
-    the software 'PACTA' (Paris Agreement Capital Transition Assessment),
-    which is a free tool that calculates the alignment between financial
-    assets and climate scenarios (&lt;https://2degrees-investing.org/&gt;).
-    Financial institutions use 'PACTA' to study how their capital
-    allocation impacts the climate. Because both financial institutions
-    and market data providers keep their data private, this package
-    provides fake, public data to enable the development and use of
-    'PACTA' in R.</p>
+    <p>This dataset provides a simple lookup table to determine if a technology is
+meant to increase (green) or decrease (brown) to align with a future global
+warming of less than 2 degrees.</p>
     </div>
 
+    <pre class="usage"><span class='no'>green_or_brown</span></pre>
 
+
+    <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
+
+    <p>An object of class <code>tbl_df</code> (inherits from <code>tbl</code>, <code>data.frame</code>) with 16 rows and 3 columns.</p>
+    <h2 class="hasAnchor" id="definitions"><a class="anchor" href="#definitions"></a>Definitions</h2>
+
+    
+
+<ul>
+<li><p><code>green_or_brown</code> (character): If the technology is green (increasing) or brown (decreasing), as defined by the Paris-aligned IEA scenarios.</p></li>
+<li><p><code>sector</code> (character): The sector to which the technology belongs.</p></li>
+<li><p><code>technology</code> (character): The technology sub-category within the sector.</p></li>
+</ul>
 
     <h2 class="hasAnchor" id="see-also"><a class="anchor" href="#see-also"></a>See also</h2>
 
-    <div class='dont-index'><p>Useful links:</p><ul>
-<li><p><a href='https://2degreesinvesting.github.io/r2dii.data/'>https://2degreesinvesting.github.io/r2dii.data/</a></p></li>
-<li><p><a href='https://github.com/2DegreesInvesting/r2dii.data'>https://github.com/2DegreesInvesting/r2dii.data</a></p></li>
-<li><p>Report bugs at <a href='https://github.com/2DegreesInvesting/r2dii.data/issues'>https://github.com/2DegreesInvesting/r2dii.data/issues</a></p></li>
-</ul>
+    <div class='dont-index'><p><a href='data_dictionary.html'>data_dictionary</a></p></div>
 
-</div>
-
+    <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
+    <pre class="examples"><div class='input'><span class='fu'><a href='https://rdrr.io/r/utils/head.html'>head</a></span>(<span class='no'>green_or_brown</span>)</div><div class='output co'>#&gt; <span style='color: #555555;'># A tibble: 6 x 3</span><span>
+#&gt;   sector     technology    green_or_brown
+#&gt;   </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>      </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>         </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>         
+#&gt; </span><span style='color: #555555;'>1</span><span> automotive electric      green         
+#&gt; </span><span style='color: #555555;'>2</span><span> automotive hybrid        green         
+#&gt; </span><span style='color: #555555;'>3</span><span> automotive ice           brown         
+#&gt; </span><span style='color: #555555;'>4</span><span> automotive fuelcell      green         
+#&gt; </span><span style='color: #555555;'>5</span><span> power      hydrocap      green         
+#&gt; </span><span style='color: #555555;'>6</span><span> power      renewablescap green         </div></span></pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <nav id="toc" data-toggle="toc" class="sticky-top">

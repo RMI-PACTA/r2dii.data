@@ -163,7 +163,7 @@ they help to demonstrate and test the implementation in R of 'PACTA'
 (<a href='https://2degrees-investing.org/resource/pacta/'>https://2degrees-investing.org/resource/pacta/</a>).</p>
     </div>
 
-    <pre class="usage"><span class='kw'>co2_intensity_scenario_demo</span></pre>
+    <pre class="usage"><span class='no'>co2_intensity_scenario_demo</span></pre>
 
 
     <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
@@ -174,34 +174,27 @@ they help to demonstrate and test the implementation in R of 'PACTA'
     
 
 <ul>
-<li><p><code>ald_emission_factor_unit</code> (character): The units that the emission factor is measured in.</p></li>
-<li><p><code>ald_timestamp</code> (character): Date at which asset data was pulled from database.</p></li>
-<li><p><code>country_of_domicile</code> (character): Country where company is registered.</p></li>
-<li><p><code>emission_factor</code> (double): Company level emission factor of the technology.</p></li>
-<li><p><code>is_ultimate_listed_owner</code> (logical): Flag if company is the listed ultimate parent.</p></li>
-<li><p><code>is_ultimate_owner</code> (logical): Flag if company is the ultimate parent in our database.</p></li>
-<li><p><code>name_company</code> (character): The name of the company owning the asset.</p></li>
-<li><p><code>number_of_assets</code> (integer): Number of assets of a given technology owned by the company.</p></li>
-<li><p><code>plant_location</code> (character): Country where asset is located.</p></li>
-<li><p><code>production</code> (double): Company level production of the technology.</p></li>
-<li><p><code>production_unit</code> (character): The units that production is measured in.</p></li>
-<li><p><code>sector</code> (character): Sector to which the asset belongs.</p></li>
-<li><p><code>technology</code> (character): Technology implemented by the asset.</p></li>
-<li><p><code>year</code> (integer): Year at which the production value is predicted.</p></li>
+<li><p><code>emission_factor</code> (double): The target sector level emissions factor that the scenario prescribes.</p></li>
+<li><p><code>emission_factor_unit</code> (character): The units that the emissions factor is measured in.</p></li>
+<li><p><code>region</code> (character): The region to which the pathway is relevant.</p></li>
+<li><p><code>scenario</code> (character): The name of the scenario.</p></li>
+<li><p><code>scenario_source</code> (character): The source publication from which the scenario was taken.</p></li>
+<li><p><code>sector</code> (character): The sector to which the scenario perscribes a pathway.</p></li>
+<li><p><code>year</code> (integer): The year at which the pathway value is prescribed.</p></li>
 </ul>
 
     <h2 class="hasAnchor" id="see-also"><a class="anchor" href="#see-also"></a>See also</h2>
 
-    <div class='dont-index'><p><a href='https://github.com/2DegreesInvesting/r2dii.data//reference/data_dictionary.html'>data_dictionary</a></p>
+    <div class='dont-index'><p><a href='data_dictionary.html'>data_dictionary</a></p>
 <p>Other demo datasets: 
-<code><a href='https://github.com/2DegreesInvesting/r2dii.data//reference/ald_demo.html'>ald_demo</a></code>,
-<code><a href='https://github.com/2DegreesInvesting/r2dii.data//reference/loanbook_demo.html'>loanbook_demo</a></code>,
-<code><a href='https://github.com/2DegreesInvesting/r2dii.data//reference/overwrite_demo.html'>overwrite_demo</a></code>,
-<code><a href='https://github.com/2DegreesInvesting/r2dii.data//reference/region_isos_demo.html'>region_isos_demo</a></code>,
-<code><a href='https://github.com/2DegreesInvesting/r2dii.data//reference/scenario_demo_2020.html'>scenario_demo_2020</a></code></p></div>
+<code><a href='ald_demo.html'>ald_demo</a></code>,
+<code><a href='loanbook_demo.html'>loanbook_demo</a></code>,
+<code><a href='overwrite_demo.html'>overwrite_demo</a></code>,
+<code><a href='region_isos_demo.html'>region_isos_demo</a></code>,
+<code><a href='scenario_demo_2020.html'>scenario_demo_2020</a></code></p></div>
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
-    <pre class="examples"><div class='input'><span class='fu'><a href='https://rdrr.io/r/utils/head.html'>head</a></span>(<span class='kw'>co2_intensity_scenario_demo</span>)</div><div class='output co'>#&gt; <span style='color: #555555;'># A tibble: 6 x 7</span><span>
+    <pre class="examples"><div class='input'><span class='fu'><a href='https://rdrr.io/r/utils/head.html'>head</a></span>(<span class='no'>co2_intensity_scenario_demo</span>)</div><div class='output co'>#&gt; <span style='color: #555555;'># A tibble: 6 x 7</span><span>
 #&gt;   scenario_source scenario sector region  year emission_factor_… emission_factor
 #&gt;   </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>           </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>    </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>  </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>  </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span> </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>                       </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span>
 #&gt; </span><span style='color: #555555;'>1</span><span> demo_2020       demo     cement global  </span><span style='text-decoration: underline;'>2</span><span>020 tons of CO2 per …           0.7  
@@ -225,7 +218,7 @@ they help to demonstrate and test the implementation in R of 'PACTA'
 </div>
 
 <div class="pkgdown">
-  <p>Site built with <a href="https://pkgdown.r-lib.org/">pkgdown</a> 1.5.1.9000.</p>
+  <p>Site built with <a href="https://pkgdown.r-lib.org/">pkgdown</a> 1.5.1.</p>
 </div>
 
       </footer>

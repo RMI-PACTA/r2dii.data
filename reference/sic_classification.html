@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>r2dii.data: Datasets to Align Financial Markets with Climate Goals — r2dii.data-package • r2dii.data</title>
+<title>Dataset to bridge (translate) common sector-classification codes — sic_classification • r2dii.data</title>
 
 
 <!-- jquery -->
@@ -39,16 +39,10 @@
 
 
 
-<meta property="og:title" content="r2dii.data: Datasets to Align Financial Markets with Climate Goals — r2dii.data-package" />
-<meta property="og:description" content="These datasets support the implementation in R of
-    the software 'PACTA' (Paris Agreement Capital Transition Assessment),
-    which is a free tool that calculates the alignment between financial
-    assets and climate scenarios (&amp;lt;https://2degrees-investing.org/&amp;gt;).
-    Financial institutions use 'PACTA' to study how their capital
-    allocation impacts the climate. Because both financial institutions
-    and market data providers keep their data private, this package
-    provides fake, public data to enable the development and use of
-    'PACTA' in R." />
+<meta property="og:title" content="Dataset to bridge (translate) common sector-classification codes — sic_classification" />
+<meta property="og:description" content="These dataset serve as a translation key between common sector-classification
+systems and sectors relevant to the 'PACTA' tool
+(https://2degrees-investing.org/resource/pacta/)." />
 
 
 
@@ -148,35 +142,60 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>r2dii.data: Datasets to Align Financial Markets with Climate Goals</h1>
-    <small class="dont-index">Source: <a href='https://github.com/2DegreesInvesting/r2dii.data/blob/master/R/r2dii.data-package.R'><code>R/r2dii.data-package.R</code></a></small>
-    <div class="hidden name"><code>r2dii.data-package.Rd</code></div>
+    <h1>Dataset to bridge (translate) common sector-classification codes</h1>
+    <small class="dont-index">Source: <a href='https://github.com/2DegreesInvesting/r2dii.data/blob/master/R/classification_bridge.R'><code>R/classification_bridge.R</code></a></small>
+    <div class="hidden name"><code>sic_classification.Rd</code></div>
     </div>
 
     <div class="ref-description">
-    <p>These datasets support the implementation in R of
-    the software 'PACTA' (Paris Agreement Capital Transition Assessment),
-    which is a free tool that calculates the alignment between financial
-    assets and climate scenarios (&lt;https://2degrees-investing.org/&gt;).
-    Financial institutions use 'PACTA' to study how their capital
-    allocation impacts the climate. Because both financial institutions
-    and market data providers keep their data private, this package
-    provides fake, public data to enable the development and use of
-    'PACTA' in R.</p>
+    <p>These dataset serve as a translation key between common sector-classification
+systems and sectors relevant to the 'PACTA' tool
+(<a href='https://2degrees-investing.org/resource/pacta/'>https://2degrees-investing.org/resource/pacta/</a>).</p>
     </div>
 
+    <pre class="usage"><span class='no'>sic_classification</span></pre>
 
 
-    <h2 class="hasAnchor" id="see-also"><a class="anchor" href="#see-also"></a>See also</h2>
+    <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
 
-    <div class='dont-index'><p>Useful links:</p><ul>
-<li><p><a href='https://2degreesinvesting.github.io/r2dii.data/'>https://2degreesinvesting.github.io/r2dii.data/</a></p></li>
-<li><p><a href='https://github.com/2DegreesInvesting/r2dii.data'>https://github.com/2DegreesInvesting/r2dii.data</a></p></li>
-<li><p>Report bugs at <a href='https://github.com/2DegreesInvesting/r2dii.data/issues'>https://github.com/2DegreesInvesting/r2dii.data/issues</a></p></li>
+    <p>An object of class <code>tbl_df</code> (inherits from <code>tbl</code>, <code>data.frame</code>) with 256 rows and 4 columns.</p>
+    <h2 class="hasAnchor" id="definitions"><a class="anchor" href="#definitions"></a>Definitions</h2>
+
+    
+
+<ul>
+<li><p><code>borderline</code> (character): Flag indicating if 2dii scetor and classification are a borderline match.</p></li>
+<li><p><code>code</code> (integer): Original SIC code.</p></li>
+<li><p><code>description</code> (character): Original SIC description.</p></li>
+<li><p><code>sector</code> (character): Associated 2dii sector.</p></li>
 </ul>
 
-</div>
+    <h2 class="hasAnchor" id="details"><a class="anchor" href="#details"></a>Details</h2>
 
+    
+
+<p>Classification datasets help to standardize sector classification codes from
+the wild to a relevant subset including 'power', 'oil and gas', 'coal',
+'automotive', 'aviation', 'concrete', 'steel', and 'shipping'.</p>
+    <h2 class="hasAnchor" id="see-also"><a class="anchor" href="#see-also"></a>See also</h2>
+
+    <div class='dont-index'><p><a href='data_dictionary.html'>data_dictionary</a>.</p>
+<p>Other datasets for bridging sector classification codes: 
+<code><a href='isic_classification.html'>isic_classification</a></code>,
+<code><a href='nace_classification.html'>nace_classification</a></code>,
+<code><a href='naics_classification.html'>naics_classification</a></code>,
+<code><a href='sector_classifications.html'>sector_classifications</a></code></p></div>
+
+    <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
+    <pre class="examples"><div class='input'><span class='fu'><a href='https://rdrr.io/r/utils/head.html'>head</a></span>(<span class='no'>sic_classification</span>)</div><div class='output co'>#&gt; <span style='color: #555555;'># A tibble: 6 x 4</span><span>
+#&gt;   code  description                                         sector    borderline
+#&gt;   </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span> </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>                                               </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>     </span><span style='color: #555555;font-style: italic;'>&lt;lgl&gt;</span><span>     
+#&gt; </span><span style='color: #555555;'>1</span><span> 0     private households, exterritorial organisations, r… not in s… FALSE     
+#&gt; </span><span style='color: #555555;'>2</span><span> 00000 private households, exterritorial organisations, r… not in s… FALSE     
+#&gt; </span><span style='color: #555555;'>3</span><span> 11110 growing of cereals and other crops n.e.c.           not in s… FALSE     
+#&gt; </span><span style='color: #555555;'>4</span><span> 11130 growing of fruit, nuts, beverage and spice crops    not in s… FALSE     
+#&gt; </span><span style='color: #555555;'>5</span><span> 11210 farming  of cattle, sheep, goats, horses, asses, m… not in s… FALSE     
+#&gt; </span><span style='color: #555555;'>6</span><span> 11300 growing of crops combined with farming of animals … not in s… FALSE     </div></span></pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <nav id="toc" data-toggle="toc" class="sticky-top">
