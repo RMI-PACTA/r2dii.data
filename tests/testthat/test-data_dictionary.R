@@ -36,7 +36,6 @@ test_that("defines the expected objects", {
     "scenario_demo_2020",
     "sector_classifications",
     "sic_classification"
-
   )
 
   expect_equal(sort(datasets), sort(expected_datasets))

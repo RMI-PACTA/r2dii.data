@@ -1,18 +1,10 @@
 # r2dii.data (development version)
 
-Bug fixes:
-
 * `region_isos` no longer has duplicated rows (@jdhoffa #111).
-
-Enhancements:
-
 * New dataset `green_or_brown` (#124).
 * New dataset `sic_classification` (@georgeharris2deg, @daisy-pacheco #125).
 * `ald_demo` drops the column `number_of_assets` (@tposey28 #121).
 * `region_isos` gains data from ETP 2017 (@jdhoffa #110).
-
-Internal:
-
 * Require R >= 3.4, which is what we check for (@maurolepore #117).
 
 # r2dii.data 0.1.1
