@@ -30,4 +30,5 @@ head(green_or_brown)
 \seealso{
 \link{data_dictionary}
 }
+\concept{miscellaneous datasets}
 \keyword{datasets}
