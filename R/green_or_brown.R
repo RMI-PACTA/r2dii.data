@@ -8,6 +8,7 @@
 #' @section Definitions:
 #' `r define("green_or_brown")`
 #'
+#' @family miscellaneous datasets
 #' @seealso [data_dictionary]
 #'
 #' @examples

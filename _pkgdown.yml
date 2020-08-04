@@ -63,11 +63,15 @@ reference:
     contents:
       - has_concept("demo datasets")
 
-  - title: Use country codes following the ISO standard
+  - title: Country codes following the ISO standard
     contents:
       - has_concept("iso codes")
 
   - title: Sector-classification codes
     contents:
       - has_concept("datasets for bridging sector classification codes")
+
+  - title: Miscellaneous datasets
+    contents:
+      - has_concept("miscellaneous datasets")
 
