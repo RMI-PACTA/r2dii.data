@@ -79,3 +79,32 @@ test_that("outputs as many rows per `dataset` as columns in `dataset`", {
   out2 <- transform(out, is_equal = out$n == out$n_col)
   expect_true(all(out2$is_equal))
 })
+
+test_that("Some datasets use tonne or tonnes, but not ton nor tons", {
+  library(r2dii.data)
+  datasets <- r2dii.data:::enlist_datasets("r2dii.data")
+
+  # Helpers
+  names_matching <- function(data, pattern) {
+    data %>%
+      purrr::map(~any(grepl(pattern = pattern, .x))) %>%
+      purrr::keep(isTRUE) %>%
+      names()
+  }
+  length_matching <- function(data, pattern) {
+    data %>%
+      purrr::map(names_matching, pattern = pattern) %>%
+      purrr::discard(~length(.x) == 0) %>%
+      length()
+  }
+
+  # Some datasets have values that contain " tonnes "
+  expect_true(length_matching(datasets, pattern = " tonne ") > 0)
+  # Some datasets have values that start with "tonnes "
+  expect_true(length_matching(datasets, pattern = "^tonnes ") > 0)
+
+  # No dataset has values that contain " ton "
+  expect_false(length_matching(datasets, pattern = " ton ") > 0)
+  # No dataset has values that start with "ton "
+  expect_false(length_matching(datasets, pattern = "^ton ") > 0)
+})
