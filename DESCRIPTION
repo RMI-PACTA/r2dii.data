@@ -37,8 +37,7 @@ Depends:
     R (>= 3.4)
 Imports:
     stats,
-    utils,
-    purrr
+    utils
 Suggests: 
     rlang,
     rmarkdown,

@@ -85,26 +85,30 @@ test_that("Some datasets use tonne or tonnes, but not ton nor tons", {
   datasets <- r2dii.data:::enlist_datasets("r2dii.data")
 
   # Helpers
-  names_matching <- function(data, pattern) {
-    data %>%
-      purrr::map(~any(grepl(pattern = pattern, .x))) %>%
-      purrr::keep(isTRUE) %>%
-      names()
+  length_columns_contain <- function(data, pattern) {
+    out <- lapply(data, column_contains, pattern = pattern)
+    length(discard_empty(out))
   }
-  length_matching <- function(data, pattern) {
-    data %>%
-      purrr::map(names_matching, pattern = pattern) %>%
-      purrr::discard(~length(.x) == 0) %>%
-      length()
+  column_contains <- function(data, pattern) {
+    out <- lapply(data, function(.x) any(grepl(pattern = pattern, .x)))
+    names(keep_true(out))
+  }
+  discard_empty <- function(x) {
+    empty <- unlist(lapply(x, function(x) length(x) == 0))
+    x[is.na(x) | !empty]
+  }
+  keep_true <- function(x) {
+    true <- unlist(x)
+    x[!is.na(x) & true]
   }
 
   # Some datasets have values that contain " tonnes "
-  expect_true(length_matching(datasets, pattern = " tonne ") > 0)
+  expect_true(length_columns_contain(datasets, pattern = " tonne ") > 0)
   # Some datasets have values that start with "tonnes "
-  expect_true(length_matching(datasets, pattern = "^tonnes ") > 0)
+  expect_true(length_columns_contain(datasets, pattern = "^tonnes ") > 0)
 
   # No dataset has values that contain " ton "
-  expect_false(length_matching(datasets, pattern = " ton ") > 0)
+  expect_false(length_columns_contain(datasets, pattern = " ton ") > 0)
   # No dataset has values that start with "ton "
-  expect_false(length_matching(datasets, pattern = "^ton ") > 0)
+  expect_false(length_columns_contain(datasets, pattern = "^ton ") > 0)
 })
