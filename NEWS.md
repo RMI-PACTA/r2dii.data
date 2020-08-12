@@ -1,5 +1,7 @@
 # r2dii.data (development version)
 
+* Fix typos in columns definitions.
+
 # r2dii.data 0.1.2
 
 * `region_isos` no longer has duplicated rows (@jdhoffa #111).

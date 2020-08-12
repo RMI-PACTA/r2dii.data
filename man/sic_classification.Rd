@@ -18,7 +18,7 @@ systems and sectors relevant to the 'PACTA' tool
 \section{Definitions}{
 
 \itemize{
-\item \code{borderline} (character): Flag indicating if 2dii scetor and classification are a borderline match.
+\item \code{borderline} (character): Flag indicating if 2dii sector and classification are a borderline match.
 \item \code{code} (integer): Original SIC code.
 \item \code{description} (character): Original SIC description.
 \item \code{sector} (character): Associated 2dii sector.
