@@ -1,5 +1,6 @@
 # r2dii.data (development version)
 
+* Replace ton and tons with tonne and tonnes (#134).
 * Fix typos in columns definitions.
 
 # r2dii.data 0.1.2
