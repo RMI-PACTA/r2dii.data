@@ -84,16 +84,19 @@ jobs:
           sessioninfo::session_info(pkgs, include_base = TRUE)
         shell: Rscript {0}
 
-      - name: Update data-raw step 1 - Install self
+      - name: Update data-raw step 1 - Install r2dii.data
         run: |
           R CMD build .
           R CMD INSTALL *.tar.gz
         shell: bash
-      - name: Update data-raw step 2 - Source R files
+      - name: Update data-raw step 2 - Install dependencies
         run: |
           install.packages('readr')
           install.packages('dplyr')
           install.packages('usethis')
+        shell: Rscript {0}
+      - name: Update data-raw step 3 - Source R files in data-raw
+        run: |
           source(file.path('R', 'utils.R'))
           source_data_raw()
         shell: Rscript {0}
