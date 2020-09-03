@@ -13,11 +13,13 @@
 #' source_data_raw()
 #' @noRd
 source_data_raw <- function() {
-  # The `pattern` argument creates paths with "//"
-  all <- list.files("data-raw", full.names = TRUE)
-  r <- grep("[.]R$", all, value = TRUE)
+  # It's simpler to use list.files(pattern = "[.]R$", ...) but I avoid it
+  # because in some platforms it results in "dir//file" instead of "dir/file".
+  path_ext <- list.files("data-raw", full.names = TRUE)
+  path_r <- grep("[.]R$", path_ext, value = TRUE)
 
-  lapply(r, source)
+  lapply(path_r, source)
+
   invisible()
 }
 
