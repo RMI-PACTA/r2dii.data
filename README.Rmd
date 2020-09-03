@@ -54,7 +54,7 @@ devtools::install_github("2DegreesInvesting/r2dii.data")
 
 ## Example
 
-```{r}
+```{r example}
 library(r2dii.data)
 
 head(data_dictionary)
