@@ -84,6 +84,12 @@ jobs:
           sessioninfo::session_info(pkgs, include_base = TRUE)
         shell: Rscript {0}
 
+      - name: Install self
+        run: |
+          R CMD build .
+          R CMD INSTALL *.tar.gz
+        shell: bash
+
       - name: Source R files in data-raw
         run: |
           install.packages('readr')
