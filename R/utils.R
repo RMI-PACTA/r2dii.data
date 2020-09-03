@@ -13,9 +13,8 @@
 #' source_data_raw()
 #' @noRd
 source_data_raw <- function() {
-  # It's simpler to use list.files(pattern = "[.]R$", ...) but I avoid it
-  # because in some platforms it results in "dir//file" instead of "dir/file".
-  path_ext <- list.files("data-raw", full.names = TRUE)
+  # pattern = "[.]R$" is simpler but platform-inconsistent, e.g. "a//b", "a/b".
+  path_ext <- list.files("data-raw", pattern = NULL, full.names = TRUE)
   path_r <- grep("[.]R$", path_ext, value = TRUE)
 
   lapply(path_r, source)
