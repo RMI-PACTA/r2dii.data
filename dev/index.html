@@ -125,18 +125,23 @@
 <a href="https://gist.github.com/maurolepore/a0187be9d40aee95a43f20a85f4caed6#installation">Learn how to minimize installation errors</a>.</li>
 </ul>
 <p>When you are ready, install the released version of r2dii.data from CRAN with:</p>
-<div class="sourceCode" id="cb1"><pre class="r"><span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html">install.packages</a></span>(<span class="st">"r2dii.data"</span>)</pre></div>
+<div class="sourceCode" id="cb1"><pre class="downlit">
+<span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html">install.packages</a></span>(<span class="st">"r2dii.data"</span>)
+</pre></div>
 <p>Or install the development version of r2dii.data with something like this:</p>
-<div class="sourceCode" id="cb2"><pre class="r"><span class="co"># install.packages("devtools")</span>
-<span class="kw pkg">devtools</span><span class="kw ns">::</span><span class="fu">install_github</span>(<span class="st">"2DegreesInvesting/r2dii.data"</span>)</pre></div>
+<div class="sourceCode" id="cb2"><pre class="downlit">
+<span class="co"># install.packages("devtools")</span>
+<span class="kw">devtools</span>::<span class="fu">install_github</span>(<span class="st">"2DegreesInvesting/r2dii.data"</span>)
+</pre></div>
 <p><a href="https://2degreesinvesting.github.io/posts/2020-06-26-instructions-to-raise-an-issue/">How to raise an issue?</a></p>
 </div>
 <div id="example" class="section level2">
 <h2 class="hasAnchor">
 <a href="#example" class="anchor"></a>Example</h2>
-<div class="sourceCode" id="cb3"><pre class="r"><span class="fu"><a href="https://rdrr.io/r/base/library.html">library</a></span>(<span class="no">r2dii.data</span>)
+<div class="sourceCode" id="cb3"><pre class="downlit">
+<span class="fu"><a href="https://rdrr.io/r/base/library.html">library</a></span>(<span class="kw"><a href="https://2degreesinvesting.github.io/r2dii.data">r2dii.data</a></span>)
 
-<span class="fu"><a href="https://rdrr.io/r/utils/head.html">head</a></span>(<span class="no">data_dictionary</span>)
+<span class="fu"><a href="https://rdrr.io/r/utils/head.html">head</a></span>(<span class="kw">data_dictionary</span>)
 <span class="co">#&gt;    dataset                   column    typeof</span>
 <span class="co">#&gt; 1 ald_demo ald_emission_factor_unit character</span>
 <span class="co">#&gt; 2 ald_demo            ald_timestamp character</span>
@@ -150,7 +155,8 @@
 <span class="co">#&gt; 3                         Country where company is registered</span>
 <span class="co">#&gt; 4             Company level emission factor of the technology</span>
 <span class="co">#&gt; 5               Flag if company is the listed ultimate parent</span>
-<span class="co">#&gt; 6      Flag if company is the ultimate parent in our database</span></pre></div>
+<span class="co">#&gt; 6      Flag if company is the ultimate parent in our database</span>
+</pre></div>
 </div>
 </div>
   </div>
@@ -208,7 +214,7 @@
 </div>
 
 <div class="pkgdown">
-  <p>Site built with <a href="https://pkgdown.r-lib.org/">pkgdown</a> 1.5.1.</p>
+  <p>Site built with <a href="https://pkgdown.r-lib.org/">pkgdown</a> 1.6.0.</p>
 </div>
 
       </footer>
