@@ -13,12 +13,14 @@
 #' source_data_raw()
 #' @noRd
 source_data_raw <- function() {
-  # The `pattern` argument creates paths with "//"
-  all <- list.files("data-raw", full.names = TRUE)
-  r <- grep("[.]R$", all, value = TRUE)
-
-  lapply(r, source)
+  lapply(r_files_in("data-raw"), source)
   invisible()
+}
+
+r_files_in <- function(path) {
+  # pattern = "[.]R$" is simpler but platform-inconsistent, e.g. "a//b", "a/b".
+  path_ext <- list.files(path, pattern = NULL, full.names = TRUE)
+  grep("[.]R$", path_ext, value = TRUE)
 }
 
 #' Create a list of all or some datasets exported by a package
