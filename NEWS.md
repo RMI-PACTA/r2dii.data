@@ -1,5 +1,6 @@
 # r2dii.data (development version)
 
+* The "News" tab of the website now shows all releases to date.
 * Replace ton and tons with tonne and tonnes (#134).
 * Fix typos in columns definitions.
 
