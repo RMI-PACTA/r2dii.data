@@ -15,6 +15,11 @@ jobs:
       - uses: r-lib/actions/setup-pandoc@v1
       - name: Install rmarkdown
         run: Rscript -e 'install.packages("rmarkdown")'
+      - name: Install self
+        run: |
+          R CMD build .
+          R CMD INSTALL *.tar.gz
+        shell: bash
       - name: Render README
         run: Rscript -e 'rmarkdown::render("README.Rmd")'
       - name: Commit results
