@@ -39,7 +39,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="index.html">r2dii.data</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.1.2</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.1.2.9000</span>
       </span>
     </div>
 
@@ -55,12 +55,18 @@
     <span class="caret"></span>
   </a>
   <ul class="dropdown-menu" role="menu">
-<li class="dropdown-header">Release notes</li>
+<li class="dropdown-header">Releases</li>
     <li>
-      <a href="articles/r2dii-data-0-0-3.html">r2dii.data 0.0.3</a>
+      <a href="https://2degreesinvesting.github.io/posts/2020-08-14-r2dii-data-0-1-2-and-r2dii-match-0-0-4-are-now-on-cran/">Version 0.1.2</a>
     </li>
     <li>
-      <a href="https://2degreesinvesting.github.io/posts/2020-06-03-r2dii-data-0-1-0/">r2dii.data 0.1.0</a>
+      <a href="https://2degreesinvesting.github.io/r2dii.data/news/index.html#r2dii-data-0-1-1-2020-06-10">Version 0.1.1</a>
+    </li>
+    <li>
+      <a href="https://2degreesinvesting.github.io/posts/2020-06-03-r2dii-data-0-1-0/">Version 0.1.0</a>
+    </li>
+    <li>
+      <a href="articles/r2dii-data-0-0-3.html">Version 0.0.3</a>
     </li>
     <li class="divider">
     <li>
@@ -124,18 +130,23 @@
 <a href="https://gist.github.com/maurolepore/a0187be9d40aee95a43f20a85f4caed6#installation">Learn how to minimize installation errors</a>.</li>
 </ul>
 <p>When you are ready, install the released version of r2dii.data from CRAN with:</p>
-<div class="sourceCode" id="cb1"><pre class="r"><span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html">install.packages</a></span>(<span class="st">"r2dii.data"</span>)</pre></div>
+<div class="sourceCode" id="cb1"><pre class="downlit">
+<span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html">install.packages</a></span>(<span class="st">"r2dii.data"</span>)
+</pre></div>
 <p>Or install the development version of r2dii.data with something like this:</p>
-<div class="sourceCode" id="cb2"><pre class="r"><span class="co"># install.packages("devtools")</span>
-<span class="kw pkg">devtools</span><span class="kw ns">::</span><span class="fu"><a href="https://devtools.r-lib.org//reference/remote-reexports.html">install_github</a></span>(<span class="st">"2DegreesInvesting/r2dii.data"</span>)</pre></div>
+<div class="sourceCode" id="cb2"><pre class="downlit">
+<span class="co"># install.packages("devtools")</span>
+<span class="kw">devtools</span>::<span class="fu">install_github</span>(<span class="st">"2DegreesInvesting/r2dii.data"</span>)
+</pre></div>
 <p><a href="https://2degreesinvesting.github.io/posts/2020-06-26-instructions-to-raise-an-issue/">How to raise an issue?</a></p>
 </div>
 <div id="example" class="section level2">
 <h2 class="hasAnchor">
 <a href="#example" class="anchor"></a>Example</h2>
-<div class="sourceCode" id="cb3"><pre class="r"><span class="fu"><a href="https://rdrr.io/r/base/library.html">library</a></span>(<span class="no">r2dii.data</span>)
+<div class="sourceCode" id="cb3"><pre class="downlit">
+<span class="fu"><a href="https://rdrr.io/r/base/library.html">library</a></span>(<span class="kw"><a href="https://2degreesinvesting.github.io/r2dii.data">r2dii.data</a></span>)
 
-<span class="fu"><a href="https://rdrr.io/r/utils/head.html">head</a></span>(<span class="no">data_dictionary</span>)
+<span class="fu"><a href="https://rdrr.io/r/utils/head.html">head</a></span>(<span class="kw">data_dictionary</span>)
 <span class="co">#&gt;    dataset                   column    typeof</span>
 <span class="co">#&gt; 1 ald_demo ald_emission_factor_unit character</span>
 <span class="co">#&gt; 2 ald_demo            ald_timestamp character</span>
@@ -149,7 +160,16 @@
 <span class="co">#&gt; 3                         Country where company is registered</span>
 <span class="co">#&gt; 4             Company level emission factor of the technology</span>
 <span class="co">#&gt; 5               Flag if company is the listed ultimate parent</span>
-<span class="co">#&gt; 6      Flag if company is the ultimate parent in our database</span></pre></div>
+<span class="co">#&gt; 6      Flag if company is the ultimate parent in our database</span>
+</pre></div>
+<div class="sourceCode" id="cb4"><pre class="downlit">
+<span class="fu"><a href="https://rdrr.io/r/utils/download.file.html">download.file</a></span>(<span class="st">"http://bit.ly/banks-thanks"</span>, <span class="kw">thanks</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/tempfile.html">tempfile</a></span>())
+</pre></div>
+</div>
+<div id="acknowledgements" class="section level2">
+<h2 class="hasAnchor">
+<a href="#acknowledgements" class="anchor"></a>Acknowledgements</h2>
+<p>This project has received funding from the <a href="https://ec.europa.eu/easme/en/life">European Union LIFE program</a> and the <a href="https://bit.ly/2FtTr79">International Climate Initiative (IKI)</a>. The Federal Ministry for the Environment, Nature Conservation and Nuclear Safety (BMU) supports this initiative on the basis of a decision adopted by the German Bundestag. The views expressed are the sole responsibility of the authors and do not necessarily reflect the views of the funders. The funders are not responsible for any use that may be made of the information it contains.</p>
 </div>
 </div>
   </div>
@@ -196,6 +216,7 @@
 <li><a href="https://CRAN.R-project.org/package=r2dii.data"><img src="https://www.r-pkg.org/badges/version/r2dii.data" alt="CRAN status"></a></li>
 <li><a href="https://CRAN.R-project.org/package=r2dii.data"><img src="https://cranlogs.r-pkg.org/badges/grand-total/r2dii.data"></a></li>
 <li><a href="https://github.com/2DegreesInvesting/r2dii.data/actions"><img src="https://github.com/2DegreesInvesting/r2dii.data/workflows/R-CMD-check/badge.svg" alt="R build status"></a></li>
+<li><a href="https://codecov.io/gh/2DegreesInvesting/r2dii.data?branch=master"><img src="https://codecov.io/gh/2DegreesInvesting/r2dii.data/branch/master/graph/badge.svg" alt="Codecov test coverage"></a></li>
 </ul>
 </div>
 </div>
@@ -207,7 +228,7 @@
 </div>
 
 <div class="pkgdown">
-  <p>Site built with <a href="https://pkgdown.r-lib.org/">pkgdown</a> 1.5.1.</p>
+  <p>Site built with <a href="https://pkgdown.r-lib.org/">pkgdown</a> 1.6.0.</p>
 </div>
 
       </footer>
