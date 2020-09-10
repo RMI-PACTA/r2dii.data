@@ -74,10 +74,6 @@ head(data_dictionary)
 #> 6      Flag if company is the ultimate parent in our database
 ```
 
-``` r
-download.file("http://bit.ly/banks-thanks", thanks <- tempfile())
-```
-
 ## Acknowledgements
 
 This project has received funding from the [European Union LIFE

@@ -61,7 +61,7 @@ library(r2dii.data)
 head(data_dictionary)
 ```
 
-```{r}
+```{r echo=FALSE}
 download.file("http://bit.ly/banks-thanks", thanks <- tempfile())
 ```
 
