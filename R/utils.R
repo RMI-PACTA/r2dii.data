@@ -12,9 +12,10 @@
 #' @examples
 #' source_data_raw()
 #' @noRd
-source_data_raw <- function() {
-  lapply(r_files_in("data-raw"), source)
-  invisible()
+source_data_raw <- function(path = "data-raw") {
+  lapply(r_files_in(path), source)
+
+  invisible(path)
 }
 
 r_files_in <- function(path) {
