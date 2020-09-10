@@ -1,6 +1,6 @@
 # MIT License
 
-Copyright (c) 2020 2 Degrees Investing Initiative France
+Copyright (c) 2020 Mauro Lepore
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
