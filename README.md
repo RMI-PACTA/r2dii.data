@@ -12,6 +12,8 @@ status](https://www.r-pkg.org/badges/version/r2dii.data)](https://CRAN.R-project
 [![](https://cranlogs.r-pkg.org/badges/grand-total/r2dii.data)](https://CRAN.R-project.org/package=r2dii.data)
 [![R build
 status](https://github.com/2DegreesInvesting/r2dii.data/workflows/R-CMD-check/badge.svg)](https://github.com/2DegreesInvesting/r2dii.data/actions)
+[![Codecov test
+coverage](https://codecov.io/gh/2DegreesInvesting/r2dii.data/branch/master/graph/badge.svg)](https://codecov.io/gh/2DegreesInvesting/r2dii.data?branch=master)
 <!-- badges: end -->
 
 These datasets support the implementation in R of the software PACTA
