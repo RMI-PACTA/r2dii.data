@@ -12,7 +12,6 @@
 ^man-roxygen$
 ^CRAN-RELEASE$
 ^vignettes/articles$
-^vignettes/_r2dii-data-0-0-3\.Rmd$
 ^vignettes/r2dii-data-0-0-3\.Rmd$
 ^r2dii.data.*.tar.gz$
 ^revdep$
