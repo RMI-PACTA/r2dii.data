@@ -20,5 +20,11 @@ test_that("source_data_raw() sources .R files and only .R files", {
 })
 
 test_that("define() produces the expected output", {
-  verify_output(test_path("define-output.txt"), define("region_isos"))
+  expected <- c(
+    "* `isos` (character): Countries in region, defined by iso code.",
+    "* `region` (character): Benchmark region name.",
+    "* `source` (character): Source publication from which the regions are defined."
+  )
+  actual <-  define("region_isos")
+  expect_equal(actual, expected)
 })

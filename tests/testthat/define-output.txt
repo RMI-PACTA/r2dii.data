@@ -1,5 +1,0 @@
-> define("region_isos")
-* `isos` (character): Countries in region, defined by iso code.
-* `region` (character): Benchmark region name.
-* `source` (character): Source publication from which the regions are defined.
-
