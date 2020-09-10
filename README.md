@@ -12,8 +12,6 @@ status](https://www.r-pkg.org/badges/version/r2dii.data)](https://CRAN.R-project
 [![](https://cranlogs.r-pkg.org/badges/grand-total/r2dii.data)](https://CRAN.R-project.org/package=r2dii.data)
 [![R build
 status](https://github.com/2DegreesInvesting/r2dii.data/workflows/R-CMD-check/badge.svg)](https://github.com/2DegreesInvesting/r2dii.data/actions)
-[![Codecov test
-coverage](https://codecov.io/gh/2DegreesInvesting/r2dii.data/branch/master/graph/badge.svg)](https://codecov.io/gh/2DegreesInvesting/r2dii.data?branch=master)
 <!-- badges: end -->
 
 These datasets support the implementation in R of the software PACTA
@@ -73,3 +71,10 @@ head(data_dictionary)
 #> 5               Flag if company is the listed ultimate parent
 #> 6      Flag if company is the ultimate parent in our database
 ```
+
+## Acknowledgements
+
+With the contribution of the [European Union LIFE
+program](https://ec.europa.eu/easme/en/life). The European Commission is
+not responsible for any use that may be made of the information it
+contains.
