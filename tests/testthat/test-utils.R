@@ -18,3 +18,6 @@ test_that("source_data_raw() sources .R files and only .R files", {
   expect_false(exists("txt_test"))
 })
 
+test_that("define() produces the expected output", {
+  verify_output(test_path("define-output.txt"), define("region_isos"))
+})
