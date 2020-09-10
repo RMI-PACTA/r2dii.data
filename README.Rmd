@@ -61,5 +61,7 @@ library(r2dii.data)
 head(data_dictionary)
 ```
 
+## Acknowledgements
 
+With the contribution of the [European Union LIFE program](https://ec.europa.eu/easme/en/life). The European Commission is not responsible for any use that may be made of the information it contains.
 

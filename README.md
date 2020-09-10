@@ -73,3 +73,10 @@ head(data_dictionary)
 #> 5               Flag if company is the listed ultimate parent
 #> 6      Flag if company is the ultimate parent in our database
 ```
+
+## Acknowledgements
+
+With the contribution of the [European Union LIFE
+program](https://ec.europa.eu/easme/en/life). The European Commission is
+not responsible for any use that may be made of the information it
+contains.
