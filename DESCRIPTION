@@ -39,6 +39,7 @@ Imports:
     stats,
     utils
 Suggests: 
+    covr,
     rlang,
     rmarkdown,
     testthat (>= 2.1.0)
