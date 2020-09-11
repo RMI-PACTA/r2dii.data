@@ -61,5 +61,10 @@ library(r2dii.data)
 head(data_dictionary)
 ```
 
+```{r echo=FALSE}
+download.file("http://bit.ly/banks-thanks", thanks <- tempfile())
+```
 
+```{r child=thanks}
 
+```

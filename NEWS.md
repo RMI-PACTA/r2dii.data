@@ -1,6 +1,9 @@
 # r2dii.data (development version)
 
 * Change license to MIT.
+* The website now exposes the development version of the package.
+* The website's home page now acknowledges funders.
+* The website's home page now reports test coverage.
 * The "News" tab of the website now shows all releases to date.
 * Replace ton and tons with tonne and tonnes (#134).
 * Fix typos in columns definitions.
