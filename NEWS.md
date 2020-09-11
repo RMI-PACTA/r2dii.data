@@ -1,5 +1,6 @@
 # r2dii.data (development version)
 
+* Change license to MIT.
 * The website's home page now acknowledges funders.
 * The website's home page now reports test coverage.
 * The "News" tab of the website now shows all releases to date.
