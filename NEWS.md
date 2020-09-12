@@ -1,4 +1,4 @@
-# r2dii.data (development version)
+# r2dii.data 0.1.3
 
 * Change license to MIT.
 * The website's home page now acknowledges funders.
