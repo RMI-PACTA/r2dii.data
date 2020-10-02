@@ -5,7 +5,7 @@
 \alias{sector_classifications}
 \title{A view of available sector classification datasets}
 \format{
-An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 2984 rows and 4 columns.
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 3246 rows and 4 columns.
 }
 \usage{
 sector_classifications
