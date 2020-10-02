@@ -1,0 +1,6 @@
+dataset,column,typeof,definition
+gics_classification,code,double,Original GICS code
+gics_classification,code_level,double,Level of granularity of GICS code
+gics_classification,sector,character,Associated 2dii sector
+gics_classification,borderline,logical,Flag indicating if 2dii sector and classification code are a borderline match
+gics_classification,description,character,Original GICS description
