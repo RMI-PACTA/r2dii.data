@@ -1,0 +1,265 @@
+code,code_level,sector,borderline,description
+10101010,4,oil and gas,FALSE,oil & gas drilling
+10101020,4,oil and gas,TRUE,oil & gas equipment & services
+10102010,4,oil and gas,FALSE,integrated oil & gas
+10102020,4,oil and gas,FALSE,oil & gas exploration & production
+10102030,4,oil and gas,TRUE,oil & gas refining & marketing
+10102040,4,oil and gas,TRUE,oil & gas storage & transportation
+10102050,4,coal,FALSE,coal & consumable fuels
+15101010,4,not in scope,FALSE,commodity chemicals
+15101020,4,not in scope,FALSE,diversified chemicals
+15101030,4,not in scope,FALSE,fertilizers & agricultural chemicals
+15101040,4,not in scope,FALSE,industrial gases
+15101050,4,not in scope,FALSE,specialty chemicals
+15102010,4,not in scope,FALSE,construction materials
+15103010,4,not in scope,FALSE,metal & glass containers
+15103020,4,not in scope,FALSE,paper packaging
+15104010,4,not in scope,FALSE,aluminum
+15104020,4,not in scope,FALSE,diversified metals & mining
+15104025,4,not in scope,FALSE,copper
+15104030,4,not in scope,FALSE,gold
+15104040,4,not in scope,FALSE,precious metals & minerals
+15104045,4,not in scope,FALSE,silver
+15104050,4,steel,FALSE,steel
+15105010,4,not in scope,FALSE,forest products
+15105020,4,not in scope,FALSE,paper products
+20101010,4,not in scope,FALSE,aerospace & defense
+20102010,4,not in scope,FALSE,building products
+20103010,4,not in scope,FALSE,construction & engineering
+20104010,4,not in scope,FALSE,electrical components & equipment
+20104020,4,not in scope,FALSE,heavy electrical equipment
+20105010,4,not in scope,FALSE,industrial conglomerates
+20106010,4,not in scope,FALSE,construction machinery & heavy trucks
+20106015,4,not in scope,FALSE,agricultural & farm machinery
+20106020,4,not in scope,FALSE,industrial machinery
+20107010,4,not in scope,FALSE,trading companies & distributors
+20201010,4,not in scope,FALSE,commercial printing
+20201020,4,not in scope,FALSE,"data processing services  (discontinued effective close of april 30, 2003)"
+20201030,4,not in scope,FALSE,"diversified commercial & professional services (discontinued effective close of august 31, 2008)"
+20201040,4,not in scope,FALSE,"human resource & employment services (discontinued effective close of august 31, 2008)"
+20201050,4,not in scope,FALSE,environmental & facilities services
+20201060,4,not in scope,FALSE,office services & supplies
+20201070,4,not in scope,FALSE,diversified support services
+20201080,4,not in scope,FALSE,security & alarm services
+20202010,4,not in scope,FALSE,human resource & employment services
+20202020,4,not in scope,FALSE,research & consulting services
+20301010,4,aviation,FALSE,air freight & logistics
+20302010,4,aviation,FALSE,airlines
+20303010,4,shipping,FALSE,marine
+20304010,4,not in scope,FALSE,railroads
+20304020,4,automotive,TRUE,trucking
+20305010,4,not in scope,FALSE,airport services
+20305020,4,not in scope,FALSE,highways & railtracks
+20305030,4,not in scope,FALSE,marine ports & services
+25101010,4,automotive,TRUE,auto parts & equipment
+25101020,4,automotive,TRUE,tires & rubber
+25102010,4,automotive,FALSE,automobile manufacturers
+25102020,4,not in scope,FALSE,motorcycle manufacturers
+25201010,4,not in scope,FALSE,consumer electronics
+25201020,4,not in scope,FALSE,home furnishings
+25201030,4,not in scope,FALSE,homebuilding
+25201040,4,not in scope,FALSE,household appliances
+25201050,4,not in scope,FALSE,housewares & specialties
+25202010,4,not in scope,FALSE,leisure products
+25202020,4,not in scope,FALSE,"photographic products (discontinued effective close of february 28, 2014)"
+25203010,4,not in scope,FALSE,"apparel, accessories & luxury goods"
+25203020,4,not in scope,FALSE,footwear
+25203030,4,not in scope,FALSE,textiles
+25301010,4,not in scope,FALSE,casinos & gaming
+25301020,4,shipping,TRUE,"hotels, resorts & cruise lines"
+25301030,4,not in scope,FALSE,leisure facilities
+25301040,4,not in scope,FALSE,restaurants
+25302010,4,not in scope,FALSE,education services
+25302020,4,not in scope,FALSE,specialized consumer services
+25401010,4,not in scope,FALSE,"advertising  (discontinued effective close of september 28, 2018)"
+25401020,4,not in scope,FALSE,"broadcasting  (discontinued effective close of september 28, 2018)"
+25401025,4,not in scope,FALSE,"cable & satellite  (discontinued effective close of september 28, 2018)"
+25401030,4,not in scope,FALSE,"movies & entertainment  (discontinued effective close of september 28, 2018)"
+25401040,4,not in scope,FALSE,"publishing  (discontinued effective close of september 28, 2018)"
+25501010,4,not in scope,FALSE,distributors
+25502010,4,not in scope,FALSE,"catalog retail (discontinued effective close of august 31, 2016)"
+25502020,4,not in scope,FALSE,internet & direct marketing retail
+25503010,4,not in scope,FALSE,department stores
+25503020,4,not in scope,FALSE,general merchandise stores
+25504010,4,not in scope,FALSE,apparel retail
+25504020,4,not in scope,FALSE,computer & electronics retail
+25504030,4,not in scope,FALSE,home improvement retail
+25504040,4,not in scope,FALSE,specialty stores
+25504050,4,automotive,FALSE,automotive retail
+25504060,4,not in scope,FALSE,homefurnishing retail
+30101010,4,not in scope,FALSE,drug retail
+30101020,4,not in scope,FALSE,food distributors
+30101030,4,not in scope,FALSE,food retail
+30101040,4,not in scope,FALSE,hypermarkets & super centers
+30201010,4,not in scope,FALSE,brewers
+30201020,4,not in scope,FALSE,distillers & vintners
+30201030,4,not in scope,FALSE,soft drinks
+30202010,4,not in scope,FALSE,agricultural products
+30202020,4,not in scope,FALSE,"meat, poultry & fish (discontinued effective close of march 28 2002)"
+30202030,4,not in scope,FALSE,packaged foods & meats
+30203010,4,not in scope,FALSE,tobacco
+30301010,4,not in scope,FALSE,household products
+30302010,4,not in scope,FALSE,personal products
+35101010,4,not in scope,FALSE,health care equipment
+35101020,4,not in scope,FALSE,health care supplies
+35102010,4,not in scope,FALSE,health care distributors
+35102015,4,not in scope,FALSE,health care  services
+35102020,4,not in scope,FALSE,health care facilities
+35102030,4,not in scope,FALSE,managed health care
+35103010,4,not in scope,FALSE,health care technology
+35201010,4,not in scope,FALSE,biotechnology
+35202010,4,not in scope,FALSE,pharmaceuticals
+35203010,4,not in scope,FALSE,life sciences tools & services
+40101010,4,not in scope,FALSE,diversified banks
+40101015,4,not in scope,FALSE,regional banks
+40102010,4,not in scope,FALSE,thrifts & mortgage finance
+40201010,4,not in scope,FALSE,"consumer finance (discontinued effective close of april 30, 2003)"
+40201020,4,not in scope,FALSE,other diversified financial services
+40201030,4,not in scope,FALSE,multi-sector holdings
+40201040,4,not in scope,FALSE,specialized finance
+40202010,4,not in scope,FALSE,consumer finance
+40203010,4,not in scope,FALSE,asset management & custody banks
+40203020,4,not in scope,FALSE,investment banking & brokerage
+40203030,4,not in scope,FALSE,diversified capital markets
+40203040,4,not in scope,FALSE,financial exchanges & data
+40204010,4,not in scope,FALSE,mortgage reits
+40301010,4,not in scope,FALSE,insurance brokers
+40301020,4,not in scope,FALSE,life & health insurance
+40301030,4,not in scope,FALSE,multi-line insurance
+40301040,4,not in scope,FALSE,property & casualty insurance
+40301050,4,not in scope,FALSE,reinsurance
+40401010,4,not in scope,FALSE,"real estate investment trusts (discontinued effective close of april 28, 2006)"
+40401020,4,not in scope,FALSE,"real estate management & development (discontinued effective close of april 28, 2006)"
+40402010,4,not in scope,FALSE,"diversified reits (discontinued effective close of august 31, 2016)"
+40402020,4,not in scope,FALSE,"industrial reits (discontinued effective close of august 31, 2016)"
+40402030,4,not in scope,FALSE,"mortgage reits (discontinued effective close of august 31, 2016)"
+40402035,4,not in scope,FALSE,"hotel & resort reits (discontinued effective close of august 31, 2016)"
+40402040,4,not in scope,FALSE,"office reits (discontinued effective close of august 31, 2016)"
+40402045,4,not in scope,FALSE,"health care reits (discontinued effective close of august 31, 2016)"
+40402050,4,not in scope,FALSE,"residential reits (discontinued effective close of august 31, 2016)"
+40402060,4,not in scope,FALSE,"retail reits (discontinued effective close of august 31, 2016)"
+40402070,4,not in scope,FALSE,"specialized reits (discontinued effective close of august 31, 2016)"
+40403010,4,not in scope,FALSE,"diversified real estate activities (discontinued effective close of august 31, 2016)"
+40403020,4,not in scope,FALSE,"real estate operating companies (discontinued effective close of august 31, 2016)"
+40403030,4,not in scope,FALSE,"real estate development (discontinued effective close of august 31, 2016)"
+40403040,4,not in scope,FALSE,"real estate services (discontinued effective close of august 31, 2016)"
+45101010,4,not in scope,FALSE,"internet software & services (discontinued effective close of september 28, 2018)"
+45102010,4,not in scope,FALSE,it consulting & other services
+45102020,4,not in scope,FALSE,data processing & outsourced services
+45102030,4,not in scope,FALSE,internet services & infrastructure
+45103010,4,not in scope,FALSE,application software
+45103020,4,not in scope,FALSE,systems software
+45103030,4,not in scope,FALSE,"home entertainment software  (discontinued effective close of september 28, 2018)"
+45201020,4,not in scope,FALSE,communications equipment
+45201010,4,not in scope,FALSE,"networking equipment (discontinued effective close of april 30, 2003)"
+45201020,4,not in scope,FALSE,"telecommunications equipment (discontinued effective close of april 30, 2003)"
+45202010,4,not in scope,FALSE,"computer hardware (discontinued effective close of february 28, 2014)"
+45202020,4,not in scope,FALSE,"computer storage & peripherals (discontinued effective close of february 28, 2014)"
+45202030,4,not in scope,FALSE,"technology hardware, storage & peripherals"
+45203010,4,not in scope,FALSE,electronic equipment & instruments
+45203015,4,not in scope,FALSE,electronic components
+45203020,4,not in scope,FALSE,electronic manufacturing services
+45203030,4,not in scope,FALSE,technology distributors
+45204010,4,not in scope,FALSE,"office electronics (discontinued effective close of february 28, 2014)"
+45205010,4,not in scope,FALSE,"semiconductor equipment (discontinued effective close of april 30, 2003)"
+45205020,4,not in scope,FALSE,"semiconductors (discontinued effective close of april 30, 2003)"
+45301010,4,not in scope,FALSE,semiconductor equipment
+45301020,4,not in scope,FALSE,semiconductors
+50101010,4,not in scope,FALSE,alternative carriers
+50101020,4,not in scope,FALSE,integrated telecommunication services
+50102010,4,not in scope,FALSE,wireless telecommunication services
+50201010,4,not in scope,FALSE,advertising
+50201020,4,not in scope,FALSE,broadcasting
+50201030,4,not in scope,FALSE,cable & satellite
+50201040,4,not in scope,FALSE,publishing
+50202010,4,not in scope,FALSE,movies & entertainment
+50202020,4,not in scope,FALSE,interactive home entertainment
+50203010,4,not in scope,FALSE,interactive media & services
+55101010,4,power,FALSE,electric utilities
+55102010,4,power,FALSE,gas utilities
+55103010,4,power,FALSE,multi-utilities
+55104010,4,power,FALSE,water utilities
+55105010,4,power,FALSE,independent power producers & energy traders
+55105020,4,power,FALSE,renewable electricity
+60101010,4,not in scope,FALSE,diversified reits
+60101020,4,not in scope,FALSE,industrial reits
+60101030,4,not in scope,FALSE,hotel & resort reits
+60101040,4,not in scope,FALSE,office reits
+60101050,4,not in scope,FALSE,health care reits
+60101060,4,not in scope,FALSE,residential reits
+60101070,4,not in scope,FALSE,retail reits
+60101080,4,not in scope,FALSE,specialized reits
+60102010,4,not in scope,FALSE,diversified real estate activities
+60102020,4,not in scope,FALSE,real estate operating companies
+60102030,4,not in scope,FALSE,real estate development
+60102040,4,not in scope,FALSE,real estate services
+101010,3,oil and gas,TRUE,energy equipment & services
+101020,3,oil and gas,FALSE,"oil, gas & consumable fuels"
+151010,3,not in scope,FALSE,chemicals
+151020,3,cement,TRUE,construction materials
+151030,3,not in scope,FALSE,containers & packaging
+151040,3,steel,TRUE,metals & mining
+151040,3,coal,TRUE,metals & mining
+151050,3,not in scope,FALSE,paper & forest products
+201010,3,not in scope,FALSE,aerospace & defense
+201020,3,cement,TRUE,building products
+201030,3,not in scope,FALSE,construction & engineering
+201040,3,not in scope,FALSE,electrical equipment
+201050,3,not in scope,FALSE,industrial conglomerates
+201060,3,not in scope,FALSE,machinery
+201070,3,not in scope,FALSE,trading companies & distributors
+202010,3,not in scope,FALSE,commercial services & supplies
+202020,3,not in scope,FALSE,professional services
+203010,3,aviation,FALSE,air freight & logistics
+203020,3,aviation,FALSE,airlines
+203030,3,shipping,FALSE,marine
+203040,3,not in scope,FALSE,road & rail
+203050,3,not in scope,FALSE,transportation infrastructure
+251010,3,automotive,TRUE,auto components
+251020,3,automotive,FALSE,automobiles
+252010,3,not in scope,FALSE,household durables
+252020,3,not in scope,FALSE,leisure products
+252030,3,not in scope,FALSE,"textiles, apparel & luxury goods"
+253010,3,not in scope,FALSE,"hotels, restaurants & leisure"
+253020,3,not in scope,FALSE,diversified consumer services
+254010,3,not in scope,FALSE,"media  (discontinued effective close of september 28, 2018)"
+255010,3,not in scope,FALSE,distributors
+255020,3,not in scope,FALSE,internet & direct marketing retail
+255030,3,not in scope,FALSE,multiline retail
+255040,3,not in scope,FALSE,specialty retail
+301010,3,not in scope,FALSE,food & staples retailing
+302010,3,not in scope,FALSE,beverages
+302020,3,not in scope,FALSE,food products
+302030,3,not in scope,FALSE,tobacco
+303010,3,not in scope,FALSE,household products
+303020,3,not in scope,FALSE,personal products
+351010,3,not in scope,FALSE,health care equipment & supplies
+351020,3,not in scope,FALSE,health care providers & services
+351030,3,not in scope,FALSE,health care technology
+352010,3,not in scope,FALSE,biotechnology
+352020,3,not in scope,FALSE,pharmaceuticals
+352030,3,not in scope,FALSE,life sciences tools & services
+401010,3,not in scope,FALSE,banks
+401020,3,not in scope,FALSE,thrifts & mortgage finance
+402010,3,not in scope,FALSE,diversified financial services
+402020,3,not in scope,FALSE,consumer finance
+402030,3,not in scope,FALSE,capital markets
+402040,3,not in scope,FALSE,"mortgage real estate investment 
+trusts (reits)"
+403010,3,not in scope,FALSE,insurance
+404010,3,not in scope,FALSE,real estate -- discontinued effective 04/28/2006
+404020,3,not in scope,FALSE,"real estate investment trusts (reits) - discontinued effective close of aug 31, 2016"
+404030,3,not in scope,FALSE,"real estate management & development (discontinued effective close of august 31, 2016)"
+451010,3,not in scope,FALSE,"internet software & services (discontinued effective close of september 28, 2018)"
+451020,3,not in scope,FALSE,it services
+451030,3,not in scope,FALSE,software
+452010,3,not in scope,FALSE,communications equipment
+452020,3,not in scope,FALSE,"technology hardware, storage & peripherals"
+452030,3,not in scope,FALSE,"electronic equipment, instruments & components"
+452040,3,not in scope,FALSE,office electronics - discontinued effective 02/28/2014
+452050,3,not in scope,FALSE,semiconductor equipment & products -- discontinued effective 04/30/2003.
+453010,3,not in scope,FALSE,semiconductors & semiconductor equipment
+501010,3,not in scope,FALSE,diversified telecommunication services
+501020,3,not in scope,FALSE,wireless telecommunication services
+502010,3,not in scope,FALSE,media
+502020,3,not in scope,FALSE,entertainment

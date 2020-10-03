@@ -1,5 +1,7 @@
 # r2dii.data (development version)
 
+* New dataset `gics_classification` (@georgeharris2deg #162).
+
 # r2dii.data 0.1.3
 
 * Change license to MIT.
