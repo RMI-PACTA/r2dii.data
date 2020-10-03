@@ -2,4 +2,4 @@ dataset,column,typeof,definition
 sic_classification,code,integer,Original SIC code
 sic_classification,description,character,Original SIC description
 sic_classification,sector,character,Associated 2dii sector
-sic_classification,borderline,character,Flag indicating if 2dii sector and classification are a borderline match
+sic_classification,borderline,character,Flag indicating if 2dii sector and classification code are a borderline match. The value TRUE indicates that the match is uncertain between the 2dii sector and the classification. The value FALSE indicates that the match is certainly perfect or the classification is certainly out of 2dii's scope.
