@@ -5,7 +5,7 @@
 \alias{sector_classifications}
 \title{A view of available sector classification datasets}
 \format{
-An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 2984 rows and 4 columns.
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 3246 rows and 4 columns.
 }
 \usage{
 sector_classifications
@@ -38,6 +38,7 @@ head(sector_classifications)
 \link{data_dictionary}.
 
 Other datasets for bridging sector classification codes: 
+\code{\link{gics_classification}},
 \code{\link{isic_classification}},
 \code{\link{nace_classification}},
 \code{\link{naics_classification}},
