@@ -18,7 +18,7 @@ systems and sectors relevant to the 'PACTA' tool
 \section{Definitions}{
 
 \itemize{
-\item \code{borderline} (logical): Flag indicating if 2dii sector and classification code are a borderline match.
+\item \code{borderline} (logical): Flag indicating if 2dii sector and classification code are a borderline match. The value TRUE indicates that the match is uncertain between the 2dii sector and the classification. The value FALSE indicates that the match is certainly perfect or the classification is certainly out of 2dii's scope..
 \item \code{code} (double): Formatted NACE code removing periods.
 \item \code{code_level} (double): Level of granularity of NACE code.
 \item \code{original_code} (double): Original NACE code.
