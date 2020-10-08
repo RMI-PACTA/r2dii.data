@@ -1,7 +1,7 @@
 #' Dataset to bridge (translate) common sector-classification codes
 #'
 #' @description
-#' These dataset serve as a translation key between common sector-classification
+#' This dataset serves as a translation key between common sector-classification
 #' systems and sectors relevant to the 'PACTA' tool
 #' (<https://2degrees-investing.org/resource/pacta/>).
 #'

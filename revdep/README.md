@@ -10,13 +10,19 @@
 |collate  |en_US.UTF-8                  |
 |ctype    |en_US.UTF-8                  |
 |tz       |America/Chicago              |
-|date     |2020-09-11                   |
+|date     |2020-10-08                   |
 
 # Dependencies
 
 |package    |old   |new        |Δ  |
 |:----------|:-----|:----------|:--|
-|r2dii.data |0.1.2 |0.1.2.9000 |*  |
+|r2dii.data |0.1.3 |0.1.3.9000 |*  |
 
 # Revdeps
+
+## Failed to check (1)
+
+|package        |version |error |warning |note |
+|:--------------|:-------|:-----|:-------|:----|
+|r2dii.analysis |?       |      |        |     |
 

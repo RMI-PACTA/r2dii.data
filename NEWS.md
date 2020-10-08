@@ -1,7 +1,8 @@
 # r2dii.data (development version)
 
-* The definition of `borderline` is now clearer (@georgeharris2deg #163).
+* Change license to CC0; it's the most appropriate for sharing data (#161).
 * New dataset `gics_classification` (@georgeharris2deg #162).
+* The definition of `borderline` is now clearer (@georgeharris2deg #163).
 
 # r2dii.data 0.1.3
 
