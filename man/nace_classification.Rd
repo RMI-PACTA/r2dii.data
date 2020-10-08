@@ -11,7 +11,7 @@ An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) w
 nace_classification
 }
 \description{
-These dataset serve as a translation key between common sector-classification
+This dataset serves as a translation key between common sector-classification
 systems and sectors relevant to the 'PACTA' tool
 (\url{https://2degrees-investing.org/resource/pacta/}).
 }
