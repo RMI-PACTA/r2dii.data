@@ -18,7 +18,7 @@ systems and sectors relevant to the 'PACTA' tool
 \section{Definitions}{
 
 \itemize{
-\item \code{borderline} (character): Flag indicating if 2dii sector and classification are a borderline match.
+\item \code{borderline} (character): Flag indicating if 2dii sector and classification code are a borderline match. The value TRUE indicates that the match is uncertain between the 2dii sector and the classification. The value FALSE indicates that the match is certainly perfect or the classification is certainly out of 2dii's scope..
 \item \code{code} (integer): Original SIC code.
 \item \code{description} (character): Original SIC description.
 \item \code{sector} (character): Associated 2dii sector.
@@ -39,6 +39,7 @@ head(sic_classification)
 \link{data_dictionary}.
 
 Other datasets for bridging sector classification codes: 
+\code{\link{gics_classification}},
 \code{\link{isic_classification}},
 \code{\link{nace_classification}},
 \code{\link{naics_classification}},

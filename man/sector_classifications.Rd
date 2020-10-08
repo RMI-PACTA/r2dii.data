@@ -5,7 +5,7 @@
 \alias{sector_classifications}
 \title{A view of available sector classification datasets}
 \format{
-An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 2984 rows and 4 columns.
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 3246 rows and 4 columns.
 }
 \usage{
 sector_classifications
@@ -17,7 +17,7 @@ This dataset lists all sector classification code standards used by 'PACTA'
 \section{Definitions}{
 
 \itemize{
-\item \code{borderline} (character): Flag indicating if 2dii sector and classification code are a borderline match.
+\item \code{borderline} (character): Flag indicating if 2dii sector and classification code are a borderline match. The value TRUE indicates that the match is uncertain between the 2dii sector and the classification. The value FALSE indicates that the match is certainly perfect or the classification is certainly out of 2dii's scope..
 \item \code{code} (character): Formatted code.
 \item \code{code_system} (character): Code system.
 \item \code{sector} (character): Associated 2dii sector.
@@ -38,6 +38,7 @@ head(sector_classifications)
 \link{data_dictionary}.
 
 Other datasets for bridging sector classification codes: 
+\code{\link{gics_classification}},
 \code{\link{isic_classification}},
 \code{\link{nace_classification}},
 \code{\link{naics_classification}},

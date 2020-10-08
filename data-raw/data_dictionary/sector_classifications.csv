@@ -1,5 +1,5 @@
 dataset,column,typeof,definition
 sector_classifications,sector,character,Associated 2dii sector
-sector_classifications,borderline,character,Flag indicating if 2dii sector and classification code are a borderline match
+sector_classifications,borderline,character,Flag indicating if 2dii sector and classification code are a borderline match. The value TRUE indicates that the match is uncertain between the 2dii sector and the classification. The value FALSE indicates that the match is certainly perfect or the classification is certainly out of 2dii's scope.
 sector_classifications,code,character,Formatted code
 sector_classifications,code_system,character,Code system
