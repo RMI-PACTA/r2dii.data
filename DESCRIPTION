@@ -28,7 +28,7 @@ Description: These datasets support the implementation in R of
     and market data providers keep their data private, this package
     provides fake, public data to enable the development and use of
     'PACTA' in R.
-License: MIT + file LICENSE
+License: CC0
 URL: https://2degreesinvesting.github.io/r2dii.data/,
     https://github.com/2DegreesInvesting/r2dii.data
 BugReports: 
