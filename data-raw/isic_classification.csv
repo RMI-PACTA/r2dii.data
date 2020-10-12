@@ -55,19 +55,19 @@ A,1,not in scope,FALSE
 321,4,not in scope,FALSE
 322,4,not in scope,FALSE
 B,1,not in scope,FALSE
-5,2,coal,TRUE
-51,3,coal,TRUE
-510,4,coal,TRUE
-52,3,coal,TRUE
-520,4,coal,TRUE
-6,2,oil and gas,TRUE
-61,3,oil and gas,TRUE
-610,4,oil and gas,TRUE
-62,3,oil and gas,TRUE
-620,4,oil and gas,TRUE
-7,2,steel,TRUE
-71,3,steel,TRUE
-710,4,steel,TRUE
+5,2,coal,FALSE
+51,3,coal,FALSE
+510,4,coal,FALSE
+52,3,coal,FALSE
+520,4,coal,FALSE
+6,2,oil and gas,FALSE
+61,3,oil and gas,FALSE
+610,4,oil and gas,FALSE
+62,3,oil and gas,FALSE
+620,4,oil and gas,FALSE
+7,2,not in scope,FALSE
+71,3,not in scope,FALSE
+710,4,not in scope,FALSE
 72,3,not in scope,FALSE
 721,4,not in scope,FALSE
 729,4,not in scope,FALSE
@@ -79,7 +79,7 @@ B,1,not in scope,FALSE
 892,4,not in scope,FALSE
 893,4,not in scope,FALSE
 899,4,not in scope,FALSE
-9,2,oil and gas,TRUE
+9,2,not in scope,FALSE
 91,3,oil and gas,TRUE
 910,4,oil and gas,TRUE
 99,3,not in scope,FALSE
@@ -269,16 +269,16 @@ C,1,not in scope,FALSE
 2825,5,not in scope,FALSE
 2826,5,not in scope,FALSE
 2829,5,not in scope,FALSE
-29,3,automotive,TRUE
-291,4,automotive,TRUE
-2910,5,automotive,TRUE
+29,3,automotive,FALSE
+291,4,automotive,FALSE
+2910,5,automotive,FALSE
 292,4,automotive,TRUE
 2920,5,automotive,TRUE
 293,4,automotive,TRUE
 2930,5,automotive,TRUE
 30,3,not in scope,FALSE
-301,4,shipping,TRUE
-3011,5,shipping,TRUE
+301,4,shipping,FALSE
+3011,5,shipping,FALSE
 3012,5,not in scope,FALSE
 302,4,not in scope,FALSE
 3020,5,not in scope,FALSE
@@ -319,10 +319,10 @@ C,1,not in scope,FALSE
 3320,5,not in scope,FALSE
 D,1,not in scope,FALSE
 35,3,not in scope,FALSE
-351,4,power,TRUE
-3510,5,power,TRUE
-352,4,oil and gas,TRUE
-3520,5,oil and gas,TRUE
+351,4,power,FALSE
+3510,5,power,FALSE
+352,4,oil and gas,FALSE
+3520,5,oil and gas,FALSE
 353,4,not in scope,FALSE
 3530,5,not in scope,FALSE
 E,1,not in scope,FALSE
@@ -445,10 +445,10 @@ H,1,not in scope,FALSE
 4923,5,automotive,TRUE
 493,4,not in scope,FALSE
 4930,5,not in scope,FALSE
-50,3,shipping,TRUE
-501,4,shipping,TRUE
+50,3,shipping,FALSE
+501,4,shipping,FALSE
 5011,5,shipping,TRUE
-5012,5,shipping,TRUE
+5012,5,shipping,FALSE
 502,4,shipping,TRUE
 5021,5,shipping,TRUE
 5022,5,shipping,TRUE
