@@ -1,5 +1,8 @@
 # r2dii.data (development version)
 
+* Fix borderline definitions in `isic_classification` and `nace_classification` 
+  (@georgeharris2deg #163).
+
 # r2dii.data 0.1.4
 
 * Change license to CC0; it's the most appropriate for sharing data (#161).
