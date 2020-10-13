@@ -2,8 +2,6 @@
 
 * Fix borderline definitions in `isic_classification` and `nace_classification` 
   (@georgeharris2deg #163).
-* `nace_classification` loses column `code` and renames column `original_code` 
-    as `code` (#163).
 
 # r2dii.data 0.1.4
 
