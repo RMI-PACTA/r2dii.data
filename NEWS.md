@@ -1,6 +1,6 @@
 # r2dii.data (development version)
 
-* New dataset `cnb_classification` (@georgeharris2deg #173)
+* New dataset `cnb_classification` (@georgeharris2deg #173).
 * Fix borderline definitions in `isic_classification` and `nace_classification` 
   (@georgeharris2deg #163).
 
