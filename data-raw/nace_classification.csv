@@ -382,12 +382,12 @@ C,C,1,not in scope,FALSE
 28.99,2899,4,not in scope,FALSE
 29,29,2,not in scope,FALSE
 29.1,291,3,not in scope,FALSE
-29.1,2910,4,not in scope,FALSE
 29.2,292,3,not in scope,FALSE
-29.2,2920,4,not in scope,FALSE
 29.3,293,3,not in scope,FALSE
+29.10,2910,4,automotive,FALSE
+29.20,2920,4,automotive,TRUE
 29.31,2931,4,not in scope,FALSE
-29.32,2932,4,not in scope,FALSE
+29.32,2932,4,automotive,TRUE
 30,30,2,not in scope,FALSE
 30.1,301,3,shipping,FALSE
 30.11,3011,4,shipping,FALSE
