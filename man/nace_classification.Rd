@@ -5,7 +5,7 @@
 \alias{nace_classification}
 \title{Dataset to bridge (translate) common sector-classification codes}
 \format{
-An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 929 rows and 5 columns.
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 996 rows and 5 columns.
 }
 \usage{
 nace_classification
@@ -19,9 +19,9 @@ systems and sectors relevant to the 'PACTA' tool
 
 \itemize{
 \item \code{borderline} (logical): Flag indicating if 2dii sector and classification code are a borderline match. The value TRUE indicates that the match is uncertain between the 2dii sector and the classification. The value FALSE indicates that the match is certainly perfect or the classification is certainly out of 2dii's scope..
-\item \code{code} (double): Formatted NACE code removing periods.
+\item \code{code} (double): Formatted NACE code with periods removed.
 \item \code{code_level} (double): Level of granularity of NACE code.
-\item \code{original_code} (double): Original NACE code.
+\item \code{original_code} (character): Original NACE code.
 \item \code{sector} (character): Associated 2dii sector.
 }
 }
@@ -40,6 +40,7 @@ head(nace_classification)
 \link{data_dictionary}.
 
 Other datasets for bridging sector classification codes: 
+\code{\link{cnb_classification}},
 \code{\link{gics_classification}},
 \code{\link{isic_classification}},
 \code{\link{naics_classification}},
