@@ -1,8 +1,5 @@
 test_that("hasn't change", {
-  expect_known_value(
-    sector_classifications, "ref-sector_classifications",
-    update = FALSE
-  )
+  expect_snapshot_value(sector_classifications, style = "json2")
 })
 
 test_that("is not different compared to reference", {
