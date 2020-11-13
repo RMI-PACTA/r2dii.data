@@ -1,4 +1,4 @@
-round_dbl <- function(data, digits = 0L) {
+round_dbl <- function(data, digits = 4L) {
   data[detect_dbl(data)] <- lapply(data[detect_dbl(data)], round, digits = digits)
   data
 }
