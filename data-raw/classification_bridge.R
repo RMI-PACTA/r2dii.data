@@ -27,3 +27,8 @@ gics_classification <- read_csv_(
   file.path("data-raw", "gics_classification.csv")
 )
 usethis::use_data(gics_classification, overwrite = TRUE)
+
+cnb_classification <- read_csv_(
+  file.path("data-raw", "cnb_classification.csv")
+)
+usethis::use_data(cnb_classification, overwrite = TRUE)
