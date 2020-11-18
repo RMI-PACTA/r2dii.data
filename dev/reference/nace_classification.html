@@ -164,16 +164,16 @@ systems and sectors relevant to the 'PACTA' tool
 
     <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
 
-    <p>An object of class <code>tbl_df</code> (inherits from <code>tbl</code>, <code>data.frame</code>) with 929 rows and 5 columns.</p>
+    <p>An object of class <code>tbl_df</code> (inherits from <code>tbl</code>, <code>data.frame</code>) with 996 rows and 5 columns.</p>
     <h2 class="hasAnchor" id="definitions"><a class="anchor" href="#definitions"></a>Definitions</h2>
 
     
 
 <ul>
 <li><p><code>borderline</code> (logical): Flag indicating if 2dii sector and classification code are a borderline match. The value TRUE indicates that the match is uncertain between the 2dii sector and the classification. The value FALSE indicates that the match is certainly perfect or the classification is certainly out of 2dii's scope..</p></li>
-<li><p><code>code</code> (double): Formatted NACE code removing periods.</p></li>
+<li><p><code>code</code> (double): Formatted NACE code with periods removed.</p></li>
 <li><p><code>code_level</code> (double): Level of granularity of NACE code.</p></li>
-<li><p><code>original_code</code> (double): Original NACE code.</p></li>
+<li><p><code>original_code</code> (character): Original NACE code.</p></li>
 <li><p><code>sector</code> (character): Associated 2dii sector.</p></li>
 </ul>
 
@@ -188,6 +188,7 @@ the wild to a relevant subset including 'power', 'oil and gas', 'coal',
 
     <div class='dont-index'><p><a href='data_dictionary.html'>data_dictionary</a>.</p>
 <p>Other datasets for bridging sector classification codes: 
+<code><a href='cnb_classification.html'>cnb_classification</a></code>,
 <code><a href='gics_classification.html'>gics_classification</a></code>,
 <code><a href='isic_classification.html'>isic_classification</a></code>,
 <code><a href='naics_classification.html'>naics_classification</a></code>,
