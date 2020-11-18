@@ -1,4 +1,4 @@
-test_that("hasn't change", {
+test_that("hasn't changed", {
   expect_snapshot_value(data_dictionary, style = "json2")
 })
 
