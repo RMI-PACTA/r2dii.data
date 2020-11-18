@@ -1,13 +1,5 @@
 test_that("hasn't changed", {
-  expect_known_value(
-    region_isos, "ref-region_isos",
-    update = FALSE
-  )
-})
-
-test_that("is not different compared to reference", {
-  reference <- readRDS(test_path("ref-region_isos"))
-  expect_identical(region_isos, reference)
+  expect_snapshot_value(region_isos, style = "json2")
 })
 
 test_that("isos are not duplicated per region, scenario", {

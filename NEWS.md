@@ -1,5 +1,6 @@
 # r2dii.data (development version)
 
+* Tests now use testthat 3e (#178).
 * New dataset `cnb_classification` (@georgeharris2deg #173).
 * Add missing sectors to `nace_classification` (@georgeharris2deg #171). 
 * Fix borderline definitions in `isic_classification` and `nace_classification` 
