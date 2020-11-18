@@ -1,4 +1,4 @@
-# r2dii.data (development version)
+# r2dii.data 0.1.5
 
 * Tests now use testthat 3e (#178).
 * New dataset `cnb_classification` (@georgeharris2deg #173).
