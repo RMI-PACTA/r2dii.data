@@ -79,7 +79,7 @@ jobs:
 
       - name: Install devel version of other r2dii packages
         run: |
-          remotes::install_github("2DegreesInvesting/r2dii.data")
+          remotes::install_github("2DegreesInvesting/r2dii.match")
           remotes::install_github("2DegreesInvesting/r2dii.analysis")
         shell: Rscript {0}
 
