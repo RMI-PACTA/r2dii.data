@@ -93,8 +93,9 @@ exclude_values <- function(data, values, .region) {
 
 # Some isos are missing from the global regions definition. Here we read in the
 # actual isos from a real ALD file, and buffer the potentially missing isos.
-ald_path <- file.path("data-raw", paste0("ald_all_isos", ".csv"))
-ald_isos <- read_regions(ald_path)
+ald_isos <- read_regions(
+  file.path("data-raw", paste0("ald_all_isos", ".csv"))
+  )
 
 # Process raw_regions_weo_2019.csv ----------------------------------------
 
