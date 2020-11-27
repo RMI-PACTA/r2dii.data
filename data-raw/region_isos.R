@@ -91,6 +91,11 @@ exclude_values <- function(data, values, .region) {
     mutate(region = .region)
 }
 
+# Some isos are missing from the global regions definition. Here we read in the
+# actual isos from a real ALD file, and buffer the potentially missing isos.
+ald_path <- file.path("data-raw", paste0("ald_all_isos", ".csv"))
+ald_isos <- read_regions(ald_path)
+
 # Process raw_regions_weo_2019.csv ----------------------------------------
 
 # Source: raw_regions_weo_2019.csv was transcribed from page 780 of the 2019
@@ -155,7 +160,9 @@ region_isos_weo_2019 <- bound1 %>%
     non_oecd,
     non_opec
   ) %>%
-  prepare_isos()
+  prepare_isos() %>%
+  bind_rows(mutate(ald_isos, source = "weo_2019")) %>%
+  unique()
 
 # Process raw_regions_etp_2017.csv ----------------------------------------
 
@@ -172,7 +179,9 @@ region_isos_etp_2017 <- region_data %>%
   bind_countries(region_data, "oecd") %>%
   warn_if_is_missing_country_isos() %>%
   rbind(global_data(., source_year)) %>%
-  prepare_isos()
+  prepare_isos() %>%
+  bind_rows(mutate(ald_isos, source = "etp_2017")) %>%
+  unique()
 
 # Combine -----------------------------------------------------------------
 
