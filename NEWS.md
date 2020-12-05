@@ -2,11 +2,10 @@
 
 * `region_isos` now correctly maps Kosovo iso to "xk" (@cjyetman #186).
 * `region_isos` now includes more missing isos for all `global` regions (#183).
-* Tests now use testthat 3e (#178).
-* New dataset `cnb_classification` (@georgeharris2deg #173).
 * Add missing sectors to `nace_classification` (@georgeharris2deg #171). 
 * Fix borderline definitions in `isic_classification` and `nace_classification` 
   (@georgeharris2deg #163).
+* New dataset `cnb_classification` (@georgeharris2deg #173).
 
 # r2dii.data 0.1.4
 
