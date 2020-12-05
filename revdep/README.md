@@ -9,8 +9,8 @@
 |language |en_US:en                     |
 |collate  |en_US.UTF-8                  |
 |ctype    |en_US.UTF-8                  |
-|tz       |America/Chicago              |
-|date     |2020-10-08                   |
+|tz       |America/Monterrey            |
+|date     |2020-12-05                   |
 
 # Dependencies
 
@@ -19,11 +19,4 @@
 |r2dii.data |0.1.4 |0.1.4.9000 |*  |
 
 # Revdeps
-
-## Failed to check (2)
-
-|package        |version |error |warning |note |
-|:--------------|:-------|:-----|:-------|:----|
-|r2dii.analysis |?       |      |        |     |
-|r2dii.match    |?       |      |        |     |
 
