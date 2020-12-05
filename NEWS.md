@@ -1,4 +1,4 @@
-# r2dii.data (development version)
+# r2dii.data 0.1.6
 
 * `region_isos` now correctly maps Kosovo iso to "xk" (@cjyetman #186).
 * `region_isos` now includes more missing isos for all `global` regions (#183).
