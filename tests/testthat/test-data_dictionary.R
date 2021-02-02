@@ -31,6 +31,7 @@ test_that("defines the expected objects", {
     "sector_classifications",
     "sic_classification"
   )
+  expected_datasets <- c(expected_datasets, 'psic_classification')
 
   expect_equal(sort(datasets), sort(expected_datasets))
 })
