@@ -11,28 +11,7 @@ test_that("has the expected names", {
 
 test_that("defines the expected objects", {
   datasets <- unique(data_dictionary$dataset)
-
-  expected_datasets <- c(
-    "ald_demo",
-    "cnb_classification",
-    "co2_intensity_scenario_demo",
-    "data_dictionary",
-    "gics_classification",
-    "green_or_brown",
-    "isic_classification",
-    "iso_codes",
-    "loanbook_demo",
-    "nace_classification",
-    "naics_classification",
-    "overwrite_demo",
-    "region_isos",
-    "region_isos_demo",
-    "scenario_demo_2020",
-    "sector_classifications",
-    "sic_classification"
-  )
-  expected_datasets <- c(expected_datasets, 'psic_classification')
-
+  expected_datasets <- exported_data("r2dii.data")
   expect_equal(sort(datasets), sort(expected_datasets))
 })
 
