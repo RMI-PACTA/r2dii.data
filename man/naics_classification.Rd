@@ -43,6 +43,7 @@ Other datasets for bridging sector classification codes:
 \code{\link{gics_classification}},
 \code{\link{isic_classification}},
 \code{\link{nace_classification}},
+\code{\link{psic_classification}},
 \code{\link{sector_classifications}},
 \code{\link{sic_classification}}
 }

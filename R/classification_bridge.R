@@ -95,3 +95,18 @@
 #' @examples
 #' head(cnb_classification)
 "cnb_classification"
+
+#' @inherit isic_classification title
+#' @inherit isic_classification description
+#'
+#' @section Definitions:
+#' `r define('psic_classification')`
+#'
+#' @template info_classification-datasets
+#'
+#' @family datasets for bridging sector classification codes
+#' @seealso [data_dictionary].
+#'
+#' @examples
+#' head(psic_classification)
+'psic_classification'

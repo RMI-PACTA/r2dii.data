@@ -1,0 +1,1272 @@
+original_code,code_level,code,sector,borderline
+"Growing of leguminous crops such as: mongo, string beans (sitao), pigeon peas, gisantes, garbanzos, bountiful beans (habichuelas), peas (sitsaro)",5,01111,not in scope,FALSE
+Growing of ground nuts,5,01112,not in scope,FALSE
+"Growing of oil seeds (except ground nuts) such as soya beans, sunflower and growing of other oil seeds,  n.e.c.",5,01113,not in scope,FALSE
+"Growing of  sorghum, wheat",5,01114,not in scope,FALSE
+"Growing of other cereals (except rice and corn), leguminous crops and oil seeds, n.e.c.",5,01119,not in scope,FALSE
+"Growing of paddy rice, lowland, irrigated",5,01121,not in scope,FALSE
+"Growing of paddy rice, lowland, rainfed",5,01122,not in scope,FALSE
+"Growing of paddy rice, upland/kaingin",5,01123,not in scope,FALSE
+"Growing of corn, expcept young corn (vegetable)",5,01130,not in scope,FALSE
+Growing of sugarcane including muscovado sugar-making in the farm,5,01140,not in scope,FALSE
+Growing of virginia tobacco including flue-curing done in the farm,5,01151,not in scope,FALSE
+Growing of native tobacco including flue-curing done in the farm,5,01152,not in scope,FALSE
+Growing of abaca,5,01161,not in scope,FALSE
+Growing of cotton,5,01162,not in scope,FALSE
+Growing of kapok,5,01163,not in scope,FALSE
+Growing of maguey,5,01164,not in scope,FALSE
+Growing of ramie,5,01165,not in scope,FALSE
+Growing of piña,5,01166,not in scope,FALSE
+Growing of jute,5,01167,not in scope,FALSE
+Growing of kenaf,5,01168,not in scope,FALSE
+"Growing of other fiber crops, n.e.c.",5,01169,not in scope,FALSE
+"Growing of leafy and stem vegetables such as : cabbage, broccoli, cauliflower, lettuce, asparagus, pechay, kangkong and other leafy or stem vegetables",5,01171,not in scope,FALSE
+"Growing of fruit bearing vegetables such as: tomato, eggplant, cucumber, amplaya, squash, gourd and other fruit bearing vegetables, n.e.c.",5,01172,not in scope,FALSE
+"Growing of other leafy and fruit bearing vegetables, n.e.c.",5,01179,not in scope,FALSE
+Growing of onion,5,01181,not in scope,FALSE
+Growing of garlic,5,01182,not in scope,FALSE
+Growing of carrot,5,01183,not in scope,FALSE
+Growing of  potato,5,01184,not in scope,FALSE
+Growing of  cassava,5,01185,not in scope,FALSE
+Growing of sweet potato(camote),5,01186,not in scope,FALSE
+Growing of  melons and watermelons,5,01187,not in scope,FALSE
+Growing of yams (ube),5,01188,not in scope,FALSE
+"Growing of other  roots, bulbs, tuberous crops and vegetables",5,01189,not in scope,FALSE
+Growing of orchids,5,01191,not in scope,FALSE
+"Growing of flowers or flower buds, (except orchids)",5,01192,not in scope,FALSE
+Production or growing of horticultural specialties and nursery products,5,01193,not in scope,FALSE
+"Growing of plant materials used chiefly in medicinal/ pharmaceutical or for insecticidal, fungicidal or similar purposes",5,01194,not in scope,FALSE
+"Growing of crops chiefly for construction purposes (e.g., nipa, bamboo, buri, etc.)",5,01195,not in scope,FALSE
+Growing of forage crops and other grasses,5,01196,not in scope,FALSE
+"Growing of other non-perennial crops, n.e.c.",5,01199,not in scope,FALSE
+"Growing of banana, cavendish",5,01211,not in scope,FALSE
+Growing of other banana,5,01212,not in scope,FALSE
+Growing of pineapple,5,01220,not in scope,FALSE
+Growing of calamansi,5,01231,not in scope,FALSE
+Growing of  dalandan,5,01232,not in scope,FALSE
+Growing of mandarin (dalanghita),5,01233,not in scope,FALSE
+Growing of pomelo (suha),5,01234,not in scope,FALSE
+"Growing of citrus fruits, n.e.c.",5,01235,not in scope,FALSE
+Growing of mango,5,01230,not in scope,FALSE
+Growing of  papaya,5,01250,not in scope,FALSE
+"Growing of coconut, including copra-making, tuba gathering and coco-shell charcoal making in the farm",5,01260,not in scope,FALSE
+Growing of coffee,5,01271,not in scope,FALSE
+Growing of cocoa,5,01272,not in scope,FALSE
+Growing of tea,5,01273,not in scope,FALSE
+Growing of other beverage crops,5,01279,not in scope,FALSE
+"Growing of perrenial spices and aromatic crops such as: ginger, pepper,  chile, achuete, laurel, etc.",5,01281,not in scope,FALSE
+"Growing of plants used primarily  in medical/ pharmaceutical purposes such as : lagundi, banaba, ginseng, oregano, etc.",5,01282,not in scope,FALSE
+"Growing of plants for insecticidal, fungicidal or similar purposes",5,01283,not in scope,FALSE
+Growing of crops used primarily in perfumery or similar purposes,5,01284,not in scope,FALSE
+"Growing of other spices, aromatic, drug and pharmaceutical crops, n.e.c.",5,01289,not in scope,FALSE
+"Growing of  other  tropical fruits, e.g. jackfruit, guavas, avocados, lanzones, durian, rambutan, chico, atis, mangosteen, makopa, etc.",5,01291,not in scope,FALSE
+"Growing of perennial trees with edible  nuts, e.g. pili nuts, cashew nuts, etc",5,01292,not in scope,FALSE
+Growing of  rubber tree,5,01293,not in scope,FALSE
+Growing of jathropa tree,5,01294,not in scope,FALSE
+"Growing of  ornamental or decorative trees such as Christmas or pine trees, fire trees, etc.",5,01295,not in scope,FALSE
+"Growing of other fruits and perennial crops, n.e.c.",5,01299,not in scope,FALSE
+Plant propagation,5,01300,not in scope,FALSE
+Beef cattle farming (including feed lot fattening),5,01411,not in scope,FALSE
+Carabao farming,5,01412,not in scope,FALSE
+Raising of horses and other equines,5,01420,not in scope,FALSE
+Dairy farming,5,01430,not in scope,FALSE
+Sheep farming including sheep shearing by the owner,5,01441,not in scope,FALSE
+Goat farming,5,01442,not in scope,FALSE
+Deer faming,5,01443,not in scope,FALSE
+Hog farming,5,01450,not in scope,FALSE
+"Chicken production, broiler",5,01461,not in scope,FALSE
+"Chicken production, layer",5,01462,not in scope,FALSE
+"Chicken production, native",5,01463,not in scope,FALSE
+Raising of duck broiler,5,01471,not in scope,FALSE
+Raising of quail,5,01472,not in scope,FALSE
+Raising of turkey,5,01473,not in scope,FALSE
+Rasing of pigeon,5,01474,not in scope,FALSE
+Raising of game fowl,5,01475,not in scope,FALSE
+"Raising of poultry (except chicken), n.e.c.",5,01479,not in scope,FALSE
+Chicken egg production,5,01481,not in scope,FALSE
+Duck egg production,5,01482,not in scope,FALSE
+Quail egg production,5,01483,not in scope,FALSE
+"Production of eggs, n.e.c.",5,01489,not in scope,FALSE
+Sericulture (silkworm culture for the production of cocoon),5,01491,not in scope,FALSE
+Apiary (bee culture for the production of honey),5,01492,not in scope,FALSE
+Vermiculture,5,01493,not in scope,FALSE
+Crocodile/alligator farming,5,01494,not in scope,FALSE
+Rabbit farming,5,01495,not in scope,FALSE
+"Raising of semi-domesticated or wild animals including birds, reptiles, insects (e.g. butterfly) and turtles",5,01496,not in scope,FALSE
+Raising and breeding of cats and dogs,5,01497,not in scope,FALSE
+Game propagation and breeding activities,5,01498,not in scope,FALSE
+"Raising of other animals, n.e.c.",5,01499,not in scope,FALSE
+Operation of irrigation systems through cooperatives,5,01511,not in scope,FALSE
+Operation of irrigation systems through non-cooperatives,5,01512,not in scope,FALSE
+"Planting, transplanting and other related activities",5,01520,not in scope,FALSE
+"Plowing, seeding, weeding, thinning, pruning and similar services",5,01531,not in scope,FALSE
+Fertilizer applications,5,01532,not in scope,FALSE
+"Chemical and mechanical weed control, disease and pest control services",5,01533,not in scope,FALSE
+"Services to establish crops, promote their growth and protect them from pests and diseases, n.e.c.",5,01534,not in scope,FALSE
+"Harvesting, threshing, grading, bailing and related services",5,01540,not in scope,FALSE
+Rental of farm machinery with drivers and crew,5,01550,not in scope,FALSE
+Artificial insemination services,5,01561,not in scope,FALSE
+Contract animal growing services on a fee basis,5,01562,not in scope,FALSE
+"Egg-hatching, sex determination and other poultry services",5,01563,not in scope,FALSE
+"Services to promote propagation, growth and output of animals",5,01564,not in scope,FALSE
+Farm management services,5,01565,not in scope,FALSE
+"Other support activities for animal production, n.e.c.",5,01569,not in scope,FALSE
+"Preparation of crops for primary markets, i.e. cleaning, trimming, grading, disinfecting",5,01571,not in scope,FALSE
+Cotton ginning,5,01572,not in scope,FALSE
+Preparation of tobacco leaves,5,01573,not in scope,FALSE
+"Preparation of coffee, cacao and cocoa beans",5,01574,not in scope,FALSE
+Growing of paddy rice for seed purposes,5,01581,not in scope,FALSE
+Growing of seedlings for reforestation,5,01582,not in scope,FALSE
+Hunting and trapping wild animals in the forest,5,01701,not in scope,FALSE
+Production of reptile skins or bird skins and other animal skins from hunting activities,5,01702,not in scope,FALSE
+"Hunting, trapping and other related activities, n.e.c.",5,01709,not in scope,FALSE
+"Growing of timber forest species (e.g. Gemelina, Eucalyptus, etc.), planting, replanting, transplanting, thinning and conserving of forest and timber tracts",5,02110,not in scope,FALSE
+Operation of forest tree nurseries,5,02120,not in scope,FALSE
+Production of roundwood for forest-based manufacturing industries,5,02201,not in scope,FALSE
+"Production of roundwood used in an unprocessed form such as pit-props, fence posts and utility poles",5,02202,not in scope,FALSE
+Firewood cutting & charcoal making in the forest,5,02203,not in scope,FALSE
+Gathering of non-wood forest products,5,02300,not in scope,FALSE
+Support services to forestry,5,02400,not in scope,FALSE
+"Ocean fishing, commercial (using vessels over 3 tons)",5,03111,not in scope,FALSE
+"Coastal fishing, municipal (using vessels of less than 3 tons)",5,03112,not in scope,FALSE
+Fish corral fishing,5,03113,not in scope,FALSE
+"Catching fish, crabs and crustaceans in inland waters",5,03121,not in scope,FALSE
+"Gathering shells and clams, edible, in inland waters",5,03122,not in scope,FALSE
+"Other freshwater fishing activities, n.e.c.",5,03129,not in scope,FALSE
+"Operation of freshwater fishpond, except fish breeding farms and nurseries",5,03211,not in scope,FALSE
+Operation of   freshwater  fish pens and fish cage,5,03212,not in scope,FALSE
+Operation of  freshwater fish breeding farms and nurseries,5,03213,not in scope,FALSE
+Culture of   freshwater ornamental  fish,5,03214,not in scope,FALSE
+Other freshwater  fish farming activities,5,03219,not in scope,FALSE
+"Operation of  marine fish tanks, pens, cage except fish breeding farms and nurseries in sea water",5,03221,not in scope,FALSE
+Operation of  freshwater fish breeding farms and nurseries,5,03222,not in scope,FALSE
+Catching and culturing ornamental (aquarium) fish,5,03223,not in scope,FALSE
+Gathering of   fry,5,03224,not in scope,FALSE
+Other  marine fish farming activities,5,03229,not in scope,FALSE
+Operation of marine sport fishing preserves,5,03230,not in scope,FALSE
+Prawn culture  in  brackish water,5,03240,not in scope,FALSE
+"Culture of freshwater  crustaceans (except prawns), bivalves, and  other mollusks",5,03251,not in scope,FALSE
+"Culture of   oysters, other  bivalves and other mollusks   in sea water",5,03252,not in scope,FALSE
+Pearl culture,5,03261,not in scope,FALSE
+Pearl shell gathering,5,03262,not in scope,FALSE
+Gathering of laver and other edible seaweeds,5,03270,not in scope,FALSE
+Support service activities incidental to aquaculture,5,03280,not in scope,FALSE
+Frog farming,5,03291,not in scope,FALSE
+Operation of marine  worm farms,5,03292,not in scope,FALSE
+"Other aquaculture  activities, n.e.c",5,03299,not in scope,FALSE
+Mining of hard coal,5,05100,Coal,FALSE
+Mining of lignite,5,05200,Coal,FALSE
+Extraction of crude petroleum,5,06100,Oil and Gas,FALSE
+Extraction of natural gas,5,06200,Oil and Gas,FALSE
+Mining of iron ores,5,07100,not in scope,FALSE
+Mining of uranium and thorium ores,5,07210,not in scope,FALSE
+Gold ore mining,5,07221,not in scope,FALSE
+Silver ore mining,5,07222,not in scope,FALSE
+Copper ore mining,5,07291,not in scope,FALSE
+Chromite ore mining,5,07292,not in scope,FALSE
+Manganese ore mining,5,07293,not in scope,FALSE
+Nickel ore mining,5,07294,not in scope,FALSE
+Marble quarrying,5,08101,not in scope,FALSE
+Limestone quarrying,5,08102,not in scope,FALSE
+"Stone quarrying, except limestone and marble",5,08103,not in scope,FALSE
+Clay quarrying,5,08104,not in scope,FALSE
+Sand and gravel quarrying,5,08105,not in scope,FALSE
+Silica sand and silica stone quarrying,5,08106,not in scope,FALSE
+"Stone quarrying, clay and sand pits, n.e.c.",5,08109,not in scope,FALSE
+Baryte mining,5,08911,not in scope,FALSE
+Guano gathering,5,08912,not in scope,FALSE
+Pyrite mining,5,08913,not in scope,FALSE
+Rock phosphate mining,5,08914,not in scope,FALSE
+Sulphur mining,5,08915,not in scope,FALSE
+Other chemical and fertilizer mineral mining,5,08919,not in scope,FALSE
+Extraction of peat,5,08920,Coal,FALSE
+Extraction of salt,5,08930,not in scope,FALSE
+"Other mining and quarrying, n.e.c.",5,08990,not in scope,FALSE
+Oil and gas extraction activities on a fee or contract basis,5,09101,Oil and Gas,FALSE
+Oil and gas extraction activities not performed on a fee or contract basis,5,09102,Oil and Gas,FALSE
+Support activities for other mining and quarrying,5,09900,not in scope,FALSE
+Slaughtering and meat packing,5,10110,not in scope,FALSE
+Production processing and preserving of meat and meat products,5,10120,not in scope,FALSE
+Canning/packing of fish and other marine products,5,10201,not in scope,FALSE
+Drying of fish and other marine products,5,10202,not in scope,FALSE
+Smoking of fish and other marine products,5,10203,not in scope,FALSE
+Manufacture of fish paste (bagoong) and fish sauce(patis),5,10204,not in scope,FALSE
+Processing of seaweeds; manufacture of agar-agar or carageenan,5,10205,not in scope,FALSE
+Production of fishmeal/prawn feeds,5,10206,not in scope,FALSE
+"Manufacture of unprepared animal feeds from fish, crustaceans and mollusks and other aquatic animals",5,10207,not in scope,FALSE
+"Processing, preserving and canning of fish, crustacean and mollusks, n.e.c. Manufacture of fishball, etc.",5,10209,not in scope,FALSE
+Canning/packing and preserving of fruits and fruit juices,5,10301,not in scope,FALSE
+Canning/packing and preserving of vegetables and vegetable juices,5,10302,not in scope,FALSE
+Manufacture of fruit and vegetable sauces (e.g. tomato sauce and paste),5,10303,not in scope,FALSE
+Quick-freezing of fruits and vegetables,5,10304,not in scope,FALSE
+Manufacture of potato flour and meal,5,10305,not in scope,FALSE
+Roasting of nut or manufacture of nut foods and pastes,5,10306,not in scope,FALSE
+"Manufacture of perishable prepared foods of fruit and vegetables, such as: salad, peeled or cut vegetables, tofu (bean curd)",5,10307,not in scope,FALSE
+"Processing and preserving of fruits and vegetables, n.e.c.",5,10309,not in scope,FALSE
+Manufacture of virgin coconut oil,5,10410,not in scope,FALSE
+Manufacture of dessicated coconut,5,10420,not in scope,FALSE
+Manufacture of nata de coco,5,10430,not in scope,FALSE
+"Production of crude vegetable oil, cake and meals, other than virgin coconut oil (see class 1041)",5,10440,not in scope,FALSE
+Manufacture of refined coconut and other vegetable oil (including corn oil) and margarine,5,10450,not in scope,FALSE
+Manufacture of fish oil and other marine animal oils,5,10460,not in scope,FALSE
+"Manufacture of unprepared animal feeds from vegetable, animal oils and fats",5,10470,not in scope,FALSE
+"Manufacture of vegetable and animal oil and fats, n.e.c.",5,10490,not in scope,FALSE
+Processing of fresh milk and cream,5,10510,not in scope,FALSE
+"Manufacture of powdered milk (except for infants) and condensed or evaporated milk (filled, combined or reconstituted)",5,10520,not in scope,FALSE
+Manufacture of infants' powdered milk,5,10530,not in scope,FALSE
+"Manufacture of butter, cheese and curd",5,10540,not in scope,FALSE
+"Manufacture of ice cream and sherbet, ice drop, ice candy and other flavored ices",5,10550,not in scope,FALSE
+Manufacture of milk-based infants' and dietetic foods,5,10560,not in scope,FALSE
+Manufacture of yoghurt,5,10570,not in scope,FALSE
+Manufacture of whey,5,10580,not in scope,FALSE
+"Manufacture of dairy products, n.e.c.",5,10590,not in scope,FALSE
+Rice/corn milling,5,10610,not in scope,FALSE
+Cassava flour milling,5,10621,not in scope,FALSE
+Flour milling except cassava flour milling,5,10622,not in scope,FALSE
+"Manufacture of cereal breakfast foods obtained by roasting or swelling, etc.",5,10623,not in scope,FALSE
+Manufacture of unprepared animal feeds from grain milling residues,5,10624,not in scope,FALSE
+"Manufacture of flour mixes and prepared blended flour and dough for bread, cakes, biscuits or pancakes",5,10625,not in scope,FALSE
+"Manufacture of grain and vegetable mill products, n.e.c.",5,10629,not in scope,FALSE
+Manufacture of starches and starch products,5,10630,not in scope,FALSE
+"Baking of bread, cakes, pastries, pies and similar ""perishable"" bakery products, including hopia and doughnut making",5,10711,not in scope,FALSE
+"Baking of biscuits cookies, crackers, pretzels and similar dry bakery products",5,10712,not in scope,FALSE
+Manufacture of ice cream cones (apa) and wafers (barquillos),5,10713,not in scope,FALSE
+"Manufacture of snack products such as corn curls, wheat crunchies and similar products",5,10714,not in scope,FALSE
+Sugarcane milling,5,10721,not in scope,FALSE
+Sugar refining,5,10722,not in scope,FALSE
+Manufacture of muscovado sugar not carried on in the farm,5,10723,not in scope,FALSE
+Manufacture of molasses,5,10724,not in scope,FALSE
+"Manufacture of sugar, n.e.c.",5,10729,not in scope,FALSE
+Manufacture of chocolate and cocoa products including chocolate candies,5,10731,not in scope,FALSE
+Manufacture of candies (excluding chocolate candies) and chewing gum,5,10732,not in scope,FALSE
+Manufacture of popcorn and poprice,5,10733,not in scope,FALSE
+"Manufacture of chocolate and sugar confectionery products, n.e.c.",5,10739,not in scope,FALSE
+"Manufacture of macaroni, noodles, couscous and similar farinaceous products",5,10740,not in scope,FALSE
+Manufactured of prepared meals and dishes,5,10750,not in scope,FALSE
+Manufacture of food supplements from herbs and other plants,5,10760,not in scope,FALSE
+Coffee roasting and processing,5,10770,not in scope,FALSE
+"Manufacture of herb from drying and further extraction ( e.g. banaba, ampalaya, moringa (malunggay), sambong, lagundi etc.)",5,10791,not in scope,FALSE
+"Manufacture of ice, except dry ice",5,10792,not in scope,FALSE
+"Manufacture of soup containing meat, fish, crustaceans, mollusks or pasta",5,10793,not in scope,FALSE
+Manufature of infant or dietetic foods containing homogenized ingredients,5,10794,not in scope,FALSE
+Egg processing including fertilized egg (balut) and salted eggs,5,10795,not in scope,FALSE
+Manufacture of flavoring extracts and food coloring,5,10796,not in scope,FALSE
+"Manufacture of mayonnaise, salad dressing, sandwich spread and similar products",5,10797,not in scope,FALSE
+Manufacture of vinegar,5,10798,not in scope,FALSE
+"Manufacture of food products, n.e.c.",5,10799,not in scope,FALSE
+Manufacture of prepared animal feeds,5,10800,not in scope,FALSE
+"Distilling, rectifying and blending of spirits",5,11010,not in scope,FALSE
+Fruit wine manufacturing,5,11021,not in scope,FALSE
+"Wine manufacturing, n.e.c.",5,11029,not in scope,FALSE
+Manufacture of malt liquors and malt,5,11030,not in scope,FALSE
+"Manufacture of soft drinks except drinks flavored with fruit juices, syrups or other materials",5,11041,not in scope,FALSE
+"Manufacture of drinks flavored with fruit juices, syrups or other materials",5,11042,not in scope,FALSE
+Manufacture of bottled water,5,11051,not in scope,FALSE
+Manufacture of carbonated water,5,11052,not in scope,FALSE
+Manufacture of sports and energy drink,5,11060,not in scope,FALSE
+"Manufacture of other beverages, n.e.c.",5,11090,not in scope,FALSE
+Manufacture of cigarettes,5,12010,not in scope,FALSE
+Manufacture of cigars,5,12020,not in scope,FALSE
+"Manufacture of chewing and smoking tobacco, snuff",5,12030,not in scope,FALSE
+Curing and redrying tobacco leaves,5,12040,not in scope,FALSE
+"Tobacco manufacturing, n.e.c.",5,12090,not in scope,FALSE
+Spinning,5,13111,not in scope,FALSE
+Texturizing,5,13112,not in scope,FALSE
+Manufacture of paper yarn,5,13113,not in scope,FALSE
+"Preparation of textiles, n.e.c.",5,13119,not in scope,FALSE
+Weaving of textiles,5,13120,not in scope,FALSE
+Finishing of textiles,5,13130,not in scope,FALSE
+Preparation and finishing of textiles (integrated),5,13140,not in scope,FALSE
+Manufacture of knitted and crocheted fabrics,5,13910,not in scope,FALSE
+Manufacture of textile industrial bags,5,13921,not in scope,FALSE
+Manufacture of made-up textile goods for house furnishings,5,13922,not in scope,FALSE
+Manufacture of canvas products,5,13923,not in scope,FALSE
+"Manufacture of made-up textile articles, except wearing apparel, n.e.c.",5,13929,not in scope,FALSE
+"Manufacture of carpets and rugs, except mats of textile materials",5,13931,not in scope,FALSE
+Manufacture of mats (including mattings) of textile materials,5,13932,not in scope,FALSE
+"Manufacture of cordage, rope, and twine",5,13941,not in scope,FALSE
+"Manufacture of fishing nets and other nettings, (excluding mosquito and hairnets)",5,13942,not in scope,FALSE
+"Manufacture of products of cordage, rope and twine products",5,13943,not in scope,FALSE
+Manufacture of embroidered fabrics,5,13950,not in scope,FALSE
+"Manufacture of narrow fabrics, laces, tulles and other net fabrics",5,13991,not in scope,FALSE
+Manufacture of felt and non-woven fabrics,5,13992,not in scope,FALSE
+"Manufacture of fabrics, impregnated, coated, covered or laminated with plastic",5,13993,not in scope,FALSE
+"Manufacture of fabrics, impregnated, coated, covered or laminated other than with plastic and rubber",5,13994,not in scope,FALSE
+Manufacture of fabrics for industrial use (wicks and gas mantles),5,13995,not in scope,FALSE
+"Manufacture of fiber batting, padding and upholstery filling including coir",5,13996,not in scope,FALSE
+"Manufacture of miscellaneous textiles, n.e.c.",5,13999,not in scope,FALSE
+Men's and boys' garment manufacturing,5,14110,not in scope,FALSE
+Women's and girls' and babies' garment manufacturing,5,14120,not in scope,FALSE
+Ready-made embroidered garments manufacturing,5,14130,not in scope,FALSE
+Manufacture of raincoats by cutting or sewing except rubber or plastics,5,14191,not in scope,FALSE
+"Manufacture of hats, gloves, handkerchiefs, neckwear and belts regardless of material",5,14192,not in scope,FALSE
+"Manufacture of wearing apparel, n.e.c",5,14199,not in scope,FALSE
+Custom tailoring,5,14210,not in scope,FALSE
+Custom dressmaking,5,14220,not in scope,FALSE
+Manufacture of knitted and crocheted apparel,5,14301,not in scope,FALSE
+"Manufacture of knitted or crocheted hosiery, underwear and outerwear when knitted or crocheted directly into shape",5,14302,not in scope,FALSE
+"Manufacture of knitted and crocheted articles, n.e.c.",5,14309,not in scope,FALSE
+Manufacture of articles of fur,5,14400,not in scope,FALSE
+Tanning and dressing of leather,5,15110,not in scope,FALSE
+"Manufacture of luggage, handbags and wallets of leather and imitation leather",5,15121,not in scope,FALSE
+"Manufature of products of leather and imitation leather, n.e.c.",5,15129,not in scope,FALSE
+Manufacture of leather shoes,5,15210,not in scope,FALSE
+Manufacture of rubber shoes,5,15220,not in scope,FALSE
+Manufacture of plastic shoes,5,15230,not in scope,FALSE
+Manufacture of shoes made of textile materials with applied soles,5,15240,not in scope,FALSE
+Manufacture of wooden footwear and accessories,5,15250,not in scope,FALSE
+Manufacture of rubber slippers,5,15291,not in scope,FALSE
+"Manufacture of slippers and sandals, other than rubber",5,15292,not in scope,FALSE
+Manufacture of leather parts of footwear,5,15293,not in scope,FALSE
+"Manufacture of other footwear, n.e.c.",5,15299,not in scope,FALSE
+Manufacture of rough lumber,5,16101,not in scope,FALSE
+Manufacture of worked lumber,5,16102,not in scope,FALSE
+Wood preserving and drying,5,16103,not in scope,FALSE
+"Sawmilling and planing of wood products, n.e.c.",5,16109,not in scope,FALSE
+Manufacture of veneer sheets and plywood,5,16211,not in scope,FALSE
+"Manufacture of laminboard, particle board and other panels and board",5,16212,not in scope,FALSE
+"Manufacture of wooden window and door screens, shades and venetian blinds",5,16220,not in scope,FALSE
+Manufacture of other builders' carpentry and joinery; millworking,5,16230,not in scope,FALSE
+Manufacture of wooden containers,5,16240,not in scope,FALSE
+Manufacture of wood carvings,5,16250,not in scope,FALSE
+Manufacture of charcoal outside the forest,5,16260,not in scope,FALSE
+Manufacture of wooden wares,5,16270,not in scope,FALSE
+Manufacture of rattan and cane containers,5,16281,not in scope,FALSE
+"Manufacture of sawali, nipa and split canes",5,16282,not in scope,FALSE
+"Manufacture of mats, matting or screen",5,16283,not in scope,FALSE
+Manufacture of small cane wares,5,16284,not in scope,FALSE
+"Manufacture of articles of cork, straw and plaiting materials",5,16285,not in scope,FALSE
+"Manufacture other products of bamboo, cane, rattan and the like, and plaiting materials except furniture, n.e.c.",5,16289,not in scope,FALSE
+"Manufacture of other products of wood; manufacture of articles of cork and plaiting materials, except furniture, n.e.c.",5,16290,not in scope,FALSE
+"Integrated pulp,paper and paperboard milling",5,17011,not in scope,FALSE
+Pulp milling,5,17012,not in scope,FALSE
+Paper and paperboard milling,5,17013,not in scope,FALSE
+Manufacture of hand-made paper,5,17014,not in scope,FALSE
+"Manufacture of pulp, paper and paperboard, n.e.c.",5,17019,not in scope,FALSE
+Manufacture of corrugated paper and paperboard and of containers of paper and paperboard,5,17020,not in scope,FALSE
+Manufacture of household and personal hygiene paper and cellulose wadding products,5,17091,not in scope,FALSE
+"Manufacture of wadding of textile materials and articles of wadding (e.g. sanitary towels, tampons, etc.)",5,17092,not in scope,FALSE
+Manufacture of other articles of paper,5,17093,not in scope,FALSE
+Manufacture of other articles of paperboard,5,17099,not in scope,FALSE
+Printing,5,18110,not in scope,FALSE
+"Electrotyping, stereotyping and photoengraving",5,18121,not in scope,FALSE
+Bookbinding and related work,5,18122,not in scope,FALSE
+"Service activities related to printing, n.e.c.",5,18129,not in scope,FALSE
+Reproduction of video and computer tapes from mastercopies,5,18201,not in scope,FALSE
+"Reproduction of floppy, hard or  compact disks",5,18202,not in scope,FALSE
+Film and video reproduction,5,18203,not in scope,FALSE
+Manufacture of coke oven products,5,19100,Coal,FALSE
+Manufacture of refined petroleum products,5,19200,not in scope,FALSE
+Manufacture of other fuel products,5,19900,not in scope,FALSE
+Manufacture of ethanol,5,20111,not in scope,FALSE
+Manufacture of industrial (compressed and liquefied) gases,5,20112,not in scope,FALSE
+Manufacture of inorganic salts and compounds,5,20113,not in scope,FALSE
+Manufacture of ethyl alcohol,5,20114,not in scope,FALSE
+Manufacture  of  alcohol except ethyl,5,20115,not in scope,FALSE
+"Manufacture of inorganic acids, alkalis and chlorine",5,20116,not in scope,FALSE
+Manufacture of organic acids and organic  compounds,5,20117,not in scope,FALSE
+"Manufacture of basic chemicals, except fertilizers and nitrogen compounds, n.e.c.",5,20119,not in scope,FALSE
+Manufacture of fertilizers and nitrogen compounds,5,20120,not in scope,FALSE
+"Manufacture of synthetic rubber and factice derived from oils, in primary forms",5,20131,not in scope,FALSE
+"Production   of  mixtures  of  synthetic rubber and natural rubber or rubber-like gums (e.g., balata), in primary forms",5,20132,not in scope,FALSE
+Manufacture of plastic synthetic resins,5,20133,not in scope,FALSE
+Manufacture of plastic materials except man-made fiber and glass fiber,5,20134,not in scope,FALSE
+Manufacture of pesticides and other agro-chemical products,5,20210,not in scope,FALSE
+Manufacture of paints,5,20221,not in scope,FALSE
+"Manufacture of varnishes, lacquers, shellac and stains",5,20222,not in scope,FALSE
+"Manufacture of paint removers, thinners, and brush cleaners",5,20223,not in scope,FALSE
+Manufacture of pigments and other coloring matter of a kind used in the manufacture of paints or by artists or other painters,5,20224,not in scope,FALSE
+Manufacture of printing ink,5,20225,not in scope,FALSE
+"Manufacture of paint products, n.e.c.",5,20229,not in scope,FALSE
+Manufacture of soap and detergents,5,20231,not in scope,FALSE
+"Manufacture of cleaning preparations, except soap and detergents",5,20232,not in scope,FALSE
+Manufacture of waxes and polishing preparations,5,20233,not in scope,FALSE
+"Manufacture of perfumes, cosmetics and other toilet preparations",5,20234,not in scope,FALSE
+"Manufacture of explosives, fireworks and firecrakers",5,20291,not in scope,FALSE
+Manufacture of matches,5,20292,not in scope,FALSE
+Manufacture of writing and drawing ink,5,20293,not in scope,FALSE
+Manufacture of glues and adhesives,5,20294,not in scope,FALSE
+Manufacture of activated carbon,5,20295,not in scope,FALSE
+"Manufacture of miscellaneous chemical products, n.e.c.",5,20299,not in scope,FALSE
+Manufacture of synthetic or artificial filament yarn,5,20301,not in scope,FALSE
+"Manufacture of man-made filament tow or staple fibers, except glass fiber",5,20302,not in scope,FALSE
+"Manufacture of drugs and medicines including biological products such as bacterial and virus vaccines, sera and plasma",5,21001,not in scope,FALSE
+"Manufacture of surgical dressings, medicated wadding , fracture bandages, catgut, and other prepared sutures",5,21002,not in scope,FALSE
+Manufacture of rubber tires (including parts) and tubes,5,22111,not in scope,FALSE
+Retreading and rebuilding of tires,5,22112,not in scope,FALSE
+Manufacture of rubber garments,5,22191,not in scope,FALSE
+"Manufacture of industrial and other molded rubber products, excluding tires and tubes",5,22192,not in scope,FALSE
+"Manufacture  of  other  rubber products, n.e.c.",5,22199,not in scope,FALSE
+"Manufacture of plastic articles for packing goods (e.g. boxes, bags, sacks, etc)",5,22201,not in scope,FALSE
+Manufacture of plastic household wares,5,22202,not in scope,FALSE
+Manufacture of plastic furniture fittings,5,22203,not in scope,FALSE
+Manufacture of plastic pipes and tubes,5,22204,not in scope,FALSE
+"Manufacture of other plastic, industrial /office/school supplies",5,22205,not in scope,FALSE
+"Manufacture of primary plastic products (e.g. sheets, film, plates, etc.)",5,22206,not in scope,FALSE
+Manufacture of linoleum and hard surface floor coverings,5,22207,not in scope,FALSE
+"Manufacture of plastic window and doorscreen, shades and venetian blinds",5,22208,not in scope,FALSE
+"Manufacture of plastics products, n.e.c.",5,22209,not in scope,FALSE
+Manufacture of flat glass (including float glass),5,23101,not in scope,FALSE
+Manufacture of glass containers,5,23102,not in scope,FALSE
+Manufacture of glass fibers (including glass wool) and yarn of glass fibers,5,23103,not in scope,FALSE
+"Manufacture of glass and glass products, n.e.c.",5,23109,not in scope,FALSE
+Manufacture of refractory products,5,23910,not in scope,FALSE
+Manufacture of clay building materials,5,23920,not in scope,FALSE
+Manufacture of vitreous china tableware and other kitchen articles of a kind commonly used for domestic or toilet purposes,5,23931,not in scope,FALSE
+"Manufacture of articles of porcelain or china, stoneware, earthenware, imitation porcelain or common pottery",5,23932,not in scope,FALSE
+Manufacture of coarse clay products,5,23933,not in scope,FALSE
+"Manufacture of sanitary ware, vitreous china plumbing fittings and fixtures",5,23934,not in scope,FALSE
+"Manufacture of other porcelain and ceramic products, n.e.c.",5,23939,not in scope,FALSE
+Manufacture of cement,5,23940,Cement,FALSE
+Manufacture of lime,5,23951,not in scope,FALSE
+Manufacture of plaster,5,23952,not in scope,FALSE
+Manufacture of structural concrete products,5,23961,not in scope,FALSE
+"Manufacture of articles of concrete, cement and plaster, n.e.c.",5,23969,Cement,FALSE
+"Cutting, shaping and finishing of stone",5,23970,not in scope,FALSE
+Manufacture of asphalt products,5,23991,not in scope,FALSE
+Manufacture of asbestos products,5,23992,not in scope,FALSE
+Manufacture of marble products,5,23993,not in scope,FALSE
+Manufacture of abrasive products,5,23994,not in scope,FALSE
+"Manufacture of miscellaneous non-metallic mineral products, n.e.c.",5,23999,not in scope,FALSE
+Operation of blast furnaces and steel making furnaces,5,24110,Steel,FALSE
+Operation of rolling mills,5,24121,not in scope,FALSE
+"Pipes and tubes manufacturing, iron or steel",5,24122,not in scope,FALSE
+Manufacture of pipe fittings of iron or steel,5,24123,not in scope,FALSE
+"Manufacture of galvanized steel sheets, tinplates and other coated metal products made in steel works of rolling mills",5,24124,not in scope,FALSE
+"Operation of steel works and rolling mills, n.e.c.",5,24129,not in scope,FALSE
+Gold and other precious metal refining,5,24210,not in scope,FALSE
+"Non-ferrous smelting and refining , except precious metals",5,24220,not in scope,FALSE
+"Non-ferrous rolling, drawing and extrusion mills",5,24230,not in scope,FALSE
+Manufacture of pipe fittings of non-ferrous metals,5,24240,not in scope,FALSE
+"Manufacture of basic precious and other non-ferrous metals, n.e.c.",5,24290,not in scope,FALSE
+Casting/foundry of iron,5,24311,not in scope,FALSE
+Casting/foundry of steel,5,24312,Steel,FALSE
+Aluminum and aluminum base alloy casting,5,24321,not in scope,FALSE
+"Copper and copper base alloy (brass, bronze) casting",5,24322,not in scope,FALSE
+Zinc and zinc alloy casting,5,24323,not in scope,FALSE
+"Casting of non-ferrous metal, n.e.c.",5,24329,not in scope,FALSE
+"Manufacture of structural steel products and metal components of bridges, smoke stacks and buildings",5,25111,not in scope,FALSE
+"Manufacture of other architectural and related metal work (e.g., doors, windows, shutters, gates, etc.)",5,25112,not in scope,FALSE
+"Manufacture of  structural metal products, n.e.c.",5,25119,not in scope,FALSE
+"Manufacture of tanks, reservoirs and containers of metal",5,25120,not in scope,FALSE
+"Manufacture of steam generators, except central heating hot water boilers",5,25130,not in scope,FALSE
+Manufacture of small arms and accessories,5,25201,not in scope,FALSE
+"Manufacture of weapons and ammunitions, n.e.c.",5,25209,not in scope,FALSE
+"Forging, pressing, stamping and roll-forming of metal products",5,25911,not in scope,FALSE
+Powder metallurgy,5,25912,not in scope,FALSE
+Treatment and coating of metals; machining,5,25920,not in scope,FALSE
+Manufacture of cutlery,5,25931,not in scope,FALSE
+Manufacture of handtools,5,25932,not in scope,FALSE
+Manufacture of general hardware,5,25933,not in scope,FALSE
+Manufacture of blacksmithing tools and welding shop operation,5,25934,not in scope,FALSE
+Manufacture of metal containers used for the packing or conveyance of goods,5,25991,not in scope,FALSE
+"Manufacture of wire nails, not in steel rolling",5,25992,not in scope,FALSE
+Manufacture of fabricated wire products,5,25993,not in scope,FALSE
+Manufacture of small hand-operated kitchen appliances,5,25994,not in scope,FALSE
+Manufacture of metal sanitary ware and plumbing fixtures,5,25995,not in scope,FALSE
+"Manufacture of needles (except for knitting and sewing machines), pins and fasteners including zippers",5,25996,not in scope,FALSE
+"Manufacture of aluminum window and door screens, shades and venetian blinds",5,25997,not in scope,FALSE
+"Manufacture of miscellaneous fabricated metal products, n.e.c.",5,25999,not in scope,FALSE
+Manufacture of electronic valves and tubes,5,26110,not in scope,FALSE
+Manufacture of semi-conductor  devices and other electronic components,5,26120,not in scope,FALSE
+Manufacture of computers and peripheral equipment and accessories,5,26200,not in scope,FALSE
+Manufacture of communication equipment,5,26300,not in scope,FALSE
+Manufacture of consumer electronics,5,26400,not in scope,FALSE
+"Manufacture of radar equipment, radio remote control apparatus",5,26511,not in scope,FALSE
+Manufacture of electrical quantities measuring and controlling instruments,5,26512,not in scope,FALSE
+Manufacture of temperature measuring and controlling hygrometric instruments,5,26513,not in scope,FALSE
+Manufacture of pressure measuring and controlling instruments and gauges,5,26514,not in scope,FALSE
+Manufacture of flow of liquids or gases measuring and controlling instruments,5,26515,not in scope,FALSE
+"Manufacture of mechanical motion, measuring and controlling, timing and cycle instruments",5,26516,not in scope,FALSE
+Manufacture of industrial process control equipment,5,26517,not in scope,FALSE
+"Manufacture of professional and scientific and measuring and controlling equipment, n.e.c.",5,26519,not in scope,FALSE
+Manufacture of watches and clocks of all kinds including cases of precious metals,5,26521,not in scope,FALSE
+Manufacture of watch bands and bracelets of precious metals,5,26522,not in scope,FALSE
+"Manufacture of other watch and clocks parts, n.e.c.",5,26529,not in scope,FALSE
+Manufacture of X-ray apparatus,5,26601,not in scope,FALSE
+Manufacture of electrotherapeutic apparatus,5,26602,not in scope,FALSE
+Manufacture of medical laser equipment,5,26603,not in scope,FALSE
+"Manufacture of Computerized Tomography (CT) scanner, Positron Emission Tomography (PET) scanner",5,26604,not in scope,FALSE
+Manufacture of MRI equipment,5,26605,not in scope,FALSE
+Manufacture of medical ultrasound equipment,5,26606,not in scope,FALSE
+"Manufacture of other irradiation, electromedical and electrotherapeutic equipment, n.e.c.",5,26609,not in scope,FALSE
+Manufacture of optical instruments and lenses,5,26701,not in scope,FALSE
+Manufacture of photographic equipment and accessories,5,26702,not in scope,FALSE
+Manufacture of magnetic and optical media,5,26800,not in scope,FALSE
+Manufacture of electric motors and generators,5,27111,not in scope,FALSE
+Manufacture of electrical transformers,5,27112,not in scope,FALSE
+Manufacture  of electric generating sets,5,27113,not in scope,FALSE
+Manufacture of switch gear  and switchboard apparatus,5,27121,not in scope,FALSE
+Manufacture of electricity distribution  equipment,5,27122,not in scope,FALSE
+"Manufacture of  switches, fuses, sockets, plugs, conductors and lightning  arresters and other control apparatus",5,27123,not in scope,FALSE
+Manufacture of accumulators (storage batteries) including parts,5,27201,not in scope,FALSE
+Manufacture of primary cells and batteries,5,27202,not in scope,FALSE
+Manufacture of fiber optic cables,5,27310,not in scope,FALSE
+Manufacture of other electronic and electric wires and cables,5,27320,not in scope,FALSE
+Manufacture of wiring devices,5,27330,not in scope,FALSE
+Manufacture of electric lamps fluorescent and fixtures,5,27401,not in scope,FALSE
+Manufacture of lighting equipment and parts except for use on cycle and motor equipment,5,27402,not in scope,FALSE
+Manufacture of motor vehicle lighting equipment,5,27403,not in scope,FALSE
+Manufacture of bicycle lighting equipment,5,27404,not in scope,FALSE
+Manufacture of lighting sets used for Christmas trees and the like,5,27405,not in scope,FALSE
+Manufacture of domestic electric fans,5,27501,not in scope,FALSE
+"Manufacture of domestic-type refrigerators and laundry equipment (e.g. clothes washers, washer-dryers, dryers)",5,27502,not in scope,FALSE
+"Manufacture of domestic  cooking appliances (e.g. ovens, ranges, cookers, stoves, grillers, etc.)",5,27503,not in scope,FALSE
+"Manufacture of electrothermic domestic appliances (e.g. hair dressing appliances, electric instantaneous storage, heaters, flat-irons, plate warmers, coffee or teamakers)",5,27504,not in scope,FALSE
+Manufacture of domestic-type water filters and/or purifiers,5,27505,not in scope,FALSE
+"Manufacture of domestic appliances, n.e.c.",5,27509,not in scope,FALSE
+"Manufacture of battery chargers, solid state",5,27901,not in scope,FALSE
+Manufacture of uninterruptible power supplies (UPS),5,27902,not in scope,FALSE
+"Manufacture of appliance cords, extension cords, and other electrical cord",5,27903,not in scope,FALSE
+"Manufacture of accelerators (cyclotrons, betatrons)",5,27904,not in scope,FALSE
+Manufacture of electrical signalling equipment such as traffic lights and pedestrical signalling equipment,5,27905,not in scope,FALSE
+"Manufacture of other electrical equipment, n.e.c.",5,27909,not in scope,FALSE
+Manufacture of internal combustion engines (gas and diesel),5,28111,not in scope,FALSE
+Manufacture of  engines and turbines for marine propulsion,5,28112,not in scope,FALSE
+"Manufacture of parts of engines and turbines, except for aircraft, vehicle and cycle engines",5,28113,not in scope,FALSE
+"Manufacture of engines and turbines, except for transport, n.e.c.",5,28119,not in scope,FALSE
+Manufacture of fluid power equipment,5,28120,not in scope,FALSE
+"Manufacture of pumps for liquids, vacuum pumps, air or other gas compressors",5,28131,not in scope,FALSE
+"Manufacture of taps, cocks, valves and similar appliances for pipes, boiler shells, tanks, vats or the like",5,28132,not in scope,FALSE
+"Manufacture of bearings, gears and driving elements",5,28140,not in scope,FALSE
+"Manufacture of ovens, furnaces and furnace burners",5,28150,not in scope,FALSE
+"Manufacture of lifting and hoisting machinery, cranes, elevators , industrial trucks, tractors, stackers, specialized ports for lifting and handling equipment",5,28161,not in scope,FALSE
+"Manufacture of derricks, lifting and handling equipment for contruction and mining",5,28162,not in scope,FALSE
+"Manufacture of marine capstans, pulley tackel and hoists, etc.",5,28163,not in scope,FALSE
+"Manufacture of other lifting and handling equipment, n.e.c.",5,28169,not in scope,FALSE
+"Manufacture of calculating machines, adding machines, cash registers, calculators",5,28171,not in scope,FALSE
+Manufacture of bills/coin counting and coin wrapping machinery,5,28172,not in scope,FALSE
+"Manufacture of postage meters, mail handling machines (envelope stuffing, sealing and addressing machinery, opening, sorting, scanning), collating machinery",5,28173,not in scope,FALSE
+Manufacture of typewriters,5,28174,not in scope,FALSE
+Manufacture of duplicating machines,5,28175,not in scope,FALSE
+Manufacture of photo-copying apparatus incorporating an optical system or of the contact type and thermo copying apparatus,5,28176,not in scope,FALSE
+"Manufacture of other office machinery and equipment (except computers and peripheral equipment), n.e.c.",5,28179,not in scope,FALSE
+Manufacture of power-driven hand tools,5,28180,not in scope,FALSE
+Manufacture of weighing machines except scientific weighing apparatus used for laboratories,5,28191,not in scope,FALSE
+Manufacture of refrigerating or freezing equipment for commercial purposes,5,28192,not in scope,FALSE
+Manufacture of unit air-conditioners,5,28193,not in scope,FALSE
+Manufacture of packing and wrapping machinery,5,28194,not in scope,FALSE
+Manufacture of machinery for cleaning or drying bottles or other containers or for aerating beverages,5,28195,not in scope,FALSE
+"Manufacture of fans intended for industrial applications, exhaust hoods for commercial, laboratory or industrial use",5,28196,not in scope,FALSE
+Manufacture of calendering or other rolling machines other than for metals or glass,5,28197,not in scope,FALSE
+"Manufacture of other general-purpose machinery, n.e.c. (including manufacture of specialized parts for general purpose machinery and equipment)",5,28199,not in scope,FALSE
+Manufacture of farm tractors,5,28211,not in scope,FALSE
+Manufacture of mechanical implements for crop production,5,28212,not in scope,FALSE
+Manufacture of animal husbandry machinery and equipment,5,28213,not in scope,FALSE
+"Manufacture of agricultural and forestry machinery and equipment, n.e.c.",5,28219,not in scope,FALSE
+Manufacture of machine tools for working metal,5,28221,not in scope,FALSE
+Manufacture of machine tools and accessories including precision measuring tools,5,28222,not in scope,FALSE
+Parts and accessories for the machine tools classified in this group,5,28223,not in scope,FALSE
+"Manufacture of apparatus for electroplating, electrolysis and electrophoresis",5,28224,not in scope,FALSE
+"Manufacture of metal-forming machinery and machine tools, n.e.c.",5,28229,not in scope,FALSE
+Manufacture of machinery for metallurgy,5,28230,not in scope,FALSE
+Manufacture of heavy machinery and equipment used for mining and quarrying,5,28241,not in scope,FALSE
+Manufacture of heavy machinery and equipment used for construction,5,28242,not in scope,FALSE
+Manufacture of machinery for food processing,5,28251,not in scope,FALSE
+"Manufacture of presses, crushers and similar machinery used to make wine, cider, fruit juices or similar beverages",5,28252,not in scope,FALSE
+"Manufacture of machinery for the preparation of tobacco and for the making of cigarettes or cigars, or pipe or chewing tobacco or snuff",5,28253,not in scope,FALSE
+Manufacture of textile machinery,5,28261,not in scope,FALSE
+Manufacture of machineries for man-made textile fibers or yarns,5,28262,not in scope,FALSE
+Manufacture of sewing machines,5,28263,not in scope,FALSE
+"Manufacture of washing, laundry, dry-cleaning and pressing machines",5,28264,not in scope,FALSE
+"Manufacture of needles for knitting, sewing machines",5,28265,not in scope,FALSE
+"Manufacture of machinery for textile apparel and leather production, n.e.c.",5,28269,not in scope,FALSE
+"Manufacture of machinery for pulp, paper and paperboard industries",5,28291,not in scope,FALSE
+Manufacture of machinery for working rubber or plastic or for the manufacture of products of these materials,5,28292,not in scope,FALSE
+Manufacture of printing-trade machinery and equipment,5,28293,not in scope,FALSE
+"Manufacture of machinery for producing tiles, bricks, shaped ceramic pastes, pipes, graphite, electrodes, blackboard chalk, foundry molds, etc.",5,28294,not in scope,FALSE
+Manufacture of machines for production or hot-working of glass; glassware or yarn,5,28295,not in scope,FALSE
+Manufacture of centrifugal clothes driers,5,28296,not in scope,FALSE
+"Manufacture of other special-purpose machinery, n.e.c.",5,28299,not in scope,FALSE
+Manufacture of motor vehicles,5,29100,Automotive,FALSE
+Manufacture of bodies (coachwork) for motor vehicles,5,29201,not in scope,FALSE
+Manufacture of trailers and semi-trailers,5,29202,not in scope,FALSE
+Manufacture of electric ignition or starting equipment for internal combustion engines,5,29301,not in scope,FALSE
+Manufacture of parts and accessories for motor vehicles and their engines,5,29302,not in scope,FALSE
+Building of ships and boats other than sports and pleasure boats,5,30111,not in scope,FALSE
+Manufacture of floating or submersible drilling platforms,5,30112,not in scope,FALSE
+Manufacture of inflatable rafts,5,30113,not in scope,FALSE
+Manufacture of metal sections for ships and barges,5,30114,not in scope,FALSE
+Manufacture of inflatable boats,5,30121,not in scope,FALSE
+"Manufacture of other pleasure and sporting boats, n.e.c.",5,30129,not in scope,FALSE
+"Building and rebuilding of locomotives of any type of gauge, and railroad and tramway cars for freight and passenger service",5,30201,not in scope,FALSE
+"Production of specialized parts for locomotives, railroad and tramway",5,30202,not in scope,FALSE
+Manufacture of air and spacecraft and related machinery,5,30300,not in scope,FALSE
+Manufacture of military fighting vehicles,5,30400,not in scope,FALSE
+Manufacture and assembly of motorcycles,5,30911,not in scope,FALSE
+Manufacture of motorcycle engines and parts thereof,5,30912,not in scope,FALSE
+Manufacture of tricycles and parts thereof,5,30913,not in scope,FALSE
+Manufacture of side cars,5,30914,not in scope,FALSE
+Manufacture of parts and accessories of motorcyles,5,30915,not in scope,FALSE
+Manufacture of bicycles and bicycle parts,5,30921,not in scope,FALSE
+"Manufacture of invalid carriages, motorized and non-motorized",5,30922,not in scope,FALSE
+Manufacture of baby carriages,5,30923,not in scope,FALSE
+Manufacture of hand-propelled vehicles,5,30991,not in scope,FALSE
+Manufacture of animal drawn vehicles,5,30992,not in scope,FALSE
+Manufacture of wood furniture,5,31010,not in scope,FALSE
+"Manufacture of rattan furniture (reed, wicker, and cane)",5,31020,not in scope,FALSE
+Manufacture of box beds and mattresses,5,31030,not in scope,FALSE
+"Manufacture of partitions, shelves, lockers and office and store fixtures",5,31040,not in scope,FALSE
+Manufacture of plastic furniture,5,31050,not in scope,FALSE
+Manufacture of furniture and fixtures of metal,5,31060,not in scope,FALSE
+"Manufacture of other furniture and fixtures, n.e.c.",5,31090,not in scope,FALSE
+Manufacture of jewelry made of precious and semi-precious stones,5,32111,not in scope,FALSE
+Manufacture of silverware and plated ware,5,32112,not in scope,FALSE
+Manufacture of watchbands and bracelets of precious metals,5,32113,not in scope,FALSE
+Manufacture of articles related to jewelry,5,32119,not in scope,FALSE
+Manufacture of imitation of jewelry and related articles,5,32120,not in scope,FALSE
+Manufacture of guitars,5,32201,not in scope,FALSE
+"Manufacture of string instruments, other than guitars",5,32202,not in scope,FALSE
+Manufacture of pianos,5,32203,not in scope,FALSE
+Manufacture of musical organs (all types),5,32204,not in scope,FALSE
+Manufacture of wind and percussion instruments,5,32205,not in scope,FALSE
+Manufacture of instrument parts and accessories,5,32206,not in scope,FALSE
+"Manufacture of musical instruments, n.e.c.",5,32209,not in scope,FALSE
+Manufacture of sporting gloves and mitts,5,32301,not in scope,FALSE
+Manufacture of sporting balls,5,32302,not in scope,FALSE
+"Manufacture of sporting and athletic goods, n.e.c.",5,32309,not in scope,FALSE
+Manufacture of dolls and doll garments,5,32401,not in scope,FALSE
+Manufacture of wheeled toys,5,32402,not in scope,FALSE
+"Manufacture of billiard, pool, bowling alley and similar games equipment",5,32403,not in scope,FALSE
+"Manufacture of electronic games (video games, checkers)",5,32404,not in scope,FALSE
+"Manufacture of toys and games, n.e.c.",5,32409,not in scope,FALSE
+"Manufacture of medical, surgical, dental furniture and fixtures",5,32501,not in scope,FALSE
+"Manufacture of opthalmic goods, eyeglasses, sunglasses, lenses ground to prescription, contact lenses, safety goggles",5,32502,not in scope,FALSE
+"Manufacture of prosthetic appliances, artificial teeth made to order",5,32503,not in scope,FALSE
+Manufacture of medical and precision instruments,5,32504,not in scope,FALSE
+Manufacture of temperature measuring and controlling hygrometric instruments,5,32505,not in scope,FALSE
+Manufacture of cement used in dentistry,5,32506,not in scope,FALSE
+"Manufacture of other medical and dental instruments and supplies, n.e.c.",5,32509,not in scope,FALSE
+Manufacture of pens and pencils of all kinds,5,32910,not in scope,FALSE
+"Manufacture of umbrellas, walking sticks, canes, whips and riding crops",5,32920,not in scope,FALSE
+"Manufacture of articles for personal use, e.g. smoking pipes, combs, slides and similar articles",5,32930,not in scope,FALSE
+Manufacture of candles,5,32940,not in scope,FALSE
+"Manufacture of artificial flowers, fruits and foliage",5,32950,not in scope,FALSE
+Manufacture of wooden coffin,5,32961,not in scope,FALSE
+Manufacture of metal coffin,5,32962,not in scope,FALSE
+"Manufacture of buttons, except plastic",5,32991,not in scope,FALSE
+"Manufacture of brooms, brushes and fans",5,32992,not in scope,FALSE
+"Manufacture of identification plates, badges, emblems and tags",5,32993,not in scope,FALSE
+Manufacture of signs and advertising displays,5,32994,not in scope,FALSE
+Manufacture of cigarette lighters,5,32995,not in scope,FALSE
+"Manufacture of miscellaneous articles, n.e.c.",5,32999,not in scope,FALSE
+Repair of fabricated metal products,5,33110,not in scope,FALSE
+Repair of machinery,5,33120,not in scope,FALSE
+Repair of electronic and optical equipment,5,33130,not in scope,FALSE
+Repair of electrical equipment,5,33140,not in scope,FALSE
+Repairing of ships and boats other than sports and pleasure boats,5,33151,not in scope,FALSE
+Repairing of sports and pleasure boats,5,33152,not in scope,FALSE
+"Repair of transport equipment, except motor vehicles, n.e.c.",5,33159,not in scope,FALSE
+Repair of other equipment,5,33190,not in scope,FALSE
+Installation of industrial machinery and equipment,5,33200,not in scope,FALSE
+"Electric power generation, transmission and distribution",5,35100,Power,FALSE
+Manufacture of gas; distribution of gaseous fuels through mains,5,35200,not in scope,FALSE
+"Water collection, treatment and supply",5,36000,not in scope,FALSE
+Sewerage,5,37000,not in scope,FALSE
+Collection of non-hazardous waste,5,38110,not in scope,FALSE
+Collection of hazardous waste,5,38120,not in scope,FALSE
+Treatment and disposal of non-hazardous waste,5,38210,not in scope,FALSE
+Treatment and disposal of hazardous waste,5,38220,not in scope,FALSE
+Materials recovery,5,38300,not in scope,FALSE
+Remediation activities and other waste management services,5,39000,not in scope,FALSE
+Residential (dwelling) building constructions,5,41001,not in scope,FALSE
+Non-residential building constructions,5,41002,not in scope,FALSE
+Construction of roads and railways,5,42100,not in scope,FALSE
+Construction of utility projects,5,42200,not in scope,FALSE
+Construction of other civil engineering projects,5,42900,not in scope,FALSE
+Demolition,5,43110,not in scope,FALSE
+Site preparation,5,43120,not in scope,FALSE
+Electrical installation,5,43210,not in scope,FALSE
+"Plumbing, heat and air-conditioning installation",5,43220,not in scope,FALSE
+Other construction installation,5,43290,not in scope,FALSE
+Painting and related work,5,43301,not in scope,FALSE
+Floor and wall tiling or covering with other material,5,43302,not in scope,FALSE
+Carpentry,5,43303,not in scope,FALSE
+Other building completion and finishing activities,5,43309,not in scope,FALSE
+Other specialized construction activities,5,43900,not in scope,FALSE
+Sale of passenger motor vehicles,5,45101,not in scope,FALSE
+"Sale of lorries, trailers and semi-trailers",5,45102,not in scope,FALSE
+Sale of other motor vehicles,5,45109,not in scope,FALSE
+"Repair of motor vehicles, including overhauling",5,45201,not in scope,FALSE
+Repair of batteries for motor vehicles,5,45202,not in scope,FALSE
+Vulcanizing or preparing of tires for motor vehicles,5,45203,not in scope,FALSE
+"Maintenance of motor vehicles, n.e.c.",5,45209,not in scope,FALSE
+Wholesale of motor vehicles parts and accessories,5,45301,not in scope,FALSE
+Retail sale of motor vehicles parts and accessories,5,45302,not in scope,FALSE
+Wholesale of motor vehicles tires and batteries,5,45303,not in scope,FALSE
+Retail sale of motor vehicles tires and batteries,5,45304,not in scope,FALSE
+"Sale of motor vehicle parts and accessories, n.e.c.",5,45309,not in scope,FALSE
+Sale of motorcycles and their parts and components,5,45401,not in scope,FALSE
+Maintenance and repair of motorcycles and their parts and components,5,45402,not in scope,FALSE
+"Wholesale on a fee or contract basis, of agricultural raw materials and live animals",5,46101,not in scope,FALSE
+"Wholesale on a fee or contract basis, of food, beverages and tobacco",5,46102,not in scope,FALSE
+"Wholesale on a fee or contract basis, of textile, clothing, and footwear",5,46103,not in scope,FALSE
+"Wholesale on a fee or contract basis, of household appliances, articles and equipment",5,46104,not in scope,FALSE
+"Wholesale on a fee or contract basis, of miscellaneous consumer goods",5,46105,not in scope,FALSE
+"Wholesale on a fee or contract basis, of construction materials and hardware",5,46106,not in scope,FALSE
+"Wholesale on a fee or contract basis, of chemical and pharmaceutical products",5,46107,not in scope,FALSE
+"Wholesale on a fee or contract basis, of machinery, equipment and supplies",5,46108,not in scope,FALSE
+"Wholesale on a fee or contract basis, of other products",5,46109,not in scope,FALSE
+"Wholesale of palay, corn (unmilled) and other grains",5,46201,not in scope,FALSE
+"Wholesale of abaca and other fibers, except synthetic fibers",5,46202,not in scope,FALSE
+Wholesale of coconut and coconut by-products,5,46203,not in scope,FALSE
+"Wholesale of oleaginous fruits (e.g., oil seeds, palm oil, sunflower seeds, etc.)",5,46204,not in scope,FALSE
+Wholesale of tobacco leaf,5,46205,not in scope,FALSE
+Wholesale of flowers and plants,5,46206,not in scope,FALSE
+Wholesale of livestock and poultry and unprocessed animal products,5,46207,not in scope,FALSE
+Wholesale of fish and other seafoods,5,46208,not in scope,FALSE
+"Wholesale of farm, forest and marine products, including seeds and animal feeds, hides and skins, leather, etc., n.e.c.",5,46209,not in scope,FALSE
+"Wholesale of fruits, nuts and vegetables",5,46301,not in scope,FALSE
+"Wholesale of sugar, confectionery and bakery products and other processed foods",5,46302,not in scope,FALSE
+"Wholesale of meat and poultry products, including eggs",5,46303,not in scope,FALSE
+"Wholesale of rice, corn and other cereals",5,46304,not in scope,FALSE
+Wholesale of fishery products,5,46305,not in scope,FALSE
+"Wholesale of drinking water, juices (including powder), coffee, tea, cocoa and other beverages",5,46306,not in scope,FALSE
+Wholesale of tobacco products,5,46307,not in scope,FALSE
+Wholesale of spices,5,46308,not in scope,FALSE
+"Other wholesale of food, beverage and tobacco, n.e.c.",5,46309,not in scope,FALSE
+"Wholesale of textile fabrics, all kinds, including man-made fibers",5,46411,not in scope,FALSE
+"Wholesale of wearing apparel, except footwear",5,46412,not in scope,FALSE
+"Wholesale of made-up textile goods, except wearing apparel",5,46413,not in scope,FALSE
+"Wholesale of articles of clothing, including accessories",5,46414,not in scope,FALSE
+"Wholesale of footwear, all kinds of materials",5,46415,not in scope,FALSE
+Wholesale of embroideries,5,46416,not in scope,FALSE
+"Wholesale of cordage, rope and twine",5,46417,not in scope,FALSE
+"Wholesale of leather and leather goods, including man-made leather, except footwear",5,46418,not in scope,FALSE
+"Wholesale of textiles, clothing and footwear, n.e.c.",5,46419,not in scope,FALSE
+Wholesale of medicinal and pharmaceutical products,5,46421,not in scope,FALSE
+Wholesale of surgical and orthopedic instruments and devices,5,46422,not in scope,FALSE
+Wholesale of photographic and optical goods,5,46423,not in scope,FALSE
+"Wholesale of musical instruments/sporting goods (including bicycles), and games and toys",5,46424,not in scope,FALSE
+Wholesale of paper and paper products (including stationeries),5,46425,not in scope,FALSE
+"Wholesale of books, magazines and newspapers",5,46426,not in scope,FALSE
+"Wholesale of perfumeries, cosmetics and soaps",5,46427,not in scope,FALSE
+"Wholesale of watches, clocks and jewelries",5,46428,not in scope,FALSE
+"Wholesale of miscellaneous consumer goods, n.e.c.",5,46429,not in scope,FALSE
+"Wholesale of household-type appliances, except radio and television equipment, CD and DVD players/recorders",5,46491,not in scope,FALSE
+"Wholesale of household furniture, furnishing and fixtures",5,46492,not in scope,FALSE
+"Wholesale of recorded audio and video tapes, CDs, DVDs",5,46493,not in scope,FALSE
+"Wholesale of chinaware, glassware, earthenware, woodenware, wickerware, corkware, plasticware, cutlery and utensils",5,46494,not in scope,FALSE
+Wholesale of handicraft products,5,46495,not in scope,FALSE
+Wholesale of lighting equipment,5,46496,not in scope,FALSE
+"Wholesale of other household goods, n.e.c.",5,46499,not in scope,FALSE
+"Wholesale of computers, computer peripheral equipment and software",5,46510,not in scope,FALSE
+Wholesale of electronic valves and tubes,5,46521,not in scope,FALSE
+Wholesale of semi-conductor devices,5,46522,not in scope,FALSE
+Wholesale micro-chips and integrated circuits,5,46523,not in scope,FALSE
+Wholesale of printed circuits,5,46524,not in scope,FALSE
+Wholesale of radio and television including parts and accessories,5,46525,not in scope,FALSE
+Wholesale of telephone and communications equipment including parts and accessories,5,46526,not in scope,FALSE
+"Wholesale of blank audio and video tapes and diskettes, magnetic and optical disks (CDs, DVDs)",5,46527,not in scope,FALSE
+"Wholesale of agricultural machinery, equipment and supplies",5,46530,not in scope,FALSE
+Wholesale of commercial machinery and equipment,5,46591,not in scope,FALSE
+Wholesale of industrial machinery and equipment,5,46592,not in scope,FALSE
+"Wholesale of office machinery equipment including office furniture, furnishings, appliances and vases",5,46593,not in scope,FALSE
+Wholesale of professional and scientific and measuring and controlling equipment,5,46594,not in scope,FALSE
+"Wholesale of transport equipment and supplies, except land motor vehicles, motorcycles and bicycles",5,46595,not in scope,FALSE
+"Wholesale of other machinery and equipment, n.e.c.",5,46599,not in scope,FALSE
+"Wholesale of solid, liquid and gaseous fuels and related products",5,46610,not in scope,FALSE
+Wholesale of metals and metal ores,5,46620,not in scope,FALSE
+"Wholesale of lumber and planing mill products, wood in the rough",5,46631,not in scope,FALSE
+"Wholesale  of cement, hydraulic",5,44632,not in scope,FALSE
+"Wholesale of masonry materials, except cement",5,44633,not in scope,FALSE
+Wholesale of flat glass,5,44634,not in scope,FALSE
+"Wholesale of hardware, paints, varnishes amd lacquers, and plumbing materials, including fittings and fixtures",5,44635,not in scope,FALSE
+Wholesale of electrical materials,5,44636,not in scope,FALSE
+Wholesale of wallpaper and floor coverings,5,44637,not in scope,FALSE
+"Wholesale of construction materials and supplies, n.e.c.",5,44639,not in scope,FALSE
+Wholesale of industrial chemical products,5,46691,not in scope,FALSE
+Wholesale of fertilizers and agro-chemical products,5,46692,not in scope,FALSE
+"Wholesale of non-metallic products except cement, sand and gravel",5,46693,not in scope,FALSE
+"Wholesale of scrap metals, waste and junk",5,46694,not in scope,FALSE
+"Wholesale of scraps, except metal",5,46695,not in scope,FALSE
+"Wholesale of other waste and scrap and products, n.e.c.",5,46699,not in scope,FALSE
+Non-specialized wholesale trade,5,46900,not in scope,FALSE
+Retail selling in groceries,5,47111,not in scope,FALSE
+Retail selling in supermarkets,5,47112,not in scope,FALSE
+Retail selling in sari-sari stores,5,47113,not in scope,FALSE
+Retail selling in convenience stores,5,47114,not in scope,FALSE
+Retail selling in department stores,5,47191,not in scope,FALSE
+"Retail selling in non-specialized stores, n.e.c.",5,47199,not in scope,FALSE
+Retail sale of fruits and vegetables,5,47211,not in scope,FALSE
+Retail sale of eggs and dairy products,5,47212,not in scope,FALSE
+Retail sale of meat and poultry products,5,47213,not in scope,FALSE
+Retail sale of bakery products,5,47214,not in scope,FALSE
+Retail sale of fish and other seafoods (fresh and dried),5,47215,not in scope,FALSE
+"Retail sale of rice, corn and other cereals",5,47216,not in scope,FALSE
+"Retail sale of food products, n.e.c.",5,47219,not in scope,FALSE
+Retail sale of alcoholic beverages (not consumed on the spot),5,47221,not in scope,FALSE
+Retail sale of non-alcoholic beverages,5,47222,not in scope,FALSE
+Retail sale of tobacco products in specialized stores,5,47230,not in scope,FALSE
+Retail sale of automotive fuel in specialized stores,5,47300,not in scope,FALSE
+Retail sale of computers,5,47411,not in scope,FALSE
+Retail sale of computer peripheral equipment,5,47412,not in scope,FALSE
+Retail sale of computer software,5,47413,not in scope,FALSE
+"Retail sale of cellular phones, parts and accessories",5,47414,not in scope,FALSE
+Retail sale of other telecommunications equipment,5,47419,not in scope,FALSE
+"Retail sale of of radio and television, including parts and accessories",5,47421,not in scope,FALSE
+Retail sale of audio and video equipment,5,47422,not in scope,FALSE
+"Retail sale of stereo equipment, CD and DVD players and equipment",5,47423,not in scope,FALSE
+"Retail sale of audio and video equipment, n.e.c.",5,47429,not in scope,FALSE
+"Retail sale of textiles, all kinds",5,47511,not in scope,FALSE
+Retail sale of modistes' supplies,5,47512,not in scope,FALSE
+Retail sale of hardware materials,5,47521,not in scope,FALSE
+Retail sale of glass and mirror,5,47522,not in scope,FALSE
+Retail sale of lumber,5,47523,not in scope,FALSE
+Retail sale of construction materials,5,47524,not in scope,FALSE
+Retail sale of masonry materials,5,47525,not in scope,FALSE
+"Retail sale of nipa, bamboo and rattan",5,47526,not in scope,FALSE
+"Retail sale of paints, varnishes and lacquers",5,47527,not in scope,FALSE
+"Retail sale of construction supplies, n.e.c.",5,47529,not in scope,FALSE
+"Retail sale of carpets, rugs, wall and floor coverings in specialized stores",5,47530,not in scope,FALSE
+"Retail sale of home furnishing, furniture and fixtures, including lamps and lamp shades",5,47591,not in scope,FALSE
+"Retail sale of chinaware, glassware, earthenware and utensils",5,47592,not in scope,FALSE
+"Retail sale of household appliances, articles and equipment",5,47593,not in scope,FALSE
+"Retail sale of musical instruments and records, tapes and cartridges",5,47594,not in scope,FALSE
+Retail sale of handicrafts,5,47595,not in scope,FALSE
+"Retail sale of electrical household appliances, furniture, lighting equipment and other household articles in specialized stores, n.e.c.",5,47599,not in scope,FALSE
+"Retail sale of books, newspapers and stationery in specialized stores",5,47610,not in scope,FALSE
+Retail sale of music and video recordings in specialized stores,5,47620,not in scope,FALSE
+Retail sale of sporting goods and athletic supplies,5,47631,not in scope,FALSE
+"Retail sale of marine supplies, including nets and gears",5,47632,not in scope,FALSE
+Retail sale of camping goods and bicycles,5,47633,not in scope,FALSE
+Retail sale of games and toys in specialized stores,5,47640,not in scope,FALSE
+"Retail sale of wearing apparel, except footwear",5,47711,not in scope,FALSE
+Retail sale of made-up textile goods,5,47712,not in scope,FALSE
+"Retail sale of footwear, all kinds",5,47713,not in scope,FALSE
+"Retail sale of leather and artificial leather goods and travel accessories, except footwear",5,47714,not in scope,FALSE
+"Retail sale of other clothing, footwear and leather articles in specialized stores, n.e.c.",5,47719,not in scope,FALSE
+Retail sale of drugs and pharmaceutical goods,5,47721,not in scope,FALSE
+"Retail sale of medical, surgical and orthopedic goods/instruments and dental supplies",5,47722,not in scope,FALSE
+"Retail sale of perfumery, cosmetic and toilet articles",5,47723,not in scope,FALSE
+"Retail sale of feeds, fertilizers and insecticides",5,47731,not in scope,FALSE
+"Retail sale of toys, gifts and novelty goods",5,47732,not in scope,FALSE
+"Retail sale of office machines and equipment, excluding computers and computer peripheral equipment",5,47733,not in scope,FALSE
+"Retail sale of jewelry, watches and clocks",5,47734,not in scope,FALSE
+Retail sale of fresh and artificial flowers and plants,5,47735,not in scope,FALSE
+Retail sale of beauty parlor supplies and equipment,5,47736,not in scope,FALSE
+"Retail sale of art goods, marble products, painting and artists' supplies",5,47737,not in scope,FALSE
+Retail sale of optical goods and supplies,5,47738,not in scope,FALSE
+"Other retail sale of new goods in specialized stores, n.e.c.",5,47739,not in scope,FALSE
+"Retail sale of second-hand clothing, footwear and leather articles",5,47741,not in scope,FALSE
+Retail sale of books and other goods,5,47742,not in scope,FALSE
+Retail sale of antiques and auctioning houses,5,47743,not in scope,FALSE
+"Retail sale of second-hand goods, n.e.c.",5,47749,not in scope,FALSE
+Retail sale of liquefied petroleum gas and other fuel products,5,47750,not in scope,FALSE
+"Retail sale via stalls and markets of food, beverages and tobacco products",5,47810,not in scope,FALSE
+"Retail sale via stalls and markets of textiles, clothing and footwear",5,47820,not in scope,FALSE
+Retail sale of prepaid cards,5,47891,not in scope,FALSE
+Retail sale of internet card,5,47892,not in scope,FALSE
+Retail sale of electronic load,5,47893,not in scope,FALSE
+Retail sale of music and video recordings,5,47894,not in scope,FALSE
+Retail sale of household appliances and consumer electronics,5,47895,not in scope,FALSE
+Retail sale of books,5,47896,not in scope,FALSE
+Retail sale of games and toys,5,47897,not in scope,FALSE
+Retail sale of carpets and rugs,5,47898,not in scope,FALSE
+"Other retail sale via stalls and markets of other goods, n.e.c.",5,47899,not in scope,FALSE
+Retail sale via mail order,5,47911,not in scope,FALSE
+Retail sale via telephone order,5,47912,not in scope,FALSE
+Retail sale via internet,5,47913,not in scope,FALSE
+Door-to-door retailing,5,47991,not in scope,FALSE
+Selling by vending machine,5,47992,not in scope,FALSE
+"Retail sale of health products, non-store",5,47993,not in scope,FALSE
+Retail sale of water (including distribution),5,47994,not in scope,FALSE
+"Other retail sale not in stores, stalls or markets, n.e.c",5,47999,not in scope,FALSE
+Inter-urban passenger railway transport,5,49111,not in scope,FALSE
+Urban and suburban railway transport,5,49112,not in scope,FALSE
+Freight rail transport,5,49120,not in scope,FALSE
+Inter-urban bus line operation,5,49201,not in scope,FALSE
+Urban and suburban bus line operation,5,49202,not in scope,FALSE
+Local bus line operation,5,49203,not in scope,FALSE
+"Chartered buses and cars operation (e.g. tourist buses, rent-a-car)",5,49204,not in scope,FALSE
+Operation of school buses/shuttle,5,49205,not in scope,FALSE
+"Other transport via buses, n.e.c.",5,49209,not in scope,FALSE
+"Urban or suburban passenger land transport, except by bus",5,49310,not in scope,FALSE
+Jeepney and Asian Utility Vehicle (AUV) operation,5,49321,not in scope,FALSE
+Tricycles and pedicabs operation,5,49322,not in scope,FALSE
+Public utility cars and taxicabs operation,5,49323,not in scope,FALSE
+"Other land transport operation, n.e.c.",5,49329,not in scope,FALSE
+Truck-for-hire operation (with driver),5,49331,not in scope,FALSE
+Freight truck operation,5,49332,not in scope,FALSE
+Tank truck delivery services,5,49333,not in scope,FALSE
+"Freight transport operation, by road, n.e.c.",5,49339,not in scope,FALSE
+Transport via pipeline,5,49400,not in scope,FALSE
+Ocean passenger transport,5,50111,not in scope,FALSE
+Interisland water passenger transport,5,50112,not in scope,FALSE
+Renting of ship with operator,5,50113,Shipping,FALSE
+Ocean freight transport,5,50121,not in scope,FALSE
+Interisland water freight transport,5,50122,not in scope,FALSE
+Towing and pushing services on coastal and trans-oceanic waters,5,50123,not in scope,FALSE
+Inland passenger water transport,5,50210,not in scope,FALSE
+Inland freight water transport,5,50220,not in scope,FALSE
+Domestic air passenger transport,5,51101,Aviation,FALSE
+International air passenger transport,5,51102,Aviation,FALSE
+Non-scheduled air passenger transport,5,51103,Aviation,FALSE
+Domestic air - freight transport,5,51201,Aviation,FALSE
+International air freight transport,5,51202,Aviation,FALSE
+Non-scheduled air freight transport,5,51203,Aviation,FALSE
+General bonded warehouses except grain warehouse,5,52101,not in scope,FALSE
+Grain warehouses,5,52102,not in scope,FALSE
+Customs bonded warehouses,5,52103,not in scope,FALSE
+Cold storage,5,52104,not in scope,FALSE
+"Storage and warehousing, n.e.c.",5,52109,not in scope,FALSE
+Freight terminal facilities for trucking companies,5,52211,not in scope,FALSE
+Operation of parking lots,5,52212,not in scope,FALSE
+Operation of toll roads and bridges,5,52213,not in scope,FALSE
+"Other supporting land transport activities, n.e.c.",5,52219,not in scope,FALSE
+Service activities incidental to water transportation,5,52220,not in scope,FALSE
+Service activities incidental to air transportation,5,52230,not in scope,FALSE
+"Containerized cargo handling, auxiliary activity to land transport",5,52241,not in scope,FALSE
+"Non- containerized cargo handling, auxiliary activity to land transport",5,52242,not in scope,FALSE
+Freight forwarding services,5,52291,not in scope,FALSE
+Customs brokerage (ship and aircraft),5,52292,not in scope,FALSE
+Logistics services,5,52293,not in scope,FALSE
+"Activities of other transport agencies, n.e.c.",5,52299,not in scope,FALSE
+Postal activities,5,53100,not in scope,FALSE
+Private postal service,5,53201,not in scope,FALSE
+Messenger service,5,53202,not in scope,FALSE
+Hotels and motels,5,55101,not in scope,FALSE
+Resort hotels,5,55102,not in scope,FALSE
+Condotels,5,55103,not in scope,FALSE
+Pension houses,5,55104,not in scope,FALSE
+Camping sites/facilities,5,55105,not in scope,FALSE
+"Other short term accommodation activities, n.e.c",5,55109,not in scope,FALSE
+Dormitories/boarding houses,5,55901,not in scope,FALSE
+"Other accommodation, n.e.c.",5,55909,not in scope,FALSE
+Restaurants,5,56101,not in scope,FALSE
+Fast-food chains,5,56102,not in scope,FALSE
+Cafeterias,5,56103,not in scope,FALSE
+"Refreshment stands, kiosks and counters",5,56104,not in scope,FALSE
+Dining cars (carried on separate units),5,56105,not in scope,FALSE
+"Other restaurants and mobile food service activities, n.e.c.",5,56109,not in scope,FALSE
+Event catering,5,56210,not in scope,FALSE
+Other food service activities,5,56290,not in scope,FALSE
+Night clubs,5,56301,not in scope,FALSE
+Bars and cocktail lounges,5,56302,not in scope,FALSE
+Café or coffee shops,5,56303,not in scope,FALSE
+"Other beverage serving activities, n.e.c.",5,56309,not in scope,FALSE
+Book Publishing,5,58110,not in scope,FALSE
+Publishing of directories and mailing lists,5,58120,not in scope,FALSE
+"Publishing of newspapers, journals and periodicals",5,58130,not in scope,FALSE
+Other publishing activities,5,58190,not in scope,FALSE
+Software publishing,5,58200,not in scope,FALSE
+"Motion picture, video and television programme activities",5,59110,not in scope,FALSE
+"Motion picture, video and television programme post-production activities",5,59120,not in scope,FALSE
+"Motion picture, video and television programme distribution activities",5,59130,not in scope,FALSE
+Motion picture projection activities,5,59140,not in scope,FALSE
+Sound recording activities,5,59201,not in scope,FALSE
+Publishing of music,5,59202,not in scope,FALSE
+Radio broadcasting and relay station and studios,5,60101,not in scope,FALSE
+Radio program production,5,60102,not in scope,FALSE
+Radio broadcasting activities over the Internet (Internet radio stations),5,60103,not in scope,FALSE
+Television broadcasting and relay stations and studios including closed circuit television services,5,60201,not in scope,FALSE
+Television program production,5,60202,not in scope,FALSE
+Television broadcasting activities over the Internet (Internet television stations),5,60203,not in scope,FALSE
+Wired (landline) services,5,61101,not in scope,FALSE
+"Wired internet access service activities (e.g. DSL, leased line, dial-up)",5,61102,not in scope,FALSE
+"Telegraph, facsimile/telefax, and telex services",5,61103,not in scope,FALSE
+"Other wired telecommunications activities, including pay telephone",5,61109,not in scope,FALSE
+Wireless landline services,5,61201,not in scope,FALSE
+Mobile telecommunications services,5,61202,not in scope,FALSE
+"Wireless internet access services (e.g. Internet Service Provider, broadband)",5,61203,not in scope,FALSE
+"Other wireless telecommunication services, n.e.c.",5,61209,not in scope,FALSE
+Satellite telecommunications activities,5,61300,not in scope,FALSE
+Telephone access in facilities open to the public service activities,5,61901,not in scope,FALSE
+Internet access in facilities open to the public service activities,5,61902,not in scope,FALSE
+Voice Over Internet Protocol (VOIP)service activities,5,61903,not in scope,FALSE
+"Other telecommunications service activities, n.e.c.",5,61909,not in scope,FALSE
+Computer programming activities,5,62010,not in scope,FALSE
+Computer consultancy and computer facilities management activities,5,62020,not in scope,FALSE
+Other information technology and computer service activities,5,62090,not in scope,FALSE
+Data processing,5,63111,not in scope,FALSE
+Website hosting services,5,63112,not in scope,FALSE
+Application hosting services,5,63113,not in scope,FALSE
+Web portals,5,63120,not in scope,FALSE
+News agency activities,5,63910,not in scope,FALSE
+"Other information service activities, n.e.c.",5,63990,not in scope,FALSE
+Central banking,5,64110,not in scope,FALSE
+Expanded commercial banking (universal banking),5,64191,not in scope,FALSE
+Regular commercial banking,5,64192,not in scope,FALSE
+Savings and mortgage banking,5,64193,not in scope,FALSE
+Private development banking,5,64194,not in scope,FALSE
+Stock savings and loan activities,5,64195,not in scope,FALSE
+Regular rural banking,5,64196,not in scope,FALSE
+Cooperative rural banking,5,64197,not in scope,FALSE
+Specialized government banking,5,64198,not in scope,FALSE
+"Banking activities, n.e.c.",5,64199,not in scope,FALSE
+Activities of holding companies,5,64200,not in scope,FALSE
+Investment company operation,5,64301,not in scope,FALSE
+Investment house operation,5,64302,not in scope,FALSE
+"Securities dealership, own account",5,64303,not in scope,FALSE
+Trust and investment management corporation operation,5,64304,not in scope,FALSE
+Financial leasing,5,64910,not in scope,FALSE
+Credit card activities,5,64921,not in scope,FALSE
+Lending investor activities,5,64922,not in scope,FALSE
+Financing company operations,5,64923,not in scope,FALSE
+Venture capital corporation operation,5,64924,not in scope,FALSE
+"Other credit granting, n.e.c",5,64929,not in scope,FALSE
+Pawnshop operations,5,64930,not in scope,FALSE
+Mutual building and loan association operation,5,64991,not in scope,FALSE
+Non-stock savings and loan association operation,5,64992,not in scope,FALSE
+Credit cooperative activities,5,64993,not in scope,FALSE
+Mutual benefit association operation,5,64994,not in scope,FALSE
+"Non-bank thrift institution operations, n.e.c.",5,64999,not in scope,FALSE
+Life insurance,5,65110,not in scope,FALSE
+Non-life insurance,5,65120,not in scope,FALSE
+Reinsurance,5,65200,not in scope,FALSE
+Pension funding,5,65300,not in scope,FALSE
+Administration of financial markets,5,66110,not in scope,FALSE
+Security and commodity contracts brokerage,5,66120,not in scope,FALSE
+Foreign exchange dealing,5,66130,not in scope,FALSE
+Other activities auxiliary to financial service activities,5,66190,not in scope,FALSE
+Risk and damage evaluation,5,66210,not in scope,FALSE
+Activities of insurance agents and brokers,5,66220,not in scope,FALSE
+Pre-need plan for health,5,66231,not in scope,FALSE
+Pre-need plan for education,5,66232,not in scope,FALSE
+Pre-need plan for memorial and interment,5,66233,not in scope,FALSE
+Pre-need plan for pension,5,66234,not in scope,FALSE
+"Pre-need plan activities, n.e.c.",5,66239,not in scope,FALSE
+Other activities auxilary to insurance and pension funding,5,66290,not in scope,FALSE
+Fund management activities,5,66300,not in scope,FALSE
+"Real estate buying, selling, renting, leasing and operating of self-owned/leased apartment buildings, non-residential and dwellings",5,68110,not in scope,FALSE
+"Real estate buying, developing, subdividing and selling",5,68120,not in scope,FALSE
+"Cemetery and columbarium development, selling, renting, leasing and operating of self-owned cemetery/columbarium (including burial crypt)",5,68130,not in scope,FALSE
+Renting or leasing services of residential properties,5,68140,not in scope,FALSE
+Other real estate activities with own or leased property,5,68190,not in scope,FALSE
+Real estate activities on a fee or contract basis,5,68200,not in scope,FALSE
+Legal activities,5,69100,not in scope,FALSE
+"Accounting, bookkeeping and auditing activities; tax consultancy",5,69200,not in scope,FALSE
+Activities of head offices,5,70100,not in scope,FALSE
+Management consultancy activities,5,70200,not in scope,FALSE
+Environmental engineering activities,5,71101,not in scope,FALSE
+Architectural and other engineering activities,5,71102,not in scope,FALSE
+Land surveying services,5,71103,not in scope,FALSE
+Other technical activities related to architectural and engineering,5,71109,not in scope,FALSE
+Technical testing and analysis,5,71200,not in scope,FALSE
+Research and experimental development in natural sciences,5,72101,not in scope,FALSE
+Research and experimental development in engineering and technology,5,72102,not in scope,FALSE
+Research and experimental development in health sciences,5,72103,not in scope,FALSE
+Research and experimental development in agricutural sciences,5,72104,not in scope,FALSE
+Research and experimental development on social sciences and humanities,5,72200,not in scope,FALSE
+Research and experimental development in information  technology,5,72300,not in scope,FALSE
+"Advertising agency, except billboard and outdoor advertising",5,73101,not in scope,FALSE
+Billboard and outdoor adverstising services,5,73102,not in scope,FALSE
+Media representation,5,73103,not in scope,FALSE
+Commercial art services,5,73104,not in scope,FALSE
+"Advertising services, n.e.c.",5,73109,not in scope,FALSE
+Market research and public opinion polling,5,73200,not in scope,FALSE
+Fashion design,5,74101,not in scope,FALSE
+Interior decoration services other than those in class 4330,5,74102,not in scope,FALSE
+Digital photograph processing,5,74201,not in scope,FALSE
+Commercial and consumer photograph production (except aerial photography),5,74202,not in scope,FALSE
+Photograph and motion pictures processing (not related to motion pictures and TV industries),5,74203,not in scope,FALSE
+Film developing and printing and photograph enlarging,5,74204,not in scope,FALSE
+Aerial photography,5,74205,not in scope,FALSE
+Microfilming activities,5,74206,not in scope,FALSE
+Underwater photography,5,74207,not in scope,FALSE
+"Photographic activities, n.e.c.",5,74209,not in scope,FALSE
+Business brokerage activities,5,74901,not in scope,FALSE
+Weather forecasting and meteorological services,5,74902,not in scope,FALSE
+Translation and interpretation services,5,74903,not in scope,FALSE
+Environmental consulting services,5,74904,not in scope,FALSE
+"Other professional, scientific and technical activities, n.e.c.",5,74909,not in scope,FALSE
+Veterinary activities,5,75000,not in scope,FALSE
+Renting and leasing of motor vehicles,5,77100,not in scope,FALSE
+Renting and leasing of recreational and sports goods,5,77210,not in scope,FALSE
+Renting of video tapes and disks,5,77220,not in scope,FALSE
+Renting of wearing apparel,5,77291,not in scope,FALSE
+Renting of furniture,5,77292,not in scope,FALSE
+"Renting of books, journals and magazines",5,77293,not in scope,FALSE
+Renting of ornamental plants,5,77294,not in scope,FALSE
+Renting of electrical appliances,5,77295,not in scope,FALSE
+"Renting of audio-video machines, tapes and records",5,77296,not in scope,FALSE
+"Renting of personal and household goods, n.e.c.",5,77299,not in scope,FALSE
+Renting of land transport equipment,5,77301,not in scope,FALSE
+Renting of water transport equipment,5,77302,Shipping,TRUE
+Renting of air transport equipment,5,77303,not in scope,FALSE
+Renting of agricultural machinery and equipment,5,77304,not in scope,FALSE
+Renting of construction and civil engineering machinery and equipment,5,77305,not in scope,FALSE
+Renting of computers and computer peripherals equipment,5,77306,not in scope,FALSE
+Renting of office machinery and equipment (excluding computers),5,77307,not in scope,FALSE
+"Renting and leasing of other machinery, equipment and tangible goods, n.e.c.",5,77309,not in scope,FALSE
+"Leasing of intellectual property and similar products, except copyrighted works",5,77400,not in scope,FALSE
+"Labor recruitment and provision of personnel, local",5,78101,not in scope,FALSE
+"Labor recruitment and provision of personnel, overseas",5,78102,not in scope,FALSE
+On-line employment placement agencies,5,78103,not in scope,FALSE
+Casting agencies activities,5,78104,not in scope,FALSE
+Theatrical booking agency activities,5,78105,not in scope,FALSE
+"Other activities of employment placement agencies, n.e.c.",5,78109,not in scope,FALSE
+"Temporary labor recruitment and provision of personnel, local",5,78201,not in scope,FALSE
+"Temporary labor recruitment and provision of personnel, overseas",5,78202,not in scope,FALSE
+Other human resources provision,5,78300,not in scope,FALSE
+Travel agency activities,5,79110,not in scope,FALSE
+Tour operator activities,5,79120,not in scope,FALSE
+Activities of booking offices,5,79901,not in scope,FALSE
+Accommodation reservation activities,5,79902,not in scope,FALSE
+Transportation reservation activities,5,79903,not in scope,FALSE
+Package tour reservation activities,5,79904,not in scope,FALSE
+Tourist assistance activities (e.g. tourist guides),5,79905,not in scope,FALSE
+"Event tickets, entertainment and recreational reservation activities",5,79906,not in scope,FALSE
+Visitor information activities,5,79907,not in scope,FALSE
+"Other reservation service and related activities, n.e.c.",5,79909,not in scope,FALSE
+Private security activites,5,80100,not in scope,FALSE
+Security systems service activities,5,80200,not in scope,FALSE
+Investigation activities,5,80300,not in scope,FALSE
+Combined facilities support activities,5,81100,not in scope,FALSE
+General cleaning of buildings,5,81210,not in scope,FALSE
+Industrial cleaning activities,5,81291,not in scope,FALSE
+"Pest control services, non-agricultural",5,81292,not in scope,FALSE
+"Other building and industrial cleaning activities, n.e.c.",5,81299,not in scope,FALSE
+Landscape care and maintenance service activities,5,81300,not in scope,FALSE
+Combined office administrative service activities,5,82110,not in scope,FALSE
+Photocopying service acitivities,5,82191,not in scope,FALSE
+Duplicating and mailing activities,5,82192,not in scope,FALSE
+Other specialized office support activities,5,82199,not in scope,FALSE
+Customer relationship management activities,5,82211,not in scope,FALSE
+Sales and marketing (including telemarketing) activities,5,82212,not in scope,FALSE
+"Other call centers activities (voice), n.e.c.",5,82219,not in scope,FALSE
+Finance and accounting activities,5,82221,not in scope,FALSE
+Human resources and training activities,5,82222,not in scope,FALSE
+Administrative support activities,5,82223,not in scope,FALSE
+Document processes activities,5,82224,not in scope,FALSE
+Payroll maintenance and other transaction processing activities,5,82225,not in scope,FALSE
+Medical transcription activities,5,82226,not in scope,FALSE
+Legal services activities,5,82227,not in scope,FALSE
+Supply chain management activities,5,82228,not in scope,FALSE
+"Other back office operations activities, n.e.c",5,82229,not in scope,FALSE
+Engineering outsourcing activities,5,82291,not in scope,FALSE
+Product development activities,5,82292,not in scope,FALSE
+Publishing outsourcing activities,5,82293,not in scope,FALSE
+Research and analysis activities,5,82294,not in scope,FALSE
+Intellectual property research and documentation activities,5,82295,not in scope,FALSE
+Security outsourcing activities,5,82296,not in scope,FALSE
+"Other non-voice related activities, n.e.c.",5,82229,not in scope,FALSE
+Organization of conventions and trade shows,5,82300,not in scope,FALSE
+Activities of collection agencies and credit bureaus,5,82910,not in scope,FALSE
+Packaging activities,5,82920,not in scope,FALSE
+"Other business support service activities, n.e.c.",5,82990,not in scope,FALSE
+National executive and legislative administration,5,84111,not in scope,FALSE
+"Public administration, regional government",5,84112,not in scope,FALSE
+"Public administration, local government",5,84113,not in scope,FALSE
+Public administration and supervision of financial and fiscal affairs; operation of taxation schemes,5,84114,not in scope,FALSE
+Ancillary service activities for the Government as a whole,5,84115,not in scope,FALSE
+"General public administration activities, n.e.c.",5,84119,not in scope,FALSE
+"Regulation of the activities of providing health care, education, cultural services and other social services, excluding social security",5,84120,not in scope,FALSE
+Regulation of and contribution to more efficient operation of businesses,5,84130,not in scope,FALSE
+Foreign affairs,5,84210,not in scope,FALSE
+Defense activities,5,84220,not in scope,FALSE
+Public order and safety activities,5,84230,not in scope,FALSE
+Compulsory social security activities,5,84300,not in scope,FALSE
+Public pre-primary/pre-school education,5,85111,not in scope,FALSE
+Private pre-primary/pre-school education,5,85112,not in scope,FALSE
+Public pre-primary  education for children with special needs,5,85121,not in scope,FALSE
+Private pre-primary and primary education for children with special needs,5,85122,not in scope,FALSE
+Public primary/elementary  education,5,85211,not in scope,FALSE
+Private primary/elementary  education,5,85212,not in scope,FALSE
+Public primary/elementary education for children with special needs,5,85221,not in scope,FALSE
+Private primary/elementary education for children with special needs,5,85222,not in scope,FALSE
+Public general secondary education,5,85311,not in scope,FALSE
+Private general secondary education,5,85312,not in scope,FALSE
+Public general secondary education for children with special needs,5,85321,not in scope,FALSE
+Private general secondary education for children with special needs,5,85322,not in scope,FALSE
+Public techical and vocational secondary education,5,85331,not in scope,FALSE
+Private technical and vocational secondary education,5,85332,not in scope,FALSE
+Public technical and vocational secondary education for children with special needs,5,85341,not in scope,FALSE
+Private technical and vocational secondary education for children with special needs,5,85342,not in scope,FALSE
+Public higher education,5,85401,not in scope,FALSE
+Private higher education,5,85402,not in scope,FALSE
+Sports and recreation education,5,85510,not in scope,FALSE
+Cultural education,5,85520,not in scope,FALSE
+Other education n.e.c.,5,85590,not in scope,FALSE
+Educational support services,5,85600,not in scope,FALSE
+Public general hospitals activities,5,86111,not in scope,FALSE
+Public sanitaria and other similar activities,5,86112,not in scope,FALSE
+Public mental health and substance abuse hospitals activities,5,86113,not in scope,FALSE
+"Other public hospitals, sanitaria and other similar activities, n.e.c.",5,86119,not in scope,FALSE
+Private general hospitals activities,5,86121,not in scope,FALSE
+Private sanitaria and other similar activities,5,86122,not in scope,FALSE
+Private mental health and substance abuse hospitals,5,86123,not in scope,FALSE
+"Other private hospitals, sanitaria and other similar activities, n.e.c.",5,86129,not in scope,FALSE
+Public medical activities (including puericulture and laboratory services),5,86211,not in scope,FALSE
+Public dental and laboratory services,5,86212,not in scope,FALSE
+"Public medical, dental and other health activities, n.e.c.",5,86219,not in scope,FALSE
+Private medical activities,5,86221,not in scope,FALSE
+Private dental and laboratory services,5,86222,not in scope,FALSE
+Child care clinics,5,86223,not in scope,FALSE
+"Private medical, dental and other health activities, n.e.c.",5,86229,not in scope,FALSE
+Other human health activities,5,86900,not in scope,FALSE
+Residential nursing care facilities,5,87100,not in scope,FALSE
+Rehabilitation of people addicted to drugs or alcohol,5,87201,not in scope,FALSE
+Caring for the mentally and physically handicapped,5,87202,not in scope,FALSE
+Residential care activities for the elderly and disabled,5,87300,not in scope,FALSE
+Child care services,5,87901,not in scope,FALSE
+Caring for unwed mothers and children,5,87902,not in scope,FALSE
+Caring for the aged and orphans,5,87903,not in scope,FALSE
+"Other residential care activities, n.e.c.",5,87909,not in scope,FALSE
+Welfare and guidance counseling activities (elderly and disabled),5,88101,not in scope,FALSE
+Day-care activities for the elderly or for handicapped adults,5,88102,not in scope,FALSE
+Vocational rehabilitation and habilitation activities for disabled adults,5,88103,not in scope,FALSE
+Welfare and guidance counseling activities for children and adolescents,5,88901,not in scope,FALSE
+Child-care activities (including for the handicapped),5,88902,not in scope,FALSE
+Vocational rehabilitation and habilitation activities for unemployed persons,5,88903,not in scope,FALSE
+Charitable activities,5,88904,not in scope,FALSE
+"Other social work activities without accommodation, n.e.c.",5,88909,not in scope,FALSE
+Concerts and opera or dance production,5,90001,not in scope,FALSE
+Live theatrical presentations and other stage productions,5,90002,not in scope,FALSE
+Individual artists activities,5,90003,not in scope,FALSE
+Ancillary theatrical activities,5,90004,not in scope,FALSE
+Art galleries,5,90005,not in scope,FALSE
+Operation of concert and theatre halls and other arts facilities,5,90006,not in scope,FALSE
+"Other creative, arts and entertainment activities, n.e.c.",5,90009,not in scope,FALSE
+Library and archives activities,5,91010,not in scope,FALSE
+Museums activities and operation of historical sites and buildings,5,91020,not in scope,FALSE
+Botanical and zoological gardens and nature reserves activities,5,91030,not in scope,FALSE
+Gambling and betting activities,5,92000,not in scope,FALSE
+Operation of sports facilities,5,93110,not in scope,FALSE
+Activities of sports clubs,5,93120,not in scope,FALSE
+Other sports activities,5,93190,not in scope,FALSE
+Activities of amusement parks and theme parks,5,93210,not in scope,FALSE
+"Operation of ballrooms, discotheques (disco's)",5,93291,not in scope,FALSE
+"Operation of recreation parks, beaches, including renting of facilities such as bathhouses, lockers, chairs etc.;",5,93292,not in scope,FALSE
+"Other amusement and recreation activities, n.e.c.",5,93299,not in scope,FALSE
+Activities of business and employers membership organizations,5,94110,not in scope,FALSE
+Activities of professional membership organizations,5,94120,not in scope,FALSE
+Activities of trade unions,5,94200,not in scope,FALSE
+Activities of religious organizations,5,94910,not in scope,FALSE
+Activities of political organizations,5,94920,not in scope,FALSE
+"Activities of other membership organizations, n.e.c.",5,94990,not in scope,FALSE
+Repair of computers and peripheral equipment,5,95110,not in scope,FALSE
+Repair of communications equipment,5,95120,not in scope,FALSE
+Repair of consumer electronics,5,95210,not in scope,FALSE
+Repair and servicing of household appliances,5,95221,not in scope,FALSE
+Repair and servicing of home and garden equipment,5,95222,not in scope,FALSE
+Repair of boots and shoes,5,95231,not in scope,FALSE
+Repair of luggage and handbags,5,95232,not in scope,FALSE
+Repair of wood furniture,5,95241,not in scope,FALSE
+"Repair of rattan furniture (reed, wicker and cane)",5,95242,not in scope,FALSE
+Repair of furniture and fixtures of metal,5,95243,not in scope,FALSE
+"Repair of other furniture and fixtures, n.e.c.",5,95249,not in scope,FALSE
+"Repair of personal and household goods, n.e.c.",5,95290,not in scope,FALSE
+Spa activities,5,96101,not in scope,FALSE
+Steam and bath activities,5,96102,not in scope,FALSE
+Slendering and body building activities,5,96103,not in scope,FALSE
+Beauty treatment and personal grooming activities,5,96104,not in scope,FALSE
+Beauty parlor activities,5,96105,not in scope,FALSE
+Barber shop activities,5,96106,not in scope,FALSE
+"Other personal services for wellness activities, n.e.c.",5,96109,not in scope,FALSE
+Washing and dry cleaning of textile and fur products,5,96210,not in scope,FALSE
+Funeral and related activities,5,96300,not in scope,FALSE
+Domestic services,5,96400,not in scope,FALSE
+Social escort service activities (excluding tourist guides),5,96901,not in scope,FALSE
+Pet boarding activities,5,96902,not in scope,FALSE
+Astrological and spiritualists' activities,5,96903,not in scope,FALSE
+"Shoe shiners, porters, valet car parkers activities",5,96904,not in scope,FALSE
+Coin-operated machines activities,5,96905,not in scope,FALSE
+"Miscellaneous service activities, n.e.c.",5,96409,not in scope,FALSE
+Activities of households as employers of domestic personnel,5,97000,not in scope,FALSE
+Undifferentiated goods-producing activities of private households for own use,5,98100,not in scope,FALSE
+Undifferentiated services-producing activities of private households for own use,5,98200,not in scope,FALSE
+Foreign diplomatic missions,5,99011,not in scope,FALSE
+International organizations,5,99012,not in scope,FALSE
+"International organizations and extra-territorial organizations and bodies, n.e.c.",5,99019,not in scope,FALSE
+Activities of other international organizations,5,99090,not in scope,FALSE
