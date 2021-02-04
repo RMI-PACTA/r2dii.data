@@ -1,3 +1,42 @@
+#' Use a new sector classification in r2dii.data
+#'
+#' These functions help you add a new sector classification bridge.
+#'
+#' @param dataset String. Name of the new classification dataset you want to
+#'   add, with the format `[prefix]_classification`, e.g. `psic_classification`.
+#' @param data A data frame.
+#' @param contributor String. Name of a contributor to thank in NEWS.md, e.g.
+#'   "\@daisy-pacheco".
+#' @param issue String. Number of related issue or PR, e.g. #199.
+#' @param overwrite Logical. Allow overwriting data?
+#'
+#' @return Most functions are interactive, and called for their side effects.
+#' The return value is usually `invisible(dataset)`.
+#'
+#' @examples
+#' # This is an internal function aimed at developers
+#' load_all()
+#'
+#' # The source code does not ship with the package to avoid dependencies
+#' source_use_bridge()
+#'
+#' # This is usually a contributed spreadsheet
+#' data <- r2dii.data::psic_classification
+#'
+#' # The dataset name must have the format [prefix]_classificaton
+#' dataset <- name_dataset("fake")
+#' dataset
+#'
+#' contributor <- "@somebody"
+#' issue <- "#123"
+#'
+#' use_bridge(dataset, data, contributor, issue, overwrite = TRUE)
+#' @noRd
+source_use_bridge <- function() {
+  path <- file.path("data-raw", "use_bridge.R")
+  source(path)
+}
+
 #' Source all .R files under data-raw/
 #'
 #' Usually we work on one dataset only, and don't know if our change impacted
