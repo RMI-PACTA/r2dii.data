@@ -94,6 +94,7 @@ jobs:
           install.packages('readr')
           install.packages('dplyr')
           install.packages('usethis')
+          install.packages('here')
         shell: Rscript {0}
       - name: Update data-raw step 3 - Source R files in data-raw
         run: |
