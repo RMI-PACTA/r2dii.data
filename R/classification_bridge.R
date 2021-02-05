@@ -109,4 +109,4 @@
 #'
 #' @examples
 #' head(psic_classification)
-'psic_classification'
+"psic_classification"

@@ -95,7 +95,7 @@ exclude_values <- function(data, values, .region) {
 # actual isos from a real ALD file, and buffer the potentially missing isos.
 ald_isos <- read_regions(
   file.path("data-raw", paste0("ald_all_isos", ".csv"))
-  )
+)
 
 ald_isos_weo_2019 <- mutate(ald_isos, source = "weo_2019")
 
