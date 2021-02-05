@@ -95,11 +95,14 @@ jobs:
           install.packages('dplyr')
           install.packages('usethis')
           install.packages('here')
+          install.packages('remotes')
+          remotes::install_github('2DegreesInvesting/r2dii.usethis')
+
         shell: Rscript {0}
       - name: Update data-raw step 3 - Source R files in data-raw
         run: |
           source(file.path('R', 'utils.R'))
-          source_data_raw()
+          r2dii.usethis::source_data_raw()
         shell: Rscript {0}
 
       - name: Check
