@@ -1,5 +1,7 @@
 # r2dii.data (development version)
 
+* Add heavy-duty vehicles to `green_or_brown`, `loanbook_demo` and `ald_demo`
+(@vintented #131).
 * New dataset `psic_classification` (@daisy-pacheco #199).
 
 # r2dii.data 0.1.6
