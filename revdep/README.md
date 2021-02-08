@@ -20,10 +20,9 @@
 
 # Revdeps
 
-## Failed to check (2)
+## Failed to check (1)
 
 |package        |version |error |warning |note |
 |:--------------|:-------|:-----|:-------|:----|
 |r2dii.analysis |?       |      |        |     |
-|r2dii.match    |?       |      |        |     |
 
