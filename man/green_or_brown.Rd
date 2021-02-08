@@ -5,7 +5,7 @@
 \alias{green_or_brown}
 \title{Determine if a technology is green or brown}
 \format{
-An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 16 rows and 3 columns.
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 20 rows and 3 columns.
 }
 \usage{
 green_or_brown

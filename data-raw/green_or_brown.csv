@@ -3,6 +3,10 @@ automotive,electric,green
 automotive,hybrid,green
 automotive,ice,brown
 automotive,fuelcell,green
+automotive,electric_hdv,green
+automotive,hybrid_hdv,green
+automotive,ice_hdv,brown
+automotive,fuelcell_hdv,green
 power,hydrocap,green
 power,renewablescap,green
 power,coalcap,brown
