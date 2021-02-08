@@ -1,4 +1,4 @@
-# r2dii.data (development version)
+# r2dii.data 0.1.7
 
 * Add heavy-duty vehicles to `green_or_brown`, `loanbook_demo`, and `ald_demo`
 (@vintented #131).
