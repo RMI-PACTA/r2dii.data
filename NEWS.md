@@ -1,5 +1,8 @@
 # r2dii.data (development version)
 
+* In `nace_classification`, where codes belong to automotive sales all values of
+`borderline` are now `TRUE` (Jakub Lewandowski #213).
+
 # r2dii.data 0.1.7
 
 * Add heavy-duty vehicles to `green_or_brown`, `loanbook_demo`, and `ald_demo`
