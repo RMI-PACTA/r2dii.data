@@ -1,7 +1,7 @@
 # r2dii.data (development version)
 
-* NACE codes for automotive sales now have `borderline` correctly set to `TRUE` 
-  (@KapitanKombajn #213).
+* `nace_classification` codes for automotive sales now have `borderline` values 
+  of `TRUE` (@KapitanKombajn #213).
 
 # r2dii.data 0.1.7
 
