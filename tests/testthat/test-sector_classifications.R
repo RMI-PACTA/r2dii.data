@@ -8,7 +8,6 @@ test_that("has an entry in data_dictionary", {
 })
 
 test_that("nace automotive sales are borderline", {
-
   automotive_sales <- c(
     451,
     4511,
@@ -20,5 +19,4 @@ test_that("nace automotive sales are borderline", {
   automotive_sales <- nace_sc[nace_sc$code %in% automotive_sales, ]
 
   expect_true(all(automotive_sales$borderline))
-
 })
