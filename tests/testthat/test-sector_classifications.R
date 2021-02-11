@@ -8,15 +8,13 @@ test_that("has an entry in data_dictionary", {
 })
 
 test_that("nace automotive sales are borderline", {
-  automotive_sales <- c(
-    451,
-    4511,
-    4519
+  automotive <- c(451, 4511, 4519)
+  borderline <- subset(
+    sector_classifications,
+    subset = code_system == "NACE" & code %in% automotive,
+    select = "borderline",
+    drop = TRUE
   )
 
-  nace_sc <- sector_classifications[sector_classifications$code_system == "NACE", ]
-
-  automotive_sales <- nace_sc[nace_sc$code %in% automotive_sales, ]
-
-  expect_true(all(automotive_sales$borderline))
+  expect_true(all(borderline))
 })
