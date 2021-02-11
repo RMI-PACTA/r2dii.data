@@ -506,9 +506,9 @@ F,F,1,not in scope,FALSE
 43.99,4399,4,not in scope,FALSE
 G,G,1,not in scope,FALSE
 45,45,2,not in scope,FALSE
-45.1,451,3,automotive,FALSE
-45.11,4511,4,automotive,FALSE
-45.19,4519,4,automotive,FALSE
+45.1,451,3,automotive,TRUE
+45.11,4511,4,automotive,TRUE
+45.19,4519,4,automotive,TRUE
 45.2,452,3,not in scope,FALSE
 45.2,4520,4,not in scope,FALSE
 45.3,453,3,not in scope,FALSE
