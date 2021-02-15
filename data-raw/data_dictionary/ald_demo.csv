@@ -1,4 +1,5 @@
 dataset,column,typeof,definition
+ald_demo,id_company,character,The id of the company owning the asset
 ald_demo,name_company,character,The name of the company owning the asset
 ald_demo,sector,character,Sector to which the asset belongs
 ald_demo,technology,character,Technology implemented by the asset
