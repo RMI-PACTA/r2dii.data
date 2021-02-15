@@ -18,6 +18,7 @@ ald_demo <- ald_demo %>%
   mutate(
     id_company = cur_group_id(),
   .before = 1
-    )
+    ) %>%
+  ungroup()
 
 usethis::use_data(ald_demo, overwrite = TRUE)
