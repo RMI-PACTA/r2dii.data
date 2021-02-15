@@ -1,8 +1,7 @@
 test_that("hasn't changed", {
-  # FIXME: Fails on windows
-  # expect_snapshot_value(ceiling_dbl(ald_demo), style = "json2")
-  local_edition(2)
-  expect_known_value(ceiling_dbl(ald_demo), "ref-ald_demo")
+  on_windows <- identical(.Platform$OS.type, "windows")
+  skip_if(on_windows)
+  expect_snapshot_value(ceiling_dbl(ald_demo), style = "json2")
 })
 
 test_that("ald_demo has column `id_company`", {
