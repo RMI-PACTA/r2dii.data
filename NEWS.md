@@ -1,4 +1,5 @@
 # r2dii.data (development version)
+
 * `ald_demo` gains column `id_company` (@vintented #197).
 
 * `nace_classification` codes for automotive sales now have `borderline` values 
