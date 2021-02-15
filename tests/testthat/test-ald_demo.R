@@ -3,7 +3,5 @@ test_that("hasn't changed", {
 })
 
 test_that("ald_demo has column `id_company`", {
-  ald_demo_columns <- names(ald_demo)
-
-  expect_true("id_company" %in% ald_demo_columns)
+  expect_true(hasName(ald_demo, "id_company"))
 })
