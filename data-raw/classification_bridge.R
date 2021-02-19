@@ -32,3 +32,8 @@ cnb_classification <- read_csv_(
   file.path("data-raw", "cnb_classification.csv")
 )
 usethis::use_data(cnb_classification, overwrite = TRUE)
+
+psic_classification <- read_csv_(
+  file.path("data-raw", "psic_classification.csv")
+)
+usethis::use_data(psic_classification, overwrite = TRUE)
