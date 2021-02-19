@@ -1,190 +1,190 @@
 original_code,code_level,code,sector,borderline
-"Growing of leguminous crops such as: mongo, string beans (sitao), pigeon peas, gisantes, garbanzos, bountiful beans (habichuelas), peas (sitsaro)",5,01111,not in scope,FALSE
-Growing of ground nuts,5,01112,not in scope,FALSE
-"Growing of oil seeds (except ground nuts) such as soya beans, sunflower and growing of other oil seeds,  n.e.c.",5,01113,not in scope,FALSE
-"Growing of  sorghum, wheat",5,01114,not in scope,FALSE
-"Growing of other cereals (except rice and corn), leguminous crops and oil seeds, n.e.c.",5,01119,not in scope,FALSE
-"Growing of paddy rice, lowland, irrigated",5,01121,not in scope,FALSE
-"Growing of paddy rice, lowland, rainfed",5,01122,not in scope,FALSE
-"Growing of paddy rice, upland/kaingin",5,01123,not in scope,FALSE
-"Growing of corn, expcept young corn (vegetable)",5,01130,not in scope,FALSE
-Growing of sugarcane including muscovado sugar-making in the farm,5,01140,not in scope,FALSE
-Growing of virginia tobacco including flue-curing done in the farm,5,01151,not in scope,FALSE
-Growing of native tobacco including flue-curing done in the farm,5,01152,not in scope,FALSE
-Growing of abaca,5,01161,not in scope,FALSE
-Growing of cotton,5,01162,not in scope,FALSE
-Growing of kapok,5,01163,not in scope,FALSE
-Growing of maguey,5,01164,not in scope,FALSE
-Growing of ramie,5,01165,not in scope,FALSE
-Growing of piña,5,01166,not in scope,FALSE
-Growing of jute,5,01167,not in scope,FALSE
-Growing of kenaf,5,01168,not in scope,FALSE
-"Growing of other fiber crops, n.e.c.",5,01169,not in scope,FALSE
-"Growing of leafy and stem vegetables such as : cabbage, broccoli, cauliflower, lettuce, asparagus, pechay, kangkong and other leafy or stem vegetables",5,01171,not in scope,FALSE
-"Growing of fruit bearing vegetables such as: tomato, eggplant, cucumber, amplaya, squash, gourd and other fruit bearing vegetables, n.e.c.",5,01172,not in scope,FALSE
-"Growing of other leafy and fruit bearing vegetables, n.e.c.",5,01179,not in scope,FALSE
-Growing of onion,5,01181,not in scope,FALSE
-Growing of garlic,5,01182,not in scope,FALSE
-Growing of carrot,5,01183,not in scope,FALSE
-Growing of  potato,5,01184,not in scope,FALSE
-Growing of  cassava,5,01185,not in scope,FALSE
-Growing of sweet potato(camote),5,01186,not in scope,FALSE
-Growing of  melons and watermelons,5,01187,not in scope,FALSE
-Growing of yams (ube),5,01188,not in scope,FALSE
-"Growing of other  roots, bulbs, tuberous crops and vegetables",5,01189,not in scope,FALSE
-Growing of orchids,5,01191,not in scope,FALSE
-"Growing of flowers or flower buds, (except orchids)",5,01192,not in scope,FALSE
-Production or growing of horticultural specialties and nursery products,5,01193,not in scope,FALSE
-"Growing of plant materials used chiefly in medicinal/ pharmaceutical or for insecticidal, fungicidal or similar purposes",5,01194,not in scope,FALSE
-"Growing of crops chiefly for construction purposes (e.g., nipa, bamboo, buri, etc.)",5,01195,not in scope,FALSE
-Growing of forage crops and other grasses,5,01196,not in scope,FALSE
-"Growing of other non-perennial crops, n.e.c.",5,01199,not in scope,FALSE
-"Growing of banana, cavendish",5,01211,not in scope,FALSE
-Growing of other banana,5,01212,not in scope,FALSE
-Growing of pineapple,5,01220,not in scope,FALSE
-Growing of calamansi,5,01231,not in scope,FALSE
-Growing of  dalandan,5,01232,not in scope,FALSE
-Growing of mandarin (dalanghita),5,01233,not in scope,FALSE
-Growing of pomelo (suha),5,01234,not in scope,FALSE
-"Growing of citrus fruits, n.e.c.",5,01235,not in scope,FALSE
-Growing of mango,5,01230,not in scope,FALSE
-Growing of  papaya,5,01250,not in scope,FALSE
-"Growing of coconut, including copra-making, tuba gathering and coco-shell charcoal making in the farm",5,01260,not in scope,FALSE
-Growing of coffee,5,01271,not in scope,FALSE
-Growing of cocoa,5,01272,not in scope,FALSE
-Growing of tea,5,01273,not in scope,FALSE
-Growing of other beverage crops,5,01279,not in scope,FALSE
-"Growing of perrenial spices and aromatic crops such as: ginger, pepper,  chile, achuete, laurel, etc.",5,01281,not in scope,FALSE
-"Growing of plants used primarily  in medical/ pharmaceutical purposes such as : lagundi, banaba, ginseng, oregano, etc.",5,01282,not in scope,FALSE
-"Growing of plants for insecticidal, fungicidal or similar purposes",5,01283,not in scope,FALSE
-Growing of crops used primarily in perfumery or similar purposes,5,01284,not in scope,FALSE
-"Growing of other spices, aromatic, drug and pharmaceutical crops, n.e.c.",5,01289,not in scope,FALSE
-"Growing of  other  tropical fruits, e.g. jackfruit, guavas, avocados, lanzones, durian, rambutan, chico, atis, mangosteen, makopa, etc.",5,01291,not in scope,FALSE
-"Growing of perennial trees with edible  nuts, e.g. pili nuts, cashew nuts, etc",5,01292,not in scope,FALSE
-Growing of  rubber tree,5,01293,not in scope,FALSE
-Growing of jathropa tree,5,01294,not in scope,FALSE
-"Growing of  ornamental or decorative trees such as Christmas or pine trees, fire trees, etc.",5,01295,not in scope,FALSE
-"Growing of other fruits and perennial crops, n.e.c.",5,01299,not in scope,FALSE
-Plant propagation,5,01300,not in scope,FALSE
-Beef cattle farming (including feed lot fattening),5,01411,not in scope,FALSE
-Carabao farming,5,01412,not in scope,FALSE
-Raising of horses and other equines,5,01420,not in scope,FALSE
-Dairy farming,5,01430,not in scope,FALSE
-Sheep farming including sheep shearing by the owner,5,01441,not in scope,FALSE
-Goat farming,5,01442,not in scope,FALSE
-Deer faming,5,01443,not in scope,FALSE
-Hog farming,5,01450,not in scope,FALSE
-"Chicken production, broiler",5,01461,not in scope,FALSE
-"Chicken production, layer",5,01462,not in scope,FALSE
-"Chicken production, native",5,01463,not in scope,FALSE
-Raising of duck broiler,5,01471,not in scope,FALSE
-Raising of quail,5,01472,not in scope,FALSE
-Raising of turkey,5,01473,not in scope,FALSE
-Rasing of pigeon,5,01474,not in scope,FALSE
-Raising of game fowl,5,01475,not in scope,FALSE
-"Raising of poultry (except chicken), n.e.c.",5,01479,not in scope,FALSE
-Chicken egg production,5,01481,not in scope,FALSE
-Duck egg production,5,01482,not in scope,FALSE
-Quail egg production,5,01483,not in scope,FALSE
-"Production of eggs, n.e.c.",5,01489,not in scope,FALSE
-Sericulture (silkworm culture for the production of cocoon),5,01491,not in scope,FALSE
-Apiary (bee culture for the production of honey),5,01492,not in scope,FALSE
-Vermiculture,5,01493,not in scope,FALSE
-Crocodile/alligator farming,5,01494,not in scope,FALSE
-Rabbit farming,5,01495,not in scope,FALSE
-"Raising of semi-domesticated or wild animals including birds, reptiles, insects (e.g. butterfly) and turtles",5,01496,not in scope,FALSE
-Raising and breeding of cats and dogs,5,01497,not in scope,FALSE
-Game propagation and breeding activities,5,01498,not in scope,FALSE
-"Raising of other animals, n.e.c.",5,01499,not in scope,FALSE
-Operation of irrigation systems through cooperatives,5,01511,not in scope,FALSE
-Operation of irrigation systems through non-cooperatives,5,01512,not in scope,FALSE
-"Planting, transplanting and other related activities",5,01520,not in scope,FALSE
-"Plowing, seeding, weeding, thinning, pruning and similar services",5,01531,not in scope,FALSE
-Fertilizer applications,5,01532,not in scope,FALSE
-"Chemical and mechanical weed control, disease and pest control services",5,01533,not in scope,FALSE
-"Services to establish crops, promote their growth and protect them from pests and diseases, n.e.c.",5,01534,not in scope,FALSE
-"Harvesting, threshing, grading, bailing and related services",5,01540,not in scope,FALSE
-Rental of farm machinery with drivers and crew,5,01550,not in scope,FALSE
-Artificial insemination services,5,01561,not in scope,FALSE
-Contract animal growing services on a fee basis,5,01562,not in scope,FALSE
-"Egg-hatching, sex determination and other poultry services",5,01563,not in scope,FALSE
-"Services to promote propagation, growth and output of animals",5,01564,not in scope,FALSE
-Farm management services,5,01565,not in scope,FALSE
-"Other support activities for animal production, n.e.c.",5,01569,not in scope,FALSE
-"Preparation of crops for primary markets, i.e. cleaning, trimming, grading, disinfecting",5,01571,not in scope,FALSE
-Cotton ginning,5,01572,not in scope,FALSE
-Preparation of tobacco leaves,5,01573,not in scope,FALSE
-"Preparation of coffee, cacao and cocoa beans",5,01574,not in scope,FALSE
-Growing of paddy rice for seed purposes,5,01581,not in scope,FALSE
-Growing of seedlings for reforestation,5,01582,not in scope,FALSE
-Hunting and trapping wild animals in the forest,5,01701,not in scope,FALSE
-Production of reptile skins or bird skins and other animal skins from hunting activities,5,01702,not in scope,FALSE
-"Hunting, trapping and other related activities, n.e.c.",5,01709,not in scope,FALSE
-"Growing of timber forest species (e.g. Gemelina, Eucalyptus, etc.), planting, replanting, transplanting, thinning and conserving of forest and timber tracts",5,02110,not in scope,FALSE
-Operation of forest tree nurseries,5,02120,not in scope,FALSE
-Production of roundwood for forest-based manufacturing industries,5,02201,not in scope,FALSE
-"Production of roundwood used in an unprocessed form such as pit-props, fence posts and utility poles",5,02202,not in scope,FALSE
-Firewood cutting & charcoal making in the forest,5,02203,not in scope,FALSE
-Gathering of non-wood forest products,5,02300,not in scope,FALSE
-Support services to forestry,5,02400,not in scope,FALSE
-"Ocean fishing, commercial (using vessels over 3 tons)",5,03111,not in scope,FALSE
-"Coastal fishing, municipal (using vessels of less than 3 tons)",5,03112,not in scope,FALSE
-Fish corral fishing,5,03113,not in scope,FALSE
-"Catching fish, crabs and crustaceans in inland waters",5,03121,not in scope,FALSE
-"Gathering shells and clams, edible, in inland waters",5,03122,not in scope,FALSE
-"Other freshwater fishing activities, n.e.c.",5,03129,not in scope,FALSE
-"Operation of freshwater fishpond, except fish breeding farms and nurseries",5,03211,not in scope,FALSE
-Operation of   freshwater  fish pens and fish cage,5,03212,not in scope,FALSE
-Operation of  freshwater fish breeding farms and nurseries,5,03213,not in scope,FALSE
-Culture of   freshwater ornamental  fish,5,03214,not in scope,FALSE
-Other freshwater  fish farming activities,5,03219,not in scope,FALSE
-"Operation of  marine fish tanks, pens, cage except fish breeding farms and nurseries in sea water",5,03221,not in scope,FALSE
-Operation of  freshwater fish breeding farms and nurseries,5,03222,not in scope,FALSE
-Catching and culturing ornamental (aquarium) fish,5,03223,not in scope,FALSE
-Gathering of   fry,5,03224,not in scope,FALSE
-Other  marine fish farming activities,5,03229,not in scope,FALSE
-Operation of marine sport fishing preserves,5,03230,not in scope,FALSE
-Prawn culture  in  brackish water,5,03240,not in scope,FALSE
-"Culture of freshwater  crustaceans (except prawns), bivalves, and  other mollusks",5,03251,not in scope,FALSE
-"Culture of   oysters, other  bivalves and other mollusks   in sea water",5,03252,not in scope,FALSE
-Pearl culture,5,03261,not in scope,FALSE
-Pearl shell gathering,5,03262,not in scope,FALSE
-Gathering of laver and other edible seaweeds,5,03270,not in scope,FALSE
-Support service activities incidental to aquaculture,5,03280,not in scope,FALSE
-Frog farming,5,03291,not in scope,FALSE
-Operation of marine  worm farms,5,03292,not in scope,FALSE
-"Other aquaculture  activities, n.e.c",5,03299,not in scope,FALSE
-Mining of hard coal,5,05100,Coal,FALSE
-Mining of lignite,5,05200,Coal,FALSE
-Extraction of crude petroleum,5,06100,Oil and Gas,FALSE
-Extraction of natural gas,5,06200,Oil and Gas,FALSE
-Mining of iron ores,5,07100,not in scope,FALSE
-Mining of uranium and thorium ores,5,07210,not in scope,FALSE
-Gold ore mining,5,07221,not in scope,FALSE
-Silver ore mining,5,07222,not in scope,FALSE
-Copper ore mining,5,07291,not in scope,FALSE
-Chromite ore mining,5,07292,not in scope,FALSE
-Manganese ore mining,5,07293,not in scope,FALSE
-Nickel ore mining,5,07294,not in scope,FALSE
-Marble quarrying,5,08101,not in scope,FALSE
-Limestone quarrying,5,08102,not in scope,FALSE
-"Stone quarrying, except limestone and marble",5,08103,not in scope,FALSE
-Clay quarrying,5,08104,not in scope,FALSE
-Sand and gravel quarrying,5,08105,not in scope,FALSE
-Silica sand and silica stone quarrying,5,08106,not in scope,FALSE
-"Stone quarrying, clay and sand pits, n.e.c.",5,08109,not in scope,FALSE
-Baryte mining,5,08911,not in scope,FALSE
-Guano gathering,5,08912,not in scope,FALSE
-Pyrite mining,5,08913,not in scope,FALSE
-Rock phosphate mining,5,08914,not in scope,FALSE
-Sulphur mining,5,08915,not in scope,FALSE
-Other chemical and fertilizer mineral mining,5,08919,not in scope,FALSE
-Extraction of peat,5,08920,Coal,FALSE
-Extraction of salt,5,08930,not in scope,FALSE
-"Other mining and quarrying, n.e.c.",5,08990,not in scope,FALSE
-Oil and gas extraction activities on a fee or contract basis,5,09101,Oil and Gas,FALSE
-Oil and gas extraction activities not performed on a fee or contract basis,5,09102,Oil and Gas,FALSE
-Support activities for other mining and quarrying,5,09900,not in scope,FALSE
+"Growing of leguminous crops such as: mongo, string beans (sitao), pigeon peas, gisantes, garbanzos, bountiful beans (habichuelas), peas (sitsaro)",5,1111,not in scope,FALSE
+Growing of ground nuts,5,1112,not in scope,FALSE
+"Growing of oil seeds (except ground nuts) such as soya beans, sunflower and growing of other oil seeds,  n.e.c.",5,1113,not in scope,FALSE
+"Growing of  sorghum, wheat",5,1114,not in scope,FALSE
+"Growing of other cereals (except rice and corn), leguminous crops and oil seeds, n.e.c.",5,1119,not in scope,FALSE
+"Growing of paddy rice, lowland, irrigated",5,1121,not in scope,FALSE
+"Growing of paddy rice, lowland, rainfed",5,1122,not in scope,FALSE
+"Growing of paddy rice, upland/kaingin",5,1123,not in scope,FALSE
+"Growing of corn, expcept young corn (vegetable)",5,1130,not in scope,FALSE
+Growing of sugarcane including muscovado sugar-making in the farm,5,1140,not in scope,FALSE
+Growing of virginia tobacco including flue-curing done in the farm,5,1151,not in scope,FALSE
+Growing of native tobacco including flue-curing done in the farm,5,1152,not in scope,FALSE
+Growing of abaca,5,1161,not in scope,FALSE
+Growing of cotton,5,1162,not in scope,FALSE
+Growing of kapok,5,1163,not in scope,FALSE
+Growing of maguey,5,1164,not in scope,FALSE
+Growing of ramie,5,1165,not in scope,FALSE
+Growing of piña,5,1166,not in scope,FALSE
+Growing of jute,5,1167,not in scope,FALSE
+Growing of kenaf,5,1168,not in scope,FALSE
+"Growing of other fiber crops, n.e.c.",5,1169,not in scope,FALSE
+"Growing of leafy and stem vegetables such as : cabbage, broccoli, cauliflower, lettuce, asparagus, pechay, kangkong and other leafy or stem vegetables",5,1171,not in scope,FALSE
+"Growing of fruit bearing vegetables such as: tomato, eggplant, cucumber, amplaya, squash, gourd and other fruit bearing vegetables, n.e.c.",5,1172,not in scope,FALSE
+"Growing of other leafy and fruit bearing vegetables, n.e.c.",5,1179,not in scope,FALSE
+Growing of onion,5,1181,not in scope,FALSE
+Growing of garlic,5,1182,not in scope,FALSE
+Growing of carrot,5,1183,not in scope,FALSE
+Growing of  potato,5,1184,not in scope,FALSE
+Growing of  cassava,5,1185,not in scope,FALSE
+Growing of sweet potato(camote),5,1186,not in scope,FALSE
+Growing of  melons and watermelons,5,1187,not in scope,FALSE
+Growing of yams (ube),5,1188,not in scope,FALSE
+"Growing of other  roots, bulbs, tuberous crops and vegetables",5,1189,not in scope,FALSE
+Growing of orchids,5,1191,not in scope,FALSE
+"Growing of flowers or flower buds, (except orchids)",5,1192,not in scope,FALSE
+Production or growing of horticultural specialties and nursery products,5,1193,not in scope,FALSE
+"Growing of plant materials used chiefly in medicinal/ pharmaceutical or for insecticidal, fungicidal or similar purposes",5,1194,not in scope,FALSE
+"Growing of crops chiefly for construction purposes (e.g., nipa, bamboo, buri, etc.)",5,1195,not in scope,FALSE
+Growing of forage crops and other grasses,5,1196,not in scope,FALSE
+"Growing of other non-perennial crops, n.e.c.",5,1199,not in scope,FALSE
+"Growing of banana, cavendish",5,1211,not in scope,FALSE
+Growing of other banana,5,1212,not in scope,FALSE
+Growing of pineapple,5,1220,not in scope,FALSE
+Growing of calamansi,5,1231,not in scope,FALSE
+Growing of  dalandan,5,1232,not in scope,FALSE
+Growing of mandarin (dalanghita),5,1233,not in scope,FALSE
+Growing of pomelo (suha),5,1234,not in scope,FALSE
+"Growing of citrus fruits, n.e.c.",5,1235,not in scope,FALSE
+Growing of mango,5,1230,not in scope,FALSE
+Growing of  papaya,5,1250,not in scope,FALSE
+"Growing of coconut, including copra-making, tuba gathering and coco-shell charcoal making in the farm",5,1260,not in scope,FALSE
+Growing of coffee,5,1271,not in scope,FALSE
+Growing of cocoa,5,1272,not in scope,FALSE
+Growing of tea,5,1273,not in scope,FALSE
+Growing of other beverage crops,5,1279,not in scope,FALSE
+"Growing of perrenial spices and aromatic crops such as: ginger, pepper,  chile, achuete, laurel, etc.",5,1281,not in scope,FALSE
+"Growing of plants used primarily  in medical/ pharmaceutical purposes such as : lagundi, banaba, ginseng, oregano, etc.",5,1282,not in scope,FALSE
+"Growing of plants for insecticidal, fungicidal or similar purposes",5,1283,not in scope,FALSE
+Growing of crops used primarily in perfumery or similar purposes,5,1284,not in scope,FALSE
+"Growing of other spices, aromatic, drug and pharmaceutical crops, n.e.c.",5,1289,not in scope,FALSE
+"Growing of  other  tropical fruits, e.g. jackfruit, guavas, avocados, lanzones, durian, rambutan, chico, atis, mangosteen, makopa, etc.",5,1291,not in scope,FALSE
+"Growing of perennial trees with edible  nuts, e.g. pili nuts, cashew nuts, etc",5,1292,not in scope,FALSE
+Growing of  rubber tree,5,1293,not in scope,FALSE
+Growing of jathropa tree,5,1294,not in scope,FALSE
+"Growing of  ornamental or decorative trees such as Christmas or pine trees, fire trees, etc.",5,1295,not in scope,FALSE
+"Growing of other fruits and perennial crops, n.e.c.",5,1299,not in scope,FALSE
+Plant propagation,5,1300,not in scope,FALSE
+Beef cattle farming (including feed lot fattening),5,1411,not in scope,FALSE
+Carabao farming,5,1412,not in scope,FALSE
+Raising of horses and other equines,5,1420,not in scope,FALSE
+Dairy farming,5,1430,not in scope,FALSE
+Sheep farming including sheep shearing by the owner,5,1441,not in scope,FALSE
+Goat farming,5,1442,not in scope,FALSE
+Deer faming,5,1443,not in scope,FALSE
+Hog farming,5,1450,not in scope,FALSE
+"Chicken production, broiler",5,1461,not in scope,FALSE
+"Chicken production, layer",5,1462,not in scope,FALSE
+"Chicken production, native",5,1463,not in scope,FALSE
+Raising of duck broiler,5,1471,not in scope,FALSE
+Raising of quail,5,1472,not in scope,FALSE
+Raising of turkey,5,1473,not in scope,FALSE
+Rasing of pigeon,5,1474,not in scope,FALSE
+Raising of game fowl,5,1475,not in scope,FALSE
+"Raising of poultry (except chicken), n.e.c.",5,1479,not in scope,FALSE
+Chicken egg production,5,1481,not in scope,FALSE
+Duck egg production,5,1482,not in scope,FALSE
+Quail egg production,5,1483,not in scope,FALSE
+"Production of eggs, n.e.c.",5,1489,not in scope,FALSE
+Sericulture (silkworm culture for the production of cocoon),5,1491,not in scope,FALSE
+Apiary (bee culture for the production of honey),5,1492,not in scope,FALSE
+Vermiculture,5,1493,not in scope,FALSE
+Crocodile/alligator farming,5,1494,not in scope,FALSE
+Rabbit farming,5,1495,not in scope,FALSE
+"Raising of semi-domesticated or wild animals including birds, reptiles, insects (e.g. butterfly) and turtles",5,1496,not in scope,FALSE
+Raising and breeding of cats and dogs,5,1497,not in scope,FALSE
+Game propagation and breeding activities,5,1498,not in scope,FALSE
+"Raising of other animals, n.e.c.",5,1499,not in scope,FALSE
+Operation of irrigation systems through cooperatives,5,1511,not in scope,FALSE
+Operation of irrigation systems through non-cooperatives,5,1512,not in scope,FALSE
+"Planting, transplanting and other related activities",5,1520,not in scope,FALSE
+"Plowing, seeding, weeding, thinning, pruning and similar services",5,1531,not in scope,FALSE
+Fertilizer applications,5,1532,not in scope,FALSE
+"Chemical and mechanical weed control, disease and pest control services",5,1533,not in scope,FALSE
+"Services to establish crops, promote their growth and protect them from pests and diseases, n.e.c.",5,1534,not in scope,FALSE
+"Harvesting, threshing, grading, bailing and related services",5,1540,not in scope,FALSE
+Rental of farm machinery with drivers and crew,5,1550,not in scope,FALSE
+Artificial insemination services,5,1561,not in scope,FALSE
+Contract animal growing services on a fee basis,5,1562,not in scope,FALSE
+"Egg-hatching, sex determination and other poultry services",5,1563,not in scope,FALSE
+"Services to promote propagation, growth and output of animals",5,1564,not in scope,FALSE
+Farm management services,5,1565,not in scope,FALSE
+"Other support activities for animal production, n.e.c.",5,1569,not in scope,FALSE
+"Preparation of crops for primary markets, i.e. cleaning, trimming, grading, disinfecting",5,1571,not in scope,FALSE
+Cotton ginning,5,1572,not in scope,FALSE
+Preparation of tobacco leaves,5,1573,not in scope,FALSE
+"Preparation of coffee, cacao and cocoa beans",5,1574,not in scope,FALSE
+Growing of paddy rice for seed purposes,5,1581,not in scope,FALSE
+Growing of seedlings for reforestation,5,1582,not in scope,FALSE
+Hunting and trapping wild animals in the forest,5,1701,not in scope,FALSE
+Production of reptile skins or bird skins and other animal skins from hunting activities,5,1702,not in scope,FALSE
+"Hunting, trapping and other related activities, n.e.c.",5,1709,not in scope,FALSE
+"Growing of timber forest species (e.g. Gemelina, Eucalyptus, etc.), planting, replanting, transplanting, thinning and conserving of forest and timber tracts",5,2110,not in scope,FALSE
+Operation of forest tree nurseries,5,2120,not in scope,FALSE
+Production of roundwood for forest-based manufacturing industries,5,2201,not in scope,FALSE
+"Production of roundwood used in an unprocessed form such as pit-props, fence posts and utility poles",5,2202,not in scope,FALSE
+Firewood cutting & charcoal making in the forest,5,2203,not in scope,FALSE
+Gathering of non-wood forest products,5,2300,not in scope,FALSE
+Support services to forestry,5,2400,not in scope,FALSE
+"Ocean fishing, commercial (using vessels over 3 tons)",5,3111,not in scope,FALSE
+"Coastal fishing, municipal (using vessels of less than 3 tons)",5,3112,not in scope,FALSE
+Fish corral fishing,5,3113,not in scope,FALSE
+"Catching fish, crabs and crustaceans in inland waters",5,3121,not in scope,FALSE
+"Gathering shells and clams, edible, in inland waters",5,3122,not in scope,FALSE
+"Other freshwater fishing activities, n.e.c.",5,3129,not in scope,FALSE
+"Operation of freshwater fishpond, except fish breeding farms and nurseries",5,3211,not in scope,FALSE
+Operation of   freshwater  fish pens and fish cage,5,3212,not in scope,FALSE
+Operation of  freshwater fish breeding farms and nurseries,5,3213,not in scope,FALSE
+Culture of   freshwater ornamental  fish,5,3214,not in scope,FALSE
+Other freshwater  fish farming activities,5,3219,not in scope,FALSE
+"Operation of  marine fish tanks, pens, cage except fish breeding farms and nurseries in sea water",5,3221,not in scope,FALSE
+Operation of  freshwater fish breeding farms and nurseries,5,3222,not in scope,FALSE
+Catching and culturing ornamental (aquarium) fish,5,3223,not in scope,FALSE
+Gathering of   fry,5,3224,not in scope,FALSE
+Other  marine fish farming activities,5,3229,not in scope,FALSE
+Operation of marine sport fishing preserves,5,3230,not in scope,FALSE
+Prawn culture  in  brackish water,5,3240,not in scope,FALSE
+"Culture of freshwater  crustaceans (except prawns), bivalves, and  other mollusks",5,3251,not in scope,FALSE
+"Culture of   oysters, other  bivalves and other mollusks   in sea water",5,3252,not in scope,FALSE
+Pearl culture,5,3261,not in scope,FALSE
+Pearl shell gathering,5,3262,not in scope,FALSE
+Gathering of laver and other edible seaweeds,5,3270,not in scope,FALSE
+Support service activities incidental to aquaculture,5,3280,not in scope,FALSE
+Frog farming,5,3291,not in scope,FALSE
+Operation of marine  worm farms,5,3292,not in scope,FALSE
+"Other aquaculture  activities, n.e.c",5,3299,not in scope,FALSE
+Mining of hard coal,5,5100,Coal,FALSE
+Mining of lignite,5,5200,Coal,FALSE
+Extraction of crude petroleum,5,6100,Oil and Gas,FALSE
+Extraction of natural gas,5,6200,Oil and Gas,FALSE
+Mining of iron ores,5,7100,not in scope,FALSE
+Mining of uranium and thorium ores,5,7210,not in scope,FALSE
+Gold ore mining,5,7221,not in scope,FALSE
+Silver ore mining,5,7222,not in scope,FALSE
+Copper ore mining,5,7291,not in scope,FALSE
+Chromite ore mining,5,7292,not in scope,FALSE
+Manganese ore mining,5,7293,not in scope,FALSE
+Nickel ore mining,5,7294,not in scope,FALSE
+Marble quarrying,5,8101,not in scope,FALSE
+Limestone quarrying,5,8102,not in scope,FALSE
+"Stone quarrying, except limestone and marble",5,8103,not in scope,FALSE
+Clay quarrying,5,8104,not in scope,FALSE
+Sand and gravel quarrying,5,8105,not in scope,FALSE
+Silica sand and silica stone quarrying,5,8106,not in scope,FALSE
+"Stone quarrying, clay and sand pits, n.e.c.",5,8109,not in scope,FALSE
+Baryte mining,5,8911,not in scope,FALSE
+Guano gathering,5,8912,not in scope,FALSE
+Pyrite mining,5,8913,not in scope,FALSE
+Rock phosphate mining,5,8914,not in scope,FALSE
+Sulphur mining,5,8915,not in scope,FALSE
+Other chemical and fertilizer mineral mining,5,8919,not in scope,FALSE
+Extraction of peat,5,8920,Coal,FALSE
+Extraction of salt,5,8930,not in scope,FALSE
+"Other mining and quarrying, n.e.c.",5,8990,not in scope,FALSE
+Oil and gas extraction activities on a fee or contract basis,5,9101,Oil and Gas,FALSE
+Oil and gas extraction activities not performed on a fee or contract basis,5,9102,Oil and Gas,FALSE
+Support activities for other mining and quarrying,5,9900,not in scope,FALSE
 Slaughtering and meat packing,5,10110,not in scope,FALSE
 Production processing and preserving of meat and meat products,5,10120,not in scope,FALSE
 Canning/packing of fish and other marine products,5,10201,not in scope,FALSE
