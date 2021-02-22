@@ -3,26 +3,27 @@
 |field    |value                        |
 |:--------|:----------------------------|
 |version  |R version 4.0.3 (2020-10-10) |
-|os       |Ubuntu 18.04.5 LTS           |
+|os       |Ubuntu 20.04 LTS             |
 |system   |x86_64, linux-gnu            |
 |ui       |X11                          |
-|language |en_US:en                     |
+|language |(EN)                         |
 |collate  |en_US.UTF-8                  |
 |ctype    |en_US.UTF-8                  |
-|tz       |America/Matamoros            |
-|date     |2021-02-08                   |
+|tz       |Etc/UTC                      |
+|date     |2021-02-22                   |
 
 # Dependencies
 
 |package    |old   |new        |Δ  |
 |:----------|:-----|:----------|:--|
-|r2dii.data |0.1.6 |0.1.6.9000 |*  |
+|r2dii.data |0.1.7 |0.1.7.9000 |*  |
 
 # Revdeps
 
-## Failed to check (1)
+## Failed to check (2)
 
 |package        |version |error |warning |note |
 |:--------------|:-------|:-----|:-------|:----|
 |r2dii.analysis |?       |      |        |     |
+|r2dii.match    |?       |      |        |     |
 
