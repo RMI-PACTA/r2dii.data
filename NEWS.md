@@ -1,4 +1,4 @@
-# r2dii.data (development version)
+# r2dii.data 0.1.8
 
 * Remove leading zeroes from the column `code` of the dataset
 `psic_classification` (#218 @daisy-pacheco).
