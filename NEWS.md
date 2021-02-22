@@ -1,7 +1,8 @@
 # r2dii.data (development version)
 
+* Remove leading zeroes from the column `code` of the dataset
+`psic_classification` (#218 @daisy-pacheco).
 * `ald_demo` gains column `id_company` (@vintented #197).
-
 * `nace_classification` codes for automotive sales now have `borderline` values 
   of `TRUE` (@KapitanKombajn #213).
 
