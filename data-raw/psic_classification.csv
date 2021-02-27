@@ -154,10 +154,10 @@ Support service activities incidental to aquaculture,5,3280,not in scope,FALSE
 Frog farming,5,3291,not in scope,FALSE
 Operation of marine  worm farms,5,3292,not in scope,FALSE
 "Other aquaculture  activities, n.e.c",5,3299,not in scope,FALSE
-Mining of hard coal,5,5100,Coal,FALSE
-Mining of lignite,5,5200,Coal,FALSE
-Extraction of crude petroleum,5,6100,Oil and Gas,FALSE
-Extraction of natural gas,5,6200,Oil and Gas,FALSE
+Mining of hard coal,5,5100,coal,FALSE
+Mining of lignite,5,5200,coal,FALSE
+Extraction of crude petroleum,5,6100,oil and gas,FALSE
+Extraction of natural gas,5,6200,oil and gas,FALSE
 Mining of iron ores,5,7100,not in scope,FALSE
 Mining of uranium and thorium ores,5,7210,not in scope,FALSE
 Gold ore mining,5,7221,not in scope,FALSE
@@ -179,11 +179,11 @@ Pyrite mining,5,8913,not in scope,FALSE
 Rock phosphate mining,5,8914,not in scope,FALSE
 Sulphur mining,5,8915,not in scope,FALSE
 Other chemical and fertilizer mineral mining,5,8919,not in scope,FALSE
-Extraction of peat,5,8920,Coal,FALSE
+Extraction of peat,5,8920,coal,FALSE
 Extraction of salt,5,8930,not in scope,FALSE
 "Other mining and quarrying, n.e.c.",5,8990,not in scope,FALSE
-Oil and gas extraction activities on a fee or contract basis,5,9101,Oil and Gas,FALSE
-Oil and gas extraction activities not performed on a fee or contract basis,5,9102,Oil and Gas,FALSE
+Oil and gas extraction activities on a fee or contract basis,5,9101,oil and gas,FALSE
+Oil and gas extraction activities not performed on a fee or contract basis,5,9102,oil and gas,FALSE
 Support activities for other mining and quarrying,5,9900,not in scope,FALSE
 Slaughtering and meat packing,5,10110,not in scope,FALSE
 Production processing and preserving of meat and meat products,5,10120,not in scope,FALSE
@@ -355,7 +355,7 @@ Bookbinding and related work,5,18122,not in scope,FALSE
 Reproduction of video and computer tapes from mastercopies,5,18201,not in scope,FALSE
 "Reproduction of floppy, hard or  compact disks",5,18202,not in scope,FALSE
 Film and video reproduction,5,18203,not in scope,FALSE
-Manufacture of coke oven products,5,19100,Coal,FALSE
+Manufacture of coke oven products,5,19100,coal,FALSE
 Manufacture of refined petroleum products,5,19200,not in scope,FALSE
 Manufacture of other fuel products,5,19900,not in scope,FALSE
 Manufacture of ethanol,5,20111,not in scope,FALSE
@@ -417,18 +417,18 @@ Manufacture of vitreous china tableware and other kitchen articles of a kind com
 Manufacture of coarse clay products,5,23933,not in scope,FALSE
 "Manufacture of sanitary ware, vitreous china plumbing fittings and fixtures",5,23934,not in scope,FALSE
 "Manufacture of other porcelain and ceramic products, n.e.c.",5,23939,not in scope,FALSE
-Manufacture of cement,5,23940,Cement,FALSE
+Manufacture of cement,5,23940,cement,FALSE
 Manufacture of lime,5,23951,not in scope,FALSE
 Manufacture of plaster,5,23952,not in scope,FALSE
 Manufacture of structural concrete products,5,23961,not in scope,FALSE
-"Manufacture of articles of concrete, cement and plaster, n.e.c.",5,23969,Cement,FALSE
+"Manufacture of articles of concrete, cement and plaster, n.e.c.",5,23969,cement,FALSE
 "Cutting, shaping and finishing of stone",5,23970,not in scope,FALSE
 Manufacture of asphalt products,5,23991,not in scope,FALSE
 Manufacture of asbestos products,5,23992,not in scope,FALSE
 Manufacture of marble products,5,23993,not in scope,FALSE
 Manufacture of abrasive products,5,23994,not in scope,FALSE
 "Manufacture of miscellaneous non-metallic mineral products, n.e.c.",5,23999,not in scope,FALSE
-Operation of blast furnaces and steel making furnaces,5,24110,Steel,FALSE
+Operation of blast furnaces and steel making furnaces,5,24110,steel,FALSE
 Operation of rolling mills,5,24121,not in scope,FALSE
 "Pipes and tubes manufacturing, iron or steel",5,24122,not in scope,FALSE
 Manufacture of pipe fittings of iron or steel,5,24123,not in scope,FALSE
@@ -440,7 +440,7 @@ Gold and other precious metal refining,5,24210,not in scope,FALSE
 Manufacture of pipe fittings of non-ferrous metals,5,24240,not in scope,FALSE
 "Manufacture of basic precious and other non-ferrous metals, n.e.c.",5,24290,not in scope,FALSE
 Casting/foundry of iron,5,24311,not in scope,FALSE
-Casting/foundry of steel,5,24312,Steel,FALSE
+Casting/foundry of steel,5,24312,steel,FALSE
 Aluminum and aluminum base alloy casting,5,24321,not in scope,FALSE
 "Copper and copper base alloy (brass, bronze) casting",5,24322,not in scope,FALSE
 Zinc and zinc alloy casting,5,24323,not in scope,FALSE
@@ -578,7 +578,7 @@ Manufacture of printing-trade machinery and equipment,5,28293,not in scope,FALSE
 Manufacture of machines for production or hot-working of glass; glassware or yarn,5,28295,not in scope,FALSE
 Manufacture of centrifugal clothes driers,5,28296,not in scope,FALSE
 "Manufacture of other special-purpose machinery, n.e.c.",5,28299,not in scope,FALSE
-Manufacture of motor vehicles,5,29100,Automotive,FALSE
+Manufacture of motor vehicles,5,29100,automotive,FALSE
 Manufacture of bodies (coachwork) for motor vehicles,5,29201,not in scope,FALSE
 Manufacture of trailers and semi-trailers,5,29202,not in scope,FALSE
 Manufacture of electric ignition or starting equipment for internal combustion engines,5,29301,not in scope,FALSE
@@ -659,7 +659,7 @@ Repairing of sports and pleasure boats,5,33152,not in scope,FALSE
 "Repair of transport equipment, except motor vehicles, n.e.c.",5,33159,not in scope,FALSE
 Repair of other equipment,5,33190,not in scope,FALSE
 Installation of industrial machinery and equipment,5,33200,not in scope,FALSE
-"Electric power generation, transmission and distribution",5,35100,Power,FALSE
+"Electric power generation, transmission and distribution",5,35100,power,FALSE
 Manufacture of gas; distribution of gaseous fuels through mains,5,35200,not in scope,FALSE
 "Water collection, treatment and supply",5,36000,not in scope,FALSE
 Sewerage,5,37000,not in scope,FALSE
@@ -893,18 +893,18 @@ Tank truck delivery services,5,49333,not in scope,FALSE
 Transport via pipeline,5,49400,not in scope,FALSE
 Ocean passenger transport,5,50111,not in scope,FALSE
 Interisland water passenger transport,5,50112,not in scope,FALSE
-Renting of ship with operator,5,50113,Shipping,FALSE
+Renting of ship with operator,5,50113,shipping,FALSE
 Ocean freight transport,5,50121,not in scope,FALSE
 Interisland water freight transport,5,50122,not in scope,FALSE
 Towing and pushing services on coastal and trans-oceanic waters,5,50123,not in scope,FALSE
 Inland passenger water transport,5,50210,not in scope,FALSE
 Inland freight water transport,5,50220,not in scope,FALSE
-Domestic air passenger transport,5,51101,Aviation,FALSE
-International air passenger transport,5,51102,Aviation,FALSE
-Non-scheduled air passenger transport,5,51103,Aviation,FALSE
-Domestic air - freight transport,5,51201,Aviation,FALSE
-International air freight transport,5,51202,Aviation,FALSE
-Non-scheduled air freight transport,5,51203,Aviation,FALSE
+Domestic air passenger transport,5,51101,aviation,FALSE
+International air passenger transport,5,51102,aviation,FALSE
+Non-scheduled air passenger transport,5,51103,aviation,FALSE
+Domestic air - freight transport,5,51201,aviation,FALSE
+International air freight transport,5,51202,aviation,FALSE
+Non-scheduled air freight transport,5,51203,aviation,FALSE
 General bonded warehouses except grain warehouse,5,52101,not in scope,FALSE
 Grain warehouses,5,52102,not in scope,FALSE
 Customs bonded warehouses,5,52103,not in scope,FALSE
@@ -1082,7 +1082,7 @@ Renting of electrical appliances,5,77295,not in scope,FALSE
 "Renting of audio-video machines, tapes and records",5,77296,not in scope,FALSE
 "Renting of personal and household goods, n.e.c.",5,77299,not in scope,FALSE
 Renting of land transport equipment,5,77301,not in scope,FALSE
-Renting of water transport equipment,5,77302,Shipping,TRUE
+Renting of water transport equipment,5,77302,shipping,TRUE
 Renting of air transport equipment,5,77303,not in scope,FALSE
 Renting of agricultural machinery and equipment,5,77304,not in scope,FALSE
 Renting of construction and civil engineering machinery and equipment,5,77305,not in scope,FALSE

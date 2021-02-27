@@ -1,5 +1,8 @@
 # r2dii.data (development version)
 
+* In `sector_classifications` and `psic_classification`, all values of `sector`
+are now lowercase (#222 daisy-pacheco).
+
 # r2dii.data 0.1.8
 
 * Remove leading zeroes from the column `code` of the dataset
