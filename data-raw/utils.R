@@ -13,6 +13,13 @@ read_csv_ <- function(file) {
   tibble::remove_rownames(out)
 }
 
+read_bridge <- function(file) {
+  out <- read_csv_(file)
+  # Avoid #222 from accidentally happening again
+  out$sector <- tolower(out$sector)
+  out
+}
+
 check_no_spec <- function(data) {
   stopifnot(!inherits(data, "spec_tbl_df"))
   stopifnot(is.null(attributes(data)$spec))

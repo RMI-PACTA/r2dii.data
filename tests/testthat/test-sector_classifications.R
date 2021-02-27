@@ -19,8 +19,8 @@ test_that("nace automotive sales are borderline", {
   expect_true(all(borderline))
 })
 
-test_that("psic_classification has no codes preceded by a 0", {
-  first_code_digit <- substr(psic_classification$code, 1, 1)
 
-  expect_false(0 %in% first_code_digit)
+test_that("has `sector` values that are lowercase not uppercase", {
+  sectors <- sort(unique(sector_classifications$sector))
+  expect_equal(sectors, tolower(sectors))
 })
