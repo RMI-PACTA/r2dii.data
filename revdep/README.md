@@ -10,13 +10,13 @@
 |collate  |en_US.UTF-8                  |
 |ctype    |en_US.UTF-8                  |
 |tz       |Etc/UTC                      |
-|date     |2021-02-22                   |
+|date     |2021-02-27                   |
 
 # Dependencies
 
 |package    |old   |new        |Δ  |
 |:----------|:-----|:----------|:--|
-|r2dii.data |0.1.7 |0.1.7.9000 |*  |
+|r2dii.data |0.1.8 |0.1.8.9000 |*  |
 
 # Revdeps
 
