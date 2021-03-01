@@ -77,7 +77,7 @@ they help to demonstrate and test the implementation in R of 'PACTA'
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="../index.html">r2dii.data</a>
-        <span class="version label label-danger" data-toggle="tooltip" data-placement="bottom" title="In-development version">0.1.7.9000</span>
+        <span class="version label label-danger" data-toggle="tooltip" data-placement="bottom" title="In-development version">0.1.8.9000</span>
       </span>
     </div>
 
@@ -204,19 +204,19 @@ they help to demonstrate and test the implementation in R of 'PACTA'
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
     <pre class="examples"><div class='input'><span class='fu'><a href='https://rdrr.io/r/utils/head.html'>head</a></span><span class='op'>(</span><span class='va'>ald_demo</span><span class='op'>)</span>
-</div><div class='output co'>#&gt; <span style='color: #555555;'># A tibble: 6 x 14</span><span>
-#&gt;   id_company name_company sector technology production_unit  year production
-#&gt;   </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>      </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>        </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>  </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>      </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>           </span><span style='color: #555555;font-style: italic;'>&lt;int&gt;</span><span>      </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span>
-#&gt; </span><span style='color: #555555;'>1</span><span> 1          aba hydropo… power  hydrocap   MW               </span><span style='text-decoration: underline;'>2</span><span>013    </span><span style='text-decoration: underline;'>133</span><span>340.
-#&gt; </span><span style='color: #555555;'>2</span><span> 1          aba hydropo… power  hydrocap   MW               </span><span style='text-decoration: underline;'>2</span><span>014    </span><span style='text-decoration: underline;'>131</span><span>582.
-#&gt; </span><span style='color: #555555;'>3</span><span> 1          aba hydropo… power  hydrocap   MW               </span><span style='text-decoration: underline;'>2</span><span>015    </span><span style='text-decoration: underline;'>129</span><span>824.
-#&gt; </span><span style='color: #555555;'>4</span><span> 1          aba hydropo… power  hydrocap   MW               </span><span style='text-decoration: underline;'>2</span><span>016    </span><span style='text-decoration: underline;'>128</span><span>065.
-#&gt; </span><span style='color: #555555;'>5</span><span> 1          aba hydropo… power  hydrocap   MW               </span><span style='text-decoration: underline;'>2</span><span>017    </span><span style='text-decoration: underline;'>126</span><span>307.
-#&gt; </span><span style='color: #555555;'>6</span><span> 1          aba hydropo… power  hydrocap   MW               </span><span style='text-decoration: underline;'>2</span><span>018    </span><span style='text-decoration: underline;'>124</span><span>549.
-#&gt; </span><span style='color: #555555;'># … with 7 more variables: emission_factor </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span style='color: #555555;'>, country_of_domicile </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span style='color: #555555;'>,</span><span>
-#&gt; </span><span style='color: #555555;'>#   plant_location </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span style='color: #555555;'>, is_ultimate_owner </span><span style='color: #555555;font-style: italic;'>&lt;lgl&gt;</span><span style='color: #555555;'>,</span><span>
-#&gt; </span><span style='color: #555555;'>#   is_ultimate_listed_owner </span><span style='color: #555555;font-style: italic;'>&lt;lgl&gt;</span><span style='color: #555555;'>, ald_timestamp </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span style='color: #555555;'>,</span><span>
-#&gt; </span><span style='color: #555555;'>#   ald_emission_factor_unit </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span></div></span></pre>
+</div><div class='output co'>#&gt; <span style='color: #949494;'># A tibble: 6 x 14</span><span>
+#&gt;   id_company name_company     sector technology production_unit  year production
+#&gt;   </span><span style='color: #949494;font-style: italic;'>&lt;chr&gt;</span><span>      </span><span style='color: #949494;font-style: italic;'>&lt;chr&gt;</span><span>            </span><span style='color: #949494;font-style: italic;'>&lt;chr&gt;</span><span>  </span><span style='color: #949494;font-style: italic;'>&lt;chr&gt;</span><span>      </span><span style='color: #949494;font-style: italic;'>&lt;chr&gt;</span><span>           </span><span style='color: #949494;font-style: italic;'>&lt;int&gt;</span><span>      </span><span style='color: #949494;font-style: italic;'>&lt;dbl&gt;</span><span>
+#&gt; </span><span style='color: #BCBCBC;'>1</span><span> 1          aba hydropower … power  hydrocap   MW               </span><span style='text-decoration: underline;'>2</span><span>013    </span><span style='text-decoration: underline;'>133</span><span>340.
+#&gt; </span><span style='color: #BCBCBC;'>2</span><span> 1          aba hydropower … power  hydrocap   MW               </span><span style='text-decoration: underline;'>2</span><span>014    </span><span style='text-decoration: underline;'>131</span><span>582.
+#&gt; </span><span style='color: #BCBCBC;'>3</span><span> 1          aba hydropower … power  hydrocap   MW               </span><span style='text-decoration: underline;'>2</span><span>015    </span><span style='text-decoration: underline;'>129</span><span>824.
+#&gt; </span><span style='color: #BCBCBC;'>4</span><span> 1          aba hydropower … power  hydrocap   MW               </span><span style='text-decoration: underline;'>2</span><span>016    </span><span style='text-decoration: underline;'>128</span><span>065.
+#&gt; </span><span style='color: #BCBCBC;'>5</span><span> 1          aba hydropower … power  hydrocap   MW               </span><span style='text-decoration: underline;'>2</span><span>017    </span><span style='text-decoration: underline;'>126</span><span>307.
+#&gt; </span><span style='color: #BCBCBC;'>6</span><span> 1          aba hydropower … power  hydrocap   MW               </span><span style='text-decoration: underline;'>2</span><span>018    </span><span style='text-decoration: underline;'>124</span><span>549.
+#&gt; </span><span style='color: #949494;'># … with 7 more variables: emission_factor &lt;dbl&gt;, country_of_domicile &lt;chr&gt;,</span><span>
+#&gt; </span><span style='color: #949494;'>#   plant_location &lt;chr&gt;, is_ultimate_owner &lt;lgl&gt;,</span><span>
+#&gt; </span><span style='color: #949494;'>#   is_ultimate_listed_owner &lt;lgl&gt;, ald_timestamp &lt;chr&gt;,</span><span>
+#&gt; </span><span style='color: #949494;'>#   ald_emission_factor_unit &lt;chr&gt;</span><span></div></span></pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <nav id="toc" data-toggle="toc" class="sticky-top">
