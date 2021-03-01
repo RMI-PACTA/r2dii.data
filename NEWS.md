@@ -1,4 +1,4 @@
-# r2dii.data (development version)
+# r2dii.data 0.1.9
 
 * In `sector_classifications` and `psic_classification`, all values of `sector`
 are now lowercase (#222 daisy-pacheco).
