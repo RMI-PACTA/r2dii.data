@@ -63,15 +63,15 @@ head(data_dictionary)
 #> 2 ald_demo            ald_timestamp character
 #> 3 ald_demo      country_of_domicile character
 #> 4 ald_demo          emission_factor    double
-#> 5 ald_demo is_ultimate_listed_owner   logical
-#> 6 ald_demo        is_ultimate_owner   logical
-#>                                                    definition
-#> 1           The units that the emission factor is measured in
-#> 2 Date at which asset data was sourced from the data provider
-#> 3                         Country where company is registered
-#> 4             Company level emission factor of the technology
-#> 5               Flag if company is the listed ultimate parent
-#> 6      Flag if company is the ultimate parent in our database
+#> 5 ald_demo               id_company character
+#> 6 ald_demo is_ultimate_listed_owner   logical
+#>                                                            definition
+#> 1                   The units that the emission factor is measured in
+#> 2         Date at which asset data was sourced from the data provider
+#> 3                                 Country where company is registered
+#> 4                     Company level emission factor of the technology
+#> 5 The id of the company owning the asset created by the data provider
+#> 6                       Flag if company is the listed ultimate parent
 ```
 
 ## Funding
