@@ -1,5 +1,6 @@
 Package: r2dii.data
-Title: Datasets to Align Financial Markets with Climate Goals
+Title: Datasets to Measure the Alignment of Corporate Loanbooks with
+    Climate Goals
 Version: 0.1.9.9000
 Authors@R: 
     c(person(given = "Mauro",
@@ -19,20 +20,20 @@ Authors@R:
       person(given = "2 Degrees Investing Initiative",
              role = c("cph", "fnd"),
              email = "contact@2degrees-investing.org"))
-Description: These datasets support the implementation in R of
-    the software 'PACTA' (Paris Agreement Capital Transition Assessment),
-    which is a free tool that calculates the alignment between financial
-    assets and climate scenarios (<https://2degrees-investing.org/>).
-    Financial institutions use 'PACTA' to study how their capital
-    allocation impacts the climate. Because both financial institutions
+Description: These datasets support the implementation in R of the
+    software 'PACTA' (Paris Agreement Capital Transition Assessment),
+    which is a free tool that calculates the alignment between corporate
+    lending portfolios and climate scenarios
+    (<https://2degrees-investing.org/>). Financial institutions use
+    'PACTA' to study how their capital allocation decisions align with
+    climate change mitigation goals. Because both financial institutions
     and market data providers keep their data private, this package
     provides fake, public data to enable the development and use of
     'PACTA' in R.
 License: CC0
 URL: https://2degreesinvesting.github.io/r2dii.data/,
     https://github.com/2DegreesInvesting/r2dii.data
-BugReports: 
-    https://github.com/2DegreesInvesting/r2dii.data/issues
+BugReports: https://github.com/2DegreesInvesting/r2dii.data/issues
 Depends: 
     R (>= 3.4)
 Imports:
