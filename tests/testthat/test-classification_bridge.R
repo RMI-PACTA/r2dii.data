@@ -21,3 +21,10 @@ test_that("all classification datasets have minimum expected names", {
 test_that("nace and naics are not identical (#85)", {
   expect_false(identical(nace_classification, naics_classification))
 })
+
+test_that("In classification datasets, `code` is of type 'character' (#185)", {
+  datasets <- enlist_datasets("r2dii.data", "classification")
+  types <- unlist(lapply(datasets, function(x) typeof(x[["code"]])))
+  expect_equal(unique(types), "character")
+})
+

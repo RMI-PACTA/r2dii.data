@@ -86,3 +86,25 @@ test_that("Some datasets use tonne or tonnes, but not ton nor tons", {
   # No dataset has values that start with "ton "
   expect_false(length_columns_contain(datasets, pattern = "^ton ") > 0)
 })
+
+test_that("documents the actual type of the column `code` (#185)", {
+  standardize <- function(data) {
+    data <- data[order(data$dataset), ]
+    rownames(data) <- NULL
+    class(data) <- "data.frame"
+    data
+  }
+
+  documented <- r2dii.data::data_dictionary
+  documented <- documented[documented$column == "code", c("dataset", "typeof")]
+
+  classification_data <- enlist_datasets("r2dii.data", "classification")
+  types <- unlist(lapply(classification_data, function(x) typeof(x[["code"]])))
+  expected <- data.frame(
+    dataset = names(types),
+    typeof = unname(types),
+    stringsAsFactors = FALSE
+  )
+
+  expect_equal(standardize(documented), standardize(expected))
+})
