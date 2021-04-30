@@ -1,9 +1,12 @@
 # r2dii.data (development version)
 
+* In all sector classification datasets, the column `code` is now consistently
+  of the more flexible type "character".
+
 # r2dii.data 0.1.9
 
 * In `sector_classifications` and `psic_classification`, all values of `sector`
-are now lowercase (#222 daisy-pacheco).
+  are now lowercase (#222 daisy-pacheco).
 
 # r2dii.data 0.1.8
 
@@ -61,7 +64,8 @@ are now lowercase (#222 daisy-pacheco).
 * r2dii.data is now [maturing](https://lifecycle.r-lib.org/articles/stages.html).
 * `naics_classification` now includes correct data (@QianFeng2020 #85; @maurolepore #94).
 * `region_isos` now includes a "global" `region` (@jdhoffa #52).
-* `region_isos` gains the column `source` and updates from WEO2019 (@jdhoffa #50).
+* `region_isos` gains the column `source` and updates from WEO2019 (@jdhoffa
+  #50).
 * `ald_demo` gains the column `ald_emission_factor_unit` (#71).
 * New dataset `co2_intensity_scenario_demo` (@jdhoffa #83).
 * New dataset `region_isos_demo` (#60).
