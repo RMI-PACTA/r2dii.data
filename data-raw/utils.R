@@ -15,6 +15,7 @@ read_csv_ <- function(file) {
 
 read_bridge <- function(file) {
   out <- read_csv_(file)
+  out$code <- as.character(out$code)
   # Avoid #222 from accidentally happening again
   out$sector <- tolower(out$sector)
   out

@@ -1,6 +1,6 @@
 dataset,column,typeof,definition
 psic_classification,original_code,character,Original psic_classification sector name
 psic_classification,code_level,double,Level of granularity of psic_classification code
-psic_classification,code,double,Formatted psic_classification code
+psic_classification,code,character,Formatted psic_classification code
 psic_classification,sector,character,Associated 2dii sector
 psic_classification,borderline,logical,Flag indicating if 2dii sector and classification code are a borderline match. The value TRUE indicates that the match is uncertain between the 2dii sector and the classification. The value FALSE indicates that the match is certainly perfect or the classification is certainly out of 2dii's scope.

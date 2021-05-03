@@ -1,6 +1,6 @@
 dataset,column,typeof,definition
 nace_classification,original_code,character,Original NACE code
-nace_classification,code,double,Formatted NACE code with periods removed
+nace_classification,code,character,Formatted NACE code with periods removed
 nace_classification,code_level,double,Level of granularity of NACE code
 nace_classification,sector,character,Associated 2dii sector
 nace_classification,borderline,logical,Flag indicating if 2dii sector and classification code are a borderline match. The value TRUE indicates that the match is uncertain between the 2dii sector and the classification. The value FALSE indicates that the match is certainly perfect or the classification is certainly out of 2dii's scope.
