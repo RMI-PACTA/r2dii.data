@@ -1,5 +1,8 @@
 # r2dii.data (development version)
 
+* In `ald_demo`, the column `id_company` is now unique for each `name_company` 
+  and `sector` pair (#232).
+
 * In all sector classification datasets, the column `code` is now consistently
   of the more flexible type "character".
 
