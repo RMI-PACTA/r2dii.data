@@ -29,9 +29,9 @@ development and use of PACTA in R.
 
 Before you install r2dii.analysis you may want to:
 
--   [Try an rstudio.cloud project with this package already
+  - [Try an rstudio.cloud project with this package already
     installed](https://rstudio.cloud/project/1424833).
--   [Learn how to minimize installation
+  - [Learn how to minimize installation
     errors](https://gist.github.com/maurolepore/a0187be9d40aee95a43f20a85f4caed6#installation).
 
 When you are ready, install the released version of r2dii.data from CRAN
@@ -77,8 +77,8 @@ head(data_dictionary)
 ## Funding
 
 This project has received funding from the [European Union LIFE
-program](https://ec.europa.eu/easme/en/life) and the [International
-Climate Initiative
+program](https://wayback.archive-it.org/12090/20210412123959/https://ec.europa.eu/easme/en/)
+and the [International Climate Initiative
 (IKI)](https://www.international-climate-initiative.com/en/details/project/measuring-paris-agreement-alignment-and-financial-risk-in-financial-markets-18_I_351-2982).
 The Federal Ministry for the Environment, Nature Conservation and
 Nuclear Safety (BMU) supports this initiative on the basis of a decision
