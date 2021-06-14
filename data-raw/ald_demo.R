@@ -25,13 +25,23 @@ generate_lei <- function(id) {
     replicate(2, sample(0:9, 1, TRUE), FALSE)
   )
 
+  paste0(four, "00", twelve, two)
+}
+
+vgenerate_lei <- Vectorize(generate_lei)
+
+generate_isin <- function(id, plant_location) {
+  # function to generate random but reproducible ISINs
+  # 2 characters for company location, 10 numbers
+  set.seed(id)
+
   paste0(
-    four,
-    "00",
-    twelve,
-    two
+    plant_location,
+    do.call(paste0,replicate(10, sample(0:9, 1, TRUE), FALSE))
   )
 }
+
+vgenerate_isin <- Vectorize(generate_isin)
 
 path <- file.path("data-raw", "ald_demo.csv")
 ald_demo <- read_csv_(path)
@@ -53,6 +63,7 @@ ald_demo <- ald_demo %>%
 
 #ensure reproducibility of random identifiers
 set.seed(42)
+
 leis <- ald_demo %>%
   # assume only LEIs for ultimate_parents
   filter(is_ultimate_owner == TRUE) %>%
@@ -61,24 +72,19 @@ leis <- ald_demo %>%
   unique() %>%
   # assume LEIs for about 50% of companies
   slice_sample(prop = 0.5) %>%
-  mutate(lei_company = generate_lei(id_company))
+  mutate(lei_company = vgenerate_lei(id_company))
 
 isins <- ald_demo %>%
   # assume ISINs are unique by id_company
-  select(id_company) %>%
+  select(id_company, plant_location) %>%
   unique() %>%
   # assume ISINs for about 75% of companies
   slice_sample(prop = 0.75) %>%
-  mutate(
-    isin_company = paste0(
-      plant_location,
-      do.call(paste0,replicate(10, sample(0:9, 1, TRUE), FALSE))
-    )
-  )
+  mutate(isin_company = vgenerate_isin(id_company, plant_location))
 
 ald_demo <- ald_demo %>%
   left_join(leis, by = "id_company") %>%
-  left_join(isins, by = "id_company")
+  left_join(isins, by = c("id_company", "plant_location"))
 
 ordered_names <- c(
   "id_company",
