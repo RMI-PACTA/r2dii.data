@@ -1,6 +1,7 @@
 dataset,column,typeof,definition
 ald_demo,id_company,character,The id of the company owning the asset created by the data provider
 ald_demo,name_company,character,The name of the company owning the asset
+ald_demo,lei_company,character,The legal entity identifier of the company owning the asset
 ald_demo,sector,character,Sector to which the asset belongs
 ald_demo,technology,character,Technology implemented by the asset
 ald_demo,production_unit,character,The units that production is measured in
