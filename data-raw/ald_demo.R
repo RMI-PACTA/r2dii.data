@@ -51,6 +51,9 @@ ald_demo <- ald_demo %>%
   ) %>%
   ungroup()
 
+#ensure reproducibility of random identifiers
+set.seed(42)
+
 leis <- ald_demo %>%
   # assume only LEIs for ultimate_parents
   filter(is_ultimate_owner == TRUE) %>%
@@ -58,7 +61,7 @@ leis <- ald_demo %>%
   select(id_company) %>%
   unique() %>%
   # assume LEIs for about 50% of companies
-  sample_n(round(0.5 * nrow(.))) %>%
+  slice_sample(prop = 0.5) %>%
   mutate(lei_company = generate_lei(id_company))
 
 ald_demo <- ald_demo %>%
