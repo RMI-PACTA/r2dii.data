@@ -53,7 +53,6 @@ ald_demo <- ald_demo %>%
 
 #ensure reproducibility of random identifiers
 set.seed(42)
-
 leis <- ald_demo %>%
   # assume only LEIs for ultimate_parents
   filter(is_ultimate_owner == TRUE) %>%
@@ -64,13 +63,28 @@ leis <- ald_demo %>%
   slice_sample(prop = 0.5) %>%
   mutate(lei_company = generate_lei(id_company))
 
+isins <- ald_demo %>%
+  # assume ISINs are unique by id_company
+  select(id_company) %>%
+  unique() %>%
+  # assume ISINs for about 75% of companies
+  slice_sample(prop = 0.75) %>%
+  mutate(
+    isin_company = paste0(
+      plant_location,
+      do.call(paste0,replicate(10, sample(0:9, 1, TRUE), FALSE))
+    )
+  )
+
 ald_demo <- ald_demo %>%
-  left_join(leis, by = "id_company")
+  left_join(leis, by = "id_company") %>%
+  left_join(isins, by = "id_company")
 
 ordered_names <- c(
   "id_company",
   "name_company",
   "lei_company",
+  "isin_company",
   "sector",
   "technology",
   "production_unit",
