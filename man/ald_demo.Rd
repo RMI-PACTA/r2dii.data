@@ -5,7 +5,7 @@
 \alias{ald_demo}
 \title{An asset level dataset for demonstration}
 \format{
-An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 17468 rows and 14 columns.
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 17468 rows and 15 columns.
 }
 \usage{
 ald_demo
@@ -29,6 +29,7 @@ they help to demonstrate and test the implementation in R of 'PACTA'
 \item \code{id_company} (character): The id of the company owning the asset created by the data provider.
 \item \code{is_ultimate_listed_owner} (logical): Flag if company is the listed ultimate parent.
 \item \code{is_ultimate_owner} (logical): Flag if company is the ultimate parent in our database.
+\item \code{lei_company} (character): The legal entity identifier of the company owning the asset.
 \item \code{name_company} (character): The name of the company owning the asset.
 \item \code{plant_location} (character): Country where asset is located.
 \item \code{production} (double): Company level production of the technology.
