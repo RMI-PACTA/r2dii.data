@@ -6,24 +6,26 @@ source(file.path("data-raw", "utils.R"))
 generate_lei <- function(id) {
   # function to generate random but reproducible LEIs
   # 4 characters, 2 zeroes, 12 characters, 2 check digits
-  set.seed(id)
-
   alpha_num <- c(0:9, LETTERS)
 
-  four <- do.call(
-    paste0,
-    replicate(4, sample(0:9, 1, TRUE), FALSE)
-  )
+  withr::with_seed(
+    id,
+    {
+      four <- do.call(
+        paste0,
+        replicate(4, sample(0:9, 1, TRUE), FALSE)
+      )
 
-  twelve <- do.call(
-    paste0,
-    replicate(12, sample(alpha_num, 1, TRUE), FALSE)
-  )
+      twelve <- do.call(
+        paste0,
+        replicate(12, sample(alpha_num, 1, TRUE), FALSE)
+      )
 
-  two <- do.call(
-    paste0,
-    replicate(2, sample(0:9, 1, TRUE), FALSE)
-  )
+      two <- do.call(
+        paste0,
+        replicate(2, sample(0:9, 1, TRUE), FALSE)
+      )
+    })
 
   paste0(four, "00", twelve, two)
 }
@@ -49,17 +51,19 @@ ald_demo <- ald_demo %>%
   ungroup()
 
 #ensure reproducibility of random identifiers
-set.seed(42)
-
-leis <- ald_demo %>%
-  # assume only LEIs for ultimate_parents
-  filter(is_ultimate_owner == TRUE) %>%
-  # assume LEIs are unique by id_company
-  select(id_company) %>%
-  unique() %>%
-  # assume LEIs for about 50% of companies
-  slice_sample(prop = 0.5) %>%
-  mutate(lei_company = vgenerate_lei(id_company))
+withr::with_seed(
+  42,
+  {
+    leis <- ald_demo %>%
+      # assume only LEIs for ultimate_parents
+      filter(is_ultimate_owner == TRUE) %>%
+      # assume LEIs are unique by id_company
+      select(id_company) %>%
+      unique() %>%
+      # assume LEIs for about 50% of companies
+      slice_sample(prop = 0.5) %>%
+      mutate(lei_company = vgenerate_lei(id_company))
+  })
 
 ald_demo <- ald_demo %>%
   left_join(leis, by = "id_company")
