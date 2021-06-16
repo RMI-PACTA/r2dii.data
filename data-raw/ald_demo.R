@@ -64,6 +64,59 @@ ald_aviation <- ald_aviation %>%
     .y = NULL
   )
 
+# hdv ---------------------------------------------------------------------
+hdv_name_bridge <- tibble::tribble(
+  ~name_company, ~name_company_hdv,
+  "aston martin",          "scania",
+  "avtozaz",             "man",
+  "bogdan",           "iveco",
+  "ch auto",      "paccar inc",
+  "chehejia",            "hino",
+  "chtc auto",     "volvo group",
+  "dongfeng honda",        "navistar",
+  "dongfeng-luxgen",        "dongfeng",
+  "electric mobility solutions",     "tata motors",
+  "faraday future",         "daimler"
+)
+
+ald_hdv <- ald_demo %>%
+  dplyr::filter(sector == "automotive") %>%
+  dplyr::mutate(
+    sector = "hdv"
+  ) %>%
+  dplyr::right_join(hdv_name_bridge, by = "name_company") %>%
+  dplyr::select(-name_company) %>%
+  dplyr::rename(name_company = name_company_hdv)
+
+# then we will ensure the numerical fields are in an appropriate range
+# we will also add some random noise to ensure that the output isn't identical
+# to the cement output
+ald_hdv <- ald_hdv %>%
+  dplyr::group_by(year) %>%
+  dplyr::filter(!is.na(emission_factor)) %>%
+  dplyr::mutate(
+    # normalize the data
+    .x = production,
+    production = (.x - min(.x))/(max(.x) - min(.x)),
+    emission_factor = NA,
+    .x = NULL,
+  )
+
+ald_hdv <- ald_hdv %>%
+  dplyr::group_by(year) %>%
+  dplyr::mutate(
+    # normalize the data
+    .x = production,
+    production = (.x * (361639 - 0)) + 0,
+    .x = NULL,
+  )
+
+ald_demo <- ald_demo %>%
+  dplyr::filter(!(grepl("hdv", technology))) %>%
+  dplyr::bind_rows(
+    ald_hdv
+  )
+
 ald_demo <- left_join(
   ald_demo, new_emission_factor_unit(),
   by = "sector"
