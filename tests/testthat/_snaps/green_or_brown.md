@@ -23,17 +23,17 @@
         {
           "type": "character",
           "attributes": {},
-          "value": ["automotive", "automotive", "automotive", "automotive", "automotive", "automotive", "automotive", "automotive", "power", "power", "power", "power", "power", "power", "oil and gas", "oil and gas", "coal", "fossil fuels", "fossil fuels", "fossil fuels"]
+          "value": ["automotive", "automotive", "automotive", "automotive", "power", "power", "power", "power", "power", "power", "oil and gas", "oil and gas", "coal", "fossil fuels", "fossil fuels", "fossil fuels", "hdv", "hdv", "hdv", "hdv"]
         },
         {
           "type": "character",
           "attributes": {},
-          "value": ["electric", "hybrid", "ice", "fuelcell", "electric_hdv", "hybrid_hdv", "ice_hdv", "fuelcell_hdv", "hydrocap", "renewablescap", "coalcap", "gascap", "oilcap", "nuclearcap", "oil", "gas", "coal", "oil", "gas", "coal"]
+          "value": ["electric", "hybrid", "ice", "fuelcell", "hydrocap", "renewablescap", "coalcap", "gascap", "oilcap", "nuclearcap", "oil", "gas", "coal", "oil", "gas", "coal", "electric", "hybrid", "ice", "fuelcell"]
         },
         {
           "type": "character",
           "attributes": {},
-          "value": ["green", "green", "brown", "green", "green", "green", "brown", "green", "green", "green", "brown", "brown", "brown", "green", "brown", "brown", "brown", "brown", "brown", "brown"]
+          "value": ["green", "green", "brown", "green", "green", "green", "brown", "brown", "brown", "green", "brown", "brown", "brown", "brown", "brown", "brown", "green", "green", "brown", "green"]
         }
       ]
     }
