@@ -2,7 +2,15 @@ library(dplyr)
 library(usethis)
 
 source(file.path("data-raw", "utils.R"))
-RNGkind(sample.kind = "Rounding")
+
+r_version <- paste0(
+  R.version$major,
+  ".",
+  R.version$minor
+)
+ if (r_version > "3.6.0") {
+   RNGkind(sample.kind = "Rounding")
+ }
 
 generate_lei <- function(id) {
   # function to generate random but reproducible LEIs
