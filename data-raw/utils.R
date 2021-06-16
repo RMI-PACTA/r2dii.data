@@ -41,7 +41,8 @@ new_emission_factor_unit <- function() {
     "steel",           co2_per("tonne of steel"),
     "cement",          co2_per("tonne of cement"),
     "aviation",        co2_per("passenger per km travelled"),
-    "power",           co2_per("per hour per MW")
+    "power",           co2_per("per hour per MW"),
+    "hdv",           co2_per("km per vehicle produced"),
 
   )
   # styler: on
