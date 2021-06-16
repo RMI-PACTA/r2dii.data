@@ -35,6 +35,35 @@ vgenerate_lei <- Vectorize(generate_lei)
 path <- file.path("data-raw", "ald_demo.csv")
 ald_demo <- read_csv_(path)
 
+# ensure aviation data is in appropriate range
+ald_aviation <- ald_demo %>%
+  dplyr::filter(sector == "aviation")
+
+ald_aviation <- ald_aviation %>%
+  dplyr::group_by(year) %>%
+  dplyr::filter(!is.na(emission_factor)) %>%
+  dplyr::mutate(
+    # normalize the data
+    .x = production,
+    .y = emission_factor,
+    production = (.x - min(.x))/(max(.x) - min(.x)),
+    emission_factor = (.y - min(.y))/(max(.y) - min(.y)),
+    .x = NULL,
+    .y = NULL
+  )
+
+ald_aviation <- ald_aviation %>%
+  dplyr::group_by(year) %>%
+  dplyr::mutate(
+    # normalize the data
+    .x = production,
+    .y = emission_factor,
+    production = (.x * (76713 - 0)) + 0,
+    emission_factor = (.y * (0.0012 - 0.000092)) + 0.000092,
+    .x = NULL,
+    .y = NULL
+  )
+
 ald_demo <- left_join(
   ald_demo, new_emission_factor_unit(),
   by = "sector"
