@@ -2,6 +2,7 @@ library(dplyr)
 library(usethis)
 
 source(file.path("data-raw", "utils.R"))
+RNGkind(sample.kind = "Rounding")
 
 generate_lei <- function(id) {
   # function to generate random but reproducible LEIs
