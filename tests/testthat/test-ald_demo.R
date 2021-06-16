@@ -1,6 +1,18 @@
 test_that("hasn't changed", {
   on_windows <- identical(.Platform$OS.type, "windows")
   skip_if(on_windows)
+
+  r_version <- paste0(
+    R.version$major,
+    ".",
+    R.version$minor
+  )
+  r_version > "3.6.0"
+  # ald_demo is now generated using random sampling.
+  # random sampling seems to have changed in R after version 3.6.0
+  # see ?RNGkind
+  skip_if(r_version < "3.6.0")
+
   expect_snapshot_value(ceiling_dbl(ald_demo), style = "json2")
 })
 

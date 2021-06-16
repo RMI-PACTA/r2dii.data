@@ -1,5 +1,7 @@
 # r2dii.data (development version)
 
+* `ald_demo` gains the column `lei_company` (#233). 
+
 * In `ald_demo`, the column `id_company` is now unique for each `name_company` 
   and `sector` pair (#232).
 
