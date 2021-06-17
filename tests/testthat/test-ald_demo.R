@@ -16,18 +16,18 @@ test_that("hasn't changed", {
   expect_snapshot_value(ceiling_dbl(ald_demo), style = "json2")
 })
 
-test_that("ald_demo has column `id_company`", {
-  expect_true(hasName(ald_demo, "id_company"))
+test_that("ald_demo has column `company_id`", {
+  expect_true(hasName(ald_demo, "company_id"))
 })
 
-test_that("ald_demo$id_company is of type character, as promised", {
-  expect_type(ald_demo$id_company, "character")
+test_that("ald_demo$company_id is of type character, as promised", {
+  expect_type(ald_demo$company_id, "character")
 })
 
-test_that("ald_demo$id_company is unique to `name_company` and `sector`", {
-  out <- ald_demo[c("id_company", "name_company", "sector")]
+test_that("ald_demo$company_id is unique to `name_company` and `sector`", {
+  out <- ald_demo[c("company_id", "name_company", "sector")]
   out <- unique(out)
-  out <- out$id_company[duplicated(out$id_company)]
+  out <- out$company_id[duplicated(out$company_id)]
 
   expect_length(out, 0L)
 })
