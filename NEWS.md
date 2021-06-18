@@ -1,6 +1,8 @@
 # r2dii.data (development version)
-
-* `ald_demo` gains the column `lei_company` (#233). 
+  
+* `ald_demo` gains the column `lei`and loses the column 
+  `is_ultimate_listed_owner`, also column `id_company` becomes `company_id` and 
+  `ald_emission_factor_unit` becomes `emission_factor_unit` (#233).
 
 * In `ald_demo`, the column `id_company` is now unique for each `name_company` 
   and `sector` pair (#232).

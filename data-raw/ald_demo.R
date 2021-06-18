@@ -62,16 +62,16 @@ withr::with_seed(
       unique() %>%
       # assume LEIs for about 50% of companies
       slice_sample(prop = 0.5) %>%
-      mutate(lei_company = vgenerate_lei(id_company))
+      mutate(lei = vgenerate_lei(id_company))
   })
 
 ald_demo <- ald_demo %>%
   left_join(leis, by = "id_company")
 
 ordered_names <- c(
-  "id_company",
+  company_id = "id_company",
   "name_company",
-  "lei_company",
+  "lei",
   "sector",
   "technology",
   "production_unit",
@@ -81,9 +81,8 @@ ordered_names <- c(
   "country_of_domicile",
   "plant_location",
   "is_ultimate_owner",
-  "is_ultimate_listed_owner",
   "ald_timestamp",
-  "ald_emission_factor_unit"
+  emission_factor_unit = "ald_emission_factor_unit"
   )
 
 ald_demo <- select(ald_demo, ordered_names)
