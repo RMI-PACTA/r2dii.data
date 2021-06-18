@@ -1,4 +1,7 @@
 # r2dii.data (development version)
+
+* `ald_demo` and `scenario_demo_2020` gain rows of dummy data for the `hdv` 
+  (heavy-duty vehicle) sector (#231).
   
 * `ald_demo` gains the column `lei`and loses the column 
   `is_ultimate_listed_owner`, also column `id_company` becomes `company_id` and 
