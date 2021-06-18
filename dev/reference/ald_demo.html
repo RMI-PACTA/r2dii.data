@@ -170,20 +170,19 @@ they help to demonstrate and test the implementation in R of 'PACTA'
 
     <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
 
-    <p>An object of class <code>tbl_df</code> (inherits from <code>tbl</code>, <code>data.frame</code>) with 17468 rows and 15 columns.</p>
+    <p>An object of class <code>tbl_df</code> (inherits from <code>tbl</code>, <code>data.frame</code>) with 17468 rows and 14 columns.</p>
     <h2 class="hasAnchor" id="definitions"><a class="anchor" href="#definitions"></a>Definitions</h2>
 
     
 
 <ul>
-<li><p><code>ald_emission_factor_unit</code> (character): The units that the emission factor is measured in.</p></li>
 <li><p><code>ald_timestamp</code> (character): Date at which asset data was sourced from the data provider.</p></li>
+<li><p><code>company_id</code> (character): The id of the company owning the asset created by the data provider.</p></li>
 <li><p><code>country_of_domicile</code> (character): Country where company is registered.</p></li>
 <li><p><code>emission_factor</code> (double): Company level emission factor of the technology.</p></li>
-<li><p><code>id_company</code> (character): The id of the company owning the asset created by the data provider.</p></li>
-<li><p><code>is_ultimate_listed_owner</code> (logical): Flag if company is the listed ultimate parent.</p></li>
+<li><p><code>emission_factor_unit</code> (character): The units that the emission factor is measured in.</p></li>
 <li><p><code>is_ultimate_owner</code> (logical): Flag if company is the ultimate parent in our database.</p></li>
-<li><p><code>lei_company</code> (character): The legal entity identifier of the company owning the asset.</p></li>
+<li><p><code>lei</code> (character): The legal entity identifier of the company owning the asset.</p></li>
 <li><p><code>name_company</code> (character): The name of the company owning the asset.</p></li>
 <li><p><code>plant_location</code> (character): Country where asset is located.</p></li>
 <li><p><code>production</code> (double): Company level production of the technology.</p></li>
@@ -205,19 +204,18 @@ they help to demonstrate and test the implementation in R of 'PACTA'
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
     <pre class="examples"><div class='input'><span class='fu'><a href='https://rdrr.io/r/utils/head.html'>head</a></span><span class='op'>(</span><span class='va'>ald_demo</span><span class='op'>)</span>
-</div><div class='output co'>#&gt; <span style='color: #949494;'># A tibble: 6 x 15</span>
-#&gt;   id_company name_company    lei_company sector technology production_unit  year
-#&gt;   <span style='color: #949494; font-style: italic;'>&lt;chr&gt;</span>      <span style='color: #949494; font-style: italic;'>&lt;chr&gt;</span>           <span style='color: #949494; font-style: italic;'>&lt;chr&gt;</span>       <span style='color: #949494; font-style: italic;'>&lt;chr&gt;</span>  <span style='color: #949494; font-style: italic;'>&lt;chr&gt;</span>      <span style='color: #949494; font-style: italic;'>&lt;chr&gt;</span>           <span style='color: #949494; font-style: italic;'>&lt;int&gt;</span>
-#&gt; <span style='color: #BCBCBC;'>1</span> 1          aba hydropower… 836000XMDH… power  hydrocap   MW               <span style='text-decoration: underline;'>2</span>013
-#&gt; <span style='color: #BCBCBC;'>2</span> 1          aba hydropower… 836000XMDH… power  hydrocap   MW               <span style='text-decoration: underline;'>2</span>014
-#&gt; <span style='color: #BCBCBC;'>3</span> 1          aba hydropower… 836000XMDH… power  hydrocap   MW               <span style='text-decoration: underline;'>2</span>015
-#&gt; <span style='color: #BCBCBC;'>4</span> 1          aba hydropower… 836000XMDH… power  hydrocap   MW               <span style='text-decoration: underline;'>2</span>016
-#&gt; <span style='color: #BCBCBC;'>5</span> 1          aba hydropower… 836000XMDH… power  hydrocap   MW               <span style='text-decoration: underline;'>2</span>017
-#&gt; <span style='color: #BCBCBC;'>6</span> 1          aba hydropower… 836000XMDH… power  hydrocap   MW               <span style='text-decoration: underline;'>2</span>018
-#&gt; <span style='color: #949494;'># … with 8 more variables: production &lt;dbl&gt;, emission_factor &lt;dbl&gt;,</span>
+</div><div class='output co'>#&gt; <span style='color: #949494;'># A tibble: 6 x 14</span>
+#&gt;   company_id name_company       lei      sector technology production_unit  year
+#&gt;   <span style='color: #949494; font-style: italic;'>&lt;chr&gt;</span>      <span style='color: #949494; font-style: italic;'>&lt;chr&gt;</span>              <span style='color: #949494; font-style: italic;'>&lt;chr&gt;</span>    <span style='color: #949494; font-style: italic;'>&lt;chr&gt;</span>  <span style='color: #949494; font-style: italic;'>&lt;chr&gt;</span>      <span style='color: #949494; font-style: italic;'>&lt;chr&gt;</span>           <span style='color: #949494; font-style: italic;'>&lt;int&gt;</span>
+#&gt; <span style='color: #BCBCBC;'>1</span> 1          aba hydropower ge… 836000X… power  hydrocap   MW               <span style='text-decoration: underline;'>2</span>013
+#&gt; <span style='color: #BCBCBC;'>2</span> 1          aba hydropower ge… 836000X… power  hydrocap   MW               <span style='text-decoration: underline;'>2</span>014
+#&gt; <span style='color: #BCBCBC;'>3</span> 1          aba hydropower ge… 836000X… power  hydrocap   MW               <span style='text-decoration: underline;'>2</span>015
+#&gt; <span style='color: #BCBCBC;'>4</span> 1          aba hydropower ge… 836000X… power  hydrocap   MW               <span style='text-decoration: underline;'>2</span>016
+#&gt; <span style='color: #BCBCBC;'>5</span> 1          aba hydropower ge… 836000X… power  hydrocap   MW               <span style='text-decoration: underline;'>2</span>017
+#&gt; <span style='color: #BCBCBC;'>6</span> 1          aba hydropower ge… 836000X… power  hydrocap   MW               <span style='text-decoration: underline;'>2</span>018
+#&gt; <span style='color: #949494;'># … with 7 more variables: production &lt;dbl&gt;, emission_factor &lt;dbl&gt;,</span>
 #&gt; <span style='color: #949494;'>#   country_of_domicile &lt;chr&gt;, plant_location &lt;chr&gt;, is_ultimate_owner &lt;lgl&gt;,</span>
-#&gt; <span style='color: #949494;'>#   is_ultimate_listed_owner &lt;lgl&gt;, ald_timestamp &lt;chr&gt;,</span>
-#&gt; <span style='color: #949494;'>#   ald_emission_factor_unit &lt;chr&gt;</span></div></pre>
+#&gt; <span style='color: #949494;'>#   ald_timestamp &lt;chr&gt;, emission_factor_unit &lt;chr&gt;</span></div></pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <nav id="toc" data-toggle="toc" class="sticky-top">
