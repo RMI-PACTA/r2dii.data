@@ -143,6 +143,16 @@ scenario <- read_csv_(path) %>%
   add_market_share_columns(start_year = 2020) %>%
   select(-c("value", "units"))
 
+# add hdv sector, identical scenario projections to automotive sector
+scenario_hdv <- scenario %>%
+  filter(sector == "automotive") %>%
+  mutate(sector = "hdv")
+
+scenario <- bind_rows(
+  scenario,
+  scenario_hdv
+)
+
 source(file.path("data-raw", "utils.R"))
 check_no_spec(scenario)
 
