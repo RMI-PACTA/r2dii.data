@@ -9,4 +9,14 @@ source(file.path("data-raw", "utils.R"))
 path <- file.path("data-raw", "green_or_brown.csv")
 green_or_brown <- read_csv_(path)
 
+green_or_brown <- green_or_brown %>%
+  dplyr::filter(!grepl("hdv", technology))
+
+green_or_brown_hdv <- green_or_brown %>%
+  dplyr::filter(sector == "automotive") %>%
+  dplyr::mutate(sector = "hdv")
+
+green_or_brown <- green_or_brown %>%
+  dplyr::bind_rows(green_or_brown_hdv)
+
 usethis::use_data(green_or_brown, overwrite = TRUE)
