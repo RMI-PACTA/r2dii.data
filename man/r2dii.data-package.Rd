@@ -4,7 +4,7 @@
 \name{r2dii.data-package}
 \alias{r2dii.data}
 \alias{r2dii.data-package}
-\title{r2dii.data: Datasets to Measure the Alignment of Corporate Loanbooks with
+\title{r2dii.data: Datasets to Measure the Alignment of Corporate Loan Books with
     Climate Goals}
 \description{
 These datasets support the implementation in R of the
