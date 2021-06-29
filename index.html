@@ -5,19 +5,22 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Datasets to Align Financial Markets with Climate Goals • r2dii.data</title>
+<title>Datasets to Measure the Alignment of Corporate Loan Books with
+    Climate Goals • r2dii.data</title>
 <!-- jquery --><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script><!-- Bootstrap --><link href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.4.0/flatly/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha256-nuL8/2cJ5NDSSwnKD8VqreErSWHtnEP9E7AySL+1ev4=" crossorigin="anonymous"></script><!-- bootstrap-toc --><link rel="stylesheet" href="bootstrap-toc.css">
 <script src="bootstrap-toc.js"></script><!-- Font Awesome icons --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/v4-shims.min.css" integrity="sha256-wZjR52fzng1pJHwx4aV2AO3yyTOXrcDW7jBpJtTwVxw=" crossorigin="anonymous">
 <!-- clipboard.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><!-- headroom.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/headroom.min.js" integrity="sha256-AsUX4SJE1+yuDu5+mAVzJbuYNPHj/WroHuZ8Ir/CkE0=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/jQuery.headroom.min.js" integrity="sha256-ZX/yNShbjqsohH1k95liqY9Gd8uOiE1S4vZc+9KQ1K4=" crossorigin="anonymous"></script><!-- pkgdown --><link href="pkgdown.css" rel="stylesheet">
-<script src="pkgdown.js"></script><meta property="og:title" content="Datasets to Align Financial Markets with Climate Goals">
-<meta property="og:description" content="These datasets support the implementation in R of
-    the software PACTA (Paris Agreement Capital Transition Assessment),
-    which is a free tool that calculates the alignment between financial
-    assets and climate scenarios (&lt;https://2degrees-investing.org/&gt;).
-    Financial institutions use PACTA to study how their capital
-    allocation impacts the climate. Because both financial institutions
+<script src="pkgdown.js"></script><meta property="og:title" content="Datasets to Measure the Alignment of Corporate Loan Books with
+    Climate Goals">
+<meta property="og:description" content="These datasets support the implementation in R of the
+    software PACTA (Paris Agreement Capital Transition Assessment),
+    which is a free tool that calculates the alignment between corporate
+    lending portfolios and climate scenarios
+    (&lt;https://2degrees-investing.org/&gt;). Financial institutions use
+    PACTA to study how their capital allocation decisions align with
+    climate change mitigation goals. Because both financial institutions
     and market data providers keep their data private, this package
     provides fake, public data to enable the development and use of
     PACTA in R.">
@@ -39,7 +42,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="index.html">r2dii.data</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.1.9</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.2.0</span>
       </span>
     </div>
 
@@ -96,7 +99,7 @@
 </li>
 <li>
   <a href="https://github.com/2DegreesInvesting/r2dii.data/">
-    <span class="fas fa-github"></span>
+    <span class="fa fa-github"></span>
      
   </a>
 </li>
@@ -145,25 +148,25 @@
 <code class="sourceCode R"><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://2degreesinvesting.github.io/r2dii.data/">r2dii.data</a></span><span class="op">)</span>
 
 <span class="fu"><a href="https://rdrr.io/r/utils/head.html">head</a></span><span class="op">(</span><span class="va">data_dictionary</span><span class="op">)</span>
-<span class="co">#&gt;    dataset                   column    typeof</span>
-<span class="co">#&gt; 1 ald_demo ald_emission_factor_unit character</span>
-<span class="co">#&gt; 2 ald_demo            ald_timestamp character</span>
-<span class="co">#&gt; 3 ald_demo      country_of_domicile character</span>
-<span class="co">#&gt; 4 ald_demo          emission_factor    double</span>
-<span class="co">#&gt; 5 ald_demo               id_company character</span>
-<span class="co">#&gt; 6 ald_demo is_ultimate_listed_owner   logical</span>
+<span class="co">#&gt;    dataset               column    typeof</span>
+<span class="co">#&gt; 1 ald_demo        ald_timestamp character</span>
+<span class="co">#&gt; 2 ald_demo           company_id character</span>
+<span class="co">#&gt; 3 ald_demo  country_of_domicile character</span>
+<span class="co">#&gt; 4 ald_demo      emission_factor    double</span>
+<span class="co">#&gt; 5 ald_demo emission_factor_unit character</span>
+<span class="co">#&gt; 6 ald_demo    is_ultimate_owner   logical</span>
 <span class="co">#&gt;                                                            definition</span>
-<span class="co">#&gt; 1                   The units that the emission factor is measured in</span>
-<span class="co">#&gt; 2         Date at which asset data was sourced from the data provider</span>
+<span class="co">#&gt; 1         Date at which asset data was sourced from the data provider</span>
+<span class="co">#&gt; 2 The id of the company owning the asset created by the data provider</span>
 <span class="co">#&gt; 3                                 Country where company is registered</span>
 <span class="co">#&gt; 4                     Company level emission factor of the technology</span>
-<span class="co">#&gt; 5 The id of the company owning the asset created by the data provider</span>
-<span class="co">#&gt; 6                       Flag if company is the listed ultimate parent</span></code></pre></div>
+<span class="co">#&gt; 5                   The units that the emission factor is measured in</span>
+<span class="co">#&gt; 6              Flag if company is the ultimate parent in our database</span></code></pre></div>
 </div>
 <div id="funding" class="section level2">
 <h2 class="hasAnchor">
 <a href="#funding" class="anchor"></a>Funding</h2>
-<p>This project has received funding from the <a href="https://ec.europa.eu/easme/en/life">European Union LIFE program</a> and the <a href="https://www.international-climate-initiative.com/en/details/project/measuring-paris-agreement-alignment-and-financial-risk-in-financial-markets-18_I_351-2982">International Climate Initiative (IKI)</a>. The Federal Ministry for the Environment, Nature Conservation and Nuclear Safety (BMU) supports this initiative on the basis of a decision adopted by the German Bundestag. The views expressed are the sole responsibility of the authors and do not necessarily reflect the views of the funders. The funders are not responsible for any use that may be made of the information it contains.</p>
+<p>This project has received funding from the <a href="https://wayback.archive-it.org/12090/20210412123959/https://ec.europa.eu/easme/en/">European Union LIFE program</a> and the <a href="https://www.international-climate-initiative.com/en/details/project/measuring-paris-agreement-alignment-and-financial-risk-in-financial-markets-18_I_351-2982">International Climate Initiative (IKI)</a>. The Federal Ministry for the Environment, Nature Conservation and Nuclear Safety (BMU) supports this initiative on the basis of a decision adopted by the German Bundestag. The views expressed are the sole responsibility of the authors and do not necessarily reflect the views of the funders. The funders are not responsible for any use that may be made of the information it contains.</p>
 </div>
 </div>
   </div>
@@ -176,8 +179,7 @@
 </li>
 <li>Browse source code at <br><a href="https://github.com/2DegreesInvesting/r2dii.data/">https://​github.com/​2DegreesInvesting/​r2dii.data/​</a>
 </li>
-<li>Report a bug at <br><a href="https://github.com/2DegreesInvesting/r2dii.data/issues">
-    https://​github.com/​2DegreesInvesting/​r2dii.data/​issues</a>
+<li>Report a bug at <br><a href="https://github.com/2DegreesInvesting/r2dii.data/issues">https://​github.com/​2DegreesInvesting/​r2dii.data/​issues</a>
 </li>
 <li>Learn more at <br><a href="https://2degrees-investing.org/">https://​2degrees-investing.org/​</a>
 </li>

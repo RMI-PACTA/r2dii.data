@@ -71,7 +71,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="../index.html">r2dii.data</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.1.9</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.2.0</span>
       </span>
     </div>
 
@@ -128,7 +128,7 @@
 </li>
 <li>
   <a href="https://github.com/2DegreesInvesting/r2dii.data/">
-    <span class="fas fa-github"></span>
+    <span class="fa fa-github"></span>
      
   </a>
 </li>
@@ -149,9 +149,22 @@
       <small>Source: <a href='https://github.com/2DegreesInvesting/r2dii.data/blob/master/NEWS.md'><code>NEWS.md</code></a></small>
     </div>
 
+    <div id="r2diidata-020" class="section level1">
+<h1 class="page-header" data-toc-text="0.2.0">
+<a href="#r2diidata-020" class="anchor"></a>r2dii.data 0.2.0<small> Unreleased </small>
+</h1>
+<ul>
+<li>
+<code>ald_demo</code> and <code>scenario_demo_2020</code> gain rows of dummy data for the <code>hdv</code> (heavy-duty vehicle) sector (<a href='https://github.com/2DegreesInvesting/r2dii.data/issues/231'>#231</a>).</li>
+<li>
+<code>ald_demo</code> gains the column <code>lei</code>and loses the column <code>is_ultimate_listed_owner</code>. Also the column <code>id_company</code> becomes <code>company_id</code> and <code>ald_emission_factor_unit</code> becomes <code>emission_factor_unit</code> (<a href='https://github.com/2DegreesInvesting/r2dii.data/issues/233'>#233</a>).</li>
+<li>In <code>ald_demo</code>, the column <code>id_company</code> is now unique for each <code>name_company</code> and <code>sector</code> pair (<a href='https://github.com/2DegreesInvesting/r2dii.data/issues/232'>#232</a>).</li>
+<li>In all sector classification datasets, the column <code>code</code> is now consistently of type “character”.</li>
+</ul>
+</div>
     <div id="r2diidata-019" class="section level1">
 <h1 class="page-header" data-toc-text="0.1.9">
-<a href="#r2diidata-019" class="anchor"></a>r2dii.data 0.1.9<small> Unreleased </small>
+<a href="#r2diidata-019" class="anchor"></a>r2dii.data 0.1.9<small> 2021-03-01 </small>
 </h1>
 <ul>
 <li>In <code>sector_classifications</code> and <code>psic_classification</code>, all values of <code>sector</code> are now lowercase (<a href='https://github.com/2DegreesInvesting/r2dii.data/issues/222'>#222</a> daisy-pacheco).</li>
@@ -251,7 +264,8 @@
 <li>
 <code>region_isos</code> now includes a “global” <code>region</code> (<a href='https://github.com/jdhoffa'>@jdhoffa</a> <a href='https://github.com/2DegreesInvesting/r2dii.data/issues/52'>#52</a>).</li>
 <li>
-<code>region_isos</code> gains the column <code>source</code> and updates from WEO2019 (<a href='https://github.com/jdhoffa'>@jdhoffa</a> <a href='https://github.com/2DegreesInvesting/r2dii.data/issues/50'>#50</a>).</li>
+<code>region_isos</code> gains the column <code>source</code> and updates from WEO2019 (<a href='https://github.com/jdhoffa'>@jdhoffa</a>
+<a href='https://github.com/2DegreesInvesting/r2dii.data/issues/50'>#50</a>).</li>
 <li>
 <code>ald_demo</code> gains the column <code>ald_emission_factor_unit</code> (<a href='https://github.com/2DegreesInvesting/r2dii.data/issues/71'>#71</a>).</li>
 <li>New dataset <code>co2_intensity_scenario_demo</code> (<a href='https://github.com/jdhoffa'>@jdhoffa</a> <a href='https://github.com/2DegreesInvesting/r2dii.data/issues/83'>#83</a>).</li>

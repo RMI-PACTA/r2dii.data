@@ -74,7 +74,7 @@ systems and sectors relevant to the 'PACTA' tool
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="../index.html">r2dii.data</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.1.9</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.2.0</span>
       </span>
     </div>
 
@@ -131,7 +131,7 @@ systems and sectors relevant to the 'PACTA' tool
 </li>
 <li>
   <a href="https://github.com/2DegreesInvesting/r2dii.data/">
-    <span class="fas fa-github"></span>
+    <span class="fa fa-github"></span>
      
   </a>
 </li>
@@ -171,7 +171,7 @@ systems and sectors relevant to the 'PACTA' tool
 
 <ul>
 <li><p><code>borderline</code> (logical): Flag indicating if 2dii sector and classification code are a borderline match. The value TRUE indicates that the match is uncertain between the 2dii sector and the classification. The value FALSE indicates that the match is certainly perfect or the classification is certainly out of 2dii's scope..</p></li>
-<li><p><code>code</code> (double): Formatted NACE code with periods removed.</p></li>
+<li><p><code>code</code> (character): Formatted NACE code with periods removed.</p></li>
 <li><p><code>code_level</code> (double): Level of granularity of NACE code.</p></li>
 <li><p><code>original_code</code> (character): Original NACE code.</p></li>
 <li><p><code>sector</code> (character): Associated 2dii sector.</p></li>
@@ -198,15 +198,15 @@ the wild to a relevant subset including 'power', 'oil and gas', 'coal',
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
     <pre class="examples"><div class='input'><span class='fu'><a href='https://rdrr.io/r/utils/head.html'>head</a></span><span class='op'>(</span><span class='va'>nace_classification</span><span class='op'>)</span>
-</div><div class='output co'>#&gt; <span style='color: #949494;'># A tibble: 6 x 5</span><span>
+</div><div class='output co'>#&gt; <span style='color: #949494;'># A tibble: 6 x 5</span>
 #&gt;   original_code code  code_level sector       borderline
-#&gt;   </span><span style='color: #949494;font-style: italic;'>&lt;chr&gt;</span><span>         </span><span style='color: #949494;font-style: italic;'>&lt;chr&gt;</span><span>      </span><span style='color: #949494;font-style: italic;'>&lt;dbl&gt;</span><span> </span><span style='color: #949494;font-style: italic;'>&lt;chr&gt;</span><span>        </span><span style='color: #949494;font-style: italic;'>&lt;lgl&gt;</span><span>     
-#&gt; </span><span style='color: #BCBCBC;'>1</span><span> A             A              1 not in scope FALSE     
-#&gt; </span><span style='color: #BCBCBC;'>2</span><span> 1             10             2 not in scope FALSE     
-#&gt; </span><span style='color: #BCBCBC;'>3</span><span> 1.1           110            3 not in scope FALSE     
-#&gt; </span><span style='color: #BCBCBC;'>4</span><span> 1.11          1110           4 not in scope FALSE     
-#&gt; </span><span style='color: #BCBCBC;'>5</span><span> 1.12          1120           4 not in scope FALSE     
-#&gt; </span><span style='color: #BCBCBC;'>6</span><span> 1.13          1130           4 not in scope FALSE     </div></span></pre>
+#&gt;   <span style='color: #949494; font-style: italic;'>&lt;chr&gt;</span>         <span style='color: #949494; font-style: italic;'>&lt;chr&gt;</span>      <span style='color: #949494; font-style: italic;'>&lt;dbl&gt;</span> <span style='color: #949494; font-style: italic;'>&lt;chr&gt;</span>        <span style='color: #949494; font-style: italic;'>&lt;lgl&gt;</span>     
+#&gt; <span style='color: #BCBCBC;'>1</span> A             A              1 not in scope FALSE     
+#&gt; <span style='color: #BCBCBC;'>2</span> 1             10             2 not in scope FALSE     
+#&gt; <span style='color: #BCBCBC;'>3</span> 1.1           110            3 not in scope FALSE     
+#&gt; <span style='color: #BCBCBC;'>4</span> 1.11          1110           4 not in scope FALSE     
+#&gt; <span style='color: #BCBCBC;'>5</span> 1.12          1120           4 not in scope FALSE     
+#&gt; <span style='color: #BCBCBC;'>6</span> 1.13          1130           4 not in scope FALSE     </div></pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <nav id="toc" data-toggle="toc" class="sticky-top">
