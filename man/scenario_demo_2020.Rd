@@ -5,7 +5,7 @@
 \alias{scenario_demo_2020}
 \title{A prepared climate scenario dataset for demonstration}
 \format{
-An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 1323 rows and 8 columns.
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 1512 rows and 8 columns.
 }
 \usage{
 scenario_demo_2020
