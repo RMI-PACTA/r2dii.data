@@ -2,28 +2,27 @@
 
 |field    |value                        |
 |:--------|:----------------------------|
-|version  |R version 4.0.3 (2020-10-10) |
-|os       |Ubuntu 20.04 LTS             |
+|version  |R version 4.1.0 (2021-05-18) |
+|os       |Ubuntu 20.04.2 LTS           |
 |system   |x86_64, linux-gnu            |
 |ui       |X11                          |
 |language |(EN)                         |
 |collate  |en_US.UTF-8                  |
 |ctype    |en_US.UTF-8                  |
-|tz       |Etc/UTC                      |
-|date     |2021-02-27                   |
+|tz       |America/Mazatlan             |
+|date     |2021-06-29                   |
 
 # Dependencies
 
 |package    |old   |new        |Δ  |
 |:----------|:-----|:----------|:--|
-|r2dii.data |0.1.8 |0.1.8.9000 |*  |
+|r2dii.data |0.1.9 |0.1.9.9000 |*  |
 
 # Revdeps
 
-## Failed to check (2)
+## Failed to check (1)
 
-|package        |version |error |warning |note |
-|:--------------|:-------|:-----|:-------|:----|
-|r2dii.analysis |?       |      |        |     |
-|r2dii.match    |?       |      |        |     |
+|package    |version |error |warning |note |
+|:----------|:-------|:-----|:-------|:----|
+|r2dii.plot |?       |      |        |     |
 
