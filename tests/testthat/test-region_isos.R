@@ -7,7 +7,6 @@ test_that("isos are not duplicated per region, scenario", {
 })
 
 test_that("outputs regions for expected scenario sources", {
-
   expected_sources <- c(
     "weo_2019",
     "etp_2017",
@@ -19,6 +18,5 @@ test_that("outputs regions for expected scenario sources", {
   expect_equal(
     sort(unique(region_isos$source)),
     sort(expected_sources)
-
   )
 })
