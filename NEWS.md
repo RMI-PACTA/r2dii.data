@@ -1,5 +1,7 @@
 # r2dii.data (development version)
 
+* `region_isos` gains data for new scenarios: WEO 2020, ISF 2020 and NZE 2021 (#241, @georgeharris2deg)
+
 # r2dii.data 0.2.0
 
 * `ald_demo` and `scenario_demo_2020` gain rows of dummy data for the `hdv`
@@ -15,7 +17,7 @@ of type "character".
 # r2dii.data 0.1.9
 
 * In `sector_classifications` and `psic_classification`, all values of `sector`
-  are now lowercase (#222 daisy-pacheco).
+  are now lowercase (#222 @daisy-pacheco).
 
 # r2dii.data 0.1.8
 
