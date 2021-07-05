@@ -101,6 +101,13 @@ ald_isos_weo_2019 <- mutate(ald_isos, source = "weo_2019")
 
 ald_isos_etp_2017 <- mutate(ald_isos, source = "etp_2017")
 
+ald_isos_weo_2020 <- mutate(ald_isos, source = "weo_2020")
+
+ald_isos_isf_2020 <- mutate(ald_isos, source = "isf_2020")
+
+ald_isos_nze_2021 <- mutate(ald_isos, source = "nze_2021")
+
+
 # Process raw_regions_weo_2019.csv ----------------------------------------
 
 # Source: raw_regions_weo_2019.csv was transcribed from page 780 of the 2019
@@ -188,11 +195,59 @@ region_isos_etp_2017 <- region_data %>%
   bind_rows(ald_isos_etp_2017) %>%
   unique()
 
+# Process raw_regions_weo_2020.csv ----------------------------------------
+
+# Source: raw_regions_etp_2017.csv was transcribed from page 780 of the 2017
+# Energy Technology Perspectives
+source_year <- "weo_2020"
+region_data <- read_regions(regions_path(source_year))
+
+region_isos_weo_2020 <- region_data %>%
+  pick_type("country_name") %>%
+  warn_if_is_missing_country_isos() %>%
+  rbind(global_data(., source_year)) %>%
+  prepare_isos() %>%
+  bind_rows(ald_isos_weo_2020) %>%
+  unique()
+
+# Process raw_regions_isf_2020.csv ----------------------------------------
+
+# Source: raw_regions_etp_2017.csv was transcribed from page 780 of the 2017
+# Energy Technology Perspectives
+source_year <- "isf_2020"
+region_data <- read_regions(regions_path(source_year))
+
+region_isos_isf_2020 <- region_data %>%
+  pick_type("country_name") %>%
+  warn_if_is_missing_country_isos() %>%
+  rbind(global_data(., source_year)) %>%
+  prepare_isos() %>%
+  bind_rows(ald_isos_isf_2020) %>%
+  unique()
+
+# Process raw_regions_nze_2021.csv ----------------------------------------
+
+# Source: raw_regions_etp_2017.csv was transcribed from page 780 of the 2017
+# Energy Technology Perspectives
+source_year <- "nze_2021"
+region_data <- read_regions(regions_path(source_year))
+
+region_isos_nze_2021 <- region_data %>%
+  pick_type("country_name") %>%
+  warn_if_is_missing_country_isos() %>%
+  rbind(global_data(., source_year)) %>%
+  prepare_isos() %>%
+  bind_rows(ald_isos_nze_2021) %>%
+  unique()
+
 # Combine -----------------------------------------------------------------
 
 region_isos <- rbind(
   region_isos_weo_2019,
-  region_isos_etp_2017
+  region_isos_etp_2017,
+  region_isos_weo_2020,
+  region_isos_isf_2020,
+  region_isos_nze_2021
 ) %>%
   group_by(region, source) %>%
   distinct(isos) %>%
