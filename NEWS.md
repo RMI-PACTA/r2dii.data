@@ -1,6 +1,6 @@
 # r2dii.data (development version)
 
-* `region_isos` gains data for new scenario `sources`: `weo_2020`, `isf_2020` 
+* `region_isos` gains data for new scenario `source`s: `weo_2020`, `isf_2020` 
 and `nze_2021` (#241, @georgeharris2deg). 
 
 # r2dii.data 0.2.0
