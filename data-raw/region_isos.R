@@ -91,15 +91,22 @@ exclude_values <- function(data, values, .region) {
     mutate(region = .region)
 }
 
+process_countries <- function(data, ald_isos, source_year) {
+
+  region_data %>%
+    pick_type("country_name") %>%
+    warn_if_is_missing_country_isos() %>%
+    rbind(global_data(., source_year)) %>%
+    prepare_isos() %>%
+    bind_rows(mutate(ald_isos, source = source_year)) %>%
+    unique()
+}
+
 # Some isos are missing from the global regions definition. Here we read in the
 # actual isos from a real ALD file, and buffer the potentially missing isos.
 ald_isos <- read_regions(
   file.path("data-raw", paste0("ald_all_isos", ".csv"))
 )
-
-ald_isos_weo_2019 <- mutate(ald_isos, source = "weo_2019")
-
-ald_isos_etp_2017 <- mutate(ald_isos, source = "etp_2017")
 
 # Process raw_regions_weo_2019.csv ----------------------------------------
 
@@ -166,7 +173,7 @@ region_isos_weo_2019 <- bound1 %>%
     non_opec
   ) %>%
   prepare_isos() %>%
-  bind_rows(ald_isos_weo_2019) %>%
+  bind_rows(mutate(ald_isos, source = source_year)) %>%
   unique()
 
 # Process raw_regions_etp_2017.csv ----------------------------------------
@@ -185,14 +192,55 @@ region_isos_etp_2017 <- region_data %>%
   warn_if_is_missing_country_isos() %>%
   rbind(global_data(., source_year)) %>%
   prepare_isos() %>%
-  bind_rows(ald_isos_etp_2017) %>%
+  bind_rows(mutate(ald_isos, source = source_year)) %>%
   unique()
+
+# Process raw_regions_weo_2020.csv ----------------------------------------
+
+# Source: raw_regions_weo_2020.csv was transcribed from the 2020 World Energy
+# Outlook
+source_year <- "weo_2020"
+region_data <- read_regions(regions_path(source_year))
+
+region_isos_weo_2020 <- process_countries(
+  region_data,
+  ald_isos,
+  source_year
+)
+
+# Process raw_regions_isf_2020.csv ----------------------------------------
+
+# Source: raw_regions_etp_2017.csv was transcribed from page 780 of the 2017
+# Energy Technology Perspectives
+source_year <- "isf_2020"
+region_data <- read_regions(regions_path(source_year))
+
+region_isos_isf_2020 <- process_countries(
+  region_data,
+  ald_isos,
+  source_year
+)
+
+# Process raw_regions_nze_2021.csv ----------------------------------------
+
+# Source: https://oneearth.uts.edu.au/regions#regional-narratives
+source_year <- "nze_2021"
+region_data <- read_regions(regions_path(source_year))
+
+region_isos_nze_2021 <- process_countries(
+  region_data,
+  ald_isos,
+  source_year
+  )
 
 # Combine -----------------------------------------------------------------
 
 region_isos <- rbind(
   region_isos_weo_2019,
-  region_isos_etp_2017
+  region_isos_etp_2017,
+  region_isos_weo_2020,
+  region_isos_isf_2020,
+  region_isos_nze_2021
 ) %>%
   group_by(region, source) %>%
   distinct(isos) %>%

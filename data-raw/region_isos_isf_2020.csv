@@ -1,0 +1,406 @@
+region,value,type,source
+oecd north america,mx,country_name,isf_2020
+oecd north america,us,country_name,isf_2020
+oecd north america,ca,country_name,isf_2020
+oecd europe,au,country_name,isf_2020
+oecd europe,be,country_name,isf_2020
+oecd europe,cz,country_name,isf_2020
+oecd europe,dk,country_name,isf_2020
+oecd europe,ee,country_name,isf_2020
+oecd europe,fi,country_name,isf_2020
+oecd europe,fr,country_name,isf_2020
+oecd europe,de,country_name,isf_2020
+oecd europe,gr,country_name,isf_2020
+oecd europe,pl,country_name,isf_2020
+oecd europe,no,country_name,isf_2020
+oecd europe,nl,country_name,isf_2020
+oecd europe,lu,country_name,isf_2020
+oecd europe,il,country_name,isf_2020
+oecd europe,it,country_name,isf_2020
+oecd europe,ie,country_name,isf_2020
+oecd europe,is,country_name,isf_2020
+oecd europe,hu,country_name,isf_2020
+oecd europe,pt,country_name,isf_2020
+oecd europe,sk,country_name,isf_2020
+oecd europe,si,country_name,isf_2020
+oecd europe,es,country_name,isf_2020
+oecd europe,se,country_name,isf_2020
+oecd europe,ch,country_name,isf_2020
+oecd europe,tr,country_name,isf_2020
+oecd europe,gb,country_name,isf_2020
+global,bg,country_name,isf_2020
+global,hr,country_name,isf_2020
+global,cy,country_name,isf_2020
+global,mt,country_name,isf_2020
+global,ro,country_name,isf_2020
+global,au,country_name,isf_2020
+global,at,country_name,isf_2020
+global,be,country_name,isf_2020
+global,ca,country_name,isf_2020
+global,cl,country_name,isf_2020
+global,cz,country_name,isf_2020
+global,dk,country_name,isf_2020
+global,ee,country_name,isf_2020
+global,fi,country_name,isf_2020
+global,fr,country_name,isf_2020
+global,de,country_name,isf_2020
+global,gr,country_name,isf_2020
+global,hu,country_name,isf_2020
+global,is,country_name,isf_2020
+global,ie,country_name,isf_2020
+global,il,country_name,isf_2020
+global,it,country_name,isf_2020
+global,jp,country_name,isf_2020
+global,kp,country_name,isf_2020
+global,lv,country_name,isf_2020
+global,lt,country_name,isf_2020
+global,lu,country_name,isf_2020
+global,mx,country_name,isf_2020
+global,nl,country_name,isf_2020
+global,nz,country_name,isf_2020
+global,no,country_name,isf_2020
+global,pl,country_name,isf_2020
+global,pt,country_name,isf_2020
+global,sk,country_name,isf_2020
+global,si,country_name,isf_2020
+global,es,country_name,isf_2020
+global,se,country_name,isf_2020
+global,ch,country_name,isf_2020
+global,tr,country_name,isf_2020
+global,gb,country_name,isf_2020
+global,us,country_name,isf_2020
+global,dz,country_name,isf_2020
+global,eg,country_name,isf_2020
+global,ly,country_name,isf_2020
+global,ma,country_name,isf_2020
+global,tn,country_name,isf_2020
+global,ao,country_name,isf_2020
+global,bj,country_name,isf_2020
+global,bw,country_name,isf_2020
+global,cm,country_name,isf_2020
+global,cg,country_name,isf_2020
+global,ci,country_name,isf_2020
+global,cd,country_name,isf_2020
+global,er,country_name,isf_2020
+global,et,country_name,isf_2020
+global,ga,country_name,isf_2020
+global,gh,country_name,isf_2020
+global,ke,country_name,isf_2020
+global,mu,country_name,isf_2020
+global,mz,country_name,isf_2020
+global,na,country_name,isf_2020
+global,ne,country_name,isf_2020
+global,ng,country_name,isf_2020
+global,sn,country_name,isf_2020
+global,za,country_name,isf_2020
+global,ss,country_name,isf_2020
+global,sd,country_name,isf_2020
+global,tz,country_name,isf_2020
+global,tg,country_name,isf_2020
+global,zm,country_name,isf_2020
+global,zw,country_name,isf_2020
+global,bd,country_name,isf_2020
+global,cn,country_name,isf_2020
+global,in,country_name,isf_2020
+global,mn,country_name,isf_2020
+global,np,country_name,isf_2020
+global,pk,country_name,isf_2020
+global,lk,country_name,isf_2020
+global,tw,country_name,isf_2020
+global,bn,country_name,isf_2020
+global,kh,country_name,isf_2020
+global,id,country_name,isf_2020
+global,la,country_name,isf_2020
+global,my,country_name,isf_2020
+global,mm,country_name,isf_2020
+global,ph,country_name,isf_2020
+global,sg,country_name,isf_2020
+global,th,country_name,isf_2020
+global,vn,country_name,isf_2020
+global,af,country_name,isf_2020
+global,bt,country_name,isf_2020
+global,ck,country_name,isf_2020
+global,fj,country_name,isf_2020
+global,pf,country_name,isf_2020
+global,ki,country_name,isf_2020
+global,mo,country_name,isf_2020
+global,mv,country_name,isf_2020
+global,nc,country_name,isf_2020
+global,pw,country_name,isf_2020
+global,pg,country_name,isf_2020
+global,ws,country_name,isf_2020
+global,sb,country_name,isf_2020
+global,tl,country_name,isf_2020
+global,to,country_name,isf_2020
+global,vu,country_name,isf_2020
+global,am,country_name,isf_2020
+global,az,country_name,isf_2020
+global,ge,country_name,isf_2020
+global,kz,country_name,isf_2020
+global,kg,country_name,isf_2020
+global,tj,country_name,isf_2020
+global,tm,country_name,isf_2020
+global,uz,country_name,isf_2020
+global,ar,country_name,isf_2020
+global,bo,country_name,isf_2020
+global,br,country_name,isf_2020
+global,co,country_name,isf_2020
+global,cr,country_name,isf_2020
+global,cu,country_name,isf_2020
+global,cw,country_name,isf_2020
+global,do,country_name,isf_2020
+global,ec,country_name,isf_2020
+global,sv,country_name,isf_2020
+global,gt,country_name,isf_2020
+global,ht,country_name,isf_2020
+global,hn,country_name,isf_2020
+global,jm,country_name,isf_2020
+global,ni,country_name,isf_2020
+global,pa,country_name,isf_2020
+global,py,country_name,isf_2020
+global,pe,country_name,isf_2020
+global,sr,country_name,isf_2020
+global,tt,country_name,isf_2020
+global,uy,country_name,isf_2020
+global,ve,country_name,isf_2020
+global,ai,country_name,isf_2020
+global,ag,country_name,isf_2020
+global,aw,country_name,isf_2020
+global,bs,country_name,isf_2020
+global,bb,country_name,isf_2020
+global,bz,country_name,isf_2020
+global,bm,country_name,isf_2020
+global,bq,country_name,isf_2020
+global,vg,country_name,isf_2020
+global,ky,country_name,isf_2020
+global,dm,country_name,isf_2020
+global,fk,country_name,isf_2020
+global,gf,country_name,isf_2020
+global,gd,country_name,isf_2020
+global,gp,country_name,isf_2020
+global,gy,country_name,isf_2020
+global,mq,country_name,isf_2020
+global,ms,country_name,isf_2020
+global,lc,country_name,isf_2020
+global,pm,country_name,isf_2020
+global,vc,country_name,isf_2020
+global,mf,country_name,isf_2020
+global,tc,country_name,isf_2020
+global,hk,country_name,isf_2020
+global,ru,country_name,isf_2020
+global,al,country_name,isf_2020
+global,by,country_name,isf_2020
+global,ba,country_name,isf_2020
+global,mk,country_name,isf_2020
+global,gi,country_name,isf_2020
+global,xk,country_name,isf_2020
+global,me,country_name,isf_2020
+global,rs,country_name,isf_2020
+global,md,country_name,isf_2020
+global,ua,country_name,isf_2020
+global,bh,country_name,isf_2020
+global,ir,country_name,isf_2020
+global,iq,country_name,isf_2020
+global,jo,country_name,isf_2020
+global,kw,country_name,isf_2020
+global,lb,country_name,isf_2020
+global,om,country_name,isf_2020
+global,qa,country_name,isf_2020
+global,sa,country_name,isf_2020
+global,sy,country_name,isf_2020
+global,ae,country_name,isf_2020
+global,ye,country_name,isf_2020
+global,gq,country_name,isf_2020
+global,bf,country_name,isf_2020
+global,bi,country_name,isf_2020
+global,cv,country_name,isf_2020
+global,cf,country_name,isf_2020
+global,td,country_name,isf_2020
+global,km,country_name,isf_2020
+global,dj,country_name,isf_2020
+global,gm,country_name,isf_2020
+global,gn,country_name,isf_2020
+global,gw,country_name,isf_2020
+global,ls,country_name,isf_2020
+global,lr,country_name,isf_2020
+global,mg,country_name,isf_2020
+global,mw,country_name,isf_2020
+global,ml,country_name,isf_2020
+global,mr,country_name,isf_2020
+global,re,country_name,isf_2020
+global,rw,country_name,isf_2020
+global,st,country_name,isf_2020
+global,sc,country_name,isf_2020
+global,sl,country_name,isf_2020
+global,so,country_name,isf_2020
+global,ug,country_name,isf_2020
+global,ad,country_name,isf_2020
+global,as,country_name,isf_2020
+global,bl,country_name,isf_2020
+global,fm,country_name,isf_2020
+global,fo,country_name,isf_2020
+global,gg,country_name,isf_2020
+global,gl,country_name,isf_2020
+global,gu,country_name,isf_2020
+global,im,country_name,isf_2020
+global,je,country_name,isf_2020
+global,kn,country_name,isf_2020
+global,kr,country_name,isf_2020
+global,mh,country_name,isf_2020
+global,mp,country_name,isf_2020
+global,nr,country_name,isf_2020
+global,pr,country_name,isf_2020
+global,sh,country_name,isf_2020
+global,sm,country_name,isf_2020
+global,sx,country_name,isf_2020
+global,sz,country_name,isf_2020
+global,tv,country_name,isf_2020
+global,vi,country_name,isf_2020
+global,wf,country_name,isf_2020
+global,yt,country_name,isf_2020
+global,na,country_name,isf_2020
+latin america,ar,country_name,isf_2020
+latin america,cl,country_name,isf_2020
+latin america,uy,country_name,isf_2020
+latin america,br,country_name,isf_2020
+latin america,py,country_name,isf_2020
+latin america,bo,country_name,isf_2020
+latin america,pe,country_name,isf_2020
+latin america,ec,country_name,isf_2020
+latin america,co,country_name,isf_2020
+latin america,ve,country_name,isf_2020
+latin america,ni,country_name,isf_2020
+latin america,gt,country_name,isf_2020
+latin america,cu,country_name,isf_2020
+latin america,hn,country_name,isf_2020
+latin america,bz,country_name,isf_2020
+latin america,sv,country_name,isf_2020
+latin america,pa,country_name,isf_2020
+latin america,gd,country_name,isf_2020
+latin america,tt,country_name,isf_2020
+latin america,bb,country_name,isf_2020
+latin america,jm,country_name,isf_2020
+latin america,cr,country_name,isf_2020
+latin america,sr,country_name,isf_2020
+latin america,gy,country_name,isf_2020
+latin america,ms,country_name,isf_2020
+latin america,ht,country_name,isf_2020
+latin america,bs,country_name,isf_2020
+latin america,cw,country_name,isf_2020
+latin america,ai,country_name,isf_2020
+latin america,ag,country_name,isf_2020
+latin america,aw,country_name,isf_2020
+latin america,bz,country_name,isf_2020
+latin america,bm,country_name,isf_2020
+latin america,ky,country_name,isf_2020
+latin america,fk,country_name,isf_2020
+latin america,gf,country_name,isf_2020
+latin america,gp,country_name,isf_2020
+latin america,mq,country_name,isf_2020
+latin america,bq,country_name,isf_2020
+latin america,kn,country_name,isf_2020
+latin america,lc,country_name,isf_2020
+latin america,pm,country_name,isf_2020
+latin america,vc,country_name,isf_2020
+latin america,mf,country_name,isf_2020
+latin america,sx,country_name,isf_2020
+india,in,country_name,isf_2020
+china,cn,country_name,isf_2020
+china,tw,country_name,isf_2020
+africa,dz,country_name,isf_2020
+africa,eg,country_name,isf_2020
+africa,ly,country_name,isf_2020
+africa,ma,country_name,isf_2020
+africa,tn,country_name,isf_2020
+africa,ao,country_name,isf_2020
+africa,bj,country_name,isf_2020
+africa,bw,country_name,isf_2020
+africa,cm,country_name,isf_2020
+africa,cg,country_name,isf_2020
+africa,ci,country_name,isf_2020
+africa,cd,country_name,isf_2020
+africa,er,country_name,isf_2020
+africa,et,country_name,isf_2020
+africa,ga,country_name,isf_2020
+africa,gh,country_name,isf_2020
+africa,ke,country_name,isf_2020
+africa,mu,country_name,isf_2020
+africa,mz,country_name,isf_2020
+africa,na,country_name,isf_2020
+africa,ne,country_name,isf_2020
+africa,ng,country_name,isf_2020
+africa,sn,country_name,isf_2020
+africa,za,country_name,isf_2020
+africa,ss,country_name,isf_2020
+africa,sd,country_name,isf_2020
+africa,tz,country_name,isf_2020
+africa,tg,country_name,isf_2020
+africa,zm,country_name,isf_2020
+africa,zw,country_name,isf_2020
+africa,bf,country_name,isf_2020
+africa,bi,country_name,isf_2020
+africa,cv,country_name,isf_2020
+africa,cf,country_name,isf_2020
+africa,td,country_name,isf_2020
+africa,km,country_name,isf_2020
+africa,dj,country_name,isf_2020
+africa,gm,country_name,isf_2020
+africa,gn,country_name,isf_2020
+africa,gw,country_name,isf_2020
+africa,ls,country_name,isf_2020
+africa,lr,country_name,isf_2020
+africa,mg,country_name,isf_2020
+africa,mw,country_name,isf_2020
+africa,ml,country_name,isf_2020
+africa,mr,country_name,isf_2020
+africa,re,country_name,isf_2020
+africa,rw,country_name,isf_2020
+africa,st,country_name,isf_2020
+africa,sc,country_name,isf_2020
+africa,sl,country_name,isf_2020
+africa,so,country_name,isf_2020
+africa,ug,country_name,isf_2020
+middle east,bh,country_name,isf_2020
+middle east,ir,country_name,isf_2020
+middle east,iq,country_name,isf_2020
+middle east,jo,country_name,isf_2020
+middle east,kw,country_name,isf_2020
+middle east,lb,country_name,isf_2020
+middle east,om,country_name,isf_2020
+middle east,qa,country_name,isf_2020
+middle east,sa,country_name,isf_2020
+middle east,sy,country_name,isf_2020
+middle east,ae,country_name,isf_2020
+middle east,ye,country_name,isf_2020
+middle east,il,country_name,isf_2020
+eurasia/eastern europe,ru,country_name,isf_2020
+eurasia/eastern europe,am,country_name,isf_2020
+eurasia/eastern europe,az,country_name,isf_2020
+eurasia/eastern europe,ge,country_name,isf_2020
+eurasia/eastern europe,kz,country_name,isf_2020
+eurasia/eastern europe,kg,country_name,isf_2020
+eurasia/eastern europe,tj,country_name,isf_2020
+eurasia/eastern europe,tm,country_name,isf_2020
+eurasia/eastern europe,uz,country_name,isf_2020
+non oecd asia,af,country_name,isf_2020
+non oecd asia,pk,country_name,isf_2020
+non oecd asia,np,country_name,isf_2020
+non oecd asia,bt,country_name,isf_2020
+non oecd asia,bd,country_name,isf_2020
+non oecd asia,lk,country_name,isf_2020
+non oecd asia,mm,country_name,isf_2020
+non oecd asia,lk,country_name,isf_2020
+non oecd asia,th,country_name,isf_2020
+non oecd asia,vn,country_name,isf_2020
+non oecd asia,kh,country_name,isf_2020
+non oecd asia,la,country_name,isf_2020
+non oecd asia,ph,country_name,isf_2020
+non oecd asia,my,country_name,isf_2020
+non oecd asia,sg,country_name,isf_2020
+non oecd asia,id,country_name,isf_2020
+non oecd asia,pg,country_name,isf_2020
+oecd pacific,au,country_name,isf_2020
+oecd pacific,nz,country_name,isf_2020
+oecd pacific,jp,country_name,isf_2020
+oecd pacific,kp,country_name,isf_2020
+oecd pacific,kr,country_name,isf_2020
