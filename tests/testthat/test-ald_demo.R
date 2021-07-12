@@ -31,3 +31,10 @@ test_that("ald_demo$company_id is unique to `name_company` and `sector`", {
 
   expect_length(out, 0L)
 })
+
+test_that("ald_demo$years is in range seq(2019, 2025)`", {
+  ald_demo_years <- unique(ald_demo$year)
+  all(ald_demo_years %in% seq(2019, 2025))
+
+  expect_true(all(ald_demo_years %in% seq(2019, 2025)))
+})
