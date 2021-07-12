@@ -150,6 +150,10 @@ withr::with_seed(
 ald_demo <- ald_demo %>%
   left_join(leis, by = "id_company")
 
+# Real ALD should only span 7 years: 1 historic year, present year, and 5
+# forward-looking.
+ald_demo <- filter(ald_demo, year %in% seq(2019,2025))
+
 ordered_names <- c(
   company_id = "id_company",
   "name_company",
