@@ -20,3 +20,60 @@ test_that("outputs regions for expected scenario sources", {
     sort(expected_sources)
   )
 })
+
+test_that("outputs expected regions for weo_2020 (#253).", {
+  expected_regions <- c(
+    "advanced economies",
+    "africa",
+    "asia pacific",
+    "caspian",
+    "central and south america",
+    "china",
+    "developing asia",
+    "eurasia",
+    "europe",
+    "european union",
+    "latin america",
+    "middle east",
+    "north africa",
+    "north america",
+    "oecd",
+    "opec",
+    "other african countries and territories",
+    "other asia pacific countries and territories",
+    "other central and south american countries and territories",
+    "southeast asia",
+    "sub saharan africa",
+    "global",
+    "developing economies",
+    "iea",
+    "non oecd",
+    "non opec"
+  )
+
+  expect_equal(
+    sort(unique(region_isos_weo_2020$region)),
+    sort(expected_regions)
+  )
+})
+
+test_that("outputs expected regions for isf_2020 (#253).", {
+  expected_regions <- c(
+    "oecd north america",
+    "oecd europe",
+    "global",
+    "latin america",
+    "india",
+    "china",
+    "africa",
+    "middle east",
+    "eurasia/eastern europe",
+    "non oecd asia",
+    "oecd pacific"
+  )
+
+  expect_equal(
+    sort(unique(region_isos_isf_2020$region)),
+    sort(expected_regions)
+  )
+})
