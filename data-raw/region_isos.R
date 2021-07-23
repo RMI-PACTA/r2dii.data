@@ -93,11 +93,10 @@ exclude_values <- function(data, values, .region) {
 
 process_countries <- function(data, ald_isos, source_year) {
 
-  region_data %>%
+  data %>%
     pick_type("country_name") %>%
-    warn_if_is_missing_country_isos() %>%
     rbind(global_data(., source_year)) %>%
-    prepare_isos() %>%
+    rename(isos = value) %>%
     bind_rows(mutate(ald_isos, source = source_year)) %>%
     unique()
 }
