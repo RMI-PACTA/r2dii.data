@@ -92,7 +92,6 @@ exclude_values <- function(data, values, .region) {
 }
 
 process_countries <- function(data, ald_isos, source_year) {
-
   data %>%
     pick_type("country_name") %>%
     rbind(global_data(., source_year)) %>%
@@ -230,7 +229,7 @@ region_isos_nze_2021 <- process_countries(
   region_data,
   ald_isos,
   source_year
-  )
+)
 
 # Combine -----------------------------------------------------------------
 
