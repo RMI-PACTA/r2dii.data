@@ -1,4 +1,4 @@
-# r2dii.data (development version)
+# r2dii.data 0.2.2
 
 * `region_isos` now outputs all expected `region`s for: `weo_2020` and 
   `isf_2020` (#253 @Antoine-Lalechere).
