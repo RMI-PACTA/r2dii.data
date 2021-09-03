@@ -25,7 +25,8 @@ generate_lei <- function(id) {
         paste0,
         replicate(2, sample(0:9, 1, TRUE), FALSE)
       )
-    })
+    }
+  )
 
   paste0(four, "00", twelve, two)
 }
@@ -46,8 +47,8 @@ ald_aviation <- ald_aviation %>%
     # normalize the data
     .x = production,
     .y = emission_factor,
-    production = (.x - min(.x))/(max(.x) - min(.x)),
-    emission_factor = (.y - min(.y))/(max(.y) - min(.y)),
+    production = (.x - min(.x)) / (max(.x) - min(.x)),
+    emission_factor = (.y - min(.y)) / (max(.y) - min(.y)),
     .x = NULL,
     .y = NULL
   )
@@ -67,16 +68,16 @@ ald_aviation <- ald_aviation %>%
 # hdv ---------------------------------------------------------------------
 hdv_name_bridge <- tibble::tribble(
   ~name_company, ~name_company_hdv,
-  "aston martin",          "scania",
-  "avtozaz",             "man",
-  "bogdan",           "iveco",
-  "ch auto",      "paccar inc",
-  "chehejia",            "hino",
-  "chtc auto",     "volvo group",
-  "dongfeng honda",        "navistar",
-  "dongfeng-luxgen",        "dongfeng",
-  "electric mobility solutions",     "tata motors",
-  "faraday future",         "daimler"
+  "aston martin", "scania",
+  "avtozaz", "man",
+  "bogdan", "iveco",
+  "ch auto", "paccar inc",
+  "chehejia", "hino",
+  "chtc auto", "volvo group",
+  "dongfeng honda", "navistar",
+  "dongfeng-luxgen", "dongfeng",
+  "electric mobility solutions", "tata motors",
+  "faraday future", "daimler"
 )
 
 ald_hdv <- ald_demo %>%
@@ -97,7 +98,7 @@ ald_hdv <- ald_hdv %>%
   dplyr::mutate(
     # normalize the data
     .x = production,
-    production = (.x - min(.x))/(max(.x) - min(.x)),
+    production = (.x - min(.x)) / (max(.x) - min(.x)),
     emission_factor = NA,
     .x = NULL,
   )
@@ -132,7 +133,7 @@ ald_demo <- ald_demo %>%
   ) %>%
   ungroup()
 
-#ensure reproducibility of random identifiers
+# ensure reproducibility of random identifiers
 withr::with_seed(
   42,
   {
@@ -145,7 +146,8 @@ withr::with_seed(
       # assume LEIs for about 50% of companies
       slice_sample(prop = 0.5) %>%
       mutate(lei = vgenerate_lei(id_company))
-  })
+  }
+)
 
 ald_demo <- ald_demo %>%
   left_join(leis, by = "id_company")
@@ -165,7 +167,7 @@ ordered_names <- c(
   "is_ultimate_owner",
   "ald_timestamp",
   emission_factor_unit = "ald_emission_factor_unit"
-  )
+)
 
 ald_demo <- select(ald_demo, ordered_names)
 

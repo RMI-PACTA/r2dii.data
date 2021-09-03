@@ -51,7 +51,7 @@ test_that("outputs expected regions for weo_2020 (#253).", {
     "non opec"
   )
 
-  region_isos_weo_2020 <- region_isos[region_isos$source == "weo_2020",]
+  region_isos_weo_2020 <- region_isos[region_isos$source == "weo_2020", ]
 
   expect_equal(
     sort(unique(region_isos_weo_2020$region)),
@@ -74,7 +74,7 @@ test_that("outputs expected regions for isf_2020 (#253).", {
     "oecd pacific"
   )
 
-  region_isos_isf_2020 <- region_isos[region_isos$source == "isf_2020",]
+  region_isos_isf_2020 <- region_isos[region_isos$source == "isf_2020", ]
 
   expect_equal(
     sort(unique(region_isos_isf_2020$region)),

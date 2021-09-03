@@ -27,4 +27,3 @@ test_that("In classification datasets, `code` is of type 'character' (#185)", {
   types <- unlist(lapply(datasets, function(x) typeof(x[["code"]])))
   expect_equal(unique(types), "character")
 })
-
