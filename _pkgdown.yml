@@ -22,8 +22,6 @@ home:
   - text: Learn more
     href: https://2degrees-investing.org/
 
-
-
 navbar:
 
   type: default
@@ -34,15 +32,8 @@ navbar:
 
   - text: "News"
     menu:
-    - text: "Releases"
-    - text: "Version 0.1.2"
-      href: https://2degreesinvesting.github.io/posts/2020-08-14-r2dii-data-0-1-2-and-r2dii-match-0-0-4-are-now-on-cran/
-    - text: "Version 0.1.1"
-      href: https://2degreesinvesting.github.io/r2dii.data/news/index.html#r2dii-data-0-1-1-2020-06-10
-    - text: "Version 0.1.0"
-      href: https://2degreesinvesting.github.io/posts/2020-06-03-r2dii-data-0-1-0/
-    - text: "Version 0.0.3"
-      href: articles/r2dii-data-0-0-3.html
+    - text: "r2dii blog posts"
+      href: https://2degreesinvesting.github.io/#category:r2dii
     - text: "----------------------"
     - text: "Change log"
       href: news/index.html
