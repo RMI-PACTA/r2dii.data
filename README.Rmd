@@ -17,7 +17,7 @@ knitr::opts_chunk$set(
 [![Lifecycle: maturing](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://lifecycle.r-lib.org/articles/stages.html)
 [![CRAN status](https://www.r-pkg.org/badges/version/r2dii.data)](https://CRAN.R-project.org/package=r2dii.data)
 [![](https://cranlogs.r-pkg.org/badges/grand-total/r2dii.data)](https://CRAN.R-project.org/package=r2dii.data)
-[![Codecov test coverage](https://codecov.io/gh/2DegreesInvesting/r2dii.data/branch/master/graph/badge.svg)](https://codecov.io/gh/2DegreesInvesting/r2dii.data?branch=master)
+[![Codecov test coverage](https://codecov.io/gh/2DegreesInvesting/r2dii.data/branch/main/graph/badge.svg)](https://codecov.io/gh/2DegreesInvesting/r2dii.data?branch=main)
 [![R-CMD-check](https://github.com/2DegreesInvesting/r2dii.data/workflows/R-CMD-check/badge.svg)](https://github.com/2DegreesInvesting/r2dii.data/actions)
 <!-- badges: end -->
 
