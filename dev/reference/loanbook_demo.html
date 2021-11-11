@@ -197,23 +197,24 @@ they help to demonstrate and test the implementation in R of 'PACTA'
 <code><a href='scenario_demo_2020.html'>scenario_demo_2020</a></code></p></div>
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
-    <pre class="examples"><div class='input'><span class='fu'><a href='https://rdrr.io/r/utils/head.html'>head</a></span><span class='op'>(</span><span class='va'>loanbook_demo</span><span class='op'>)</span>
-</div><div class='output co'>#&gt; <span style='color: #949494;'># A tibble: 6 × 19</span>
-#&gt;   id_loan id_direct_loantaker name_direct_loa… id_intermediate… name_intermedia…
-#&gt;   <span style='color: #949494; font-style: italic;'>&lt;chr&gt;</span>   <span style='color: #949494; font-style: italic;'>&lt;chr&gt;</span>               <span style='color: #949494; font-style: italic;'>&lt;chr&gt;</span>            <span style='color: #949494; font-style: italic;'>&lt;chr&gt;</span>            <span style='color: #949494; font-style: italic;'>&lt;chr&gt;</span>           
-#&gt; <span style='color: #BCBCBC;'>1</span> L1      C294                Yuamen Xinneng … <span style='color: #BB0000;'>NA</span>               <span style='color: #BB0000;'>NA</span>              
-#&gt; <span style='color: #BCBCBC;'>2</span> L2      C293                Yuamen Changyua… <span style='color: #BB0000;'>NA</span>               <span style='color: #BB0000;'>NA</span>              
-#&gt; <span style='color: #BCBCBC;'>3</span> L3      C292                Yuama Ethanol L… IP5              Yuama Inc.      
-#&gt; <span style='color: #BCBCBC;'>4</span> L4      C299                Yudaksel Holdin… <span style='color: #BB0000;'>NA</span>               <span style='color: #BB0000;'>NA</span>              
-#&gt; <span style='color: #BCBCBC;'>5</span> L5      C305                Yukon Energy Co… <span style='color: #BB0000;'>NA</span>               <span style='color: #BB0000;'>NA</span>              
-#&gt; <span style='color: #BCBCBC;'>6</span> L6      C304                Yukon Developme… <span style='color: #BB0000;'>NA</span>               <span style='color: #BB0000;'>NA</span>              
-#&gt; <span style='color: #949494;'># … with 14 more variables: id_ultimate_parent &lt;chr&gt;,</span>
-#&gt; <span style='color: #949494;'>#   name_ultimate_parent &lt;chr&gt;, loan_size_outstanding &lt;dbl&gt;,</span>
-#&gt; <span style='color: #949494;'>#   loan_size_outstanding_currency &lt;chr&gt;, loan_size_credit_limit &lt;dbl&gt;,</span>
-#&gt; <span style='color: #949494;'>#   loan_size_credit_limit_currency &lt;chr&gt;, sector_classification_system &lt;chr&gt;,</span>
-#&gt; <span style='color: #949494;'>#   sector_classification_input_type &lt;chr&gt;,</span>
-#&gt; <span style='color: #949494;'>#   sector_classification_direct_loantaker &lt;dbl&gt;, fi_type &lt;chr&gt;,</span>
-#&gt; <span style='color: #949494;'>#   flag_project_finance_loan &lt;chr&gt;, name_project &lt;lgl&gt;, …</span></div></pre>
+    <pre class="examples"><span class='r-in'><span class='fu'><a href='https://rdrr.io/r/utils/head.html'>head</a></span><span class='op'>(</span><span class='va'>loanbook_demo</span><span class='op'>)</span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #949494;'># A tibble: 6 × 19</span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span>   id_loan id_direct_loantaker name_direct_loa… id_intermediate… name_intermedia…</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span>   <span style='color: #949494; font-style: italic;'>&lt;chr&gt;</span>   <span style='color: #949494; font-style: italic;'>&lt;chr&gt;</span>               <span style='color: #949494; font-style: italic;'>&lt;chr&gt;</span>            <span style='color: #949494; font-style: italic;'>&lt;chr&gt;</span>            <span style='color: #949494; font-style: italic;'>&lt;chr&gt;</span>           </span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'>1</span> L1      C294                Yuamen Xinneng … <span style='color: #BB0000;'>NA</span>               <span style='color: #BB0000;'>NA</span>              </span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'>2</span> L2      C293                Yuamen Changyua… <span style='color: #BB0000;'>NA</span>               <span style='color: #BB0000;'>NA</span>              </span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'>3</span> L3      C292                Yuama Ethanol L… IP5              Yuama Inc.      </span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'>4</span> L4      C299                Yudaksel Holdin… <span style='color: #BB0000;'>NA</span>               <span style='color: #BB0000;'>NA</span>              </span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'>5</span> L5      C305                Yukon Energy Co… <span style='color: #BB0000;'>NA</span>               <span style='color: #BB0000;'>NA</span>              </span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'>6</span> L6      C304                Yukon Developme… <span style='color: #BB0000;'>NA</span>               <span style='color: #BB0000;'>NA</span>              </span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #949494;'># … with 14 more variables: id_ultimate_parent &lt;chr&gt;,</span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #949494;'>#   name_ultimate_parent &lt;chr&gt;, loan_size_outstanding &lt;dbl&gt;,</span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #949494;'>#   loan_size_outstanding_currency &lt;chr&gt;, loan_size_credit_limit &lt;dbl&gt;,</span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #949494;'>#   loan_size_credit_limit_currency &lt;chr&gt;, sector_classification_system &lt;chr&gt;,</span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #949494;'>#   sector_classification_input_type &lt;chr&gt;,</span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #949494;'>#   sector_classification_direct_loantaker &lt;dbl&gt;, fi_type &lt;chr&gt;,</span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #949494;'>#   flag_project_finance_loan &lt;chr&gt;, name_project &lt;lgl&gt;, …</span></span>
+</pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <nav id="toc" data-toggle="toc" class="sticky-top">
