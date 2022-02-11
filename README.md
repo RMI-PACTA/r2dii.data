@@ -6,7 +6,7 @@ output: github_document
 
 
 
-# r2dii.data
+# r2dii.data <img src="man/figures/logo.svg" align="right" width="120" />
 
 <!-- badges: start -->
 [![Lifecycle: maturing](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://lifecycle.r-lib.org/articles/stages.html)
