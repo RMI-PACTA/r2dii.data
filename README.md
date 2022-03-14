@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# r2dii.data <a href='https://github.com/2DegreesInvesting/r2dii.data'><img src='https://imgur.com/A5ASZPE.png' align='right' height='43' /></a>
+# r2dii.data <img src="man/figures/logo.svg" align="right" width="120" />
 
 <!-- badges: start -->
 
