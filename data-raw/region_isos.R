@@ -252,7 +252,7 @@ countries_for_regions_mapper_lookup <- tibble::tibble(
   source = rep(c("weo_2019", "weo_2020"), 6)
 )
 
-regions_isos <- region_isos %>%
+region_isos <- region_isos %>%
   dplyr::bind_rows(countries_for_regions_mapper_lookup)
 
 
