@@ -244,4 +244,16 @@ region_isos <- rbind(
   distinct(isos) %>%
   ungroup()
 
+# Add countries for regions -----------------------------------------------
+
+countries_for_regions_mapper_lookup <- tibble::tibble(
+  region = c("brazil", "brazil", "india", "india", "japan", "japan", "russia", "russia", "south africa", "south africa", "united states", "united states"),
+  isos = c("br", "br", "in", "in", "jp", "jp", "ru", "ru", "za", "za", "us", "us"),
+  source = rep(c("weo_2019", "weo_2020"), 6)
+)
+
+regions_isos <- region_isos %>%
+  dplyr::bind_rows(countries_for_regions_mapper_lookup)
+
+
 usethis::use_data(region_isos, overwrite = TRUE)
