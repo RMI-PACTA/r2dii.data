@@ -48,7 +48,13 @@ test_that("outputs expected regions for weo_2020 (#253).", {
     "developing economies",
     "iea",
     "non oecd",
-    "non opec"
+    "non opec",
+    "brazil",
+    "india",
+    "japan",
+    "russia",
+    "south africa",
+    "united states"
   )
 
   region_isos_weo_2020 <- region_isos[region_isos$source == "weo_2020", ]
