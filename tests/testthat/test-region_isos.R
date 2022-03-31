@@ -87,3 +87,37 @@ test_that("outputs expected regions for isf_2020 (#253).", {
     sort(expected_regions)
   )
 })
+
+
+test_that("outputs expected regions and countries for weo_2020 and weo_2019 (#271).", {
+  expected_1country_region  <- tibble::tribble(
+    ~region,          ~isos,  ~source,
+    "brazil",         "br",   "weo_2019",
+    "india",          "in",   "weo_2019",
+    "japan",          "jp",   "weo_2019",
+    "russia",         "ru",   "weo_2019",
+    "south africa",   "za",   "weo_2019",
+    "united states",  "us",   "weo_2019",
+    "brazil",         "br",   "weo_2020",
+    "india",          "in",   "weo_2020",
+    "japan",          "jp",   "weo_2020",
+    "russia",         "ru",   "weo_2020",
+    "south africa",   "za",   "weo_2020",
+    "united states",  "us",   "weo_2020"
+  )
+  
+  region_isos_1country <- region_isos[
+        (region_isos$source == "weo_2020" |
+        region_isos$source == "weo_2019") &
+        (region_isos$region == "brazil"|
+        region_isos$region == "india"|
+        region_isos$region == "japan"|
+        region_isos$region == "russia"|
+        region_isos$region == "south africa"|
+        region_isos$region ==  "united states"),]
+  
+  expect_equal(
+    region_isos_1country,
+    expected_1country_region
+  )
+})
