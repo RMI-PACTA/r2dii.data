@@ -1,5 +1,7 @@
 # r2dii.data (development version)
 
+* 'region_isos' gained country specific regions for 'weo_2019' and 'weo_2020' (#270 @julie-vienne)
+
 # r2dii.data 0.2.2
 
 * `region_isos` now outputs all expected `region`s for: `weo_2020` and 
