@@ -244,4 +244,30 @@ region_isos <- rbind(
   distinct(isos) %>%
   ungroup()
 
+# Add countries for regions -----------------------------------------------
+
+countries_for_regions_we02019 <- tibble::tribble(
+  ~region,          ~isos,  ~source,
+  "brazil",         "br",   "weo_2019",
+  "india",          "in",   "weo_2019",
+  "japan",          "jp",   "weo_2019",
+  "russia",         "ru",   "weo_2019",
+  "south africa",   "za",   "weo_2019",
+  "united states",  "us",   "weo_2019",
+)
+
+countries_for_regions_we02020 <- tibble::tribble(
+  ~region,          ~isos,  ~source,
+  "brazil",         "br",   "weo_2020",
+  "india",          "in",   "weo_2020",
+  "japan",          "jp",   "weo_2020",
+  "russia",         "ru",   "weo_2020",
+  "south africa",   "za",   "weo_2020",
+  "united states",  "us",   "weo_2020"
+)
+
+region_isos <- region_isos %>%
+  dplyr::bind_rows(countries_for_regions_we02019, countries_for_regions_we02020)
+
+
 usethis::use_data(region_isos, overwrite = TRUE)
