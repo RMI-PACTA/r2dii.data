@@ -12,7 +12,12 @@ test_that("outputs regions for expected scenario sources", {
     "etp_2017",
     "weo_2020",
     "isf_2020",
-    "nze_2021"
+    "nze_2021",
+    "geco_2020",
+    "geco_2021",
+    "etp_2020",
+    "weo_2021"
+
   )
 
   expect_equal(
