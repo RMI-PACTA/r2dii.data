@@ -231,6 +231,58 @@ region_isos_nze_2021 <- process_countries(
   source_year
 )
 
+# Process raw_regions_etp_2020.csv ----------------------------------------
+
+# Source: raw_regions_etp_2020.csv was transcribed from the 2020
+# Energy Technology Perspectives
+source_year <- "etp_2020"
+region_data <- read_regions(regions_path(source_year))
+
+region_isos_etp_2020 <- process_countries(
+  region_data,
+  ald_isos,
+  source_year
+)
+
+# Process raw_regions_weo_2021.csv ----------------------------------------
+
+# Source: raw_regions_weo_2021.csv was transcribed from
+# https://iea.blob.core.windows.net/assets/4ed140c1-c3f3-4fd9-acae-789a4e14a23c/WorldEnergyOutlook2021.pdf
+source_year <- "weo_2021"
+region_data <- read_regions(regions_path(source_year))
+
+region_isos_weo_2021 <- process_countries(
+  region_data,
+  ald_isos,
+  source_year
+)
+
+# Process raw_regions_geco_2020.csv ----------------------------------------
+
+# Source: raw_regions_geco_2020.csv was transcribed from
+# https://publications.jrc.ec.europa.eu/repository/handle/JRC126767
+source_year <- "geco_2020"
+region_data <- read_regions(regions_path(source_year))
+
+region_isos_geco_2020 <- process_countries(
+  region_data,
+  ald_isos,
+  source_year
+)
+
+# Process raw_regions_geco_2021.csv ----------------------------------------
+
+# Source: raw_regions_geco_2021.csv was transcribed from
+# https://publications.jrc.ec.europa.eu/repository/handle/JRC126767
+source_year <- "geco_2021"
+region_data <- read_regions(regions_path(source_year))
+
+region_isos_geco_2021 <- process_countries(
+  region_data,
+  ald_isos,
+  source_year
+)
+
 # Combine -----------------------------------------------------------------
 
 region_isos <- rbind(
@@ -238,7 +290,11 @@ region_isos <- rbind(
   region_isos_etp_2017,
   region_isos_weo_2020,
   region_isos_isf_2020,
-  region_isos_nze_2021
+  region_isos_nze_2021,
+  region_isos_etp_2020,
+  region_isos_weo_2021,
+  region_isos_geco_2020,
+  region_isos_geco_2021
 ) %>%
   group_by(region, source) %>%
   distinct(isos) %>%
