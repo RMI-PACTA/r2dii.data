@@ -58,10 +58,10 @@ rest south america,sr,country_name,geco_2021
 rest south america,uy,country_name,geco_2021
 rest south america,ve,country_name,geco_2021
 egypt,eg,country_name,geco_2021
-algeria & libya,dz,country_name,geco_2021
-algeria & libya,ly,country_name,geco_2021
-morocco & tunisia,ma,country_name,geco_2021
-morocco & tunisia,tn,country_name,geco_2021
+algeria and libya,dz,country_name,geco_2021
+algeria and libya,ly,country_name,geco_2021
+morocco and tunisia,ma,country_name,geco_2021
+morocco and tunisia,tn,country_name,geco_2021
 south africa,za,country_name,geco_2021
 rest sub saharan africa,bf,country_name,geco_2021
 rest sub saharan africa,bi,country_name,geco_2021
