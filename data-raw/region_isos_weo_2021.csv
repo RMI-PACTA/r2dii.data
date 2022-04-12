@@ -1,0 +1,1121 @@
+region,value,type,source
+advanced economies,bg,country_name,weo_2021
+advanced economies,hr,country_name,weo_2021
+advanced economies,cy,country_name,weo_2021
+advanced economies,mt,country_name,weo_2021
+advanced economies,ro,country_name,weo_2021
+advanced economies,au,country_name,weo_2021
+advanced economies,at,country_name,weo_2021
+advanced economies,be,country_name,weo_2021
+advanced economies,ca,country_name,weo_2021
+advanced economies,cl,country_name,weo_2021
+advanced economies,cz,country_name,weo_2021
+advanced economies,dk,country_name,weo_2021
+advanced economies,ee,country_name,weo_2021
+advanced economies,fi,country_name,weo_2021
+advanced economies,fr,country_name,weo_2021
+advanced economies,de,country_name,weo_2021
+advanced economies,gr,country_name,weo_2021
+advanced economies,hu,country_name,weo_2021
+advanced economies,is,country_name,weo_2021
+advanced economies,ie,country_name,weo_2021
+advanced economies,il,country_name,weo_2021
+advanced economies,it,country_name,weo_2021
+advanced economies,jp,country_name,weo_2021
+advanced economies,kp,country_name,weo_2021
+advanced economies,lv,country_name,weo_2021
+advanced economies,lt,country_name,weo_2021
+advanced economies,lu,country_name,weo_2021
+advanced economies,mx,country_name,weo_2021
+advanced economies,nl,country_name,weo_2021
+advanced economies,nz,country_name,weo_2021
+advanced economies,no,country_name,weo_2021
+advanced economies,pl,country_name,weo_2021
+advanced economies,pt,country_name,weo_2021
+advanced economies,sk,country_name,weo_2021
+advanced economies,si,country_name,weo_2021
+advanced economies,es,country_name,weo_2021
+advanced economies,se,country_name,weo_2021
+advanced economies,ch,country_name,weo_2021
+advanced economies,tr,country_name,weo_2021
+advanced economies,gb,country_name,weo_2021
+advanced economies,us,country_name,weo_2021
+africa,dz,country_name,weo_2021
+africa,eg,country_name,weo_2021
+africa,ly,country_name,weo_2021
+africa,ma,country_name,weo_2021
+africa,tn,country_name,weo_2021
+africa,ao,country_name,weo_2021
+africa,bj,country_name,weo_2021
+africa,bw,country_name,weo_2021
+africa,cm,country_name,weo_2021
+africa,cg,country_name,weo_2021
+africa,ci,country_name,weo_2021
+africa,cd,country_name,weo_2021
+africa,er,country_name,weo_2021
+africa,et,country_name,weo_2021
+africa,ga,country_name,weo_2021
+africa,gh,country_name,weo_2021
+africa,ke,country_name,weo_2021
+africa,mu,country_name,weo_2021
+africa,mz,country_name,weo_2021
+africa,na,country_name,weo_2021
+africa,ne,country_name,weo_2021
+africa,ng,country_name,weo_2021
+africa,sn,country_name,weo_2021
+africa,za,country_name,weo_2021
+africa,ss,country_name,weo_2021
+africa,sd,country_name,weo_2021
+africa,tz,country_name,weo_2021
+africa,tg,country_name,weo_2021
+africa,zm,country_name,weo_2021
+africa,zw,country_name,weo_2021
+asia pacific,au,country_name,weo_2021
+asia pacific,bd,country_name,weo_2021
+asia pacific,cn,country_name,weo_2021
+asia pacific,in,country_name,weo_2021
+asia pacific,jp,country_name,weo_2021
+asia pacific,kp,country_name,weo_2021
+asia pacific,mn,country_name,weo_2021
+asia pacific,np,country_name,weo_2021
+asia pacific,nz,country_name,weo_2021
+asia pacific,pk,country_name,weo_2021
+asia pacific,lk,country_name,weo_2021
+asia pacific,tw,country_name,weo_2021
+asia pacific,bn,country_name,weo_2021
+asia pacific,kh,country_name,weo_2021
+asia pacific,id,country_name,weo_2021
+asia pacific,la,country_name,weo_2021
+asia pacific,my,country_name,weo_2021
+asia pacific,mm,country_name,weo_2021
+asia pacific,ph,country_name,weo_2021
+asia pacific,sg,country_name,weo_2021
+asia pacific,th,country_name,weo_2021
+asia pacific,vn,country_name,weo_2021
+asia pacific,af,country_name,weo_2021
+asia pacific,bt,country_name,weo_2021
+asia pacific,ck,country_name,weo_2021
+asia pacific,fj,country_name,weo_2021
+asia pacific,pf,country_name,weo_2021
+asia pacific,ki,country_name,weo_2021
+asia pacific,mo,country_name,weo_2021
+asia pacific,mv,country_name,weo_2021
+asia pacific,nc,country_name,weo_2021
+asia pacific,pw,country_name,weo_2021
+asia pacific,pg,country_name,weo_2021
+asia pacific,ws,country_name,weo_2021
+asia pacific,sb,country_name,weo_2021
+asia pacific,tl,country_name,weo_2021
+asia pacific,to,country_name,weo_2021
+asia pacific,vu,country_name,weo_2021
+central and south america,ar,country_name,weo_2021
+central and south america,bo,country_name,weo_2021
+central and south america,br,country_name,weo_2021
+central and south america,cl,country_name,weo_2021
+central and south america,co,country_name,weo_2021
+central and south america,cr,country_name,weo_2021
+central and south america,cu,country_name,weo_2021
+central and south america,cw,country_name,weo_2021
+central and south america,do,country_name,weo_2021
+central and south america,ec,country_name,weo_2021
+central and south america,sv,country_name,weo_2021
+central and south america,gt,country_name,weo_2021
+central and south america,ht,country_name,weo_2021
+central and south america,hn,country_name,weo_2021
+central and south america,jm,country_name,weo_2021
+central and south america,ni,country_name,weo_2021
+central and south america,pa,country_name,weo_2021
+central and south america,py,country_name,weo_2021
+central and south america,pe,country_name,weo_2021
+central and south america,sr,country_name,weo_2021
+central and south america,tt,country_name,weo_2021
+central and south america,uy,country_name,weo_2021
+central and south america,ve,country_name,weo_2021
+central and south america,ai,country_name,weo_2021
+central and south america,ag,country_name,weo_2021
+central and south america,aw,country_name,weo_2021
+central and south america,bs,country_name,weo_2021
+central and south america,bb,country_name,weo_2021
+central and south america,bz,country_name,weo_2021
+central and south america,bm,country_name,weo_2021
+central and south america,bq,country_name,weo_2021
+central and south america,vg,country_name,weo_2021
+central and south america,ky,country_name,weo_2021
+central and south america,dm,country_name,weo_2021
+central and south america,fk,country_name,weo_2021
+central and south america,gf,country_name,weo_2021
+central and south america,gd,country_name,weo_2021
+central and south america,gp,country_name,weo_2021
+central and south america,gy,country_name,weo_2021
+central and south america,mq,country_name,weo_2021
+central and south america,ms,country_name,weo_2021
+central and south america,lc,country_name,weo_2021
+central and south america,pm,country_name,weo_2021
+central and south america,vc,country_name,weo_2021
+central and south america,mf,country_name,weo_2021
+central and south america,tc,country_name,weo_2021
+china,cn,country_name,weo_2021
+china,hk,country_name,weo_2021
+eurasia,ru,country_name,weo_2021
+eurasia,am,country_name,weo_2021
+eurasia,az,country_name,weo_2021
+eurasia,ge,country_name,weo_2021
+eurasia,kz,country_name,weo_2021
+eurasia,kg,country_name,weo_2021
+eurasia,tj,country_name,weo_2021
+eurasia,tm,country_name,weo_2021
+eurasia,uz,country_name,weo_2021
+europe,al,country_name,weo_2021
+europe,by,country_name,weo_2021
+europe,ba,country_name,weo_2021
+europe,mk,country_name,weo_2021
+europe,gi,country_name,weo_2021
+europe,is,country_name,weo_2021
+europe,il,country_name,weo_2021
+europe,xk,country_name,weo_2021
+europe,me,country_name,weo_2021
+europe,no,country_name,weo_2021
+europe,rs,country_name,weo_2021
+europe,ch,country_name,weo_2021
+europe,md,country_name,weo_2021
+europe,tr,country_name,weo_2021
+europe,ua,country_name,weo_2021
+europe,at,country_name,weo_2021
+europe,be,country_name,weo_2021
+europe,bg,country_name,weo_2021
+europe,hr,country_name,weo_2021
+europe,cy,country_name,weo_2021
+europe,cz,country_name,weo_2021
+europe,dk,country_name,weo_2021
+europe,ee,country_name,weo_2021
+europe,fi,country_name,weo_2021
+europe,fr,country_name,weo_2021
+europe,de,country_name,weo_2021
+europe,gr,country_name,weo_2021
+europe,hu,country_name,weo_2021
+europe,ie,country_name,weo_2021
+europe,it,country_name,weo_2021
+europe,lv,country_name,weo_2021
+europe,lt,country_name,weo_2021
+europe,lu,country_name,weo_2021
+europe,mt,country_name,weo_2021
+europe,nl,country_name,weo_2021
+europe,pl,country_name,weo_2021
+europe,pt,country_name,weo_2021
+europe,ro,country_name,weo_2021
+europe,sk,country_name,weo_2021
+europe,si,country_name,weo_2021
+europe,es,country_name,weo_2021
+europe,se,country_name,weo_2021
+europe,gb,country_name,weo_2021
+european union,at,country_name,weo_2021
+european union,be,country_name,weo_2021
+european union,bg,country_name,weo_2021
+european union,hr,country_name,weo_2021
+european union,cy,country_name,weo_2021
+european union,cz,country_name,weo_2021
+european union,dk,country_name,weo_2021
+european union,ee,country_name,weo_2021
+european union,fi,country_name,weo_2021
+european union,fr,country_name,weo_2021
+european union,de,country_name,weo_2021
+european union,gr,country_name,weo_2021
+european union,hu,country_name,weo_2021
+european union,ie,country_name,weo_2021
+european union,it,country_name,weo_2021
+european union,lv,country_name,weo_2021
+european union,lt,country_name,weo_2021
+european union,lu,country_name,weo_2021
+european union,mt,country_name,weo_2021
+european union,nl,country_name,weo_2021
+european union,pl,country_name,weo_2021
+european union,pt,country_name,weo_2021
+european union,ro,country_name,weo_2021
+european union,sk,country_name,weo_2021
+european union,si,country_name,weo_2021
+european union,es,country_name,weo_2021
+european union,se,country_name,weo_2021
+middle east,bh,country_name,weo_2021
+middle east,ir,country_name,weo_2021
+middle east,iq,country_name,weo_2021
+middle east,jo,country_name,weo_2021
+middle east,kw,country_name,weo_2021
+middle east,lb,country_name,weo_2021
+middle east,om,country_name,weo_2021
+middle east,qa,country_name,weo_2021
+middle east,sa,country_name,weo_2021
+middle east,sy,country_name,weo_2021
+middle east,ae,country_name,weo_2021
+middle east,ye,country_name,weo_2021
+north america,ca,country_name,weo_2021
+north america,mx,country_name,weo_2021
+north america,us,country_name,weo_2021
+oecd,au,country_name,weo_2021
+oecd,at,country_name,weo_2021
+oecd,be,country_name,weo_2021
+oecd,ca,country_name,weo_2021
+oecd,cl,country_name,weo_2021
+oecd,cz,country_name,weo_2021
+oecd,dk,country_name,weo_2021
+oecd,ee,country_name,weo_2021
+oecd,fi,country_name,weo_2021
+oecd,fr,country_name,weo_2021
+oecd,de,country_name,weo_2021
+oecd,gr,country_name,weo_2021
+oecd,hu,country_name,weo_2021
+oecd,is,country_name,weo_2021
+oecd,ie,country_name,weo_2021
+oecd,il,country_name,weo_2021
+oecd,it,country_name,weo_2021
+oecd,jp,country_name,weo_2021
+oecd,kp,country_name,weo_2021
+oecd,lv,country_name,weo_2021
+oecd,lt,country_name,weo_2021
+oecd,lu,country_name,weo_2021
+oecd,mx,country_name,weo_2021
+oecd,nl,country_name,weo_2021
+oecd,nz,country_name,weo_2021
+oecd,no,country_name,weo_2021
+oecd,pl,country_name,weo_2021
+oecd,pt,country_name,weo_2021
+oecd,sk,country_name,weo_2021
+oecd,si,country_name,weo_2021
+oecd,es,country_name,weo_2021
+oecd,se,country_name,weo_2021
+oecd,ch,country_name,weo_2021
+oecd,tr,country_name,weo_2021
+oecd,gb,country_name,weo_2021
+oecd,us,country_name,weo_2021
+opec,dz,country_name,weo_2021
+opec,ao,country_name,weo_2021
+opec,cg,country_name,weo_2021
+opec,gq,country_name,weo_2021
+opec,ga,country_name,weo_2021
+opec,ir,country_name,weo_2021
+opec,iq,country_name,weo_2021
+opec,kw,country_name,weo_2021
+opec,ly,country_name,weo_2021
+opec,ng,country_name,weo_2021
+opec,sa,country_name,weo_2021
+opec,ae,country_name,weo_2021
+opec,ve,country_name,weo_2021
+southeast asia,bn,country_name,weo_2021
+southeast asia,kh,country_name,weo_2021
+southeast asia,id,country_name,weo_2021
+southeast asia,la,country_name,weo_2021
+southeast asia,my,country_name,weo_2021
+southeast asia,mm,country_name,weo_2021
+southeast asia,ph,country_name,weo_2021
+southeast asia,sg,country_name,weo_2021
+southeast asia,th,country_name,weo_2021
+southeast asia,vn,country_name,weo_2021
+global,bg,country_name,weo_2021
+global,hr,country_name,weo_2021
+global,cy,country_name,weo_2021
+global,mt,country_name,weo_2021
+global,ro,country_name,weo_2021
+global,au,country_name,weo_2021
+global,at,country_name,weo_2021
+global,be,country_name,weo_2021
+global,ca,country_name,weo_2021
+global,cl,country_name,weo_2021
+global,cz,country_name,weo_2021
+global,dk,country_name,weo_2021
+global,ee,country_name,weo_2021
+global,fi,country_name,weo_2021
+global,fr,country_name,weo_2021
+global,de,country_name,weo_2021
+global,gr,country_name,weo_2021
+global,hu,country_name,weo_2021
+global,is,country_name,weo_2021
+global,ie,country_name,weo_2021
+global,il,country_name,weo_2021
+global,it,country_name,weo_2021
+global,jp,country_name,weo_2021
+global,kp,country_name,weo_2021
+global,lv,country_name,weo_2021
+global,lt,country_name,weo_2021
+global,lu,country_name,weo_2021
+global,mx,country_name,weo_2021
+global,nl,country_name,weo_2021
+global,nz,country_name,weo_2021
+global,no,country_name,weo_2021
+global,pl,country_name,weo_2021
+global,pt,country_name,weo_2021
+global,sk,country_name,weo_2021
+global,si,country_name,weo_2021
+global,es,country_name,weo_2021
+global,se,country_name,weo_2021
+global,ch,country_name,weo_2021
+global,tr,country_name,weo_2021
+global,gb,country_name,weo_2021
+global,us,country_name,weo_2021
+global,dz,country_name,weo_2021
+global,eg,country_name,weo_2021
+global,ly,country_name,weo_2021
+global,ma,country_name,weo_2021
+global,tn,country_name,weo_2021
+global,ao,country_name,weo_2021
+global,bj,country_name,weo_2021
+global,bw,country_name,weo_2021
+global,cm,country_name,weo_2021
+global,cg,country_name,weo_2021
+global,ci,country_name,weo_2021
+global,cd,country_name,weo_2021
+global,er,country_name,weo_2021
+global,et,country_name,weo_2021
+global,ga,country_name,weo_2021
+global,gh,country_name,weo_2021
+global,ke,country_name,weo_2021
+global,mu,country_name,weo_2021
+global,mz,country_name,weo_2021
+global,na,country_name,weo_2021
+global,ne,country_name,weo_2021
+global,ng,country_name,weo_2021
+global,sn,country_name,weo_2021
+global,za,country_name,weo_2021
+global,ss,country_name,weo_2021
+global,sd,country_name,weo_2021
+global,tz,country_name,weo_2021
+global,tg,country_name,weo_2021
+global,zm,country_name,weo_2021
+global,zw,country_name,weo_2021
+global,bd,country_name,weo_2021
+global,cn,country_name,weo_2021
+global,in,country_name,weo_2021
+global,mn,country_name,weo_2021
+global,np,country_name,weo_2021
+global,pk,country_name,weo_2021
+global,lk,country_name,weo_2021
+global,tw,country_name,weo_2021
+global,bn,country_name,weo_2021
+global,kh,country_name,weo_2021
+global,id,country_name,weo_2021
+global,la,country_name,weo_2021
+global,my,country_name,weo_2021
+global,mm,country_name,weo_2021
+global,ph,country_name,weo_2021
+global,sg,country_name,weo_2021
+global,th,country_name,weo_2021
+global,vn,country_name,weo_2021
+global,af,country_name,weo_2021
+global,bt,country_name,weo_2021
+global,ck,country_name,weo_2021
+global,fj,country_name,weo_2021
+global,pf,country_name,weo_2021
+global,ki,country_name,weo_2021
+global,mo,country_name,weo_2021
+global,mv,country_name,weo_2021
+global,nc,country_name,weo_2021
+global,pw,country_name,weo_2021
+global,pg,country_name,weo_2021
+global,ws,country_name,weo_2021
+global,sb,country_name,weo_2021
+global,tl,country_name,weo_2021
+global,to,country_name,weo_2021
+global,vu,country_name,weo_2021
+global,am,country_name,weo_2021
+global,az,country_name,weo_2021
+global,ge,country_name,weo_2021
+global,kz,country_name,weo_2021
+global,kg,country_name,weo_2021
+global,tj,country_name,weo_2021
+global,tm,country_name,weo_2021
+global,uz,country_name,weo_2021
+global,ar,country_name,weo_2021
+global,bo,country_name,weo_2021
+global,br,country_name,weo_2021
+global,co,country_name,weo_2021
+global,cr,country_name,weo_2021
+global,cu,country_name,weo_2021
+global,cw,country_name,weo_2021
+global,do,country_name,weo_2021
+global,ec,country_name,weo_2021
+global,sv,country_name,weo_2021
+global,gt,country_name,weo_2021
+global,ht,country_name,weo_2021
+global,hn,country_name,weo_2021
+global,jm,country_name,weo_2021
+global,ni,country_name,weo_2021
+global,pa,country_name,weo_2021
+global,py,country_name,weo_2021
+global,pe,country_name,weo_2021
+global,sr,country_name,weo_2021
+global,tt,country_name,weo_2021
+global,uy,country_name,weo_2021
+global,ve,country_name,weo_2021
+global,ai,country_name,weo_2021
+global,ag,country_name,weo_2021
+global,aw,country_name,weo_2021
+global,bs,country_name,weo_2021
+global,bb,country_name,weo_2021
+global,bz,country_name,weo_2021
+global,bm,country_name,weo_2021
+global,bq,country_name,weo_2021
+global,vg,country_name,weo_2021
+global,ky,country_name,weo_2021
+global,dm,country_name,weo_2021
+global,fk,country_name,weo_2021
+global,gf,country_name,weo_2021
+global,gd,country_name,weo_2021
+global,gp,country_name,weo_2021
+global,gy,country_name,weo_2021
+global,mq,country_name,weo_2021
+global,ms,country_name,weo_2021
+global,lc,country_name,weo_2021
+global,pm,country_name,weo_2021
+global,vc,country_name,weo_2021
+global,mf,country_name,weo_2021
+global,tc,country_name,weo_2021
+global,hk,country_name,weo_2021
+global,ru,country_name,weo_2021
+global,al,country_name,weo_2021
+global,by,country_name,weo_2021
+global,ba,country_name,weo_2021
+global,mk,country_name,weo_2021
+global,gi,country_name,weo_2021
+global,xk,country_name,weo_2021
+global,me,country_name,weo_2021
+global,rs,country_name,weo_2021
+global,md,country_name,weo_2021
+global,ua,country_name,weo_2021
+global,bh,country_name,weo_2021
+global,ir,country_name,weo_2021
+global,iq,country_name,weo_2021
+global,jo,country_name,weo_2021
+global,kw,country_name,weo_2021
+global,lb,country_name,weo_2021
+global,om,country_name,weo_2021
+global,qa,country_name,weo_2021
+global,sa,country_name,weo_2021
+global,sy,country_name,weo_2021
+global,ae,country_name,weo_2021
+global,ye,country_name,weo_2021
+global,gq,country_name,weo_2021
+global,bf,country_name,weo_2021
+global,bi,country_name,weo_2021
+global,cv,country_name,weo_2021
+global,cf,country_name,weo_2021
+global,td,country_name,weo_2021
+global,km,country_name,weo_2021
+global,dj,country_name,weo_2021
+global,gm,country_name,weo_2021
+global,gn,country_name,weo_2021
+global,gw,country_name,weo_2021
+global,ls,country_name,weo_2021
+global,lr,country_name,weo_2021
+global,mg,country_name,weo_2021
+global,mw,country_name,weo_2021
+global,ml,country_name,weo_2021
+global,mr,country_name,weo_2021
+global,re,country_name,weo_2021
+global,rw,country_name,weo_2021
+global,st,country_name,weo_2021
+global,sc,country_name,weo_2021
+global,sl,country_name,weo_2021
+global,so,country_name,weo_2021
+global,ug,country_name,weo_2021
+developing economies,dz,country_name,weo_2021
+developing economies,eg,country_name,weo_2021
+developing economies,ly,country_name,weo_2021
+developing economies,ma,country_name,weo_2021
+developing economies,tn,country_name,weo_2021
+developing economies,ao,country_name,weo_2021
+developing economies,bj,country_name,weo_2021
+developing economies,bw,country_name,weo_2021
+developing economies,cm,country_name,weo_2021
+developing economies,cg,country_name,weo_2021
+developing economies,ci,country_name,weo_2021
+developing economies,cd,country_name,weo_2021
+developing economies,er,country_name,weo_2021
+developing economies,et,country_name,weo_2021
+developing economies,ga,country_name,weo_2021
+developing economies,gh,country_name,weo_2021
+developing economies,ke,country_name,weo_2021
+developing economies,mu,country_name,weo_2021
+developing economies,mz,country_name,weo_2021
+developing economies,na,country_name,weo_2021
+developing economies,ne,country_name,weo_2021
+developing economies,ng,country_name,weo_2021
+developing economies,sn,country_name,weo_2021
+developing economies,za,country_name,weo_2021
+developing economies,ss,country_name,weo_2021
+developing economies,sd,country_name,weo_2021
+developing economies,tz,country_name,weo_2021
+developing economies,tg,country_name,weo_2021
+developing economies,zm,country_name,weo_2021
+developing economies,zw,country_name,weo_2021
+developing economies,bd,country_name,weo_2021
+developing economies,cn,country_name,weo_2021
+developing economies,in,country_name,weo_2021
+developing economies,mn,country_name,weo_2021
+developing economies,np,country_name,weo_2021
+developing economies,pk,country_name,weo_2021
+developing economies,lk,country_name,weo_2021
+developing economies,tw,country_name,weo_2021
+developing economies,bn,country_name,weo_2021
+developing economies,kh,country_name,weo_2021
+developing economies,id,country_name,weo_2021
+developing economies,la,country_name,weo_2021
+developing economies,my,country_name,weo_2021
+developing economies,mm,country_name,weo_2021
+developing economies,ph,country_name,weo_2021
+developing economies,sg,country_name,weo_2021
+developing economies,th,country_name,weo_2021
+developing economies,vn,country_name,weo_2021
+developing economies,af,country_name,weo_2021
+developing economies,bt,country_name,weo_2021
+developing economies,ck,country_name,weo_2021
+developing economies,fj,country_name,weo_2021
+developing economies,pf,country_name,weo_2021
+developing economies,ki,country_name,weo_2021
+developing economies,mo,country_name,weo_2021
+developing economies,mv,country_name,weo_2021
+developing economies,nc,country_name,weo_2021
+developing economies,pw,country_name,weo_2021
+developing economies,pg,country_name,weo_2021
+developing economies,ws,country_name,weo_2021
+developing economies,sb,country_name,weo_2021
+developing economies,tl,country_name,weo_2021
+developing economies,to,country_name,weo_2021
+developing economies,vu,country_name,weo_2021
+developing economies,am,country_name,weo_2021
+developing economies,az,country_name,weo_2021
+developing economies,ge,country_name,weo_2021
+developing economies,kz,country_name,weo_2021
+developing economies,kg,country_name,weo_2021
+developing economies,tj,country_name,weo_2021
+developing economies,tm,country_name,weo_2021
+developing economies,uz,country_name,weo_2021
+developing economies,ar,country_name,weo_2021
+developing economies,bo,country_name,weo_2021
+developing economies,br,country_name,weo_2021
+developing economies,co,country_name,weo_2021
+developing economies,cr,country_name,weo_2021
+developing economies,cu,country_name,weo_2021
+developing economies,cw,country_name,weo_2021
+developing economies,do,country_name,weo_2021
+developing economies,ec,country_name,weo_2021
+developing economies,sv,country_name,weo_2021
+developing economies,gt,country_name,weo_2021
+developing economies,ht,country_name,weo_2021
+developing economies,hn,country_name,weo_2021
+developing economies,jm,country_name,weo_2021
+developing economies,ni,country_name,weo_2021
+developing economies,pa,country_name,weo_2021
+developing economies,py,country_name,weo_2021
+developing economies,pe,country_name,weo_2021
+developing economies,sr,country_name,weo_2021
+developing economies,tt,country_name,weo_2021
+developing economies,uy,country_name,weo_2021
+developing economies,ve,country_name,weo_2021
+developing economies,ai,country_name,weo_2021
+developing economies,ag,country_name,weo_2021
+developing economies,aw,country_name,weo_2021
+developing economies,bs,country_name,weo_2021
+developing economies,bb,country_name,weo_2021
+developing economies,bz,country_name,weo_2021
+developing economies,bm,country_name,weo_2021
+developing economies,bq,country_name,weo_2021
+developing economies,vg,country_name,weo_2021
+developing economies,ky,country_name,weo_2021
+developing economies,dm,country_name,weo_2021
+developing economies,fk,country_name,weo_2021
+developing economies,gf,country_name,weo_2021
+developing economies,gd,country_name,weo_2021
+developing economies,gp,country_name,weo_2021
+developing economies,gy,country_name,weo_2021
+developing economies,mq,country_name,weo_2021
+developing economies,ms,country_name,weo_2021
+developing economies,lc,country_name,weo_2021
+developing economies,pm,country_name,weo_2021
+developing economies,vc,country_name,weo_2021
+developing economies,mf,country_name,weo_2021
+developing economies,tc,country_name,weo_2021
+developing economies,hk,country_name,weo_2021
+developing economies,ru,country_name,weo_2021
+developing economies,al,country_name,weo_2021
+developing economies,by,country_name,weo_2021
+developing economies,ba,country_name,weo_2021
+developing economies,mk,country_name,weo_2021
+developing economies,gi,country_name,weo_2021
+developing economies,xk,country_name,weo_2021
+developing economies,me,country_name,weo_2021
+developing economies,rs,country_name,weo_2021
+developing economies,md,country_name,weo_2021
+developing economies,ua,country_name,weo_2021
+developing economies,bh,country_name,weo_2021
+developing economies,ir,country_name,weo_2021
+developing economies,iq,country_name,weo_2021
+developing economies,jo,country_name,weo_2021
+developing economies,kw,country_name,weo_2021
+developing economies,lb,country_name,weo_2021
+developing economies,om,country_name,weo_2021
+developing economies,qa,country_name,weo_2021
+developing economies,sa,country_name,weo_2021
+developing economies,sy,country_name,weo_2021
+developing economies,ae,country_name,weo_2021
+developing economies,ye,country_name,weo_2021
+developing economies,gq,country_name,weo_2021
+developing economies,bf,country_name,weo_2021
+developing economies,bi,country_name,weo_2021
+developing economies,cv,country_name,weo_2021
+developing economies,cf,country_name,weo_2021
+developing economies,td,country_name,weo_2021
+developing economies,km,country_name,weo_2021
+developing economies,dj,country_name,weo_2021
+developing economies,gm,country_name,weo_2021
+developing economies,gn,country_name,weo_2021
+developing economies,gw,country_name,weo_2021
+developing economies,ls,country_name,weo_2021
+developing economies,lr,country_name,weo_2021
+developing economies,mg,country_name,weo_2021
+developing economies,mw,country_name,weo_2021
+developing economies,ml,country_name,weo_2021
+developing economies,mr,country_name,weo_2021
+developing economies,re,country_name,weo_2021
+developing economies,rw,country_name,weo_2021
+developing economies,st,country_name,weo_2021
+developing economies,sc,country_name,weo_2021
+developing economies,sl,country_name,weo_2021
+developing economies,so,country_name,weo_2021
+developing economies,ug,country_name,weo_2021
+non oecd,bg,country_name,weo_2021
+non oecd,hr,country_name,weo_2021
+non oecd,cy,country_name,weo_2021
+non oecd,mt,country_name,weo_2021
+non oecd,ro,country_name,weo_2021
+non oecd,dz,country_name,weo_2021
+non oecd,eg,country_name,weo_2021
+non oecd,ly,country_name,weo_2021
+non oecd,ma,country_name,weo_2021
+non oecd,tn,country_name,weo_2021
+non oecd,ao,country_name,weo_2021
+non oecd,bj,country_name,weo_2021
+non oecd,bw,country_name,weo_2021
+non oecd,cm,country_name,weo_2021
+non oecd,cg,country_name,weo_2021
+non oecd,ci,country_name,weo_2021
+non oecd,cd,country_name,weo_2021
+non oecd,er,country_name,weo_2021
+non oecd,et,country_name,weo_2021
+non oecd,ga,country_name,weo_2021
+non oecd,gh,country_name,weo_2021
+non oecd,ke,country_name,weo_2021
+non oecd,mu,country_name,weo_2021
+non oecd,mz,country_name,weo_2021
+non oecd,na,country_name,weo_2021
+non oecd,ne,country_name,weo_2021
+non oecd,ng,country_name,weo_2021
+non oecd,sn,country_name,weo_2021
+non oecd,za,country_name,weo_2021
+non oecd,ss,country_name,weo_2021
+non oecd,sd,country_name,weo_2021
+non oecd,tz,country_name,weo_2021
+non oecd,tg,country_name,weo_2021
+non oecd,zm,country_name,weo_2021
+non oecd,zw,country_name,weo_2021
+non oecd,bd,country_name,weo_2021
+non oecd,cn,country_name,weo_2021
+non oecd,in,country_name,weo_2021
+non oecd,mn,country_name,weo_2021
+non oecd,np,country_name,weo_2021
+non oecd,pk,country_name,weo_2021
+non oecd,lk,country_name,weo_2021
+non oecd,tw,country_name,weo_2021
+non oecd,bn,country_name,weo_2021
+non oecd,kh,country_name,weo_2021
+non oecd,id,country_name,weo_2021
+non oecd,la,country_name,weo_2021
+non oecd,my,country_name,weo_2021
+non oecd,mm,country_name,weo_2021
+non oecd,ph,country_name,weo_2021
+non oecd,sg,country_name,weo_2021
+non oecd,th,country_name,weo_2021
+non oecd,vn,country_name,weo_2021
+non oecd,af,country_name,weo_2021
+non oecd,bt,country_name,weo_2021
+non oecd,ck,country_name,weo_2021
+non oecd,fj,country_name,weo_2021
+non oecd,pf,country_name,weo_2021
+non oecd,ki,country_name,weo_2021
+non oecd,mo,country_name,weo_2021
+non oecd,mv,country_name,weo_2021
+non oecd,nc,country_name,weo_2021
+non oecd,pw,country_name,weo_2021
+non oecd,pg,country_name,weo_2021
+non oecd,ws,country_name,weo_2021
+non oecd,sb,country_name,weo_2021
+non oecd,tl,country_name,weo_2021
+non oecd,to,country_name,weo_2021
+non oecd,vu,country_name,weo_2021
+non oecd,am,country_name,weo_2021
+non oecd,az,country_name,weo_2021
+non oecd,ge,country_name,weo_2021
+non oecd,kz,country_name,weo_2021
+non oecd,kg,country_name,weo_2021
+non oecd,tj,country_name,weo_2021
+non oecd,tm,country_name,weo_2021
+non oecd,uz,country_name,weo_2021
+non oecd,ar,country_name,weo_2021
+non oecd,bo,country_name,weo_2021
+non oecd,br,country_name,weo_2021
+non oecd,co,country_name,weo_2021
+non oecd,cr,country_name,weo_2021
+non oecd,cu,country_name,weo_2021
+non oecd,cw,country_name,weo_2021
+non oecd,do,country_name,weo_2021
+non oecd,ec,country_name,weo_2021
+non oecd,sv,country_name,weo_2021
+non oecd,gt,country_name,weo_2021
+non oecd,ht,country_name,weo_2021
+non oecd,hn,country_name,weo_2021
+non oecd,jm,country_name,weo_2021
+non oecd,ni,country_name,weo_2021
+non oecd,pa,country_name,weo_2021
+non oecd,py,country_name,weo_2021
+non oecd,pe,country_name,weo_2021
+non oecd,sr,country_name,weo_2021
+non oecd,tt,country_name,weo_2021
+non oecd,uy,country_name,weo_2021
+non oecd,ve,country_name,weo_2021
+non oecd,ai,country_name,weo_2021
+non oecd,ag,country_name,weo_2021
+non oecd,aw,country_name,weo_2021
+non oecd,bs,country_name,weo_2021
+non oecd,bb,country_name,weo_2021
+non oecd,bz,country_name,weo_2021
+non oecd,bm,country_name,weo_2021
+non oecd,bq,country_name,weo_2021
+non oecd,vg,country_name,weo_2021
+non oecd,ky,country_name,weo_2021
+non oecd,dm,country_name,weo_2021
+non oecd,fk,country_name,weo_2021
+non oecd,gf,country_name,weo_2021
+non oecd,gd,country_name,weo_2021
+non oecd,gp,country_name,weo_2021
+non oecd,gy,country_name,weo_2021
+non oecd,mq,country_name,weo_2021
+non oecd,ms,country_name,weo_2021
+non oecd,lc,country_name,weo_2021
+non oecd,pm,country_name,weo_2021
+non oecd,vc,country_name,weo_2021
+non oecd,mf,country_name,weo_2021
+non oecd,tc,country_name,weo_2021
+non oecd,hk,country_name,weo_2021
+non oecd,ru,country_name,weo_2021
+non oecd,al,country_name,weo_2021
+non oecd,by,country_name,weo_2021
+non oecd,ba,country_name,weo_2021
+non oecd,mk,country_name,weo_2021
+non oecd,gi,country_name,weo_2021
+non oecd,xk,country_name,weo_2021
+non oecd,me,country_name,weo_2021
+non oecd,rs,country_name,weo_2021
+non oecd,md,country_name,weo_2021
+non oecd,ua,country_name,weo_2021
+non oecd,bh,country_name,weo_2021
+non oecd,ir,country_name,weo_2021
+non oecd,iq,country_name,weo_2021
+non oecd,jo,country_name,weo_2021
+non oecd,kw,country_name,weo_2021
+non oecd,lb,country_name,weo_2021
+non oecd,om,country_name,weo_2021
+non oecd,qa,country_name,weo_2021
+non oecd,sa,country_name,weo_2021
+non oecd,sy,country_name,weo_2021
+non oecd,ae,country_name,weo_2021
+non oecd,ye,country_name,weo_2021
+non oecd,gq,country_name,weo_2021
+non oecd,bf,country_name,weo_2021
+non oecd,bi,country_name,weo_2021
+non oecd,cv,country_name,weo_2021
+non oecd,cf,country_name,weo_2021
+non oecd,td,country_name,weo_2021
+non oecd,km,country_name,weo_2021
+non oecd,dj,country_name,weo_2021
+non oecd,gm,country_name,weo_2021
+non oecd,gn,country_name,weo_2021
+non oecd,gw,country_name,weo_2021
+non oecd,ls,country_name,weo_2021
+non oecd,lr,country_name,weo_2021
+non oecd,mg,country_name,weo_2021
+non oecd,mw,country_name,weo_2021
+non oecd,ml,country_name,weo_2021
+non oecd,mr,country_name,weo_2021
+non oecd,re,country_name,weo_2021
+non oecd,rw,country_name,weo_2021
+non oecd,st,country_name,weo_2021
+non oecd,sc,country_name,weo_2021
+non oecd,sl,country_name,weo_2021
+non oecd,so,country_name,weo_2021
+non oecd,ug,country_name,weo_2021
+non opec,bg,country_name,weo_2021
+non opec,hr,country_name,weo_2021
+non opec,cy,country_name,weo_2021
+non opec,mt,country_name,weo_2021
+non opec,ro,country_name,weo_2021
+non opec,au,country_name,weo_2021
+non opec,at,country_name,weo_2021
+non opec,be,country_name,weo_2021
+non opec,ca,country_name,weo_2021
+non opec,cl,country_name,weo_2021
+non opec,cz,country_name,weo_2021
+non opec,dk,country_name,weo_2021
+non opec,ee,country_name,weo_2021
+non opec,fi,country_name,weo_2021
+non opec,fr,country_name,weo_2021
+non opec,de,country_name,weo_2021
+non opec,gr,country_name,weo_2021
+non opec,hu,country_name,weo_2021
+non opec,is,country_name,weo_2021
+non opec,ie,country_name,weo_2021
+non opec,il,country_name,weo_2021
+non opec,it,country_name,weo_2021
+non opec,jp,country_name,weo_2021
+non opec,kp,country_name,weo_2021
+non opec,lv,country_name,weo_2021
+non opec,lt,country_name,weo_2021
+non opec,lu,country_name,weo_2021
+non opec,mx,country_name,weo_2021
+non opec,nl,country_name,weo_2021
+non opec,nz,country_name,weo_2021
+non opec,no,country_name,weo_2021
+non opec,pl,country_name,weo_2021
+non opec,pt,country_name,weo_2021
+non opec,sk,country_name,weo_2021
+non opec,si,country_name,weo_2021
+non opec,es,country_name,weo_2021
+non opec,se,country_name,weo_2021
+non opec,ch,country_name,weo_2021
+non opec,tr,country_name,weo_2021
+non opec,gb,country_name,weo_2021
+non opec,us,country_name,weo_2021
+non opec,eg,country_name,weo_2021
+non opec,ma,country_name,weo_2021
+non opec,tn,country_name,weo_2021
+non opec,bj,country_name,weo_2021
+non opec,bw,country_name,weo_2021
+non opec,cm,country_name,weo_2021
+non opec,ci,country_name,weo_2021
+non opec,cd,country_name,weo_2021
+non opec,er,country_name,weo_2021
+non opec,et,country_name,weo_2021
+non opec,gh,country_name,weo_2021
+non opec,ke,country_name,weo_2021
+non opec,mu,country_name,weo_2021
+non opec,mz,country_name,weo_2021
+non opec,na,country_name,weo_2021
+non opec,ne,country_name,weo_2021
+non opec,sn,country_name,weo_2021
+non opec,za,country_name,weo_2021
+non opec,ss,country_name,weo_2021
+non opec,sd,country_name,weo_2021
+non opec,tz,country_name,weo_2021
+non opec,tg,country_name,weo_2021
+non opec,zm,country_name,weo_2021
+non opec,zw,country_name,weo_2021
+non opec,bd,country_name,weo_2021
+non opec,cn,country_name,weo_2021
+non opec,in,country_name,weo_2021
+non opec,mn,country_name,weo_2021
+non opec,np,country_name,weo_2021
+non opec,pk,country_name,weo_2021
+non opec,lk,country_name,weo_2021
+non opec,tw,country_name,weo_2021
+non opec,bn,country_name,weo_2021
+non opec,kh,country_name,weo_2021
+non opec,id,country_name,weo_2021
+non opec,la,country_name,weo_2021
+non opec,my,country_name,weo_2021
+non opec,mm,country_name,weo_2021
+non opec,ph,country_name,weo_2021
+non opec,sg,country_name,weo_2021
+non opec,th,country_name,weo_2021
+non opec,vn,country_name,weo_2021
+non opec,af,country_name,weo_2021
+non opec,bt,country_name,weo_2021
+non opec,ck,country_name,weo_2021
+non opec,fj,country_name,weo_2021
+non opec,pf,country_name,weo_2021
+non opec,ki,country_name,weo_2021
+non opec,mo,country_name,weo_2021
+non opec,mv,country_name,weo_2021
+non opec,nc,country_name,weo_2021
+non opec,pw,country_name,weo_2021
+non opec,pg,country_name,weo_2021
+non opec,ws,country_name,weo_2021
+non opec,sb,country_name,weo_2021
+non opec,tl,country_name,weo_2021
+non opec,to,country_name,weo_2021
+non opec,vu,country_name,weo_2021
+non opec,am,country_name,weo_2021
+non opec,az,country_name,weo_2021
+non opec,ge,country_name,weo_2021
+non opec,kz,country_name,weo_2021
+non opec,kg,country_name,weo_2021
+non opec,tj,country_name,weo_2021
+non opec,tm,country_name,weo_2021
+non opec,uz,country_name,weo_2021
+non opec,ar,country_name,weo_2021
+non opec,bo,country_name,weo_2021
+non opec,br,country_name,weo_2021
+non opec,co,country_name,weo_2021
+non opec,cr,country_name,weo_2021
+non opec,cu,country_name,weo_2021
+non opec,cw,country_name,weo_2021
+non opec,do,country_name,weo_2021
+non opec,sv,country_name,weo_2021
+non opec,gt,country_name,weo_2021
+non opec,ht,country_name,weo_2021
+non opec,hn,country_name,weo_2021
+non opec,jm,country_name,weo_2021
+non opec,ni,country_name,weo_2021
+non opec,pa,country_name,weo_2021
+non opec,py,country_name,weo_2021
+non opec,pe,country_name,weo_2021
+non opec,sr,country_name,weo_2021
+non opec,tt,country_name,weo_2021
+non opec,uy,country_name,weo_2021
+non opec,ai,country_name,weo_2021
+non opec,ag,country_name,weo_2021
+non opec,aw,country_name,weo_2021
+non opec,bs,country_name,weo_2021
+non opec,bb,country_name,weo_2021
+non opec,bz,country_name,weo_2021
+non opec,bm,country_name,weo_2021
+non opec,bq,country_name,weo_2021
+non opec,vg,country_name,weo_2021
+non opec,ky,country_name,weo_2021
+non opec,dm,country_name,weo_2021
+non opec,fk,country_name,weo_2021
+non opec,gf,country_name,weo_2021
+non opec,gd,country_name,weo_2021
+non opec,gp,country_name,weo_2021
+non opec,gy,country_name,weo_2021
+non opec,mq,country_name,weo_2021
+non opec,ms,country_name,weo_2021
+non opec,lc,country_name,weo_2021
+non opec,pm,country_name,weo_2021
+non opec,vc,country_name,weo_2021
+non opec,mf,country_name,weo_2021
+non opec,tc,country_name,weo_2021
+non opec,hk,country_name,weo_2021
+non opec,ru,country_name,weo_2021
+non opec,al,country_name,weo_2021
+non opec,by,country_name,weo_2021
+non opec,ba,country_name,weo_2021
+non opec,mk,country_name,weo_2021
+non opec,gi,country_name,weo_2021
+non opec,xk,country_name,weo_2021
+non opec,me,country_name,weo_2021
+non opec,rs,country_name,weo_2021
+non opec,md,country_name,weo_2021
+non opec,ua,country_name,weo_2021
+non opec,bh,country_name,weo_2021
+non opec,jo,country_name,weo_2021
+non opec,lb,country_name,weo_2021
+non opec,om,country_name,weo_2021
+non opec,qa,country_name,weo_2021
+non opec,sy,country_name,weo_2021
+non opec,ye,country_name,weo_2021
+non opec,bf,country_name,weo_2021
+non opec,bi,country_name,weo_2021
+non opec,cv,country_name,weo_2021
+non opec,cf,country_name,weo_2021
+non opec,td,country_name,weo_2021
+non opec,km,country_name,weo_2021
+non opec,dj,country_name,weo_2021
+non opec,gm,country_name,weo_2021
+non opec,gn,country_name,weo_2021
+non opec,gw,country_name,weo_2021
+non opec,ls,country_name,weo_2021
+non opec,lr,country_name,weo_2021
+non opec,mg,country_name,weo_2021
+non opec,mw,country_name,weo_2021
+non opec,ml,country_name,weo_2021
+non opec,mr,country_name,weo_2021
+non opec,re,country_name,weo_2021
+non opec,rw,country_name,weo_2021
+non opec,st,country_name,weo_2021
+non opec,sc,country_name,weo_2021
+non opec,sl,country_name,weo_2021
+non opec,so,country_name,weo_2021
+non opec,ug,country_name,weo_2021
+global,ad,country_name,weo_2021
+global,as,country_name,weo_2021
+global,bl,country_name,weo_2021
+global,fm,country_name,weo_2021
+global,fo,country_name,weo_2021
+global,gg,country_name,weo_2021
+global,gl,country_name,weo_2021
+global,gu,country_name,weo_2021
+global,im,country_name,weo_2021
+global,je,country_name,weo_2021
+global,kn,country_name,weo_2021
+global,kr,country_name,weo_2021
+global,mh,country_name,weo_2021
+global,mp,country_name,weo_2021
+global,nr,country_name,weo_2021
+global,pr,country_name,weo_2021
+global,sh,country_name,weo_2021
+global,sm,country_name,weo_2021
+global,sx,country_name,weo_2021
+global,sz,country_name,weo_2021
+global,tv,country_name,weo_2021
+global,vi,country_name,weo_2021
+global,wf,country_name,weo_2021
+global,yt,country_name,weo_2021
+brazil,br,country_name,weo_2021
+india,in,country_name,weo_2021
+japan,jp,country_name,weo_2021
+united states,us,country_name,weo_2021
+russia,ru,country_name,weo_2021
+non oecd,ad,country_name,weo_2021
+non oecd,as,country_name,weo_2021
+non oecd,bl,country_name,weo_2021
+non oecd,fm,country_name,weo_2021
+non oecd,fo,country_name,weo_2021
+non oecd,gg,country_name,weo_2021
+non oecd,gl,country_name,weo_2021
+non oecd,gu,country_name,weo_2021
+non oecd,im,country_name,weo_2021
+non oecd,je,country_name,weo_2021
+non oecd,kn,country_name,weo_2021
+non oecd,kr,country_name,weo_2021
+non oecd,mh,country_name,weo_2021
+non oecd,mp,country_name,weo_2021
+non oecd,nr,country_name,weo_2021
+non oecd,pr,country_name,weo_2021
+non oecd,sh,country_name,weo_2021
+non oecd,sm,country_name,weo_2021
+non oecd,sx,country_name,weo_2021
+non oecd,sz,country_name,weo_2021
+non oecd,tv,country_name,weo_2021
+non oecd,vi,country_name,weo_2021
+non oecd,wf,country_name,weo_2021
+non oecd,yt,country_name,weo_2021
+developing economies,ad,country_name,weo_2021
+developing economies,as,country_name,weo_2021
+developing economies,bl,country_name,weo_2021
+developing economies,fm,country_name,weo_2021
+developing economies,fo,country_name,weo_2021
+developing economies,gg,country_name,weo_2021
+developing economies,gl,country_name,weo_2021
+developing economies,gu,country_name,weo_2021
+developing economies,im,country_name,weo_2021
+developing economies,je,country_name,weo_2021
+developing economies,kn,country_name,weo_2021
+developing economies,kr,country_name,weo_2021
+developing economies,mh,country_name,weo_2021
+developing economies,mp,country_name,weo_2021
+developing economies,nr,country_name,weo_2021
+developing economies,pr,country_name,weo_2021
+developing economies,sh,country_name,weo_2021
+developing economies,sm,country_name,weo_2021
+developing economies,sx,country_name,weo_2021
+developing economies,sz,country_name,weo_2021
+developing economies,tv,country_name,weo_2021
+developing economies,vi,country_name,weo_2021
+developing economies,wf,country_name,weo_2021
+developing economies,yt,country_name,weo_2021

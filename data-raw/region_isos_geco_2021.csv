@@ -1,0 +1,413 @@
+region,value,type,source
+efta,ch,country_name,geco_2021
+efta,no,country_name,geco_2021
+efta,is,country_name,geco_2021
+efta,li,country_name,geco_2021
+russia,ru,country_name,geco_2021
+others balkans,al,country_name,geco_2021
+others balkans,ba,country_name,geco_2021
+others balkans,rs,country_name,geco_2021
+others balkans,mk,country_name,geco_2021
+others balkans,md,country_name,geco_2021
+others balkans,me,country_name,geco_2021
+others balkans,rs,country_name,geco_2021
+other cis,am,country_name,geco_2021
+other cis,az,country_name,geco_2021
+other cis,by,country_name,geco_2021
+other cis,ge,country_name,geco_2021
+other cis,kz,country_name,geco_2021
+other cis,kg,country_name,geco_2021
+other cis,tj,country_name,geco_2021
+other cis,tm,country_name,geco_2021
+other cis,uz,country_name,geco_2021
+ukraine,ua,country_name,geco_2021
+argentina,ar,country_name,geco_2021
+brazil,br,country_name,geco_2021
+canada,ca,country_name,geco_2021
+chile,cl,country_name,geco_2021
+mexico,mx,country_name,geco_2021
+united states,us,country_name,geco_2021
+rest central america,bs,country_name,geco_2021
+rest central america,bb,country_name,geco_2021
+rest central america,bz,country_name,geco_2021
+rest central america,bm,country_name,geco_2021
+rest central america,cr,country_name,geco_2021
+rest central america,cu,country_name,geco_2021
+rest central america,dm,country_name,geco_2021
+rest central america,do,country_name,geco_2021
+rest central america,sv,country_name,geco_2021
+rest central america,gd,country_name,geco_2021
+rest central america,gt,country_name,geco_2021
+rest central america,ht,country_name,geco_2021
+rest central america,hn,country_name,geco_2021
+rest central america,jm,country_name,geco_2021
+rest central america,ni,country_name,geco_2021
+rest central america,aw,country_name,geco_2021
+rest central america,pa,country_name,geco_2021
+rest central america,st,country_name,geco_2021
+rest central america,lc,country_name,geco_2021
+rest central america,vc,country_name,geco_2021
+rest central america,tt,country_name,geco_2021
+rest south america,bo,country_name,geco_2021
+rest south america,co,country_name,geco_2021
+rest south america,ec,country_name,geco_2021
+rest south america,gy,country_name,geco_2021
+rest south america,py,country_name,geco_2021
+rest south america,pe,country_name,geco_2021
+rest south america,sr,country_name,geco_2021
+rest south america,uy,country_name,geco_2021
+rest south america,ve,country_name,geco_2021
+egypt,eg,country_name,geco_2021
+algeria and libya,dz,country_name,geco_2021
+algeria and libya,ly,country_name,geco_2021
+morocco and tunisia,ma,country_name,geco_2021
+morocco and tunisia,tn,country_name,geco_2021
+south africa,za,country_name,geco_2021
+rest sub saharan africa,bf,country_name,geco_2021
+rest sub saharan africa,bi,country_name,geco_2021
+rest sub saharan africa,cm,country_name,geco_2021
+rest sub saharan africa,cv,country_name,geco_2021
+rest sub saharan africa,cf,country_name,geco_2021
+rest sub saharan africa,td,country_name,geco_2021
+rest sub saharan africa,km,country_name,geco_2021
+rest sub saharan africa,cg,country_name,geco_2021
+rest sub saharan africa,cd,country_name,geco_2021
+rest sub saharan africa,ci,country_name,geco_2021
+rest sub saharan africa,dj,country_name,geco_2021
+rest sub saharan africa,gq,country_name,geco_2021
+rest sub saharan africa,er,country_name,geco_2021
+rest sub saharan africa,et,country_name,geco_2021
+rest sub saharan africa,ga,country_name,geco_2021
+rest sub saharan africa,gm,country_name,geco_2021
+rest sub saharan africa,gh,country_name,geco_2021
+rest sub saharan africa,gn,country_name,geco_2021
+rest sub saharan africa,gw,country_name,geco_2021
+rest sub saharan africa,ke,country_name,geco_2021
+rest sub saharan africa,ls,country_name,geco_2021
+rest sub saharan africa,lr,country_name,geco_2021
+rest sub saharan africa,mg,country_name,geco_2021
+rest sub saharan africa,mw,country_name,geco_2021
+rest sub saharan africa,ml,country_name,geco_2021
+rest sub saharan africa,mr,country_name,geco_2021
+rest sub saharan africa,mu,country_name,geco_2021
+rest sub saharan africa,mz,country_name,geco_2021
+rest sub saharan africa,NA,country_name,geco_2021
+rest sub saharan africa,ne,country_name,geco_2021
+rest sub saharan africa,ng,country_name,geco_2021
+rest sub saharan africa,rw,country_name,geco_2021
+rest sub saharan africa,sn,country_name,geco_2021
+rest sub saharan africa,sl,country_name,geco_2021
+rest sub saharan africa,so,country_name,geco_2021
+rest sub saharan africa,sd,country_name,geco_2021
+rest sub saharan africa,sz,country_name,geco_2021
+rest sub saharan africa,tz,country_name,geco_2021
+rest sub saharan africa,tg,country_name,geco_2021
+rest sub saharan africa,ug,country_name,geco_2021
+rest sub saharan africa,zm,country_name,geco_2021
+rest sub saharan africa,ao,country_name,geco_2021
+rest sub saharan africa,bj,country_name,geco_2021
+rest sub saharan africa,bw,country_name,geco_2021
+iran,ir,country_name,geco_2021
+saudi arabia,sa,country_name,geco_2021
+turkey,tr,country_name,geco_2021
+mediteranean middle east,il,country_name,geco_2021
+mediteranean middle east,jo,country_name,geco_2021
+mediteranean middle east,lb,country_name,geco_2021
+mediteranean middle east,sy,country_name,geco_2021
+rest gulf,bh,country_name,geco_2021
+rest gulf,iq,country_name,geco_2021
+rest gulf,kw,country_name,geco_2021
+rest gulf,om,country_name,geco_2021
+rest gulf,qa,country_name,geco_2021
+rest gulf,ae,country_name,geco_2021
+rest gulf,ye,country_name,geco_2021
+china,cn,country_name,geco_2021
+india,in,country_name,geco_2021
+indonesia,id,country_name,geco_2021
+malaysia,my,country_name,geco_2021
+thailand,th,country_name,geco_2021
+vietnam,vn,country_name,geco_2021
+rest south asia,af,country_name,geco_2021
+rest south asia,bd,country_name,geco_2021
+rest south asia,bt,country_name,geco_2021
+rest south asia,mv,country_name,geco_2021
+rest south asia,np,country_name,geco_2021
+rest south asia,pk,country_name,geco_2021
+rest south asia,sc,country_name,geco_2021
+rest south asia,lk,country_name,geco_2021
+rest south east asia,bn,country_name,geco_2021
+rest south east asia,kh,country_name,geco_2021
+rest south east asia,la,country_name,geco_2021
+rest south east asia,mn,country_name,geco_2021
+rest south east asia,mm,country_name,geco_2021
+rest south east asia,kp,country_name,geco_2021
+rest south east asia,sg,country_name,geco_2021
+rest south east asia,tw,country_name,geco_2021
+australia,au,country_name,geco_2021
+japan,jp,country_name,geco_2021
+south korea,kr,country_name,geco_2021
+new zealand,nz,country_name,geco_2021
+rest pacific,fj,country_name,geco_2021
+rest pacific,ki,country_name,geco_2021
+rest pacific,pg,country_name,geco_2021
+rest pacific,ws,country_name,geco_2021
+rest pacific,sb,country_name,geco_2021
+rest pacific,to,country_name,geco_2021
+rest pacific,vu,country_name,geco_2021
+uk,gb,country_name,geco_2021
+european union,at,country_name,geco_2021
+european union,be,country_name,geco_2021
+european union,bg,country_name,geco_2021
+european union,hr,country_name,geco_2021
+european union,cy,country_name,geco_2021
+european union,cz,country_name,geco_2021
+european union,dk,country_name,geco_2021
+european union,ee,country_name,geco_2021
+european union,fi,country_name,geco_2021
+european union,fr,country_name,geco_2021
+european union,de,country_name,geco_2021
+european union,gr,country_name,geco_2021
+european union,hu,country_name,geco_2021
+european union,ie,country_name,geco_2021
+european union,it,country_name,geco_2021
+european union,lv,country_name,geco_2021
+european union,lt,country_name,geco_2021
+european union,lu,country_name,geco_2021
+european union,mt,country_name,geco_2021
+european union,nl,country_name,geco_2021
+european union,pl,country_name,geco_2021
+european union,pt,country_name,geco_2021
+european union,ro,country_name,geco_2021
+european union,sk,country_name,geco_2021
+european union,si,country_name,geco_2021
+european union,es,country_name,geco_2021
+european union,se,country_name,geco_2021
+global,ch,country_name,geco_2021
+global,no,country_name,geco_2021
+global,is,country_name,geco_2021
+global,li,country_name,geco_2021
+global,ru,country_name,geco_2021
+global,al,country_name,geco_2021
+global,ba,country_name,geco_2021
+global,rs,country_name,geco_2021
+global,mk,country_name,geco_2021
+global,md,country_name,geco_2021
+global,me,country_name,geco_2021
+global,rs,country_name,geco_2021
+global,am,country_name,geco_2021
+global,az,country_name,geco_2021
+global,by,country_name,geco_2021
+global,ge,country_name,geco_2021
+global,kz,country_name,geco_2021
+global,kg,country_name,geco_2021
+global,tj,country_name,geco_2021
+global,tm,country_name,geco_2021
+global,uz,country_name,geco_2021
+global,ua,country_name,geco_2021
+global,ar,country_name,geco_2021
+global,br,country_name,geco_2021
+global,ca,country_name,geco_2021
+global,cl,country_name,geco_2021
+global,mx,country_name,geco_2021
+global,us,country_name,geco_2021
+global,bs,country_name,geco_2021
+global,bb,country_name,geco_2021
+global,bz,country_name,geco_2021
+global,bm,country_name,geco_2021
+global,cr,country_name,geco_2021
+global,cu,country_name,geco_2021
+global,dm,country_name,geco_2021
+global,do,country_name,geco_2021
+global,sv,country_name,geco_2021
+global,gd,country_name,geco_2021
+global,gt,country_name,geco_2021
+global,ht,country_name,geco_2021
+global,hn,country_name,geco_2021
+global,jm,country_name,geco_2021
+global,ni,country_name,geco_2021
+global,aw,country_name,geco_2021
+global,pa,country_name,geco_2021
+global,st,country_name,geco_2021
+global,lc,country_name,geco_2021
+global,vc,country_name,geco_2021
+global,tt,country_name,geco_2021
+global,bo,country_name,geco_2021
+global,co,country_name,geco_2021
+global,ec,country_name,geco_2021
+global,gy,country_name,geco_2021
+global,py,country_name,geco_2021
+global,pe,country_name,geco_2021
+global,sr,country_name,geco_2021
+global,uy,country_name,geco_2021
+global,ve,country_name,geco_2021
+global,eg,country_name,geco_2021
+global,dz,country_name,geco_2021
+global,ly,country_name,geco_2021
+global,ma,country_name,geco_2021
+global,tn,country_name,geco_2021
+global,za,country_name,geco_2021
+global,bf,country_name,geco_2021
+global,bi,country_name,geco_2021
+global,cm,country_name,geco_2021
+global,cv,country_name,geco_2021
+global,cf,country_name,geco_2021
+global,td,country_name,geco_2021
+global,km,country_name,geco_2021
+global,cg,country_name,geco_2021
+global,cd,country_name,geco_2021
+global,ci,country_name,geco_2021
+global,dj,country_name,geco_2021
+global,gq,country_name,geco_2021
+global,er,country_name,geco_2021
+global,et,country_name,geco_2021
+global,ga,country_name,geco_2021
+global,gm,country_name,geco_2021
+global,gh,country_name,geco_2021
+global,gn,country_name,geco_2021
+global,gw,country_name,geco_2021
+global,ke,country_name,geco_2021
+global,ls,country_name,geco_2021
+global,lr,country_name,geco_2021
+global,mg,country_name,geco_2021
+global,mw,country_name,geco_2021
+global,ml,country_name,geco_2021
+global,mr,country_name,geco_2021
+global,mu,country_name,geco_2021
+global,mz,country_name,geco_2021
+global,NA,country_name,geco_2021
+global,ne,country_name,geco_2021
+global,ng,country_name,geco_2021
+global,rw,country_name,geco_2021
+global,sn,country_name,geco_2021
+global,sl,country_name,geco_2021
+global,so,country_name,geco_2021
+global,sd,country_name,geco_2021
+global,sz,country_name,geco_2021
+global,tz,country_name,geco_2021
+global,tg,country_name,geco_2021
+global,ug,country_name,geco_2021
+global,zm,country_name,geco_2021
+global,ao,country_name,geco_2021
+global,bj,country_name,geco_2021
+global,bw,country_name,geco_2021
+global,ir,country_name,geco_2021
+global,sa,country_name,geco_2021
+global,tr,country_name,geco_2021
+global,il,country_name,geco_2021
+global,jo,country_name,geco_2021
+global,lb,country_name,geco_2021
+global,sy,country_name,geco_2021
+global,bh,country_name,geco_2021
+global,iq,country_name,geco_2021
+global,kw,country_name,geco_2021
+global,om,country_name,geco_2021
+global,qa,country_name,geco_2021
+global,ae,country_name,geco_2021
+global,ye,country_name,geco_2021
+global,cn,country_name,geco_2021
+global,in,country_name,geco_2021
+global,id,country_name,geco_2021
+global,my,country_name,geco_2021
+global,th,country_name,geco_2021
+global,vn,country_name,geco_2021
+global,af,country_name,geco_2021
+global,bd,country_name,geco_2021
+global,bt,country_name,geco_2021
+global,mv,country_name,geco_2021
+global,np,country_name,geco_2021
+global,pk,country_name,geco_2021
+global,sc,country_name,geco_2021
+global,lk,country_name,geco_2021
+global,bn,country_name,geco_2021
+global,kh,country_name,geco_2021
+global,la,country_name,geco_2021
+global,mn,country_name,geco_2021
+global,mm,country_name,geco_2021
+global,kp,country_name,geco_2021
+global,sg,country_name,geco_2021
+global,tw,country_name,geco_2021
+global,au,country_name,geco_2021
+global,jp,country_name,geco_2021
+global,kr,country_name,geco_2021
+global,nz,country_name,geco_2021
+global,fj,country_name,geco_2021
+global,ki,country_name,geco_2021
+global,pg,country_name,geco_2021
+global,ws,country_name,geco_2021
+global,sb,country_name,geco_2021
+global,to,country_name,geco_2021
+global,vu,country_name,geco_2021
+global,gb,country_name,geco_2021
+global,at,country_name,geco_2021
+global,be,country_name,geco_2021
+global,bg,country_name,geco_2021
+global,hr,country_name,geco_2021
+global,cy,country_name,geco_2021
+global,cz,country_name,geco_2021
+global,dk,country_name,geco_2021
+global,ee,country_name,geco_2021
+global,fi,country_name,geco_2021
+global,fr,country_name,geco_2021
+global,de,country_name,geco_2021
+global,gr,country_name,geco_2021
+global,hu,country_name,geco_2021
+global,ie,country_name,geco_2021
+global,it,country_name,geco_2021
+global,lv,country_name,geco_2021
+global,lt,country_name,geco_2021
+global,lu,country_name,geco_2021
+global,mt,country_name,geco_2021
+global,nl,country_name,geco_2021
+global,pl,country_name,geco_2021
+global,pt,country_name,geco_2021
+global,ro,country_name,geco_2021
+global,sk,country_name,geco_2021
+global,si,country_name,geco_2021
+global,es,country_name,geco_2021
+global,se,country_name,geco_2021
+global,pr,country_name,geco_2021
+global,ph,country_name,geco_2021
+global,gu,country_name,geco_2021
+global,zw,country_name,geco_2021
+global,gf,country_name,geco_2021
+global,gp,country_name,geco_2021
+global,mq,country_name,geco_2021
+global,nc,country_name,geco_2021
+global,re,country_name,geco_2021
+global,vi,country_name,geco_2021
+global,tl,country_name,geco_2021
+global,ky,country_name,geco_2021
+global,hk,country_name,geco_2021
+global,xk,country_name,geco_2021
+global,kn,country_name,geco_2021
+global,je,country_name,geco_2021
+global,ss,country_name,geco_2021
+global,pf,country_name,geco_2021
+global,wf,country_name,geco_2021
+global,bl,country_name,geco_2021
+global,mf,country_name,geco_2021
+global,pm,country_name,geco_2021
+global,cw,country_name,geco_2021
+global,gi,country_name,geco_2021
+global,mh,country_name,geco_2021
+global,nr,country_name,geco_2021
+global,gg,country_name,geco_2021
+global,as,country_name,geco_2021
+global,ai,country_name,geco_2021
+global,vg,country_name,geco_2021
+global,mp,country_name,geco_2021
+global,mo,country_name,geco_2021
+global,yt,country_name,geco_2021
+global,ad,country_name,geco_2021
+global,sx,country_name,geco_2021
+global,fm,country_name,geco_2021
+global,im,country_name,geco_2021
+global,ag,country_name,geco_2021
+global,gl,country_name,geco_2021
+global,pw,country_name,geco_2021
+global,fo,country_name,geco_2021
+global,ck,country_name,geco_2021
+global,ms,country_name,geco_2021
+global,sh,country_name,geco_2021
+global,sm,country_name,geco_2021
+global,tv,country_name,geco_2021
