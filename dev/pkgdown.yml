@@ -3,7 +3,7 @@ pkgdown: 2.0.2
 pkgdown_sha: ~
 articles:
   r2dii-data-0-0-3: r2dii-data-0-0-3.html
-last_built: 2022-04-06T08:23Z
+last_built: 2022-04-12T10:10Z
 urls:
   reference: https://2degreesinvesting.github.io/r2dii.data/reference
   article: https://2degreesinvesting.github.io/r2dii.data/articles
