@@ -17,7 +17,6 @@ test_that("outputs regions for expected scenario sources", {
     "geco_2021",
     "etp_2020",
     "weo_2021"
-
   )
 
   expect_equal(
@@ -107,7 +106,7 @@ test_that("outputs expected '1-country-regions' for weo_2019 (#271).", {
   expect_equal(
     setdiff(
       country_regions_weo_2019,
-      region_isos[region_isos$source == "weo_2019",][['region']]
+      region_isos[region_isos$source == "weo_2019", ][["region"]]
     ),
     character(0)
   )
