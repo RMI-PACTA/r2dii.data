@@ -39,6 +39,7 @@ Other iso codes:
 \code{\link{region_isos}}
 
 Other demo datasets: 
+\code{\link{abcd_demo}},
 \code{\link{ald_demo}},
 \code{\link{co2_intensity_scenario_demo}},
 \code{\link{loanbook_demo}},
