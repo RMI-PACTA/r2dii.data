@@ -2,24 +2,14 @@ Package: r2dii.data
 Title: Datasets to Measure the Alignment of Corporate Loan Books with
     Climate Goals
 Version: 0.2.2.9000
-Authors@R: 
-    c(person(given = "Jackson",
-             family = "Hoffart",
-             role = c("aut", "cre", "dtc"),
-             email = "jackson@2degrees-investing.org",
-             comment = c(ORCID = "0000-0002-8600-5042")),
-      person(given = "Mauro",
-             family = "Lepore",
-             role = c("aut", "ctr"),
-             email = "maurolepore@gmail.com",
-             comment = c(ORCID = "0000-0002-1986-7988")),
-      person(given = "Klaus",
-             family = "Hagedorn",
-             role = "aut",
-             email = "klaus@2degrees-investing.org"),
-      person(given = "2 Degrees Investing Initiative",
-             role = c("cph", "fnd"),
-             email = "contact@2degrees-investing.org"))
+Authors@R: c(
+    person("Jackson", "Hoffart", , "jackson@2degrees-investing.org", role = c("aut", "cre", "dtc"),
+           comment = c(ORCID = "0000-0002-8600-5042")),
+    person("Mauro", "Lepore", , "maurolepore@gmail.com", role = c("aut", "ctr"),
+           comment = c(ORCID = "0000-0002-1986-7988")),
+    person("Klaus", "Hagedorn", , "klaus@2degrees-investing.org", role = "aut"),
+    person("2 Degrees Investing Initiative", , , "contact@2degrees-investing.org", role = c("cph", "fnd"))
+  )
 Description: These datasets support the implementation in R of the
     software 'PACTA' (Paris Agreement Capital Transition Assessment),
     which is a free tool that calculates the alignment between corporate
