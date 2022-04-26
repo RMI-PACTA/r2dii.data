@@ -301,7 +301,7 @@ region_isos <- rbind(
   ungroup()
 
 # Add countries for regions -----------------------------------------------
-
+# styler: off
 countries_for_regions_we02019 <- tibble::tribble(
   ~region,          ~isos,  ~source,
   "brazil",         "br",   "weo_2019",
@@ -311,7 +311,9 @@ countries_for_regions_we02019 <- tibble::tribble(
   "south africa",   "za",   "weo_2019",
   "united states",  "us",   "weo_2019",
 )
+# styler: on
 
+# styler: off
 countries_for_regions_we02020 <- tibble::tribble(
   ~region,          ~isos,  ~source,
   "brazil",         "br",   "weo_2020",
@@ -321,7 +323,7 @@ countries_for_regions_we02020 <- tibble::tribble(
   "south africa",   "za",   "weo_2020",
   "united states",  "us",   "weo_2020"
 )
-
+# styler: on
 region_isos <- region_isos %>%
   dplyr::bind_rows(countries_for_regions_we02019, countries_for_regions_we02020)
 
