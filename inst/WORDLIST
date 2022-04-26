@@ -1,4 +1,5 @@
 BMU
+CMD
 CNB
 Codecov
 DII
@@ -9,7 +10,6 @@ IKI
 ISIC
 Kosovo
 Lifecycle
-Loanbooks
 NACE
 NAICS
 ORCID
@@ -18,8 +18,10 @@ RStudio
 WEO
 dii
 dii's
+etp
 funder
 funders
+geco
 https
 isin
 iso
@@ -27,9 +29,8 @@ isos
 loanbook
 loantaker
 outstandings
-pacheco
 psic
-rstudio
 th
 tibble
+weo
 xk
