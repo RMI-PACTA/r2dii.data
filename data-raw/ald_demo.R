@@ -168,10 +168,9 @@ ordered_names <- c(
   "ald_timestamp",
   emission_factor_unit = "ald_emission_factor_unit"
 )
-
+# FIXME: Remove all references to ald_demo from this file
 ald_demo <- select(ald_demo, ordered_names)
 
 abcd_demo <- rename(ald_demo, abcd_timestamp = ald_timestamp)
 
-usethis::use_data(ald_demo, overwrite = TRUE)
 usethis::use_data(abcd_demo, overwrite = TRUE)
