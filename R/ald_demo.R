@@ -2,6 +2,7 @@
 #'
 #' @description
 #' `r lifecycle::badge("superseded")`
+#'
 #' Fake data about physical assets (e.g. wind turbine power plant
 #' capacities) used to assess the climate alignment of financial portfolios.
 #' It imitates data from market-intelligence databases.
