@@ -11,6 +11,7 @@ An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) w
 ald_demo
 }
 \description{
+\ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#superseded}{\figure{lifecycle-superseded.svg}{options: alt='[Superseded]'}}}{\strong{[Superseded]}}
 Fake data about physical assets (e.g. wind turbine power plant
 capacities) used to assess the climate alignment of financial portfolios.
 It imitates data from market-intelligence databases.
@@ -46,6 +47,7 @@ head(ald_demo)
 \link{data_dictionary}
 
 Other demo datasets: 
+\code{\link{abcd_demo}},
 \code{\link{co2_intensity_scenario_demo}},
 \code{\link{loanbook_demo}},
 \code{\link{overwrite_demo}},
@@ -53,4 +55,4 @@ Other demo datasets:
 \code{\link{scenario_demo_2020}}
 }
 \concept{demo datasets}
-\keyword{datasets}
+\keyword{internal}
