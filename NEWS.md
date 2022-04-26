@@ -1,8 +1,9 @@
 # r2dii.data (development version)
-
-* `region_isos` gains data for new scenario `source`s: 'weo_2021', 'etp_2020', 'geco_2020' and 'geco_2021'.
-
-* `region_isos` gains country specific regions for 'weo_2019' and 'weo_2020' (#270 @julie-vienne).
+* New dataset `abcd_demo`, which supersedes the dataset `ald_demo` (#279). 
+* `region_isos` gains data for new scenario `source`s: 'weo_2021', 'etp_2020', 
+'geco_2020' and 'geco_2021'.
+* `region_isos` gains country specific regions for 'weo_2019' and 'weo_2020' 
+(#270 @julie-vienne).
 
 # r2dii.data 0.2.2
 
