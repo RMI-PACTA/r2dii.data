@@ -171,4 +171,7 @@ ordered_names <- c(
 
 ald_demo <- select(ald_demo, ordered_names)
 
+abcd_demo <- rename(ald_demo, abcd_timestamp = ald_timestamp)
+
 usethis::use_data(ald_demo, overwrite = TRUE)
+usethis::use_data(abcd_demo, overwrite = TRUE)
