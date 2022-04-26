@@ -12,10 +12,6 @@ test_that("has the expected names", {
 test_that("defines the expected objects", {
   datasets <- unique(data_dictionary$dataset)
   expected_datasets <- exported_data("r2dii.data")
-
-  not_superseded <- function(x) grep("^data$", x, value = TRUE, invert = TRUE)
-  expected_datasets <- not_superseded(expected_datasets)
-
   expect_equal(sort(datasets), sort(expected_datasets))
 })
 
