@@ -37,10 +37,10 @@ path <- file.path("data-raw", "abcd_demo.csv")
 abcd_demo <- read_csv_(path)
 
 # ensure aviation data is in appropriate range
-ald_aviation <- abcd_demo %>%
+abcd_aviation <- abcd_demo %>%
   dplyr::filter(sector == "aviation")
 
-ald_aviation <- ald_aviation %>%
+abcd_aviation <- abcd_aviation %>%
   dplyr::group_by(year) %>%
   dplyr::filter(!is.na(emission_factor)) %>%
   dplyr::mutate(
@@ -53,7 +53,7 @@ ald_aviation <- ald_aviation %>%
     .y = NULL
   )
 
-ald_aviation <- ald_aviation %>%
+abcd_aviation <- abcd_aviation %>%
   dplyr::group_by(year) %>%
   dplyr::mutate(
     # normalize the data
@@ -80,7 +80,7 @@ hdv_name_bridge <- tibble::tribble(
   "faraday future", "daimler"
 )
 
-ald_hdv <- abcd_demo %>%
+abcd_hdv <- abcd_demo %>%
   dplyr::filter(sector == "automotive") %>%
   dplyr::mutate(
     sector = "hdv"
@@ -92,7 +92,7 @@ ald_hdv <- abcd_demo %>%
 # then we will ensure the numerical fields are in an appropriate range
 # we will also add some random noise to ensure that the output isn't identical
 # to the cement output
-ald_hdv <- ald_hdv %>%
+abcd_hdv <- abcd_hdv %>%
   dplyr::group_by(year) %>%
   dplyr::filter(!is.na(emission_factor)) %>%
   dplyr::mutate(
@@ -103,7 +103,7 @@ ald_hdv <- ald_hdv %>%
     .x = NULL,
   )
 
-ald_hdv <- ald_hdv %>%
+abcd_hdv <- abcd_hdv %>%
   dplyr::group_by(year) %>%
   dplyr::mutate(
     # normalize the data
@@ -115,7 +115,7 @@ ald_hdv <- ald_hdv %>%
 abcd_demo <- abcd_demo %>%
   dplyr::filter(!(grepl("hdv", technology))) %>%
   dplyr::bind_rows(
-    ald_hdv
+    abcd_hdv
   )
 
 abcd_demo <- left_join(
