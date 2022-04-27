@@ -4,6 +4,8 @@ delayedAssign("ald_demo", {
     warning(
       "`ald_demo` was superseded in r2dii.data 0.3.0. ",
       "Please use `abcd_demo` instead.",
+      "\n Read this blog post to learn more:",
+      "\n https://2degreesinvesting.github.io/posts/2022-03-02-ald-becomes-abcd/",
       call. = FALSE
     )
   }
