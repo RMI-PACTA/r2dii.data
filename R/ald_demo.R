@@ -14,7 +14,6 @@
 #' @section Definitions:
 #' `r define("ald_demo")`
 #'
-#' @family demo datasets
 #' @seealso [data_dictionary]
 #'
 #' @examples
