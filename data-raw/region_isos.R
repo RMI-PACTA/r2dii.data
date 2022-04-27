@@ -101,7 +101,7 @@ process_countries <- function(data, abcd_isos, source_year) {
 }
 
 # Some isos are missing from the global regions definition. Here we read in the
-# actual isos from a real ALD file, and buffer the potentially missing isos.
+# actual isos from a real ABCD file, and buffer the potentially missing isos.
 abcd_isos <- read_regions(
   file.path("data-raw", paste0("abcd_all_isos", ".csv"))
 )
