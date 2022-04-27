@@ -91,19 +91,19 @@ exclude_values <- function(data, values, .region) {
     mutate(region = .region)
 }
 
-process_countries <- function(data, ald_isos, source_year) {
+process_countries <- function(data, abcd_isos, source_year) {
   data %>%
     pick_type("country_name") %>%
     rbind(global_data(., source_year)) %>%
     rename(isos = value) %>%
-    bind_rows(mutate(ald_isos, source = source_year)) %>%
+    bind_rows(mutate(abcd_isos, source = source_year)) %>%
     unique()
 }
 
 # Some isos are missing from the global regions definition. Here we read in the
 # actual isos from a real ALD file, and buffer the potentially missing isos.
-ald_isos <- read_regions(
-  file.path("data-raw", paste0("ald_all_isos", ".csv"))
+abcd_isos <- read_regions(
+  file.path("data-raw", paste0("abcd_all_isos", ".csv"))
 )
 
 # Process raw_regions_weo_2019.csv ----------------------------------------
@@ -171,7 +171,7 @@ region_isos_weo_2019 <- bound1 %>%
     non_opec
   ) %>%
   prepare_isos() %>%
-  bind_rows(mutate(ald_isos, source = source_year)) %>%
+  bind_rows(mutate(abcd_isos, source = source_year)) %>%
   unique()
 
 # Process raw_regions_etp_2017.csv ----------------------------------------
@@ -190,7 +190,7 @@ region_isos_etp_2017 <- region_data %>%
   warn_if_is_missing_country_isos() %>%
   rbind(global_data(., source_year)) %>%
   prepare_isos() %>%
-  bind_rows(mutate(ald_isos, source = source_year)) %>%
+  bind_rows(mutate(abcd_isos, source = source_year)) %>%
   unique()
 
 # Process raw_regions_weo_2020.csv ----------------------------------------
@@ -202,7 +202,7 @@ region_data <- read_regions(regions_path(source_year))
 
 region_isos_weo_2020 <- process_countries(
   region_data,
-  ald_isos,
+  abcd_isos,
   source_year
 )
 
@@ -215,7 +215,7 @@ region_data <- read_regions(regions_path(source_year))
 
 region_isos_isf_2020 <- process_countries(
   region_data,
-  ald_isos,
+  abcd_isos,
   source_year
 )
 
@@ -227,7 +227,7 @@ region_data <- read_regions(regions_path(source_year))
 
 region_isos_nze_2021 <- process_countries(
   region_data,
-  ald_isos,
+  abcd_isos,
   source_year
 )
 
@@ -240,7 +240,7 @@ region_data <- read_regions(regions_path(source_year))
 
 region_isos_etp_2020 <- process_countries(
   region_data,
-  ald_isos,
+  abcd_isos,
   source_year
 )
 
@@ -253,7 +253,7 @@ region_data <- read_regions(regions_path(source_year))
 
 region_isos_weo_2021 <- process_countries(
   region_data,
-  ald_isos,
+  abcd_isos,
   source_year
 )
 
@@ -266,7 +266,7 @@ region_data <- read_regions(regions_path(source_year))
 
 region_isos_geco_2020 <- process_countries(
   region_data,
-  ald_isos,
+  abcd_isos,
   source_year
 )
 
@@ -279,7 +279,7 @@ region_data <- read_regions(regions_path(source_year))
 
 region_isos_geco_2021 <- process_countries(
   region_data,
-  ald_isos,
+  abcd_isos,
   source_year
 )
 
