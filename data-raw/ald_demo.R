@@ -33,11 +33,11 @@ generate_lei <- function(id) {
 
 vgenerate_lei <- Vectorize(generate_lei)
 
-path <- file.path("data-raw", "ald_demo.csv")
-ald_demo <- read_csv_(path)
+path <- file.path("data-raw", "abcd_demo.csv")
+abcd_demo <- read_csv_(path)
 
 # ensure aviation data is in appropriate range
-ald_aviation <- ald_demo %>%
+ald_aviation <- abcd_demo %>%
   dplyr::filter(sector == "aviation")
 
 ald_aviation <- ald_aviation %>%
@@ -80,7 +80,7 @@ hdv_name_bridge <- tibble::tribble(
   "faraday future", "daimler"
 )
 
-ald_hdv <- ald_demo %>%
+ald_hdv <- abcd_demo %>%
   dplyr::filter(sector == "automotive") %>%
   dplyr::mutate(
     sector = "hdv"
@@ -112,20 +112,20 @@ ald_hdv <- ald_hdv %>%
     .x = NULL,
   )
 
-ald_demo <- ald_demo %>%
+abcd_demo <- abcd_demo %>%
   dplyr::filter(!(grepl("hdv", technology))) %>%
   dplyr::bind_rows(
     ald_hdv
   )
 
-ald_demo <- left_join(
-  ald_demo, new_emission_factor_unit(),
+abcd_demo <- left_join(
+  abcd_demo, new_emission_factor_unit(),
   by = "sector"
 )
 
-ald_demo$year <- as.integer(ald_demo$year)
+abcd_demo$year <- as.integer(abcd_demo$year)
 
-ald_demo <- ald_demo %>%
+abcd_demo <- abcd_demo %>%
   group_by(name_company, sector) %>%
   mutate(
     id_company = as.character(cur_group_id()),
@@ -137,7 +137,7 @@ ald_demo <- ald_demo %>%
 withr::with_seed(
   42,
   {
-    leis <- ald_demo %>%
+    leis <- abcd_demo %>%
       # assume only LEIs for ultimate_parents
       filter(is_ultimate_owner == TRUE) %>%
       # assume LEIs are unique by id_company
@@ -149,7 +149,7 @@ withr::with_seed(
   }
 )
 
-ald_demo <- ald_demo %>%
+abcd_demo <- abcd_demo %>%
   left_join(leis, by = "id_company")
 
 ordered_names <- c(
@@ -168,9 +168,9 @@ ordered_names <- c(
   "ald_timestamp",
   emission_factor_unit = "ald_emission_factor_unit"
 )
-# FIXME: Remove all references to ald_demo from this file
-ald_demo <- select(ald_demo, ordered_names)
+# FIXME: Remove all references to abcd_demo from this file
+abcd_demo <- select(abcd_demo, ordered_names)
 
-abcd_demo <- rename(ald_demo, abcd_timestamp = ald_timestamp)
+abcd_demo <- rename(abcd_demo, abcd_timestamp = ald_timestamp)
 
 usethis::use_data(abcd_demo, overwrite = TRUE)
