@@ -49,13 +49,13 @@ issue?](https://2degreesinvesting.github.io/posts/2020-06-26-instructions-to-rai
 library(r2dii.data)
 
 head(data_dictionary)
-#>    dataset               column    typeof
-#> 1 ald_demo        ald_timestamp character
-#> 2 ald_demo           company_id character
-#> 3 ald_demo  country_of_domicile character
-#> 4 ald_demo      emission_factor    double
-#> 5 ald_demo emission_factor_unit character
-#> 6 ald_demo    is_ultimate_owner   logical
+#>     dataset               column    typeof
+#> 1 abcd_demo       abcd_timestamp character
+#> 2 abcd_demo           company_id character
+#> 3 abcd_demo  country_of_domicile character
+#> 4 abcd_demo      emission_factor    double
+#> 5 abcd_demo emission_factor_unit character
+#> 6 abcd_demo    is_ultimate_owner   logical
 #>                                                            definition
 #> 1         Date at which asset data was sourced from the data provider
 #> 2 The id of the company owning the asset created by the data provider
