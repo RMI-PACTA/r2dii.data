@@ -11,46 +11,8 @@ An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) w
 ald_demo
 }
 \description{
-Fake data about physical assets (e.g. wind turbine power plant
-capacities) used to assess the climate alignment of financial portfolios.
-It imitates data from market-intelligence databases.
+\ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#superseded}{\figure{lifecycle-superseded.svg}{options: alt='[Superseded]'}}}{\strong{[Superseded]}}
 
-Demo datasets are synthetic because most financial data is strictly private;
-they help to demonstrate and test the implementation in R of 'PACTA'
-(\url{https://2degrees-investing.org/resource/pacta/}).
+See \code{?abcd_demo}
 }
-\section{Definitions}{
-
-\itemize{
-\item \code{ald_timestamp} (character): Date at which asset data was sourced from the data provider.
-\item \code{company_id} (character): The id of the company owning the asset created by the data provider.
-\item \code{country_of_domicile} (character): Country where company is registered.
-\item \code{emission_factor} (double): Company level emission factor of the technology.
-\item \code{emission_factor_unit} (character): The units that the emission factor is measured in.
-\item \code{is_ultimate_owner} (logical): Flag if company is the ultimate parent in our database.
-\item \code{lei} (character): The legal entity identifier of the company owning the asset.
-\item \code{name_company} (character): The name of the company owning the asset.
-\item \code{plant_location} (character): Country where asset is located.
-\item \code{production} (double): Company level production of the technology.
-\item \code{production_unit} (character): The units that production is measured in.
-\item \code{sector} (character): Sector to which the asset belongs.
-\item \code{technology} (character): Technology implemented by the asset.
-\item \code{year} (integer): Year at which the production value is predicted.
-}
-}
-
-\examples{
-head(ald_demo)
-}
-\seealso{
-\link{data_dictionary}
-
-Other demo datasets: 
-\code{\link{co2_intensity_scenario_demo}},
-\code{\link{loanbook_demo}},
-\code{\link{overwrite_demo}},
-\code{\link{region_isos_demo}},
-\code{\link{scenario_demo_2020}}
-}
-\concept{demo datasets}
-\keyword{datasets}
+\keyword{internal}

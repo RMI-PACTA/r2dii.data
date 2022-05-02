@@ -33,14 +33,14 @@ generate_lei <- function(id) {
 
 vgenerate_lei <- Vectorize(generate_lei)
 
-path <- file.path("data-raw", "ald_demo.csv")
-ald_demo <- read_csv_(path)
+path <- file.path("data-raw", "abcd_demo.csv")
+abcd_demo <- read_csv_(path)
 
 # ensure aviation data is in appropriate range
-ald_aviation <- ald_demo %>%
+abcd_aviation <- abcd_demo %>%
   dplyr::filter(sector == "aviation")
 
-ald_aviation <- ald_aviation %>%
+abcd_aviation <- abcd_aviation %>%
   dplyr::group_by(year) %>%
   dplyr::filter(!is.na(emission_factor)) %>%
   dplyr::mutate(
@@ -53,7 +53,7 @@ ald_aviation <- ald_aviation %>%
     .y = NULL
   )
 
-ald_aviation <- ald_aviation %>%
+abcd_aviation <- abcd_aviation %>%
   dplyr::group_by(year) %>%
   dplyr::mutate(
     # normalize the data
@@ -80,7 +80,7 @@ hdv_name_bridge <- tibble::tribble(
   "faraday future", "daimler"
 )
 
-ald_hdv <- ald_demo %>%
+abcd_hdv <- abcd_demo %>%
   dplyr::filter(sector == "automotive") %>%
   dplyr::mutate(
     sector = "hdv"
@@ -92,7 +92,7 @@ ald_hdv <- ald_demo %>%
 # then we will ensure the numerical fields are in an appropriate range
 # we will also add some random noise to ensure that the output isn't identical
 # to the cement output
-ald_hdv <- ald_hdv %>%
+abcd_hdv <- abcd_hdv %>%
   dplyr::group_by(year) %>%
   dplyr::filter(!is.na(emission_factor)) %>%
   dplyr::mutate(
@@ -103,7 +103,7 @@ ald_hdv <- ald_hdv %>%
     .x = NULL,
   )
 
-ald_hdv <- ald_hdv %>%
+abcd_hdv <- abcd_hdv %>%
   dplyr::group_by(year) %>%
   dplyr::mutate(
     # normalize the data
@@ -112,20 +112,20 @@ ald_hdv <- ald_hdv %>%
     .x = NULL,
   )
 
-ald_demo <- ald_demo %>%
+abcd_demo <- abcd_demo %>%
   dplyr::filter(!(grepl("hdv", technology))) %>%
   dplyr::bind_rows(
-    ald_hdv
+    abcd_hdv
   )
 
-ald_demo <- left_join(
-  ald_demo, new_emission_factor_unit(),
+abcd_demo <- left_join(
+  abcd_demo, new_emission_factor_unit(),
   by = "sector"
 )
 
-ald_demo$year <- as.integer(ald_demo$year)
+abcd_demo$year <- as.integer(abcd_demo$year)
 
-ald_demo <- ald_demo %>%
+abcd_demo <- abcd_demo %>%
   group_by(name_company, sector) %>%
   mutate(
     id_company = as.character(cur_group_id()),
@@ -137,7 +137,7 @@ ald_demo <- ald_demo %>%
 withr::with_seed(
   42,
   {
-    leis <- ald_demo %>%
+    leis <- abcd_demo %>%
       # assume only LEIs for ultimate_parents
       filter(is_ultimate_owner == TRUE) %>%
       # assume LEIs are unique by id_company
@@ -149,7 +149,7 @@ withr::with_seed(
   }
 )
 
-ald_demo <- ald_demo %>%
+abcd_demo <- abcd_demo %>%
   left_join(leis, by = "id_company")
 
 ordered_names <- c(
@@ -169,6 +169,8 @@ ordered_names <- c(
   emission_factor_unit = "ald_emission_factor_unit"
 )
 
-ald_demo <- select(ald_demo, ordered_names)
+abcd_demo <- select(abcd_demo, ordered_names)
 
-usethis::use_data(ald_demo, overwrite = TRUE)
+abcd_demo <- rename(abcd_demo, abcd_timestamp = ald_timestamp)
+
+usethis::use_data(abcd_demo, overwrite = TRUE)

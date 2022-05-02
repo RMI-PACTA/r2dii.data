@@ -6,7 +6,7 @@
         "names": {
           "type": "character",
           "attributes": {},
-          "value": ["company_id", "name_company", "lei", "sector", "technology", "production_unit", "year", "production", "emission_factor", "country_of_domicile", "plant_location", "is_ultimate_owner", "ald_timestamp", "emission_factor_unit"]
+          "value": ["company_id", "name_company", "lei", "sector", "technology", "production_unit", "year", "production", "emission_factor", "country_of_domicile", "plant_location", "is_ultimate_owner", "abcd_timestamp", "emission_factor_unit"]
         },
         "row.names": {
           "type": "integer",

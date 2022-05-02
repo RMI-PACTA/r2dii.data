@@ -10,7 +10,7 @@
 #' library(r2dii.data)
 #'
 #' names(enlist_datasets("r2dii.data"))
-#' names(enlist_datasets("r2dii.data", pattern = "^ald"))
+#' names(enlist_datasets("r2dii.data", pattern = "^abcd"))
 #' @noRd
 enlist_datasets <- function(package, pattern = "") {
   data <- grep(pattern, exported_data(package), value = TRUE)
