@@ -152,6 +152,15 @@ withr::with_seed(
 abcd_demo <- abcd_demo %>%
   left_join(leis, by = "id_company")
 
+abcd_demo <- abcd_demo %>%
+  mutate(
+    name_company = dplyr::case_when(
+      name_company == "holcim hüttenzement" ~ "holcim huettenzement",
+      name_company == "sa tudela veguín" ~ "sa tudela veguin",
+      TRUE ~ name_company
+    )
+  )
+
 ordered_names <- c(
   company_id = "id_company",
   "name_company",
