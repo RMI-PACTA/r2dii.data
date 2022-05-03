@@ -11,9 +11,9 @@ These datasets support the implementation in R of the software 'PACTA' (Paris Ag
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://2degreesinvesting.github.io/r2dii.data/}
+  \item \url{https://2degreesinvesting.github.io/r2dii.data//}
   \item \url{https://github.com/2DegreesInvesting/r2dii.data}
-  \item \url{https://2degreesinvesting.github.io/r2dii.data}
+  \item \url{https://2degreesinvesting.github.io/r2dii.data/}
   \item Report bugs at \url{https://github.com/2DegreesInvesting/r2dii.data/issues}
 }
 
