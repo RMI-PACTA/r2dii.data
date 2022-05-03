@@ -155,7 +155,7 @@ abcd_demo <- abcd_demo %>%
 abcd_demo <- abcd_demo %>%
   mutate(
     name_company = dplyr::case_when(
-      name_company == "holcim hüttenzement" ~ "holcim huttenzement",
+      name_company == "holcim hüttenzement" ~ "holcim huettenzement",
       name_company == "sa tudela veguín" ~ "sa tudela veguin",
       TRUE ~ name_company
     )
