@@ -15,3 +15,4 @@
 ^revdep$
 ^vignettes/articles$
 ^vignettes/r2dii-data-0-0-3\.Rmd$
+^CRAN-SUBMISSION$
