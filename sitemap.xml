@@ -1,66 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://github.com/2DegreesInvesting/r2dii.data//index.html</loc>
+    <loc>https://2degreesinvesting.github.io/r2dii.data/404.html</loc>
   </url>
   <url>
-    <loc>https://github.com/2DegreesInvesting/r2dii.data//reference/ald_demo.html</loc>
+    <loc>https://2degreesinvesting.github.io/r2dii.data/LICENSE.html</loc>
   </url>
   <url>
-    <loc>https://github.com/2DegreesInvesting/r2dii.data//reference/cnb_classification.html</loc>
+    <loc>https://2degreesinvesting.github.io/r2dii.data/articles/index.html</loc>
   </url>
   <url>
-    <loc>https://github.com/2DegreesInvesting/r2dii.data//reference/co2_intensity_scenario_demo.html</loc>
+    <loc>https://2degreesinvesting.github.io/r2dii.data/articles/r2dii-data-0-0-3.html</loc>
   </url>
   <url>
-    <loc>https://github.com/2DegreesInvesting/r2dii.data//reference/data_dictionary.html</loc>
+    <loc>https://2degreesinvesting.github.io/r2dii.data/authors.html</loc>
   </url>
   <url>
-    <loc>https://github.com/2DegreesInvesting/r2dii.data//reference/gics_classification.html</loc>
+    <loc>https://2degreesinvesting.github.io/r2dii.data/index.html</loc>
   </url>
   <url>
-    <loc>https://github.com/2DegreesInvesting/r2dii.data//reference/green_or_brown.html</loc>
+    <loc>https://2degreesinvesting.github.io/r2dii.data/news/index.html</loc>
   </url>
   <url>
-    <loc>https://github.com/2DegreesInvesting/r2dii.data//reference/isic_classification.html</loc>
+    <loc>https://2degreesinvesting.github.io/r2dii.data/reference/abcd_demo.html</loc>
   </url>
   <url>
-    <loc>https://github.com/2DegreesInvesting/r2dii.data//reference/iso_codes.html</loc>
+    <loc>https://2degreesinvesting.github.io/r2dii.data/reference/ald_demo.html</loc>
   </url>
   <url>
-    <loc>https://github.com/2DegreesInvesting/r2dii.data//reference/loanbook_demo.html</loc>
+    <loc>https://2degreesinvesting.github.io/r2dii.data/reference/cnb_classification.html</loc>
   </url>
   <url>
-    <loc>https://github.com/2DegreesInvesting/r2dii.data//reference/nace_classification.html</loc>
+    <loc>https://2degreesinvesting.github.io/r2dii.data/reference/co2_intensity_scenario_demo.html</loc>
   </url>
   <url>
-    <loc>https://github.com/2DegreesInvesting/r2dii.data//reference/naics_classification.html</loc>
+    <loc>https://2degreesinvesting.github.io/r2dii.data/reference/data_dictionary.html</loc>
   </url>
   <url>
-    <loc>https://github.com/2DegreesInvesting/r2dii.data//reference/overwrite_demo.html</loc>
+    <loc>https://2degreesinvesting.github.io/r2dii.data/reference/gics_classification.html</loc>
   </url>
   <url>
-    <loc>https://github.com/2DegreesInvesting/r2dii.data//reference/psic_classification.html</loc>
+    <loc>https://2degreesinvesting.github.io/r2dii.data/reference/green_or_brown.html</loc>
   </url>
   <url>
-    <loc>https://github.com/2DegreesInvesting/r2dii.data//reference/r2dii.data-package.html</loc>
+    <loc>https://2degreesinvesting.github.io/r2dii.data/reference/index.html</loc>
   </url>
   <url>
-    <loc>https://github.com/2DegreesInvesting/r2dii.data//reference/region_isos.html</loc>
+    <loc>https://2degreesinvesting.github.io/r2dii.data/reference/isic_classification.html</loc>
   </url>
   <url>
-    <loc>https://github.com/2DegreesInvesting/r2dii.data//reference/region_isos_demo.html</loc>
+    <loc>https://2degreesinvesting.github.io/r2dii.data/reference/iso_codes.html</loc>
   </url>
   <url>
-    <loc>https://github.com/2DegreesInvesting/r2dii.data//reference/scenario_demo_2020.html</loc>
+    <loc>https://2degreesinvesting.github.io/r2dii.data/reference/loanbook_demo.html</loc>
   </url>
   <url>
-    <loc>https://github.com/2DegreesInvesting/r2dii.data//reference/sector_classifications.html</loc>
+    <loc>https://2degreesinvesting.github.io/r2dii.data/reference/nace_classification.html</loc>
   </url>
   <url>
-    <loc>https://github.com/2DegreesInvesting/r2dii.data//reference/sic_classification.html</loc>
+    <loc>https://2degreesinvesting.github.io/r2dii.data/reference/naics_classification.html</loc>
   </url>
   <url>
-    <loc>https://github.com/2DegreesInvesting/r2dii.data//articles/r2dii-data-0-0-3.html</loc>
+    <loc>https://2degreesinvesting.github.io/r2dii.data/reference/overwrite_demo.html</loc>
+  </url>
+  <url>
+    <loc>https://2degreesinvesting.github.io/r2dii.data/reference/psic_classification.html</loc>
+  </url>
+  <url>
+    <loc>https://2degreesinvesting.github.io/r2dii.data/reference/r2dii.data-package.html</loc>
+  </url>
+  <url>
+    <loc>https://2degreesinvesting.github.io/r2dii.data/reference/region_isos.html</loc>
+  </url>
+  <url>
+    <loc>https://2degreesinvesting.github.io/r2dii.data/reference/region_isos_demo.html</loc>
+  </url>
+  <url>
+    <loc>https://2degreesinvesting.github.io/r2dii.data/reference/scenario_demo_2020.html</loc>
+  </url>
+  <url>
+    <loc>https://2degreesinvesting.github.io/r2dii.data/reference/sector_classifications.html</loc>
+  </url>
+  <url>
+    <loc>https://2degreesinvesting.github.io/r2dii.data/reference/sic_classification.html</loc>
   </url>
 </urlset>

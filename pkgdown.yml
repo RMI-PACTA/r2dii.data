@@ -1,10 +1,10 @@
-pandoc: 2.7.3
-pkgdown: 1.6.1
+pandoc: 2.14.2
+pkgdown: 2.0.3
 pkgdown_sha: ~
 articles:
   r2dii-data-0-0-3: r2dii-data-0-0-3.html
-last_built: 2021-09-03T17:48Z
+last_built: 2022-05-04T15:45Z
 urls:
-  reference: https://github.com/2DegreesInvesting/r2dii.data//reference
-  article: https://github.com/2DegreesInvesting/r2dii.data//articles
+  reference: https://2degreesinvesting.github.io/r2dii.data/reference
+  article: https://2degreesinvesting.github.io/r2dii.data/articles
 
