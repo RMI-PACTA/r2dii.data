@@ -9,6 +9,5 @@ delayedAssign("ald_demo", {
       call. = FALSE
     )
   }
-
-  abcd_demo
+  r2dii.data::abcd_demo
 })
