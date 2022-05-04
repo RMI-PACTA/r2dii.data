@@ -21,9 +21,9 @@ Description: These datasets support the implementation in R of the
     provides fake, public data to enable the development and use of
     'PACTA' in R.
 License: CC0
-URL: https://2degreesinvesting.github.io/r2dii.data/,
+URL: https://2degreesinvesting.github.io/r2dii.data//,
     https://github.com/2DegreesInvesting/r2dii.data,
-    https://2degreesinvesting.github.io/r2dii.data
+    https://2degreesinvesting.github.io/r2dii.data/
 BugReports: https://github.com/2DegreesInvesting/r2dii.data/issues
 Depends: 
     R (>= 3.4)
