@@ -7,7 +7,6 @@ Authors@R: c(
            comment = c(ORCID = "0000-0002-8600-5042")),
     person("Mauro", "Lepore", , "maurolepore@gmail.com", role = c("aut", "ctr"),
            comment = c(ORCID = "0000-0002-1986-7988")),
-    person("Klaus", "Hagedorn", , "klaus@2degrees-investing.org", role = "aut"),
     person("Rocky Mountain Institute", , , "PACTA4banks@rmi.org", role = c("cph", "fnd"))
   )
 Description: These datasets support the implementation in R of the
