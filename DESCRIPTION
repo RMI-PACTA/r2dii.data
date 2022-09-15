@@ -8,23 +8,23 @@ Authors@R: c(
     person("Mauro", "Lepore", , "maurolepore@gmail.com", role = c("aut", "ctr"),
            comment = c(ORCID = "0000-0002-1986-7988")),
     person("Klaus", "Hagedorn", , "klaus@2degrees-investing.org", role = "aut"),
-    person("2 Degrees Investing Initiative", , , "contact@2degrees-investing.org", role = c("cph", "fnd"))
+    person("Rocky Mountain Institute", , , "PACTA4banks@rmi.org", role = c("cph", "fnd"))
   )
 Description: These datasets support the implementation in R of the
     software 'PACTA' (Paris Agreement Capital Transition Assessment),
     which is a free tool that calculates the alignment between corporate
     lending portfolios and climate scenarios
-    (<https://2degrees-investing.org/>). Financial institutions use
+    (<https://rmi.org/>). Financial institutions use
     'PACTA' to study how their capital allocation decisions align with
     climate change mitigation goals. Because both financial institutions
     and market data providers keep their data private, this package
     provides fake, public data to enable the development and use of
     'PACTA' in R.
 License: CC0
-URL: https://2degreesinvesting.github.io/r2dii.data//,
-    https://github.com/2DegreesInvesting/r2dii.data,
-    https://2degreesinvesting.github.io/r2dii.data/
-BugReports: https://github.com/2DegreesInvesting/r2dii.data/issues
+URL:
+    https://rmi-pacta.github.io/r2dii.data/,
+    https://github.com/RMI-PACTA/r2dii.data
+BugReports: https://github.com/RMI-PACTA/r2dii.data/issues
 Depends: 
     R (>= 3.4)
 Imports:
