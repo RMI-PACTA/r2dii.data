@@ -13,15 +13,12 @@ isic_classification
 \description{
 This dataset serves as a translation key between common sector-classification
 systems and sectors relevant to the 'PACTA' tool
-(\url{https://2degrees-investing.org/resource/pacta/}).
+(\url{https://www.transitionmonitor.com/}).
 }
 \section{Definitions}{
 
 \itemize{
-\item \code{borderline} (logical): Flag indicating if 2dii sector and classification code are a borderline match. The value TRUE indicates that the match is uncertain between the 2dii sector and the classification. The value FALSE indicates that the match is certainly perfect or the classification is certainly out of 2dii's scope..
-\item \code{code} (character): Original ISIC code.
-\item \code{code_level} (double): Level of granularity of ISIC code.
-\item \code{sector} (character): Associated 2dii sector.
+\item \code{borderline} (logical): Flag indicating if 2dii sector and classification code are a borderline match. The value TRUE indicates that the match is uncertain between the 2dii sector and the classification. The value FALSE indicates that the match is certainly perfect or the classification is certainly out of 2dii's scope.., * \code{code} (character): Original ISIC code., * \code{code_level} (double): Level of granularity of ISIC code., * \code{sector} (character): Associated 2dii sector.
 }
 }
 

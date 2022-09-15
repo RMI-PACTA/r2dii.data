@@ -16,7 +16,7 @@ but smaller than \link{region_isos}.
 
 Demo datasets are synthetic because most financial data is strictly private;
 they help to demonstrate and test the implementation in R of 'PACTA'
-(\url{https://2degrees-investing.org/resource/pacta/}).
+(\url{https://www.transitionmonitor.com/}).
 
 For information about the ISO standard for country codes see
 \url{https://www.iso.org/iso-3166-country-codes.html}.
@@ -24,9 +24,7 @@ For information about the ISO standard for country codes see
 \section{Definitions}{
 
 \itemize{
-\item \code{isos} (character): Countries in region, defined by iso code.
-\item \code{region} (character): Benchmark region name.
-\item \code{source} (character): Source publication from which the regions are defined.
+\item \code{isos} (character): Countries in region, defined by iso code., * \code{region} (character): Benchmark region name., * \code{source} (character): Source publication from which the regions are defined.
 }
 }
 

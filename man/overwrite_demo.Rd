@@ -16,16 +16,12 @@ level entities.
 
 Demo datasets are synthetic because most financial data is strictly private;
 they help to demonstrate and test the implementation in R of 'PACTA'
-(\url{https://2degrees-investing.org/resource/pacta/}).
+(\url{https://www.transitionmonitor.com/}).
 }
 \section{Definitions}{
 
 \itemize{
-\item \code{id_2dii} (character): IDs of the entities to overwrite.
-\item \code{level} (character): Which level should be overwritten (e.g. direct_loantaker or ultimate_parent).
-\item \code{name} (character): Overwrite name (if only overwriting sector, type NA).
-\item \code{sector} (character): Overwrite sector (if only overwriting name, type NA).
-\item \code{source} (character): What is the source of this information (leave as "manual" for now, may remove this flag later).
+\item \code{id_2dii} (character): IDs of the entities to overwrite., * \code{level} (character): Which level should be overwritten (e.g. direct_loantaker or ultimate_parent)., * \code{name} (character): Overwrite name (if only overwriting sector, type NA)., * \code{sector} (character): Overwrite sector (if only overwriting name, type NA)., * \code{source} (character): What is the source of this information (leave as "manual" for now, may remove this flag later).
 }
 }
 

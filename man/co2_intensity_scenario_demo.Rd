@@ -14,23 +14,16 @@ co2_intensity_scenario_demo
 Fake co2 intensity climate scenario dataset, prepared for the software
 PACTA (Paris Agreement Capital Transition Assessment). It imitates
 climate scenario data (e.g. from the International Energy Agency (IEA))
-including the change through time in production across industrial sectors
-(calculated by \href{https://2degrees-investing.org/}{2DII}).
+including the change through time in production across industrial sectors.
 
 Demo datasets are synthetic because most financial data is strictly private;
 they help to demonstrate and test the implementation in R of 'PACTA'
-(\url{https://2degrees-investing.org/resource/pacta/}).
+(\url{https://www.transitionmonitor.com/}).
 }
 \section{Definitions}{
 
 \itemize{
-\item \code{emission_factor} (double): The target sector level emissions factor that the scenario prescribes.
-\item \code{emission_factor_unit} (character): The units that the emissions factor is measured in.
-\item \code{region} (character): The region to which the pathway is relevant.
-\item \code{scenario} (character): The name of the scenario.
-\item \code{scenario_source} (character): The source publication from which the scenario was taken.
-\item \code{sector} (character): The sector to which the scenario prescribes a pathway.
-\item \code{year} (integer): The year at which the pathway value is prescribed.
+\item \code{emission_factor} (double): The target sector level emissions factor that the scenario prescribes., * \code{emission_factor_unit} (character): The units that the emissions factor is measured in., * \code{region} (character): The region to which the pathway is relevant., * \code{scenario} (character): The name of the scenario., * \code{scenario_source} (character): The source publication from which the scenario was taken., * \code{sector} (character): The sector to which the scenario prescribes a pathway., * \code{year} (integer): The year at which the pathway value is prescribed.
 }
 }
 

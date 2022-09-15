@@ -6,15 +6,16 @@
 \alias{r2dii.data-package}
 \title{r2dii.data: Datasets to Measure the Alignment of Corporate Loan Books with Climate Goals}
 \description{
-These datasets support the implementation in R of the software 'PACTA' (Paris Agreement Capital Transition Assessment), which is a free tool that calculates the alignment between corporate lending portfolios and climate scenarios (<https://2degrees-investing.org/>). Financial institutions use 'PACTA' to study how their capital allocation decisions align with climate change mitigation goals. Because both financial institutions and market data providers keep their data private, this package provides fake, public data to enable the development and use of 'PACTA' in R.
+\if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
+
+These datasets support the implementation in R of the software 'PACTA' (Paris Agreement Capital Transition Assessment), which is a free tool that calculates the alignment between corporate lending portfolios and climate scenarios (\url{https://www.transitionmonitor.com/}). Financial institutions use 'PACTA' to study how their capital allocation decisions align with climate change mitigation goals. Because both financial institutions and market data providers keep their data private, this package provides fake, public data to enable the development and use of 'PACTA' in R.
 }
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://2degreesinvesting.github.io/r2dii.data//}
-  \item \url{https://github.com/2DegreesInvesting/r2dii.data}
-  \item \url{https://2degreesinvesting.github.io/r2dii.data/}
-  \item Report bugs at \url{https://github.com/2DegreesInvesting/r2dii.data/issues}
+  \item \url{https://rmi-pacta.github.io/r2dii.data/}
+  \item \url{https://github.com/RMI-PACTA/r2dii.data}
+  \item Report bugs at \url{https://github.com/RMI-PACTA/r2dii.data/issues}
 }
 
 }
@@ -24,12 +25,11 @@ Useful links:
 Authors:
 \itemize{
   \item Mauro Lepore \email{maurolepore@gmail.com} (\href{https://orcid.org/0000-0002-1986-7988}{ORCID}) [contractor]
-  \item Klaus Hagedorn \email{klaus@2degrees-investing.org}
 }
 
 Other contributors:
 \itemize{
-  \item 2 Degrees Investing Initiative \email{contact@2degrees-investing.org} [copyright holder, funder]
+  \item Rocky Mountain Institute \email{PACTA4banks@rmi.org} [copyright holder, funder]
 }
 
 }
