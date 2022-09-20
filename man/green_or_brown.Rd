@@ -18,9 +18,7 @@ warming of less than 2 degrees.
 \section{Definitions}{
 
 \itemize{
-\item \code{green_or_brown} (character): If the technology is green (increasing) or brown (decreasing), as defined by the Paris-aligned IEA scenarios.
-\item \code{sector} (character): The sector to which the technology belongs.
-\item \code{technology} (character): The technology sub-category within the sector.
+\item \code{green_or_brown} (character): If the technology is green (increasing) or brown (decreasing), as defined by the Paris-aligned IEA scenarios., * \code{sector} (character): The sector to which the technology belongs., * \code{technology} (character): The technology sub-category within the sector.
 }
 }
 

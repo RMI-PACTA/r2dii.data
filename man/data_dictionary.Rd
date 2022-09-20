@@ -16,10 +16,7 @@ This dataset provides metadata about all datasets in the package r2dii.data.
 \section{Definitions}{
 
 \itemize{
-\item \code{column} (character): The name of a dataset-column.
-\item \code{dataset} (character): The name of a dataset.
-\item \code{definition} (character): The definition of a dataset-column.
-\item \code{typeof} (character): The result of \code{typeof()}, one of double, integer, logical, or character..
+\item \code{column} (character): The name of a dataset-column., * \code{dataset} (character): The name of a dataset., * \code{definition} (character): The definition of a dataset-column., * \code{typeof} (character): The result of \code{typeof()}, one of double, integer, logical, or character..
 }
 }
 
