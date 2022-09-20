@@ -19,8 +19,7 @@ For information about the ISO standard for country codes see
 \section{Definitions}{
 
 \itemize{
-\item \code{country} (character): Country name.
-\item \code{country_iso} (character): Corresponding ISO code.
+\item \code{country} (character): Country name., * \code{country_iso} (character): Corresponding ISO code.
 }
 }
 

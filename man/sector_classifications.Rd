@@ -17,10 +17,7 @@ This dataset lists all sector classification code standards used by 'PACTA'
 \section{Definitions}{
 
 \itemize{
-\item \code{borderline} (character): Flag indicating if 2dii sector and classification code are a borderline match. The value TRUE indicates that the match is uncertain between the 2dii sector and the classification. The value FALSE indicates that the match is certainly perfect or the classification is certainly out of 2dii's scope..
-\item \code{code} (character): Formatted code.
-\item \code{code_system} (character): Code system.
-\item \code{sector} (character): Associated 2dii sector.
+\item \code{borderline} (character): Flag indicating if 2dii sector and classification code are a borderline match. The value TRUE indicates that the match is uncertain between the 2dii sector and the classification. The value FALSE indicates that the match is certainly perfect or the classification is certainly out of 2dii's scope.., * \code{code} (character): Formatted code., * \code{code_system} (character): Code system., * \code{sector} (character): Associated 2dii sector.
 }
 }
 
