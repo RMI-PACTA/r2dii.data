@@ -40,9 +40,6 @@ this:
 devtools::install_github("RMI-PACTA/r2dii.data")
 ```
 
-[How to raise an
-issue?](https://2degreesinvesting.github.io/posts/2020-06-26-instructions-to-raise-an-issue/)
-
 ## Example
 
 ``` r
