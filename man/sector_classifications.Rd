@@ -12,7 +12,7 @@ sector_classifications
 }
 \description{
 This dataset lists all sector classification code standards used by 'PACTA'
-(\url{https://2degrees-investing.org/resource/pacta/}).
+(\url{https://www.transitionmonitor.com/}).
 }
 \section{Definitions}{
 

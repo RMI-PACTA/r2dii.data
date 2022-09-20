@@ -13,7 +13,7 @@ cnb_classification
 \description{
 This dataset serves as a translation key between common sector-classification
 systems and sectors relevant to the 'PACTA' tool
-(\url{https://2degrees-investing.org/resource/pacta/}).
+(\url{https://www.transitionmonitor.com/}).
 }
 \section{Definitions}{
 

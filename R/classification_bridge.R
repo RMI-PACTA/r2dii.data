@@ -3,7 +3,7 @@
 #' @description
 #' This dataset serves as a translation key between common sector-classification
 #' systems and sectors relevant to the 'PACTA' tool
-#' (<https://2degrees-investing.org/resource/pacta/>).
+#' (<https://www.transitionmonitor.com/>).
 #'
 #'
 #' @family datasets for bridging sector classification codes

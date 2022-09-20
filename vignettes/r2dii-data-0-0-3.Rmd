@@ -16,7 +16,7 @@ data private, this package provides fake, public data to enable the
 development and use in R of PACTA (Paris Agreement Capital Transition
 Assessment) – a free tool that calculates the alignment between
 financial assets and climate scenarios
-(<a href="https://2degrees-investing.org/" class="uri">https://2degrees-investing.org/</a>).
+(<a href="https://www.transitionmonitor.com/" class="uri">https://www.transitionmonitor.com/</a>).
 
 Install r2dii.data with:
 
@@ -26,7 +26,7 @@ And use it with:
 
     library(r2dii.data)
 
-[`data_dictionary`](https://2degreesinvesting.github.io/r2dii.data/reference/data_dictionary.html)
+[`data_dictionary`](https://rmi-pacta.github.io/r2dii.data/reference/data_dictionary.html)
 provides metadata about all datasets in r2dii.data.
 
     # Optional: Use tibble to print nice data frames
@@ -53,9 +53,9 @@ Tips:
 -   Use the package [tibble](https://tibble.tidyverse.org/) to
     automatically print nice data frames.
 -   Explore all datasets at the [website of
-    r2dii.data](https://2degreesinvesting.github.io/r2dii.data/index.html),
+    r2dii.data](https://rmi-pacta.github.io/r2dii.data/index.html),
     under the tab
-    [Reference](https://2degreesinvesting.github.io/r2dii.data/reference/index.html).
+    [Reference](https://rmi-pacta.github.io/r2dii.data/reference/index.html).
 -   Use `utils::View()` in RStudio to search, sort, and filter keywords.
 
 <!-- -->
@@ -65,4 +65,4 @@ Tips:
 <img src=http://i.imgur.com/CsZAPN0.png width=760/>
 
 We look forward to [your
-feedback](https://github.com/2DegreesInvesting/r2dii.data/issues/new/choose).
+feedback](https://github.com/RMI-PACTA/r2dii.data/issues/new/choose).

@@ -16,7 +16,7 @@ but smaller than \link{region_isos}.
 
 Demo datasets are synthetic because most financial data is strictly private;
 they help to demonstrate and test the implementation in R of 'PACTA'
-(\url{https://2degrees-investing.org/resource/pacta/}).
+(\url{https://www.transitionmonitor.com/}).
 
 For information about the ISO standard for country codes see
 \url{https://www.iso.org/iso-3166-country-codes.html}.
