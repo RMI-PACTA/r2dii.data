@@ -1,1058 +1,1060 @@
-code,naics_title,sector,borderline
-111110,soybean farming,not in scope,FALSE
-111120,oilseed (except soybean) farming,not in scope,FALSE
-111130,dry pea and bean farming,not in scope,FALSE
-111140,wheat farming,not in scope,FALSE
-111150,corn farming,not in scope,FALSE
-111160,rice farming,not in scope,FALSE
-111191,oilseed and grain combination farming,not in scope,FALSE
-111199,all other grain farming,not in scope,FALSE
-111211,potato farming,not in scope,FALSE
-111219,other vegetable (except potato) and melon farming,not in scope,FALSE
-111310,orange groves,not in scope,FALSE
-111320,citrus (except orange) groves,not in scope,FALSE
-111331,apple orchards,not in scope,FALSE
-111332,grape vineyards,not in scope,FALSE
-111333,strawberry farming,not in scope,FALSE
-111334,berry (except strawberry) farming,not in scope,FALSE
-111335,tree nut farming,not in scope,FALSE
-111336,fruit and tree nut combination farming,not in scope,FALSE
-111339,other noncitrus fruit farming,not in scope,FALSE
-111411,mushroom production,not in scope,FALSE
-111419,other food crops grown under cover,not in scope,FALSE
-111421,nursery and tree production,not in scope,FALSE
-111422,floriculture production,not in scope,FALSE
-111910,tobacco farming,not in scope,FALSE
-111920,cotton farming,not in scope,FALSE
-111930,sugarcane farming,not in scope,FALSE
-111940,hay farming,not in scope,FALSE
-111991,sugar beet farming,not in scope,FALSE
-111992,peanut farming,not in scope,FALSE
-111998,all other miscellaneous crop farming,not in scope,FALSE
-112111,beef cattle ranching and farming,not in scope,FALSE
-112112,cattle feedlots,not in scope,FALSE
-112120,dairy cattle and milk production,not in scope,FALSE
-112130,dual-purpose cattle ranching and farming,not in scope,FALSE
-112210,hog and pig farming,not in scope,FALSE
-112310,chicken egg production,not in scope,FALSE
-112320,broilers and other meat type chicken production,not in scope,FALSE
-112330,turkey production,not in scope,FALSE
-112340,poultry hatcheries,not in scope,FALSE
-112390,other poultry production,not in scope,FALSE
-112410,sheep farming,not in scope,FALSE
-112420,goat farming,not in scope,FALSE
-112511,finfish farming and fish hatcheries,not in scope,FALSE
-112512,shellfish farming,not in scope,FALSE
-112519,other aquaculture,not in scope,FALSE
-112910,apiculture,not in scope,FALSE
-112920,horses and other equine production,not in scope,FALSE
-112930,fur-bearing animal and rabbit production,not in scope,FALSE
-112990,all other animal production,not in scope,FALSE
-113110,timber tract operations,not in scope,FALSE
-113210,forest nurseries and gathering of forest products,not in scope,FALSE
-113310,logging,not in scope,FALSE
-114111,finfish fishing,not in scope,FALSE
-114112,shellfish fishing,not in scope,FALSE
-114119,other marine fishing,not in scope,FALSE
-114210,hunting and trapping,not in scope,FALSE
-115111,cotton ginning,not in scope,FALSE
-115112,"soil preparation, planting, and cultivating",not in scope,FALSE
-115113,"crop harvesting, primarily by machine",not in scope,FALSE
-115114,postharvest crop activities (except cotton ginning),not in scope,FALSE
-115115,farm labor contractors and crew leaders,not in scope,FALSE
-115116,farm management services,not in scope,FALSE
-115210,support activities for animal production,not in scope,FALSE
-115310,support activities for forestry,not in scope,FALSE
-211120,crude petroleum extraction ,oil and gas,FALSE
-211130,natural gas extraction,oil and gas,FALSE
-212111,bituminous coal and lignite surface mining,coal,FALSE
-212112,bituminous coal underground mining,coal,FALSE
-212113,anthracite mining,coal,FALSE
-212210,iron ore mining,not in scope,FALSE
-212221,gold ore mining,not in scope,FALSE
-212222,silver ore mining,not in scope,FALSE
-212230,"copper, nickel, lead, and zinc mining",not in scope,FALSE
-212291,uranium-radium-vanadium ore mining,not in scope,FALSE
-212299,all other metal ore mining,not in scope,FALSE
-212311,dimension stone mining and quarrying,not in scope,FALSE
-212312,crushed and broken limestone mining and quarrying,not in scope,FALSE
-212313,crushed and broken granite mining and quarrying,not in scope,FALSE
-212319,other crushed and broken stone mining and quarrying,not in scope,FALSE
-212321,construction sand and gravel mining,not in scope,FALSE
-212322,industrial sand mining,not in scope,FALSE
-212324,kaolin and ball clay mining,not in scope,FALSE
-212325,clay and ceramic and refractory minerals mining,not in scope,FALSE
-212391,"potash, soda, and borate mineral mining",not in scope,FALSE
-212392,phosphate rock mining,not in scope,FALSE
-212393,other chemical and fertilizer mineral mining,not in scope,FALSE
-212399,all other nonmetallic mineral mining,not in scope,FALSE
-213111,drilling oil and gas wells,not in scope,FALSE
-213112,support activities for oil and gas operations,not in scope,FALSE
-213113,support activities for coal mining,not in scope,FALSE
-213114,support activities for metal mining,not in scope,FALSE
-213115,support activities for nonmetallic minerals (except fuels) mining,not in scope,FALSE
-221111,hydroelectric power generation,power,FALSE
-221112,fossil fuel electric power generation,power,FALSE
-221113,nuclear electric power generation,power,FALSE
-221114,solar electric power generation,power,FALSE
-221115,wind electric power generation,power,FALSE
-221116,geothermal electric power generation,power,FALSE
-221117,biomass electric power generation,power,FALSE
-221118,other electric power generation,power,FALSE
-221121,electric bulk power transmission and control,power,TRUE
-221122,electric power distribution,power,TRUE
-221210,natural gas distribution,not in scope,FALSE
-221310,water supply and irrigation systems,not in scope,FALSE
-221320,sewage treatment facilities,not in scope,FALSE
-221330,steam and air-conditioning supply,not in scope,FALSE
-236115,new single-family housing construction (except for-sale builders),not in scope,FALSE
-236116,new multifamily housing construction (except for-sale builders),not in scope,FALSE
-236117,new housing for-sale builders,not in scope,FALSE
-236118,residential remodelers,not in scope,FALSE
-236210,industrial building construction,not in scope,FALSE
-236220,commercial and institutional building construction,not in scope,FALSE
-237110,water and sewer line and related structures construction,not in scope,FALSE
-237120,oil and gas pipeline and related structures construction,not in scope,FALSE
-237130,power and communication line and related structures construction,not in scope,FALSE
-237210,land subdivision,not in scope,FALSE
-237310,"highway, street, and bridge construction",not in scope,FALSE
-237990,other heavy and civil engineering construction,not in scope,FALSE
-238110,poured concrete foundation and structure contractors,not in scope,FALSE
-238120,structural steel and precast concrete contractors,not in scope,FALSE
-238130,framing contractors,not in scope,FALSE
-238140,masonry contractors,not in scope,FALSE
-238150,glass and glazing contractors,not in scope,FALSE
-238160,roofing contractors,not in scope,FALSE
-238170,siding contractors,not in scope,FALSE
-238190,"other foundation, structure, and building exterior contractors",not in scope,FALSE
-238210,electrical contractors and other wiring installation contractors,not in scope,FALSE
-238220,"plumbing, heating, and air-conditioning contractors",not in scope,FALSE
-238290,other building equipment contractors,not in scope,FALSE
-238310,drywall and insulation contractors,not in scope,FALSE
-238320,painting and wall covering contractors,not in scope,FALSE
-238330,flooring contractors,not in scope,FALSE
-238340,tile and terrazzo contractors,not in scope,FALSE
-238350,finish carpentry contractors,not in scope,FALSE
-238390,other building finishing contractors,not in scope,FALSE
-238910,site preparation contractors,not in scope,FALSE
-238990,all other specialty trade contractors,not in scope,FALSE
-311111,dog and cat food manufacturing,not in scope,FALSE
-311119,other animal food manufacturing,not in scope,FALSE
-311211,flour milling,not in scope,FALSE
-311212,rice milling,not in scope,FALSE
-311213,malt manufacturing,not in scope,FALSE
-311221,wet corn milling,not in scope,FALSE
-311224,soybean and other oilseed processing,not in scope,FALSE
-311225,fats and oils refining and blending,not in scope,FALSE
-311230,breakfast cereal manufacturing,not in scope,FALSE
-311313,beet sugar manufacturing,not in scope,FALSE
-311314,cane sugar manufacturing,not in scope,FALSE
-311340,nonchocolate confectionery manufacturing,not in scope,FALSE
-311351,chocolate and confectionery manufacturing from cacao beans,not in scope,FALSE
-311352,confectionery manufacturing from purchased chocolate,not in scope,FALSE
-311411,"frozen fruit, juice, and vegetable manufacturing",not in scope,FALSE
-311412,frozen specialty food manufacturing,not in scope,FALSE
-311421,fruit and vegetable canning,not in scope,FALSE
-311422,specialty canning,not in scope,FALSE
-311423,dried and dehydrated food manufacturing,not in scope,FALSE
-311511,fluid milk manufacturing,not in scope,FALSE
-311512,creamery butter manufacturing,not in scope,FALSE
-311513,cheese manufacturing,not in scope,FALSE
-311514,"dry, condensed, and evaporated dairy product manufacturing",not in scope,FALSE
-311520,ice cream and frozen dessert manufacturing,not in scope,FALSE
-311611,animal (except poultry) slaughtering,not in scope,FALSE
-311612,meat processed from carcasses,not in scope,FALSE
-311613,rendering and meat byproduct processing,not in scope,FALSE
-311615,poultry processing,not in scope,FALSE
-311710,seafood product preparation and packaging,not in scope,FALSE
-311811,retail bakeries,not in scope,FALSE
-311812,commercial bakeries,not in scope,FALSE
-311813,"frozen cakes, pies, and other pastries manufacturing",not in scope,FALSE
-311821,cookie and cracker manufacturing,not in scope,FALSE
-311824,"dry pasta, dough, and flour mixes manufacturing from purchased flour",not in scope,FALSE
-311830,tortilla manufacturing,not in scope,FALSE
-311911,roasted nuts and peanut butter manufacturing,not in scope,FALSE
-311919,other snack food manufacturing,not in scope,FALSE
-311920,coffee and tea manufacturing,not in scope,FALSE
-311930,flavoring syrup and concentrate manufacturing,not in scope,FALSE
-311941,"mayonnaise, dressing, and other prepared sauce manufacturing",not in scope,FALSE
-311942,spice and extract manufacturing,not in scope,FALSE
-311991,perishable prepared food manufacturing,not in scope,FALSE
-311999,all other miscellaneous food manufacturing,not in scope,FALSE
-312111,soft drink manufacturing,not in scope,FALSE
-312112,bottled water manufacturing,not in scope,FALSE
-312113,ice manufacturing,not in scope,FALSE
-312120,breweries,not in scope,FALSE
-312130,wineries,not in scope,FALSE
-312140,distilleries,not in scope,FALSE
-312230,tobacco manufacturing,not in scope,FALSE
-313110,"fiber, yarn, and thread mills",not in scope,FALSE
-313210,broadwoven fabric mills,not in scope,FALSE
-313220,narrow fabric mills and schiffli machine embroidery,not in scope,FALSE
-313230,nonwoven fabric mills,not in scope,FALSE
-313240,knit fabric mills,not in scope,FALSE
-313310,textile and fabric finishing mills,not in scope,FALSE
-313320,fabric coating mills,not in scope,FALSE
-314110,carpet and rug mills,not in scope,FALSE
-314120,curtain and linen mills,not in scope,FALSE
-314910,textile bag and canvas mills,not in scope,FALSE
-314994,"rope, cordage, twine, tire cord, and tire fabric mills",not in scope,FALSE
-314999,all other miscellaneous textile product mills,not in scope,FALSE
-315110,hosiery and sock mills,not in scope,FALSE
-315190,other apparel knitting mills,not in scope,FALSE
-315210,cut and sew apparel contractors,not in scope,FALSE
-315220,men’s and boys’ cut and sew apparel manufacturing,not in scope,FALSE
-315240,"women’s, girls’, and infants’ cut and sew apparel manufacturing",not in scope,FALSE
-315280,other cut and sew apparel manufacturing,not in scope,FALSE
-315990,apparel accessories and other apparel manufacturing,not in scope,FALSE
-316110,leather and hide tanning and finishing,not in scope,FALSE
-316210,footwear manufacturing,not in scope,FALSE
-316992,women's handbag and purse manufacturing,not in scope,FALSE
-316998,all other leather good and allied product manufacturing,not in scope,FALSE
-321113,sawmills,not in scope,FALSE
-321114,wood preservation,not in scope,FALSE
-321211,hardwood veneer and plywood manufacturing,not in scope,FALSE
-321212,softwood veneer and plywood manufacturing,not in scope,FALSE
-321213,engineered wood member (except truss) manufacturing,not in scope,FALSE
-321214,truss manufacturing,not in scope,FALSE
-321219,reconstituted wood product manufacturing,not in scope,FALSE
-321911,wood window and door manufacturing,not in scope,FALSE
-321912,"cut stock, resawing lumber, and planing",not in scope,FALSE
-321918,other millwork (including flooring),not in scope,FALSE
-321920,wood container and pallet manufacturing,not in scope,FALSE
-321991,manufactured home (mobile home) manufacturing,not in scope,FALSE
-321992,prefabricated wood building manufacturing,not in scope,FALSE
-321999,all other miscellaneous wood product manufacturing,not in scope,FALSE
-322110,pulp mills,not in scope,FALSE
-322121,paper (except newsprint) mills,not in scope,FALSE
-322122,newsprint mills,not in scope,FALSE
-322130,paperboard mills,not in scope,FALSE
-322211,corrugated and solid fiber box manufacturing,not in scope,FALSE
-322212,folding paperboard box manufacturing,not in scope,FALSE
-322219,other paperboard container manufacturing,not in scope,FALSE
-322220,paper bag and coated and treated paper manufacturing,not in scope,FALSE
-322230,stationery product manufacturing,not in scope,FALSE
-322291,sanitary paper product manufacturing,not in scope,FALSE
-322299,all other converted paper product manufacturing,not in scope,FALSE
-323111,commercial printing (except screen and books),not in scope,FALSE
-323113,commercial screen printing,not in scope,FALSE
-323117,books printing,not in scope,FALSE
-323120,support activities for printing,not in scope,FALSE
-324110,petroleum refineries,not in scope,FALSE
-324121,asphalt paving mixture and block manufacturing,not in scope,FALSE
-324122,asphalt shingle and coating materials manufacturing,not in scope,FALSE
-324191,petroleum lubricating oil and grease manufacturing,not in scope,FALSE
-324199,all other petroleum and coal products manufacturing,not in scope,FALSE
-325110,petrochemical manufacturing,not in scope,FALSE
-325120,industrial gas manufacturing,not in scope,FALSE
-325130,synthetic dye and pigment manufacturing,not in scope,FALSE
-325180,other basic inorganic chemical manufacturing,not in scope,FALSE
-325193,ethyl alcohol manufacturing,not in scope,FALSE
-325194,"cyclic crude, intermediate, and gum and wood chemical manufacturing",not in scope,FALSE
-325199,all other basic organic chemical manufacturing,not in scope,FALSE
-325211,plastics material and resin manufacturing,not in scope,FALSE
-325212,synthetic rubber manufacturing,not in scope,FALSE
-325220,artificial and synthetic fibers and filaments manufacturing,not in scope,FALSE
-325311,nitrogenous fertilizer manufacturing,not in scope,FALSE
-325312,phosphatic fertilizer manufacturing,not in scope,FALSE
-325314,fertilizer (mixing only) manufacturing,not in scope,FALSE
-325320,pesticide and other agricultural chemical manufacturing,not in scope,FALSE
-325411,medicinal and botanical manufacturing,not in scope,FALSE
-325412,pharmaceutical preparation manufacturing,not in scope,FALSE
-325413,in-vitro diagnostic substance manufacturing,not in scope,FALSE
-325414,biological product (except diagnostic) manufacturing,not in scope,FALSE
-325510,paint and coating manufacturing,not in scope,FALSE
-325520,adhesive manufacturing,not in scope,FALSE
-325611,soap and other detergent manufacturing,not in scope,FALSE
-325612,polish and other sanitation good manufacturing,not in scope,FALSE
-325613,surface active agent manufacturing,not in scope,FALSE
-325620,toilet preparation manufacturing,not in scope,FALSE
-325910,printing ink manufacturing,not in scope,FALSE
-325920,explosives manufacturing,not in scope,FALSE
-325991,custom compounding of purchased resins,not in scope,FALSE
-325992,"photographic film, paper, plate, and chemical manufacturing",not in scope,FALSE
-325998,all other miscellaneous chemical product and preparation manufacturing,not in scope,FALSE
-326111,plastics bag and pouch manufacturing,not in scope,FALSE
-326112,plastics packaging film and sheet (including laminated) manufacturing,not in scope,FALSE
-326113,unlaminated plastics film and sheet (except packaging) manufacturing,not in scope,FALSE
-326121,unlaminated plastics profile shape manufacturing,not in scope,FALSE
-326122,plastics pipe and pipe fitting manufacturing,not in scope,FALSE
-326130,"laminated plastics plate, sheet (except packaging), and shape manufacturing",not in scope,FALSE
-326140,polystyrene foam product manufacturing,not in scope,FALSE
-326150,urethane and other foam product (except polystyrene) manufacturing,not in scope,FALSE
-326160,plastics bottle manufacturing,not in scope,FALSE
-326191,plastics plumbing fixture manufacturing,not in scope,FALSE
-326199,all other plastics product manufacturing,not in scope,FALSE
-326211,tire manufacturing (except retreading),not in scope,FALSE
-326212,tire retreading,not in scope,FALSE
-326220,rubber and plastics hoses and belting manufacturing,not in scope,FALSE
-326291,rubber product manufacturing for mechanical use,not in scope,FALSE
-326299,all other rubber product manufacturing,not in scope,FALSE
-327110,"pottery, ceramics, and plumbing fixture manufacturing",not in scope,FALSE
-327120,clay building material and refractories manufacturing,not in scope,FALSE
-327211,flat glass manufacturing,not in scope,FALSE
-327212,other pressed and blown glass and glassware manufacturing,not in scope,FALSE
-327213,glass container manufacturing,not in scope,FALSE
-327215,glass product manufacturing made of purchased glass,not in scope,FALSE
-327310,cement manufacturing,cement,FALSE
-327320,ready-mix concrete manufacturing,not in scope,FALSE
-327331,concrete block and brick manufacturing,not in scope,FALSE
-327332,concrete pipe manufacturing,not in scope,FALSE
-327390,other concrete product manufacturing,not in scope,FALSE
-327410,lime manufacturing,not in scope,FALSE
-327420,gypsum product manufacturing,not in scope,FALSE
-327910,abrasive product manufacturing,not in scope,FALSE
-327991,cut stone and stone product manufacturing,not in scope,FALSE
-327992,ground or treated mineral and earth manufacturing,not in scope,FALSE
-327993,mineral wool manufacturing,not in scope,FALSE
-327999,all other miscellaneous nonmetallic mineral product manufacturing,not in scope,FALSE
-331110,iron and steel mills and ferroalloy manufacturing,steel,FALSE
-331210,iron and steel pipe and tube manufacturing from purchased steel,steel,TRUE
-331221,rolled steel shape manufacturing,steel,TRUE
-331222,steel wire drawing,steel,TRUE
-331313,alumina refining and primary aluminum production,not in scope,FALSE
-331314,secondary smelting and alloying of aluminum,not in scope,FALSE
-331315,"aluminum sheet, plate, and foil manufacturing",not in scope,FALSE
-331318,"other aluminum rolling, drawing, and extruding",not in scope,FALSE
-331410,nonferrous metal (except aluminum) smelting and refining,not in scope,FALSE
-331420,"copper rolling, drawing, extruding, and alloying",not in scope,FALSE
-331491,"nonferrous metal (except copper and aluminum) rolling, drawing, and extruding",not in scope,FALSE
-331492,"secondary smelting, refining, and alloying of nonferrous metal (except copper and aluminum)",not in scope,FALSE
-331511,iron foundries,not in scope,FALSE
-331512,steel investment foundries,steel,FALSE
-331513,steel foundries (except investment),steel,FALSE
-331523,nonferrous metal die-casting foundries,not in scope,FALSE
-331524,aluminum foundries (except die-casting),not in scope,FALSE
-331529,other nonferrous metal foundries (except die-casting),not in scope,FALSE
-332111,iron and steel forging,not in scope,FALSE
-332112,nonferrous forging,not in scope,FALSE
-332114,custom roll forming,not in scope,FALSE
-332117,powder metallurgy part manufacturing,not in scope,FALSE
-332119,"metal crown, closure, and other metal stamping (except automotive)",not in scope,FALSE
-332215,"metal kitchen cookware, utensil, cutlery, and flatware (except precious) manufacturing",not in scope,FALSE
-332216,saw blade and handtool manufacturing,not in scope,FALSE
-332311,prefabricated metal building and component manufacturing,not in scope,FALSE
-332312,fabricated structural metal manufacturing,not in scope,FALSE
-332313,plate work manufacturing,not in scope,FALSE
-332321,metal window and door manufacturing,not in scope,FALSE
-332322,sheet metal work manufacturing,not in scope,FALSE
-332323,ornamental and architectural metal work manufacturing,not in scope,FALSE
-332410,power boiler and heat exchanger manufacturing,not in scope,FALSE
-332420,metal tank (heavy gauge) manufacturing,not in scope,FALSE
-332431,metal can manufacturing,not in scope,FALSE
-332439,other metal container manufacturing,not in scope,FALSE
-332510,hardware manufacturing,not in scope,FALSE
-332613,spring manufacturing,not in scope,FALSE
-332618,other fabricated wire product manufacturing,not in scope,FALSE
-332710,machine shops,not in scope,FALSE
-332721,precision turned product manufacturing,not in scope,FALSE
-332722,"bolt, nut, screw, rivet, and washer manufacturing",not in scope,FALSE
-332811,metal heat treating,not in scope,FALSE
-332812,"metal coating, engraving (except jewelry and silverware), and allied services to manufacturers",not in scope,FALSE
-332813,"electroplating, plating, polishing, anodizing, and coloring",not in scope,FALSE
-332911,industrial valve manufacturing,not in scope,FALSE
-332912,fluid power valve and hose fitting manufacturing,not in scope,FALSE
-332913,plumbing fixture fitting and trim manufacturing,not in scope,FALSE
-332919,other metal valve and pipe fitting manufacturing,not in scope,FALSE
-332991,ball and roller bearing manufacturing,not in scope,FALSE
-332992,small arms ammunition manufacturing,not in scope,FALSE
-332993,ammunition (except small arms) manufacturing,not in scope,FALSE
-332994,"small arms, ordnance, and ordnance accessories manufacturing",not in scope,FALSE
-332996,fabricated pipe and pipe fitting manufacturing,not in scope,FALSE
-332999,all other miscellaneous fabricated metal product manufacturing,not in scope,FALSE
-333111,farm machinery and equipment manufacturing,not in scope,FALSE
-333112,lawn and garden tractor and home lawn and garden equipment manufacturing,not in scope,FALSE
-333120,construction machinery manufacturing,not in scope,FALSE
-333131,mining machinery and equipment manufacturing,not in scope,FALSE
-333132,oil and gas field machinery and equipment manufacturing,not in scope,FALSE
-333241,food product machinery manufacturing,not in scope,FALSE
-333242,semiconductor machinery manufacturing,not in scope,FALSE
-333243,"sawmill, woodworking, and paper machinery manufacturing",not in scope,FALSE
-333244,printing machinery and equipment manufacturing,not in scope,FALSE
-333249,other industrial machinery manufacturing,not in scope,FALSE
-333314,optical instrument and lens manufacturing,not in scope,FALSE
-333316,photographic and photocopying equipment manufacturing,not in scope,FALSE
-333318,other commercial and service industry machinery manufacturing,not in scope,FALSE
-333413,industrial and commercial fan and blower and air purification equipment manufacturing,not in scope,FALSE
-333414,heating equipment (except warm air furnaces) manufacturing,not in scope,FALSE
-333415,air-conditioning and warm air heating equipment and commercial and industrial refrigeration equipment manufacturing,not in scope,FALSE
-333511,industrial mold manufacturing,not in scope,FALSE
-333514,"special die and tool, die set, jig, and fixture manufacturing",not in scope,FALSE
-333515,cutting tool and machine tool accessory manufacturing,not in scope,FALSE
-333517,machine tool manufacturing,not in scope,FALSE
-333519,rolling mill and other metalworking machinery manufacturing,not in scope,FALSE
-333611,turbine and turbine generator set units manufacturing,not in scope,FALSE
-333612,"speed changer, industrial high-speed drive, and gear manufacturing",not in scope,FALSE
-333613,mechanical power transmission equipment manufacturing,not in scope,FALSE
-333618,other engine equipment manufacturing,not in scope,FALSE
-333912,air and gas compressor manufacturing,not in scope,FALSE
-333914,"measuring, dispensing, and other pumping equipment manufacturing",not in scope,FALSE
-333921,elevator and moving stairway manufacturing,not in scope,FALSE
-333922,conveyor and conveying equipment manufacturing,not in scope,FALSE
-333923,"overhead traveling crane, hoist, and monorail system manufacturing",not in scope,FALSE
-333924,"industrial truck, tractor, trailer, and stacker machinery manufacturing",not in scope,FALSE
-333991,power-driven handtool manufacturing,not in scope,FALSE
-333992,welding and soldering equipment manufacturing,not in scope,FALSE
-333993,packaging machinery manufacturing,not in scope,FALSE
-333994,industrial process furnace and oven manufacturing,not in scope,FALSE
-333995,fluid power cylinder and actuator manufacturing,not in scope,FALSE
-333996,fluid power pump and motor manufacturing,not in scope,FALSE
-333997,scale and balance manufacturing,not in scope,FALSE
-333999,all other miscellaneous general purpose machinery manufacturing,not in scope,FALSE
-334111,electronic computer manufacturing,not in scope,FALSE
-334112,computer storage device manufacturing,not in scope,FALSE
-334118,computer terminal and other computer peripheral equipment manufacturing,not in scope,FALSE
-334210,telephone apparatus manufacturing,not in scope,FALSE
-334220,radio and television broadcasting and wireless communications equipment manufacturing,not in scope,FALSE
-334290,other communications equipment manufacturing,not in scope,FALSE
-334310,audio and video equipment manufacturing,not in scope,FALSE
-334412,bare printed circuit board manufacturing,not in scope,FALSE
-334413,semiconductor and related device manufacturing,not in scope,FALSE
-334416,"capacitor, resistor, coil, transformer, and other inductor manufacturing",not in scope,FALSE
-334417,electronic connector manufacturing,not in scope,FALSE
-334418,printed circuit assembly (electronic assembly) manufacturing,not in scope,FALSE
-334419,other electronic component manufacturing,not in scope,FALSE
-334510,electromedical and electrotherapeutic apparatus manufacturing,not in scope,FALSE
-334511,"search, detection, navigation, guidance, aeronautical, and nautical system and instrument manufacturing",not in scope,FALSE
-334512,"automatic environmental control manufacturing for residential, commercial, and appliance use",not in scope,FALSE
-334513,"instruments and related products manufacturing for measuring, displaying, and controlling industrial process variables",not in scope,FALSE
-334514,totalizing fluid meter and counting device manufacturing,not in scope,FALSE
-334515,instrument manufacturing for measuring and testing electricity and electrical signals,not in scope,FALSE
-334516,analytical laboratory instrument manufacturing,not in scope,FALSE
-334517,irradiation apparatus manufacturing,not in scope,FALSE
-334519,other measuring and controlling device manufacturing,not in scope,FALSE
-334613,blank magnetic and optical recording media manufacturing,not in scope,FALSE
-334614,"software and other prerecorded compact disc, tape, and record reproducing",not in scope,FALSE
-335110,electric lamp bulb and part manufacturing,not in scope,FALSE
-335121,residential electric lighting fixture manufacturing,not in scope,FALSE
-335122,"commercial, industrial, and institutional electric lighting fixture manufacturing",not in scope,FALSE
-335129,other lighting equipment manufacturing,not in scope,FALSE
-335210,small electrical appliance manufacturing,not in scope,FALSE
-335220,major household appliance manufacturing,not in scope,FALSE
-335311,"power, distribution, and specialty transformer manufacturing",not in scope,FALSE
-335312,motor and generator manufacturing,not in scope,FALSE
-335313,switchgear and switchboard apparatus manufacturing,not in scope,FALSE
-335314,relay and industrial control manufacturing,not in scope,FALSE
-335911,storage battery manufacturing,not in scope,FALSE
-335912,primary battery manufacturing,not in scope,FALSE
-335921,fiber optic cable manufacturing,not in scope,FALSE
-335929,other communication and energy wire manufacturing,not in scope,FALSE
-335931,current-carrying wiring device manufacturing,not in scope,FALSE
-335932,noncurrent-carrying wiring device manufacturing,not in scope,FALSE
-335991,carbon and graphite product manufacturing,not in scope,FALSE
-335999,all other miscellaneous electrical equipment and component manufacturing,not in scope,FALSE
-336111,automobile manufacturing,automotive,FALSE
-336112,light truck and utility vehicle manufacturing,automotive,FALSE
-336120,heavy duty truck manufacturing,automotive,FALSE
-336211,motor vehicle body manufacturing,not in scope,FALSE
-336212,truck trailer manufacturing,not in scope,FALSE
-336213,motor home manufacturing,not in scope,FALSE
-336214,travel trailer and camper manufacturing,not in scope,FALSE
-336310,motor vehicle gasoline engine and engine parts manufacturing,not in scope,FALSE
-336320,motor vehicle electrical and electronic equipment manufacturing,not in scope,FALSE
-336330,motor vehicle steering and suspension components (except spring) manufacturing,not in scope,FALSE
-336340,motor vehicle brake system manufacturing,not in scope,FALSE
-336350,motor vehicle transmission and power train parts manufacturing,not in scope,FALSE
-336360,motor vehicle seating and interior trim manufacturing,not in scope,FALSE
-336370,motor vehicle metal stamping,not in scope,FALSE
-336390,other motor vehicle parts manufacturing,not in scope,FALSE
-336411,aircraft manufacturing,not in scope,FALSE
-336412,aircraft engine and engine parts manufacturing,not in scope,FALSE
-336413,other aircraft parts and auxiliary equipment manufacturing,not in scope,FALSE
-336414,guided missile and space vehicle manufacturing,not in scope,FALSE
-336415,guided missile and space vehicle propulsion unit and propulsion unit parts manufacturing,not in scope,FALSE
-336419,other guided missile and space vehicle parts and auxiliary equipment manufacturing,not in scope,FALSE
-336510,railroad rolling stock manufacturing,not in scope,FALSE
-336611,ship building and repairing,not in scope,FALSE
-336612,boat building,not in scope,FALSE
-336991,"motorcycle, bicycle, and parts manufacturing",not in scope,FALSE
-336992,"military armored vehicle, tank, and tank component manufacturing",not in scope,FALSE
-336999,all other transportation equipment manufacturing,not in scope,FALSE
-337110,wood kitchen cabinet and countertop manufacturing,not in scope,FALSE
-337121,upholstered household furniture manufacturing,not in scope,FALSE
-337122,nonupholstered wood household furniture manufacturing,not in scope,FALSE
-337124,metal household furniture manufacturing,not in scope,FALSE
-337125,household furniture (except wood and metal) manufacturing,not in scope,FALSE
-337127,institutional furniture manufacturing,not in scope,FALSE
-337211,wood office furniture manufacturing,not in scope,FALSE
-337212,custom architectural woodwork and millwork manufacturing,not in scope,FALSE
-337214,office furniture (except wood) manufacturing,not in scope,FALSE
-337215,"showcase, partition, shelving, and locker manufacturing",not in scope,FALSE
-337910,mattress manufacturing,not in scope,FALSE
-337920,blind and shade manufacturing,not in scope,FALSE
-339112,surgical and medical instrument manufacturing,not in scope,FALSE
-339113,surgical appliance and supplies manufacturing,not in scope,FALSE
-339114,dental equipment and supplies manufacturing,not in scope,FALSE
-339115,ophthalmic goods manufacturing,not in scope,FALSE
-339116,dental laboratories,not in scope,FALSE
-339910,jewelry and silverware manufacturing,not in scope,FALSE
-339920,sporting and athletic goods manufacturing,not in scope,FALSE
-339930,"doll, toy, and game manufacturing",not in scope,FALSE
-339940,office supplies (except paper) manufacturing,not in scope,FALSE
-339950,sign manufacturing,not in scope,FALSE
-339991,"gasket, packing, and sealing device manufacturing",not in scope,FALSE
-339992,musical instrument manufacturing,not in scope,FALSE
-339993,"fastener, button, needle, and pin manufacturing",not in scope,FALSE
-339994,"broom, brush, and mop manufacturing",not in scope,FALSE
-339995,burial casket manufacturing,not in scope,FALSE
-339999,all other miscellaneous manufacturing,not in scope,FALSE
-423110,automobile and other motor vehicle merchant wholesalers,not in scope,FALSE
-423120,motor vehicle supplies and new parts merchant wholesalers,not in scope,FALSE
-423130,tire and tube merchant wholesalers,not in scope,FALSE
-423140,motor vehicle parts (used) merchant wholesalers,not in scope,FALSE
-423210,furniture merchant wholesalers,not in scope,FALSE
-423220,home furnishing merchant wholesalers,not in scope,FALSE
-423310,"lumber, plywood, millwork, and wood panel merchant wholesalers",not in scope,FALSE
-423320,"brick, stone, and related construction material merchant wholesalers",not in scope,FALSE
-423330,"roofing, siding, and insulation material merchant wholesalers",not in scope,FALSE
-423390,other construction material merchant wholesalers,not in scope,FALSE
-423410,photographic equipment and supplies merchant wholesalers,not in scope,FALSE
-423420,office equipment merchant wholesalers,not in scope,FALSE
-423430,computer and computer peripheral equipment and software merchant wholesalers,not in scope,FALSE
-423440,other commercial equipment merchant wholesalers,not in scope,FALSE
-423450,"medical, dental, and hospital equipment and supplies merchant wholesalers",not in scope,FALSE
-423460,ophthalmic goods merchant wholesalers,not in scope,FALSE
-423490,other professional equipment and supplies merchant wholesalers,not in scope,FALSE
-423510,metal service centers and other metal merchant wholesalers,not in scope,FALSE
-423520,coal and other mineral and ore merchant wholesalers,not in scope,FALSE
-423610,"electrical apparatus and equipment, wiring supplies, and related equipment merchant wholesalers",not in scope,FALSE
-423620,"household appliances, electric housewares, and consumer electronics merchant wholesalers",not in scope,FALSE
-423690,other electronic parts and equipment merchant wholesalers,not in scope,FALSE
-423710,hardware merchant wholesalers,not in scope,FALSE
-423720,plumbing and heating equipment and supplies (hydronics) merchant wholesalers,not in scope,FALSE
-423730,warm air heating and air-conditioning equipment and supplies merchant wholesalers,not in scope,FALSE
-423740,refrigeration equipment and supplies merchant wholesalers,not in scope,FALSE
-423810,construction and mining (except oil well) machinery and equipment merchant wholesalers,not in scope,FALSE
-423820,farm and garden machinery and equipment merchant wholesalers,not in scope,FALSE
-423830,industrial machinery and equipment merchant wholesalers,not in scope,FALSE
-423840,industrial supplies merchant wholesalers,not in scope,FALSE
-423850,service establishment equipment and supplies merchant wholesalers,not in scope,FALSE
-423860,transportation equipment and supplies (except motor vehicle) merchant wholesalers,not in scope,FALSE
-423910,sporting and recreational goods and supplies merchant wholesalers,not in scope,FALSE
-423920,toy and hobby goods and supplies merchant wholesalers,not in scope,FALSE
-423930,recyclable material merchant wholesalers,not in scope,FALSE
-423940,"jewelry, watch, precious stone, and precious metal merchant wholesalers",not in scope,FALSE
-423990,other miscellaneous durable goods merchant wholesalers,not in scope,FALSE
-424110,printing and writing paper merchant wholesalers,not in scope,FALSE
-424120,stationery and office supplies merchant wholesalers,not in scope,FALSE
-424130,industrial and personal service paper merchant wholesalers,not in scope,FALSE
-424210,drugs and druggists' sundries merchant wholesalers,not in scope,FALSE
-424310,"piece goods, notions, and other dry goods merchant wholesalers",not in scope,FALSE
-424320,men's and boys' clothing and furnishings merchant wholesalers,not in scope,FALSE
-424330,"women's, children's, and infants' clothing and accessories merchant wholesalers",not in scope,FALSE
-424340,footwear merchant wholesalers,not in scope,FALSE
-424410,general line grocery merchant wholesalers,not in scope,FALSE
-424420,packaged frozen food merchant wholesalers,not in scope,FALSE
-424430,dairy product (except dried or canned) merchant wholesalers,not in scope,FALSE
-424440,poultry and poultry product merchant wholesalers,not in scope,FALSE
-424450,confectionery merchant wholesalers,not in scope,FALSE
-424460,fish and seafood merchant wholesalers,not in scope,FALSE
-424470,meat and meat product merchant wholesalers,not in scope,FALSE
-424480,fresh fruit and vegetable merchant wholesalers,not in scope,FALSE
-424490,other grocery and related products merchant wholesalers,not in scope,FALSE
-424510,grain and field bean merchant wholesalers,not in scope,FALSE
-424520,livestock merchant wholesalers,not in scope,FALSE
-424590,other farm product raw material merchant wholesalers,not in scope,FALSE
-424610,plastics materials and basic forms and shapes merchant wholesalers,not in scope,FALSE
-424690,other chemical and allied products merchant wholesalers,not in scope,FALSE
-424710,petroleum bulk stations and terminals,not in scope,FALSE
-424720,petroleum and petroleum products merchant wholesalers (except bulk stations and terminals),not in scope,FALSE
-424810,beer and ale merchant wholesalers,not in scope,FALSE
-424820,wine and distilled alcoholic beverage merchant wholesalers,not in scope,FALSE
-424910,farm supplies merchant wholesalers,not in scope,FALSE
-424920,"book, periodical, and newspaper merchant wholesalers",not in scope,FALSE
-424930,"flower, nursery stock, and florists' supplies merchant wholesalers",not in scope,FALSE
-424940,tobacco and tobacco product merchant wholesalers,not in scope,FALSE
-424950,"paint, varnish, and supplies merchant wholesalers",not in scope,FALSE
-424990,other miscellaneous nondurable goods merchant wholesalers,not in scope,FALSE
-425110,business to business electronic markets,not in scope,FALSE
-425120,wholesale trade agents and brokers,not in scope,FALSE
-441110,new car dealers,not in scope,FALSE
-441120,used car dealers,not in scope,FALSE
-441210,recreational vehicle dealers,not in scope,FALSE
-441222,boat dealers,not in scope,FALSE
-441228,"motorcycle, atv, and all other motor vehicle dealers",not in scope,FALSE
-441310,automotive parts and accessories stores,not in scope,FALSE
-441320,tire dealers,not in scope,FALSE
-442110,furniture stores,not in scope,FALSE
-442210,floor covering stores,not in scope,FALSE
-442291,window treatment stores,not in scope,FALSE
-442299,all other home furnishings stores,not in scope,FALSE
-443141,household appliance stores,not in scope,FALSE
-443142,electronics stores,not in scope,FALSE
-444110,home centers,not in scope,FALSE
-444120,paint and wallpaper stores,not in scope,FALSE
-444130,hardware stores,not in scope,FALSE
-444190,other building material dealers,not in scope,FALSE
-444210,outdoor power equipment stores,not in scope,FALSE
-444220,"nursery, garden center, and farm supply stores",not in scope,FALSE
-445110,supermarkets and other grocery (except convenience) stores,not in scope,FALSE
-445120,convenience stores,not in scope,FALSE
-445210,meat markets,not in scope,FALSE
-445220,fish and seafood markets,not in scope,FALSE
-445230,fruit and vegetable markets,not in scope,FALSE
-445291,baked goods stores,not in scope,FALSE
-445292,confectionery and nut stores,not in scope,FALSE
-445299,all other specialty food stores,not in scope,FALSE
-445310,"beer, wine, and liquor stores",not in scope,FALSE
-446110,pharmacies and drug stores,not in scope,FALSE
-446120,"cosmetics, beauty supplies, and perfume stores",not in scope,FALSE
-446130,optical goods stores,not in scope,FALSE
-446191,food (health) supplement stores,not in scope,FALSE
-446199,all other health and personal care stores,not in scope,FALSE
-447110,gasoline stations with convenience stores,not in scope,FALSE
-447190,other gasoline stations,not in scope,FALSE
-448110,men's clothing stores,not in scope,FALSE
-448120,women's clothing stores,not in scope,FALSE
-448130,children's and infants' clothing stores,not in scope,FALSE
-448140,family clothing stores,not in scope,FALSE
-448150,clothing accessories stores,not in scope,FALSE
-448190,other clothing stores,not in scope,FALSE
-448210,shoe stores,not in scope,FALSE
-448310,jewelry stores,not in scope,FALSE
-448320,luggage and leather goods stores,not in scope,FALSE
-451110,sporting goods stores,not in scope,FALSE
-451120,"hobby, toy, and game stores",not in scope,FALSE
-451130,"sewing, needlework, and piece goods stores",not in scope,FALSE
-451140,musical instrument and supplies stores,not in scope,FALSE
-451211,book stores,not in scope,FALSE
-451212,news dealers and newsstands,not in scope,FALSE
-452210,department stores,not in scope,FALSE
-452311,warehouse clubs and supercenters,not in scope,FALSE
-452319,all other general merchandise stores,not in scope,FALSE
-453110,florists,not in scope,FALSE
-453210,office supplies and stationery stores,not in scope,FALSE
-453220,"gift, novelty, and souvenir stores",not in scope,FALSE
-453310,used merchandise stores,not in scope,FALSE
-453910,pet and pet supplies stores,not in scope,FALSE
-453920,art dealers,not in scope,FALSE
-453930,manufactured (mobile) home dealers,not in scope,FALSE
-453991,tobacco stores,not in scope,FALSE
-453998,all other miscellaneous store retailers (except tobacco stores),not in scope,FALSE
-454110,electronic shopping and mail-order houses,not in scope,FALSE
-454210,vending machine operators,not in scope,FALSE
-454310,fuel dealers,not in scope,FALSE
-454390,other direct selling establishments,not in scope,FALSE
-481111,scheduled passenger air transportation,aviation,FALSE
-481112,scheduled freight air transportation,aviation,FALSE
-481211,nonscheduled chartered passenger air transportation,aviation,FALSE
-481212,nonscheduled chartered freight air transportation,aviation,FALSE
-481219,other nonscheduled air transportation,aviation,FALSE
-482111,line-haul railroads,not in scope,FALSE
-482112,short line railroads,not in scope,FALSE
-483111,deep sea freight transportation,shipping,FALSE
-483112,deep sea passenger transportation,not in scope,FALSE
-483113,coastal and great lakes freight transportation,shipping,FALSE
-483114,coastal and great lakes passenger transportation,not in scope,FALSE
-483211,inland water freight transportation,shipping,FALSE
-483212,inland water passenger transportation,not in scope,FALSE
-484110,"general freight trucking, local",not in scope,FALSE
-484121,"general freight trucking, long-distance, truckload",not in scope,FALSE
-484122,"general freight trucking, long-distance, less than truckload",not in scope,FALSE
-484210,used household and office goods moving,not in scope,FALSE
-484220,"specialized freight (except used goods) trucking, local",not in scope,FALSE
-484230,"specialized freight (except used goods) trucking, long-distance",not in scope,FALSE
-485111,mixed mode transit systems,not in scope,FALSE
-485112,commuter rail systems,not in scope,FALSE
-485113,bus and other motor vehicle transit systems,not in scope,FALSE
-485119,other urban transit systems,not in scope,FALSE
-485210,interurban and rural bus transportation,not in scope,FALSE
-485310,taxi service,not in scope,FALSE
-485320,limousine service,not in scope,FALSE
-485410,school and employee bus transportation,not in scope,FALSE
-485510,charter bus industry,not in scope,FALSE
-485991,special needs transportation,not in scope,FALSE
-485999,all other transit and ground passenger transportation,not in scope,FALSE
-486110,pipeline transportation of crude oil,not in scope,FALSE
-486210,pipeline transportation of natural gas,not in scope,FALSE
-486910,pipeline transportation of refined petroleum products,not in scope,FALSE
-486990,all other pipeline transportation,not in scope,FALSE
-487110,"scenic and sightseeing transportation, land",not in scope,FALSE
-487210,"scenic and sightseeing transportation, water",not in scope,FALSE
-487990,"scenic and sightseeing transportation, other",not in scope,FALSE
-488111,air traffic control,not in scope,FALSE
-488119,other airport operations,not in scope,FALSE
-488190,other support activities for air transportation,not in scope,FALSE
-488210,support activities for rail transportation,not in scope,FALSE
-488310,port and harbor operations,not in scope,FALSE
-488320,marine cargo handling,not in scope,FALSE
-488330,navigational services to shipping,not in scope,FALSE
-488390,other support activities for water transportation,not in scope,FALSE
-488410,motor vehicle towing,not in scope,FALSE
-488490,other support activities for road transportation,not in scope,FALSE
-488510,freight transportation arrangement,not in scope,FALSE
-488991,packing and crating,not in scope,FALSE
-488999,all other support activities for transportation,not in scope,FALSE
-491110,postal service,not in scope,FALSE
-492110,couriers and express delivery services,not in scope,FALSE
-492210,local messengers and local delivery,not in scope,FALSE
-493110,general warehousing and storage,not in scope,FALSE
-493120,refrigerated warehousing and storage,not in scope,FALSE
-493130,farm product warehousing and storage,not in scope,FALSE
-493190,other warehousing and storage,not in scope,FALSE
-511110,newspaper publishers,not in scope,FALSE
-511120,periodical publishers,not in scope,FALSE
-511130,book publishers,not in scope,FALSE
-511140,directory and mailing list publishers,not in scope,FALSE
-511191,greeting card publishers,not in scope,FALSE
-511199,all other publishers,not in scope,FALSE
-511210,software publishers,not in scope,FALSE
-512110,motion picture and video production,not in scope,FALSE
-512120,motion picture and video distribution,not in scope,FALSE
-512131,motion picture theaters (except drive-ins),not in scope,FALSE
-512132,drive-in motion picture theaters,not in scope,FALSE
-512191,teleproduction and other postproduction services,not in scope,FALSE
-512199,other motion picture and video industries,not in scope,FALSE
-512230,music publishers,not in scope,FALSE
-512240,sound recording studios,not in scope,FALSE
-512250,record production and distribution,not in scope,FALSE
-512290,other sound recording industries,not in scope,FALSE
-515111,radio networks,not in scope,FALSE
-515112,radio stations,not in scope,FALSE
-515120,television broadcasting,not in scope,FALSE
-515210,cable and other subscription programming,not in scope,FALSE
-517311,wired telecommunications carriers,not in scope,FALSE
-517312,wireless telecommunications carriers (except satellite),not in scope,FALSE
-517410,satellite telecommunications,not in scope,FALSE
-517911,telecommunications resellers,not in scope,FALSE
-517919,all other telecommunications,not in scope,FALSE
-518210,"data processing, hosting, and related services",not in scope,FALSE
-519110,news syndicates,not in scope,FALSE
-519120,libraries and archives,not in scope,FALSE
-519130,internet publishing and broadcasting and web search portals,not in scope,FALSE
-519190,all other information services,not in scope,FALSE
-521110,monetary authorities-central bank,not in scope,FALSE
-522110,commercial banking,not in scope,FALSE
-522120,savings institutions,not in scope,FALSE
-522130,credit unions,not in scope,FALSE
-522190,other depository credit intermediation,not in scope,FALSE
-522210,credit card issuing,not in scope,FALSE
-522220,sales financing,not in scope,FALSE
-522291,consumer lending,not in scope,FALSE
-522292,real estate credit,not in scope,FALSE
-522293,international trade financing,not in scope,FALSE
-522294,secondary market financing,not in scope,FALSE
-522298,all other nondepository credit intermediation,not in scope,FALSE
-522310,mortgage and nonmortgage loan brokers,not in scope,FALSE
-522320,"financial transactions processing, reserve, and clearinghouse activities",not in scope,FALSE
-522390,other activities related to credit intermediation,not in scope,FALSE
-523110,investment banking and securities dealing,not in scope,FALSE
-523120,securities brokerage,not in scope,FALSE
-523130,commodity contracts dealing,not in scope,FALSE
-523140,commodity contracts brokerage,not in scope,FALSE
-523210,securities and commodity exchanges,not in scope,FALSE
-523910,miscellaneous intermediation,not in scope,FALSE
-523920,portfolio management,not in scope,FALSE
-523930,investment advice,not in scope,FALSE
-523991,"trust, fiduciary, and custody activities",not in scope,FALSE
-523999,miscellaneous financial investment activities,not in scope,FALSE
-524113,direct life insurance carriers,not in scope,FALSE
-524114,direct health and medical insurance carriers,not in scope,FALSE
-524126,direct property and casualty insurance carriers,not in scope,FALSE
-524127,direct title insurance carriers,not in scope,FALSE
-524128,"other direct insurance (except life, health, and medical) carriers",not in scope,FALSE
-524130,reinsurance carriers,not in scope,FALSE
-524210,insurance agencies and brokerages,not in scope,FALSE
-524291,claims adjusting,not in scope,FALSE
-524292,third party administration of insurance and pension funds,not in scope,FALSE
-524298,all other insurance related activities,not in scope,FALSE
-525110,pension funds,not in scope,FALSE
-525120,health and welfare funds,not in scope,FALSE
-525190,other insurance funds,not in scope,FALSE
-525910,open-end investment funds,not in scope,FALSE
-525920,"trusts, estates, and agency accounts",not in scope,FALSE
-525990,other financial vehicles,not in scope,FALSE
-531110,lessors of residential buildings and dwellings,not in scope,FALSE
-531120,lessors of nonresidential buildings (except miniwarehouses),not in scope,FALSE
-531130,lessors of miniwarehouses and self-storage units,not in scope,FALSE
-531190,lessors of other real estate property,not in scope,FALSE
-531210,offices of real estate agents and brokers,not in scope,FALSE
-531311,residential property managers,not in scope,FALSE
-531312,nonresidential property managers,not in scope,FALSE
-531320,offices of real estate appraisers,not in scope,FALSE
-531390,other activities related to real estate,not in scope,FALSE
-532111,passenger car rental,not in scope,FALSE
-532112,passenger car leasing,not in scope,FALSE
-532120,"truck, utility trailer, and rv (recreational vehicle) rental and leasing",not in scope,FALSE
-532210,consumer electronics and appliances rental,not in scope,FALSE
-532281,formal wear and costume rental,not in scope,FALSE
-532282,video tape and disc rental,not in scope,FALSE
-532283,home health equipment rental,not in scope,FALSE
-532284,recreational goods rental,not in scope,FALSE
-532289,all other consumer goods rental,not in scope,FALSE
-532310,general rental centers,not in scope,FALSE
-532411,"commercial air, rail, and water transportation equipment rental and leasing",not in scope,FALSE
-532412,"construction, mining, and forestry machinery and equipment rental and leasing",not in scope,FALSE
-532420,office machinery and equipment rental and leasing,not in scope,FALSE
-532490,other commercial and industrial machinery and equipment rental and leasing,not in scope,FALSE
-533110,lessors of nonfinancial intangible assets (except copyrighted works),not in scope,FALSE
-541110,offices of lawyers,not in scope,FALSE
-541120,offices of notaries,not in scope,FALSE
-541191,title abstract and settlement offices,not in scope,FALSE
-541199,all other legal services,not in scope,FALSE
-541211,offices of certified public accountants,not in scope,FALSE
-541213,tax preparation services,not in scope,FALSE
-541214,payroll services,not in scope,FALSE
-541219,other accounting services,not in scope,FALSE
-541310,architectural services,not in scope,FALSE
-541320,landscape architectural services,not in scope,FALSE
-541330,engineering services,not in scope,FALSE
-541340,drafting services,not in scope,FALSE
-541350,building inspection services,not in scope,FALSE
-541360,geophysical surveying and mapping services,not in scope,FALSE
-541370,surveying and mapping (except geophysical) services,not in scope,FALSE
-541380,testing laboratories,not in scope,FALSE
-541410,interior design services,not in scope,FALSE
-541420,industrial design services,not in scope,FALSE
-541430,graphic design services,not in scope,FALSE
-541490,other specialized design services,not in scope,FALSE
-541511,custom computer programming services,not in scope,FALSE
-541512,computer systems design services,not in scope,FALSE
-541513,computer facilities management services,not in scope,FALSE
-541519,other computer related services,not in scope,FALSE
-541611,administrative management and general management consulting services,not in scope,FALSE
-541612,human resources consulting services,not in scope,FALSE
-541613,marketing consulting services,not in scope,FALSE
-541614,"process, physical distribution, and logistics consulting services",not in scope,FALSE
-541618,other management consulting services,not in scope,FALSE
-541620,environmental consulting services,not in scope,FALSE
-541690,other scientific and technical consulting services,not in scope,FALSE
-541713,research and development in nanotechnology,not in scope,FALSE
-541714,research and development in biotechnology (except nanobiotechnology),not in scope,FALSE
-541715,"research and development in the physical, engineering, and life sciences (except nanotechnology and biotechnology)",not in scope,FALSE
-541720,research and development in the social sciences and humanities,not in scope,FALSE
-541810,advertising agencies,not in scope,FALSE
-541820,public relations agencies,not in scope,FALSE
-541830,media buying agencies,not in scope,FALSE
-541840,media representatives,not in scope,FALSE
-541850,outdoor advertising,not in scope,FALSE
-541860,direct mail advertising,not in scope,FALSE
-541870,advertising material distribution services,not in scope,FALSE
-541890,other services related to advertising,not in scope,FALSE
-541910,marketing research and public opinion polling,not in scope,FALSE
-541921,"photography studios, portrait",not in scope,FALSE
-541922,commercial photography,not in scope,FALSE
-541930,translation and interpretation services,not in scope,FALSE
-541940,veterinary services,not in scope,FALSE
-541990,"all other professional, scientific, and technical services",not in scope,FALSE
-551111,offices of bank holding companies,not in scope,FALSE
-551112,offices of other holding companies,not in scope,FALSE
-551114,"corporate, subsidiary, and regional managing offices",not in scope,FALSE
-561110,office administrative services,not in scope,FALSE
-561210,facilities support services,not in scope,FALSE
-561311,employment placement agencies,not in scope,FALSE
-561312,executive search services,not in scope,FALSE
-561320,temporary help services,not in scope,FALSE
-561330,professional employer organizations,not in scope,FALSE
-561410,document preparation services,not in scope,FALSE
-561421,telephone answering services,not in scope,FALSE
-561422,telemarketing bureaus and other contact centers,not in scope,FALSE
-561431,private mail centers,not in scope,FALSE
-561439,other business service centers (including copy shops),not in scope,FALSE
-561440,collection agencies,not in scope,FALSE
-561450,credit bureaus,not in scope,FALSE
-561491,repossession services,not in scope,FALSE
-561492,court reporting and stenotype services,not in scope,FALSE
-561499,all other business support services,not in scope,FALSE
-561510,travel agencies,not in scope,FALSE
-561520,tour operators,not in scope,FALSE
-561591,convention and visitors bureaus,not in scope,FALSE
-561599,all other travel arrangement and reservation services,not in scope,FALSE
-561611,investigation services,not in scope,FALSE
-561612,security guards and patrol services,not in scope,FALSE
-561613,armored car services,not in scope,FALSE
-561621,security systems services (except locksmiths),not in scope,FALSE
-561622,locksmiths,not in scope,FALSE
-561710,exterminating and pest control services,not in scope,FALSE
-561720,janitorial services,not in scope,FALSE
-561730,landscaping services,not in scope,FALSE
-561740,carpet and upholstery cleaning services,not in scope,FALSE
-561790,other services to buildings and dwellings,not in scope,FALSE
-561910,packaging and labeling services,not in scope,FALSE
-561920,convention and trade show organizers,not in scope,FALSE
-561990,all other support services,not in scope,FALSE
-562111,solid waste collection,not in scope,FALSE
-562112,hazardous waste collection,not in scope,FALSE
-562119,other waste collection,not in scope,FALSE
-562211,hazardous waste treatment and disposal,not in scope,FALSE
-562212,solid waste landfill,not in scope,FALSE
-562213,solid waste combustors and incinerators,not in scope,FALSE
-562219,other nonhazardous waste treatment and disposal,not in scope,FALSE
-562910,remediation services,not in scope,FALSE
-562920,materials recovery facilities,not in scope,FALSE
-562991,septic tank and related services,not in scope,FALSE
-562998,all other miscellaneous waste management services,not in scope,FALSE
-611110,elementary and secondary schools,not in scope,FALSE
-611210,junior colleges,not in scope,FALSE
-611310,"colleges, universities, and professional schools",not in scope,FALSE
-611410,business and secretarial schools,not in scope,FALSE
-611420,computer training,not in scope,FALSE
-611430,professional and management development training,not in scope,FALSE
-611511,cosmetology and barber schools,not in scope,FALSE
-611512,flight training,not in scope,FALSE
-611513,apprenticeship training,not in scope,FALSE
-611519,other technical and trade schools,not in scope,FALSE
-611610,fine arts schools,not in scope,FALSE
-611620,sports and recreation instruction,not in scope,FALSE
-611630,language schools,not in scope,FALSE
-611691,exam preparation and tutoring,not in scope,FALSE
-611692,automobile driving schools,not in scope,FALSE
-611699,all other miscellaneous schools and instruction,not in scope,FALSE
-611710,educational support services,not in scope,FALSE
-621111,offices of physicians (except mental health specialists),not in scope,FALSE
-621112,"offices of physicians, mental health specialists",not in scope,FALSE
-621210,offices of dentists,not in scope,FALSE
-621310,offices of chiropractors,not in scope,FALSE
-621320,offices of optometrists,not in scope,FALSE
-621330,offices of mental health practitioners (except physicians),not in scope,FALSE
-621340,"offices of physical, occupational and speech therapists, and audiologists",not in scope,FALSE
-621391,offices of podiatrists,not in scope,FALSE
-621399,offices of all other miscellaneous health practitioners,not in scope,FALSE
-621410,family planning centers,not in scope,FALSE
-621420,outpatient mental health and substance abuse centers,not in scope,FALSE
-621491,hmo medical centers,not in scope,FALSE
-621492,kidney dialysis centers,not in scope,FALSE
-621493,freestanding ambulatory surgical and emergency centers,not in scope,FALSE
-621498,all other outpatient care centers,not in scope,FALSE
-621511,medical laboratories,not in scope,FALSE
-621512,diagnostic imaging centers,not in scope,FALSE
-621610,home health care services,not in scope,FALSE
-621910,ambulance services,not in scope,FALSE
-621991,blood and organ banks,not in scope,FALSE
-621999,all other miscellaneous ambulatory health care services,not in scope,FALSE
-622110,general medical and surgical hospitals,not in scope,FALSE
-622210,psychiatric and substance abuse hospitals,not in scope,FALSE
-622310,specialty (except psychiatric and substance abuse) hospitals,not in scope,FALSE
-623110,nursing care facilities (skilled nursing facilities),not in scope,FALSE
-623210,residential intellectual and developmental disability facilities,not in scope,FALSE
-623220,residential mental health and substance abuse facilities,not in scope,FALSE
-623311,continuing care retirement communities,not in scope,FALSE
-623312,assisted living facilities for the elderly,not in scope,FALSE
-623990,other residential care facilities,not in scope,FALSE
-624110,child and youth services,not in scope,FALSE
-624120,services for the elderly and persons with disabilities,not in scope,FALSE
-624190,other individual and family services,not in scope,FALSE
-624210,community food services,not in scope,FALSE
-624221,temporary shelters,not in scope,FALSE
-624229,other community housing services,not in scope,FALSE
-624230,emergency and other relief services,not in scope,FALSE
-624310,vocational rehabilitation services,not in scope,FALSE
-624410,child day care services,not in scope,FALSE
-711110,theater companies and dinner theaters,not in scope,FALSE
-711120,dance companies,not in scope,FALSE
-711130,musical groups and artists,not in scope,FALSE
-711190,other performing arts companies,not in scope,FALSE
-711211,sports teams and clubs,not in scope,FALSE
-711212,racetracks,not in scope,FALSE
-711219,other spectator sports,not in scope,FALSE
-711310,"promoters of performing arts, sports, and similar events with facilities",not in scope,FALSE
-711320,"promoters of performing arts, sports, and similar events without facilities",not in scope,FALSE
-711410,"agents and managers for artists, athletes, entertainers, and other public figures",not in scope,FALSE
-711510,"independent artists, writers, and performers",not in scope,FALSE
-712110,museums,not in scope,FALSE
-712120,historical sites,not in scope,FALSE
-712130,zoos and botanical gardens,not in scope,FALSE
-712190,nature parks and other similar institutions,not in scope,FALSE
-713110,amusement and theme parks,not in scope,FALSE
-713120,amusement arcades,not in scope,FALSE
-713210,casinos (except casino hotels),not in scope,FALSE
-713290,other gambling industries,not in scope,FALSE
-713910,golf courses and country clubs,not in scope,FALSE
-713920,skiing facilities,not in scope,FALSE
-713930,marinas,not in scope,FALSE
-713940,fitness and recreational sports centers,not in scope,FALSE
-713950,bowling centers,not in scope,FALSE
-713990,all other amusement and recreation industries,not in scope,FALSE
-721110,hotels (except casino hotels) and motels,not in scope,FALSE
-721120,casino hotels,not in scope,FALSE
-721191,bed-and-breakfast inns,not in scope,FALSE
-721199,all other traveler accommodation,not in scope,FALSE
-721211,rv (recreational vehicle) parks and campgrounds,not in scope,FALSE
-721214,recreational and vacation camps (except campgrounds),not in scope,FALSE
-721310,"rooming and boarding houses, dormitories, and workers' camps",not in scope,FALSE
-722310,food service contractors,not in scope,FALSE
-722320,caterers,not in scope,FALSE
-722330,mobile food services,not in scope,FALSE
-722410,drinking places (alcoholic beverages),not in scope,FALSE
-722511,full-service restaurants,not in scope,FALSE
-722513,limited-service restaurants,not in scope,FALSE
-722514,"cafeterias, grill buffets, and buffets",not in scope,FALSE
-722515,snack and nonalcoholic beverage bars,not in scope,FALSE
-811111,general automotive repair,not in scope,FALSE
-811112,automotive exhaust system repair,not in scope,FALSE
-811113,automotive transmission repair,not in scope,FALSE
-811118,other automotive mechanical and electrical repair and maintenance,not in scope,FALSE
-811121,"automotive body, paint, and interior repair and maintenance",not in scope,FALSE
-811122,automotive glass replacement shops,not in scope,FALSE
-811191,automotive oil change and lubrication shops,not in scope,FALSE
-811192,car washes,not in scope,FALSE
-811198,all other automotive repair and maintenance,not in scope,FALSE
-811211,consumer electronics repair and maintenance,not in scope,FALSE
-811212,computer and office machine repair and maintenance,not in scope,FALSE
-811213,communication equipment repair and maintenance,not in scope,FALSE
-811219,other electronic and precision equipment repair and maintenance,not in scope,FALSE
-811310,commercial and industrial machinery and equipment (except automotive and electronic) repair and maintenance,not in scope,FALSE
-811411,home and garden equipment repair and maintenance,not in scope,FALSE
-811412,appliance repair and maintenance,not in scope,FALSE
-811420,reupholstery and furniture repair,not in scope,FALSE
-811430,footwear and leather goods repair,not in scope,FALSE
-811490,other personal and household goods repair and maintenance,not in scope,FALSE
-812111,barber shops,not in scope,FALSE
-812112,beauty salons,not in scope,FALSE
-812113,nail salons,not in scope,FALSE
-812191,diet and weight reducing centers,not in scope,FALSE
-812199,other personal care services,not in scope,FALSE
-812210,funeral homes and funeral services,not in scope,FALSE
-812220,cemeteries and crematories,not in scope,FALSE
-812310,coin-operated laundries and drycleaners,not in scope,FALSE
-812320,drycleaning and laundry services (except coin-operated),not in scope,FALSE
-812331,linen supply,not in scope,FALSE
-812332,industrial launderers,not in scope,FALSE
-812910,pet care (except veterinary) services,not in scope,FALSE
-812921,photofinishing laboratories (except one-hour),not in scope,FALSE
-812922,one-hour photofinishing,not in scope,FALSE
-812930,parking lots and garages,not in scope,FALSE
-812990,all other personal services,not in scope,FALSE
-813110,religious organizations,not in scope,FALSE
-813211,grantmaking foundations,not in scope,FALSE
-813212,voluntary health organizations,not in scope,FALSE
-813219,other grantmaking and giving services,not in scope,FALSE
-813311,human rights organizations,not in scope,FALSE
-813312,"environment, conservation and wildlife organizations",not in scope,FALSE
-813319,other social advocacy organizations,not in scope,FALSE
-813410,civic and social organizations,not in scope,FALSE
-813910,business associations,not in scope,FALSE
-813920,professional organizations,not in scope,FALSE
-813930,labor unions and similar labor organizations,not in scope,FALSE
-813940,political organizations,not in scope,FALSE
-813990,"other similar organizations (except business, professional, labor, and political organizations)",not in scope,FALSE
-814110,private households,not in scope,FALSE
-921110,executive offices,not in scope,FALSE
-921120,legislative bodies,not in scope,FALSE
-921130,public finance activities,not in scope,FALSE
-921140,"executive and legislative offices, combined",not in scope,FALSE
-921150,american indian and alaska native tribal governments,not in scope,FALSE
-921190,other general government support,not in scope,FALSE
-922110,courts,not in scope,FALSE
-922120,police protection,not in scope,FALSE
-922130,legal counsel and prosecution,not in scope,FALSE
-922140,correctional institutions,not in scope,FALSE
-922150,parole offices and probation offices,not in scope,FALSE
-922160,fire protection,not in scope,FALSE
-922190,"other justice, public order, and safety activities",not in scope,FALSE
-923110,administration of education programs,not in scope,FALSE
-923120,administration of public health programs,not in scope,FALSE
-923130,"administration of human resource programs (except education, public health, and veterans' affairs programs)",not in scope,FALSE
-923140,administration of veterans' affairs,not in scope,FALSE
-924110,administration of air and water resource and solid waste management programs,not in scope,FALSE
-924120,administration of conservation programs,not in scope,FALSE
-925110,administration of housing programs,not in scope,FALSE
-925120,administration of urban planning and community and rural development,not in scope,FALSE
-926110,administration of general economic programs,not in scope,FALSE
-926120,regulation and administration of transportation programs,not in scope,FALSE
-926130,"regulation and administration of communications, electric, gas, and other utilities",not in scope,FALSE
-926140,regulation of agricultural marketing and commodities,not in scope,FALSE
-926150,"regulation, licensing, and inspection of miscellaneous commercial sectors",not in scope,FALSE
-927110,space research and technology,not in scope,FALSE
-928110,national security,not in scope,FALSE
-928120,international affairs,not in scope,FALSE
+"","code","naics_title","sector","borderline"
+"1",111110,"soybean farming","not in scope",FALSE
+"2",111120,"oilseed (except soybean) farming","not in scope",FALSE
+"3",111130,"dry pea and bean farming","not in scope",FALSE
+"4",111140,"wheat farming","not in scope",FALSE
+"5",111150,"corn farming","not in scope",FALSE
+"6",111160,"rice farming","not in scope",FALSE
+"7",111191,"oilseed and grain combination farming","not in scope",FALSE
+"8",111199,"all other grain farming","not in scope",FALSE
+"9",111211,"potato farming","not in scope",FALSE
+"10",111219,"other vegetable (except potato) and melon farming","not in scope",FALSE
+"11",111310,"orange groves","not in scope",FALSE
+"12",111320,"citrus (except orange) groves","not in scope",FALSE
+"13",111331,"apple orchards","not in scope",FALSE
+"14",111332,"grape vineyards","not in scope",FALSE
+"15",111333,"strawberry farming","not in scope",FALSE
+"16",111334,"berry (except strawberry) farming","not in scope",FALSE
+"17",111335,"tree nut farming","not in scope",FALSE
+"18",111336,"fruit and tree nut combination farming","not in scope",FALSE
+"19",111339,"other noncitrus fruit farming","not in scope",FALSE
+"20",111411,"mushroom production","not in scope",FALSE
+"21",111419,"other food crops grown under cover","not in scope",FALSE
+"22",111421,"nursery and tree production","not in scope",FALSE
+"23",111422,"floriculture production","not in scope",FALSE
+"24",111910,"tobacco farming","not in scope",FALSE
+"25",111920,"cotton farming","not in scope",FALSE
+"26",111930,"sugarcane farming","not in scope",FALSE
+"27",111940,"hay farming","not in scope",FALSE
+"28",111991,"sugar beet farming","not in scope",FALSE
+"29",111992,"peanut farming","not in scope",FALSE
+"30",111998,"all other miscellaneous crop farming","not in scope",FALSE
+"31",112111,"beef cattle ranching and farming","not in scope",FALSE
+"32",112112,"cattle feedlots","not in scope",FALSE
+"33",112120,"dairy cattle and milk production","not in scope",FALSE
+"34",112130,"dual-purpose cattle ranching and farming","not in scope",FALSE
+"35",112210,"hog and pig farming","not in scope",FALSE
+"36",112310,"chicken egg production","not in scope",FALSE
+"37",112320,"broilers and other meat type chicken production","not in scope",FALSE
+"38",112330,"turkey production","not in scope",FALSE
+"39",112340,"poultry hatcheries","not in scope",FALSE
+"40",112390,"other poultry production","not in scope",FALSE
+"41",112410,"sheep farming","not in scope",FALSE
+"42",112420,"goat farming","not in scope",FALSE
+"43",112511,"finfish farming and fish hatcheries","not in scope",FALSE
+"44",112512,"shellfish farming","not in scope",FALSE
+"45",112519,"other aquaculture","not in scope",FALSE
+"46",112910,"apiculture","not in scope",FALSE
+"47",112920,"horses and other equine production","not in scope",FALSE
+"48",112930,"fur-bearing animal and rabbit production","not in scope",FALSE
+"49",112990,"all other animal production","not in scope",FALSE
+"50",113110,"timber tract operations","not in scope",FALSE
+"51",113210,"forest nurseries and gathering of forest products","not in scope",FALSE
+"52",113310,"logging","not in scope",FALSE
+"53",114111,"finfish fishing","not in scope",FALSE
+"54",114112,"shellfish fishing","not in scope",FALSE
+"55",114119,"other marine fishing","not in scope",FALSE
+"56",114210,"hunting and trapping","not in scope",FALSE
+"57",115111,"cotton ginning","not in scope",FALSE
+"58",115112,"soil preparation, planting, and cultivating","not in scope",FALSE
+"59",115113,"crop harvesting, primarily by machine","not in scope",FALSE
+"60",115114,"postharvest crop activities (except cotton ginning)","not in scope",FALSE
+"61",115115,"farm labor contractors and crew leaders","not in scope",FALSE
+"62",115116,"farm management services","not in scope",FALSE
+"63",115210,"support activities for animal production","not in scope",FALSE
+"64",115310,"support activities for forestry","not in scope",FALSE
+"65",211120,"crude petroleum extraction ","oil and gas",FALSE
+"66",211130,"natural gas extraction","oil and gas",FALSE
+"67",212111,"bituminous coal and lignite surface mining","coal",FALSE
+"68",212112,"bituminous coal underground mining","coal",FALSE
+"69",212113,"anthracite mining","coal",FALSE
+"70",212210,"iron ore mining","not in scope",FALSE
+"71",212221,"gold ore mining","not in scope",FALSE
+"72",212222,"silver ore mining","not in scope",FALSE
+"73",212230,"copper, nickel, lead, and zinc mining","not in scope",FALSE
+"74",212291,"uranium-radium-vanadium ore mining","not in scope",FALSE
+"75",212299,"all other metal ore mining","not in scope",FALSE
+"76",212311,"dimension stone mining and quarrying","not in scope",FALSE
+"77",212312,"crushed and broken limestone mining and quarrying","not in scope",FALSE
+"78",212313,"crushed and broken granite mining and quarrying","not in scope",FALSE
+"79",212319,"other crushed and broken stone mining and quarrying","not in scope",FALSE
+"80",212321,"construction sand and gravel mining","not in scope",FALSE
+"81",212322,"industrial sand mining","not in scope",FALSE
+"82",212324,"kaolin and ball clay mining","not in scope",FALSE
+"83",212325,"clay and ceramic and refractory minerals mining","not in scope",FALSE
+"84",212391,"potash, soda, and borate mineral mining","not in scope",FALSE
+"85",212392,"phosphate rock mining","not in scope",FALSE
+"86",212393,"other chemical and fertilizer mineral mining","not in scope",FALSE
+"87",212399,"all other nonmetallic mineral mining","not in scope",FALSE
+"88",213111,"drilling oil and gas wells","not in scope",FALSE
+"89",213112,"support activities for oil and gas operations","not in scope",FALSE
+"90",213113,"support activities for coal mining","not in scope",FALSE
+"91",213114,"support activities for metal mining","not in scope",FALSE
+"92",213115,"support activities for nonmetallic minerals (except fuels) mining","not in scope",FALSE
+"93",221111,"hydroelectric power generation","power",FALSE
+"94",221112,"fossil fuel electric power generation","power",FALSE
+"95",221113,"nuclear electric power generation","power",FALSE
+"96",221114,"solar electric power generation","power",FALSE
+"97",221115,"wind electric power generation","power",FALSE
+"98",221116,"geothermal electric power generation","power",FALSE
+"99",221117,"biomass electric power generation","power",FALSE
+"100",221118,"other electric power generation","power",FALSE
+"101",221121,"electric bulk power transmission and control","power",TRUE
+"102",221122,"electric power distribution","power",TRUE
+"103",221210,"natural gas distribution","not in scope",FALSE
+"104",221310,"water supply and irrigation systems","not in scope",FALSE
+"105",221320,"sewage treatment facilities","not in scope",FALSE
+"106",221330,"steam and air-conditioning supply","not in scope",FALSE
+"107",236115,"new single-family housing construction (except for-sale builders)","not in scope",FALSE
+"108",236116,"new multifamily housing construction (except for-sale builders)","not in scope",FALSE
+"109",236117,"new housing for-sale builders","not in scope",FALSE
+"110",236118,"residential remodelers","not in scope",FALSE
+"111",236210,"industrial building construction","not in scope",FALSE
+"112",236220,"commercial and institutional building construction","not in scope",FALSE
+"113",237110,"water and sewer line and related structures construction","not in scope",FALSE
+"114",237120,"oil and gas pipeline and related structures construction","not in scope",FALSE
+"115",237130,"power and communication line and related structures construction","not in scope",FALSE
+"116",237210,"land subdivision","not in scope",FALSE
+"117",237310,"highway, street, and bridge construction","not in scope",FALSE
+"118",237990,"other heavy and civil engineering construction","not in scope",FALSE
+"119",238110,"poured concrete foundation and structure contractors","not in scope",FALSE
+"120",238120,"structural steel and precast concrete contractors","not in scope",FALSE
+"121",238130,"framing contractors","not in scope",FALSE
+"122",238140,"masonry contractors","not in scope",FALSE
+"123",238150,"glass and glazing contractors","not in scope",FALSE
+"124",238160,"roofing contractors","not in scope",FALSE
+"125",238170,"siding contractors","not in scope",FALSE
+"126",238190,"other foundation, structure, and building exterior contractors","not in scope",FALSE
+"127",238210,"electrical contractors and other wiring installation contractors","not in scope",FALSE
+"128",238220,"plumbing, heating, and air-conditioning contractors","not in scope",FALSE
+"129",238290,"other building equipment contractors","not in scope",FALSE
+"130",238310,"drywall and insulation contractors","not in scope",FALSE
+"131",238320,"painting and wall covering contractors","not in scope",FALSE
+"132",238330,"flooring contractors","not in scope",FALSE
+"133",238340,"tile and terrazzo contractors","not in scope",FALSE
+"134",238350,"finish carpentry contractors","not in scope",FALSE
+"135",238390,"other building finishing contractors","not in scope",FALSE
+"136",238910,"site preparation contractors","not in scope",FALSE
+"137",238990,"all other specialty trade contractors","not in scope",FALSE
+"138",311111,"dog and cat food manufacturing","not in scope",FALSE
+"139",311119,"other animal food manufacturing","not in scope",FALSE
+"140",311211,"flour milling","not in scope",FALSE
+"141",311212,"rice milling","not in scope",FALSE
+"142",311213,"malt manufacturing","not in scope",FALSE
+"143",311221,"wet corn milling","not in scope",FALSE
+"144",311224,"soybean and other oilseed processing","not in scope",FALSE
+"145",311225,"fats and oils refining and blending","not in scope",FALSE
+"146",311230,"breakfast cereal manufacturing","not in scope",FALSE
+"147",311313,"beet sugar manufacturing","not in scope",FALSE
+"148",311314,"cane sugar manufacturing","not in scope",FALSE
+"149",311340,"nonchocolate confectionery manufacturing","not in scope",FALSE
+"150",311351,"chocolate and confectionery manufacturing from cacao beans","not in scope",FALSE
+"151",311352,"confectionery manufacturing from purchased chocolate","not in scope",FALSE
+"152",311411,"frozen fruit, juice, and vegetable manufacturing","not in scope",FALSE
+"153",311412,"frozen specialty food manufacturing","not in scope",FALSE
+"154",311421,"fruit and vegetable canning","not in scope",FALSE
+"155",311422,"specialty canning","not in scope",FALSE
+"156",311423,"dried and dehydrated food manufacturing","not in scope",FALSE
+"157",311511,"fluid milk manufacturing","not in scope",FALSE
+"158",311512,"creamery butter manufacturing","not in scope",FALSE
+"159",311513,"cheese manufacturing","not in scope",FALSE
+"160",311514,"dry, condensed, and evaporated dairy product manufacturing","not in scope",FALSE
+"161",311520,"ice cream and frozen dessert manufacturing","not in scope",FALSE
+"162",311611,"animal (except poultry) slaughtering","not in scope",FALSE
+"163",311612,"meat processed from carcasses","not in scope",FALSE
+"164",311613,"rendering and meat byproduct processing","not in scope",FALSE
+"165",311615,"poultry processing","not in scope",FALSE
+"166",311710,"seafood product preparation and packaging","not in scope",FALSE
+"167",311811,"retail bakeries","not in scope",FALSE
+"168",311812,"commercial bakeries","not in scope",FALSE
+"169",311813,"frozen cakes, pies, and other pastries manufacturing","not in scope",FALSE
+"170",311821,"cookie and cracker manufacturing","not in scope",FALSE
+"171",311824,"dry pasta, dough, and flour mixes manufacturing from purchased flour","not in scope",FALSE
+"172",311830,"tortilla manufacturing","not in scope",FALSE
+"173",311911,"roasted nuts and peanut butter manufacturing","not in scope",FALSE
+"174",311919,"other snack food manufacturing","not in scope",FALSE
+"175",311920,"coffee and tea manufacturing","not in scope",FALSE
+"176",311930,"flavoring syrup and concentrate manufacturing","not in scope",FALSE
+"177",311941,"mayonnaise, dressing, and other prepared sauce manufacturing","not in scope",FALSE
+"178",311942,"spice and extract manufacturing","not in scope",FALSE
+"179",311991,"perishable prepared food manufacturing","not in scope",FALSE
+"180",311999,"all other miscellaneous food manufacturing","not in scope",FALSE
+"181",312111,"soft drink manufacturing","not in scope",FALSE
+"182",312112,"bottled water manufacturing","not in scope",FALSE
+"183",312113,"ice manufacturing","not in scope",FALSE
+"184",312120,"breweries","not in scope",FALSE
+"185",312130,"wineries","not in scope",FALSE
+"186",312140,"distilleries","not in scope",FALSE
+"187",312230,"tobacco manufacturing","not in scope",FALSE
+"188",313110,"fiber, yarn, and thread mills","not in scope",FALSE
+"189",313210,"broadwoven fabric mills","not in scope",FALSE
+"190",313220,"narrow fabric mills and schiffli machine embroidery","not in scope",FALSE
+"191",313230,"nonwoven fabric mills","not in scope",FALSE
+"192",313240,"knit fabric mills","not in scope",FALSE
+"193",313310,"textile and fabric finishing mills","not in scope",FALSE
+"194",313320,"fabric coating mills","not in scope",FALSE
+"195",314110,"carpet and rug mills","not in scope",FALSE
+"196",314120,"curtain and linen mills","not in scope",FALSE
+"197",314910,"textile bag and canvas mills","not in scope",FALSE
+"198",314994,"rope, cordage, twine, tire cord, and tire fabric mills","not in scope",FALSE
+"199",314999,"all other miscellaneous textile product mills","not in scope",FALSE
+"200",315110,"hosiery and sock mills","not in scope",FALSE
+"201",315190,"other apparel knitting mills","not in scope",FALSE
+"202",315210,"cut and sew apparel contractors","not in scope",FALSE
+"203",315220,"men’s and boys’ cut and sew apparel manufacturing","not in scope",FALSE
+"204",315240,"women’s, girls’, and infants’ cut and sew apparel manufacturing","not in scope",FALSE
+"205",315280,"other cut and sew apparel manufacturing","not in scope",FALSE
+"206",315990,"apparel accessories and other apparel manufacturing","not in scope",FALSE
+"207",316110,"leather and hide tanning and finishing","not in scope",FALSE
+"208",316210,"footwear manufacturing","not in scope",FALSE
+"209",316992,"women's handbag and purse manufacturing","not in scope",FALSE
+"210",316998,"all other leather good and allied product manufacturing","not in scope",FALSE
+"211",321113,"sawmills","not in scope",FALSE
+"212",321114,"wood preservation","not in scope",FALSE
+"213",321211,"hardwood veneer and plywood manufacturing","not in scope",FALSE
+"214",321212,"softwood veneer and plywood manufacturing","not in scope",FALSE
+"215",321213,"engineered wood member (except truss) manufacturing","not in scope",FALSE
+"216",321214,"truss manufacturing","not in scope",FALSE
+"217",321219,"reconstituted wood product manufacturing","not in scope",FALSE
+"218",321911,"wood window and door manufacturing","not in scope",FALSE
+"219",321912,"cut stock, resawing lumber, and planing","not in scope",FALSE
+"220",321918,"other millwork (including flooring)","not in scope",FALSE
+"221",321920,"wood container and pallet manufacturing","not in scope",FALSE
+"222",321991,"manufactured home (mobile home) manufacturing","not in scope",FALSE
+"223",321992,"prefabricated wood building manufacturing","not in scope",FALSE
+"224",321999,"all other miscellaneous wood product manufacturing","not in scope",FALSE
+"225",322110,"pulp mills","not in scope",FALSE
+"226",322121,"paper (except newsprint) mills","not in scope",FALSE
+"227",322122,"newsprint mills","not in scope",FALSE
+"228",322130,"paperboard mills","not in scope",FALSE
+"229",322211,"corrugated and solid fiber box manufacturing","not in scope",FALSE
+"230",322212,"folding paperboard box manufacturing","not in scope",FALSE
+"231",322219,"other paperboard container manufacturing","not in scope",FALSE
+"232",322220,"paper bag and coated and treated paper manufacturing","not in scope",FALSE
+"233",322230,"stationery product manufacturing","not in scope",FALSE
+"234",322291,"sanitary paper product manufacturing","not in scope",FALSE
+"235",322299,"all other converted paper product manufacturing","not in scope",FALSE
+"236",323111,"commercial printing (except screen and books)","not in scope",FALSE
+"237",323113,"commercial screen printing","not in scope",FALSE
+"238",323117,"books printing","not in scope",FALSE
+"239",323120,"support activities for printing","not in scope",FALSE
+"240",324110,"petroleum refineries","not in scope",FALSE
+"241",324121,"asphalt paving mixture and block manufacturing","not in scope",FALSE
+"242",324122,"asphalt shingle and coating materials manufacturing","not in scope",FALSE
+"243",324191,"petroleum lubricating oil and grease manufacturing","not in scope",FALSE
+"244",324199,"all other petroleum and coal products manufacturing","not in scope",FALSE
+"245",325110,"petrochemical manufacturing","not in scope",FALSE
+"246",325120,"industrial gas manufacturing","not in scope",FALSE
+"247",325130,"synthetic dye and pigment manufacturing","not in scope",FALSE
+"248",325180,"other basic inorganic chemical manufacturing","not in scope",FALSE
+"249",325193,"ethyl alcohol manufacturing","not in scope",FALSE
+"250",325194,"cyclic crude, intermediate, and gum and wood chemical manufacturing","not in scope",FALSE
+"251",325199,"all other basic organic chemical manufacturing","not in scope",FALSE
+"252",325211,"plastics material and resin manufacturing","not in scope",FALSE
+"253",325212,"synthetic rubber manufacturing","not in scope",FALSE
+"254",325220,"artificial and synthetic fibers and filaments manufacturing","not in scope",FALSE
+"255",325311,"nitrogenous fertilizer manufacturing","not in scope",FALSE
+"256",325312,"phosphatic fertilizer manufacturing","not in scope",FALSE
+"257",325314,"fertilizer (mixing only) manufacturing","not in scope",FALSE
+"258",325320,"pesticide and other agricultural chemical manufacturing","not in scope",FALSE
+"259",325411,"medicinal and botanical manufacturing","not in scope",FALSE
+"260",325412,"pharmaceutical preparation manufacturing","not in scope",FALSE
+"261",325413,"in-vitro diagnostic substance manufacturing","not in scope",FALSE
+"262",325414,"biological product (except diagnostic) manufacturing","not in scope",FALSE
+"263",325510,"paint and coating manufacturing","not in scope",FALSE
+"264",325520,"adhesive manufacturing","not in scope",FALSE
+"265",325611,"soap and other detergent manufacturing","not in scope",FALSE
+"266",325612,"polish and other sanitation good manufacturing","not in scope",FALSE
+"267",325613,"surface active agent manufacturing","not in scope",FALSE
+"268",325620,"toilet preparation manufacturing","not in scope",FALSE
+"269",325910,"printing ink manufacturing","not in scope",FALSE
+"270",325920,"explosives manufacturing","not in scope",FALSE
+"271",325991,"custom compounding of purchased resins","not in scope",FALSE
+"272",325992,"photographic film, paper, plate, and chemical manufacturing","not in scope",FALSE
+"273",325998,"all other miscellaneous chemical product and preparation manufacturing","not in scope",FALSE
+"274",326111,"plastics bag and pouch manufacturing","not in scope",FALSE
+"275",326112,"plastics packaging film and sheet (including laminated) manufacturing","not in scope",FALSE
+"276",326113,"unlaminated plastics film and sheet (except packaging) manufacturing","not in scope",FALSE
+"277",326121,"unlaminated plastics profile shape manufacturing","not in scope",FALSE
+"278",326122,"plastics pipe and pipe fitting manufacturing","not in scope",FALSE
+"279",326130,"laminated plastics plate, sheet (except packaging), and shape manufacturing","not in scope",FALSE
+"280",326140,"polystyrene foam product manufacturing","not in scope",FALSE
+"281",326150,"urethane and other foam product (except polystyrene) manufacturing","not in scope",FALSE
+"282",326160,"plastics bottle manufacturing","not in scope",FALSE
+"283",326191,"plastics plumbing fixture manufacturing","not in scope",FALSE
+"284",326199,"all other plastics product manufacturing","not in scope",FALSE
+"285",326211,"tire manufacturing (except retreading)","not in scope",FALSE
+"286",326212,"tire retreading","not in scope",FALSE
+"287",326220,"rubber and plastics hoses and belting manufacturing","not in scope",FALSE
+"288",326291,"rubber product manufacturing for mechanical use","not in scope",FALSE
+"289",326299,"all other rubber product manufacturing","not in scope",FALSE
+"290",327110,"pottery, ceramics, and plumbing fixture manufacturing","not in scope",FALSE
+"291",327120,"clay building material and refractories manufacturing","not in scope",FALSE
+"292",327211,"flat glass manufacturing","not in scope",FALSE
+"293",327212,"other pressed and blown glass and glassware manufacturing","not in scope",FALSE
+"294",327213,"glass container manufacturing","not in scope",FALSE
+"295",327215,"glass product manufacturing made of purchased glass","not in scope",FALSE
+"296",327310,"cement manufacturing","cement",FALSE
+"297",327320,"ready-mix concrete manufacturing","not in scope",FALSE
+"298",327331,"concrete block and brick manufacturing","not in scope",FALSE
+"299",327332,"concrete pipe manufacturing","not in scope",FALSE
+"300",327390,"other concrete product manufacturing","not in scope",FALSE
+"301",327410,"lime manufacturing","not in scope",FALSE
+"302",327420,"gypsum product manufacturing","not in scope",FALSE
+"303",327910,"abrasive product manufacturing","not in scope",FALSE
+"304",327991,"cut stone and stone product manufacturing","not in scope",FALSE
+"305",327992,"ground or treated mineral and earth manufacturing","not in scope",FALSE
+"306",327993,"mineral wool manufacturing","not in scope",FALSE
+"307",327999,"all other miscellaneous nonmetallic mineral product manufacturing","not in scope",FALSE
+"308",331110,"iron and steel mills and ferroalloy manufacturing","steel",FALSE
+"309",331210,"iron and steel pipe and tube manufacturing from purchased steel","steel",TRUE
+"310",331221,"rolled steel shape manufacturing","steel",TRUE
+"311",331222,"steel wire drawing","steel",TRUE
+"312",331313,"alumina refining and primary aluminum production","not in scope",FALSE
+"313",331314,"secondary smelting and alloying of aluminum","not in scope",FALSE
+"314",331315,"aluminum sheet, plate, and foil manufacturing","not in scope",FALSE
+"315",331318,"other aluminum rolling, drawing, and extruding","not in scope",FALSE
+"316",331410,"nonferrous metal (except aluminum) smelting and refining","not in scope",FALSE
+"317",331420,"copper rolling, drawing, extruding, and alloying","not in scope",FALSE
+"318",331491,"nonferrous metal (except copper and aluminum) rolling, drawing, and extruding","not in scope",FALSE
+"319",331492,"secondary smelting, refining, and alloying of nonferrous metal (except copper and aluminum)","not in scope",FALSE
+"320",331511,"iron foundries","not in scope",FALSE
+"321",331512,"steel investment foundries","steel",FALSE
+"322",331513,"steel foundries (except investment)","steel",FALSE
+"323",331523,"nonferrous metal die-casting foundries","not in scope",FALSE
+"324",331524,"aluminum foundries (except die-casting)","not in scope",FALSE
+"325",331529,"other nonferrous metal foundries (except die-casting)","not in scope",FALSE
+"326",332111,"iron and steel forging","not in scope",FALSE
+"327",332112,"nonferrous forging","not in scope",FALSE
+"328",332114,"custom roll forming","not in scope",FALSE
+"329",332117,"powder metallurgy part manufacturing","not in scope",FALSE
+"330",332119,"metal crown, closure, and other metal stamping (except automotive)","not in scope",FALSE
+"331",332215,"metal kitchen cookware, utensil, cutlery, and flatware (except precious) manufacturing","not in scope",FALSE
+"332",332216,"saw blade and handtool manufacturing","not in scope",FALSE
+"333",332311,"prefabricated metal building and component manufacturing","not in scope",FALSE
+"334",332312,"fabricated structural metal manufacturing","not in scope",FALSE
+"335",332313,"plate work manufacturing","not in scope",FALSE
+"336",332321,"metal window and door manufacturing","not in scope",FALSE
+"337",332322,"sheet metal work manufacturing","not in scope",FALSE
+"338",332323,"ornamental and architectural metal work manufacturing","not in scope",FALSE
+"339",332410,"power boiler and heat exchanger manufacturing","not in scope",FALSE
+"340",332420,"metal tank (heavy gauge) manufacturing","not in scope",FALSE
+"341",332431,"metal can manufacturing","not in scope",FALSE
+"342",332439,"other metal container manufacturing","not in scope",FALSE
+"343",332510,"hardware manufacturing","not in scope",FALSE
+"344",332613,"spring manufacturing","not in scope",FALSE
+"345",332618,"other fabricated wire product manufacturing","not in scope",FALSE
+"346",332710,"machine shops","not in scope",FALSE
+"347",332721,"precision turned product manufacturing","not in scope",FALSE
+"348",332722,"bolt, nut, screw, rivet, and washer manufacturing","not in scope",FALSE
+"349",332811,"metal heat treating","not in scope",FALSE
+"350",332812,"metal coating, engraving (except jewelry and silverware), and allied services to manufacturers","not in scope",FALSE
+"351",332813,"electroplating, plating, polishing, anodizing, and coloring","not in scope",FALSE
+"352",332911,"industrial valve manufacturing","not in scope",FALSE
+"353",332912,"fluid power valve and hose fitting manufacturing","not in scope",FALSE
+"354",332913,"plumbing fixture fitting and trim manufacturing","not in scope",FALSE
+"355",332919,"other metal valve and pipe fitting manufacturing","not in scope",FALSE
+"356",332991,"ball and roller bearing manufacturing","not in scope",FALSE
+"357",332992,"small arms ammunition manufacturing","not in scope",FALSE
+"358",332993,"ammunition (except small arms) manufacturing","not in scope",FALSE
+"359",332994,"small arms, ordnance, and ordnance accessories manufacturing","not in scope",FALSE
+"360",332996,"fabricated pipe and pipe fitting manufacturing","not in scope",FALSE
+"361",332999,"all other miscellaneous fabricated metal product manufacturing","not in scope",FALSE
+"362",333111,"farm machinery and equipment manufacturing","not in scope",FALSE
+"363",333112,"lawn and garden tractor and home lawn and garden equipment manufacturing","not in scope",FALSE
+"364",333120,"construction machinery manufacturing","not in scope",FALSE
+"365",333131,"mining machinery and equipment manufacturing","not in scope",FALSE
+"366",333132,"oil and gas field machinery and equipment manufacturing","not in scope",FALSE
+"367",333241,"food product machinery manufacturing","not in scope",FALSE
+"368",333242,"semiconductor machinery manufacturing","not in scope",FALSE
+"369",333243,"sawmill, woodworking, and paper machinery manufacturing","not in scope",FALSE
+"370",333244,"printing machinery and equipment manufacturing","not in scope",FALSE
+"371",333249,"other industrial machinery manufacturing","not in scope",FALSE
+"372",333314,"optical instrument and lens manufacturing","not in scope",FALSE
+"373",333316,"photographic and photocopying equipment manufacturing","not in scope",FALSE
+"374",333318,"other commercial and service industry machinery manufacturing","not in scope",FALSE
+"375",333413,"industrial and commercial fan and blower and air purification equipment manufacturing","not in scope",FALSE
+"376",333414,"heating equipment (except warm air furnaces) manufacturing","not in scope",FALSE
+"377",333415,"air-conditioning and warm air heating equipment and commercial and industrial refrigeration equipment manufacturing","not in scope",FALSE
+"378",333511,"industrial mold manufacturing","not in scope",FALSE
+"379",333514,"special die and tool, die set, jig, and fixture manufacturing","not in scope",FALSE
+"380",333515,"cutting tool and machine tool accessory manufacturing","not in scope",FALSE
+"381",333517,"machine tool manufacturing","not in scope",FALSE
+"382",333519,"rolling mill and other metalworking machinery manufacturing","not in scope",FALSE
+"383",333611,"turbine and turbine generator set units manufacturing","not in scope",FALSE
+"384",333612,"speed changer, industrial high-speed drive, and gear manufacturing","not in scope",FALSE
+"385",333613,"mechanical power transmission equipment manufacturing","not in scope",FALSE
+"386",333618,"other engine equipment manufacturing","not in scope",FALSE
+"387",333912,"air and gas compressor manufacturing","not in scope",FALSE
+"388",333914,"measuring, dispensing, and other pumping equipment manufacturing","not in scope",FALSE
+"389",333921,"elevator and moving stairway manufacturing","not in scope",FALSE
+"390",333922,"conveyor and conveying equipment manufacturing","not in scope",FALSE
+"391",333923,"overhead traveling crane, hoist, and monorail system manufacturing","not in scope",FALSE
+"392",333924,"industrial truck, tractor, trailer, and stacker machinery manufacturing","not in scope",FALSE
+"393",333991,"power-driven handtool manufacturing","not in scope",FALSE
+"394",333992,"welding and soldering equipment manufacturing","not in scope",FALSE
+"395",333993,"packaging machinery manufacturing","not in scope",FALSE
+"396",333994,"industrial process furnace and oven manufacturing","not in scope",FALSE
+"397",333995,"fluid power cylinder and actuator manufacturing","not in scope",FALSE
+"398",333996,"fluid power pump and motor manufacturing","not in scope",FALSE
+"399",333997,"scale and balance manufacturing","not in scope",FALSE
+"400",333999,"all other miscellaneous general purpose machinery manufacturing","not in scope",FALSE
+"401",334111,"electronic computer manufacturing","not in scope",FALSE
+"402",334112,"computer storage device manufacturing","not in scope",FALSE
+"403",334118,"computer terminal and other computer peripheral equipment manufacturing","not in scope",FALSE
+"404",334210,"telephone apparatus manufacturing","not in scope",FALSE
+"405",334220,"radio and television broadcasting and wireless communications equipment manufacturing","not in scope",FALSE
+"406",334290,"other communications equipment manufacturing","not in scope",FALSE
+"407",334310,"audio and video equipment manufacturing","not in scope",FALSE
+"408",334412,"bare printed circuit board manufacturing","not in scope",FALSE
+"409",334413,"semiconductor and related device manufacturing","not in scope",FALSE
+"410",334416,"capacitor, resistor, coil, transformer, and other inductor manufacturing","not in scope",FALSE
+"411",334417,"electronic connector manufacturing","not in scope",FALSE
+"412",334418,"printed circuit assembly (electronic assembly) manufacturing","not in scope",FALSE
+"413",334419,"other electronic component manufacturing","not in scope",FALSE
+"414",334510,"electromedical and electrotherapeutic apparatus manufacturing","not in scope",FALSE
+"415",334511,"search, detection, navigation, guidance, aeronautical, and nautical system and instrument manufacturing","not in scope",FALSE
+"416",334512,"automatic environmental control manufacturing for residential, commercial, and appliance use","not in scope",FALSE
+"417",334513,"instruments and related products manufacturing for measuring, displaying, and controlling industrial process variables","not in scope",FALSE
+"418",334514,"totalizing fluid meter and counting device manufacturing","not in scope",FALSE
+"419",334515,"instrument manufacturing for measuring and testing electricity and electrical signals","not in scope",FALSE
+"420",334516,"analytical laboratory instrument manufacturing","not in scope",FALSE
+"421",334517,"irradiation apparatus manufacturing","not in scope",FALSE
+"422",334519,"other measuring and controlling device manufacturing","not in scope",FALSE
+"423",334613,"blank magnetic and optical recording media manufacturing","not in scope",FALSE
+"424",334614,"software and other prerecorded compact disc, tape, and record reproducing","not in scope",FALSE
+"425",335110,"electric lamp bulb and part manufacturing","not in scope",FALSE
+"426",335121,"residential electric lighting fixture manufacturing","not in scope",FALSE
+"427",335122,"commercial, industrial, and institutional electric lighting fixture manufacturing","not in scope",FALSE
+"428",335129,"other lighting equipment manufacturing","not in scope",FALSE
+"429",335210,"small electrical appliance manufacturing","not in scope",FALSE
+"430",335220,"major household appliance manufacturing","not in scope",FALSE
+"431",335311,"power, distribution, and specialty transformer manufacturing","not in scope",FALSE
+"432",335312,"motor and generator manufacturing","not in scope",FALSE
+"433",335313,"switchgear and switchboard apparatus manufacturing","not in scope",FALSE
+"434",335314,"relay and industrial control manufacturing","not in scope",FALSE
+"435",335911,"storage battery manufacturing","not in scope",FALSE
+"436",335912,"primary battery manufacturing","not in scope",FALSE
+"437",335921,"fiber optic cable manufacturing","not in scope",FALSE
+"438",335929,"other communication and energy wire manufacturing","not in scope",FALSE
+"439",335931,"current-carrying wiring device manufacturing","not in scope",FALSE
+"440",335932,"noncurrent-carrying wiring device manufacturing","not in scope",FALSE
+"441",335991,"carbon and graphite product manufacturing","not in scope",FALSE
+"442",335999,"all other miscellaneous electrical equipment and component manufacturing","not in scope",FALSE
+"443",336111,"automobile manufacturing","ldv",FALSE
+"444",336112,"light truck and utility vehicle manufacturing","ldv",FALSE
+"445",336120,"heavy duty truck manufacturing","hdv",FALSE
+"446",336211,"motor vehicle body manufacturing","not in scope",FALSE
+"447",336212,"truck trailer manufacturing","not in scope",FALSE
+"448",336213,"motor home manufacturing","not in scope",FALSE
+"449",336214,"travel trailer and camper manufacturing","not in scope",FALSE
+"450",336310,"motor vehicle gasoline engine and engine parts manufacturing","not in scope",FALSE
+"451",336320,"motor vehicle electrical and electronic equipment manufacturing","not in scope",FALSE
+"452",336330,"motor vehicle steering and suspension components (except spring) manufacturing","not in scope",FALSE
+"453",336340,"motor vehicle brake system manufacturing","not in scope",FALSE
+"454",336350,"motor vehicle transmission and power train parts manufacturing","not in scope",FALSE
+"455",336360,"motor vehicle seating and interior trim manufacturing","not in scope",FALSE
+"456",336370,"motor vehicle metal stamping","not in scope",FALSE
+"457",336390,"other motor vehicle parts manufacturing","not in scope",FALSE
+"458",336411,"aircraft manufacturing","not in scope",FALSE
+"459",336412,"aircraft engine and engine parts manufacturing","not in scope",FALSE
+"460",336413,"other aircraft parts and auxiliary equipment manufacturing","not in scope",FALSE
+"461",336414,"guided missile and space vehicle manufacturing","not in scope",FALSE
+"462",336415,"guided missile and space vehicle propulsion unit and propulsion unit parts manufacturing","not in scope",FALSE
+"463",336419,"other guided missile and space vehicle parts and auxiliary equipment manufacturing","not in scope",FALSE
+"464",336510,"railroad rolling stock manufacturing","not in scope",FALSE
+"465",336611,"ship building and repairing","not in scope",FALSE
+"466",336612,"boat building","not in scope",FALSE
+"467",336991,"motorcycle, bicycle, and parts manufacturing","not in scope",FALSE
+"468",336992,"military armored vehicle, tank, and tank component manufacturing","not in scope",FALSE
+"469",336999,"all other transportation equipment manufacturing","not in scope",FALSE
+"470",337110,"wood kitchen cabinet and countertop manufacturing","not in scope",FALSE
+"471",337121,"upholstered household furniture manufacturing","not in scope",FALSE
+"472",337122,"nonupholstered wood household furniture manufacturing","not in scope",FALSE
+"473",337124,"metal household furniture manufacturing","not in scope",FALSE
+"474",337125,"household furniture (except wood and metal) manufacturing","not in scope",FALSE
+"475",337127,"institutional furniture manufacturing","not in scope",FALSE
+"476",337211,"wood office furniture manufacturing","not in scope",FALSE
+"477",337212,"custom architectural woodwork and millwork manufacturing","not in scope",FALSE
+"478",337214,"office furniture (except wood) manufacturing","not in scope",FALSE
+"479",337215,"showcase, partition, shelving, and locker manufacturing","not in scope",FALSE
+"480",337910,"mattress manufacturing","not in scope",FALSE
+"481",337920,"blind and shade manufacturing","not in scope",FALSE
+"482",339112,"surgical and medical instrument manufacturing","not in scope",FALSE
+"483",339113,"surgical appliance and supplies manufacturing","not in scope",FALSE
+"484",339114,"dental equipment and supplies manufacturing","not in scope",FALSE
+"485",339115,"ophthalmic goods manufacturing","not in scope",FALSE
+"486",339116,"dental laboratories","not in scope",FALSE
+"487",339910,"jewelry and silverware manufacturing","not in scope",FALSE
+"488",339920,"sporting and athletic goods manufacturing","not in scope",FALSE
+"489",339930,"doll, toy, and game manufacturing","not in scope",FALSE
+"490",339940,"office supplies (except paper) manufacturing","not in scope",FALSE
+"491",339950,"sign manufacturing","not in scope",FALSE
+"492",339991,"gasket, packing, and sealing device manufacturing","not in scope",FALSE
+"493",339992,"musical instrument manufacturing","not in scope",FALSE
+"494",339993,"fastener, button, needle, and pin manufacturing","not in scope",FALSE
+"495",339994,"broom, brush, and mop manufacturing","not in scope",FALSE
+"496",339995,"burial casket manufacturing","not in scope",FALSE
+"497",339999,"all other miscellaneous manufacturing","not in scope",FALSE
+"498",423110,"automobile and other motor vehicle merchant wholesalers","not in scope",FALSE
+"499",423120,"motor vehicle supplies and new parts merchant wholesalers","not in scope",FALSE
+"500",423130,"tire and tube merchant wholesalers","not in scope",FALSE
+"501",423140,"motor vehicle parts (used) merchant wholesalers","not in scope",FALSE
+"502",423210,"furniture merchant wholesalers","not in scope",FALSE
+"503",423220,"home furnishing merchant wholesalers","not in scope",FALSE
+"504",423310,"lumber, plywood, millwork, and wood panel merchant wholesalers","not in scope",FALSE
+"505",423320,"brick, stone, and related construction material merchant wholesalers","not in scope",FALSE
+"506",423330,"roofing, siding, and insulation material merchant wholesalers","not in scope",FALSE
+"507",423390,"other construction material merchant wholesalers","not in scope",FALSE
+"508",423410,"photographic equipment and supplies merchant wholesalers","not in scope",FALSE
+"509",423420,"office equipment merchant wholesalers","not in scope",FALSE
+"510",423430,"computer and computer peripheral equipment and software merchant wholesalers","not in scope",FALSE
+"511",423440,"other commercial equipment merchant wholesalers","not in scope",FALSE
+"512",423450,"medical, dental, and hospital equipment and supplies merchant wholesalers","not in scope",FALSE
+"513",423460,"ophthalmic goods merchant wholesalers","not in scope",FALSE
+"514",423490,"other professional equipment and supplies merchant wholesalers","not in scope",FALSE
+"515",423510,"metal service centers and other metal merchant wholesalers","not in scope",FALSE
+"516",423520,"coal and other mineral and ore merchant wholesalers","not in scope",FALSE
+"517",423610,"electrical apparatus and equipment, wiring supplies, and related equipment merchant wholesalers","not in scope",FALSE
+"518",423620,"household appliances, electric housewares, and consumer electronics merchant wholesalers","not in scope",FALSE
+"519",423690,"other electronic parts and equipment merchant wholesalers","not in scope",FALSE
+"520",423710,"hardware merchant wholesalers","not in scope",FALSE
+"521",423720,"plumbing and heating equipment and supplies (hydronics) merchant wholesalers","not in scope",FALSE
+"522",423730,"warm air heating and air-conditioning equipment and supplies merchant wholesalers","not in scope",FALSE
+"523",423740,"refrigeration equipment and supplies merchant wholesalers","not in scope",FALSE
+"524",423810,"construction and mining (except oil well) machinery and equipment merchant wholesalers","not in scope",FALSE
+"525",423820,"farm and garden machinery and equipment merchant wholesalers","not in scope",FALSE
+"526",423830,"industrial machinery and equipment merchant wholesalers","not in scope",FALSE
+"527",423840,"industrial supplies merchant wholesalers","not in scope",FALSE
+"528",423850,"service establishment equipment and supplies merchant wholesalers","not in scope",FALSE
+"529",423860,"transportation equipment and supplies (except motor vehicle) merchant wholesalers","not in scope",FALSE
+"530",423910,"sporting and recreational goods and supplies merchant wholesalers","not in scope",FALSE
+"531",423920,"toy and hobby goods and supplies merchant wholesalers","not in scope",FALSE
+"532",423930,"recyclable material merchant wholesalers","not in scope",FALSE
+"533",423940,"jewelry, watch, precious stone, and precious metal merchant wholesalers","not in scope",FALSE
+"534",423990,"other miscellaneous durable goods merchant wholesalers","not in scope",FALSE
+"535",424110,"printing and writing paper merchant wholesalers","not in scope",FALSE
+"536",424120,"stationery and office supplies merchant wholesalers","not in scope",FALSE
+"537",424130,"industrial and personal service paper merchant wholesalers","not in scope",FALSE
+"538",424210,"drugs and druggists' sundries merchant wholesalers","not in scope",FALSE
+"539",424310,"piece goods, notions, and other dry goods merchant wholesalers","not in scope",FALSE
+"540",424320,"men's and boys' clothing and furnishings merchant wholesalers","not in scope",FALSE
+"541",424330,"women's, children's, and infants' clothing and accessories merchant wholesalers","not in scope",FALSE
+"542",424340,"footwear merchant wholesalers","not in scope",FALSE
+"543",424410,"general line grocery merchant wholesalers","not in scope",FALSE
+"544",424420,"packaged frozen food merchant wholesalers","not in scope",FALSE
+"545",424430,"dairy product (except dried or canned) merchant wholesalers","not in scope",FALSE
+"546",424440,"poultry and poultry product merchant wholesalers","not in scope",FALSE
+"547",424450,"confectionery merchant wholesalers","not in scope",FALSE
+"548",424460,"fish and seafood merchant wholesalers","not in scope",FALSE
+"549",424470,"meat and meat product merchant wholesalers","not in scope",FALSE
+"550",424480,"fresh fruit and vegetable merchant wholesalers","not in scope",FALSE
+"551",424490,"other grocery and related products merchant wholesalers","not in scope",FALSE
+"552",424510,"grain and field bean merchant wholesalers","not in scope",FALSE
+"553",424520,"livestock merchant wholesalers","not in scope",FALSE
+"554",424590,"other farm product raw material merchant wholesalers","not in scope",FALSE
+"555",424610,"plastics materials and basic forms and shapes merchant wholesalers","not in scope",FALSE
+"556",424690,"other chemical and allied products merchant wholesalers","not in scope",FALSE
+"557",424710,"petroleum bulk stations and terminals","not in scope",FALSE
+"558",424720,"petroleum and petroleum products merchant wholesalers (except bulk stations and terminals)","not in scope",FALSE
+"559",424810,"beer and ale merchant wholesalers","not in scope",FALSE
+"560",424820,"wine and distilled alcoholic beverage merchant wholesalers","not in scope",FALSE
+"561",424910,"farm supplies merchant wholesalers","not in scope",FALSE
+"562",424920,"book, periodical, and newspaper merchant wholesalers","not in scope",FALSE
+"563",424930,"flower, nursery stock, and florists' supplies merchant wholesalers","not in scope",FALSE
+"564",424940,"tobacco and tobacco product merchant wholesalers","not in scope",FALSE
+"565",424950,"paint, varnish, and supplies merchant wholesalers","not in scope",FALSE
+"566",424990,"other miscellaneous nondurable goods merchant wholesalers","not in scope",FALSE
+"567",425110,"business to business electronic markets","not in scope",FALSE
+"568",425120,"wholesale trade agents and brokers","not in scope",FALSE
+"569",441110,"new car dealers","not in scope",FALSE
+"570",441120,"used car dealers","not in scope",FALSE
+"571",441210,"recreational vehicle dealers","not in scope",FALSE
+"572",441222,"boat dealers","not in scope",FALSE
+"573",441228,"motorcycle, atv, and all other motor vehicle dealers","not in scope",FALSE
+"574",441310,"automotive parts and accessories stores","not in scope",FALSE
+"575",441320,"tire dealers","not in scope",FALSE
+"576",442110,"furniture stores","not in scope",FALSE
+"577",442210,"floor covering stores","not in scope",FALSE
+"578",442291,"window treatment stores","not in scope",FALSE
+"579",442299,"all other home furnishings stores","not in scope",FALSE
+"580",443141,"household appliance stores","not in scope",FALSE
+"581",443142,"electronics stores","not in scope",FALSE
+"582",444110,"home centers","not in scope",FALSE
+"583",444120,"paint and wallpaper stores","not in scope",FALSE
+"584",444130,"hardware stores","not in scope",FALSE
+"585",444190,"other building material dealers","not in scope",FALSE
+"586",444210,"outdoor power equipment stores","not in scope",FALSE
+"587",444220,"nursery, garden center, and farm supply stores","not in scope",FALSE
+"588",445110,"supermarkets and other grocery (except convenience) stores","not in scope",FALSE
+"589",445120,"convenience stores","not in scope",FALSE
+"590",445210,"meat markets","not in scope",FALSE
+"591",445220,"fish and seafood markets","not in scope",FALSE
+"592",445230,"fruit and vegetable markets","not in scope",FALSE
+"593",445291,"baked goods stores","not in scope",FALSE
+"594",445292,"confectionery and nut stores","not in scope",FALSE
+"595",445299,"all other specialty food stores","not in scope",FALSE
+"596",445310,"beer, wine, and liquor stores","not in scope",FALSE
+"597",446110,"pharmacies and drug stores","not in scope",FALSE
+"598",446120,"cosmetics, beauty supplies, and perfume stores","not in scope",FALSE
+"599",446130,"optical goods stores","not in scope",FALSE
+"600",446191,"food (health) supplement stores","not in scope",FALSE
+"601",446199,"all other health and personal care stores","not in scope",FALSE
+"602",447110,"gasoline stations with convenience stores","not in scope",FALSE
+"603",447190,"other gasoline stations","not in scope",FALSE
+"604",448110,"men's clothing stores","not in scope",FALSE
+"605",448120,"women's clothing stores","not in scope",FALSE
+"606",448130,"children's and infants' clothing stores","not in scope",FALSE
+"607",448140,"family clothing stores","not in scope",FALSE
+"608",448150,"clothing accessories stores","not in scope",FALSE
+"609",448190,"other clothing stores","not in scope",FALSE
+"610",448210,"shoe stores","not in scope",FALSE
+"611",448310,"jewelry stores","not in scope",FALSE
+"612",448320,"luggage and leather goods stores","not in scope",FALSE
+"613",451110,"sporting goods stores","not in scope",FALSE
+"614",451120,"hobby, toy, and game stores","not in scope",FALSE
+"615",451130,"sewing, needlework, and piece goods stores","not in scope",FALSE
+"616",451140,"musical instrument and supplies stores","not in scope",FALSE
+"617",451211,"book stores","not in scope",FALSE
+"618",451212,"news dealers and newsstands","not in scope",FALSE
+"619",452210,"department stores","not in scope",FALSE
+"620",452311,"warehouse clubs and supercenters","not in scope",FALSE
+"621",452319,"all other general merchandise stores","not in scope",FALSE
+"622",453110,"florists","not in scope",FALSE
+"623",453210,"office supplies and stationery stores","not in scope",FALSE
+"624",453220,"gift, novelty, and souvenir stores","not in scope",FALSE
+"625",453310,"used merchandise stores","not in scope",FALSE
+"626",453910,"pet and pet supplies stores","not in scope",FALSE
+"627",453920,"art dealers","not in scope",FALSE
+"628",453930,"manufactured (mobile) home dealers","not in scope",FALSE
+"629",453991,"tobacco stores","not in scope",FALSE
+"630",453998,"all other miscellaneous store retailers (except tobacco stores)","not in scope",FALSE
+"631",454110,"electronic shopping and mail-order houses","not in scope",FALSE
+"632",454210,"vending machine operators","not in scope",FALSE
+"633",454310,"fuel dealers","not in scope",FALSE
+"634",454390,"other direct selling establishments","not in scope",FALSE
+"635",481111,"scheduled passenger air transportation","aviation",FALSE
+"636",481112,"scheduled freight air transportation","aviation",FALSE
+"637",481211,"nonscheduled chartered passenger air transportation","aviation",FALSE
+"638",481212,"nonscheduled chartered freight air transportation","aviation",FALSE
+"639",481219,"other nonscheduled air transportation","aviation",FALSE
+"640",482111,"line-haul railroads","not in scope",FALSE
+"641",482112,"short line railroads","not in scope",FALSE
+"642",483111,"deep sea freight transportation","shipping",FALSE
+"643",483112,"deep sea passenger transportation","not in scope",FALSE
+"644",483113,"coastal and great lakes freight transportation","shipping",FALSE
+"645",483114,"coastal and great lakes passenger transportation","not in scope",FALSE
+"646",483211,"inland water freight transportation","shipping",FALSE
+"647",483212,"inland water passenger transportation","not in scope",FALSE
+"648",484110,"general freight trucking, local","not in scope",FALSE
+"649",484121,"general freight trucking, long-distance, truckload","not in scope",FALSE
+"650",484122,"general freight trucking, long-distance, less than truckload","not in scope",FALSE
+"651",484210,"used household and office goods moving","not in scope",FALSE
+"652",484220,"specialized freight (except used goods) trucking, local","not in scope",FALSE
+"653",484230,"specialized freight (except used goods) trucking, long-distance","not in scope",FALSE
+"654",485111,"mixed mode transit systems","not in scope",FALSE
+"655",485112,"commuter rail systems","not in scope",FALSE
+"656",485113,"bus and other motor vehicle transit systems","not in scope",FALSE
+"657",485119,"other urban transit systems","not in scope",FALSE
+"658",485210,"interurban and rural bus transportation","not in scope",FALSE
+"659",485310,"taxi service","not in scope",FALSE
+"660",485320,"limousine service","not in scope",FALSE
+"661",485410,"school and employee bus transportation","not in scope",FALSE
+"662",485510,"charter bus industry","not in scope",FALSE
+"663",485991,"special needs transportation","not in scope",FALSE
+"664",485999,"all other transit and ground passenger transportation","not in scope",FALSE
+"665",486110,"pipeline transportation of crude oil","not in scope",FALSE
+"666",486210,"pipeline transportation of natural gas","not in scope",FALSE
+"667",486910,"pipeline transportation of refined petroleum products","not in scope",FALSE
+"668",486990,"all other pipeline transportation","not in scope",FALSE
+"669",487110,"scenic and sightseeing transportation, land","not in scope",FALSE
+"670",487210,"scenic and sightseeing transportation, water","not in scope",FALSE
+"671",487990,"scenic and sightseeing transportation, other","not in scope",FALSE
+"672",488111,"air traffic control","not in scope",FALSE
+"673",488119,"other airport operations","not in scope",FALSE
+"674",488190,"other support activities for air transportation","not in scope",FALSE
+"675",488210,"support activities for rail transportation","not in scope",FALSE
+"676",488310,"port and harbor operations","not in scope",FALSE
+"677",488320,"marine cargo handling","not in scope",FALSE
+"678",488330,"navigational services to shipping","not in scope",FALSE
+"679",488390,"other support activities for water transportation","not in scope",FALSE
+"680",488410,"motor vehicle towing","not in scope",FALSE
+"681",488490,"other support activities for road transportation","not in scope",FALSE
+"682",488510,"freight transportation arrangement","not in scope",FALSE
+"683",488991,"packing and crating","not in scope",FALSE
+"684",488999,"all other support activities for transportation","not in scope",FALSE
+"685",491110,"postal service","not in scope",FALSE
+"686",492110,"couriers and express delivery services","not in scope",FALSE
+"687",492210,"local messengers and local delivery","not in scope",FALSE
+"688",493110,"general warehousing and storage","not in scope",FALSE
+"689",493120,"refrigerated warehousing and storage","not in scope",FALSE
+"690",493130,"farm product warehousing and storage","not in scope",FALSE
+"691",493190,"other warehousing and storage","not in scope",FALSE
+"692",511110,"newspaper publishers","not in scope",FALSE
+"693",511120,"periodical publishers","not in scope",FALSE
+"694",511130,"book publishers","not in scope",FALSE
+"695",511140,"directory and mailing list publishers","not in scope",FALSE
+"696",511191,"greeting card publishers","not in scope",FALSE
+"697",511199,"all other publishers","not in scope",FALSE
+"698",511210,"software publishers","not in scope",FALSE
+"699",512110,"motion picture and video production","not in scope",FALSE
+"700",512120,"motion picture and video distribution","not in scope",FALSE
+"701",512131,"motion picture theaters (except drive-ins)","not in scope",FALSE
+"702",512132,"drive-in motion picture theaters","not in scope",FALSE
+"703",512191,"teleproduction and other postproduction services","not in scope",FALSE
+"704",512199,"other motion picture and video industries","not in scope",FALSE
+"705",512230,"music publishers","not in scope",FALSE
+"706",512240,"sound recording studios","not in scope",FALSE
+"707",512250,"record production and distribution","not in scope",FALSE
+"708",512290,"other sound recording industries","not in scope",FALSE
+"709",515111,"radio networks","not in scope",FALSE
+"710",515112,"radio stations","not in scope",FALSE
+"711",515120,"television broadcasting","not in scope",FALSE
+"712",515210,"cable and other subscription programming","not in scope",FALSE
+"713",517311,"wired telecommunications carriers","not in scope",FALSE
+"714",517312,"wireless telecommunications carriers (except satellite)","not in scope",FALSE
+"715",517410,"satellite telecommunications","not in scope",FALSE
+"716",517911,"telecommunications resellers","not in scope",FALSE
+"717",517919,"all other telecommunications","not in scope",FALSE
+"718",518210,"data processing, hosting, and related services","not in scope",FALSE
+"719",519110,"news syndicates","not in scope",FALSE
+"720",519120,"libraries and archives","not in scope",FALSE
+"721",519130,"internet publishing and broadcasting and web search portals","not in scope",FALSE
+"722",519190,"all other information services","not in scope",FALSE
+"723",521110,"monetary authorities-central bank","not in scope",FALSE
+"724",522110,"commercial banking","not in scope",FALSE
+"725",522120,"savings institutions","not in scope",FALSE
+"726",522130,"credit unions","not in scope",FALSE
+"727",522190,"other depository credit intermediation","not in scope",FALSE
+"728",522210,"credit card issuing","not in scope",FALSE
+"729",522220,"sales financing","not in scope",FALSE
+"730",522291,"consumer lending","not in scope",FALSE
+"731",522292,"real estate credit","not in scope",FALSE
+"732",522293,"international trade financing","not in scope",FALSE
+"733",522294,"secondary market financing","not in scope",FALSE
+"734",522298,"all other nondepository credit intermediation","not in scope",FALSE
+"735",522310,"mortgage and nonmortgage loan brokers","not in scope",FALSE
+"736",522320,"financial transactions processing, reserve, and clearinghouse activities","not in scope",FALSE
+"737",522390,"other activities related to credit intermediation","not in scope",FALSE
+"738",523110,"investment banking and securities dealing","not in scope",FALSE
+"739",523120,"securities brokerage","not in scope",FALSE
+"740",523130,"commodity contracts dealing","not in scope",FALSE
+"741",523140,"commodity contracts brokerage","not in scope",FALSE
+"742",523210,"securities and commodity exchanges","not in scope",FALSE
+"743",523910,"miscellaneous intermediation","not in scope",FALSE
+"744",523920,"portfolio management","not in scope",FALSE
+"745",523930,"investment advice","not in scope",FALSE
+"746",523991,"trust, fiduciary, and custody activities","not in scope",FALSE
+"747",523999,"miscellaneous financial investment activities","not in scope",FALSE
+"748",524113,"direct life insurance carriers","not in scope",FALSE
+"749",524114,"direct health and medical insurance carriers","not in scope",FALSE
+"750",524126,"direct property and casualty insurance carriers","not in scope",FALSE
+"751",524127,"direct title insurance carriers","not in scope",FALSE
+"752",524128,"other direct insurance (except life, health, and medical) carriers","not in scope",FALSE
+"753",524130,"reinsurance carriers","not in scope",FALSE
+"754",524210,"insurance agencies and brokerages","not in scope",FALSE
+"755",524291,"claims adjusting","not in scope",FALSE
+"756",524292,"third party administration of insurance and pension funds","not in scope",FALSE
+"757",524298,"all other insurance related activities","not in scope",FALSE
+"758",525110,"pension funds","not in scope",FALSE
+"759",525120,"health and welfare funds","not in scope",FALSE
+"760",525190,"other insurance funds","not in scope",FALSE
+"761",525910,"open-end investment funds","not in scope",FALSE
+"762",525920,"trusts, estates, and agency accounts","not in scope",FALSE
+"763",525990,"other financial vehicles","not in scope",FALSE
+"764",531110,"lessors of residential buildings and dwellings","not in scope",FALSE
+"765",531120,"lessors of nonresidential buildings (except miniwarehouses)","not in scope",FALSE
+"766",531130,"lessors of miniwarehouses and self-storage units","not in scope",FALSE
+"767",531190,"lessors of other real estate property","not in scope",FALSE
+"768",531210,"offices of real estate agents and brokers","not in scope",FALSE
+"769",531311,"residential property managers","not in scope",FALSE
+"770",531312,"nonresidential property managers","not in scope",FALSE
+"771",531320,"offices of real estate appraisers","not in scope",FALSE
+"772",531390,"other activities related to real estate","not in scope",FALSE
+"773",532111,"passenger car rental","not in scope",FALSE
+"774",532112,"passenger car leasing","not in scope",FALSE
+"775",532120,"truck, utility trailer, and rv (recreational vehicle) rental and leasing","not in scope",FALSE
+"776",532210,"consumer electronics and appliances rental","not in scope",FALSE
+"777",532281,"formal wear and costume rental","not in scope",FALSE
+"778",532282,"video tape and disc rental","not in scope",FALSE
+"779",532283,"home health equipment rental","not in scope",FALSE
+"780",532284,"recreational goods rental","not in scope",FALSE
+"781",532289,"all other consumer goods rental","not in scope",FALSE
+"782",532310,"general rental centers","not in scope",FALSE
+"783",532411,"commercial air, rail, and water transportation equipment rental and leasing","not in scope",FALSE
+"784",532412,"construction, mining, and forestry machinery and equipment rental and leasing","not in scope",FALSE
+"785",532420,"office machinery and equipment rental and leasing","not in scope",FALSE
+"786",532490,"other commercial and industrial machinery and equipment rental and leasing","not in scope",FALSE
+"787",533110,"lessors of nonfinancial intangible assets (except copyrighted works)","not in scope",FALSE
+"788",541110,"offices of lawyers","not in scope",FALSE
+"789",541120,"offices of notaries","not in scope",FALSE
+"790",541191,"title abstract and settlement offices","not in scope",FALSE
+"791",541199,"all other legal services","not in scope",FALSE
+"792",541211,"offices of certified public accountants","not in scope",FALSE
+"793",541213,"tax preparation services","not in scope",FALSE
+"794",541214,"payroll services","not in scope",FALSE
+"795",541219,"other accounting services","not in scope",FALSE
+"796",541310,"architectural services","not in scope",FALSE
+"797",541320,"landscape architectural services","not in scope",FALSE
+"798",541330,"engineering services","not in scope",FALSE
+"799",541340,"drafting services","not in scope",FALSE
+"800",541350,"building inspection services","not in scope",FALSE
+"801",541360,"geophysical surveying and mapping services","not in scope",FALSE
+"802",541370,"surveying and mapping (except geophysical) services","not in scope",FALSE
+"803",541380,"testing laboratories","not in scope",FALSE
+"804",541410,"interior design services","not in scope",FALSE
+"805",541420,"industrial design services","not in scope",FALSE
+"806",541430,"graphic design services","not in scope",FALSE
+"807",541490,"other specialized design services","not in scope",FALSE
+"808",541511,"custom computer programming services","not in scope",FALSE
+"809",541512,"computer systems design services","not in scope",FALSE
+"810",541513,"computer facilities management services","not in scope",FALSE
+"811",541519,"other computer related services","not in scope",FALSE
+"812",541611,"administrative management and general management consulting services","not in scope",FALSE
+"813",541612,"human resources consulting services","not in scope",FALSE
+"814",541613,"marketing consulting services","not in scope",FALSE
+"815",541614,"process, physical distribution, and logistics consulting services","not in scope",FALSE
+"816",541618,"other management consulting services","not in scope",FALSE
+"817",541620,"environmental consulting services","not in scope",FALSE
+"818",541690,"other scientific and technical consulting services","not in scope",FALSE
+"819",541713,"research and development in nanotechnology","not in scope",FALSE
+"820",541714,"research and development in biotechnology (except nanobiotechnology)","not in scope",FALSE
+"821",541715,"research and development in the physical, engineering, and life sciences (except nanotechnology and biotechnology)","not in scope",FALSE
+"822",541720,"research and development in the social sciences and humanities","not in scope",FALSE
+"823",541810,"advertising agencies","not in scope",FALSE
+"824",541820,"public relations agencies","not in scope",FALSE
+"825",541830,"media buying agencies","not in scope",FALSE
+"826",541840,"media representatives","not in scope",FALSE
+"827",541850,"outdoor advertising","not in scope",FALSE
+"828",541860,"direct mail advertising","not in scope",FALSE
+"829",541870,"advertising material distribution services","not in scope",FALSE
+"830",541890,"other services related to advertising","not in scope",FALSE
+"831",541910,"marketing research and public opinion polling","not in scope",FALSE
+"832",541921,"photography studios, portrait","not in scope",FALSE
+"833",541922,"commercial photography","not in scope",FALSE
+"834",541930,"translation and interpretation services","not in scope",FALSE
+"835",541940,"veterinary services","not in scope",FALSE
+"836",541990,"all other professional, scientific, and technical services","not in scope",FALSE
+"837",551111,"offices of bank holding companies","not in scope",FALSE
+"838",551112,"offices of other holding companies","not in scope",FALSE
+"839",551114,"corporate, subsidiary, and regional managing offices","not in scope",FALSE
+"840",561110,"office administrative services","not in scope",FALSE
+"841",561210,"facilities support services","not in scope",FALSE
+"842",561311,"employment placement agencies","not in scope",FALSE
+"843",561312,"executive search services","not in scope",FALSE
+"844",561320,"temporary help services","not in scope",FALSE
+"845",561330,"professional employer organizations","not in scope",FALSE
+"846",561410,"document preparation services","not in scope",FALSE
+"847",561421,"telephone answering services","not in scope",FALSE
+"848",561422,"telemarketing bureaus and other contact centers","not in scope",FALSE
+"849",561431,"private mail centers","not in scope",FALSE
+"850",561439,"other business service centers (including copy shops)","not in scope",FALSE
+"851",561440,"collection agencies","not in scope",FALSE
+"852",561450,"credit bureaus","not in scope",FALSE
+"853",561491,"repossession services","not in scope",FALSE
+"854",561492,"court reporting and stenotype services","not in scope",FALSE
+"855",561499,"all other business support services","not in scope",FALSE
+"856",561510,"travel agencies","not in scope",FALSE
+"857",561520,"tour operators","not in scope",FALSE
+"858",561591,"convention and visitors bureaus","not in scope",FALSE
+"859",561599,"all other travel arrangement and reservation services","not in scope",FALSE
+"860",561611,"investigation services","not in scope",FALSE
+"861",561612,"security guards and patrol services","not in scope",FALSE
+"862",561613,"armored car services","not in scope",FALSE
+"863",561621,"security systems services (except locksmiths)","not in scope",FALSE
+"864",561622,"locksmiths","not in scope",FALSE
+"865",561710,"exterminating and pest control services","not in scope",FALSE
+"866",561720,"janitorial services","not in scope",FALSE
+"867",561730,"landscaping services","not in scope",FALSE
+"868",561740,"carpet and upholstery cleaning services","not in scope",FALSE
+"869",561790,"other services to buildings and dwellings","not in scope",FALSE
+"870",561910,"packaging and labeling services","not in scope",FALSE
+"871",561920,"convention and trade show organizers","not in scope",FALSE
+"872",561990,"all other support services","not in scope",FALSE
+"873",562111,"solid waste collection","not in scope",FALSE
+"874",562112,"hazardous waste collection","not in scope",FALSE
+"875",562119,"other waste collection","not in scope",FALSE
+"876",562211,"hazardous waste treatment and disposal","not in scope",FALSE
+"877",562212,"solid waste landfill","not in scope",FALSE
+"878",562213,"solid waste combustors and incinerators","not in scope",FALSE
+"879",562219,"other nonhazardous waste treatment and disposal","not in scope",FALSE
+"880",562910,"remediation services","not in scope",FALSE
+"881",562920,"materials recovery facilities","not in scope",FALSE
+"882",562991,"septic tank and related services","not in scope",FALSE
+"883",562998,"all other miscellaneous waste management services","not in scope",FALSE
+"884",611110,"elementary and secondary schools","not in scope",FALSE
+"885",611210,"junior colleges","not in scope",FALSE
+"886",611310,"colleges, universities, and professional schools","not in scope",FALSE
+"887",611410,"business and secretarial schools","not in scope",FALSE
+"888",611420,"computer training","not in scope",FALSE
+"889",611430,"professional and management development training","not in scope",FALSE
+"890",611511,"cosmetology and barber schools","not in scope",FALSE
+"891",611512,"flight training","not in scope",FALSE
+"892",611513,"apprenticeship training","not in scope",FALSE
+"893",611519,"other technical and trade schools","not in scope",FALSE
+"894",611610,"fine arts schools","not in scope",FALSE
+"895",611620,"sports and recreation instruction","not in scope",FALSE
+"896",611630,"language schools","not in scope",FALSE
+"897",611691,"exam preparation and tutoring","not in scope",FALSE
+"898",611692,"automobile driving schools","not in scope",FALSE
+"899",611699,"all other miscellaneous schools and instruction","not in scope",FALSE
+"900",611710,"educational support services","not in scope",FALSE
+"901",621111,"offices of physicians (except mental health specialists)","not in scope",FALSE
+"902",621112,"offices of physicians, mental health specialists","not in scope",FALSE
+"903",621210,"offices of dentists","not in scope",FALSE
+"904",621310,"offices of chiropractors","not in scope",FALSE
+"905",621320,"offices of optometrists","not in scope",FALSE
+"906",621330,"offices of mental health practitioners (except physicians)","not in scope",FALSE
+"907",621340,"offices of physical, occupational and speech therapists, and audiologists","not in scope",FALSE
+"908",621391,"offices of podiatrists","not in scope",FALSE
+"909",621399,"offices of all other miscellaneous health practitioners","not in scope",FALSE
+"910",621410,"family planning centers","not in scope",FALSE
+"911",621420,"outpatient mental health and substance abuse centers","not in scope",FALSE
+"912",621491,"hmo medical centers","not in scope",FALSE
+"913",621492,"kidney dialysis centers","not in scope",FALSE
+"914",621493,"freestanding ambulatory surgical and emergency centers","not in scope",FALSE
+"915",621498,"all other outpatient care centers","not in scope",FALSE
+"916",621511,"medical laboratories","not in scope",FALSE
+"917",621512,"diagnostic imaging centers","not in scope",FALSE
+"918",621610,"home health care services","not in scope",FALSE
+"919",621910,"ambulance services","not in scope",FALSE
+"920",621991,"blood and organ banks","not in scope",FALSE
+"921",621999,"all other miscellaneous ambulatory health care services","not in scope",FALSE
+"922",622110,"general medical and surgical hospitals","not in scope",FALSE
+"923",622210,"psychiatric and substance abuse hospitals","not in scope",FALSE
+"924",622310,"specialty (except psychiatric and substance abuse) hospitals","not in scope",FALSE
+"925",623110,"nursing care facilities (skilled nursing facilities)","not in scope",FALSE
+"926",623210,"residential intellectual and developmental disability facilities","not in scope",FALSE
+"927",623220,"residential mental health and substance abuse facilities","not in scope",FALSE
+"928",623311,"continuing care retirement communities","not in scope",FALSE
+"929",623312,"assisted living facilities for the elderly","not in scope",FALSE
+"930",623990,"other residential care facilities","not in scope",FALSE
+"931",624110,"child and youth services","not in scope",FALSE
+"932",624120,"services for the elderly and persons with disabilities","not in scope",FALSE
+"933",624190,"other individual and family services","not in scope",FALSE
+"934",624210,"community food services","not in scope",FALSE
+"935",624221,"temporary shelters","not in scope",FALSE
+"936",624229,"other community housing services","not in scope",FALSE
+"937",624230,"emergency and other relief services","not in scope",FALSE
+"938",624310,"vocational rehabilitation services","not in scope",FALSE
+"939",624410,"child day care services","not in scope",FALSE
+"940",711110,"theater companies and dinner theaters","not in scope",FALSE
+"941",711120,"dance companies","not in scope",FALSE
+"942",711130,"musical groups and artists","not in scope",FALSE
+"943",711190,"other performing arts companies","not in scope",FALSE
+"944",711211,"sports teams and clubs","not in scope",FALSE
+"945",711212,"racetracks","not in scope",FALSE
+"946",711219,"other spectator sports","not in scope",FALSE
+"947",711310,"promoters of performing arts, sports, and similar events with facilities","not in scope",FALSE
+"948",711320,"promoters of performing arts, sports, and similar events without facilities","not in scope",FALSE
+"949",711410,"agents and managers for artists, athletes, entertainers, and other public figures","not in scope",FALSE
+"950",711510,"independent artists, writers, and performers","not in scope",FALSE
+"951",712110,"museums","not in scope",FALSE
+"952",712120,"historical sites","not in scope",FALSE
+"953",712130,"zoos and botanical gardens","not in scope",FALSE
+"954",712190,"nature parks and other similar institutions","not in scope",FALSE
+"955",713110,"amusement and theme parks","not in scope",FALSE
+"956",713120,"amusement arcades","not in scope",FALSE
+"957",713210,"casinos (except casino hotels)","not in scope",FALSE
+"958",713290,"other gambling industries","not in scope",FALSE
+"959",713910,"golf courses and country clubs","not in scope",FALSE
+"960",713920,"skiing facilities","not in scope",FALSE
+"961",713930,"marinas","not in scope",FALSE
+"962",713940,"fitness and recreational sports centers","not in scope",FALSE
+"963",713950,"bowling centers","not in scope",FALSE
+"964",713990,"all other amusement and recreation industries","not in scope",FALSE
+"965",721110,"hotels (except casino hotels) and motels","not in scope",FALSE
+"966",721120,"casino hotels","not in scope",FALSE
+"967",721191,"bed-and-breakfast inns","not in scope",FALSE
+"968",721199,"all other traveler accommodation","not in scope",FALSE
+"969",721211,"rv (recreational vehicle) parks and campgrounds","not in scope",FALSE
+"970",721214,"recreational and vacation camps (except campgrounds)","not in scope",FALSE
+"971",721310,"rooming and boarding houses, dormitories, and workers' camps","not in scope",FALSE
+"972",722310,"food service contractors","not in scope",FALSE
+"973",722320,"caterers","not in scope",FALSE
+"974",722330,"mobile food services","not in scope",FALSE
+"975",722410,"drinking places (alcoholic beverages)","not in scope",FALSE
+"976",722511,"full-service restaurants","not in scope",FALSE
+"977",722513,"limited-service restaurants","not in scope",FALSE
+"978",722514,"cafeterias, grill buffets, and buffets","not in scope",FALSE
+"979",722515,"snack and nonalcoholic beverage bars","not in scope",FALSE
+"980",811111,"general automotive repair","not in scope",FALSE
+"981",811112,"automotive exhaust system repair","not in scope",FALSE
+"982",811113,"automotive transmission repair","not in scope",FALSE
+"983",811118,"other automotive mechanical and electrical repair and maintenance","not in scope",FALSE
+"984",811121,"automotive body, paint, and interior repair and maintenance","not in scope",FALSE
+"985",811122,"automotive glass replacement shops","not in scope",FALSE
+"986",811191,"automotive oil change and lubrication shops","not in scope",FALSE
+"987",811192,"car washes","not in scope",FALSE
+"988",811198,"all other automotive repair and maintenance","not in scope",FALSE
+"989",811211,"consumer electronics repair and maintenance","not in scope",FALSE
+"990",811212,"computer and office machine repair and maintenance","not in scope",FALSE
+"991",811213,"communication equipment repair and maintenance","not in scope",FALSE
+"992",811219,"other electronic and precision equipment repair and maintenance","not in scope",FALSE
+"993",811310,"commercial and industrial machinery and equipment (except automotive and electronic) repair and maintenance","not in scope",FALSE
+"994",811411,"home and garden equipment repair and maintenance","not in scope",FALSE
+"995",811412,"appliance repair and maintenance","not in scope",FALSE
+"996",811420,"reupholstery and furniture repair","not in scope",FALSE
+"997",811430,"footwear and leather goods repair","not in scope",FALSE
+"998",811490,"other personal and household goods repair and maintenance","not in scope",FALSE
+"999",812111,"barber shops","not in scope",FALSE
+"1000",812112,"beauty salons","not in scope",FALSE
+"1001",812113,"nail salons","not in scope",FALSE
+"1002",812191,"diet and weight reducing centers","not in scope",FALSE
+"1003",812199,"other personal care services","not in scope",FALSE
+"1004",812210,"funeral homes and funeral services","not in scope",FALSE
+"1005",812220,"cemeteries and crematories","not in scope",FALSE
+"1006",812310,"coin-operated laundries and drycleaners","not in scope",FALSE
+"1007",812320,"drycleaning and laundry services (except coin-operated)","not in scope",FALSE
+"1008",812331,"linen supply","not in scope",FALSE
+"1009",812332,"industrial launderers","not in scope",FALSE
+"1010",812910,"pet care (except veterinary) services","not in scope",FALSE
+"1011",812921,"photofinishing laboratories (except one-hour)","not in scope",FALSE
+"1012",812922,"one-hour photofinishing","not in scope",FALSE
+"1013",812930,"parking lots and garages","not in scope",FALSE
+"1014",812990,"all other personal services","not in scope",FALSE
+"1015",813110,"religious organizations","not in scope",FALSE
+"1016",813211,"grantmaking foundations","not in scope",FALSE
+"1017",813212,"voluntary health organizations","not in scope",FALSE
+"1018",813219,"other grantmaking and giving services","not in scope",FALSE
+"1019",813311,"human rights organizations","not in scope",FALSE
+"1020",813312,"environment, conservation and wildlife organizations","not in scope",FALSE
+"1021",813319,"other social advocacy organizations","not in scope",FALSE
+"1022",813410,"civic and social organizations","not in scope",FALSE
+"1023",813910,"business associations","not in scope",FALSE
+"1024",813920,"professional organizations","not in scope",FALSE
+"1025",813930,"labor unions and similar labor organizations","not in scope",FALSE
+"1026",813940,"political organizations","not in scope",FALSE
+"1027",813990,"other similar organizations (except business, professional, labor, and political organizations)","not in scope",FALSE
+"1028",814110,"private households","not in scope",FALSE
+"1029",921110,"executive offices","not in scope",FALSE
+"1030",921120,"legislative bodies","not in scope",FALSE
+"1031",921130,"public finance activities","not in scope",FALSE
+"1032",921140,"executive and legislative offices, combined","not in scope",FALSE
+"1033",921150,"american indian and alaska native tribal governments","not in scope",FALSE
+"1034",921190,"other general government support","not in scope",FALSE
+"1035",922110,"courts","not in scope",FALSE
+"1036",922120,"police protection","not in scope",FALSE
+"1037",922130,"legal counsel and prosecution","not in scope",FALSE
+"1038",922140,"correctional institutions","not in scope",FALSE
+"1039",922150,"parole offices and probation offices","not in scope",FALSE
+"1040",922160,"fire protection","not in scope",FALSE
+"1041",922190,"other justice, public order, and safety activities","not in scope",FALSE
+"1042",923110,"administration of education programs","not in scope",FALSE
+"1043",923120,"administration of public health programs","not in scope",FALSE
+"1044",923130,"administration of human resource programs (except education, public health, and veterans' affairs programs)","not in scope",FALSE
+"1045",923140,"administration of veterans' affairs","not in scope",FALSE
+"1046",924110,"administration of air and water resource and solid waste management programs","not in scope",FALSE
+"1047",924120,"administration of conservation programs","not in scope",FALSE
+"1048",925110,"administration of housing programs","not in scope",FALSE
+"1049",925120,"administration of urban planning and community and rural development","not in scope",FALSE
+"1050",926110,"administration of general economic programs","not in scope",FALSE
+"1051",926120,"regulation and administration of transportation programs","not in scope",FALSE
+"1052",926130,"regulation and administration of communications, electric, gas, and other utilities","not in scope",FALSE
+"1053",926140,"regulation of agricultural marketing and commodities","not in scope",FALSE
+"1054",926150,"regulation, licensing, and inspection of miscellaneous commercial sectors","not in scope",FALSE
+"1055",927110,"space research and technology","not in scope",FALSE
+"1056",928110,"national security","not in scope",FALSE
+"1057",928120,"international affairs","not in scope",FALSE
+"1058",336111,"automobile manufacturing","hdv",FALSE
+"1059",336112,"light truck and utility vehicle manufacturing","hdv",FALSE

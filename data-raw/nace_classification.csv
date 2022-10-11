@@ -1,997 +1,1993 @@
-original_code,code,code_level,sector,borderline
-A,A,1,not in scope,FALSE
-1,10,2,not in scope,FALSE
-1.1,110,3,not in scope,FALSE
-1.11,1110,4,not in scope,FALSE
-1.12,1120,4,not in scope,FALSE
-1.13,1130,4,not in scope,FALSE
-1.14,1140,4,not in scope,FALSE
-1.15,1150,4,not in scope,FALSE
-1.16,1160,4,not in scope,FALSE
-1.19,1190,4,not in scope,FALSE
-1.2,120,3,not in scope,FALSE
-1.21,1210,4,not in scope,FALSE
-1.22,1220,4,not in scope,FALSE
-1.23,1230,4,not in scope,FALSE
-1.24,1240,4,not in scope,FALSE
-1.25,1250,4,not in scope,FALSE
-1.26,1260,4,not in scope,FALSE
-1.27,1270,4,not in scope,FALSE
-1.28,1280,4,not in scope,FALSE
-1.29,1290,4,not in scope,FALSE
-1.3,130,3,not in scope,FALSE
-1.3,1300,4,not in scope,FALSE
-1.4,140,3,not in scope,FALSE
-1.41,1410,4,not in scope,FALSE
-1.42,1420,4,not in scope,FALSE
-1.43,1430,4,not in scope,FALSE
-1.44,1440,4,not in scope,FALSE
-1.45,1450,4,not in scope,FALSE
-1.46,1460,4,not in scope,FALSE
-1.47,1470,4,not in scope,FALSE
-1.49,1490,4,not in scope,FALSE
-1.5,150,3,not in scope,FALSE
-1.5,1500,4,not in scope,FALSE
-1.6,160,3,not in scope,FALSE
-1.61,1610,4,not in scope,FALSE
-1.62,1620,4,not in scope,FALSE
-1.63,1630,4,not in scope,FALSE
-1.64,1640,4,not in scope,FALSE
-1.7,170,3,not in scope,FALSE
-1.7,1700,4,not in scope,FALSE
-2,20,2,not in scope,FALSE
-2.1,210,3,not in scope,FALSE
-2.1,2100,4,not in scope,FALSE
-2.2,220,3,not in scope,FALSE
-2.2,2200,4,not in scope,FALSE
-2.3,230,3,not in scope,FALSE
-2.3,2300,4,not in scope,FALSE
-2.4,240,3,not in scope,FALSE
-2.4,2400,4,not in scope,FALSE
-3,30,2,not in scope,FALSE
-3.1,310,3,not in scope,FALSE
-3.11,3110,4,not in scope,FALSE
-3.12,3120,4,not in scope,FALSE
-3.2,320,3,not in scope,FALSE
-3.21,3210,4,not in scope,FALSE
-3.22,3220,4,not in scope,FALSE
-B,B,1,not in scope,FALSE
-5,50,2,coal,FALSE
-5.1,510,3,coal,FALSE
-5.1,5100,4,coal,FALSE
-5.2,520,3,coal,FALSE
-5.2,5200,4,coal,FALSE
-6,60,2,oil and gas,FALSE
-6.1,610,3,oil and gas,FALSE
-6.1,6100,4,oil and gas,FALSE
-6.2,620,3,oil and gas,FALSE
-6.2,6200,4,oil and gas,FALSE
-7,70,2,not in scope,FALSE
-7.1,710,3,not in scope,FALSE
-7.1,7100,4,not in scope,FALSE
-7.2,720,3,not in scope,FALSE
-7.21,7210,4,not in scope,FALSE
-7.29,7290,4,not in scope,FALSE
-8,80,2,not in scope,FALSE
-8.1,810,3,not in scope,FALSE
-8.11,8110,4,not in scope,FALSE
-8.12,8120,4,not in scope,FALSE
-8.9,890,3,not in scope,FALSE
-8.91,8910,4,not in scope,FALSE
-8.92,8920,4,not in scope,FALSE
-8.93,8930,4,not in scope,FALSE
-8.99,8990,4,not in scope,FALSE
-9,90,2,not in scope,FALSE
-9.1,910,3,oil and gas,TRUE
-9.1,9100,4,oil and gas,TRUE
-9.9,990,3,not in scope,FALSE
-9.9,9900,4,not in scope,FALSE
-C,C,1,not in scope,FALSE
-10,10,2,not in scope,FALSE
-10.1,101,3,not in scope,FALSE
-10.11,1011,4,not in scope,FALSE
-10.12,1012,4,not in scope,FALSE
-10.13,1013,4,not in scope,FALSE
-10.2,102,3,not in scope,FALSE
-10.2,1020,4,not in scope,FALSE
-10.3,103,3,not in scope,FALSE
-10.31,1031,4,not in scope,FALSE
-10.32,1032,4,not in scope,FALSE
-10.39,1039,4,not in scope,FALSE
-10.4,104,3,not in scope,FALSE
-10.41,1041,4,not in scope,FALSE
-10.42,1042,4,not in scope,FALSE
-10.5,105,3,not in scope,FALSE
-10.51,1051,4,not in scope,FALSE
-10.52,1052,4,not in scope,FALSE
-10.6,106,3,not in scope,FALSE
-10.61,1061,4,not in scope,FALSE
-10.62,1062,4,not in scope,FALSE
-10.7,107,3,not in scope,FALSE
-10.71,1071,4,not in scope,FALSE
-10.72,1072,4,not in scope,FALSE
-10.73,1073,4,not in scope,FALSE
-10.8,108,3,not in scope,FALSE
-10.81,1081,4,not in scope,FALSE
-10.82,1082,4,not in scope,FALSE
-10.83,1083,4,not in scope,FALSE
-10.84,1084,4,not in scope,FALSE
-10.85,1085,4,not in scope,FALSE
-10.86,1086,4,not in scope,FALSE
-10.89,1089,4,not in scope,FALSE
-10.9,109,3,not in scope,FALSE
-10.91,1091,4,not in scope,FALSE
-10.92,1092,4,not in scope,FALSE
-11,11,2,not in scope,FALSE
-11,110,3,not in scope,FALSE
-11.01,1101,4,not in scope,FALSE
-11.02,1102,4,not in scope,FALSE
-11.03,1103,4,not in scope,FALSE
-11.04,1104,4,not in scope,FALSE
-11.05,1105,4,not in scope,FALSE
-11.06,1106,4,not in scope,FALSE
-11.07,1107,4,not in scope,FALSE
-12,12,2,not in scope,FALSE
-12,120,3,not in scope,FALSE
-12,1200,4,not in scope,FALSE
-13,13,2,not in scope,FALSE
-13.1,131,3,not in scope,FALSE
-13.1,1310,4,not in scope,FALSE
-13.2,132,3,not in scope,FALSE
-13.2,1320,4,not in scope,FALSE
-13.3,133,3,not in scope,FALSE
-13.3,1330,4,not in scope,FALSE
-13.9,139,3,not in scope,FALSE
-13.91,1391,4,not in scope,FALSE
-13.92,1392,4,not in scope,FALSE
-13.93,1393,4,not in scope,FALSE
-13.94,1394,4,not in scope,FALSE
-13.95,1395,4,not in scope,FALSE
-13.96,1396,4,not in scope,FALSE
-13.99,1399,4,not in scope,FALSE
-14,14,2,not in scope,FALSE
-14.1,141,3,not in scope,FALSE
-14.11,1411,4,not in scope,FALSE
-14.12,1412,4,not in scope,FALSE
-14.13,1413,4,not in scope,FALSE
-14.14,1414,4,not in scope,FALSE
-14.19,1419,4,not in scope,FALSE
-14.2,142,3,not in scope,FALSE
-14.2,1420,4,not in scope,FALSE
-14.3,143,3,not in scope,FALSE
-14.31,1431,4,not in scope,FALSE
-14.39,1439,4,not in scope,FALSE
-15,15,2,not in scope,FALSE
-15.1,151,3,not in scope,FALSE
-15.11,1511,4,not in scope,FALSE
-15.12,1512,4,not in scope,FALSE
-15.2,152,3,not in scope,FALSE
-15.2,1520,4,not in scope,FALSE
-16,16,2,not in scope,FALSE
-16.1,161,3,not in scope,FALSE
-16.1,1610,4,not in scope,FALSE
-16.2,162,3,not in scope,FALSE
-16.21,1621,4,not in scope,FALSE
-16.22,1622,4,not in scope,FALSE
-16.23,1623,4,not in scope,FALSE
-16.24,1624,4,not in scope,FALSE
-16.29,1629,4,not in scope,FALSE
-17,17,2,not in scope,FALSE
-17.1,171,3,not in scope,FALSE
-17.11,1711,4,not in scope,FALSE
-17.12,1712,4,not in scope,FALSE
-17.2,172,3,not in scope,FALSE
-17.21,1721,4,not in scope,FALSE
-17.22,1722,4,not in scope,FALSE
-17.23,1723,4,not in scope,FALSE
-17.24,1724,4,not in scope,FALSE
-17.29,1729,4,not in scope,FALSE
-18,18,2,not in scope,FALSE
-18.1,181,3,not in scope,FALSE
-18.11,1811,4,not in scope,FALSE
-18.12,1812,4,not in scope,FALSE
-18.13,1813,4,not in scope,FALSE
-18.14,1814,4,not in scope,FALSE
-18.2,182,3,not in scope,FALSE
-18.2,1820,4,not in scope,FALSE
-19,19,2,not in scope,FALSE
-19.1,191,3,not in scope,FALSE
-19.1,1910,4,not in scope,FALSE
-19.2,192,3,not in scope,FALSE
-19.2,1920,4,not in scope,FALSE
-20,20,2,not in scope,FALSE
-20.1,201,3,not in scope,FALSE
-20.11,2011,4,not in scope,FALSE
-20.12,2012,4,not in scope,FALSE
-20.13,2013,4,not in scope,FALSE
-20.14,2014,4,not in scope,FALSE
-20.15,2015,4,not in scope,FALSE
-20.16,2016,4,not in scope,FALSE
-20.17,2017,4,not in scope,FALSE
-20.2,202,3,not in scope,FALSE
-20.2,2020,4,not in scope,FALSE
-20.3,203,3,not in scope,FALSE
-20.3,2030,4,not in scope,FALSE
-20.4,204,3,not in scope,FALSE
-20.41,2041,4,not in scope,FALSE
-20.42,2042,4,not in scope,FALSE
-20.5,205,3,not in scope,FALSE
-20.51,2051,4,not in scope,FALSE
-20.52,2052,4,not in scope,FALSE
-20.53,2053,4,not in scope,FALSE
-20.59,2059,4,not in scope,FALSE
-20.6,206,3,not in scope,FALSE
-20.6,2060,4,not in scope,FALSE
-21,21,2,not in scope,FALSE
-21.1,211,3,not in scope,FALSE
-21.1,2110,4,not in scope,FALSE
-21.2,212,3,not in scope,FALSE
-21.2,2120,4,not in scope,FALSE
-22,22,2,not in scope,FALSE
-22.1,221,3,not in scope,FALSE
-22.11,2211,4,not in scope,FALSE
-22.19,2219,4,not in scope,FALSE
-22.2,222,3,not in scope,FALSE
-22.21,2221,4,not in scope,FALSE
-22.22,2222,4,not in scope,FALSE
-22.23,2223,4,not in scope,FALSE
-22.29,2229,4,not in scope,FALSE
-23,23,2,not in scope,FALSE
-23.1,231,3,not in scope,FALSE
-23.11,2311,4,not in scope,FALSE
-23.12,2312,4,not in scope,FALSE
-23.13,2313,4,not in scope,FALSE
-23.14,2314,4,not in scope,FALSE
-23.19,2319,4,not in scope,FALSE
-23.2,232,3,not in scope,FALSE
-23.2,2320,4,not in scope,FALSE
-23.3,233,3,not in scope,FALSE
-23.31,2331,4,not in scope,FALSE
-23.32,2332,4,not in scope,FALSE
-23.4,234,3,not in scope,FALSE
-23.41,2341,4,not in scope,FALSE
-23.42,2342,4,not in scope,FALSE
-23.43,2343,4,not in scope,FALSE
-23.44,2344,4,not in scope,FALSE
-23.49,2349,4,not in scope,FALSE
-23.5,235,3,cement,FALSE
-23.51,2351,4,cement,FALSE
-23.52,2352,4,cement,TRUE
-23.6,236,3,cement,TRUE
-23.61,2361,4,cement,TRUE
-23.62,2362,4,not in scope,FALSE
-23.63,2363,4,not in scope,FALSE
-23.64,2364,4,not in scope,FALSE
-23.65,2365,4,cement,TRUE
-23.69,2369,4,cement,TRUE
-23.7,237,3,not in scope,FALSE
-23.7,2370,4,not in scope,FALSE
-23.9,239,3,not in scope,FALSE
-23.91,2391,4,not in scope,FALSE
-23.99,2399,4,not in scope,FALSE
-24,24,2,steel,TRUE
-24.1,241,3,steel,FALSE
-24.1,2410,4,steel,FALSE
-24.2,242,3,steel,TRUE
-24.2,2420,4,steel,TRUE
-24.3,243,3,steel,TRUE
-24.31,2431,4,steel,TRUE
-24.32,2432,4,steel,TRUE
-24.33,2433,4,steel,TRUE
-24.34,2434,4,steel,TRUE
-24.4,244,3,not in scope,FALSE
-24.41,2441,4,not in scope,FALSE
-24.42,2442,4,not in scope,FALSE
-24.43,2443,4,not in scope,FALSE
-24.44,2444,4,not in scope,FALSE
-24.45,2445,4,not in scope,FALSE
-24.46,2446,4,not in scope,FALSE
-24.5,245,3,not in scope,FALSE
-24.51,2451,4,not in scope,FALSE
-24.52,2452,4,steel,TRUE
-24.53,2453,4,not in scope,FALSE
-24.54,2454,4,not in scope,FALSE
-25,25,2,not in scope,FALSE
-25.1,251,3,not in scope,FALSE
-25.11,2511,4,not in scope,FALSE
-25.12,2512,4,not in scope,FALSE
-25.2,252,3,not in scope,FALSE
-25.21,2521,4,not in scope,FALSE
-25.29,2529,4,not in scope,FALSE
-25.3,253,3,not in scope,FALSE
-25.3,2530,4,not in scope,FALSE
-25.4,254,3,not in scope,FALSE
-25.4,2540,4,not in scope,FALSE
-25.5,255,3,not in scope,FALSE
-25.5,2550,4,not in scope,FALSE
-25.6,256,3,not in scope,FALSE
-25.61,2561,4,not in scope,FALSE
-25.62,2562,4,not in scope,FALSE
-25.7,257,3,not in scope,FALSE
-25.71,2571,4,not in scope,FALSE
-25.72,2572,4,not in scope,FALSE
-25.73,2573,4,not in scope,FALSE
-25.9,259,3,not in scope,FALSE
-25.91,2591,4,not in scope,FALSE
-25.92,2592,4,not in scope,FALSE
-25.93,2593,4,not in scope,FALSE
-25.94,2594,4,not in scope,FALSE
-25.99,2599,4,not in scope,FALSE
-26,26,2,not in scope,FALSE
-26.1,261,3,not in scope,FALSE
-26.11,2611,4,not in scope,FALSE
-26.12,2612,4,not in scope,FALSE
-26.2,262,3,not in scope,FALSE
-26.2,2620,4,not in scope,FALSE
-26.3,263,3,not in scope,FALSE
-26.3,2630,4,not in scope,FALSE
-26.4,264,3,not in scope,FALSE
-26.4,2640,4,not in scope,FALSE
-26.5,265,3,not in scope,FALSE
-26.51,2651,4,not in scope,FALSE
-26.52,2652,4,not in scope,FALSE
-26.6,266,3,not in scope,FALSE
-26.6,2660,4,not in scope,FALSE
-26.7,267,3,not in scope,FALSE
-26.7,2670,4,not in scope,FALSE
-26.8,268,3,not in scope,FALSE
-26.8,2680,4,not in scope,FALSE
-27,27,2,not in scope,FALSE
-27.1,271,3,not in scope,FALSE
-27.11,2711,4,not in scope,FALSE
-27.12,2712,4,not in scope,FALSE
-27.2,272,3,not in scope,FALSE
-27.2,2720,4,not in scope,FALSE
-27.3,273,3,not in scope,FALSE
-27.31,2731,4,not in scope,FALSE
-27.32,2732,4,not in scope,FALSE
-27.33,2733,4,not in scope,FALSE
-27.4,274,3,not in scope,FALSE
-27.4,2740,4,not in scope,FALSE
-27.5,275,3,not in scope,FALSE
-27.51,2751,4,not in scope,FALSE
-27.52,2752,4,not in scope,FALSE
-27.9,279,3,not in scope,FALSE
-27.9,2790,4,not in scope,FALSE
-28,28,2,not in scope,FALSE
-28.1,281,3,not in scope,FALSE
-28.11,2811,4,not in scope,FALSE
-28.12,2812,4,not in scope,FALSE
-28.13,2813,4,not in scope,FALSE
-28.14,2814,4,not in scope,FALSE
-28.15,2815,4,not in scope,FALSE
-28.2,282,3,not in scope,FALSE
-28.21,2821,4,not in scope,FALSE
-28.22,2822,4,not in scope,FALSE
-28.23,2823,4,not in scope,FALSE
-28.24,2824,4,not in scope,FALSE
-28.25,2825,4,not in scope,FALSE
-28.29,2829,4,not in scope,FALSE
-28.3,283,3,not in scope,FALSE
-28.3,2830,4,not in scope,FALSE
-28.4,284,3,not in scope,FALSE
-28.41,2841,4,not in scope,FALSE
-28.49,2849,4,not in scope,FALSE
-28.9,289,3,not in scope,FALSE
-28.91,2891,4,not in scope,FALSE
-28.92,2892,4,not in scope,FALSE
-28.93,2893,4,not in scope,FALSE
-28.94,2894,4,not in scope,FALSE
-28.95,2895,4,not in scope,FALSE
-28.96,2896,4,not in scope,FALSE
-28.99,2899,4,not in scope,FALSE
-29,29,2,not in scope,FALSE
-29.1,291,3,not in scope,FALSE
-29.2,292,3,not in scope,FALSE
-29.3,293,3,not in scope,FALSE
-29.10,2910,4,automotive,FALSE
-29.20,2920,4,automotive,TRUE
-29.31,2931,4,not in scope,FALSE
-29.32,2932,4,automotive,TRUE
-30,30,2,not in scope,FALSE
-30.1,301,3,shipping,FALSE
-30.11,3011,4,shipping,FALSE
-30.12,3012,4,not in scope,FALSE
-30.2,302,3,not in scope,FALSE
-30.2,3020,4,not in scope,FALSE
-30.3,303,3,aviation,TRUE
-30.3,3030,4,aviation,TRUE
-30.4,304,3,not in scope,FALSE
-30.4,3040,4,not in scope,FALSE
-30.9,309,3,not in scope,FALSE
-30.91,3091,4,not in scope,FALSE
-30.92,3092,4,not in scope,FALSE
-30.99,3099,4,not in scope,FALSE
-31,31,2,not in scope,FALSE
-31,310,3,not in scope,FALSE
-31.01,3101,4,not in scope,FALSE
-31.02,3102,4,not in scope,FALSE
-31.03,3103,4,not in scope,FALSE
-31.09,3109,4,not in scope,FALSE
-32,32,2,not in scope,FALSE
-32.1,321,3,not in scope,FALSE
-32.11,3211,4,not in scope,FALSE
-32.12,3212,4,not in scope,FALSE
-32.13,3213,4,not in scope,FALSE
-32.2,322,3,not in scope,FALSE
-32.2,3220,4,not in scope,FALSE
-32.3,323,3,not in scope,FALSE
-32.3,3230,4,not in scope,FALSE
-32.4,324,3,not in scope,FALSE
-32.4,3240,4,not in scope,FALSE
-32.5,325,3,not in scope,FALSE
-32.5,3250,4,not in scope,FALSE
-32.9,329,3,not in scope,FALSE
-32.91,3291,4,not in scope,FALSE
-32.99,3299,4,not in scope,FALSE
-33,33,2,not in scope,FALSE
-33.1,331,3,not in scope,FALSE
-33.11,3311,4,not in scope,FALSE
-33.12,3312,4,not in scope,FALSE
-33.13,3313,4,not in scope,FALSE
-33.14,3314,4,not in scope,FALSE
-33.15,3315,4,not in scope,FALSE
-33.16,3316,4,not in scope,FALSE
-33.17,3317,4,not in scope,FALSE
-33.19,3319,4,not in scope,FALSE
-33.2,332,3,not in scope,FALSE
-33.2,3320,4,not in scope,FALSE
-D,D,1,not in scope,FALSE
-35,35,2,NA,NA
-35.1,351,3,power,FALSE
-35.11,3511,4,power,FALSE
-35.12,3512,4,power,TRUE
-35.13,3513,4,power,TRUE
-35.14,3514,4,power,TRUE
-35.2,352,3,oil and gas,TRUE
-35.21,3521,4,oil and gas,TRUE
-35.22,3522,4,oil and gas,TRUE
-35.23,3523,4,oil and gas,TRUE
-35.3,353,3,not in scope,FALSE
-35.3,3530,4,not in scope,FALSE
-E,E,1,not in scope,FALSE
-36,36,2,not in scope,FALSE
-36,360,3,not in scope,FALSE
-36,3600,4,not in scope,FALSE
-37,37,2,not in scope,FALSE
-37,370,3,not in scope,FALSE
-37,3700,4,not in scope,FALSE
-38,38,2,not in scope,FALSE
-38.1,381,3,not in scope,FALSE
-38.11,3811,4,not in scope,FALSE
-38.12,3812,4,not in scope,FALSE
-38.2,382,3,not in scope,FALSE
-38.21,3821,4,not in scope,FALSE
-38.22,3822,4,not in scope,FALSE
-38.3,383,3,not in scope,FALSE
-38.31,3831,4,not in scope,FALSE
-38.32,3832,4,not in scope,FALSE
-39,39,2,not in scope,FALSE
-39,390,3,not in scope,FALSE
-39,3900,4,not in scope,FALSE
-F,F,1,not in scope,FALSE
-41,41,2,not in scope,FALSE
-41.1,411,3,not in scope,FALSE
-41.1,4110,4,not in scope,FALSE
-41.2,412,3,not in scope,FALSE
-41.2,4120,4,not in scope,FALSE
-42,42,2,not in scope,FALSE
-42.1,421,3,not in scope,FALSE
-42.11,4211,4,not in scope,FALSE
-42.12,4212,4,not in scope,FALSE
-42.13,4213,4,not in scope,FALSE
-42.2,422,3,not in scope,FALSE
-42.21,4221,4,not in scope,FALSE
-42.22,4222,4,not in scope,FALSE
-42.9,429,3,not in scope,FALSE
-42.91,4291,4,not in scope,FALSE
-42.99,4299,4,not in scope,FALSE
-43,43,2,not in scope,FALSE
-43.1,431,3,not in scope,FALSE
-43.11,4311,4,not in scope,FALSE
-43.12,4312,4,not in scope,FALSE
-43.13,4313,4,not in scope,FALSE
-43.2,432,3,not in scope,FALSE
-43.21,4321,4,not in scope,FALSE
-43.22,4322,4,not in scope,FALSE
-43.29,4329,4,not in scope,FALSE
-43.3,433,3,not in scope,FALSE
-43.31,4331,4,not in scope,FALSE
-43.32,4332,4,not in scope,FALSE
-43.33,4333,4,not in scope,FALSE
-43.34,4334,4,not in scope,FALSE
-43.39,4339,4,not in scope,FALSE
-43.9,439,3,not in scope,FALSE
-43.91,4391,4,not in scope,FALSE
-43.99,4399,4,not in scope,FALSE
-G,G,1,not in scope,FALSE
-45,45,2,not in scope,FALSE
-45.1,451,3,automotive,TRUE
-45.11,4511,4,automotive,TRUE
-45.19,4519,4,automotive,TRUE
-45.2,452,3,not in scope,FALSE
-45.2,4520,4,not in scope,FALSE
-45.3,453,3,not in scope,FALSE
-45.31,4531,4,not in scope,FALSE
-45.32,4532,4,not in scope,FALSE
-45.4,454,3,not in scope,FALSE
-45.4,4540,4,not in scope,FALSE
-46,46,2,not in scope,FALSE
-46.1,461,3,not in scope,FALSE
-46.11,4611,4,not in scope,FALSE
-46.12,4612,4,not in scope,FALSE
-46.13,4613,4,not in scope,FALSE
-46.14,4614,4,not in scope,FALSE
-46.15,4615,4,not in scope,FALSE
-46.16,4616,4,not in scope,FALSE
-46.17,4617,4,not in scope,FALSE
-46.18,4618,4,not in scope,FALSE
-46.19,4619,4,not in scope,FALSE
-46.2,462,3,not in scope,FALSE
-46.21,4621,4,not in scope,FALSE
-46.22,4622,4,not in scope,FALSE
-46.23,4623,4,not in scope,FALSE
-46.24,4624,4,not in scope,FALSE
-46.3,463,3,not in scope,FALSE
-46.31,4631,4,not in scope,FALSE
-46.32,4632,4,not in scope,FALSE
-46.33,4633,4,not in scope,FALSE
-46.34,4634,4,not in scope,FALSE
-46.35,4635,4,not in scope,FALSE
-46.36,4636,4,not in scope,FALSE
-46.37,4637,4,not in scope,FALSE
-46.38,4638,4,not in scope,FALSE
-46.39,4639,4,not in scope,FALSE
-46.4,464,3,not in scope,FALSE
-46.41,4641,4,not in scope,FALSE
-46.42,4642,4,not in scope,FALSE
-46.43,4643,4,not in scope,FALSE
-46.44,4644,4,not in scope,FALSE
-46.45,4645,4,not in scope,FALSE
-46.46,4646,4,not in scope,FALSE
-46.47,4647,4,not in scope,FALSE
-46.48,4648,4,not in scope,FALSE
-46.49,4649,4,not in scope,FALSE
-46.5,465,3,not in scope,FALSE
-46.51,4651,4,not in scope,FALSE
-46.52,4652,4,not in scope,FALSE
-46.6,466,3,not in scope,FALSE
-46.61,4661,4,not in scope,FALSE
-46.62,4662,4,not in scope,FALSE
-46.63,4663,4,not in scope,FALSE
-46.64,4664,4,not in scope,FALSE
-46.65,4665,4,not in scope,FALSE
-46.66,4666,4,not in scope,FALSE
-46.69,4669,4,not in scope,FALSE
-46.7,467,3,not in scope,FALSE
-46.71,4671,4,not in scope,FALSE
-46.72,4672,4,not in scope,FALSE
-46.73,4673,4,not in scope,FALSE
-46.74,4674,4,not in scope,FALSE
-46.75,4675,4,not in scope,FALSE
-46.76,4676,4,not in scope,FALSE
-46.77,4677,4,not in scope,FALSE
-46.9,469,3,not in scope,FALSE
-46.9,4690,4,not in scope,FALSE
-47,47,2,not in scope,FALSE
-47.1,471,3,not in scope,FALSE
-47.11,4711,4,not in scope,FALSE
-47.19,4719,4,not in scope,FALSE
-47.2,472,3,not in scope,FALSE
-47.21,4721,4,not in scope,FALSE
-47.22,4722,4,not in scope,FALSE
-47.23,4723,4,not in scope,FALSE
-47.24,4724,4,not in scope,FALSE
-47.25,4725,4,not in scope,FALSE
-47.26,4726,4,not in scope,FALSE
-47.29,4729,4,not in scope,FALSE
-47.3,473,3,not in scope,FALSE
-47.3,4730,4,not in scope,FALSE
-47.4,474,3,not in scope,FALSE
-47.41,4741,4,not in scope,FALSE
-47.42,4742,4,not in scope,FALSE
-47.43,4743,4,not in scope,FALSE
-47.5,475,3,not in scope,FALSE
-47.51,4751,4,not in scope,FALSE
-47.52,4752,4,not in scope,FALSE
-47.53,4753,4,not in scope,FALSE
-47.54,4754,4,not in scope,FALSE
-47.59,4759,4,not in scope,FALSE
-47.6,476,3,not in scope,FALSE
-47.61,4761,4,not in scope,FALSE
-47.62,4762,4,not in scope,FALSE
-47.63,4763,4,not in scope,FALSE
-47.64,4764,4,not in scope,FALSE
-47.65,4765,4,not in scope,FALSE
-47.7,477,3,not in scope,FALSE
-47.71,4771,4,not in scope,FALSE
-47.72,4772,4,not in scope,FALSE
-47.73,4773,4,not in scope,FALSE
-47.74,4774,4,not in scope,FALSE
-47.75,4775,4,not in scope,FALSE
-47.76,4776,4,not in scope,FALSE
-47.77,4777,4,not in scope,FALSE
-47.78,4778,4,not in scope,FALSE
-47.79,4779,4,not in scope,FALSE
-47.8,478,3,not in scope,FALSE
-47.81,4781,4,not in scope,FALSE
-47.82,4782,4,not in scope,FALSE
-47.89,4789,4,not in scope,FALSE
-47.9,479,3,not in scope,FALSE
-47.91,4791,4,not in scope,FALSE
-47.99,4799,4,not in scope,FALSE
-H,H,1,not in scope,FALSE
-49,49,2,not in scope,FALSE
-49.1,491,3,not in scope,FALSE
-49.1,4910,4,not in scope,FALSE
-49.2,492,3,not in scope,FALSE
-49.2,4920,4,not in scope,FALSE
-49.3,493,3,not in scope,FALSE
-49.31,4931,4,not in scope,FALSE
-49.32,4932,4,not in scope,FALSE
-49.39,4939,4,not in scope,FALSE
-49.4,494,3,not in scope,FALSE
-49.41,4941,4,not in scope,FALSE
-49.42,4942,4,not in scope,FALSE
-49.5,495,3,not in scope,FALSE
-49.5,4950,4,not in scope,FALSE
-50,50,2,shipping,FALSE
-50.1,501,3,shipping,FALSE
-50.1,5010,4,shipping,FALSE
-50.2,502,3,shipping,FALSE
-50.2,5020,4,shipping,FALSE
-50.3,503,3,shipping,FALSE
-50.3,5030,4,shipping,FALSE
-50.4,504,3,shipping,FALSE
-50.4,5040,4,shipping,FALSE
-51,51,2,aviation,FALSE
-51.1,511,3,aviation,FALSE
-51.1,5110,4,aviation,FALSE
-51.2,512,3,aviation,TRUE
-51.21,5121,4,aviation,TRUE
-51.22,5122,4,not in scope,FALSE
-52,52,2,not in scope,FALSE
-52.1,521,3,not in scope,FALSE
-52.1,5210,4,not in scope,FALSE
-52.2,522,3,not in scope,FALSE
-52.21,5221,4,not in scope,FALSE
-52.22,5222,4,not in scope,FALSE
-52.23,5223,4,not in scope,FALSE
-52.24,5224,4,not in scope,FALSE
-52.29,5229,4,not in scope,FALSE
-53,53,2,not in scope,FALSE
-53.1,531,3,not in scope,FALSE
-53.1,5310,4,not in scope,FALSE
-53.2,532,3,not in scope,FALSE
-53.2,5320,4,not in scope,FALSE
-I,I,1,not in scope,FALSE
-55,55,2,not in scope,FALSE
-55.1,551,3,not in scope,FALSE
-55.1,5510,4,not in scope,FALSE
-55.2,552,3,not in scope,FALSE
-55.2,5520,4,not in scope,FALSE
-55.3,553,3,not in scope,FALSE
-55.3,5530,4,not in scope,FALSE
-55.9,559,3,not in scope,FALSE
-55.9,5590,4,not in scope,FALSE
-56,56,2,not in scope,FALSE
-56.1,561,3,not in scope,FALSE
-56.1,5610,4,not in scope,FALSE
-56.2,562,3,not in scope,FALSE
-56.21,5621,4,not in scope,FALSE
-56.29,5629,4,not in scope,FALSE
-56.3,563,3,not in scope,FALSE
-56.3,5630,4,not in scope,FALSE
-J,J,1,not in scope,FALSE
-58,58,2,not in scope,FALSE
-58.1,581,3,not in scope,FALSE
-58.11,5811,4,not in scope,FALSE
-58.12,5812,4,not in scope,FALSE
-58.13,5813,4,not in scope,FALSE
-58.14,5814,4,not in scope,FALSE
-58.19,5819,4,not in scope,FALSE
-58.2,582,3,not in scope,FALSE
-58.21,5821,4,not in scope,FALSE
-58.29,5829,4,not in scope,FALSE
-59,59,2,not in scope,FALSE
-59.1,591,3,not in scope,FALSE
-59.11,5911,4,not in scope,FALSE
-59.12,5912,4,not in scope,FALSE
-59.13,5913,4,not in scope,FALSE
-59.14,5914,4,not in scope,FALSE
-59.2,592,3,not in scope,FALSE
-59.2,5920,4,not in scope,FALSE
-60,60,2,not in scope,FALSE
-60.1,601,3,not in scope,FALSE
-60.1,6010,4,not in scope,FALSE
-60.2,602,3,not in scope,FALSE
-60.2,6020,4,not in scope,FALSE
-61,61,2,not in scope,FALSE
-61.1,611,3,not in scope,FALSE
-61.1,6110,4,not in scope,FALSE
-61.2,612,3,not in scope,FALSE
-61.2,6120,4,not in scope,FALSE
-61.3,613,3,not in scope,FALSE
-61.3,6130,4,not in scope,FALSE
-61.9,619,3,not in scope,FALSE
-61.9,6190,4,not in scope,FALSE
-62,62,2,not in scope,FALSE
-62,620,3,not in scope,FALSE
-62.01,6201,4,not in scope,FALSE
-62.02,6202,4,not in scope,FALSE
-62.03,6203,4,not in scope,FALSE
-62.09,6209,4,not in scope,FALSE
-63,63,2,not in scope,FALSE
-63.1,631,3,not in scope,FALSE
-63.11,6311,4,not in scope,FALSE
-63.12,6312,4,not in scope,FALSE
-63.9,639,3,not in scope,FALSE
-63.91,6391,4,not in scope,FALSE
-63.99,6399,4,not in scope,FALSE
-K,K,1,not in scope,FALSE
-64,64,2,not in scope,FALSE
-64.1,641,3,not in scope,FALSE
-64.11,6411,4,not in scope,FALSE
-64.19,6419,4,not in scope,FALSE
-64.2,642,3,not in scope,FALSE
-64.2,6420,4,not in scope,FALSE
-64.3,643,3,not in scope,FALSE
-64.3,6430,4,not in scope,FALSE
-64.9,649,3,not in scope,FALSE
-64.91,6491,4,not in scope,FALSE
-64.92,6492,4,not in scope,FALSE
-64.99,6499,4,not in scope,FALSE
-65,65,2,not in scope,FALSE
-65.1,651,3,not in scope,FALSE
-65.11,6511,4,not in scope,FALSE
-65.12,6512,4,not in scope,FALSE
-65.2,652,3,not in scope,FALSE
-65.2,6520,4,not in scope,FALSE
-65.3,653,3,not in scope,FALSE
-65.3,6530,4,not in scope,FALSE
-66,66,2,not in scope,FALSE
-66.1,661,3,not in scope,FALSE
-66.11,6611,4,not in scope,FALSE
-66.12,6612,4,not in scope,FALSE
-66.19,6619,4,not in scope,FALSE
-66.2,662,3,not in scope,FALSE
-66.21,6621,4,not in scope,FALSE
-66.22,6622,4,not in scope,FALSE
-66.29,6629,4,not in scope,FALSE
-66.3,663,3,not in scope,FALSE
-66.3,6630,4,not in scope,FALSE
-L,L,1,not in scope,FALSE
-68,68,2,not in scope,FALSE
-68.1,681,3,not in scope,FALSE
-68.1,6810,4,not in scope,FALSE
-68.2,682,3,not in scope,FALSE
-68.2,6820,4,not in scope,FALSE
-68.3,683,3,not in scope,FALSE
-68.31,6831,4,not in scope,FALSE
-68.32,6832,4,not in scope,FALSE
-M,M,1,not in scope,FALSE
-69,69,2,not in scope,FALSE
-69.1,691,3,not in scope,FALSE
-69.1,6910,4,not in scope,FALSE
-69.2,692,3,not in scope,FALSE
-69.2,6920,4,not in scope,FALSE
-70,70,2,not in scope,FALSE
-70.1,701,3,not in scope,FALSE
-70.1,7010,4,not in scope,FALSE
-70.2,702,3,not in scope,FALSE
-70.21,7021,4,not in scope,FALSE
-70.22,7022,4,not in scope,FALSE
-71,71,2,not in scope,FALSE
-71.1,711,3,not in scope,FALSE
-71.11,7111,4,not in scope,FALSE
-71.12,7112,4,not in scope,FALSE
-71.2,712,3,not in scope,FALSE
-71.2,7120,4,not in scope,FALSE
-72,72,2,not in scope,FALSE
-72.1,721,3,not in scope,FALSE
-72.11,7211,4,not in scope,FALSE
-72.19,7219,4,not in scope,FALSE
-72.2,722,3,not in scope,FALSE
-72.2,7220,4,not in scope,FALSE
-73,73,2,not in scope,FALSE
-73.1,731,3,not in scope,FALSE
-73.11,7311,4,not in scope,FALSE
-73.12,7312,4,not in scope,FALSE
-73.2,732,3,not in scope,FALSE
-73.2,7320,4,not in scope,FALSE
-74,74,2,not in scope,FALSE
-74.1,741,3,not in scope,FALSE
-74.1,7410,4,not in scope,FALSE
-74.2,742,3,not in scope,FALSE
-74.2,7420,4,not in scope,FALSE
-74.3,743,3,not in scope,FALSE
-74.3,7430,4,not in scope,FALSE
-74.9,749,3,not in scope,FALSE
-74.9,7490,4,not in scope,FALSE
-75,75,2,not in scope,FALSE
-75,750,3,not in scope,FALSE
-75,7500,4,not in scope,FALSE
-N,N,1,not in scope,FALSE
-77,77,2,not in scope,FALSE
-77.1,771,3,not in scope,FALSE
-77.11,7711,4,not in scope,FALSE
-77.12,7712,4,not in scope,FALSE
-77.2,772,3,not in scope,FALSE
-77.21,7721,4,not in scope,FALSE
-77.22,7722,4,not in scope,FALSE
-77.29,7729,4,not in scope,FALSE
-77.3,773,3,not in scope,FALSE
-77.31,7731,4,not in scope,FALSE
-77.32,7732,4,not in scope,FALSE
-77.33,7733,4,not in scope,FALSE
-77.34,7734,4,not in scope,FALSE
-77.35,7735,4,not in scope,FALSE
-77.39,7739,4,not in scope,FALSE
-77.4,774,3,not in scope,FALSE
-77.4,7740,4,not in scope,FALSE
-78,78,2,not in scope,FALSE
-78.1,781,3,not in scope,FALSE
-78.1,7810,4,not in scope,FALSE
-78.2,782,3,not in scope,FALSE
-78.2,7820,4,not in scope,FALSE
-78.3,783,3,not in scope,FALSE
-78.3,7830,4,not in scope,FALSE
-79,79,2,not in scope,FALSE
-79.1,791,3,not in scope,FALSE
-79.11,7911,4,not in scope,FALSE
-79.12,7912,4,not in scope,FALSE
-79.9,799,3,not in scope,FALSE
-79.9,7990,4,not in scope,FALSE
-80,80,2,not in scope,FALSE
-80.1,801,3,not in scope,FALSE
-80.1,8010,4,not in scope,FALSE
-80.2,802,3,not in scope,FALSE
-80.2,8020,4,not in scope,FALSE
-80.3,803,3,not in scope,FALSE
-80.3,8030,4,not in scope,FALSE
-81,81,2,not in scope,FALSE
-81.1,811,3,not in scope,FALSE
-81.1,8110,4,not in scope,FALSE
-81.2,812,3,not in scope,FALSE
-81.21,8121,4,not in scope,FALSE
-81.22,8122,4,not in scope,FALSE
-81.29,8129,4,not in scope,FALSE
-81.3,813,3,not in scope,FALSE
-81.3,8130,4,not in scope,FALSE
-82,82,2,not in scope,FALSE
-82.1,821,3,not in scope,FALSE
-82.11,8211,4,not in scope,FALSE
-82.19,8219,4,not in scope,FALSE
-82.2,822,3,not in scope,FALSE
-82.2,8220,4,not in scope,FALSE
-82.3,823,3,not in scope,FALSE
-82.3,8230,4,not in scope,FALSE
-82.9,829,3,not in scope,FALSE
-82.91,8291,4,not in scope,FALSE
-82.92,8292,4,not in scope,FALSE
-82.99,8299,4,not in scope,FALSE
-O,O,1,not in scope,FALSE
-84,84,2,not in scope,FALSE
-84.1,841,3,not in scope,FALSE
-84.11,8411,4,not in scope,FALSE
-84.12,8412,4,not in scope,FALSE
-84.13,8413,4,not in scope,FALSE
-84.2,842,3,not in scope,FALSE
-84.21,8421,4,not in scope,FALSE
-84.22,8422,4,not in scope,FALSE
-84.23,8423,4,not in scope,FALSE
-84.24,8424,4,not in scope,FALSE
-84.25,8425,4,not in scope,FALSE
-84.3,843,3,not in scope,FALSE
-84.3,8430,4,not in scope,FALSE
-P,P,1,not in scope,FALSE
-85,85,2,not in scope,FALSE
-85.1,851,3,not in scope,FALSE
-85.1,8510,4,not in scope,FALSE
-85.2,852,3,not in scope,FALSE
-85.2,8520,4,not in scope,FALSE
-85.3,853,3,not in scope,FALSE
-85.31,8531,4,not in scope,FALSE
-85.32,8532,4,not in scope,FALSE
-85.4,854,3,not in scope,FALSE
-85.41,8541,4,not in scope,FALSE
-85.42,8542,4,not in scope,FALSE
-85.5,855,3,not in scope,FALSE
-85.51,8551,4,not in scope,FALSE
-85.52,8552,4,not in scope,FALSE
-85.53,8553,4,not in scope,FALSE
-85.59,8559,4,not in scope,FALSE
-85.6,856,3,not in scope,FALSE
-85.6,8560,4,not in scope,FALSE
-Q,Q,1,not in scope,FALSE
-86,86,2,not in scope,FALSE
-86.1,861,3,not in scope,FALSE
-86.1,8610,4,not in scope,FALSE
-86.2,862,3,not in scope,FALSE
-86.21,8621,4,not in scope,FALSE
-86.22,8622,4,not in scope,FALSE
-86.23,8623,4,not in scope,FALSE
-86.9,869,3,not in scope,FALSE
-86.9,8690,4,not in scope,FALSE
-87,87,2,not in scope,FALSE
-87.1,871,3,not in scope,FALSE
-87.1,8710,4,not in scope,FALSE
-87.2,872,3,not in scope,FALSE
-87.2,8720,4,not in scope,FALSE
-87.3,873,3,not in scope,FALSE
-87.3,8730,4,not in scope,FALSE
-87.9,879,3,not in scope,FALSE
-87.9,8790,4,not in scope,FALSE
-88,88,2,not in scope,FALSE
-88.1,881,3,not in scope,FALSE
-88.1,8810,4,not in scope,FALSE
-88.9,889,3,not in scope,FALSE
-88.91,8891,4,not in scope,FALSE
-88.99,8899,4,not in scope,FALSE
-R,R,1,not in scope,FALSE
-90,90,2,not in scope,FALSE
-90,900,3,not in scope,FALSE
-90.01,9001,4,not in scope,FALSE
-90.02,9002,4,not in scope,FALSE
-90.03,9003,4,not in scope,FALSE
-90.04,9004,4,not in scope,FALSE
-91,91,2,not in scope,FALSE
-91,910,3,not in scope,FALSE
-91.01,9101,4,not in scope,FALSE
-91.02,9102,4,not in scope,FALSE
-91.03,9103,4,not in scope,FALSE
-91.04,9104,4,not in scope,FALSE
-92,92,2,not in scope,FALSE
-92,920,3,not in scope,FALSE
-92,9200,4,not in scope,FALSE
-93,93,2,not in scope,FALSE
-93.1,931,3,not in scope,FALSE
-93.11,9311,4,not in scope,FALSE
-93.12,9312,4,not in scope,FALSE
-93.13,9313,4,not in scope,FALSE
-93.19,9319,4,not in scope,FALSE
-93.2,932,3,not in scope,FALSE
-93.21,9321,4,not in scope,FALSE
-93.29,9329,4,not in scope,FALSE
-S,S,1,not in scope,FALSE
-94,94,2,not in scope,FALSE
-94.1,941,3,not in scope,FALSE
-94.11,9411,4,not in scope,FALSE
-94.12,9412,4,not in scope,FALSE
-94.2,942,3,not in scope,FALSE
-94.2,9420,4,not in scope,FALSE
-94.9,949,3,not in scope,FALSE
-94.91,9491,4,not in scope,FALSE
-94.92,9492,4,not in scope,FALSE
-94.99,9499,4,not in scope,FALSE
-95,95,2,not in scope,FALSE
-95.1,951,3,not in scope,FALSE
-95.11,9511,4,not in scope,FALSE
-95.12,9512,4,not in scope,FALSE
-95.2,952,3,not in scope,FALSE
-95.21,9521,4,not in scope,FALSE
-95.22,9522,4,not in scope,FALSE
-95.23,9523,4,not in scope,FALSE
-95.24,9524,4,not in scope,FALSE
-95.25,9525,4,not in scope,FALSE
-95.29,9529,4,not in scope,FALSE
-96,96,2,not in scope,FALSE
-96,960,3,not in scope,FALSE
-96.01,9601,4,not in scope,FALSE
-96.02,9602,4,not in scope,FALSE
-96.03,9603,4,not in scope,FALSE
-96.04,9604,4,not in scope,FALSE
-96.09,9609,4,not in scope,FALSE
-T,T,1,not in scope,FALSE
-97,97,2,not in scope,FALSE
-97,970,3,not in scope,FALSE
-97,9700,4,not in scope,FALSE
-98,98,2,not in scope,FALSE
-98.1,981,3,not in scope,FALSE
-98.1,9810,4,not in scope,FALSE
-98.2,982,3,not in scope,FALSE
-98.2,9820,4,not in scope,FALSE
-U,U,1,not in scope,FALSE
-99,99,2,not in scope,FALSE
-99,990,3,not in scope,FALSE
-99,9900,4,not in scope,FALSE
+"","original_code","code","code_level","sector","borderline"
+"1","A","A",1,"ldv",FALSE
+"2","1","10",2,"ldv",FALSE
+"3","1.1","110",3,"ldv",FALSE
+"4","1.11","1110",4,"ldv",FALSE
+"5","1.12","1120",4,"ldv",FALSE
+"6","1.13","1130",4,"ldv",FALSE
+"7","1.14","1140",4,"ldv",FALSE
+"8","1.15","1150",4,"ldv",FALSE
+"9","1.16","1160",4,"ldv",FALSE
+"10","1.19","1190",4,"ldv",FALSE
+"11","1.2","120",3,"ldv",FALSE
+"12","1.21","1210",4,"ldv",FALSE
+"13","1.22","1220",4,"ldv",FALSE
+"14","1.23","1230",4,"ldv",FALSE
+"15","1.24","1240",4,"ldv",FALSE
+"16","1.25","1250",4,"ldv",FALSE
+"17","1.26","1260",4,"ldv",FALSE
+"18","1.27","1270",4,"ldv",FALSE
+"19","1.28","1280",4,"ldv",FALSE
+"20","1.29","1290",4,"ldv",FALSE
+"21","1.3","130",3,"ldv",FALSE
+"22","1.3","1300",4,"ldv",FALSE
+"23","1.4","140",3,"ldv",FALSE
+"24","1.41","1410",4,"ldv",FALSE
+"25","1.42","1420",4,"ldv",FALSE
+"26","1.43","1430",4,"ldv",FALSE
+"27","1.44","1440",4,"ldv",FALSE
+"28","1.45","1450",4,"ldv",FALSE
+"29","1.46","1460",4,"ldv",FALSE
+"30","1.47","1470",4,"ldv",FALSE
+"31","1.49","1490",4,"ldv",FALSE
+"32","1.5","150",3,"ldv",FALSE
+"33","1.5","1500",4,"ldv",FALSE
+"34","1.6","160",3,"ldv",FALSE
+"35","1.61","1610",4,"ldv",FALSE
+"36","1.62","1620",4,"ldv",FALSE
+"37","1.63","1630",4,"ldv",FALSE
+"38","1.64","1640",4,"ldv",FALSE
+"39","1.7","170",3,"ldv",FALSE
+"40","1.7","1700",4,"ldv",FALSE
+"41","2","20",2,"ldv",FALSE
+"42","2.1","210",3,"ldv",FALSE
+"43","2.1","2100",4,"ldv",FALSE
+"44","2.2","220",3,"ldv",FALSE
+"45","2.2","2200",4,"ldv",FALSE
+"46","2.3","230",3,"ldv",FALSE
+"47","2.3","2300",4,"ldv",FALSE
+"48","2.4","240",3,"ldv",FALSE
+"49","2.4","2400",4,"ldv",FALSE
+"50","3","30",2,"ldv",FALSE
+"51","3.1","310",3,"ldv",FALSE
+"52","3.11","3110",4,"ldv",FALSE
+"53","3.12","3120",4,"ldv",FALSE
+"54","3.2","320",3,"ldv",FALSE
+"55","3.21","3210",4,"ldv",FALSE
+"56","3.22","3220",4,"ldv",FALSE
+"57","B","B",1,"ldv",FALSE
+"58","5","50",2,"ldv",FALSE
+"59","5.1","510",3,"ldv",FALSE
+"60","5.1","5100",4,"ldv",FALSE
+"61","5.2","520",3,"ldv",FALSE
+"62","5.2","5200",4,"ldv",FALSE
+"63","6","60",2,"ldv",FALSE
+"64","6.1","610",3,"ldv",FALSE
+"65","6.1","6100",4,"ldv",FALSE
+"66","6.2","620",3,"ldv",FALSE
+"67","6.2","6200",4,"ldv",FALSE
+"68","7","70",2,"ldv",FALSE
+"69","7.1","710",3,"ldv",FALSE
+"70","7.1","7100",4,"ldv",FALSE
+"71","7.2","720",3,"ldv",FALSE
+"72","7.21","7210",4,"ldv",FALSE
+"73","7.29","7290",4,"ldv",FALSE
+"74","8","80",2,"ldv",FALSE
+"75","8.1","810",3,"ldv",FALSE
+"76","8.11","8110",4,"ldv",FALSE
+"77","8.12","8120",4,"ldv",FALSE
+"78","8.9","890",3,"ldv",FALSE
+"79","8.91","8910",4,"ldv",FALSE
+"80","8.92","8920",4,"ldv",FALSE
+"81","8.93","8930",4,"ldv",FALSE
+"82","8.99","8990",4,"ldv",FALSE
+"83","9","90",2,"ldv",FALSE
+"84","9.1","910",3,"ldv",TRUE
+"85","9.1","9100",4,"ldv",TRUE
+"86","9.9","990",3,"ldv",FALSE
+"87","9.9","9900",4,"ldv",FALSE
+"88","C","C",1,"ldv",FALSE
+"89","10","10",2,"ldv",FALSE
+"90","10.1","101",3,"ldv",FALSE
+"91","10.11","1011",4,"ldv",FALSE
+"92","10.12","1012",4,"ldv",FALSE
+"93","10.13","1013",4,"ldv",FALSE
+"94","10.2","102",3,"ldv",FALSE
+"95","10.2","1020",4,"ldv",FALSE
+"96","10.3","103",3,"ldv",FALSE
+"97","10.31","1031",4,"ldv",FALSE
+"98","10.32","1032",4,"ldv",FALSE
+"99","10.39","1039",4,"ldv",FALSE
+"100","10.4","104",3,"ldv",FALSE
+"101","10.41","1041",4,"ldv",FALSE
+"102","10.42","1042",4,"ldv",FALSE
+"103","10.5","105",3,"ldv",FALSE
+"104","10.51","1051",4,"ldv",FALSE
+"105","10.52","1052",4,"ldv",FALSE
+"106","10.6","106",3,"ldv",FALSE
+"107","10.61","1061",4,"ldv",FALSE
+"108","10.62","1062",4,"ldv",FALSE
+"109","10.7","107",3,"ldv",FALSE
+"110","10.71","1071",4,"ldv",FALSE
+"111","10.72","1072",4,"ldv",FALSE
+"112","10.73","1073",4,"ldv",FALSE
+"113","10.8","108",3,"ldv",FALSE
+"114","10.81","1081",4,"ldv",FALSE
+"115","10.82","1082",4,"ldv",FALSE
+"116","10.83","1083",4,"ldv",FALSE
+"117","10.84","1084",4,"ldv",FALSE
+"118","10.85","1085",4,"ldv",FALSE
+"119","10.86","1086",4,"ldv",FALSE
+"120","10.89","1089",4,"ldv",FALSE
+"121","10.9","109",3,"ldv",FALSE
+"122","10.91","1091",4,"ldv",FALSE
+"123","10.92","1092",4,"ldv",FALSE
+"124","11","11",2,"ldv",FALSE
+"125","11","110",3,"ldv",FALSE
+"126","11.01","1101",4,"ldv",FALSE
+"127","11.02","1102",4,"ldv",FALSE
+"128","11.03","1103",4,"ldv",FALSE
+"129","11.04","1104",4,"ldv",FALSE
+"130","11.05","1105",4,"ldv",FALSE
+"131","11.06","1106",4,"ldv",FALSE
+"132","11.07","1107",4,"ldv",FALSE
+"133","12","12",2,"ldv",FALSE
+"134","12","120",3,"ldv",FALSE
+"135","12","1200",4,"ldv",FALSE
+"136","13","13",2,"ldv",FALSE
+"137","13.1","131",3,"ldv",FALSE
+"138","13.1","1310",4,"ldv",FALSE
+"139","13.2","132",3,"ldv",FALSE
+"140","13.2","1320",4,"ldv",FALSE
+"141","13.3","133",3,"ldv",FALSE
+"142","13.3","1330",4,"ldv",FALSE
+"143","13.9","139",3,"ldv",FALSE
+"144","13.91","1391",4,"ldv",FALSE
+"145","13.92","1392",4,"ldv",FALSE
+"146","13.93","1393",4,"ldv",FALSE
+"147","13.94","1394",4,"ldv",FALSE
+"148","13.95","1395",4,"ldv",FALSE
+"149","13.96","1396",4,"ldv",FALSE
+"150","13.99","1399",4,"ldv",FALSE
+"151","14","14",2,"ldv",FALSE
+"152","14.1","141",3,"ldv",FALSE
+"153","14.11","1411",4,"ldv",FALSE
+"154","14.12","1412",4,"ldv",FALSE
+"155","14.13","1413",4,"ldv",FALSE
+"156","14.14","1414",4,"ldv",FALSE
+"157","14.19","1419",4,"ldv",FALSE
+"158","14.2","142",3,"ldv",FALSE
+"159","14.2","1420",4,"ldv",FALSE
+"160","14.3","143",3,"ldv",FALSE
+"161","14.31","1431",4,"ldv",FALSE
+"162","14.39","1439",4,"ldv",FALSE
+"163","15","15",2,"ldv",FALSE
+"164","15.1","151",3,"ldv",FALSE
+"165","15.11","1511",4,"ldv",FALSE
+"166","15.12","1512",4,"ldv",FALSE
+"167","15.2","152",3,"ldv",FALSE
+"168","15.2","1520",4,"ldv",FALSE
+"169","16","16",2,"ldv",FALSE
+"170","16.1","161",3,"ldv",FALSE
+"171","16.1","1610",4,"ldv",FALSE
+"172","16.2","162",3,"ldv",FALSE
+"173","16.21","1621",4,"ldv",FALSE
+"174","16.22","1622",4,"ldv",FALSE
+"175","16.23","1623",4,"ldv",FALSE
+"176","16.24","1624",4,"ldv",FALSE
+"177","16.29","1629",4,"ldv",FALSE
+"178","17","17",2,"ldv",FALSE
+"179","17.1","171",3,"ldv",FALSE
+"180","17.11","1711",4,"ldv",FALSE
+"181","17.12","1712",4,"ldv",FALSE
+"182","17.2","172",3,"ldv",FALSE
+"183","17.21","1721",4,"ldv",FALSE
+"184","17.22","1722",4,"ldv",FALSE
+"185","17.23","1723",4,"ldv",FALSE
+"186","17.24","1724",4,"ldv",FALSE
+"187","17.29","1729",4,"ldv",FALSE
+"188","18","18",2,"ldv",FALSE
+"189","18.1","181",3,"ldv",FALSE
+"190","18.11","1811",4,"ldv",FALSE
+"191","18.12","1812",4,"ldv",FALSE
+"192","18.13","1813",4,"ldv",FALSE
+"193","18.14","1814",4,"ldv",FALSE
+"194","18.2","182",3,"ldv",FALSE
+"195","18.2","1820",4,"ldv",FALSE
+"196","19","19",2,"ldv",FALSE
+"197","19.1","191",3,"ldv",FALSE
+"198","19.1","1910",4,"ldv",FALSE
+"199","19.2","192",3,"ldv",FALSE
+"200","19.2","1920",4,"ldv",FALSE
+"201","20","20",2,"ldv",FALSE
+"202","20.1","201",3,"ldv",FALSE
+"203","20.11","2011",4,"ldv",FALSE
+"204","20.12","2012",4,"ldv",FALSE
+"205","20.13","2013",4,"ldv",FALSE
+"206","20.14","2014",4,"ldv",FALSE
+"207","20.15","2015",4,"ldv",FALSE
+"208","20.16","2016",4,"ldv",FALSE
+"209","20.17","2017",4,"ldv",FALSE
+"210","20.2","202",3,"ldv",FALSE
+"211","20.2","2020",4,"ldv",FALSE
+"212","20.3","203",3,"ldv",FALSE
+"213","20.3","2030",4,"ldv",FALSE
+"214","20.4","204",3,"ldv",FALSE
+"215","20.41","2041",4,"ldv",FALSE
+"216","20.42","2042",4,"ldv",FALSE
+"217","20.5","205",3,"ldv",FALSE
+"218","20.51","2051",4,"ldv",FALSE
+"219","20.52","2052",4,"ldv",FALSE
+"220","20.53","2053",4,"ldv",FALSE
+"221","20.59","2059",4,"ldv",FALSE
+"222","20.6","206",3,"ldv",FALSE
+"223","20.6","2060",4,"ldv",FALSE
+"224","21","21",2,"ldv",FALSE
+"225","21.1","211",3,"ldv",FALSE
+"226","21.1","2110",4,"ldv",FALSE
+"227","21.2","212",3,"ldv",FALSE
+"228","21.2","2120",4,"ldv",FALSE
+"229","22","22",2,"ldv",FALSE
+"230","22.1","221",3,"ldv",FALSE
+"231","22.11","2211",4,"ldv",FALSE
+"232","22.19","2219",4,"ldv",FALSE
+"233","22.2","222",3,"ldv",FALSE
+"234","22.21","2221",4,"ldv",FALSE
+"235","22.22","2222",4,"ldv",FALSE
+"236","22.23","2223",4,"ldv",FALSE
+"237","22.29","2229",4,"ldv",FALSE
+"238","23","23",2,"ldv",FALSE
+"239","23.1","231",3,"ldv",FALSE
+"240","23.11","2311",4,"ldv",FALSE
+"241","23.12","2312",4,"ldv",FALSE
+"242","23.13","2313",4,"ldv",FALSE
+"243","23.14","2314",4,"ldv",FALSE
+"244","23.19","2319",4,"ldv",FALSE
+"245","23.2","232",3,"ldv",FALSE
+"246","23.2","2320",4,"ldv",FALSE
+"247","23.3","233",3,"ldv",FALSE
+"248","23.31","2331",4,"ldv",FALSE
+"249","23.32","2332",4,"ldv",FALSE
+"250","23.4","234",3,"ldv",FALSE
+"251","23.41","2341",4,"ldv",FALSE
+"252","23.42","2342",4,"ldv",FALSE
+"253","23.43","2343",4,"ldv",FALSE
+"254","23.44","2344",4,"ldv",FALSE
+"255","23.49","2349",4,"ldv",FALSE
+"256","23.5","235",3,"ldv",FALSE
+"257","23.51","2351",4,"ldv",FALSE
+"258","23.52","2352",4,"ldv",TRUE
+"259","23.6","236",3,"ldv",TRUE
+"260","23.61","2361",4,"ldv",TRUE
+"261","23.62","2362",4,"ldv",FALSE
+"262","23.63","2363",4,"ldv",FALSE
+"263","23.64","2364",4,"ldv",FALSE
+"264","23.65","2365",4,"ldv",TRUE
+"265","23.69","2369",4,"ldv",TRUE
+"266","23.7","237",3,"ldv",FALSE
+"267","23.7","2370",4,"ldv",FALSE
+"268","23.9","239",3,"ldv",FALSE
+"269","23.91","2391",4,"ldv",FALSE
+"270","23.99","2399",4,"ldv",FALSE
+"271","24","24",2,"ldv",TRUE
+"272","24.1","241",3,"ldv",FALSE
+"273","24.1","2410",4,"ldv",FALSE
+"274","24.2","242",3,"ldv",TRUE
+"275","24.2","2420",4,"ldv",TRUE
+"276","24.3","243",3,"ldv",TRUE
+"277","24.31","2431",4,"ldv",TRUE
+"278","24.32","2432",4,"ldv",TRUE
+"279","24.33","2433",4,"ldv",TRUE
+"280","24.34","2434",4,"ldv",TRUE
+"281","24.4","244",3,"ldv",FALSE
+"282","24.41","2441",4,"ldv",FALSE
+"283","24.42","2442",4,"ldv",FALSE
+"284","24.43","2443",4,"ldv",FALSE
+"285","24.44","2444",4,"ldv",FALSE
+"286","24.45","2445",4,"ldv",FALSE
+"287","24.46","2446",4,"ldv",FALSE
+"288","24.5","245",3,"ldv",FALSE
+"289","24.51","2451",4,"ldv",FALSE
+"290","24.52","2452",4,"ldv",TRUE
+"291","24.53","2453",4,"ldv",FALSE
+"292","24.54","2454",4,"ldv",FALSE
+"293","25","25",2,"ldv",FALSE
+"294","25.1","251",3,"ldv",FALSE
+"295","25.11","2511",4,"ldv",FALSE
+"296","25.12","2512",4,"ldv",FALSE
+"297","25.2","252",3,"ldv",FALSE
+"298","25.21","2521",4,"ldv",FALSE
+"299","25.29","2529",4,"ldv",FALSE
+"300","25.3","253",3,"ldv",FALSE
+"301","25.3","2530",4,"ldv",FALSE
+"302","25.4","254",3,"ldv",FALSE
+"303","25.4","2540",4,"ldv",FALSE
+"304","25.5","255",3,"ldv",FALSE
+"305","25.5","2550",4,"ldv",FALSE
+"306","25.6","256",3,"ldv",FALSE
+"307","25.61","2561",4,"ldv",FALSE
+"308","25.62","2562",4,"ldv",FALSE
+"309","25.7","257",3,"ldv",FALSE
+"310","25.71","2571",4,"ldv",FALSE
+"311","25.72","2572",4,"ldv",FALSE
+"312","25.73","2573",4,"ldv",FALSE
+"313","25.9","259",3,"ldv",FALSE
+"314","25.91","2591",4,"ldv",FALSE
+"315","25.92","2592",4,"ldv",FALSE
+"316","25.93","2593",4,"ldv",FALSE
+"317","25.94","2594",4,"ldv",FALSE
+"318","25.99","2599",4,"ldv",FALSE
+"319","26","26",2,"ldv",FALSE
+"320","26.1","261",3,"ldv",FALSE
+"321","26.11","2611",4,"ldv",FALSE
+"322","26.12","2612",4,"ldv",FALSE
+"323","26.2","262",3,"ldv",FALSE
+"324","26.2","2620",4,"ldv",FALSE
+"325","26.3","263",3,"ldv",FALSE
+"326","26.3","2630",4,"ldv",FALSE
+"327","26.4","264",3,"ldv",FALSE
+"328","26.4","2640",4,"ldv",FALSE
+"329","26.5","265",3,"ldv",FALSE
+"330","26.51","2651",4,"ldv",FALSE
+"331","26.52","2652",4,"ldv",FALSE
+"332","26.6","266",3,"ldv",FALSE
+"333","26.6","2660",4,"ldv",FALSE
+"334","26.7","267",3,"ldv",FALSE
+"335","26.7","2670",4,"ldv",FALSE
+"336","26.8","268",3,"ldv",FALSE
+"337","26.8","2680",4,"ldv",FALSE
+"338","27","27",2,"ldv",FALSE
+"339","27.1","271",3,"ldv",FALSE
+"340","27.11","2711",4,"ldv",FALSE
+"341","27.12","2712",4,"ldv",FALSE
+"342","27.2","272",3,"ldv",FALSE
+"343","27.2","2720",4,"ldv",FALSE
+"344","27.3","273",3,"ldv",FALSE
+"345","27.31","2731",4,"ldv",FALSE
+"346","27.32","2732",4,"ldv",FALSE
+"347","27.33","2733",4,"ldv",FALSE
+"348","27.4","274",3,"ldv",FALSE
+"349","27.4","2740",4,"ldv",FALSE
+"350","27.5","275",3,"ldv",FALSE
+"351","27.51","2751",4,"ldv",FALSE
+"352","27.52","2752",4,"ldv",FALSE
+"353","27.9","279",3,"ldv",FALSE
+"354","27.9","2790",4,"ldv",FALSE
+"355","28","28",2,"ldv",FALSE
+"356","28.1","281",3,"ldv",FALSE
+"357","28.11","2811",4,"ldv",FALSE
+"358","28.12","2812",4,"ldv",FALSE
+"359","28.13","2813",4,"ldv",FALSE
+"360","28.14","2814",4,"ldv",FALSE
+"361","28.15","2815",4,"ldv",FALSE
+"362","28.2","282",3,"ldv",FALSE
+"363","28.21","2821",4,"ldv",FALSE
+"364","28.22","2822",4,"ldv",FALSE
+"365","28.23","2823",4,"ldv",FALSE
+"366","28.24","2824",4,"ldv",FALSE
+"367","28.25","2825",4,"ldv",FALSE
+"368","28.29","2829",4,"ldv",FALSE
+"369","28.3","283",3,"ldv",FALSE
+"370","28.3","2830",4,"ldv",FALSE
+"371","28.4","284",3,"ldv",FALSE
+"372","28.41","2841",4,"ldv",FALSE
+"373","28.49","2849",4,"ldv",FALSE
+"374","28.9","289",3,"ldv",FALSE
+"375","28.91","2891",4,"ldv",FALSE
+"376","28.92","2892",4,"ldv",FALSE
+"377","28.93","2893",4,"ldv",FALSE
+"378","28.94","2894",4,"ldv",FALSE
+"379","28.95","2895",4,"ldv",FALSE
+"380","28.96","2896",4,"ldv",FALSE
+"381","28.99","2899",4,"ldv",FALSE
+"382","29","29",2,"ldv",FALSE
+"383","29.1","291",3,"ldv",FALSE
+"384","29.2","292",3,"ldv",FALSE
+"385","29.3","293",3,"ldv",FALSE
+"386","29.10","2910",4,"ldv",FALSE
+"387","29.20","2920",4,"ldv",TRUE
+"388","29.31","2931",4,"ldv",FALSE
+"389","29.32","2932",4,"ldv",TRUE
+"390","30","30",2,"ldv",FALSE
+"391","30.1","301",3,"ldv",FALSE
+"392","30.11","3011",4,"ldv",FALSE
+"393","30.12","3012",4,"ldv",FALSE
+"394","30.2","302",3,"ldv",FALSE
+"395","30.2","3020",4,"ldv",FALSE
+"396","30.3","303",3,"ldv",TRUE
+"397","30.3","3030",4,"ldv",TRUE
+"398","30.4","304",3,"ldv",FALSE
+"399","30.4","3040",4,"ldv",FALSE
+"400","30.9","309",3,"ldv",FALSE
+"401","30.91","3091",4,"ldv",FALSE
+"402","30.92","3092",4,"ldv",FALSE
+"403","30.99","3099",4,"ldv",FALSE
+"404","31","31",2,"ldv",FALSE
+"405","31","310",3,"ldv",FALSE
+"406","31.01","3101",4,"ldv",FALSE
+"407","31.02","3102",4,"ldv",FALSE
+"408","31.03","3103",4,"ldv",FALSE
+"409","31.09","3109",4,"ldv",FALSE
+"410","32","32",2,"ldv",FALSE
+"411","32.1","321",3,"ldv",FALSE
+"412","32.11","3211",4,"ldv",FALSE
+"413","32.12","3212",4,"ldv",FALSE
+"414","32.13","3213",4,"ldv",FALSE
+"415","32.2","322",3,"ldv",FALSE
+"416","32.2","3220",4,"ldv",FALSE
+"417","32.3","323",3,"ldv",FALSE
+"418","32.3","3230",4,"ldv",FALSE
+"419","32.4","324",3,"ldv",FALSE
+"420","32.4","3240",4,"ldv",FALSE
+"421","32.5","325",3,"ldv",FALSE
+"422","32.5","3250",4,"ldv",FALSE
+"423","32.9","329",3,"ldv",FALSE
+"424","32.91","3291",4,"ldv",FALSE
+"425","32.99","3299",4,"ldv",FALSE
+"426","33","33",2,"ldv",FALSE
+"427","33.1","331",3,"ldv",FALSE
+"428","33.11","3311",4,"ldv",FALSE
+"429","33.12","3312",4,"ldv",FALSE
+"430","33.13","3313",4,"ldv",FALSE
+"431","33.14","3314",4,"ldv",FALSE
+"432","33.15","3315",4,"ldv",FALSE
+"433","33.16","3316",4,"ldv",FALSE
+"434","33.17","3317",4,"ldv",FALSE
+"435","33.19","3319",4,"ldv",FALSE
+"436","33.2","332",3,"ldv",FALSE
+"437","33.2","3320",4,"ldv",FALSE
+"438","D","D",1,"ldv",FALSE
+"439","35","35",2,"ldv",NA
+"440","35.1","351",3,"ldv",FALSE
+"441","35.11","3511",4,"ldv",FALSE
+"442","35.12","3512",4,"ldv",TRUE
+"443","35.13","3513",4,"ldv",TRUE
+"444","35.14","3514",4,"ldv",TRUE
+"445","35.2","352",3,"ldv",TRUE
+"446","35.21","3521",4,"ldv",TRUE
+"447","35.22","3522",4,"ldv",TRUE
+"448","35.23","3523",4,"ldv",TRUE
+"449","35.3","353",3,"ldv",FALSE
+"450","35.3","3530",4,"ldv",FALSE
+"451","E","E",1,"ldv",FALSE
+"452","36","36",2,"ldv",FALSE
+"453","36","360",3,"ldv",FALSE
+"454","36","3600",4,"ldv",FALSE
+"455","37","37",2,"ldv",FALSE
+"456","37","370",3,"ldv",FALSE
+"457","37","3700",4,"ldv",FALSE
+"458","38","38",2,"ldv",FALSE
+"459","38.1","381",3,"ldv",FALSE
+"460","38.11","3811",4,"ldv",FALSE
+"461","38.12","3812",4,"ldv",FALSE
+"462","38.2","382",3,"ldv",FALSE
+"463","38.21","3821",4,"ldv",FALSE
+"464","38.22","3822",4,"ldv",FALSE
+"465","38.3","383",3,"ldv",FALSE
+"466","38.31","3831",4,"ldv",FALSE
+"467","38.32","3832",4,"ldv",FALSE
+"468","39","39",2,"ldv",FALSE
+"469","39","390",3,"ldv",FALSE
+"470","39","3900",4,"ldv",FALSE
+"471","F","F",1,"ldv",FALSE
+"472","41","41",2,"ldv",FALSE
+"473","41.1","411",3,"ldv",FALSE
+"474","41.1","4110",4,"ldv",FALSE
+"475","41.2","412",3,"ldv",FALSE
+"476","41.2","4120",4,"ldv",FALSE
+"477","42","42",2,"ldv",FALSE
+"478","42.1","421",3,"ldv",FALSE
+"479","42.11","4211",4,"ldv",FALSE
+"480","42.12","4212",4,"ldv",FALSE
+"481","42.13","4213",4,"ldv",FALSE
+"482","42.2","422",3,"ldv",FALSE
+"483","42.21","4221",4,"ldv",FALSE
+"484","42.22","4222",4,"ldv",FALSE
+"485","42.9","429",3,"ldv",FALSE
+"486","42.91","4291",4,"ldv",FALSE
+"487","42.99","4299",4,"ldv",FALSE
+"488","43","43",2,"ldv",FALSE
+"489","43.1","431",3,"ldv",FALSE
+"490","43.11","4311",4,"ldv",FALSE
+"491","43.12","4312",4,"ldv",FALSE
+"492","43.13","4313",4,"ldv",FALSE
+"493","43.2","432",3,"ldv",FALSE
+"494","43.21","4321",4,"ldv",FALSE
+"495","43.22","4322",4,"ldv",FALSE
+"496","43.29","4329",4,"ldv",FALSE
+"497","43.3","433",3,"ldv",FALSE
+"498","43.31","4331",4,"ldv",FALSE
+"499","43.32","4332",4,"ldv",FALSE
+"500","43.33","4333",4,"ldv",FALSE
+"501","43.34","4334",4,"ldv",FALSE
+"502","43.39","4339",4,"ldv",FALSE
+"503","43.9","439",3,"ldv",FALSE
+"504","43.91","4391",4,"ldv",FALSE
+"505","43.99","4399",4,"ldv",FALSE
+"506","G","G",1,"ldv",FALSE
+"507","45","45",2,"ldv",FALSE
+"508","45.1","451",3,"ldv",TRUE
+"509","45.11","4511",4,"ldv",TRUE
+"510","45.19","4519",4,"ldv",TRUE
+"511","45.2","452",3,"ldv",FALSE
+"512","45.2","4520",4,"ldv",FALSE
+"513","45.3","453",3,"ldv",FALSE
+"514","45.31","4531",4,"ldv",FALSE
+"515","45.32","4532",4,"ldv",FALSE
+"516","45.4","454",3,"ldv",FALSE
+"517","45.4","4540",4,"ldv",FALSE
+"518","46","46",2,"ldv",FALSE
+"519","46.1","461",3,"ldv",FALSE
+"520","46.11","4611",4,"ldv",FALSE
+"521","46.12","4612",4,"ldv",FALSE
+"522","46.13","4613",4,"ldv",FALSE
+"523","46.14","4614",4,"ldv",FALSE
+"524","46.15","4615",4,"ldv",FALSE
+"525","46.16","4616",4,"ldv",FALSE
+"526","46.17","4617",4,"ldv",FALSE
+"527","46.18","4618",4,"ldv",FALSE
+"528","46.19","4619",4,"ldv",FALSE
+"529","46.2","462",3,"ldv",FALSE
+"530","46.21","4621",4,"ldv",FALSE
+"531","46.22","4622",4,"ldv",FALSE
+"532","46.23","4623",4,"ldv",FALSE
+"533","46.24","4624",4,"ldv",FALSE
+"534","46.3","463",3,"ldv",FALSE
+"535","46.31","4631",4,"ldv",FALSE
+"536","46.32","4632",4,"ldv",FALSE
+"537","46.33","4633",4,"ldv",FALSE
+"538","46.34","4634",4,"ldv",FALSE
+"539","46.35","4635",4,"ldv",FALSE
+"540","46.36","4636",4,"ldv",FALSE
+"541","46.37","4637",4,"ldv",FALSE
+"542","46.38","4638",4,"ldv",FALSE
+"543","46.39","4639",4,"ldv",FALSE
+"544","46.4","464",3,"ldv",FALSE
+"545","46.41","4641",4,"ldv",FALSE
+"546","46.42","4642",4,"ldv",FALSE
+"547","46.43","4643",4,"ldv",FALSE
+"548","46.44","4644",4,"ldv",FALSE
+"549","46.45","4645",4,"ldv",FALSE
+"550","46.46","4646",4,"ldv",FALSE
+"551","46.47","4647",4,"ldv",FALSE
+"552","46.48","4648",4,"ldv",FALSE
+"553","46.49","4649",4,"ldv",FALSE
+"554","46.5","465",3,"ldv",FALSE
+"555","46.51","4651",4,"ldv",FALSE
+"556","46.52","4652",4,"ldv",FALSE
+"557","46.6","466",3,"ldv",FALSE
+"558","46.61","4661",4,"ldv",FALSE
+"559","46.62","4662",4,"ldv",FALSE
+"560","46.63","4663",4,"ldv",FALSE
+"561","46.64","4664",4,"ldv",FALSE
+"562","46.65","4665",4,"ldv",FALSE
+"563","46.66","4666",4,"ldv",FALSE
+"564","46.69","4669",4,"ldv",FALSE
+"565","46.7","467",3,"ldv",FALSE
+"566","46.71","4671",4,"ldv",FALSE
+"567","46.72","4672",4,"ldv",FALSE
+"568","46.73","4673",4,"ldv",FALSE
+"569","46.74","4674",4,"ldv",FALSE
+"570","46.75","4675",4,"ldv",FALSE
+"571","46.76","4676",4,"ldv",FALSE
+"572","46.77","4677",4,"ldv",FALSE
+"573","46.9","469",3,"ldv",FALSE
+"574","46.9","4690",4,"ldv",FALSE
+"575","47","47",2,"ldv",FALSE
+"576","47.1","471",3,"ldv",FALSE
+"577","47.11","4711",4,"ldv",FALSE
+"578","47.19","4719",4,"ldv",FALSE
+"579","47.2","472",3,"ldv",FALSE
+"580","47.21","4721",4,"ldv",FALSE
+"581","47.22","4722",4,"ldv",FALSE
+"582","47.23","4723",4,"ldv",FALSE
+"583","47.24","4724",4,"ldv",FALSE
+"584","47.25","4725",4,"ldv",FALSE
+"585","47.26","4726",4,"ldv",FALSE
+"586","47.29","4729",4,"ldv",FALSE
+"587","47.3","473",3,"ldv",FALSE
+"588","47.3","4730",4,"ldv",FALSE
+"589","47.4","474",3,"ldv",FALSE
+"590","47.41","4741",4,"ldv",FALSE
+"591","47.42","4742",4,"ldv",FALSE
+"592","47.43","4743",4,"ldv",FALSE
+"593","47.5","475",3,"ldv",FALSE
+"594","47.51","4751",4,"ldv",FALSE
+"595","47.52","4752",4,"ldv",FALSE
+"596","47.53","4753",4,"ldv",FALSE
+"597","47.54","4754",4,"ldv",FALSE
+"598","47.59","4759",4,"ldv",FALSE
+"599","47.6","476",3,"ldv",FALSE
+"600","47.61","4761",4,"ldv",FALSE
+"601","47.62","4762",4,"ldv",FALSE
+"602","47.63","4763",4,"ldv",FALSE
+"603","47.64","4764",4,"ldv",FALSE
+"604","47.65","4765",4,"ldv",FALSE
+"605","47.7","477",3,"ldv",FALSE
+"606","47.71","4771",4,"ldv",FALSE
+"607","47.72","4772",4,"ldv",FALSE
+"608","47.73","4773",4,"ldv",FALSE
+"609","47.74","4774",4,"ldv",FALSE
+"610","47.75","4775",4,"ldv",FALSE
+"611","47.76","4776",4,"ldv",FALSE
+"612","47.77","4777",4,"ldv",FALSE
+"613","47.78","4778",4,"ldv",FALSE
+"614","47.79","4779",4,"ldv",FALSE
+"615","47.8","478",3,"ldv",FALSE
+"616","47.81","4781",4,"ldv",FALSE
+"617","47.82","4782",4,"ldv",FALSE
+"618","47.89","4789",4,"ldv",FALSE
+"619","47.9","479",3,"ldv",FALSE
+"620","47.91","4791",4,"ldv",FALSE
+"621","47.99","4799",4,"ldv",FALSE
+"622","H","H",1,"ldv",FALSE
+"623","49","49",2,"ldv",FALSE
+"624","49.1","491",3,"ldv",FALSE
+"625","49.1","4910",4,"ldv",FALSE
+"626","49.2","492",3,"ldv",FALSE
+"627","49.2","4920",4,"ldv",FALSE
+"628","49.3","493",3,"ldv",FALSE
+"629","49.31","4931",4,"ldv",FALSE
+"630","49.32","4932",4,"ldv",FALSE
+"631","49.39","4939",4,"ldv",FALSE
+"632","49.4","494",3,"ldv",FALSE
+"633","49.41","4941",4,"ldv",FALSE
+"634","49.42","4942",4,"ldv",FALSE
+"635","49.5","495",3,"ldv",FALSE
+"636","49.5","4950",4,"ldv",FALSE
+"637","50","50",2,"ldv",FALSE
+"638","50.1","501",3,"ldv",FALSE
+"639","50.1","5010",4,"ldv",FALSE
+"640","50.2","502",3,"ldv",FALSE
+"641","50.2","5020",4,"ldv",FALSE
+"642","50.3","503",3,"ldv",FALSE
+"643","50.3","5030",4,"ldv",FALSE
+"644","50.4","504",3,"ldv",FALSE
+"645","50.4","5040",4,"ldv",FALSE
+"646","51","51",2,"ldv",FALSE
+"647","51.1","511",3,"ldv",FALSE
+"648","51.1","5110",4,"ldv",FALSE
+"649","51.2","512",3,"ldv",TRUE
+"650","51.21","5121",4,"ldv",TRUE
+"651","51.22","5122",4,"ldv",FALSE
+"652","52","52",2,"ldv",FALSE
+"653","52.1","521",3,"ldv",FALSE
+"654","52.1","5210",4,"ldv",FALSE
+"655","52.2","522",3,"ldv",FALSE
+"656","52.21","5221",4,"ldv",FALSE
+"657","52.22","5222",4,"ldv",FALSE
+"658","52.23","5223",4,"ldv",FALSE
+"659","52.24","5224",4,"ldv",FALSE
+"660","52.29","5229",4,"ldv",FALSE
+"661","53","53",2,"ldv",FALSE
+"662","53.1","531",3,"ldv",FALSE
+"663","53.1","5310",4,"ldv",FALSE
+"664","53.2","532",3,"ldv",FALSE
+"665","53.2","5320",4,"ldv",FALSE
+"666","I","I",1,"ldv",FALSE
+"667","55","55",2,"ldv",FALSE
+"668","55.1","551",3,"ldv",FALSE
+"669","55.1","5510",4,"ldv",FALSE
+"670","55.2","552",3,"ldv",FALSE
+"671","55.2","5520",4,"ldv",FALSE
+"672","55.3","553",3,"ldv",FALSE
+"673","55.3","5530",4,"ldv",FALSE
+"674","55.9","559",3,"ldv",FALSE
+"675","55.9","5590",4,"ldv",FALSE
+"676","56","56",2,"ldv",FALSE
+"677","56.1","561",3,"ldv",FALSE
+"678","56.1","5610",4,"ldv",FALSE
+"679","56.2","562",3,"ldv",FALSE
+"680","56.21","5621",4,"ldv",FALSE
+"681","56.29","5629",4,"ldv",FALSE
+"682","56.3","563",3,"ldv",FALSE
+"683","56.3","5630",4,"ldv",FALSE
+"684","J","J",1,"ldv",FALSE
+"685","58","58",2,"ldv",FALSE
+"686","58.1","581",3,"ldv",FALSE
+"687","58.11","5811",4,"ldv",FALSE
+"688","58.12","5812",4,"ldv",FALSE
+"689","58.13","5813",4,"ldv",FALSE
+"690","58.14","5814",4,"ldv",FALSE
+"691","58.19","5819",4,"ldv",FALSE
+"692","58.2","582",3,"ldv",FALSE
+"693","58.21","5821",4,"ldv",FALSE
+"694","58.29","5829",4,"ldv",FALSE
+"695","59","59",2,"ldv",FALSE
+"696","59.1","591",3,"ldv",FALSE
+"697","59.11","5911",4,"ldv",FALSE
+"698","59.12","5912",4,"ldv",FALSE
+"699","59.13","5913",4,"ldv",FALSE
+"700","59.14","5914",4,"ldv",FALSE
+"701","59.2","592",3,"ldv",FALSE
+"702","59.2","5920",4,"ldv",FALSE
+"703","60","60",2,"ldv",FALSE
+"704","60.1","601",3,"ldv",FALSE
+"705","60.1","6010",4,"ldv",FALSE
+"706","60.2","602",3,"ldv",FALSE
+"707","60.2","6020",4,"ldv",FALSE
+"708","61","61",2,"ldv",FALSE
+"709","61.1","611",3,"ldv",FALSE
+"710","61.1","6110",4,"ldv",FALSE
+"711","61.2","612",3,"ldv",FALSE
+"712","61.2","6120",4,"ldv",FALSE
+"713","61.3","613",3,"ldv",FALSE
+"714","61.3","6130",4,"ldv",FALSE
+"715","61.9","619",3,"ldv",FALSE
+"716","61.9","6190",4,"ldv",FALSE
+"717","62","62",2,"ldv",FALSE
+"718","62","620",3,"ldv",FALSE
+"719","62.01","6201",4,"ldv",FALSE
+"720","62.02","6202",4,"ldv",FALSE
+"721","62.03","6203",4,"ldv",FALSE
+"722","62.09","6209",4,"ldv",FALSE
+"723","63","63",2,"ldv",FALSE
+"724","63.1","631",3,"ldv",FALSE
+"725","63.11","6311",4,"ldv",FALSE
+"726","63.12","6312",4,"ldv",FALSE
+"727","63.9","639",3,"ldv",FALSE
+"728","63.91","6391",4,"ldv",FALSE
+"729","63.99","6399",4,"ldv",FALSE
+"730","K","K",1,"ldv",FALSE
+"731","64","64",2,"ldv",FALSE
+"732","64.1","641",3,"ldv",FALSE
+"733","64.11","6411",4,"ldv",FALSE
+"734","64.19","6419",4,"ldv",FALSE
+"735","64.2","642",3,"ldv",FALSE
+"736","64.2","6420",4,"ldv",FALSE
+"737","64.3","643",3,"ldv",FALSE
+"738","64.3","6430",4,"ldv",FALSE
+"739","64.9","649",3,"ldv",FALSE
+"740","64.91","6491",4,"ldv",FALSE
+"741","64.92","6492",4,"ldv",FALSE
+"742","64.99","6499",4,"ldv",FALSE
+"743","65","65",2,"ldv",FALSE
+"744","65.1","651",3,"ldv",FALSE
+"745","65.11","6511",4,"ldv",FALSE
+"746","65.12","6512",4,"ldv",FALSE
+"747","65.2","652",3,"ldv",FALSE
+"748","65.2","6520",4,"ldv",FALSE
+"749","65.3","653",3,"ldv",FALSE
+"750","65.3","6530",4,"ldv",FALSE
+"751","66","66",2,"ldv",FALSE
+"752","66.1","661",3,"ldv",FALSE
+"753","66.11","6611",4,"ldv",FALSE
+"754","66.12","6612",4,"ldv",FALSE
+"755","66.19","6619",4,"ldv",FALSE
+"756","66.2","662",3,"ldv",FALSE
+"757","66.21","6621",4,"ldv",FALSE
+"758","66.22","6622",4,"ldv",FALSE
+"759","66.29","6629",4,"ldv",FALSE
+"760","66.3","663",3,"ldv",FALSE
+"761","66.3","6630",4,"ldv",FALSE
+"762","L","L",1,"ldv",FALSE
+"763","68","68",2,"ldv",FALSE
+"764","68.1","681",3,"ldv",FALSE
+"765","68.1","6810",4,"ldv",FALSE
+"766","68.2","682",3,"ldv",FALSE
+"767","68.2","6820",4,"ldv",FALSE
+"768","68.3","683",3,"ldv",FALSE
+"769","68.31","6831",4,"ldv",FALSE
+"770","68.32","6832",4,"ldv",FALSE
+"771","M","M",1,"ldv",FALSE
+"772","69","69",2,"ldv",FALSE
+"773","69.1","691",3,"ldv",FALSE
+"774","69.1","6910",4,"ldv",FALSE
+"775","69.2","692",3,"ldv",FALSE
+"776","69.2","6920",4,"ldv",FALSE
+"777","70","70",2,"ldv",FALSE
+"778","70.1","701",3,"ldv",FALSE
+"779","70.1","7010",4,"ldv",FALSE
+"780","70.2","702",3,"ldv",FALSE
+"781","70.21","7021",4,"ldv",FALSE
+"782","70.22","7022",4,"ldv",FALSE
+"783","71","71",2,"ldv",FALSE
+"784","71.1","711",3,"ldv",FALSE
+"785","71.11","7111",4,"ldv",FALSE
+"786","71.12","7112",4,"ldv",FALSE
+"787","71.2","712",3,"ldv",FALSE
+"788","71.2","7120",4,"ldv",FALSE
+"789","72","72",2,"ldv",FALSE
+"790","72.1","721",3,"ldv",FALSE
+"791","72.11","7211",4,"ldv",FALSE
+"792","72.19","7219",4,"ldv",FALSE
+"793","72.2","722",3,"ldv",FALSE
+"794","72.2","7220",4,"ldv",FALSE
+"795","73","73",2,"ldv",FALSE
+"796","73.1","731",3,"ldv",FALSE
+"797","73.11","7311",4,"ldv",FALSE
+"798","73.12","7312",4,"ldv",FALSE
+"799","73.2","732",3,"ldv",FALSE
+"800","73.2","7320",4,"ldv",FALSE
+"801","74","74",2,"ldv",FALSE
+"802","74.1","741",3,"ldv",FALSE
+"803","74.1","7410",4,"ldv",FALSE
+"804","74.2","742",3,"ldv",FALSE
+"805","74.2","7420",4,"ldv",FALSE
+"806","74.3","743",3,"ldv",FALSE
+"807","74.3","7430",4,"ldv",FALSE
+"808","74.9","749",3,"ldv",FALSE
+"809","74.9","7490",4,"ldv",FALSE
+"810","75","75",2,"ldv",FALSE
+"811","75","750",3,"ldv",FALSE
+"812","75","7500",4,"ldv",FALSE
+"813","N","N",1,"ldv",FALSE
+"814","77","77",2,"ldv",FALSE
+"815","77.1","771",3,"ldv",FALSE
+"816","77.11","7711",4,"ldv",FALSE
+"817","77.12","7712",4,"ldv",FALSE
+"818","77.2","772",3,"ldv",FALSE
+"819","77.21","7721",4,"ldv",FALSE
+"820","77.22","7722",4,"ldv",FALSE
+"821","77.29","7729",4,"ldv",FALSE
+"822","77.3","773",3,"ldv",FALSE
+"823","77.31","7731",4,"ldv",FALSE
+"824","77.32","7732",4,"ldv",FALSE
+"825","77.33","7733",4,"ldv",FALSE
+"826","77.34","7734",4,"ldv",FALSE
+"827","77.35","7735",4,"ldv",FALSE
+"828","77.39","7739",4,"ldv",FALSE
+"829","77.4","774",3,"ldv",FALSE
+"830","77.4","7740",4,"ldv",FALSE
+"831","78","78",2,"ldv",FALSE
+"832","78.1","781",3,"ldv",FALSE
+"833","78.1","7810",4,"ldv",FALSE
+"834","78.2","782",3,"ldv",FALSE
+"835","78.2","7820",4,"ldv",FALSE
+"836","78.3","783",3,"ldv",FALSE
+"837","78.3","7830",4,"ldv",FALSE
+"838","79","79",2,"ldv",FALSE
+"839","79.1","791",3,"ldv",FALSE
+"840","79.11","7911",4,"ldv",FALSE
+"841","79.12","7912",4,"ldv",FALSE
+"842","79.9","799",3,"ldv",FALSE
+"843","79.9","7990",4,"ldv",FALSE
+"844","80","80",2,"ldv",FALSE
+"845","80.1","801",3,"ldv",FALSE
+"846","80.1","8010",4,"ldv",FALSE
+"847","80.2","802",3,"ldv",FALSE
+"848","80.2","8020",4,"ldv",FALSE
+"849","80.3","803",3,"ldv",FALSE
+"850","80.3","8030",4,"ldv",FALSE
+"851","81","81",2,"ldv",FALSE
+"852","81.1","811",3,"ldv",FALSE
+"853","81.1","8110",4,"ldv",FALSE
+"854","81.2","812",3,"ldv",FALSE
+"855","81.21","8121",4,"ldv",FALSE
+"856","81.22","8122",4,"ldv",FALSE
+"857","81.29","8129",4,"ldv",FALSE
+"858","81.3","813",3,"ldv",FALSE
+"859","81.3","8130",4,"ldv",FALSE
+"860","82","82",2,"ldv",FALSE
+"861","82.1","821",3,"ldv",FALSE
+"862","82.11","8211",4,"ldv",FALSE
+"863","82.19","8219",4,"ldv",FALSE
+"864","82.2","822",3,"ldv",FALSE
+"865","82.2","8220",4,"ldv",FALSE
+"866","82.3","823",3,"ldv",FALSE
+"867","82.3","8230",4,"ldv",FALSE
+"868","82.9","829",3,"ldv",FALSE
+"869","82.91","8291",4,"ldv",FALSE
+"870","82.92","8292",4,"ldv",FALSE
+"871","82.99","8299",4,"ldv",FALSE
+"872","O","O",1,"ldv",FALSE
+"873","84","84",2,"ldv",FALSE
+"874","84.1","841",3,"ldv",FALSE
+"875","84.11","8411",4,"ldv",FALSE
+"876","84.12","8412",4,"ldv",FALSE
+"877","84.13","8413",4,"ldv",FALSE
+"878","84.2","842",3,"ldv",FALSE
+"879","84.21","8421",4,"ldv",FALSE
+"880","84.22","8422",4,"ldv",FALSE
+"881","84.23","8423",4,"ldv",FALSE
+"882","84.24","8424",4,"ldv",FALSE
+"883","84.25","8425",4,"ldv",FALSE
+"884","84.3","843",3,"ldv",FALSE
+"885","84.3","8430",4,"ldv",FALSE
+"886","P","P",1,"ldv",FALSE
+"887","85","85",2,"ldv",FALSE
+"888","85.1","851",3,"ldv",FALSE
+"889","85.1","8510",4,"ldv",FALSE
+"890","85.2","852",3,"ldv",FALSE
+"891","85.2","8520",4,"ldv",FALSE
+"892","85.3","853",3,"ldv",FALSE
+"893","85.31","8531",4,"ldv",FALSE
+"894","85.32","8532",4,"ldv",FALSE
+"895","85.4","854",3,"ldv",FALSE
+"896","85.41","8541",4,"ldv",FALSE
+"897","85.42","8542",4,"ldv",FALSE
+"898","85.5","855",3,"ldv",FALSE
+"899","85.51","8551",4,"ldv",FALSE
+"900","85.52","8552",4,"ldv",FALSE
+"901","85.53","8553",4,"ldv",FALSE
+"902","85.59","8559",4,"ldv",FALSE
+"903","85.6","856",3,"ldv",FALSE
+"904","85.6","8560",4,"ldv",FALSE
+"905","Q","Q",1,"ldv",FALSE
+"906","86","86",2,"ldv",FALSE
+"907","86.1","861",3,"ldv",FALSE
+"908","86.1","8610",4,"ldv",FALSE
+"909","86.2","862",3,"ldv",FALSE
+"910","86.21","8621",4,"ldv",FALSE
+"911","86.22","8622",4,"ldv",FALSE
+"912","86.23","8623",4,"ldv",FALSE
+"913","86.9","869",3,"ldv",FALSE
+"914","86.9","8690",4,"ldv",FALSE
+"915","87","87",2,"ldv",FALSE
+"916","87.1","871",3,"ldv",FALSE
+"917","87.1","8710",4,"ldv",FALSE
+"918","87.2","872",3,"ldv",FALSE
+"919","87.2","8720",4,"ldv",FALSE
+"920","87.3","873",3,"ldv",FALSE
+"921","87.3","8730",4,"ldv",FALSE
+"922","87.9","879",3,"ldv",FALSE
+"923","87.9","8790",4,"ldv",FALSE
+"924","88","88",2,"ldv",FALSE
+"925","88.1","881",3,"ldv",FALSE
+"926","88.1","8810",4,"ldv",FALSE
+"927","88.9","889",3,"ldv",FALSE
+"928","88.91","8891",4,"ldv",FALSE
+"929","88.99","8899",4,"ldv",FALSE
+"930","R","R",1,"ldv",FALSE
+"931","90","90",2,"ldv",FALSE
+"932","90","900",3,"ldv",FALSE
+"933","90.01","9001",4,"ldv",FALSE
+"934","90.02","9002",4,"ldv",FALSE
+"935","90.03","9003",4,"ldv",FALSE
+"936","90.04","9004",4,"ldv",FALSE
+"937","91","91",2,"ldv",FALSE
+"938","91","910",3,"ldv",FALSE
+"939","91.01","9101",4,"ldv",FALSE
+"940","91.02","9102",4,"ldv",FALSE
+"941","91.03","9103",4,"ldv",FALSE
+"942","91.04","9104",4,"ldv",FALSE
+"943","92","92",2,"ldv",FALSE
+"944","92","920",3,"ldv",FALSE
+"945","92","9200",4,"ldv",FALSE
+"946","93","93",2,"ldv",FALSE
+"947","93.1","931",3,"ldv",FALSE
+"948","93.11","9311",4,"ldv",FALSE
+"949","93.12","9312",4,"ldv",FALSE
+"950","93.13","9313",4,"ldv",FALSE
+"951","93.19","9319",4,"ldv",FALSE
+"952","93.2","932",3,"ldv",FALSE
+"953","93.21","9321",4,"ldv",FALSE
+"954","93.29","9329",4,"ldv",FALSE
+"955","S","S",1,"ldv",FALSE
+"956","94","94",2,"ldv",FALSE
+"957","94.1","941",3,"ldv",FALSE
+"958","94.11","9411",4,"ldv",FALSE
+"959","94.12","9412",4,"ldv",FALSE
+"960","94.2","942",3,"ldv",FALSE
+"961","94.2","9420",4,"ldv",FALSE
+"962","94.9","949",3,"ldv",FALSE
+"963","94.91","9491",4,"ldv",FALSE
+"964","94.92","9492",4,"ldv",FALSE
+"965","94.99","9499",4,"ldv",FALSE
+"966","95","95",2,"ldv",FALSE
+"967","95.1","951",3,"ldv",FALSE
+"968","95.11","9511",4,"ldv",FALSE
+"969","95.12","9512",4,"ldv",FALSE
+"970","95.2","952",3,"ldv",FALSE
+"971","95.21","9521",4,"ldv",FALSE
+"972","95.22","9522",4,"ldv",FALSE
+"973","95.23","9523",4,"ldv",FALSE
+"974","95.24","9524",4,"ldv",FALSE
+"975","95.25","9525",4,"ldv",FALSE
+"976","95.29","9529",4,"ldv",FALSE
+"977","96","96",2,"ldv",FALSE
+"978","96","960",3,"ldv",FALSE
+"979","96.01","9601",4,"ldv",FALSE
+"980","96.02","9602",4,"ldv",FALSE
+"981","96.03","9603",4,"ldv",FALSE
+"982","96.04","9604",4,"ldv",FALSE
+"983","96.09","9609",4,"ldv",FALSE
+"984","T","T",1,"ldv",FALSE
+"985","97","97",2,"ldv",FALSE
+"986","97","970",3,"ldv",FALSE
+"987","97","9700",4,"ldv",FALSE
+"988","98","98",2,"ldv",FALSE
+"989","98.1","981",3,"ldv",FALSE
+"990","98.1","9810",4,"ldv",FALSE
+"991","98.2","982",3,"ldv",FALSE
+"992","98.2","9820",4,"ldv",FALSE
+"993","U","U",1,"ldv",FALSE
+"994","99","99",2,"ldv",FALSE
+"995","99","990",3,"ldv",FALSE
+"996","99","9900",4,"ldv",FALSE
+"997","A","A",1,"hdv",FALSE
+"998","1","10",2,"hdv",FALSE
+"999","1.1","110",3,"hdv",FALSE
+"1000","1.11","1110",4,"hdv",FALSE
+"1001","1.12","1120",4,"hdv",FALSE
+"1002","1.13","1130",4,"hdv",FALSE
+"1003","1.14","1140",4,"hdv",FALSE
+"1004","1.15","1150",4,"hdv",FALSE
+"1005","1.16","1160",4,"hdv",FALSE
+"1006","1.19","1190",4,"hdv",FALSE
+"1007","1.2","120",3,"hdv",FALSE
+"1008","1.21","1210",4,"hdv",FALSE
+"1009","1.22","1220",4,"hdv",FALSE
+"1010","1.23","1230",4,"hdv",FALSE
+"1011","1.24","1240",4,"hdv",FALSE
+"1012","1.25","1250",4,"hdv",FALSE
+"1013","1.26","1260",4,"hdv",FALSE
+"1014","1.27","1270",4,"hdv",FALSE
+"1015","1.28","1280",4,"hdv",FALSE
+"1016","1.29","1290",4,"hdv",FALSE
+"1017","1.3","130",3,"hdv",FALSE
+"1018","1.3","1300",4,"hdv",FALSE
+"1019","1.4","140",3,"hdv",FALSE
+"1020","1.41","1410",4,"hdv",FALSE
+"1021","1.42","1420",4,"hdv",FALSE
+"1022","1.43","1430",4,"hdv",FALSE
+"1023","1.44","1440",4,"hdv",FALSE
+"1024","1.45","1450",4,"hdv",FALSE
+"1025","1.46","1460",4,"hdv",FALSE
+"1026","1.47","1470",4,"hdv",FALSE
+"1027","1.49","1490",4,"hdv",FALSE
+"1028","1.5","150",3,"hdv",FALSE
+"1029","1.5","1500",4,"hdv",FALSE
+"1030","1.6","160",3,"hdv",FALSE
+"1031","1.61","1610",4,"hdv",FALSE
+"1032","1.62","1620",4,"hdv",FALSE
+"1033","1.63","1630",4,"hdv",FALSE
+"1034","1.64","1640",4,"hdv",FALSE
+"1035","1.7","170",3,"hdv",FALSE
+"1036","1.7","1700",4,"hdv",FALSE
+"1037","2","20",2,"hdv",FALSE
+"1038","2.1","210",3,"hdv",FALSE
+"1039","2.1","2100",4,"hdv",FALSE
+"1040","2.2","220",3,"hdv",FALSE
+"1041","2.2","2200",4,"hdv",FALSE
+"1042","2.3","230",3,"hdv",FALSE
+"1043","2.3","2300",4,"hdv",FALSE
+"1044","2.4","240",3,"hdv",FALSE
+"1045","2.4","2400",4,"hdv",FALSE
+"1046","3","30",2,"hdv",FALSE
+"1047","3.1","310",3,"hdv",FALSE
+"1048","3.11","3110",4,"hdv",FALSE
+"1049","3.12","3120",4,"hdv",FALSE
+"1050","3.2","320",3,"hdv",FALSE
+"1051","3.21","3210",4,"hdv",FALSE
+"1052","3.22","3220",4,"hdv",FALSE
+"1053","B","B",1,"hdv",FALSE
+"1054","5","50",2,"hdv",FALSE
+"1055","5.1","510",3,"hdv",FALSE
+"1056","5.1","5100",4,"hdv",FALSE
+"1057","5.2","520",3,"hdv",FALSE
+"1058","5.2","5200",4,"hdv",FALSE
+"1059","6","60",2,"hdv",FALSE
+"1060","6.1","610",3,"hdv",FALSE
+"1061","6.1","6100",4,"hdv",FALSE
+"1062","6.2","620",3,"hdv",FALSE
+"1063","6.2","6200",4,"hdv",FALSE
+"1064","7","70",2,"hdv",FALSE
+"1065","7.1","710",3,"hdv",FALSE
+"1066","7.1","7100",4,"hdv",FALSE
+"1067","7.2","720",3,"hdv",FALSE
+"1068","7.21","7210",4,"hdv",FALSE
+"1069","7.29","7290",4,"hdv",FALSE
+"1070","8","80",2,"hdv",FALSE
+"1071","8.1","810",3,"hdv",FALSE
+"1072","8.11","8110",4,"hdv",FALSE
+"1073","8.12","8120",4,"hdv",FALSE
+"1074","8.9","890",3,"hdv",FALSE
+"1075","8.91","8910",4,"hdv",FALSE
+"1076","8.92","8920",4,"hdv",FALSE
+"1077","8.93","8930",4,"hdv",FALSE
+"1078","8.99","8990",4,"hdv",FALSE
+"1079","9","90",2,"hdv",FALSE
+"1080","9.1","910",3,"hdv",TRUE
+"1081","9.1","9100",4,"hdv",TRUE
+"1082","9.9","990",3,"hdv",FALSE
+"1083","9.9","9900",4,"hdv",FALSE
+"1084","C","C",1,"hdv",FALSE
+"1085","10","10",2,"hdv",FALSE
+"1086","10.1","101",3,"hdv",FALSE
+"1087","10.11","1011",4,"hdv",FALSE
+"1088","10.12","1012",4,"hdv",FALSE
+"1089","10.13","1013",4,"hdv",FALSE
+"1090","10.2","102",3,"hdv",FALSE
+"1091","10.2","1020",4,"hdv",FALSE
+"1092","10.3","103",3,"hdv",FALSE
+"1093","10.31","1031",4,"hdv",FALSE
+"1094","10.32","1032",4,"hdv",FALSE
+"1095","10.39","1039",4,"hdv",FALSE
+"1096","10.4","104",3,"hdv",FALSE
+"1097","10.41","1041",4,"hdv",FALSE
+"1098","10.42","1042",4,"hdv",FALSE
+"1099","10.5","105",3,"hdv",FALSE
+"1100","10.51","1051",4,"hdv",FALSE
+"1101","10.52","1052",4,"hdv",FALSE
+"1102","10.6","106",3,"hdv",FALSE
+"1103","10.61","1061",4,"hdv",FALSE
+"1104","10.62","1062",4,"hdv",FALSE
+"1105","10.7","107",3,"hdv",FALSE
+"1106","10.71","1071",4,"hdv",FALSE
+"1107","10.72","1072",4,"hdv",FALSE
+"1108","10.73","1073",4,"hdv",FALSE
+"1109","10.8","108",3,"hdv",FALSE
+"1110","10.81","1081",4,"hdv",FALSE
+"1111","10.82","1082",4,"hdv",FALSE
+"1112","10.83","1083",4,"hdv",FALSE
+"1113","10.84","1084",4,"hdv",FALSE
+"1114","10.85","1085",4,"hdv",FALSE
+"1115","10.86","1086",4,"hdv",FALSE
+"1116","10.89","1089",4,"hdv",FALSE
+"1117","10.9","109",3,"hdv",FALSE
+"1118","10.91","1091",4,"hdv",FALSE
+"1119","10.92","1092",4,"hdv",FALSE
+"1120","11","11",2,"hdv",FALSE
+"1121","11","110",3,"hdv",FALSE
+"1122","11.01","1101",4,"hdv",FALSE
+"1123","11.02","1102",4,"hdv",FALSE
+"1124","11.03","1103",4,"hdv",FALSE
+"1125","11.04","1104",4,"hdv",FALSE
+"1126","11.05","1105",4,"hdv",FALSE
+"1127","11.06","1106",4,"hdv",FALSE
+"1128","11.07","1107",4,"hdv",FALSE
+"1129","12","12",2,"hdv",FALSE
+"1130","12","120",3,"hdv",FALSE
+"1131","12","1200",4,"hdv",FALSE
+"1132","13","13",2,"hdv",FALSE
+"1133","13.1","131",3,"hdv",FALSE
+"1134","13.1","1310",4,"hdv",FALSE
+"1135","13.2","132",3,"hdv",FALSE
+"1136","13.2","1320",4,"hdv",FALSE
+"1137","13.3","133",3,"hdv",FALSE
+"1138","13.3","1330",4,"hdv",FALSE
+"1139","13.9","139",3,"hdv",FALSE
+"1140","13.91","1391",4,"hdv",FALSE
+"1141","13.92","1392",4,"hdv",FALSE
+"1142","13.93","1393",4,"hdv",FALSE
+"1143","13.94","1394",4,"hdv",FALSE
+"1144","13.95","1395",4,"hdv",FALSE
+"1145","13.96","1396",4,"hdv",FALSE
+"1146","13.99","1399",4,"hdv",FALSE
+"1147","14","14",2,"hdv",FALSE
+"1148","14.1","141",3,"hdv",FALSE
+"1149","14.11","1411",4,"hdv",FALSE
+"1150","14.12","1412",4,"hdv",FALSE
+"1151","14.13","1413",4,"hdv",FALSE
+"1152","14.14","1414",4,"hdv",FALSE
+"1153","14.19","1419",4,"hdv",FALSE
+"1154","14.2","142",3,"hdv",FALSE
+"1155","14.2","1420",4,"hdv",FALSE
+"1156","14.3","143",3,"hdv",FALSE
+"1157","14.31","1431",4,"hdv",FALSE
+"1158","14.39","1439",4,"hdv",FALSE
+"1159","15","15",2,"hdv",FALSE
+"1160","15.1","151",3,"hdv",FALSE
+"1161","15.11","1511",4,"hdv",FALSE
+"1162","15.12","1512",4,"hdv",FALSE
+"1163","15.2","152",3,"hdv",FALSE
+"1164","15.2","1520",4,"hdv",FALSE
+"1165","16","16",2,"hdv",FALSE
+"1166","16.1","161",3,"hdv",FALSE
+"1167","16.1","1610",4,"hdv",FALSE
+"1168","16.2","162",3,"hdv",FALSE
+"1169","16.21","1621",4,"hdv",FALSE
+"1170","16.22","1622",4,"hdv",FALSE
+"1171","16.23","1623",4,"hdv",FALSE
+"1172","16.24","1624",4,"hdv",FALSE
+"1173","16.29","1629",4,"hdv",FALSE
+"1174","17","17",2,"hdv",FALSE
+"1175","17.1","171",3,"hdv",FALSE
+"1176","17.11","1711",4,"hdv",FALSE
+"1177","17.12","1712",4,"hdv",FALSE
+"1178","17.2","172",3,"hdv",FALSE
+"1179","17.21","1721",4,"hdv",FALSE
+"1180","17.22","1722",4,"hdv",FALSE
+"1181","17.23","1723",4,"hdv",FALSE
+"1182","17.24","1724",4,"hdv",FALSE
+"1183","17.29","1729",4,"hdv",FALSE
+"1184","18","18",2,"hdv",FALSE
+"1185","18.1","181",3,"hdv",FALSE
+"1186","18.11","1811",4,"hdv",FALSE
+"1187","18.12","1812",4,"hdv",FALSE
+"1188","18.13","1813",4,"hdv",FALSE
+"1189","18.14","1814",4,"hdv",FALSE
+"1190","18.2","182",3,"hdv",FALSE
+"1191","18.2","1820",4,"hdv",FALSE
+"1192","19","19",2,"hdv",FALSE
+"1193","19.1","191",3,"hdv",FALSE
+"1194","19.1","1910",4,"hdv",FALSE
+"1195","19.2","192",3,"hdv",FALSE
+"1196","19.2","1920",4,"hdv",FALSE
+"1197","20","20",2,"hdv",FALSE
+"1198","20.1","201",3,"hdv",FALSE
+"1199","20.11","2011",4,"hdv",FALSE
+"1200","20.12","2012",4,"hdv",FALSE
+"1201","20.13","2013",4,"hdv",FALSE
+"1202","20.14","2014",4,"hdv",FALSE
+"1203","20.15","2015",4,"hdv",FALSE
+"1204","20.16","2016",4,"hdv",FALSE
+"1205","20.17","2017",4,"hdv",FALSE
+"1206","20.2","202",3,"hdv",FALSE
+"1207","20.2","2020",4,"hdv",FALSE
+"1208","20.3","203",3,"hdv",FALSE
+"1209","20.3","2030",4,"hdv",FALSE
+"1210","20.4","204",3,"hdv",FALSE
+"1211","20.41","2041",4,"hdv",FALSE
+"1212","20.42","2042",4,"hdv",FALSE
+"1213","20.5","205",3,"hdv",FALSE
+"1214","20.51","2051",4,"hdv",FALSE
+"1215","20.52","2052",4,"hdv",FALSE
+"1216","20.53","2053",4,"hdv",FALSE
+"1217","20.59","2059",4,"hdv",FALSE
+"1218","20.6","206",3,"hdv",FALSE
+"1219","20.6","2060",4,"hdv",FALSE
+"1220","21","21",2,"hdv",FALSE
+"1221","21.1","211",3,"hdv",FALSE
+"1222","21.1","2110",4,"hdv",FALSE
+"1223","21.2","212",3,"hdv",FALSE
+"1224","21.2","2120",4,"hdv",FALSE
+"1225","22","22",2,"hdv",FALSE
+"1226","22.1","221",3,"hdv",FALSE
+"1227","22.11","2211",4,"hdv",FALSE
+"1228","22.19","2219",4,"hdv",FALSE
+"1229","22.2","222",3,"hdv",FALSE
+"1230","22.21","2221",4,"hdv",FALSE
+"1231","22.22","2222",4,"hdv",FALSE
+"1232","22.23","2223",4,"hdv",FALSE
+"1233","22.29","2229",4,"hdv",FALSE
+"1234","23","23",2,"hdv",FALSE
+"1235","23.1","231",3,"hdv",FALSE
+"1236","23.11","2311",4,"hdv",FALSE
+"1237","23.12","2312",4,"hdv",FALSE
+"1238","23.13","2313",4,"hdv",FALSE
+"1239","23.14","2314",4,"hdv",FALSE
+"1240","23.19","2319",4,"hdv",FALSE
+"1241","23.2","232",3,"hdv",FALSE
+"1242","23.2","2320",4,"hdv",FALSE
+"1243","23.3","233",3,"hdv",FALSE
+"1244","23.31","2331",4,"hdv",FALSE
+"1245","23.32","2332",4,"hdv",FALSE
+"1246","23.4","234",3,"hdv",FALSE
+"1247","23.41","2341",4,"hdv",FALSE
+"1248","23.42","2342",4,"hdv",FALSE
+"1249","23.43","2343",4,"hdv",FALSE
+"1250","23.44","2344",4,"hdv",FALSE
+"1251","23.49","2349",4,"hdv",FALSE
+"1252","23.5","235",3,"hdv",FALSE
+"1253","23.51","2351",4,"hdv",FALSE
+"1254","23.52","2352",4,"hdv",TRUE
+"1255","23.6","236",3,"hdv",TRUE
+"1256","23.61","2361",4,"hdv",TRUE
+"1257","23.62","2362",4,"hdv",FALSE
+"1258","23.63","2363",4,"hdv",FALSE
+"1259","23.64","2364",4,"hdv",FALSE
+"1260","23.65","2365",4,"hdv",TRUE
+"1261","23.69","2369",4,"hdv",TRUE
+"1262","23.7","237",3,"hdv",FALSE
+"1263","23.7","2370",4,"hdv",FALSE
+"1264","23.9","239",3,"hdv",FALSE
+"1265","23.91","2391",4,"hdv",FALSE
+"1266","23.99","2399",4,"hdv",FALSE
+"1267","24","24",2,"hdv",TRUE
+"1268","24.1","241",3,"hdv",FALSE
+"1269","24.1","2410",4,"hdv",FALSE
+"1270","24.2","242",3,"hdv",TRUE
+"1271","24.2","2420",4,"hdv",TRUE
+"1272","24.3","243",3,"hdv",TRUE
+"1273","24.31","2431",4,"hdv",TRUE
+"1274","24.32","2432",4,"hdv",TRUE
+"1275","24.33","2433",4,"hdv",TRUE
+"1276","24.34","2434",4,"hdv",TRUE
+"1277","24.4","244",3,"hdv",FALSE
+"1278","24.41","2441",4,"hdv",FALSE
+"1279","24.42","2442",4,"hdv",FALSE
+"1280","24.43","2443",4,"hdv",FALSE
+"1281","24.44","2444",4,"hdv",FALSE
+"1282","24.45","2445",4,"hdv",FALSE
+"1283","24.46","2446",4,"hdv",FALSE
+"1284","24.5","245",3,"hdv",FALSE
+"1285","24.51","2451",4,"hdv",FALSE
+"1286","24.52","2452",4,"hdv",TRUE
+"1287","24.53","2453",4,"hdv",FALSE
+"1288","24.54","2454",4,"hdv",FALSE
+"1289","25","25",2,"hdv",FALSE
+"1290","25.1","251",3,"hdv",FALSE
+"1291","25.11","2511",4,"hdv",FALSE
+"1292","25.12","2512",4,"hdv",FALSE
+"1293","25.2","252",3,"hdv",FALSE
+"1294","25.21","2521",4,"hdv",FALSE
+"1295","25.29","2529",4,"hdv",FALSE
+"1296","25.3","253",3,"hdv",FALSE
+"1297","25.3","2530",4,"hdv",FALSE
+"1298","25.4","254",3,"hdv",FALSE
+"1299","25.4","2540",4,"hdv",FALSE
+"1300","25.5","255",3,"hdv",FALSE
+"1301","25.5","2550",4,"hdv",FALSE
+"1302","25.6","256",3,"hdv",FALSE
+"1303","25.61","2561",4,"hdv",FALSE
+"1304","25.62","2562",4,"hdv",FALSE
+"1305","25.7","257",3,"hdv",FALSE
+"1306","25.71","2571",4,"hdv",FALSE
+"1307","25.72","2572",4,"hdv",FALSE
+"1308","25.73","2573",4,"hdv",FALSE
+"1309","25.9","259",3,"hdv",FALSE
+"1310","25.91","2591",4,"hdv",FALSE
+"1311","25.92","2592",4,"hdv",FALSE
+"1312","25.93","2593",4,"hdv",FALSE
+"1313","25.94","2594",4,"hdv",FALSE
+"1314","25.99","2599",4,"hdv",FALSE
+"1315","26","26",2,"hdv",FALSE
+"1316","26.1","261",3,"hdv",FALSE
+"1317","26.11","2611",4,"hdv",FALSE
+"1318","26.12","2612",4,"hdv",FALSE
+"1319","26.2","262",3,"hdv",FALSE
+"1320","26.2","2620",4,"hdv",FALSE
+"1321","26.3","263",3,"hdv",FALSE
+"1322","26.3","2630",4,"hdv",FALSE
+"1323","26.4","264",3,"hdv",FALSE
+"1324","26.4","2640",4,"hdv",FALSE
+"1325","26.5","265",3,"hdv",FALSE
+"1326","26.51","2651",4,"hdv",FALSE
+"1327","26.52","2652",4,"hdv",FALSE
+"1328","26.6","266",3,"hdv",FALSE
+"1329","26.6","2660",4,"hdv",FALSE
+"1330","26.7","267",3,"hdv",FALSE
+"1331","26.7","2670",4,"hdv",FALSE
+"1332","26.8","268",3,"hdv",FALSE
+"1333","26.8","2680",4,"hdv",FALSE
+"1334","27","27",2,"hdv",FALSE
+"1335","27.1","271",3,"hdv",FALSE
+"1336","27.11","2711",4,"hdv",FALSE
+"1337","27.12","2712",4,"hdv",FALSE
+"1338","27.2","272",3,"hdv",FALSE
+"1339","27.2","2720",4,"hdv",FALSE
+"1340","27.3","273",3,"hdv",FALSE
+"1341","27.31","2731",4,"hdv",FALSE
+"1342","27.32","2732",4,"hdv",FALSE
+"1343","27.33","2733",4,"hdv",FALSE
+"1344","27.4","274",3,"hdv",FALSE
+"1345","27.4","2740",4,"hdv",FALSE
+"1346","27.5","275",3,"hdv",FALSE
+"1347","27.51","2751",4,"hdv",FALSE
+"1348","27.52","2752",4,"hdv",FALSE
+"1349","27.9","279",3,"hdv",FALSE
+"1350","27.9","2790",4,"hdv",FALSE
+"1351","28","28",2,"hdv",FALSE
+"1352","28.1","281",3,"hdv",FALSE
+"1353","28.11","2811",4,"hdv",FALSE
+"1354","28.12","2812",4,"hdv",FALSE
+"1355","28.13","2813",4,"hdv",FALSE
+"1356","28.14","2814",4,"hdv",FALSE
+"1357","28.15","2815",4,"hdv",FALSE
+"1358","28.2","282",3,"hdv",FALSE
+"1359","28.21","2821",4,"hdv",FALSE
+"1360","28.22","2822",4,"hdv",FALSE
+"1361","28.23","2823",4,"hdv",FALSE
+"1362","28.24","2824",4,"hdv",FALSE
+"1363","28.25","2825",4,"hdv",FALSE
+"1364","28.29","2829",4,"hdv",FALSE
+"1365","28.3","283",3,"hdv",FALSE
+"1366","28.3","2830",4,"hdv",FALSE
+"1367","28.4","284",3,"hdv",FALSE
+"1368","28.41","2841",4,"hdv",FALSE
+"1369","28.49","2849",4,"hdv",FALSE
+"1370","28.9","289",3,"hdv",FALSE
+"1371","28.91","2891",4,"hdv",FALSE
+"1372","28.92","2892",4,"hdv",FALSE
+"1373","28.93","2893",4,"hdv",FALSE
+"1374","28.94","2894",4,"hdv",FALSE
+"1375","28.95","2895",4,"hdv",FALSE
+"1376","28.96","2896",4,"hdv",FALSE
+"1377","28.99","2899",4,"hdv",FALSE
+"1378","29","29",2,"hdv",FALSE
+"1379","29.1","291",3,"hdv",FALSE
+"1380","29.2","292",3,"hdv",FALSE
+"1381","29.3","293",3,"hdv",FALSE
+"1382","29.10","2910",4,"hdv",FALSE
+"1383","29.20","2920",4,"hdv",TRUE
+"1384","29.31","2931",4,"hdv",FALSE
+"1385","29.32","2932",4,"hdv",TRUE
+"1386","30","30",2,"hdv",FALSE
+"1387","30.1","301",3,"hdv",FALSE
+"1388","30.11","3011",4,"hdv",FALSE
+"1389","30.12","3012",4,"hdv",FALSE
+"1390","30.2","302",3,"hdv",FALSE
+"1391","30.2","3020",4,"hdv",FALSE
+"1392","30.3","303",3,"hdv",TRUE
+"1393","30.3","3030",4,"hdv",TRUE
+"1394","30.4","304",3,"hdv",FALSE
+"1395","30.4","3040",4,"hdv",FALSE
+"1396","30.9","309",3,"hdv",FALSE
+"1397","30.91","3091",4,"hdv",FALSE
+"1398","30.92","3092",4,"hdv",FALSE
+"1399","30.99","3099",4,"hdv",FALSE
+"1400","31","31",2,"hdv",FALSE
+"1401","31","310",3,"hdv",FALSE
+"1402","31.01","3101",4,"hdv",FALSE
+"1403","31.02","3102",4,"hdv",FALSE
+"1404","31.03","3103",4,"hdv",FALSE
+"1405","31.09","3109",4,"hdv",FALSE
+"1406","32","32",2,"hdv",FALSE
+"1407","32.1","321",3,"hdv",FALSE
+"1408","32.11","3211",4,"hdv",FALSE
+"1409","32.12","3212",4,"hdv",FALSE
+"1410","32.13","3213",4,"hdv",FALSE
+"1411","32.2","322",3,"hdv",FALSE
+"1412","32.2","3220",4,"hdv",FALSE
+"1413","32.3","323",3,"hdv",FALSE
+"1414","32.3","3230",4,"hdv",FALSE
+"1415","32.4","324",3,"hdv",FALSE
+"1416","32.4","3240",4,"hdv",FALSE
+"1417","32.5","325",3,"hdv",FALSE
+"1418","32.5","3250",4,"hdv",FALSE
+"1419","32.9","329",3,"hdv",FALSE
+"1420","32.91","3291",4,"hdv",FALSE
+"1421","32.99","3299",4,"hdv",FALSE
+"1422","33","33",2,"hdv",FALSE
+"1423","33.1","331",3,"hdv",FALSE
+"1424","33.11","3311",4,"hdv",FALSE
+"1425","33.12","3312",4,"hdv",FALSE
+"1426","33.13","3313",4,"hdv",FALSE
+"1427","33.14","3314",4,"hdv",FALSE
+"1428","33.15","3315",4,"hdv",FALSE
+"1429","33.16","3316",4,"hdv",FALSE
+"1430","33.17","3317",4,"hdv",FALSE
+"1431","33.19","3319",4,"hdv",FALSE
+"1432","33.2","332",3,"hdv",FALSE
+"1433","33.2","3320",4,"hdv",FALSE
+"1434","D","D",1,"hdv",FALSE
+"1435","35","35",2,"hdv",NA
+"1436","35.1","351",3,"hdv",FALSE
+"1437","35.11","3511",4,"hdv",FALSE
+"1438","35.12","3512",4,"hdv",TRUE
+"1439","35.13","3513",4,"hdv",TRUE
+"1440","35.14","3514",4,"hdv",TRUE
+"1441","35.2","352",3,"hdv",TRUE
+"1442","35.21","3521",4,"hdv",TRUE
+"1443","35.22","3522",4,"hdv",TRUE
+"1444","35.23","3523",4,"hdv",TRUE
+"1445","35.3","353",3,"hdv",FALSE
+"1446","35.3","3530",4,"hdv",FALSE
+"1447","E","E",1,"hdv",FALSE
+"1448","36","36",2,"hdv",FALSE
+"1449","36","360",3,"hdv",FALSE
+"1450","36","3600",4,"hdv",FALSE
+"1451","37","37",2,"hdv",FALSE
+"1452","37","370",3,"hdv",FALSE
+"1453","37","3700",4,"hdv",FALSE
+"1454","38","38",2,"hdv",FALSE
+"1455","38.1","381",3,"hdv",FALSE
+"1456","38.11","3811",4,"hdv",FALSE
+"1457","38.12","3812",4,"hdv",FALSE
+"1458","38.2","382",3,"hdv",FALSE
+"1459","38.21","3821",4,"hdv",FALSE
+"1460","38.22","3822",4,"hdv",FALSE
+"1461","38.3","383",3,"hdv",FALSE
+"1462","38.31","3831",4,"hdv",FALSE
+"1463","38.32","3832",4,"hdv",FALSE
+"1464","39","39",2,"hdv",FALSE
+"1465","39","390",3,"hdv",FALSE
+"1466","39","3900",4,"hdv",FALSE
+"1467","F","F",1,"hdv",FALSE
+"1468","41","41",2,"hdv",FALSE
+"1469","41.1","411",3,"hdv",FALSE
+"1470","41.1","4110",4,"hdv",FALSE
+"1471","41.2","412",3,"hdv",FALSE
+"1472","41.2","4120",4,"hdv",FALSE
+"1473","42","42",2,"hdv",FALSE
+"1474","42.1","421",3,"hdv",FALSE
+"1475","42.11","4211",4,"hdv",FALSE
+"1476","42.12","4212",4,"hdv",FALSE
+"1477","42.13","4213",4,"hdv",FALSE
+"1478","42.2","422",3,"hdv",FALSE
+"1479","42.21","4221",4,"hdv",FALSE
+"1480","42.22","4222",4,"hdv",FALSE
+"1481","42.9","429",3,"hdv",FALSE
+"1482","42.91","4291",4,"hdv",FALSE
+"1483","42.99","4299",4,"hdv",FALSE
+"1484","43","43",2,"hdv",FALSE
+"1485","43.1","431",3,"hdv",FALSE
+"1486","43.11","4311",4,"hdv",FALSE
+"1487","43.12","4312",4,"hdv",FALSE
+"1488","43.13","4313",4,"hdv",FALSE
+"1489","43.2","432",3,"hdv",FALSE
+"1490","43.21","4321",4,"hdv",FALSE
+"1491","43.22","4322",4,"hdv",FALSE
+"1492","43.29","4329",4,"hdv",FALSE
+"1493","43.3","433",3,"hdv",FALSE
+"1494","43.31","4331",4,"hdv",FALSE
+"1495","43.32","4332",4,"hdv",FALSE
+"1496","43.33","4333",4,"hdv",FALSE
+"1497","43.34","4334",4,"hdv",FALSE
+"1498","43.39","4339",4,"hdv",FALSE
+"1499","43.9","439",3,"hdv",FALSE
+"1500","43.91","4391",4,"hdv",FALSE
+"1501","43.99","4399",4,"hdv",FALSE
+"1502","G","G",1,"hdv",FALSE
+"1503","45","45",2,"hdv",FALSE
+"1504","45.1","451",3,"hdv",TRUE
+"1505","45.11","4511",4,"hdv",TRUE
+"1506","45.19","4519",4,"hdv",TRUE
+"1507","45.2","452",3,"hdv",FALSE
+"1508","45.2","4520",4,"hdv",FALSE
+"1509","45.3","453",3,"hdv",FALSE
+"1510","45.31","4531",4,"hdv",FALSE
+"1511","45.32","4532",4,"hdv",FALSE
+"1512","45.4","454",3,"hdv",FALSE
+"1513","45.4","4540",4,"hdv",FALSE
+"1514","46","46",2,"hdv",FALSE
+"1515","46.1","461",3,"hdv",FALSE
+"1516","46.11","4611",4,"hdv",FALSE
+"1517","46.12","4612",4,"hdv",FALSE
+"1518","46.13","4613",4,"hdv",FALSE
+"1519","46.14","4614",4,"hdv",FALSE
+"1520","46.15","4615",4,"hdv",FALSE
+"1521","46.16","4616",4,"hdv",FALSE
+"1522","46.17","4617",4,"hdv",FALSE
+"1523","46.18","4618",4,"hdv",FALSE
+"1524","46.19","4619",4,"hdv",FALSE
+"1525","46.2","462",3,"hdv",FALSE
+"1526","46.21","4621",4,"hdv",FALSE
+"1527","46.22","4622",4,"hdv",FALSE
+"1528","46.23","4623",4,"hdv",FALSE
+"1529","46.24","4624",4,"hdv",FALSE
+"1530","46.3","463",3,"hdv",FALSE
+"1531","46.31","4631",4,"hdv",FALSE
+"1532","46.32","4632",4,"hdv",FALSE
+"1533","46.33","4633",4,"hdv",FALSE
+"1534","46.34","4634",4,"hdv",FALSE
+"1535","46.35","4635",4,"hdv",FALSE
+"1536","46.36","4636",4,"hdv",FALSE
+"1537","46.37","4637",4,"hdv",FALSE
+"1538","46.38","4638",4,"hdv",FALSE
+"1539","46.39","4639",4,"hdv",FALSE
+"1540","46.4","464",3,"hdv",FALSE
+"1541","46.41","4641",4,"hdv",FALSE
+"1542","46.42","4642",4,"hdv",FALSE
+"1543","46.43","4643",4,"hdv",FALSE
+"1544","46.44","4644",4,"hdv",FALSE
+"1545","46.45","4645",4,"hdv",FALSE
+"1546","46.46","4646",4,"hdv",FALSE
+"1547","46.47","4647",4,"hdv",FALSE
+"1548","46.48","4648",4,"hdv",FALSE
+"1549","46.49","4649",4,"hdv",FALSE
+"1550","46.5","465",3,"hdv",FALSE
+"1551","46.51","4651",4,"hdv",FALSE
+"1552","46.52","4652",4,"hdv",FALSE
+"1553","46.6","466",3,"hdv",FALSE
+"1554","46.61","4661",4,"hdv",FALSE
+"1555","46.62","4662",4,"hdv",FALSE
+"1556","46.63","4663",4,"hdv",FALSE
+"1557","46.64","4664",4,"hdv",FALSE
+"1558","46.65","4665",4,"hdv",FALSE
+"1559","46.66","4666",4,"hdv",FALSE
+"1560","46.69","4669",4,"hdv",FALSE
+"1561","46.7","467",3,"hdv",FALSE
+"1562","46.71","4671",4,"hdv",FALSE
+"1563","46.72","4672",4,"hdv",FALSE
+"1564","46.73","4673",4,"hdv",FALSE
+"1565","46.74","4674",4,"hdv",FALSE
+"1566","46.75","4675",4,"hdv",FALSE
+"1567","46.76","4676",4,"hdv",FALSE
+"1568","46.77","4677",4,"hdv",FALSE
+"1569","46.9","469",3,"hdv",FALSE
+"1570","46.9","4690",4,"hdv",FALSE
+"1571","47","47",2,"hdv",FALSE
+"1572","47.1","471",3,"hdv",FALSE
+"1573","47.11","4711",4,"hdv",FALSE
+"1574","47.19","4719",4,"hdv",FALSE
+"1575","47.2","472",3,"hdv",FALSE
+"1576","47.21","4721",4,"hdv",FALSE
+"1577","47.22","4722",4,"hdv",FALSE
+"1578","47.23","4723",4,"hdv",FALSE
+"1579","47.24","4724",4,"hdv",FALSE
+"1580","47.25","4725",4,"hdv",FALSE
+"1581","47.26","4726",4,"hdv",FALSE
+"1582","47.29","4729",4,"hdv",FALSE
+"1583","47.3","473",3,"hdv",FALSE
+"1584","47.3","4730",4,"hdv",FALSE
+"1585","47.4","474",3,"hdv",FALSE
+"1586","47.41","4741",4,"hdv",FALSE
+"1587","47.42","4742",4,"hdv",FALSE
+"1588","47.43","4743",4,"hdv",FALSE
+"1589","47.5","475",3,"hdv",FALSE
+"1590","47.51","4751",4,"hdv",FALSE
+"1591","47.52","4752",4,"hdv",FALSE
+"1592","47.53","4753",4,"hdv",FALSE
+"1593","47.54","4754",4,"hdv",FALSE
+"1594","47.59","4759",4,"hdv",FALSE
+"1595","47.6","476",3,"hdv",FALSE
+"1596","47.61","4761",4,"hdv",FALSE
+"1597","47.62","4762",4,"hdv",FALSE
+"1598","47.63","4763",4,"hdv",FALSE
+"1599","47.64","4764",4,"hdv",FALSE
+"1600","47.65","4765",4,"hdv",FALSE
+"1601","47.7","477",3,"hdv",FALSE
+"1602","47.71","4771",4,"hdv",FALSE
+"1603","47.72","4772",4,"hdv",FALSE
+"1604","47.73","4773",4,"hdv",FALSE
+"1605","47.74","4774",4,"hdv",FALSE
+"1606","47.75","4775",4,"hdv",FALSE
+"1607","47.76","4776",4,"hdv",FALSE
+"1608","47.77","4777",4,"hdv",FALSE
+"1609","47.78","4778",4,"hdv",FALSE
+"1610","47.79","4779",4,"hdv",FALSE
+"1611","47.8","478",3,"hdv",FALSE
+"1612","47.81","4781",4,"hdv",FALSE
+"1613","47.82","4782",4,"hdv",FALSE
+"1614","47.89","4789",4,"hdv",FALSE
+"1615","47.9","479",3,"hdv",FALSE
+"1616","47.91","4791",4,"hdv",FALSE
+"1617","47.99","4799",4,"hdv",FALSE
+"1618","H","H",1,"hdv",FALSE
+"1619","49","49",2,"hdv",FALSE
+"1620","49.1","491",3,"hdv",FALSE
+"1621","49.1","4910",4,"hdv",FALSE
+"1622","49.2","492",3,"hdv",FALSE
+"1623","49.2","4920",4,"hdv",FALSE
+"1624","49.3","493",3,"hdv",FALSE
+"1625","49.31","4931",4,"hdv",FALSE
+"1626","49.32","4932",4,"hdv",FALSE
+"1627","49.39","4939",4,"hdv",FALSE
+"1628","49.4","494",3,"hdv",FALSE
+"1629","49.41","4941",4,"hdv",FALSE
+"1630","49.42","4942",4,"hdv",FALSE
+"1631","49.5","495",3,"hdv",FALSE
+"1632","49.5","4950",4,"hdv",FALSE
+"1633","50","50",2,"hdv",FALSE
+"1634","50.1","501",3,"hdv",FALSE
+"1635","50.1","5010",4,"hdv",FALSE
+"1636","50.2","502",3,"hdv",FALSE
+"1637","50.2","5020",4,"hdv",FALSE
+"1638","50.3","503",3,"hdv",FALSE
+"1639","50.3","5030",4,"hdv",FALSE
+"1640","50.4","504",3,"hdv",FALSE
+"1641","50.4","5040",4,"hdv",FALSE
+"1642","51","51",2,"hdv",FALSE
+"1643","51.1","511",3,"hdv",FALSE
+"1644","51.1","5110",4,"hdv",FALSE
+"1645","51.2","512",3,"hdv",TRUE
+"1646","51.21","5121",4,"hdv",TRUE
+"1647","51.22","5122",4,"hdv",FALSE
+"1648","52","52",2,"hdv",FALSE
+"1649","52.1","521",3,"hdv",FALSE
+"1650","52.1","5210",4,"hdv",FALSE
+"1651","52.2","522",3,"hdv",FALSE
+"1652","52.21","5221",4,"hdv",FALSE
+"1653","52.22","5222",4,"hdv",FALSE
+"1654","52.23","5223",4,"hdv",FALSE
+"1655","52.24","5224",4,"hdv",FALSE
+"1656","52.29","5229",4,"hdv",FALSE
+"1657","53","53",2,"hdv",FALSE
+"1658","53.1","531",3,"hdv",FALSE
+"1659","53.1","5310",4,"hdv",FALSE
+"1660","53.2","532",3,"hdv",FALSE
+"1661","53.2","5320",4,"hdv",FALSE
+"1662","I","I",1,"hdv",FALSE
+"1663","55","55",2,"hdv",FALSE
+"1664","55.1","551",3,"hdv",FALSE
+"1665","55.1","5510",4,"hdv",FALSE
+"1666","55.2","552",3,"hdv",FALSE
+"1667","55.2","5520",4,"hdv",FALSE
+"1668","55.3","553",3,"hdv",FALSE
+"1669","55.3","5530",4,"hdv",FALSE
+"1670","55.9","559",3,"hdv",FALSE
+"1671","55.9","5590",4,"hdv",FALSE
+"1672","56","56",2,"hdv",FALSE
+"1673","56.1","561",3,"hdv",FALSE
+"1674","56.1","5610",4,"hdv",FALSE
+"1675","56.2","562",3,"hdv",FALSE
+"1676","56.21","5621",4,"hdv",FALSE
+"1677","56.29","5629",4,"hdv",FALSE
+"1678","56.3","563",3,"hdv",FALSE
+"1679","56.3","5630",4,"hdv",FALSE
+"1680","J","J",1,"hdv",FALSE
+"1681","58","58",2,"hdv",FALSE
+"1682","58.1","581",3,"hdv",FALSE
+"1683","58.11","5811",4,"hdv",FALSE
+"1684","58.12","5812",4,"hdv",FALSE
+"1685","58.13","5813",4,"hdv",FALSE
+"1686","58.14","5814",4,"hdv",FALSE
+"1687","58.19","5819",4,"hdv",FALSE
+"1688","58.2","582",3,"hdv",FALSE
+"1689","58.21","5821",4,"hdv",FALSE
+"1690","58.29","5829",4,"hdv",FALSE
+"1691","59","59",2,"hdv",FALSE
+"1692","59.1","591",3,"hdv",FALSE
+"1693","59.11","5911",4,"hdv",FALSE
+"1694","59.12","5912",4,"hdv",FALSE
+"1695","59.13","5913",4,"hdv",FALSE
+"1696","59.14","5914",4,"hdv",FALSE
+"1697","59.2","592",3,"hdv",FALSE
+"1698","59.2","5920",4,"hdv",FALSE
+"1699","60","60",2,"hdv",FALSE
+"1700","60.1","601",3,"hdv",FALSE
+"1701","60.1","6010",4,"hdv",FALSE
+"1702","60.2","602",3,"hdv",FALSE
+"1703","60.2","6020",4,"hdv",FALSE
+"1704","61","61",2,"hdv",FALSE
+"1705","61.1","611",3,"hdv",FALSE
+"1706","61.1","6110",4,"hdv",FALSE
+"1707","61.2","612",3,"hdv",FALSE
+"1708","61.2","6120",4,"hdv",FALSE
+"1709","61.3","613",3,"hdv",FALSE
+"1710","61.3","6130",4,"hdv",FALSE
+"1711","61.9","619",3,"hdv",FALSE
+"1712","61.9","6190",4,"hdv",FALSE
+"1713","62","62",2,"hdv",FALSE
+"1714","62","620",3,"hdv",FALSE
+"1715","62.01","6201",4,"hdv",FALSE
+"1716","62.02","6202",4,"hdv",FALSE
+"1717","62.03","6203",4,"hdv",FALSE
+"1718","62.09","6209",4,"hdv",FALSE
+"1719","63","63",2,"hdv",FALSE
+"1720","63.1","631",3,"hdv",FALSE
+"1721","63.11","6311",4,"hdv",FALSE
+"1722","63.12","6312",4,"hdv",FALSE
+"1723","63.9","639",3,"hdv",FALSE
+"1724","63.91","6391",4,"hdv",FALSE
+"1725","63.99","6399",4,"hdv",FALSE
+"1726","K","K",1,"hdv",FALSE
+"1727","64","64",2,"hdv",FALSE
+"1728","64.1","641",3,"hdv",FALSE
+"1729","64.11","6411",4,"hdv",FALSE
+"1730","64.19","6419",4,"hdv",FALSE
+"1731","64.2","642",3,"hdv",FALSE
+"1732","64.2","6420",4,"hdv",FALSE
+"1733","64.3","643",3,"hdv",FALSE
+"1734","64.3","6430",4,"hdv",FALSE
+"1735","64.9","649",3,"hdv",FALSE
+"1736","64.91","6491",4,"hdv",FALSE
+"1737","64.92","6492",4,"hdv",FALSE
+"1738","64.99","6499",4,"hdv",FALSE
+"1739","65","65",2,"hdv",FALSE
+"1740","65.1","651",3,"hdv",FALSE
+"1741","65.11","6511",4,"hdv",FALSE
+"1742","65.12","6512",4,"hdv",FALSE
+"1743","65.2","652",3,"hdv",FALSE
+"1744","65.2","6520",4,"hdv",FALSE
+"1745","65.3","653",3,"hdv",FALSE
+"1746","65.3","6530",4,"hdv",FALSE
+"1747","66","66",2,"hdv",FALSE
+"1748","66.1","661",3,"hdv",FALSE
+"1749","66.11","6611",4,"hdv",FALSE
+"1750","66.12","6612",4,"hdv",FALSE
+"1751","66.19","6619",4,"hdv",FALSE
+"1752","66.2","662",3,"hdv",FALSE
+"1753","66.21","6621",4,"hdv",FALSE
+"1754","66.22","6622",4,"hdv",FALSE
+"1755","66.29","6629",4,"hdv",FALSE
+"1756","66.3","663",3,"hdv",FALSE
+"1757","66.3","6630",4,"hdv",FALSE
+"1758","L","L",1,"hdv",FALSE
+"1759","68","68",2,"hdv",FALSE
+"1760","68.1","681",3,"hdv",FALSE
+"1761","68.1","6810",4,"hdv",FALSE
+"1762","68.2","682",3,"hdv",FALSE
+"1763","68.2","6820",4,"hdv",FALSE
+"1764","68.3","683",3,"hdv",FALSE
+"1765","68.31","6831",4,"hdv",FALSE
+"1766","68.32","6832",4,"hdv",FALSE
+"1767","M","M",1,"hdv",FALSE
+"1768","69","69",2,"hdv",FALSE
+"1769","69.1","691",3,"hdv",FALSE
+"1770","69.1","6910",4,"hdv",FALSE
+"1771","69.2","692",3,"hdv",FALSE
+"1772","69.2","6920",4,"hdv",FALSE
+"1773","70","70",2,"hdv",FALSE
+"1774","70.1","701",3,"hdv",FALSE
+"1775","70.1","7010",4,"hdv",FALSE
+"1776","70.2","702",3,"hdv",FALSE
+"1777","70.21","7021",4,"hdv",FALSE
+"1778","70.22","7022",4,"hdv",FALSE
+"1779","71","71",2,"hdv",FALSE
+"1780","71.1","711",3,"hdv",FALSE
+"1781","71.11","7111",4,"hdv",FALSE
+"1782","71.12","7112",4,"hdv",FALSE
+"1783","71.2","712",3,"hdv",FALSE
+"1784","71.2","7120",4,"hdv",FALSE
+"1785","72","72",2,"hdv",FALSE
+"1786","72.1","721",3,"hdv",FALSE
+"1787","72.11","7211",4,"hdv",FALSE
+"1788","72.19","7219",4,"hdv",FALSE
+"1789","72.2","722",3,"hdv",FALSE
+"1790","72.2","7220",4,"hdv",FALSE
+"1791","73","73",2,"hdv",FALSE
+"1792","73.1","731",3,"hdv",FALSE
+"1793","73.11","7311",4,"hdv",FALSE
+"1794","73.12","7312",4,"hdv",FALSE
+"1795","73.2","732",3,"hdv",FALSE
+"1796","73.2","7320",4,"hdv",FALSE
+"1797","74","74",2,"hdv",FALSE
+"1798","74.1","741",3,"hdv",FALSE
+"1799","74.1","7410",4,"hdv",FALSE
+"1800","74.2","742",3,"hdv",FALSE
+"1801","74.2","7420",4,"hdv",FALSE
+"1802","74.3","743",3,"hdv",FALSE
+"1803","74.3","7430",4,"hdv",FALSE
+"1804","74.9","749",3,"hdv",FALSE
+"1805","74.9","7490",4,"hdv",FALSE
+"1806","75","75",2,"hdv",FALSE
+"1807","75","750",3,"hdv",FALSE
+"1808","75","7500",4,"hdv",FALSE
+"1809","N","N",1,"hdv",FALSE
+"1810","77","77",2,"hdv",FALSE
+"1811","77.1","771",3,"hdv",FALSE
+"1812","77.11","7711",4,"hdv",FALSE
+"1813","77.12","7712",4,"hdv",FALSE
+"1814","77.2","772",3,"hdv",FALSE
+"1815","77.21","7721",4,"hdv",FALSE
+"1816","77.22","7722",4,"hdv",FALSE
+"1817","77.29","7729",4,"hdv",FALSE
+"1818","77.3","773",3,"hdv",FALSE
+"1819","77.31","7731",4,"hdv",FALSE
+"1820","77.32","7732",4,"hdv",FALSE
+"1821","77.33","7733",4,"hdv",FALSE
+"1822","77.34","7734",4,"hdv",FALSE
+"1823","77.35","7735",4,"hdv",FALSE
+"1824","77.39","7739",4,"hdv",FALSE
+"1825","77.4","774",3,"hdv",FALSE
+"1826","77.4","7740",4,"hdv",FALSE
+"1827","78","78",2,"hdv",FALSE
+"1828","78.1","781",3,"hdv",FALSE
+"1829","78.1","7810",4,"hdv",FALSE
+"1830","78.2","782",3,"hdv",FALSE
+"1831","78.2","7820",4,"hdv",FALSE
+"1832","78.3","783",3,"hdv",FALSE
+"1833","78.3","7830",4,"hdv",FALSE
+"1834","79","79",2,"hdv",FALSE
+"1835","79.1","791",3,"hdv",FALSE
+"1836","79.11","7911",4,"hdv",FALSE
+"1837","79.12","7912",4,"hdv",FALSE
+"1838","79.9","799",3,"hdv",FALSE
+"1839","79.9","7990",4,"hdv",FALSE
+"1840","80","80",2,"hdv",FALSE
+"1841","80.1","801",3,"hdv",FALSE
+"1842","80.1","8010",4,"hdv",FALSE
+"1843","80.2","802",3,"hdv",FALSE
+"1844","80.2","8020",4,"hdv",FALSE
+"1845","80.3","803",3,"hdv",FALSE
+"1846","80.3","8030",4,"hdv",FALSE
+"1847","81","81",2,"hdv",FALSE
+"1848","81.1","811",3,"hdv",FALSE
+"1849","81.1","8110",4,"hdv",FALSE
+"1850","81.2","812",3,"hdv",FALSE
+"1851","81.21","8121",4,"hdv",FALSE
+"1852","81.22","8122",4,"hdv",FALSE
+"1853","81.29","8129",4,"hdv",FALSE
+"1854","81.3","813",3,"hdv",FALSE
+"1855","81.3","8130",4,"hdv",FALSE
+"1856","82","82",2,"hdv",FALSE
+"1857","82.1","821",3,"hdv",FALSE
+"1858","82.11","8211",4,"hdv",FALSE
+"1859","82.19","8219",4,"hdv",FALSE
+"1860","82.2","822",3,"hdv",FALSE
+"1861","82.2","8220",4,"hdv",FALSE
+"1862","82.3","823",3,"hdv",FALSE
+"1863","82.3","8230",4,"hdv",FALSE
+"1864","82.9","829",3,"hdv",FALSE
+"1865","82.91","8291",4,"hdv",FALSE
+"1866","82.92","8292",4,"hdv",FALSE
+"1867","82.99","8299",4,"hdv",FALSE
+"1868","O","O",1,"hdv",FALSE
+"1869","84","84",2,"hdv",FALSE
+"1870","84.1","841",3,"hdv",FALSE
+"1871","84.11","8411",4,"hdv",FALSE
+"1872","84.12","8412",4,"hdv",FALSE
+"1873","84.13","8413",4,"hdv",FALSE
+"1874","84.2","842",3,"hdv",FALSE
+"1875","84.21","8421",4,"hdv",FALSE
+"1876","84.22","8422",4,"hdv",FALSE
+"1877","84.23","8423",4,"hdv",FALSE
+"1878","84.24","8424",4,"hdv",FALSE
+"1879","84.25","8425",4,"hdv",FALSE
+"1880","84.3","843",3,"hdv",FALSE
+"1881","84.3","8430",4,"hdv",FALSE
+"1882","P","P",1,"hdv",FALSE
+"1883","85","85",2,"hdv",FALSE
+"1884","85.1","851",3,"hdv",FALSE
+"1885","85.1","8510",4,"hdv",FALSE
+"1886","85.2","852",3,"hdv",FALSE
+"1887","85.2","8520",4,"hdv",FALSE
+"1888","85.3","853",3,"hdv",FALSE
+"1889","85.31","8531",4,"hdv",FALSE
+"1890","85.32","8532",4,"hdv",FALSE
+"1891","85.4","854",3,"hdv",FALSE
+"1892","85.41","8541",4,"hdv",FALSE
+"1893","85.42","8542",4,"hdv",FALSE
+"1894","85.5","855",3,"hdv",FALSE
+"1895","85.51","8551",4,"hdv",FALSE
+"1896","85.52","8552",4,"hdv",FALSE
+"1897","85.53","8553",4,"hdv",FALSE
+"1898","85.59","8559",4,"hdv",FALSE
+"1899","85.6","856",3,"hdv",FALSE
+"1900","85.6","8560",4,"hdv",FALSE
+"1901","Q","Q",1,"hdv",FALSE
+"1902","86","86",2,"hdv",FALSE
+"1903","86.1","861",3,"hdv",FALSE
+"1904","86.1","8610",4,"hdv",FALSE
+"1905","86.2","862",3,"hdv",FALSE
+"1906","86.21","8621",4,"hdv",FALSE
+"1907","86.22","8622",4,"hdv",FALSE
+"1908","86.23","8623",4,"hdv",FALSE
+"1909","86.9","869",3,"hdv",FALSE
+"1910","86.9","8690",4,"hdv",FALSE
+"1911","87","87",2,"hdv",FALSE
+"1912","87.1","871",3,"hdv",FALSE
+"1913","87.1","8710",4,"hdv",FALSE
+"1914","87.2","872",3,"hdv",FALSE
+"1915","87.2","8720",4,"hdv",FALSE
+"1916","87.3","873",3,"hdv",FALSE
+"1917","87.3","8730",4,"hdv",FALSE
+"1918","87.9","879",3,"hdv",FALSE
+"1919","87.9","8790",4,"hdv",FALSE
+"1920","88","88",2,"hdv",FALSE
+"1921","88.1","881",3,"hdv",FALSE
+"1922","88.1","8810",4,"hdv",FALSE
+"1923","88.9","889",3,"hdv",FALSE
+"1924","88.91","8891",4,"hdv",FALSE
+"1925","88.99","8899",4,"hdv",FALSE
+"1926","R","R",1,"hdv",FALSE
+"1927","90","90",2,"hdv",FALSE
+"1928","90","900",3,"hdv",FALSE
+"1929","90.01","9001",4,"hdv",FALSE
+"1930","90.02","9002",4,"hdv",FALSE
+"1931","90.03","9003",4,"hdv",FALSE
+"1932","90.04","9004",4,"hdv",FALSE
+"1933","91","91",2,"hdv",FALSE
+"1934","91","910",3,"hdv",FALSE
+"1935","91.01","9101",4,"hdv",FALSE
+"1936","91.02","9102",4,"hdv",FALSE
+"1937","91.03","9103",4,"hdv",FALSE
+"1938","91.04","9104",4,"hdv",FALSE
+"1939","92","92",2,"hdv",FALSE
+"1940","92","920",3,"hdv",FALSE
+"1941","92","9200",4,"hdv",FALSE
+"1942","93","93",2,"hdv",FALSE
+"1943","93.1","931",3,"hdv",FALSE
+"1944","93.11","9311",4,"hdv",FALSE
+"1945","93.12","9312",4,"hdv",FALSE
+"1946","93.13","9313",4,"hdv",FALSE
+"1947","93.19","9319",4,"hdv",FALSE
+"1948","93.2","932",3,"hdv",FALSE
+"1949","93.21","9321",4,"hdv",FALSE
+"1950","93.29","9329",4,"hdv",FALSE
+"1951","S","S",1,"hdv",FALSE
+"1952","94","94",2,"hdv",FALSE
+"1953","94.1","941",3,"hdv",FALSE
+"1954","94.11","9411",4,"hdv",FALSE
+"1955","94.12","9412",4,"hdv",FALSE
+"1956","94.2","942",3,"hdv",FALSE
+"1957","94.2","9420",4,"hdv",FALSE
+"1958","94.9","949",3,"hdv",FALSE
+"1959","94.91","9491",4,"hdv",FALSE
+"1960","94.92","9492",4,"hdv",FALSE
+"1961","94.99","9499",4,"hdv",FALSE
+"1962","95","95",2,"hdv",FALSE
+"1963","95.1","951",3,"hdv",FALSE
+"1964","95.11","9511",4,"hdv",FALSE
+"1965","95.12","9512",4,"hdv",FALSE
+"1966","95.2","952",3,"hdv",FALSE
+"1967","95.21","9521",4,"hdv",FALSE
+"1968","95.22","9522",4,"hdv",FALSE
+"1969","95.23","9523",4,"hdv",FALSE
+"1970","95.24","9524",4,"hdv",FALSE
+"1971","95.25","9525",4,"hdv",FALSE
+"1972","95.29","9529",4,"hdv",FALSE
+"1973","96","96",2,"hdv",FALSE
+"1974","96","960",3,"hdv",FALSE
+"1975","96.01","9601",4,"hdv",FALSE
+"1976","96.02","9602",4,"hdv",FALSE
+"1977","96.03","9603",4,"hdv",FALSE
+"1978","96.04","9604",4,"hdv",FALSE
+"1979","96.09","9609",4,"hdv",FALSE
+"1980","T","T",1,"hdv",FALSE
+"1981","97","97",2,"hdv",FALSE
+"1982","97","970",3,"hdv",FALSE
+"1983","97","9700",4,"hdv",FALSE
+"1984","98","98",2,"hdv",FALSE
+"1985","98.1","981",3,"hdv",FALSE
+"1986","98.1","9810",4,"hdv",FALSE
+"1987","98.2","982",3,"hdv",FALSE
+"1988","98.2","9820",4,"hdv",FALSE
+"1989","U","U",1,"hdv",FALSE
+"1990","99","99",2,"hdv",FALSE
+"1991","99","990",3,"hdv",FALSE
+"1992","99","9900",4,"hdv",FALSE
