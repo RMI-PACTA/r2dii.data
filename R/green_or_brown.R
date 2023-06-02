@@ -1,16 +1,9 @@
 #' Determine if a technology is green or brown
 #'
 #' @description
-#' This dataset provides a simple lookup table to determine if a technology is
-#' meant to increase (green) or decrease (brown) to align with a future global
-#' warming of less than 2 degrees.
+#' `r lifecycle::badge("superseded")`
 #'
-#' @section Definitions:
-#' `r define("green_or_brown")`
+#' See `?increasing_or_decreasing`
 #'
-#' @family miscellaneous datasets
-#' @seealso [data_dictionary]
-#'
-#' @examples
-#' head(green_or_brown)
+#' @keywords internal
 "green_or_brown"
