@@ -11,22 +11,8 @@ An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) w
 green_or_brown
 }
 \description{
-This dataset provides a simple lookup table to determine if a technology is
-meant to increase (green) or decrease (brown) to align with a future global
-warming of less than 2 degrees.
-}
-\section{Definitions}{
+\ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#superseded}{\figure{lifecycle-superseded.svg}{options: alt='[Superseded]'}}}{\strong{[Superseded]}}
 
-\itemize{
-\item \code{green_or_brown} (character): If the technology is green (increasing) or brown (decreasing), as defined by the Paris-aligned IEA scenarios., * \code{sector} (character): The sector to which the technology belongs., * \code{technology} (character): The technology sub-category within the sector.
+See \code{?increasing_or_decreasing}
 }
-}
-
-\examples{
-head(green_or_brown)
-}
-\seealso{
-\link{data_dictionary}
-}
-\concept{miscellaneous datasets}
-\keyword{datasets}
+\keyword{internal}

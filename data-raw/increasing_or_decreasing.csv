@@ -1,0 +1,21 @@
+sector,technology,increasing_or_decreasing
+automotive,electric,increasing
+automotive,hybrid,increasing
+automotive,ice,decreasing
+automotive,fuelcell,increasing
+automotive,electric_hdv,increasing
+automotive,hybrid_hdv,increasing
+automotive,ice_hdv,decreasing
+automotive,fuelcell_hdv,increasing
+power,hydrocap,increasing
+power,renewablescap,increasing
+power,coalcap,decreasing
+power,gascap,decreasing
+power,oilcap,decreasing
+power,nuclearcap,increasing
+oil and gas,oil,decreasing
+oil and gas,gas,decreasing
+coal,coal,decreasing
+fossil fuels,oil,decreasing
+fossil fuels,gas,decreasing
+fossil fuels,coal,decreasing

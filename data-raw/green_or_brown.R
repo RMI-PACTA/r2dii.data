@@ -16,7 +16,7 @@ green_or_brown_hdv <- green_or_brown %>%
   dplyr::filter(sector == "automotive") %>%
   dplyr::mutate(sector = "hdv")
 
-green_or_brown <- green_or_brown %>%
+legacy_green_or_brown <- green_or_brown %>%
   dplyr::bind_rows(green_or_brown_hdv)
 
-usethis::use_data(green_or_brown, overwrite = TRUE)
+usethis::use_data(legacy_green_or_brown, internal = TRUE, overwrite = TRUE)

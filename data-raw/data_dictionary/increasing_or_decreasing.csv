@@ -1,0 +1,4 @@
+dataset,column,typeof,definition
+increasing_or_decreasing,sector,character,The sector to which the technology belongs
+increasing_or_decreasing,technology,character,The technology sub-category within the sector
+increasing_or_decreasing,increasing_or_decreasing,character,"If the technology is increasing or decreasing, as defined by the Paris-aligned IEA scenarios"
