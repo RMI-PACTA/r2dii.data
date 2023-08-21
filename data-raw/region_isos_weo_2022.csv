@@ -1,0 +1,1122 @@
+region,isos,source
+advanced economies,bg,weo_2022
+advanced economies,hr,weo_2022
+advanced economies,cy,weo_2022
+advanced economies,mt,weo_2022
+advanced economies,ro,weo_2022
+advanced economies,au,weo_2022
+advanced economies,at,weo_2022
+advanced economies,be,weo_2022
+advanced economies,ca,weo_2022
+advanced economies,cl,weo_2022
+advanced economies,cz,weo_2022
+advanced economies,dk,weo_2022
+advanced economies,ee,weo_2022
+advanced economies,fi,weo_2022
+advanced economies,fr,weo_2022
+advanced economies,de,weo_2022
+advanced economies,gr,weo_2022
+advanced economies,hu,weo_2022
+advanced economies,is,weo_2022
+advanced economies,ie,weo_2022
+advanced economies,il,weo_2022
+advanced economies,it,weo_2022
+advanced economies,jp,weo_2022
+advanced economies,kp,weo_2022
+advanced economies,lv,weo_2022
+advanced economies,lt,weo_2022
+advanced economies,lu,weo_2022
+advanced economies,mx,weo_2022
+advanced economies,nl,weo_2022
+advanced economies,nz,weo_2022
+advanced economies,no,weo_2022
+advanced economies,pl,weo_2022
+advanced economies,pt,weo_2022
+advanced economies,sk,weo_2022
+advanced economies,si,weo_2022
+advanced economies,es,weo_2022
+advanced economies,se,weo_2022
+advanced economies,ch,weo_2022
+advanced economies,tr,weo_2022
+advanced economies,gb,weo_2022
+advanced economies,us,weo_2022
+africa,dz,weo_2022
+africa,eg,weo_2022
+africa,ly,weo_2022
+africa,ma,weo_2022
+africa,tn,weo_2022
+africa,ao,weo_2022
+africa,bj,weo_2022
+africa,bw,weo_2022
+africa,cm,weo_2022
+africa,cg,weo_2022
+africa,ci,weo_2022
+africa,cd,weo_2022
+africa,er,weo_2022
+africa,et,weo_2022
+africa,ga,weo_2022
+africa,gh,weo_2022
+africa,ke,weo_2022
+africa,mu,weo_2022
+africa,mz,weo_2022
+africa,na,weo_2022
+africa,ne,weo_2022
+africa,ng,weo_2022
+africa,sn,weo_2022
+africa,za,weo_2022
+africa,ss,weo_2022
+africa,sd,weo_2022
+africa,tz,weo_2022
+africa,tg,weo_2022
+africa,zm,weo_2022
+africa,zw,weo_2022
+asia pacific,au,weo_2022
+asia pacific,bd,weo_2022
+asia pacific,cn,weo_2022
+asia pacific,in,weo_2022
+asia pacific,jp,weo_2022
+asia pacific,kp,weo_2022
+asia pacific,mn,weo_2022
+asia pacific,np,weo_2022
+asia pacific,nz,weo_2022
+asia pacific,pk,weo_2022
+asia pacific,lk,weo_2022
+asia pacific,tw,weo_2022
+asia pacific,bn,weo_2022
+asia pacific,kh,weo_2022
+asia pacific,id,weo_2022
+asia pacific,la,weo_2022
+asia pacific,my,weo_2022
+asia pacific,mm,weo_2022
+asia pacific,ph,weo_2022
+asia pacific,sg,weo_2022
+asia pacific,th,weo_2022
+asia pacific,vn,weo_2022
+asia pacific,af,weo_2022
+asia pacific,bt,weo_2022
+asia pacific,ck,weo_2022
+asia pacific,fj,weo_2022
+asia pacific,pf,weo_2022
+asia pacific,ki,weo_2022
+asia pacific,mo,weo_2022
+asia pacific,mv,weo_2022
+asia pacific,nc,weo_2022
+asia pacific,pw,weo_2022
+asia pacific,pg,weo_2022
+asia pacific,ws,weo_2022
+asia pacific,sb,weo_2022
+asia pacific,tl,weo_2022
+asia pacific,to,weo_2022
+asia pacific,vu,weo_2022
+central and south america,ar,weo_2022
+central and south america,bo,weo_2022
+central and south america,br,weo_2022
+central and south america,cl,weo_2022
+central and south america,co,weo_2022
+central and south america,cr,weo_2022
+central and south america,cu,weo_2022
+central and south america,cw,weo_2022
+central and south america,do,weo_2022
+central and south america,ec,weo_2022
+central and south america,sv,weo_2022
+central and south america,gt,weo_2022
+central and south america,ht,weo_2022
+central and south america,hn,weo_2022
+central and south america,jm,weo_2022
+central and south america,ni,weo_2022
+central and south america,pa,weo_2022
+central and south america,py,weo_2022
+central and south america,pe,weo_2022
+central and south america,sr,weo_2022
+central and south america,tt,weo_2022
+central and south america,uy,weo_2022
+central and south america,ve,weo_2022
+central and south america,ai,weo_2022
+central and south america,ag,weo_2022
+central and south america,aw,weo_2022
+central and south america,bs,weo_2022
+central and south america,bb,weo_2022
+central and south america,bz,weo_2022
+central and south america,bm,weo_2022
+central and south america,bq,weo_2022
+central and south america,vg,weo_2022
+central and south america,ky,weo_2022
+central and south america,dm,weo_2022
+central and south america,fk,weo_2022
+central and south america,gf,weo_2022
+central and south america,gd,weo_2022
+central and south america,gp,weo_2022
+central and south america,gy,weo_2022
+central and south america,mq,weo_2022
+central and south america,ms,weo_2022
+central and south america,lc,weo_2022
+central and south america,pm,weo_2022
+central and south america,vc,weo_2022
+central and south america,mf,weo_2022
+central and south america,tc,weo_2022
+china,cn,weo_2022
+china,hk,weo_2022
+eurasia,ru,weo_2022
+eurasia,am,weo_2022
+eurasia,az,weo_2022
+eurasia,ge,weo_2022
+eurasia,kz,weo_2022
+eurasia,kg,weo_2022
+eurasia,tj,weo_2022
+eurasia,tm,weo_2022
+eurasia,uz,weo_2022
+europe,al,weo_2022
+europe,by,weo_2022
+europe,ba,weo_2022
+europe,mk,weo_2022
+europe,gi,weo_2022
+europe,is,weo_2022
+europe,il,weo_2022
+europe,xk,weo_2022
+europe,me,weo_2022
+europe,no,weo_2022
+europe,rs,weo_2022
+europe,ch,weo_2022
+europe,md,weo_2022
+europe,tr,weo_2022
+europe,ua,weo_2022
+europe,at,weo_2022
+europe,be,weo_2022
+europe,bg,weo_2022
+europe,hr,weo_2022
+europe,cy,weo_2022
+europe,cz,weo_2022
+europe,dk,weo_2022
+europe,ee,weo_2022
+europe,fi,weo_2022
+europe,fr,weo_2022
+europe,de,weo_2022
+europe,gr,weo_2022
+europe,hu,weo_2022
+europe,ie,weo_2022
+europe,it,weo_2022
+europe,lv,weo_2022
+europe,lt,weo_2022
+europe,lu,weo_2022
+europe,mt,weo_2022
+europe,nl,weo_2022
+europe,pl,weo_2022
+europe,pt,weo_2022
+europe,ro,weo_2022
+europe,sk,weo_2022
+europe,si,weo_2022
+europe,es,weo_2022
+europe,se,weo_2022
+europe,gb,weo_2022
+european union,at,weo_2022
+european union,be,weo_2022
+european union,bg,weo_2022
+european union,hr,weo_2022
+european union,cy,weo_2022
+european union,cz,weo_2022
+european union,dk,weo_2022
+european union,ee,weo_2022
+european union,fi,weo_2022
+european union,fr,weo_2022
+european union,de,weo_2022
+european union,gr,weo_2022
+european union,hu,weo_2022
+european union,ie,weo_2022
+european union,it,weo_2022
+european union,lv,weo_2022
+european union,lt,weo_2022
+european union,lu,weo_2022
+european union,mt,weo_2022
+european union,nl,weo_2022
+european union,pl,weo_2022
+european union,pt,weo_2022
+european union,ro,weo_2022
+european union,sk,weo_2022
+european union,si,weo_2022
+european union,es,weo_2022
+european union,se,weo_2022
+middle east,bh,weo_2022
+middle east,ir,weo_2022
+middle east,iq,weo_2022
+middle east,jo,weo_2022
+middle east,kw,weo_2022
+middle east,lb,weo_2022
+middle east,om,weo_2022
+middle east,qa,weo_2022
+middle east,sa,weo_2022
+middle east,sy,weo_2022
+middle east,ae,weo_2022
+middle east,ye,weo_2022
+north america,ca,weo_2022
+north america,mx,weo_2022
+north america,us,weo_2022
+oecd,au,weo_2022
+oecd,at,weo_2022
+oecd,be,weo_2022
+oecd,ca,weo_2022
+oecd,cl,weo_2022
+oecd,cz,weo_2022
+oecd,dk,weo_2022
+oecd,ee,weo_2022
+oecd,fi,weo_2022
+oecd,fr,weo_2022
+oecd,de,weo_2022
+oecd,gr,weo_2022
+oecd,hu,weo_2022
+oecd,is,weo_2022
+oecd,ie,weo_2022
+oecd,il,weo_2022
+oecd,it,weo_2022
+oecd,jp,weo_2022
+oecd,kp,weo_2022
+oecd,lv,weo_2022
+oecd,lt,weo_2022
+oecd,lu,weo_2022
+oecd,mx,weo_2022
+oecd,nl,weo_2022
+oecd,nz,weo_2022
+oecd,no,weo_2022
+oecd,pl,weo_2022
+oecd,pt,weo_2022
+oecd,sk,weo_2022
+oecd,si,weo_2022
+oecd,es,weo_2022
+oecd,se,weo_2022
+oecd,ch,weo_2022
+oecd,tr,weo_2022
+oecd,gb,weo_2022
+oecd,us,weo_2022
+opec,dz,weo_2022
+opec,ao,weo_2022
+opec,cg,weo_2022
+opec,gq,weo_2022
+opec,ga,weo_2022
+opec,ir,weo_2022
+opec,iq,weo_2022
+opec,kw,weo_2022
+opec,ly,weo_2022
+opec,ng,weo_2022
+opec,sa,weo_2022
+opec,ae,weo_2022
+opec,ve,weo_2022
+southeast asia,bn,weo_2022
+southeast asia,kh,weo_2022
+southeast asia,id,weo_2022
+southeast asia,la,weo_2022
+southeast asia,my,weo_2022
+southeast asia,mm,weo_2022
+southeast asia,ph,weo_2022
+southeast asia,sg,weo_2022
+southeast asia,th,weo_2022
+southeast asia,vn,weo_2022
+global,bg,weo_2022
+global,hr,weo_2022
+global,cy,weo_2022
+global,mt,weo_2022
+global,ro,weo_2022
+global,au,weo_2022
+global,at,weo_2022
+global,be,weo_2022
+global,ca,weo_2022
+global,cl,weo_2022
+global,cz,weo_2022
+global,dk,weo_2022
+global,ee,weo_2022
+global,fi,weo_2022
+global,fr,weo_2022
+global,de,weo_2022
+global,gr,weo_2022
+global,hu,weo_2022
+global,is,weo_2022
+global,ie,weo_2022
+global,il,weo_2022
+global,it,weo_2022
+global,jp,weo_2022
+global,kp,weo_2022
+global,lv,weo_2022
+global,lt,weo_2022
+global,lu,weo_2022
+global,mx,weo_2022
+global,nl,weo_2022
+global,nz,weo_2022
+global,no,weo_2022
+global,pl,weo_2022
+global,pt,weo_2022
+global,sk,weo_2022
+global,si,weo_2022
+global,es,weo_2022
+global,se,weo_2022
+global,ch,weo_2022
+global,tr,weo_2022
+global,gb,weo_2022
+global,us,weo_2022
+global,dz,weo_2022
+global,eg,weo_2022
+global,ly,weo_2022
+global,ma,weo_2022
+global,tn,weo_2022
+global,ao,weo_2022
+global,bj,weo_2022
+global,bw,weo_2022
+global,cm,weo_2022
+global,cg,weo_2022
+global,ci,weo_2022
+global,cd,weo_2022
+global,er,weo_2022
+global,et,weo_2022
+global,ga,weo_2022
+global,gh,weo_2022
+global,ke,weo_2022
+global,mu,weo_2022
+global,mz,weo_2022
+global,na,weo_2022
+global,ne,weo_2022
+global,ng,weo_2022
+global,sn,weo_2022
+global,za,weo_2022
+global,ss,weo_2022
+global,sd,weo_2022
+global,tz,weo_2022
+global,tg,weo_2022
+global,zm,weo_2022
+global,zw,weo_2022
+global,bd,weo_2022
+global,cn,weo_2022
+global,in,weo_2022
+global,mn,weo_2022
+global,np,weo_2022
+global,pk,weo_2022
+global,lk,weo_2022
+global,tw,weo_2022
+global,bn,weo_2022
+global,kh,weo_2022
+global,id,weo_2022
+global,la,weo_2022
+global,my,weo_2022
+global,mm,weo_2022
+global,ph,weo_2022
+global,sg,weo_2022
+global,th,weo_2022
+global,vn,weo_2022
+global,af,weo_2022
+global,bt,weo_2022
+global,ck,weo_2022
+global,fj,weo_2022
+global,pf,weo_2022
+global,ki,weo_2022
+global,mo,weo_2022
+global,mv,weo_2022
+global,nc,weo_2022
+global,pw,weo_2022
+global,pg,weo_2022
+global,ws,weo_2022
+global,sb,weo_2022
+global,tl,weo_2022
+global,to,weo_2022
+global,vu,weo_2022
+global,am,weo_2022
+global,az,weo_2022
+global,ge,weo_2022
+global,kz,weo_2022
+global,kg,weo_2022
+global,tj,weo_2022
+global,tm,weo_2022
+global,uz,weo_2022
+global,ar,weo_2022
+global,bo,weo_2022
+global,br,weo_2022
+global,co,weo_2022
+global,cr,weo_2022
+global,cu,weo_2022
+global,cw,weo_2022
+global,do,weo_2022
+global,ec,weo_2022
+global,sv,weo_2022
+global,gt,weo_2022
+global,ht,weo_2022
+global,hn,weo_2022
+global,jm,weo_2022
+global,ni,weo_2022
+global,pa,weo_2022
+global,py,weo_2022
+global,pe,weo_2022
+global,sr,weo_2022
+global,tt,weo_2022
+global,uy,weo_2022
+global,ve,weo_2022
+global,ai,weo_2022
+global,ag,weo_2022
+global,aw,weo_2022
+global,bs,weo_2022
+global,bb,weo_2022
+global,bz,weo_2022
+global,bm,weo_2022
+global,bq,weo_2022
+global,vg,weo_2022
+global,ky,weo_2022
+global,dm,weo_2022
+global,fk,weo_2022
+global,gf,weo_2022
+global,gd,weo_2022
+global,gp,weo_2022
+global,gy,weo_2022
+global,mq,weo_2022
+global,ms,weo_2022
+global,lc,weo_2022
+global,pm,weo_2022
+global,vc,weo_2022
+global,mf,weo_2022
+global,tc,weo_2022
+global,hk,weo_2022
+global,ru,weo_2022
+global,al,weo_2022
+global,by,weo_2022
+global,ba,weo_2022
+global,mk,weo_2022
+global,gi,weo_2022
+global,xk,weo_2022
+global,me,weo_2022
+global,rs,weo_2022
+global,md,weo_2022
+global,ua,weo_2022
+global,bh,weo_2022
+global,ir,weo_2022
+global,iq,weo_2022
+global,jo,weo_2022
+global,kw,weo_2022
+global,lb,weo_2022
+global,om,weo_2022
+global,qa,weo_2022
+global,sa,weo_2022
+global,sy,weo_2022
+global,ae,weo_2022
+global,ye,weo_2022
+global,gq,weo_2022
+global,bf,weo_2022
+global,bi,weo_2022
+global,cv,weo_2022
+global,cf,weo_2022
+global,td,weo_2022
+global,km,weo_2022
+global,dj,weo_2022
+global,gm,weo_2022
+global,gn,weo_2022
+global,gw,weo_2022
+global,ls,weo_2022
+global,lr,weo_2022
+global,mg,weo_2022
+global,mw,weo_2022
+global,ml,weo_2022
+global,mr,weo_2022
+global,re,weo_2022
+global,rw,weo_2022
+global,st,weo_2022
+global,sc,weo_2022
+global,sl,weo_2022
+global,so,weo_2022
+global,ug,weo_2022
+developing economies,dz,weo_2022
+developing economies,eg,weo_2022
+developing economies,ly,weo_2022
+developing economies,ma,weo_2022
+developing economies,tn,weo_2022
+developing economies,ao,weo_2022
+developing economies,bj,weo_2022
+developing economies,bw,weo_2022
+developing economies,cm,weo_2022
+developing economies,cg,weo_2022
+developing economies,ci,weo_2022
+developing economies,cd,weo_2022
+developing economies,er,weo_2022
+developing economies,et,weo_2022
+developing economies,ga,weo_2022
+developing economies,gh,weo_2022
+developing economies,ke,weo_2022
+developing economies,mu,weo_2022
+developing economies,mz,weo_2022
+developing economies,na,weo_2022
+developing economies,ne,weo_2022
+developing economies,ng,weo_2022
+developing economies,sn,weo_2022
+developing economies,za,weo_2022
+developing economies,ss,weo_2022
+developing economies,sd,weo_2022
+developing economies,tz,weo_2022
+developing economies,tg,weo_2022
+developing economies,zm,weo_2022
+developing economies,zw,weo_2022
+developing economies,bd,weo_2022
+developing economies,cn,weo_2022
+developing economies,in,weo_2022
+developing economies,mn,weo_2022
+developing economies,np,weo_2022
+developing economies,pk,weo_2022
+developing economies,lk,weo_2022
+developing economies,tw,weo_2022
+developing economies,bn,weo_2022
+developing economies,kh,weo_2022
+developing economies,id,weo_2022
+developing economies,la,weo_2022
+developing economies,my,weo_2022
+developing economies,mm,weo_2022
+developing economies,ph,weo_2022
+developing economies,sg,weo_2022
+developing economies,th,weo_2022
+developing economies,vn,weo_2022
+developing economies,af,weo_2022
+developing economies,bt,weo_2022
+developing economies,ck,weo_2022
+developing economies,fj,weo_2022
+developing economies,pf,weo_2022
+developing economies,ki,weo_2022
+developing economies,mo,weo_2022
+developing economies,mv,weo_2022
+developing economies,nc,weo_2022
+developing economies,pw,weo_2022
+developing economies,pg,weo_2022
+developing economies,ws,weo_2022
+developing economies,sb,weo_2022
+developing economies,tl,weo_2022
+developing economies,to,weo_2022
+developing economies,vu,weo_2022
+developing economies,am,weo_2022
+developing economies,az,weo_2022
+developing economies,ge,weo_2022
+developing economies,kz,weo_2022
+developing economies,kg,weo_2022
+developing economies,tj,weo_2022
+developing economies,tm,weo_2022
+developing economies,uz,weo_2022
+developing economies,ar,weo_2022
+developing economies,bo,weo_2022
+developing economies,br,weo_2022
+developing economies,co,weo_2022
+developing economies,cr,weo_2022
+developing economies,cu,weo_2022
+developing economies,cw,weo_2022
+developing economies,do,weo_2022
+developing economies,ec,weo_2022
+developing economies,sv,weo_2022
+developing economies,gt,weo_2022
+developing economies,ht,weo_2022
+developing economies,hn,weo_2022
+developing economies,jm,weo_2022
+developing economies,ni,weo_2022
+developing economies,pa,weo_2022
+developing economies,py,weo_2022
+developing economies,pe,weo_2022
+developing economies,sr,weo_2022
+developing economies,tt,weo_2022
+developing economies,uy,weo_2022
+developing economies,ve,weo_2022
+developing economies,ai,weo_2022
+developing economies,ag,weo_2022
+developing economies,aw,weo_2022
+developing economies,bs,weo_2022
+developing economies,bb,weo_2022
+developing economies,bz,weo_2022
+developing economies,bm,weo_2022
+developing economies,bq,weo_2022
+developing economies,vg,weo_2022
+developing economies,ky,weo_2022
+developing economies,dm,weo_2022
+developing economies,fk,weo_2022
+developing economies,gf,weo_2022
+developing economies,gd,weo_2022
+developing economies,gp,weo_2022
+developing economies,gy,weo_2022
+developing economies,mq,weo_2022
+developing economies,ms,weo_2022
+developing economies,lc,weo_2022
+developing economies,pm,weo_2022
+developing economies,vc,weo_2022
+developing economies,mf,weo_2022
+developing economies,tc,weo_2022
+developing economies,hk,weo_2022
+developing economies,ru,weo_2022
+developing economies,al,weo_2022
+developing economies,by,weo_2022
+developing economies,ba,weo_2022
+developing economies,mk,weo_2022
+developing economies,gi,weo_2022
+developing economies,xk,weo_2022
+developing economies,me,weo_2022
+developing economies,rs,weo_2022
+developing economies,md,weo_2022
+developing economies,ua,weo_2022
+developing economies,bh,weo_2022
+developing economies,ir,weo_2022
+developing economies,iq,weo_2022
+developing economies,jo,weo_2022
+developing economies,kw,weo_2022
+developing economies,lb,weo_2022
+developing economies,om,weo_2022
+developing economies,qa,weo_2022
+developing economies,sa,weo_2022
+developing economies,sy,weo_2022
+developing economies,ae,weo_2022
+developing economies,ye,weo_2022
+developing economies,gq,weo_2022
+developing economies,bf,weo_2022
+developing economies,bi,weo_2022
+developing economies,cv,weo_2022
+developing economies,cf,weo_2022
+developing economies,td,weo_2022
+developing economies,km,weo_2022
+developing economies,dj,weo_2022
+developing economies,gm,weo_2022
+developing economies,gn,weo_2022
+developing economies,gw,weo_2022
+developing economies,ls,weo_2022
+developing economies,lr,weo_2022
+developing economies,mg,weo_2022
+developing economies,mw,weo_2022
+developing economies,ml,weo_2022
+developing economies,mr,weo_2022
+developing economies,re,weo_2022
+developing economies,rw,weo_2022
+developing economies,st,weo_2022
+developing economies,sc,weo_2022
+developing economies,sl,weo_2022
+developing economies,so,weo_2022
+developing economies,ug,weo_2022
+non oecd,bg,weo_2022
+non oecd,hr,weo_2022
+non oecd,cy,weo_2022
+non oecd,mt,weo_2022
+non oecd,ro,weo_2022
+non oecd,dz,weo_2022
+non oecd,eg,weo_2022
+non oecd,ly,weo_2022
+non oecd,ma,weo_2022
+non oecd,tn,weo_2022
+non oecd,ao,weo_2022
+non oecd,bj,weo_2022
+non oecd,bw,weo_2022
+non oecd,cm,weo_2022
+non oecd,cg,weo_2022
+non oecd,ci,weo_2022
+non oecd,cd,weo_2022
+non oecd,er,weo_2022
+non oecd,et,weo_2022
+non oecd,ga,weo_2022
+non oecd,gh,weo_2022
+non oecd,ke,weo_2022
+non oecd,mu,weo_2022
+non oecd,mz,weo_2022
+non oecd,na,weo_2022
+non oecd,ne,weo_2022
+non oecd,ng,weo_2022
+non oecd,sn,weo_2022
+non oecd,za,weo_2022
+non oecd,ss,weo_2022
+non oecd,sd,weo_2022
+non oecd,tz,weo_2022
+non oecd,tg,weo_2022
+non oecd,zm,weo_2022
+non oecd,zw,weo_2022
+non oecd,bd,weo_2022
+non oecd,cn,weo_2022
+non oecd,in,weo_2022
+non oecd,mn,weo_2022
+non oecd,np,weo_2022
+non oecd,pk,weo_2022
+non oecd,lk,weo_2022
+non oecd,tw,weo_2022
+non oecd,bn,weo_2022
+non oecd,kh,weo_2022
+non oecd,id,weo_2022
+non oecd,la,weo_2022
+non oecd,my,weo_2022
+non oecd,mm,weo_2022
+non oecd,ph,weo_2022
+non oecd,sg,weo_2022
+non oecd,th,weo_2022
+non oecd,vn,weo_2022
+non oecd,af,weo_2022
+non oecd,bt,weo_2022
+non oecd,ck,weo_2022
+non oecd,fj,weo_2022
+non oecd,pf,weo_2022
+non oecd,ki,weo_2022
+non oecd,mo,weo_2022
+non oecd,mv,weo_2022
+non oecd,nc,weo_2022
+non oecd,pw,weo_2022
+non oecd,pg,weo_2022
+non oecd,ws,weo_2022
+non oecd,sb,weo_2022
+non oecd,tl,weo_2022
+non oecd,to,weo_2022
+non oecd,vu,weo_2022
+non oecd,am,weo_2022
+non oecd,az,weo_2022
+non oecd,ge,weo_2022
+non oecd,kz,weo_2022
+non oecd,kg,weo_2022
+non oecd,tj,weo_2022
+non oecd,tm,weo_2022
+non oecd,uz,weo_2022
+non oecd,ar,weo_2022
+non oecd,bo,weo_2022
+non oecd,br,weo_2022
+non oecd,co,weo_2022
+non oecd,cr,weo_2022
+non oecd,cu,weo_2022
+non oecd,cw,weo_2022
+non oecd,do,weo_2022
+non oecd,ec,weo_2022
+non oecd,sv,weo_2022
+non oecd,gt,weo_2022
+non oecd,ht,weo_2022
+non oecd,hn,weo_2022
+non oecd,jm,weo_2022
+non oecd,ni,weo_2022
+non oecd,pa,weo_2022
+non oecd,py,weo_2022
+non oecd,pe,weo_2022
+non oecd,sr,weo_2022
+non oecd,tt,weo_2022
+non oecd,uy,weo_2022
+non oecd,ve,weo_2022
+non oecd,ai,weo_2022
+non oecd,ag,weo_2022
+non oecd,aw,weo_2022
+non oecd,bs,weo_2022
+non oecd,bb,weo_2022
+non oecd,bz,weo_2022
+non oecd,bm,weo_2022
+non oecd,bq,weo_2022
+non oecd,vg,weo_2022
+non oecd,ky,weo_2022
+non oecd,dm,weo_2022
+non oecd,fk,weo_2022
+non oecd,gf,weo_2022
+non oecd,gd,weo_2022
+non oecd,gp,weo_2022
+non oecd,gy,weo_2022
+non oecd,mq,weo_2022
+non oecd,ms,weo_2022
+non oecd,lc,weo_2022
+non oecd,pm,weo_2022
+non oecd,vc,weo_2022
+non oecd,mf,weo_2022
+non oecd,tc,weo_2022
+non oecd,hk,weo_2022
+non oecd,ru,weo_2022
+non oecd,al,weo_2022
+non oecd,by,weo_2022
+non oecd,ba,weo_2022
+non oecd,mk,weo_2022
+non oecd,gi,weo_2022
+non oecd,xk,weo_2022
+non oecd,me,weo_2022
+non oecd,rs,weo_2022
+non oecd,md,weo_2022
+non oecd,ua,weo_2022
+non oecd,bh,weo_2022
+non oecd,ir,weo_2022
+non oecd,iq,weo_2022
+non oecd,jo,weo_2022
+non oecd,kw,weo_2022
+non oecd,lb,weo_2022
+non oecd,om,weo_2022
+non oecd,qa,weo_2022
+non oecd,sa,weo_2022
+non oecd,sy,weo_2022
+non oecd,ae,weo_2022
+non oecd,ye,weo_2022
+non oecd,gq,weo_2022
+non oecd,bf,weo_2022
+non oecd,bi,weo_2022
+non oecd,cv,weo_2022
+non oecd,cf,weo_2022
+non oecd,td,weo_2022
+non oecd,km,weo_2022
+non oecd,dj,weo_2022
+non oecd,gm,weo_2022
+non oecd,gn,weo_2022
+non oecd,gw,weo_2022
+non oecd,ls,weo_2022
+non oecd,lr,weo_2022
+non oecd,mg,weo_2022
+non oecd,mw,weo_2022
+non oecd,ml,weo_2022
+non oecd,mr,weo_2022
+non oecd,re,weo_2022
+non oecd,rw,weo_2022
+non oecd,st,weo_2022
+non oecd,sc,weo_2022
+non oecd,sl,weo_2022
+non oecd,so,weo_2022
+non oecd,ug,weo_2022
+non opec,bg,weo_2022
+non opec,hr,weo_2022
+non opec,cy,weo_2022
+non opec,mt,weo_2022
+non opec,ro,weo_2022
+non opec,au,weo_2022
+non opec,at,weo_2022
+non opec,be,weo_2022
+non opec,ca,weo_2022
+non opec,cl,weo_2022
+non opec,cz,weo_2022
+non opec,dk,weo_2022
+non opec,ee,weo_2022
+non opec,fi,weo_2022
+non opec,fr,weo_2022
+non opec,de,weo_2022
+non opec,gr,weo_2022
+non opec,hu,weo_2022
+non opec,is,weo_2022
+non opec,ie,weo_2022
+non opec,il,weo_2022
+non opec,it,weo_2022
+non opec,jp,weo_2022
+non opec,kp,weo_2022
+non opec,lv,weo_2022
+non opec,lt,weo_2022
+non opec,lu,weo_2022
+non opec,mx,weo_2022
+non opec,nl,weo_2022
+non opec,nz,weo_2022
+non opec,no,weo_2022
+non opec,pl,weo_2022
+non opec,pt,weo_2022
+non opec,sk,weo_2022
+non opec,si,weo_2022
+non opec,es,weo_2022
+non opec,se,weo_2022
+non opec,ch,weo_2022
+non opec,tr,weo_2022
+non opec,gb,weo_2022
+non opec,us,weo_2022
+non opec,eg,weo_2022
+non opec,ma,weo_2022
+non opec,tn,weo_2022
+non opec,bj,weo_2022
+non opec,bw,weo_2022
+non opec,cm,weo_2022
+non opec,ci,weo_2022
+non opec,cd,weo_2022
+non opec,er,weo_2022
+non opec,et,weo_2022
+non opec,gh,weo_2022
+non opec,ke,weo_2022
+non opec,mu,weo_2022
+non opec,mz,weo_2022
+non opec,na,weo_2022
+non opec,ne,weo_2022
+non opec,sn,weo_2022
+non opec,za,weo_2022
+non opec,ss,weo_2022
+non opec,sd,weo_2022
+non opec,tz,weo_2022
+non opec,tg,weo_2022
+non opec,zm,weo_2022
+non opec,zw,weo_2022
+non opec,bd,weo_2022
+non opec,cn,weo_2022
+non opec,in,weo_2022
+non opec,mn,weo_2022
+non opec,np,weo_2022
+non opec,pk,weo_2022
+non opec,lk,weo_2022
+non opec,tw,weo_2022
+non opec,bn,weo_2022
+non opec,kh,weo_2022
+non opec,id,weo_2022
+non opec,la,weo_2022
+non opec,my,weo_2022
+non opec,mm,weo_2022
+non opec,ph,weo_2022
+non opec,sg,weo_2022
+non opec,th,weo_2022
+non opec,vn,weo_2022
+non opec,af,weo_2022
+non opec,bt,weo_2022
+non opec,ck,weo_2022
+non opec,fj,weo_2022
+non opec,pf,weo_2022
+non opec,ki,weo_2022
+non opec,mo,weo_2022
+non opec,mv,weo_2022
+non opec,nc,weo_2022
+non opec,pw,weo_2022
+non opec,pg,weo_2022
+non opec,ws,weo_2022
+non opec,sb,weo_2022
+non opec,tl,weo_2022
+non opec,to,weo_2022
+non opec,vu,weo_2022
+non opec,am,weo_2022
+non opec,az,weo_2022
+non opec,ge,weo_2022
+non opec,kz,weo_2022
+non opec,kg,weo_2022
+non opec,tj,weo_2022
+non opec,tm,weo_2022
+non opec,uz,weo_2022
+non opec,ar,weo_2022
+non opec,bo,weo_2022
+non opec,br,weo_2022
+non opec,co,weo_2022
+non opec,cr,weo_2022
+non opec,cu,weo_2022
+non opec,cw,weo_2022
+non opec,do,weo_2022
+non opec,sv,weo_2022
+non opec,gt,weo_2022
+non opec,ht,weo_2022
+non opec,hn,weo_2022
+non opec,jm,weo_2022
+non opec,ni,weo_2022
+non opec,pa,weo_2022
+non opec,py,weo_2022
+non opec,pe,weo_2022
+non opec,sr,weo_2022
+non opec,tt,weo_2022
+non opec,uy,weo_2022
+non opec,ai,weo_2022
+non opec,ag,weo_2022
+non opec,aw,weo_2022
+non opec,bs,weo_2022
+non opec,bb,weo_2022
+non opec,bz,weo_2022
+non opec,bm,weo_2022
+non opec,bq,weo_2022
+non opec,vg,weo_2022
+non opec,ky,weo_2022
+non opec,dm,weo_2022
+non opec,fk,weo_2022
+non opec,gf,weo_2022
+non opec,gd,weo_2022
+non opec,gp,weo_2022
+non opec,gy,weo_2022
+non opec,mq,weo_2022
+non opec,ms,weo_2022
+non opec,lc,weo_2022
+non opec,pm,weo_2022
+non opec,vc,weo_2022
+non opec,mf,weo_2022
+non opec,tc,weo_2022
+non opec,hk,weo_2022
+non opec,ru,weo_2022
+non opec,al,weo_2022
+non opec,by,weo_2022
+non opec,ba,weo_2022
+non opec,mk,weo_2022
+non opec,gi,weo_2022
+non opec,xk,weo_2022
+non opec,me,weo_2022
+non opec,rs,weo_2022
+non opec,md,weo_2022
+non opec,ua,weo_2022
+non opec,bh,weo_2022
+non opec,jo,weo_2022
+non opec,lb,weo_2022
+non opec,om,weo_2022
+non opec,qa,weo_2022
+non opec,sy,weo_2022
+non opec,ye,weo_2022
+non opec,bf,weo_2022
+non opec,bi,weo_2022
+non opec,cv,weo_2022
+non opec,cf,weo_2022
+non opec,td,weo_2022
+non opec,km,weo_2022
+non opec,dj,weo_2022
+non opec,gm,weo_2022
+non opec,gn,weo_2022
+non opec,gw,weo_2022
+non opec,ls,weo_2022
+non opec,lr,weo_2022
+non opec,mg,weo_2022
+non opec,mw,weo_2022
+non opec,ml,weo_2022
+non opec,mr,weo_2022
+non opec,re,weo_2022
+non opec,rw,weo_2022
+non opec,st,weo_2022
+non opec,sc,weo_2022
+non opec,sl,weo_2022
+non opec,so,weo_2022
+non opec,ug,weo_2022
+global,ad,weo_2022
+global,as,weo_2022
+global,bl,weo_2022
+global,fm,weo_2022
+global,fo,weo_2022
+global,gg,weo_2022
+global,gl,weo_2022
+global,gu,weo_2022
+global,im,weo_2022
+global,je,weo_2022
+global,kn,weo_2022
+global,kr,weo_2022
+global,mh,weo_2022
+global,mp,weo_2022
+global,nr,weo_2022
+global,pr,weo_2022
+global,sh,weo_2022
+global,sm,weo_2022
+global,sx,weo_2022
+global,sz,weo_2022
+global,tv,weo_2022
+global,vi,weo_2022
+global,wf,weo_2022
+global,yt,weo_2022
+brazil,br,weo_2022
+india,in,weo_2022
+japan,jp,weo_2022
+united states,us,weo_2022
+russia,ru,weo_2022
+non oecd,ad,weo_2022
+non oecd,as,weo_2022
+non oecd,bl,weo_2022
+non oecd,fm,weo_2022
+non oecd,fo,weo_2022
+non oecd,gg,weo_2022
+non oecd,gl,weo_2022
+non oecd,gu,weo_2022
+non oecd,im,weo_2022
+non oecd,je,weo_2022
+non oecd,kn,weo_2022
+non oecd,kr,weo_2022
+non oecd,mh,weo_2022
+non oecd,mp,weo_2022
+non oecd,nr,weo_2022
+non oecd,pr,weo_2022
+non oecd,sh,weo_2022
+non oecd,sm,weo_2022
+non oecd,sx,weo_2022
+non oecd,sz,weo_2022
+non oecd,tv,weo_2022
+non oecd,vi,weo_2022
+non oecd,wf,weo_2022
+non oecd,yt,weo_2022
+developing economies,ad,weo_2022
+developing economies,as,weo_2022
+developing economies,bl,weo_2022
+developing economies,fm,weo_2022
+developing economies,fo,weo_2022
+developing economies,gg,weo_2022
+developing economies,gl,weo_2022
+developing economies,gu,weo_2022
+developing economies,im,weo_2022
+developing economies,je,weo_2022
+developing economies,kn,weo_2022
+developing economies,kr,weo_2022
+developing economies,mh,weo_2022
+developing economies,mp,weo_2022
+developing economies,nr,weo_2022
+developing economies,pr,weo_2022
+developing economies,sh,weo_2022
+developing economies,sm,weo_2022
+developing economies,sx,weo_2022
+developing economies,sz,weo_2022
+developing economies,tv,weo_2022
+developing economies,vi,weo_2022
+developing economies,wf,weo_2022
+developing economies,yt,weo_2022
+global,NA,weo_2022

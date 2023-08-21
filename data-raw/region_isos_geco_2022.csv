@@ -1,0 +1,366 @@
+source,isos,region
+geco_2022,ru,russia
+geco_2022,al,other balkan
+geco_2022,ba,other balkan
+geco_2022,rs,other balkan
+geco_2022,mk,other balkan
+geco_2022,md,other balkan
+geco_2022,me,other balkan
+geco_2022,rs,other balkan
+geco_2022,am,other cis
+geco_2022,az,other cis
+geco_2022,by,other cis
+geco_2022,ge,other cis
+geco_2022,kz,other cis
+geco_2022,kg,other cis
+geco_2022,tj,other cis
+geco_2022,tm,other cis
+geco_2022,uz,other cis
+geco_2022,ua,ukraine
+geco_2022,ar,argentina
+geco_2022,br,brazil
+geco_2022,ca,canada
+geco_2022,cl,chile
+geco_2022,mx,mexico
+geco_2022,us,us
+geco_2022,bs,rest central america
+geco_2022,bb,rest central america
+geco_2022,bz,rest central america
+geco_2022,bm,rest central america
+geco_2022,cr,rest central america
+geco_2022,cu,rest central america
+geco_2022,dm,rest central america
+geco_2022,do,rest central america
+geco_2022,sv,rest central america
+geco_2022,gd,rest central america
+geco_2022,gt,rest central america
+geco_2022,ht,rest central america
+geco_2022,hn,rest central america
+geco_2022,jm,rest central america
+geco_2022,ni,rest central america
+geco_2022,aw,rest central america
+geco_2022,pa,rest central america
+geco_2022,st,rest central america
+geco_2022,lc,rest central america
+geco_2022,vc,rest central america
+geco_2022,tt,rest central america
+geco_2022,bo,rest south america
+geco_2022,co,rest south america
+geco_2022,ec,rest south america
+geco_2022,gy,rest south america
+geco_2022,py,rest south america
+geco_2022,pe,rest south america
+geco_2022,sr,rest south america
+geco_2022,uy,rest south america
+geco_2022,ve,rest south america
+geco_2022,eg,egypt
+geco_2022,dz,algeria & libya
+geco_2022,ly,algeria & libya
+geco_2022,ma,morocco & tunisia
+geco_2022,tn,morocco & tunisia
+geco_2022,za,south africa
+geco_2022,bf,rest sub saharan africa
+geco_2022,bi,rest sub saharan africa
+geco_2022,cm,rest sub saharan africa
+geco_2022,cv,rest sub saharan africa
+geco_2022,cf,rest sub saharan africa
+geco_2022,td,rest sub saharan africa
+geco_2022,km,rest sub saharan africa
+geco_2022,cg,rest sub saharan africa
+geco_2022,cd,rest sub saharan africa
+geco_2022,ci,rest sub saharan africa
+geco_2022,dj,rest sub saharan africa
+geco_2022,gq,rest sub saharan africa
+geco_2022,er,rest sub saharan africa
+geco_2022,et,rest sub saharan africa
+geco_2022,ga,rest sub saharan africa
+geco_2022,gm,rest sub saharan africa
+geco_2022,gh,rest sub saharan africa
+geco_2022,gn,rest sub saharan africa
+geco_2022,gw,rest sub saharan africa
+geco_2022,ke,rest sub saharan africa
+geco_2022,ls,rest sub saharan africa
+geco_2022,lr,rest sub saharan africa
+geco_2022,mg,rest sub saharan africa
+geco_2022,mw,rest sub saharan africa
+geco_2022,ml,rest sub saharan africa
+geco_2022,mr,rest sub saharan africa
+geco_2022,mu,rest sub saharan africa
+geco_2022,mz,rest sub saharan africa
+geco_2022,NA,rest sub saharan africa
+geco_2022,ne,rest sub saharan africa
+geco_2022,ng,rest sub saharan africa
+geco_2022,rw,rest sub saharan africa
+geco_2022,sn,rest sub saharan africa
+geco_2022,sl,rest sub saharan africa
+geco_2022,so,rest sub saharan africa
+geco_2022,sd,rest sub saharan africa
+geco_2022,sz,rest sub saharan africa
+geco_2022,tz,rest sub saharan africa
+geco_2022,tg,rest sub saharan africa
+geco_2022,ug,rest sub saharan africa
+geco_2022,zm,rest sub saharan africa
+geco_2022,ao,rest sub saharan africa
+geco_2022,bj,rest sub saharan africa
+geco_2022,bw,rest sub saharan africa
+geco_2022,ir,iran
+geco_2022,sa,saudi arabia
+geco_2022,tr,turkey
+geco_2022,il,mediteranean middle east
+geco_2022,jo,mediteranean middle east
+geco_2022,lb,mediteranean middle east
+geco_2022,sy,mediteranean middle east
+geco_2022,bh,rest gulf
+geco_2022,iq,rest gulf
+geco_2022,kw,rest gulf
+geco_2022,om,rest gulf
+geco_2022,qa,rest gulf
+geco_2022,ae,rest gulf
+geco_2022,ye,rest gulf
+geco_2022,cn,china
+geco_2022,in,india
+geco_2022,id,indonesia
+geco_2022,my,malaysia
+geco_2022,th,thailand
+geco_2022,vn,vietnam
+geco_2022,af,rest south asia
+geco_2022,bd,rest south asia
+geco_2022,bt,rest south asia
+geco_2022,mv,rest south asia
+geco_2022,np,rest south asia
+geco_2022,pk,rest south asia
+geco_2022,sc,rest south asia
+geco_2022,lk,rest south asia
+geco_2022,bn,rest south east asia
+geco_2022,kh,rest south east asia
+geco_2022,la,rest south east asia
+geco_2022,mn,rest south east asia
+geco_2022,mm,rest south east asia
+geco_2022,kp,rest south east asia
+geco_2022,sg,rest south east asia
+geco_2022,tw,rest south east asia
+geco_2022,au,australia
+geco_2022,jp,japan
+geco_2022,kr,south korea
+geco_2022,nz,new zealand
+geco_2022,fj,rest pacific
+geco_2022,ki,rest pacific
+geco_2022,pg,rest pacific
+geco_2022,ws,rest pacific
+geco_2022,sb,rest pacific
+geco_2022,to,rest pacific
+geco_2022,vu,rest pacific
+geco_2022,gb,uk
+geco_2022,at,eu27
+geco_2022,be,eu27
+geco_2022,bg,eu27
+geco_2022,hr,eu27
+geco_2022,cy,eu27
+geco_2022,cz,eu27
+geco_2022,dk,eu27
+geco_2022,ee,eu27
+geco_2022,fi,eu27
+geco_2022,fr,eu27
+geco_2022,de,eu27
+geco_2022,gr,eu27
+geco_2022,hu,eu27
+geco_2022,ie,eu27
+geco_2022,it,eu27
+geco_2022,lv,eu27
+geco_2022,lt,eu27
+geco_2022,lu,eu27
+geco_2022,mt,eu27
+geco_2022,nl,eu27
+geco_2022,pl,eu27
+geco_2022,pt,eu27
+geco_2022,ro,eu27
+geco_2022,sk,eu27
+geco_2022,si,eu27
+geco_2022,es,eu27
+geco_2022,se,eu27
+geco_2022,ch,global
+geco_2022,no,global
+geco_2022,is,global
+geco_2022,li,global
+geco_2022,ru,global
+geco_2022,al,global
+geco_2022,ba,global
+geco_2022,rs,global
+geco_2022,mk,global
+geco_2022,md,global
+geco_2022,me,global
+geco_2022,rs,global
+geco_2022,am,global
+geco_2022,az,global
+geco_2022,by,global
+geco_2022,ge,global
+geco_2022,kz,global
+geco_2022,kg,global
+geco_2022,tj,global
+geco_2022,tm,global
+geco_2022,uz,global
+geco_2022,ua,global
+geco_2022,ar,global
+geco_2022,br,global
+geco_2022,ca,global
+geco_2022,cl,global
+geco_2022,mx,global
+geco_2022,us,global
+geco_2022,bs,global
+geco_2022,bb,global
+geco_2022,bz,global
+geco_2022,bm,global
+geco_2022,cr,global
+geco_2022,cu,global
+geco_2022,dm,global
+geco_2022,do,global
+geco_2022,sv,global
+geco_2022,gd,global
+geco_2022,gt,global
+geco_2022,ht,global
+geco_2022,hn,global
+geco_2022,jm,global
+geco_2022,ni,global
+geco_2022,aw,global
+geco_2022,pa,global
+geco_2022,st,global
+geco_2022,lc,global
+geco_2022,vc,global
+geco_2022,tt,global
+geco_2022,bo,global
+geco_2022,co,global
+geco_2022,ec,global
+geco_2022,gy,global
+geco_2022,py,global
+geco_2022,pe,global
+geco_2022,sr,global
+geco_2022,uy,global
+geco_2022,ve,global
+geco_2022,eg,global
+geco_2022,dz,global
+geco_2022,ly,global
+geco_2022,ma,global
+geco_2022,tn,global
+geco_2022,za,global
+geco_2022,bf,global
+geco_2022,bi,global
+geco_2022,cm,global
+geco_2022,cv,global
+geco_2022,cf,global
+geco_2022,td,global
+geco_2022,km,global
+geco_2022,cg,global
+geco_2022,cd,global
+geco_2022,ci,global
+geco_2022,dj,global
+geco_2022,gq,global
+geco_2022,er,global
+geco_2022,et,global
+geco_2022,ga,global
+geco_2022,gm,global
+geco_2022,gh,global
+geco_2022,gn,global
+geco_2022,gw,global
+geco_2022,ke,global
+geco_2022,ls,global
+geco_2022,lr,global
+geco_2022,mg,global
+geco_2022,mw,global
+geco_2022,ml,global
+geco_2022,mr,global
+geco_2022,mu,global
+geco_2022,mz,global
+geco_2022,NA,global
+geco_2022,ne,global
+geco_2022,ng,global
+geco_2022,rw,global
+geco_2022,sn,global
+geco_2022,sl,global
+geco_2022,so,global
+geco_2022,sd,global
+geco_2022,sz,global
+geco_2022,tz,global
+geco_2022,tg,global
+geco_2022,ug,global
+geco_2022,zm,global
+geco_2022,ao,global
+geco_2022,bj,global
+geco_2022,bw,global
+geco_2022,ir,global
+geco_2022,sa,global
+geco_2022,tr,global
+geco_2022,il,global
+geco_2022,jo,global
+geco_2022,lb,global
+geco_2022,sy,global
+geco_2022,bh,global
+geco_2022,iq,global
+geco_2022,kw,global
+geco_2022,om,global
+geco_2022,qa,global
+geco_2022,ae,global
+geco_2022,ye,global
+geco_2022,cn,global
+geco_2022,in,global
+geco_2022,id,global
+geco_2022,my,global
+geco_2022,th,global
+geco_2022,vn,global
+geco_2022,af,global
+geco_2022,bd,global
+geco_2022,bt,global
+geco_2022,mv,global
+geco_2022,np,global
+geco_2022,pk,global
+geco_2022,sc,global
+geco_2022,lk,global
+geco_2022,bn,global
+geco_2022,kh,global
+geco_2022,la,global
+geco_2022,mn,global
+geco_2022,mm,global
+geco_2022,kp,global
+geco_2022,sg,global
+geco_2022,tw,global
+geco_2022,au,global
+geco_2022,jp,global
+geco_2022,kr,global
+geco_2022,nz,global
+geco_2022,fj,global
+geco_2022,ki,global
+geco_2022,pg,global
+geco_2022,ws,global
+geco_2022,sb,global
+geco_2022,to,global
+geco_2022,vu,global
+geco_2022,gb,global
+geco_2022,at,global
+geco_2022,be,global
+geco_2022,bg,global
+geco_2022,hr,global
+geco_2022,cy,global
+geco_2022,cz,global
+geco_2022,dk,global
+geco_2022,ee,global
+geco_2022,fi,global
+geco_2022,fr,global
+geco_2022,de,global
+geco_2022,gr,global
+geco_2022,hu,global
+geco_2022,ie,global
+geco_2022,it,global
+geco_2022,lv,global
+geco_2022,lt,global
+geco_2022,lu,global
+geco_2022,mt,global
+geco_2022,nl,global
+geco_2022,pl,global
+geco_2022,pt,global
+geco_2022,ro,global
+geco_2022,sk,global
+geco_2022,si,global
+geco_2022,es,global
+geco_2022,se,global
+geco_2022,ch,switzerland
+geco_2022,is,iceland
+geco_2022,no,norway
