@@ -3,7 +3,8 @@ Title: Datasets to Measure the Alignment of Corporate Loan Books with
     Climate Goals
 Version: 0.3.1.9000
 Authors@R: c(
-    person("Jackson", "Hoffart", , "jackson.hoffart@gmail.com", role = c("aut", "cre", "dtc"),
+    person("Alex", "Axthelm", , "aaxthelm@rmi.org", role = c("aut", "cre", "dtc")),
+    person("Jackson", "Hoffart", , "jackson.hoffart@gmail.com", role = c("aut", "ctr", "dtc"),
            comment = c(ORCID = "0000-0002-8600-5042")),
     person("Mauro", "Lepore", , "maurolepore@gmail.com", role = c("aut", "ctr"),
            comment = c(ORCID = "0000-0002-1986-7988")),
