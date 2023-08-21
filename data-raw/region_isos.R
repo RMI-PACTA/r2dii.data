@@ -257,6 +257,23 @@ region_isos_weo_2021 <- process_countries(
   source_year
 )
 
+# Process raw_regions_weo_2022.csv ----------------------------------------
+
+# Source: raw_regions_weo_2021.csv was transcribed from
+# https://iea.blob.core.windows.net/assets/830fe099-5530-48f2-a7c1-11f35d510983/WorldEnergyOutlook2022.pdf
+source_year <- "weo_2022"
+region_data <- read_regions(regions_path(source_year)) %>%
+  mutate(type = "country_name") %>%
+  rename(value = "isos")
+
+region_isos_weo_2022 <- process_countries(
+  region_data,
+  abcd_isos,
+  source_year
+)
+
+
+
 # Process raw_regions_geco_2020.csv ----------------------------------------
 
 # Source: raw_regions_geco_2020.csv was transcribed from
@@ -283,6 +300,22 @@ region_isos_geco_2021 <- process_countries(
   source_year
 )
 
+
+# Process raw_regions_geco_2022.csv
+
+# Source: raw_regions_geco_2021.csv was transcribed from
+# https://publications.jrc.ec.europa.eu/repository/handle/JRC131864
+source_year <- "geco_2022"
+region_data <- read_regions(regions_path(source_year)) %>%
+  mutate(type = "country_name") %>%
+  rename(value = "isos")
+
+region_isos_geco_2022 <- process_countries(
+  region_data,
+  abcd_isos,
+  source_year
+)
+
 # Combine -----------------------------------------------------------------
 
 region_isos <- rbind(
@@ -293,8 +326,10 @@ region_isos <- rbind(
   region_isos_nze_2021,
   region_isos_etp_2020,
   region_isos_weo_2021,
+  region_isos_weo_2022,
   region_isos_geco_2020,
-  region_isos_geco_2021
+  region_isos_geco_2021,
+  region_isos_geco_2022
 ) %>%
   group_by(region, source) %>%
   distinct(isos) %>%
