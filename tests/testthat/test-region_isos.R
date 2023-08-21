@@ -1,5 +1,4 @@
 test_that("hasn't changed", {
-  snapshot_accept("region_isos")
   expect_snapshot_value(region_isos, style = "json2")
 })
 
