@@ -284,10 +284,10 @@ pams_syn_cleaned <- pams_syn %>%
     company_name = data_demo_name,
     data_demo_name = NULL
   ) %>%
-  group_by(company_name) %>%
+  group_by(company_name, sector) %>%
   filter(!is.na(company_name)) %>%
   mutate(
-    company_id = dplyr::cur_group_id(),
+    company_id = as.character(dplyr::cur_group_id()),
   ) %>%
   ungroup() %>%
   filter(!is.na(production)) %>%
