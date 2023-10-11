@@ -1,4 +1,4 @@
-# r2dii.data (development version)
+# r2dii.data 0.4.0
 
 * New dataset `increasing_or_decreasing` supersedes the dataset 
 `green_or_brown` (#307).
