@@ -20,7 +20,7 @@ Useful links:
 
 }
 \author{
-\strong{Maintainer}: Alex Axthelm \email{aaxthelm@rmi.org} [data contributor]
+\strong{Maintainer}: Alex Axthelm \email{aaxthelm@rmi.org} (\href{https://orcid.org/0000-0001-8579-8565}{ORCID}) [data contributor]
 
 Authors:
 \itemize{
