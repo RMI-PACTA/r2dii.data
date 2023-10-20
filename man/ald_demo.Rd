@@ -5,7 +5,7 @@
 \alias{ald_demo}
 \title{An asset level dataset for demonstration}
 \format{
-An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 1470 rows and 14 columns.
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 5656 rows and 14 columns.
 }
 \usage{
 ald_demo
