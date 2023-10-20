@@ -43,6 +43,12 @@ abcd_demo <- abcd_demo %>%
     dplyr::between(year, 2020, 2025)
   )
 
+# set ald_timestamp to a reasonable value give the time frame of the demo data
+abcd_demo <- abcd_demo %>%
+  dplyr::mutate(
+    ald_timestamp = "2020Q4"
+  )
+
 # ensure aviation data is in appropriate range
 abcd_aviation <- abcd_demo %>%
   dplyr::filter(sector == "aviation")
