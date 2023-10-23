@@ -4,6 +4,7 @@ library(usethis)
 source(file.path("data-raw", "utils.R"))
 
 # Source: https://github.com/2DegreesInvesting/r2dii.dataraw/pull/4
+# added a coal and a steel company to cover all sectors in demo loan book (#315)
 path <- file.path("data-raw", "loanbook_demo.csv")
 loanbook_demo <- readr::read_csv(
   path,
