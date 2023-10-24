@@ -1,3 +1,7 @@
+# r2dii.data (development version)
+
+* Temporary fix of the demo data sets.
+
 # r2dii.data 0.4.0
 
 * New dataset `increasing_or_decreasing` supersedes the dataset 
