@@ -33,7 +33,9 @@ Imports:
     stats,
     utils
 Suggests: 
+    charlatan,
     covr,
+    readr,
     rlang,
     rmarkdown,
     testthat (>= 2.1.0)

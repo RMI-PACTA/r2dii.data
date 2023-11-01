@@ -1,4 +1,6 @@
+library(charlatan)
 library(dplyr)
+library(readr)
 library(usethis)
 
 source(file.path("data-raw", "utils.R"))
@@ -34,7 +36,7 @@ generate_lei <- function(id) {
 vgenerate_lei <- Vectorize(generate_lei)
 
 path <- file.path("data-raw", "abcd_demo.csv")
-abcd_demo <- read_csv_(path)
+abcd_demo <- read_csv(path, na = "", show_col_types = FALSE)
 
 # ensure time frame corresponds to typical format of a P4B data release (five
 # years forward looking)
@@ -79,28 +81,16 @@ abcd_aviation <- abcd_aviation %>%
   )
 
 # hdv ---------------------------------------------------------------------
-hdv_name_bridge <- tibble::tribble(
-  ~name_company, ~name_company_hdv,
-  "aston martin", "scania",
-  "avtozaz", "man",
-  "bogdan", "iveco",
-  "ch auto", "paccar inc",
-  "chehejia", "hino",
-  "chtc auto", "volvo group",
-  "dongfeng honda", "navistar",
-  "dongfeng-luxgen", "dongfeng",
-  "electric mobility solutions", "tata motors",
-  "faraday future", "daimler"
-)
+
+locales <- c("de_DE", "en_US", "it_IT")
 
 abcd_hdv <- abcd_demo %>%
   dplyr::filter(sector == "automotive") %>%
-  dplyr::mutate(
-    sector = "hdv"
-  ) %>%
-  dplyr::right_join(hdv_name_bridge, by = "name_company") %>%
-  dplyr::select(-name_company) %>%
-  dplyr::rename(name_company = name_company_hdv)
+  dplyr::mutate(sector = "hdv") %>%
+  mutate(
+    name_company = paste0(ch_company(locale = locales[sample.int(n = length(locales), size = 1)]), " (", sector, ")"),
+    .by = name_company
+  )
 
 # then we will ensure the numerical fields are in an appropriate range
 # we will also add some random noise to ensure that the output isn't identical
@@ -191,8 +181,25 @@ ordered_names <- c(
   emission_factor_unit = "ald_emission_factor_unit"
 )
 
-abcd_demo <- select(abcd_demo, ordered_names)
+abcd_demo <- select(abcd_demo, all_of(ordered_names))
 
 abcd_demo <- rename(abcd_demo, abcd_timestamp = ald_timestamp)
+
+
+# hot fixes for late 2023 release ----------------------------------------------
+
+# remove Shipping data
+abcd_demo <- filter(abcd_demo, sector != "shipping")
+
+# remove LEIs
+abcd_demo <- mutate(abcd_demo, lei = NA)
+
+# stop if there are duplicate company names with different IDs
+stopifnot(
+  ! abcd_demo %>% distinct(company_id, name_company) %>% pull(name_company) %>% duplicated() %>% any()
+)
+
+
+# export -----------------------------------------------------------------------
 
 usethis::use_data(abcd_demo, overwrite = TRUE)
