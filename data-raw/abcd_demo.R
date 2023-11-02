@@ -1,6 +1,7 @@
 library(charlatan)
 library(dplyr)
 library(readr)
+library(stringi)
 library(usethis)
 
 source(file.path("data-raw", "utils.R"))
@@ -90,7 +91,9 @@ abcd_hdv <- abcd_demo %>%
   mutate(
     name_company = paste0(ch_company(locale = locales[sample.int(n = length(locales), size = 1)]), " (", sector, ")"),
     .by = name_company
-  )
+  ) %>%
+  mutate(name_company = gsub("&amp;", "&", name_company)) %>%
+  mutate(name_company = stri_trans_general(name_company, id = "Latin-ASCII"))
 
 # then we will ensure the numerical fields are in an appropriate range
 # we will also add some random noise to ensure that the output isn't identical
