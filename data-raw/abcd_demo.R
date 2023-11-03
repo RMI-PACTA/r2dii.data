@@ -132,7 +132,7 @@ abcd_demo <- left_join(
 abcd_demo$year <- as.integer(abcd_demo$year)
 
 abcd_demo <- abcd_demo %>%
-  group_by(name_company, sector) %>%
+  group_by(name_company) %>%
   mutate(
     id_company = as.character(cur_group_id()),
     .before = 1
