@@ -22,7 +22,7 @@ they help to demonstrate and test the implementation in R of 'PACTA'
     
     <a class="navbar-brand me-2" href="../index.html">r2dii.data</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">0.4.0</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">0.4.1</small>
 
     
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -88,7 +88,7 @@ they help to demonstrate and test the implementation in R of 'PACTA'
 
     <div class="section level2">
     <h2 id="format">Format<a class="anchor" aria-label="anchor" href="#format"></a></h2>
-    <p>An object of class <code>tbl_df</code> (inherits from <code>tbl</code>, <code>data.frame</code>) with 1470 rows and 14 columns.</p>
+    <p>An object of class <code>tbl_df</code> (inherits from <code>tbl</code>, <code>data.frame</code>) with 4972 rows and 14 columns.</p>
     </div>
     <div class="section level2">
     <h2 id="definitions">Definitions<a class="anchor" aria-label="anchor" href="#definitions"></a></h2>
@@ -111,17 +111,17 @@ they help to demonstrate and test the implementation in R of 'PACTA'
     <h2 id="ref-examples">Examples<a class="anchor" aria-label="anchor" href="#ref-examples"></a></h2>
     <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span><span class="fu"><a href="https://rdrr.io/r/utils/head.html" class="external-link">head</a></span><span class="op">(</span><span class="va">abcd_demo</span><span class="op">)</span></span></span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;"># A tibble: 6 × 14</span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>   company_id name_company               lei   sector technology  year production</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>   <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>      <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>                      <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>  <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>      <span style="color: #949494; font-style: italic;">&lt;dbl&gt;</span>      <span style="color: #949494; font-style: italic;">&lt;dbl&gt;</span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">1</span> 11         large aviation company two 9178… aviat… passenger   <span style="text-decoration: underline;">2</span>020    6.86<span style="color: #949494;">e</span>10</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">2</span> 11         large aviation company two 9178… aviat… passenger   <span style="text-decoration: underline;">2</span>021    1.09<span style="color: #949494;">e</span>11</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">3</span> 11         large aviation company two 9178… aviat… passenger   <span style="text-decoration: underline;">2</span>022    9.34<span style="color: #949494;">e</span>10</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">4</span> 11         large aviation company two 9178… aviat… passenger   <span style="text-decoration: underline;">2</span>023    1.08<span style="color: #949494;">e</span>11</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">5</span> 11         large aviation company two 9178… aviat… passenger   <span style="text-decoration: underline;">2</span>024    8.55<span style="color: #949494;">e</span>10</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">6</span> 11         large aviation company two 9178… aviat… passenger   <span style="text-decoration: underline;">2</span>025    7.13<span style="color: #949494;">e</span>10</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;"># ℹ 7 more variables: production_unit &lt;chr&gt;, emission_factor &lt;dbl&gt;,</span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;">#   emission_factor_unit &lt;chr&gt;, country_of_domicile &lt;fct&gt;,</span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;">#   plant_location &lt;fct&gt;, is_ultimate_owner &lt;lgl&gt;, abcd_timestamp &lt;chr&gt;</span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>   company_id name_company          lei   sector technology production_unit  year</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>   <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>      <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>                 <span style="color: #949494; font-style: italic;">&lt;lgl&gt;</span> <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>  <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>      <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>           <span style="color: #949494; font-style: italic;">&lt;int&gt;</span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">1</span> 181        Giordano, Giordano e… <span style="color: #BB0000;">NA</span>    power  hydrocap   MW               <span style="text-decoration: underline;">2</span>020</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">2</span> 181        Giordano, Giordano e… <span style="color: #BB0000;">NA</span>    power  hydrocap   MW               <span style="text-decoration: underline;">2</span>021</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">3</span> 181        Giordano, Giordano e… <span style="color: #BB0000;">NA</span>    power  hydrocap   MW               <span style="text-decoration: underline;">2</span>022</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">4</span> 181        Giordano, Giordano e… <span style="color: #BB0000;">NA</span>    power  hydrocap   MW               <span style="text-decoration: underline;">2</span>023</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">5</span> 181        Giordano, Giordano e… <span style="color: #BB0000;">NA</span>    power  hydrocap   MW               <span style="text-decoration: underline;">2</span>024</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">6</span> 181        Giordano, Giordano e… <span style="color: #BB0000;">NA</span>    power  hydrocap   MW               <span style="text-decoration: underline;">2</span>025</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;"># ℹ 7 more variables: production &lt;dbl&gt;, emission_factor &lt;dbl&gt;,</span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;">#   country_of_domicile &lt;chr&gt;, plant_location &lt;chr&gt;, is_ultimate_owner &lt;lgl&gt;,</span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;">#   abcd_timestamp &lt;chr&gt;, emission_factor_unit &lt;chr&gt;</span></span>
 </code></pre></div>
     </div>
   </main><aside class="col-md-3"><nav id="toc"><h2>On this page</h2>
