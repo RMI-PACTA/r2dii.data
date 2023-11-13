@@ -1,6 +1,6 @@
-# r2dii.data (development version)
+# r2dii.data 0.4.1
 
-* Temporary fix of the demo data sets.
+* Fix of the demo data sets.
 * abcd_demo and loanbook_demo now use faked company names.
 
 # r2dii.data 0.4.0
