@@ -36,8 +36,8 @@ Or install the development version of r2dii.data with something like
 this:
 
 ``` r
-# install.packages("devtools")
-devtools::install_github("RMI-PACTA/r2dii.data")
+# install.packages("pak")
+pak::pak("RMI-PACTA/r2dii.data")
 ```
 
 ## Example
