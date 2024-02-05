@@ -27,3 +27,17 @@ test_that("In classification datasets, `code` is of type 'character' (#185)", {
   types <- unlist(lapply(datasets, function(x) typeof(x[["code"]])))
   expect_equal(unique(types), "character")
 })
+
+test_that("In classification datasets, values of `code` are unique per dataset (#229)", {
+  datasets <- enlist_datasets("r2dii.data", "classification")
+
+  no_duplicate_codes <- lapply(datasets, function(x) {
+    result <- subset(as.data.frame(table(x$code)),Freq > 1)
+    nrow(result) == 0
+  })
+
+  for (i in seq_along(no_duplicate_codes)) {
+    expect_true(no_duplicate_codes[[i]], info = names(no_duplicate_codes)[i])
+  }
+
+})
