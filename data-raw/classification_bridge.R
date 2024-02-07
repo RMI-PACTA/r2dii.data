@@ -28,6 +28,11 @@ gics_classification <- read_bridge(
 )
 usethis::use_data(gics_classification, overwrite = TRUE)
 
+cnb_classification <- read_bridge(
+  file.path("data-raw", "cnb_classification.csv")
+)
+usethis::use_data(cnb_classification, overwrite = TRUE)
+
 psic_classification <- read_bridge(
   file.path("data-raw", "psic_classification.csv")
 )
