@@ -5,7 +5,7 @@
 \alias{gics_classification}
 \title{Dataset to bridge (translate) common sector-classification codes}
 \format{
-An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 263 rows and 5 columns.
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 262 rows and 5 columns.
 }
 \usage{
 gics_classification
