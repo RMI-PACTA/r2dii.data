@@ -10,34 +10,15 @@
 #' @seealso [data_dictionary].
 #'
 #' @section Definitions:
-#' `r define("isic_classification")`
-#'
-#' @template info_classification-datasets
-#' @examples
-#' head(isic_classification)
-"isic_classification"
-
-
-
-#' @inherit isic_classification title
-#' @inherit isic_classification description
-#'
-#' @section Definitions:
 #' `r define("nace_classification")`
 #'
 #' @template info_classification-datasets
-#'
-#' @family datasets for bridging sector classification codes
-#' @seealso [data_dictionary].
-#'
 #' @examples
 #' head(nace_classification)
 "nace_classification"
 
-
-
-#' @inherit isic_classification title
-#' @inherit isic_classification description
+#' @inherit nace_classification title
+#' @inherit nace_classification description
 #'
 #' @section Definitions:
 #' `r define("naics_classification")`
@@ -51,8 +32,8 @@
 #' head(naics_classification)
 "naics_classification"
 
-#' @inherit isic_classification title
-#' @inherit isic_classification description
+#' @inherit nace_classification title
+#' @inherit nace_classification description
 #'
 #' @section Definitions:
 #' `r define("sic_classification")`
@@ -66,8 +47,8 @@
 #' head(sic_classification)
 "sic_classification"
 
-#' @inherit isic_classification title
-#' @inherit isic_classification description
+#' @inherit nace_classification title
+#' @inherit nace_classification description
 #'
 #' @section Definitions:
 #' `r define("gics_classification")`
@@ -81,23 +62,8 @@
 #' head(gics_classification)
 "gics_classification"
 
-#' @inherit isic_classification title
-#' @inherit isic_classification description
-#'
-#' @section Definitions:
-#' `r define("cnb_classification")`
-#'
-#' @template info_classification-datasets
-#'
-#' @family datasets for bridging sector classification codes
-#' @seealso [data_dictionary].
-#'
-#' @examples
-#' head(cnb_classification)
-"cnb_classification"
-
-#' @inherit isic_classification title
-#' @inherit isic_classification description
+#' @inherit nace_classification title
+#' @inherit nace_classification description
 #'
 #' @section Definitions:
 #' `r define('psic_classification')`
@@ -110,3 +76,25 @@
 #' @examples
 #' head(psic_classification)
 "psic_classification"
+
+#' @inherit nace_classification title
+#' @inherit nace_classification description
+#'
+#' @description
+#' `r lifecycle::badge("deprecated")`
+#'
+#' See `?sector_classifications`
+#'
+#' @keywords internal
+"isic_classification"
+
+#' @inherit nace_classification title
+#' @inherit nace_classification description
+#'
+#' @description
+#' `r lifecycle::badge("deprecated")`
+#'
+#' See `?sector_classifications`
+#'
+#' @keywords internal
+"cnb_classification"
