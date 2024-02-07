@@ -11,38 +11,8 @@ An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) w
 cnb_classification
 }
 \description{
-This dataset serves as a translation key between common sector-classification
-systems and sectors relevant to the 'PACTA' tool
-(\url{https://www.transitionmonitor.com/}).
-}
-\section{Definitions}{
+\ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#deprecated}{\figure{lifecycle-deprecated.svg}{options: alt='[Deprecated]'}}}{\strong{[Deprecated]}}
 
-\itemize{
-\item \code{borderline} (logical): Flag indicating if 2dii sector and classification code are a borderline match. The value TRUE indicates that the match is uncertain between the 2dii sector and the classification. The value FALSE indicates that the match is certainly perfect or the classification is certainly out of 2dii's scope.., * \code{code} (character): Formatted CNB code., * \code{code_level} (double): Level of granularity of CNB code., * \code{original_code} (character): Original CNB sector name., * \code{sector} (character): Associated 2dii sector.
+See \code{?sector_classifications}
 }
-}
-
-\section{Details}{
-
-Classification datasets help to standardize sector classification codes from
-the wild to a relevant subset including 'power', 'oil and gas', 'coal',
-'automotive', 'aviation', 'concrete', 'steel', and 'shipping'.
-}
-
-\examples{
-head(cnb_classification)
-}
-\seealso{
-\link{data_dictionary}.
-
-Other datasets for bridging sector classification codes: 
-\code{\link{gics_classification}},
-\code{\link{isic_classification}},
-\code{\link{nace_classification}},
-\code{\link{naics_classification}},
-\code{\link{psic_classification}},
-\code{\link{sector_classifications}},
-\code{\link{sic_classification}}
-}
-\concept{datasets for bridging sector classification codes}
-\keyword{datasets}
+\keyword{internal}
