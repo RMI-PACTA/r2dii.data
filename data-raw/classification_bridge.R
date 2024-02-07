@@ -26,19 +26,3 @@ psic_classification <- read_bridge(
   file.path("data-raw", "psic_classification.csv")
 )
 usethis::use_data(psic_classification, overwrite = TRUE)
-
-# Source: @jdhoffa https://github.com/2DegreesInvesting/r2dii.dataraw/pull/6
-isic_classification_ <- read_bridge(
-  file.path("data-raw", "isic_classification.csv")
-)
-
-cnb_classification_ <- read_bridge(
-  file.path("data-raw", "cnb_classification.csv")
-)
-
-usethis::use_data(
-  isic_classification_,
-  cnb_classification_,
-  overwrite = TRUE,
-  internal = TRUE
-  )
