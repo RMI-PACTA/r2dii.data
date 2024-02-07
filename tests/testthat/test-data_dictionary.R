@@ -26,7 +26,11 @@ test_that("defines all its names", {
 
 test_that("includes suffix _demo", {
   dd <- data_dictionary$dataset
-  expect_true("loanbook_demo" %in% dd)
+  datasets <- enlist_datasets("r2dii.data")
+
+  for (dataset in grep("_demo$", names(datasets), value = TRUE)) {
+    expect_true(dataset %in% dd)
+  }
 })
 
 test_that("outputs as many rows per `dataset` as columns in `dataset`", {
