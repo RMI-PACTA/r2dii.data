@@ -1,5 +1,7 @@
 # r2dii.data (development version)
 
+* Complete deprecation of `ald_demo` (#328).
+
 # r2dii.data 0.4.1
 
 * Fix of the demo data sets.

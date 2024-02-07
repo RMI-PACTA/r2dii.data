@@ -26,7 +26,6 @@ test_that("defines all its names", {
 
 test_that("includes suffix _demo", {
   dd <- data_dictionary$dataset
-  expect_true("ald_demo" %in% dd)
   expect_true("loanbook_demo" %in% dd)
 })
 
