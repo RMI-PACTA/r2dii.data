@@ -1,5 +1,7 @@
 # r2dii.data (development version)
 
+* Begin deprecation of `cnb_classification` and `isic_classification` (#329).
+
 # r2dii.data 0.4.1
 
 * Fix of the demo data sets.
