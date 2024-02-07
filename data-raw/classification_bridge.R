@@ -14,16 +14,6 @@ nace_classification_raw <- read_bridge(
   file.path("data-raw", "nace_classification.csv")
 )
 
-letter_to_number_or_na <- function(code) {
-  if (grepl("^[A-Za-z]$", code)) {
-    as.integer(charToRaw(toupper(code))) - as.integer(charToRaw("A")) + 1
-  } else {
-    NA
-  }
-}
-
-letter_to_number_or_na <- Vectorize(letter_to_number_or_na)
-
 nace_classification <- nace_classification_raw %>%
   mutate(
     prepend_value = case_when(
