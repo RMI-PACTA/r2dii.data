@@ -1,5 +1,7 @@
 # r2dii.data (development version)
 
+* Breaking change: Deprecates dataset `cnb_classification` (#327).
+
 # r2dii.data 0.4.1
 
 * Fix of the demo data sets.
