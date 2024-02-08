@@ -1,5 +1,8 @@
 # r2dii.data (development version)
 
+* Complete deprecation of `ald_demo` in favor of `abcd_demo` (#328).
+* Complete deprecation of `green_or_brown` in favor of `increasing_or_decreasing` (#307).
+
 # r2dii.data 0.4.1
 
 * Fix of the demo data sets.
