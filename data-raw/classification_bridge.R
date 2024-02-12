@@ -2,8 +2,6 @@ library(usethis)
 
 source(file.path("data-raw", "utils.R"))
 
-letter_to_number <- Vectorize(letter_to_number)
-
 # Source: @jdhoffa https://github.com/2DegreesInvesting/r2dii.dataraw/pull/6
 isic_classification <- read_bridge(
   file.path("data-raw", "isic_classification.csv")
