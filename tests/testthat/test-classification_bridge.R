@@ -27,3 +27,24 @@ test_that("In classification datasets, `code` is of type 'character' (#185)", {
   types <- unlist(lapply(datasets, function(x) typeof(x[["code"]])))
   expect_equal(unique(types), "character")
 })
+
+test_that("In classification datasets, values of `code` are unique per sector and dataset (#229)", {
+  datasets <- enlist_datasets("r2dii.data", "classification")
+
+  #FIXME: This removes known offending datasets from the test.
+  # These datasets will be deprecated. Deprecation process tracked in #329
+  datasets$cnb_classification <- NULL
+  datasets$isic_classification <- NULL
+  datasets$sector_classifications <- NULL
+
+  no_duplicate_codes <- lapply(datasets, function(x) {
+    distinct_code_sector <- unique(x[c("code", "sector")])
+    result <- subset(as.data.frame(table(distinct_code_sector$code)),Freq > 1)
+    nrow(result) == 0
+  })
+
+  for (i in seq_along(no_duplicate_codes)) {
+    expect_true(no_duplicate_codes[[i]], info = names(no_duplicate_codes)[i])
+  }
+
+})
