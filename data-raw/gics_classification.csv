@@ -199,7 +199,6 @@ code,code_level,sector,borderline,description
 151020,3,cement,TRUE,construction materials
 151030,3,not in scope,FALSE,containers & packaging
 151040,3,steel,TRUE,metals & mining
-151040,3,coal,TRUE,metals & mining
 151050,3,not in scope,FALSE,paper & forest products
 201010,3,not in scope,FALSE,aerospace & defense
 201020,3,cement,TRUE,building products
@@ -244,7 +243,7 @@ code,code_level,sector,borderline,description
 402010,3,not in scope,FALSE,diversified financial services
 402020,3,not in scope,FALSE,consumer finance
 402030,3,not in scope,FALSE,capital markets
-402040,3,not in scope,FALSE,"mortgage real estate investment 
+402040,3,not in scope,FALSE,"mortgage real estate investment
 trusts (reits)"
 403010,3,not in scope,FALSE,insurance
 404010,3,not in scope,FALSE,real estate -- discontinued effective 04/28/2006
