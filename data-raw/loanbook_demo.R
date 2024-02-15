@@ -48,4 +48,28 @@ loanbook_demo <- loanbook_demo %>%
     )
   )
 
+nace_classification_raw <- read_bridge(
+  file.path("data-raw", "nace_classification.csv")
+)
+
+# this gets the `original_code` back to the `loanbook_demo` dataset
+loanbook_demo <- mutate(
+  loanbook_demo,
+  sector_classification_direct_loantaker = as.character(sector_classification_direct_loantaker)
+  )
+
+loanbook_demo <- left_join(
+  loanbook_demo,
+  select(nace_classification_raw, original_code, code),
+  by = c("sector_classification_direct_loantaker" = "code")
+)
+
+loanbook_demo <- convert_superseded_nace_code(
+  loanbook_demo,
+  col_from = "original_code",
+  col_to = "sector_classification_direct_loantaker"
+)
+
+loanbook_demo <- mutate(loanbook_demo, original_code = NULL)
+
 usethis::use_data(loanbook_demo, overwrite = TRUE)
