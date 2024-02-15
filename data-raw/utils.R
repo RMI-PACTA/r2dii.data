@@ -83,3 +83,42 @@ abort_missing_names <- function(missing_names) {
     )
   )
 }
+
+convert_superseded_nace_code <- function(data,
+                                         col_from,
+                                         col_to) {
+  data <- mutate(
+    data,
+    prepend_value = case_when(
+      .data[[col_from]] %in% LETTERS ~ "",
+      trunc(as.numeric(.data[[col_from]])) %in% seq(1, 3) ~ "A",
+      trunc(as.numeric(.data[[col_from]])) %in% seq(5, 9) ~ "B",
+      trunc(as.numeric(.data[[col_from]])) %in% seq(10, 33) ~ "C",
+      trunc(as.numeric(.data[[col_from]])) == 35 ~ "D",
+      trunc(as.numeric(.data[[col_from]])) %in% seq(36, 39) ~ "E",
+      trunc(as.numeric(.data[[col_from]])) %in% seq(41, 43) ~ "F",
+      trunc(as.numeric(.data[[col_from]])) %in% seq(45, 47) ~ "G",
+      trunc(as.numeric(.data[[col_from]])) %in% seq(49, 53) ~ "H",
+      trunc(as.numeric(.data[[col_from]])) %in% seq(55, 56) ~ "I",
+      trunc(as.numeric(.data[[col_from]])) %in% seq(58, 63) ~ "J",
+      trunc(as.numeric(.data[[col_from]])) %in% seq(64, 66) ~ "K",
+      trunc(as.numeric(.data[[col_from]])) == 68 ~ "L",
+      trunc(as.numeric(.data[[col_from]])) %in% seq(69, 75) ~ "M",
+      trunc(as.numeric(.data[[col_from]])) %in% seq(77, 82) ~ "N",
+      trunc(as.numeric(.data[[col_from]])) == 84 ~ "O",
+      trunc(as.numeric(.data[[col_from]])) == 85 ~ "P",
+      trunc(as.numeric(.data[[col_from]])) %in% seq(86, 88) ~ "Q",
+      trunc(as.numeric(.data[[col_from]])) %in% seq(90, 93) ~ "R",
+      trunc(as.numeric(.data[[col_from]])) %in% seq(94, 96) ~ "S",
+      trunc(as.numeric(.data[[col_from]])) %in% seq(97, 98) ~ "T",
+      trunc(as.numeric(.data[[col_from]])) == 99 ~ "U",
+      TRUE ~ "Z" #debug value, see unit tests)
+    )
+  )
+
+  data <- mutate(
+    data,
+    {{col_to}} := paste0(prepend_value, .data[[col_from]]),
+    prepend_value = NULL
+  )
+}
