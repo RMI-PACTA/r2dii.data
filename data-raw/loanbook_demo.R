@@ -48,4 +48,10 @@ loanbook_demo <- loanbook_demo %>%
     )
   )
 
+loanbook_demo <- convert_superseded_nace_code(
+  loanbook_demo,
+  col_from = "sector_classification_direct_loantaker",
+  col_to = "sector_classification_direct_loantaker"
+)
+
 usethis::use_data(loanbook_demo, overwrite = TRUE)
