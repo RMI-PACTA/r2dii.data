@@ -18,30 +18,30 @@ nace_classification <- dplyr::mutate(
   sector = dplyr::case_when(
     grepl("^B05", code) ~ "coal",
     grepl("^B06", code) ~ "oil and gas",
-    grepl("^B091", code) ~ "oil and gas", # borderline
-    grepl("^B099", code) ~ "coal", # borderline
-    grepl("^C2394", code) ~ "cement",
-    grepl("^C2395", code) ~ "cement", # borderline
-    grepl("^C241", code) ~ "steel",
-    grepl("^C2431", code) ~"steel", # borderline
-    grepl("^C291", code) ~ "automotive", # borderline
-    grepl("^C292", code) ~ "automotive", # borderline
-    grepl("^C293", code) ~ "automotive", # borderline
-    grepl("^D351", code) ~ "power", # some of these are borderline
-    grepl("^H50", code) ~ "shipping",
+    grepl("^B09.1", code) ~ "oil and gas", # borderline
+    grepl("^B09.9", code) ~ "coal", # borderline
+    grepl("^C23.94", code) ~ "cement",
+    grepl("^C23.95", code) ~ "cement", # borderline
+    grepl("^C24.1", code) ~ "steel",
+    grepl("^C24.31", code) ~"steel", # borderline
+    grepl("^C29.1", code) ~ "automotive", # borderline
+    grepl("^C29.2", code) ~ "automotive", # borderline
+    grepl("^C29.3", code) ~ "automotive", # borderline
+    grepl("^D35.1", code) ~ "power", # some of these are borderline
+    grepl("^H5.0", code) ~ "shipping",
     grepl("^H51", code) ~ "aviation",
     TRUE ~ "not in scope"
   ),
   borderline = dplyr::case_when(
-    grepl("^B091", code) ~ TRUE,
-    grepl("^B099", code) ~ TRUE,
-    grepl("^C2395", code) ~ TRUE,
-    grepl("^C2431", code) ~ TRUE,
-    grepl("^C291", code) ~ TRUE,
-    grepl("^C292", code) ~ TRUE,
-    grepl("^C293", code) ~ TRUE,
-    code == "D351" ~ TRUE,
-    grepl("^D3513", code) ~ TRUE,
+    grepl("^B09.1", code) ~ TRUE,
+    grepl("^B09.9", code) ~ TRUE,
+    grepl("^C23.95", code) ~ TRUE,
+    grepl("^C24.31", code) ~ TRUE,
+    grepl("^C29.1", code) ~ TRUE,
+    grepl("^C29.2", code) ~ TRUE,
+    grepl("^C29.3", code) ~ TRUE,
+    code == "D35.1" ~ TRUE,
+    grepl("^D35.13", code) ~ TRUE,
     TRUE ~ FALSE
   ),
 )
