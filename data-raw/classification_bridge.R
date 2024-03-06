@@ -35,15 +35,34 @@ psic_classification <- read_bridge(
 )
 usethis::use_data(psic_classification, overwrite = TRUE)
 
-isic_classification_raw <- read_bridge(
-  file.path("data-raw", "isic_classification.csv")
+isic_classification_raw <- read_csv_(
+  file.path("data-raw", "isic_classification_rev_5.csv")
 )
 
-isic_classification <- prepend_letter_nace_code(
+isic_classification <- prepend_letter_isic_code(
   isic_classification_raw,
-  isic_rev_5_raw,
   col_from = "ISIC Rev 5 Code",
   col_to = "code"
+)
+
+isic_classification <- dplyr::mutate(
+  isic_classification,
+  sector = dplyr::case_when(
+    grepl("^B05", code) ~ "coal",
+    grepl("^B06", code) ~ "oil and gas",
+    grepl("^B091", code) ~ "oil and gas",
+    grepl("^C2394", code) ~ "cement",
+    grepl("^C241", code) ~ "steel",
+    grepl("^C291", code) ~ "automotive",
+    grepl("^D351", code) ~ "power",
+    grepl("^H50", code) ~ "shipping",
+    grepl("^H51", code) ~ "aviation",
+    TRUE ~ "not in scope"
+    ),
+  borderline = dplyr::case_when(
+    grepl("^B091", code) ~ TRUE,
+    TRUE ~ FALSE
+  ),
 )
 
 isic_classification <- dplyr::mutate(
