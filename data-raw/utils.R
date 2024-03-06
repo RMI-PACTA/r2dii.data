@@ -84,9 +84,9 @@ abort_missing_names <- function(missing_names) {
   )
 }
 
-convert_superseded_nace_code <- function(data,
-                                         col_from,
-                                         col_to) {
+prepend_letter_nace_code <- function(data,
+                                     col_from,
+                                     col_to) {
   data <- mutate(
     data,
     prepend_value = case_when(

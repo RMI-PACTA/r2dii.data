@@ -7,7 +7,7 @@ nace_classification_raw <- read_bridge(
   file.path("data-raw", "nace_classification.csv")
 )
 
-nace_classification <- convert_superseded_nace_code(
+nace_classification <- prepend_letter_nace_code(
   nace_classification_raw,
   col_from = "original_code",
   col_to = "code"

@@ -64,7 +64,7 @@ loanbook_demo <- left_join(
   by = c("sector_classification_direct_loantaker" = "code")
 )
 
-loanbook_demo <- convert_superseded_nace_code(
+loanbook_demo <- prepend_letter_nace_code(
   loanbook_demo,
   col_from = "original_code",
   col_to = "sector_classification_direct_loantaker"
