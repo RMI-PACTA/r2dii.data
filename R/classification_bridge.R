@@ -80,12 +80,16 @@
 #' @inherit nace_classification title
 #' @inherit nace_classification description
 #'
-#' @description
-#' `r lifecycle::badge("deprecated")`
+#' @section Definitions:
+#' `r define('isic_classification')`
 #'
-#' See `?sector_classifications`
+#' @template info_classification-datasets
 #'
-#' @keywords internal
+#' @family datasets for bridging sector classification codes
+#' @seealso [data_dictionary].
+#'
+#' @examples
+#' head(isic_classification)
 "isic_classification"
 
 #' @inherit nace_classification title

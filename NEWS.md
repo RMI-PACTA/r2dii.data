@@ -1,6 +1,7 @@
 # r2dii.data (development version)
 
-* Begin deprecation of `cnb_classification` and `isic_classification` (#329).
+* `isic_classification` updated to revision 5 (#329).
+* Begin deprecation of `cnb_classification` (#329).
 * Complete deprecation of `ald_demo` in favor of `abcd_demo` (#328).
 * Complete deprecation of `green_or_brown` in favor of `increasing_or_decreasing` (#307).
 

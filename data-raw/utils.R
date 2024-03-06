@@ -84,9 +84,9 @@ abort_missing_names <- function(missing_names) {
   )
 }
 
-convert_superseded_nace_code <- function(data,
-                                         col_from,
-                                         col_to) {
+prepend_letter_nace_code <- function(data,
+                                     col_from,
+                                     col_to) {
   data <- mutate(
     data,
     prepend_value = case_when(
@@ -117,6 +117,47 @@ convert_superseded_nace_code <- function(data,
   )
 
   data <- mutate(
+    data,
+    {{col_to}} := paste0(prepend_value, .data[[col_from]]),
+    prepend_value = NULL
+  )
+}
+
+prepend_letter_isic_code <- function(data,
+                                     col_from,
+                                     col_to) {
+  data <- dplyr::mutate(
+    data,
+    prepend_value = dplyr::case_when(
+      .data[[col_from]] %in% LETTERS ~ "",
+      substr(.data[[col_from]], 0, 2) %in% paste0(0, seq(1, 3)) ~ "A",
+      substr(.data[[col_from]], 0, 2) %in% paste0(0, seq(5, 9)) ~ "B",
+      substr(.data[[col_from]], 0, 2) %in% as.character(seq(10, 33)) ~ "C",
+      substr(.data[[col_from]], 0, 2) %in% as.character(35) ~ "D",
+      substr(.data[[col_from]], 0, 2) %in% as.character(seq(36, 39)) ~ "E",
+      substr(.data[[col_from]], 0, 2) %in% as.character(seq(41, 43)) ~ "F",
+      substr(.data[[col_from]], 0, 2) %in% as.character(seq(46, 47)) ~ "G",
+      substr(.data[[col_from]], 0, 2) %in% as.character(seq(49, 53)) ~ "H",
+      substr(.data[[col_from]], 0, 2) %in% as.character(seq(49, 53)) ~ "H",
+      substr(.data[[col_from]], 0, 2) %in% as.character(seq(55, 56)) ~ "I",
+      substr(.data[[col_from]], 0, 2) %in% as.character(seq(58, 60)) ~ "J",
+      substr(.data[[col_from]], 0, 2) %in% as.character(seq(61, 63)) ~ "K",
+      substr(.data[[col_from]], 0, 2) %in% as.character(seq(64, 66)) ~ "L",
+      substr(.data[[col_from]], 0, 2) %in% as.character(68) ~ "M",
+      substr(.data[[col_from]], 0, 2) %in% as.character(seq(69, 75)) ~ "N",
+      substr(.data[[col_from]], 0, 2) %in% as.character(seq(77, 82)) ~ "O",
+      substr(.data[[col_from]], 0, 2) %in% as.character(84) ~ "P",
+      substr(.data[[col_from]], 0, 2) %in% as.character(85) ~ "Q",
+      substr(.data[[col_from]], 0, 2) %in% as.character(seq(86, 88)) ~ "R",
+      substr(.data[[col_from]], 0, 2) %in% as.character(seq(90, 93)) ~ "S",
+      substr(.data[[col_from]], 0, 2) %in% as.character(seq(94, 96)) ~ "T",
+      substr(.data[[col_from]], 0, 2) %in% as.character(seq(97, 98)) ~ "U",
+      substr(.data[[col_from]], 0, 2) %in% as.character(99) ~ "V",
+      TRUE ~ "Z" #debug value, see unit tests)
+    )
+  )
+
+  data <- dplyr::mutate(
     data,
     {{col_to}} := paste0(prepend_value, .data[[col_from]]),
     prepend_value = NULL
