@@ -3,14 +3,52 @@ library(usethis)
 
 source(file.path("data-raw", "utils.R"))
 
-nace_classification_raw <- read_bridge(
-  file.path("data-raw", "nace_classification.csv")
+nace_classification_raw <- readr::read_tsv(
+  file.path("data-raw", "NACE2.1_NACE2_Table.tsv")
 )
 
 nace_classification <- prepend_letter_nace_code(
   nace_classification_raw,
-  col_from = "original_code",
+  col_from = "NACE21_CODE",
   col_to = "code"
+)
+
+nace_classification <- dplyr::mutate(
+  nace_classification,
+  sector = dplyr::case_when(
+    grepl("^B05", code) ~ "coal",
+    grepl("^B06", code) ~ "oil and gas",
+    grepl("^B091", code) ~ "oil and gas", # borderline
+    grepl("^B099", code) ~ "coal", # borderline
+    grepl("^C2394", code) ~ "cement",
+    grepl("^C2395", code) ~ "cement", # borderline
+    grepl("^C241", code) ~ "steel",
+    grepl("^C2431", code) ~"steel", # borderline
+    grepl("^C291", code) ~ "automotive", # borderline
+    grepl("^C292", code) ~ "automotive", # borderline
+    grepl("^C293", code) ~ "automotive", # borderline
+    grepl("^D351", code) ~ "power", # some of these are borderline
+    grepl("^H50", code) ~ "shipping",
+    grepl("^H51", code) ~ "aviation",
+    TRUE ~ "not in scope"
+  ),
+  borderline = dplyr::case_when(
+    grepl("^B091", code) ~ TRUE,
+    grepl("^B099", code) ~ TRUE,
+    grepl("^C2395", code) ~ TRUE,
+    grepl("^C2431", code) ~ TRUE,
+    grepl("^C291", code) ~ TRUE,
+    grepl("^C292", code) ~ TRUE,
+    grepl("^C293", code) ~ TRUE,
+    code == "D351" ~ TRUE,
+    grepl("^D3513", code) ~ TRUE,
+    TRUE ~ FALSE
+  ),
+)
+
+nace_classification <- dplyr::mutate(
+  nace_classification,
+  version = "2.1"
 )
 
 use_data(nace_classification, overwrite = TRUE)
