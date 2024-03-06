@@ -34,3 +34,21 @@ psic_classification <- read_bridge(
   file.path("data-raw", "psic_classification.csv")
 )
 usethis::use_data(psic_classification, overwrite = TRUE)
+
+isic_classification_raw <- read_bridge(
+  file.path("data-raw", "isic_classification.csv")
+)
+
+isic_classification <- prepend_letter_nace_code(
+  isic_classification_raw,
+  isic_rev_5_raw,
+  col_from = "ISIC Rev 5 Code",
+  col_to = "code"
+)
+
+isic_classification <- dplyr::mutate(
+  isic_classification,
+  revision = "5"
+)
+
+usethis::use_data(isic_classification, overwrite = TRUE)
