@@ -19,12 +19,6 @@ green_or_brown_hdv <- green_or_brown %>%
 legacy_green_or_brown <- green_or_brown %>%
   dplyr::bind_rows(green_or_brown_hdv)
 
-# Deprecated isic_classification
-# Source: @jdhoffa https://github.com/2DegreesInvesting/r2dii.dataraw/pull/6
-isic_classification_ <- read_bridge(
-  file.path("data-raw", "isic_classification.csv")
-)
-
 # Deprecated cnb_classification
 cnb_classification_ <- read_bridge(
   file.path("data-raw", "cnb_classification.csv")
@@ -32,7 +26,6 @@ cnb_classification_ <- read_bridge(
 
 usethis::use_data(
   legacy_green_or_brown,
-  isic_classification_,
   cnb_classification_,
   overwrite = TRUE,
   internal = TRUE
