@@ -7,8 +7,15 @@ nace_classification_raw <- readr::read_tsv(
   file.path("data-raw", "NACE2.1_NACE2_Table.tsv")
 )
 
-nace_classification <- prepend_letter_nace_code(
+nace_classification <- dplyr::distinct(
   nace_classification_raw,
+  .data[["NACE21_CODE"]],
+  .data[["LEVEL"]],
+  .data[["NACE21_HEADING"]]
+)
+
+nace_classification <- prepend_letter_nace_code(
+  nace_classification,
   col_from = "NACE21_CODE",
   col_to = "code"
 )
