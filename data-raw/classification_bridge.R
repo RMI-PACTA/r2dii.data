@@ -38,7 +38,6 @@ nace_classification <- dplyr::mutate(
     grepl("^C24.52", code) ~"steel", # borderline
     grepl("^C29.1", code) ~ "automotive", # borderline
     grepl("^C29.2", code) ~ "automotive", # borderline
-    grepl("^C29.3", code) ~ "automotive", # borderline
     grepl("^D35.1", code) ~ "power", # some of these are borderline
     grepl("^H50", code) ~ "shipping",
     grepl("^H51.1", code) ~ "aviation",
