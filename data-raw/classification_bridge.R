@@ -54,6 +54,9 @@ nace_classification <- dplyr::mutate(
     grepl("^C29.3", code) ~ TRUE,
     code == "D35.1" ~ TRUE,
     grepl("^D35.13", code) ~ TRUE,
+    grepl("^D35.14", code) ~ TRUE,
+    grepl("^D35.15", code) ~ TRUE,
+    grepl("^D35.16", code) ~ TRUE,
     TRUE ~ FALSE
   ),
 )
