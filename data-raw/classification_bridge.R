@@ -40,7 +40,7 @@ nace_classification <- dplyr::mutate(
     grepl("^C29.2", code) ~ "automotive", # borderline
     grepl("^C29.3", code) ~ "automotive", # borderline
     grepl("^D35.1", code) ~ "power", # some of these are borderline
-    grepl("^H5.0", code) ~ "shipping",
+    grepl("^H50", code) ~ "shipping",
     grepl("^H51", code) ~ "aviation",
     TRUE ~ "not in scope"
   ),
