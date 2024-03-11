@@ -47,7 +47,9 @@ nace_classification <- dplyr::mutate(
   borderline = dplyr::case_when(
     grepl("^B09.1", code) ~ TRUE,
     grepl("^B09.9", code) ~ TRUE,
-    grepl("^C23.95", code) ~ TRUE,
+     .data$code == "C23.5" ~ TRUE,
+     grepl("^C23.52", code) ~ TRUE,
+     grepl("^C23.6", code) ~ TRUE,
     grepl("^C24.2", code) ~ TRUE,
     grepl("^C24.3", code) ~ TRUE,
     grepl("^C24.52", code) ~ TRUE,
