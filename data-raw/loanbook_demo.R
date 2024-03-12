@@ -56,7 +56,7 @@ nace_classification_raw <- read_bridge(
 loanbook_demo <- mutate(
   loanbook_demo,
   sector_classification_direct_loantaker = as.character(sector_classification_direct_loantaker)
-  )
+)
 
 loanbook_demo <- left_join(
   loanbook_demo,
