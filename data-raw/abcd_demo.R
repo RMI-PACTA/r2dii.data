@@ -199,7 +199,11 @@ abcd_demo <- mutate(abcd_demo, lei = NA)
 
 # stop if there are duplicate company names with different IDs
 stopifnot(
-  ! abcd_demo %>% distinct(company_id, name_company) %>% pull(name_company) %>% duplicated() %>% any()
+  !abcd_demo %>%
+    distinct(company_id, name_company) %>%
+    pull(name_company) %>%
+    duplicated() %>%
+    any()
 )
 
 

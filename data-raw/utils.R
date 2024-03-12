@@ -114,13 +114,13 @@ prepend_letter_nace_code <- function(data,
       substr(.data[[col_from]], 0, 2) %in% as.character(seq(94, 96)) ~ "T",
       substr(.data[[col_from]], 0, 2) %in% as.character(seq(97, 98)) ~ "U",
       substr(.data[[col_from]], 0, 2) %in% as.character(99) ~ "V",
-      TRUE ~ "Z" #debug value, see unit tests
+      TRUE ~ "Z" # debug value, see unit tests
     )
   )
 
   data <- dplyr::mutate(
     data,
-    {{col_to}} := paste0(prepend_value, .data[[col_from]]),
+    {{ col_to }} := paste0(prepend_value, .data[[col_from]]),
     prepend_value = NULL
   )
 }
@@ -155,13 +155,13 @@ prepend_letter_isic_code <- function(data,
       substr(.data[[col_from]], 0, 2) %in% as.character(seq(94, 96)) ~ "T",
       substr(.data[[col_from]], 0, 2) %in% as.character(seq(97, 98)) ~ "U",
       substr(.data[[col_from]], 0, 2) %in% as.character(99) ~ "V",
-      TRUE ~ "Z" #debug value, see unit tests)
+      TRUE ~ "Z" # debug value, see unit tests)
     )
   )
 
   data <- dplyr::mutate(
     data,
-    {{col_to}} := paste0(prepend_value, .data[[col_from]]),
+    {{ col_to }} := paste0(prepend_value, .data[[col_from]]),
     prepend_value = NULL
   )
 }

@@ -27,15 +27,15 @@ nace_classification <- dplyr::mutate(
     grepl("^B06", code) ~ "oil and gas",
     grepl("^B09.1", code) ~ "oil and gas", # borderline
     grepl("^B09.9", code) ~ "coal", # borderline
-    .data$code == "C23.5" ~ "cement", #borderline
+    .data$code == "C23.5" ~ "cement", # borderline
     grepl("^C23.51", code) ~ "cement",
-    grepl("^C23.52", code) ~ "cement", #borderline
-    grepl("^C23.6", code) ~ "cement", #borderline
+    grepl("^C23.52", code) ~ "cement", # borderline
+    grepl("^C23.6", code) ~ "cement", # borderline
     grepl("^C23.95", code) ~ "cement", # borderline
     grepl("^C24.1", code) ~ "steel",
-    grepl("^C24.2", code) ~"steel", # borderline
-    grepl("^C24.3", code) ~"steel", # borderline
-    grepl("^C24.52", code) ~"steel", # borderline
+    grepl("^C24.2", code) ~ "steel", # borderline
+    grepl("^C24.3", code) ~ "steel", # borderline
+    grepl("^C24.52", code) ~ "steel", # borderline
     grepl("^C29.1", code) ~ "automotive", # borderline
     grepl("^C29.2", code) ~ "automotive", # borderline
     grepl("^D35.1", code) ~ "power", # some of these are borderline
@@ -46,9 +46,9 @@ nace_classification <- dplyr::mutate(
   borderline = dplyr::case_when(
     grepl("^B09.1", code) ~ TRUE,
     grepl("^B09.9", code) ~ TRUE,
-     .data$code == "C23.5" ~ TRUE,
-     grepl("^C23.52", code) ~ TRUE,
-     grepl("^C23.6", code) ~ TRUE,
+    .data$code == "C23.5" ~ TRUE,
+    grepl("^C23.52", code) ~ TRUE,
+    grepl("^C23.6", code) ~ TRUE,
     grepl("^C24.2", code) ~ TRUE,
     grepl("^C24.3", code) ~ TRUE,
     grepl("^C24.52", code) ~ TRUE,
@@ -110,7 +110,7 @@ isic_classification <- dplyr::mutate(
     grepl("^C2394", code) ~ "cement",
     grepl("^C2395", code) ~ "cement", # borderline
     grepl("^C241", code) ~ "steel",
-    grepl("^C2431", code) ~"steel", # borderline
+    grepl("^C2431", code) ~ "steel", # borderline
     grepl("^C291", code) ~ "automotive", # borderline
     grepl("^C292", code) ~ "automotive", # borderline
     grepl("^C293", code) ~ "automotive", # borderline
@@ -118,7 +118,7 @@ isic_classification <- dplyr::mutate(
     grepl("^H50", code) ~ "shipping",
     grepl("^H51", code) ~ "aviation",
     TRUE ~ "not in scope"
-    ),
+  ),
   borderline = dplyr::case_when(
     grepl("^B091", code) ~ TRUE,
     grepl("^B099", code) ~ TRUE,

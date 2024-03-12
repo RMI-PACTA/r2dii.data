@@ -3,7 +3,7 @@ test_that("hasn't changed", {
 })
 
 test_that("loanbook_demo has at least one valid sector classification (#336)", {
-  #base R left_join
+  # base R left_join
   out <- merge(
     loanbook_demo,
     sector_classifications,
@@ -23,5 +23,4 @@ test_that("loanbook_demo has at least one valid sector classification (#336)", {
   )
 
   expect_true(number_of_sector_matches > 0)
-
 })
