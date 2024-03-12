@@ -68,26 +68,72 @@ nace_classification <- dplyr::mutate(
   version = "2.1"
 )
 
+nace_classification <- dplyr::select(
+  nace_classification,
+  original_code = "NACE21_CODE",
+  description = "NACE21_HEADING",
+  "code",
+  "sector",
+  "borderline",
+  "version"
+)
+
 use_data(nace_classification, overwrite = TRUE)
 
-naics_classification <- read_bridge(
+naics_classification_raw <- read_bridge(
   file.path("data-raw", "naics_classification.csv")
 )
+
+naics_classification <- dplyr::select(
+  naics_classification_raw,
+  description = "naics_title",
+  "code",
+  "sector",
+  "borderline"
+)
+
 usethis::use_data(naics_classification, overwrite = TRUE)
 
-sic_classification <- read_bridge(
+sic_classification_raw <- read_bridge(
   file.path("data-raw", "sic_classification.csv")
 )
+
+sic_classification <- dplyr::select(
+  sic_classification_raw,
+  "description",
+  "code",
+  "sector",
+  "borderline"
+)
+
 usethis::use_data(sic_classification, overwrite = TRUE)
 
-gics_classification <- read_bridge(
+gics_classification_raw <- read_bridge(
   file.path("data-raw", "gics_classification.csv")
 )
+
+gics_classification <- dplyr::select(
+  gics_classification_raw,
+  "description",
+  "code",
+  "sector",
+  "borderline"
+)
+
 usethis::use_data(gics_classification, overwrite = TRUE)
 
-psic_classification <- read_bridge(
+psic_classification_raw <- read_bridge(
   file.path("data-raw", "psic_classification.csv")
 )
+
+psic_classification <- dplyr::select(
+  psic_classification_raw,
+  description = "original_code",
+  "code",
+  "sector",
+  "borderline"
+)
+
 usethis::use_data(psic_classification, overwrite = TRUE)
 
 isic_classification_raw <- read_csv_(
@@ -136,6 +182,15 @@ isic_classification <- dplyr::mutate(
 isic_classification <- dplyr::mutate(
   isic_classification,
   revision = "5"
+)
+
+isic_classification <- dplyr::select(
+  isic_classification,
+  description = "ISIC Rev 5 Title",
+  "code",
+  "sector",
+  "borderline",
+  "revision"
 )
 
 usethis::use_data(isic_classification, overwrite = TRUE)
