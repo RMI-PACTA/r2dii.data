@@ -5,14 +5,43 @@
 \alias{isic_classification}
 \title{Dataset to bridge (translate) common sector-classification codes}
 \format{
-An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 768 rows and 4 columns.
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 830 rows and 6 columns.
 }
 \usage{
 isic_classification
 }
 \description{
-\ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#deprecated}{\figure{lifecycle-deprecated.svg}{options: alt='[Deprecated]'}}}{\strong{[Deprecated]}}
-
-See \code{?sector_classifications}
+This dataset serves as a translation key between common sector-classification
+systems and sectors relevant to the 'PACTA' tool
+(\url{https://www.transitionmonitor.com/}).
 }
-\keyword{internal}
+\section{Definitions}{
+
+\itemize{
+\item \code{borderline} (logical): Flag indicating if PACTA sector and classification code are a borderline match. The value TRUE indicates that the match is uncertain between the PACTA sector and the classification. The value FALSE indicates that the match is certainly perfect or the classification is certainly out of PACTA's scope.., * \code{code} (character): ISIC Rev 5 code with top-level letter prepended., * \verb{ISIC Rev 5 Code} (character): Original ISIC Rev 5 code., * \verb{ISIC Rev 5 Title} (character): Original ISIC Rev 5 title., * \code{revision} (character): Column identifying to which ISIC revision the code belongs.., * \code{sector} (character): Associated PACTA sector.
+}
+}
+
+\section{Details}{
+
+Classification datasets help to standardize sector classification codes from
+the wild to a relevant subset including 'power', 'oil and gas', 'coal',
+'automotive', 'aviation', 'concrete', 'steel', and 'shipping'.
+}
+
+\examples{
+head(isic_classification)
+}
+\seealso{
+\link{data_dictionary}.
+
+Other datasets for bridging sector classification codes: 
+\code{\link{gics_classification}},
+\code{\link{nace_classification}},
+\code{\link{naics_classification}},
+\code{\link{psic_classification}},
+\code{\link{sector_classifications}},
+\code{\link{sic_classification}}
+}
+\concept{datasets for bridging sector classification codes}
+\keyword{datasets}

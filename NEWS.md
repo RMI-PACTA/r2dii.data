@@ -1,5 +1,6 @@
 # r2dii.data (development version)
 
+* `nace_classification` updated to version 2.1 (#234).
 * `isic_classification` updated to revision 5 (#329).
 * Begin deprecation of `cnb_classification` (#329).
 * Complete deprecation of `ald_demo` in favor of `abcd_demo` (#328).

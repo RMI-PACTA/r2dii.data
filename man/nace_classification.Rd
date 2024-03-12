@@ -5,7 +5,7 @@
 \alias{nace_classification}
 \title{Dataset to bridge (translate) common sector-classification codes}
 \format{
-An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 996 rows and 5 columns.
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 1047 rows and 7 columns.
 }
 \usage{
 nace_classification
@@ -18,7 +18,7 @@ systems and sectors relevant to the 'PACTA' tool
 \section{Definitions}{
 
 \itemize{
-\item \code{borderline} (logical): Flag indicating if 2dii sector and classification code are a borderline match. The value TRUE indicates that the match is uncertain between the 2dii sector and the classification. The value FALSE indicates that the match is certainly perfect or the classification is certainly out of 2dii's scope.., * \code{code} (character): Formatted NACE code with periods removed., * \code{code_level} (double): Level of granularity of NACE code., * \code{original_code} (character): Original NACE code., * \code{sector} (character): Associated 2dii sector.
+\item \code{borderline} (logical): Flag indicating if PACTA sector and classification code are a borderline match. The value TRUE indicates that the match is uncertain between the PACTA sector and the classification. The value FALSE indicates that the match is certainly perfect or the classification is certainly out of PACTA's scope., * \code{code} (character): NACE version 2.1 code with top-level letter prepended., * \code{LEVEL} (character): Original NACE version 2.1 code level., * \code{NACE21_CODE} (character): Original NACE version 2.1 code., * \code{NACE21_HEADING} (character): Original NACE version 2.1 description., * \code{sector} (character): Associated PACTA sector., * \code{version} (character): Column identifying to which NACE version the code belongs.
 }
 }
 
@@ -37,6 +37,7 @@ head(nace_classification)
 
 Other datasets for bridging sector classification codes: 
 \code{\link{gics_classification}},
+\code{\link{isic_classification}},
 \code{\link{naics_classification}},
 \code{\link{psic_classification}},
 \code{\link{sector_classifications}},

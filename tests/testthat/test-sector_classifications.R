@@ -26,6 +26,6 @@ test_that("has `sector` values that are lowercase not uppercase", {
 })
 
 test_that("debug value does not appear in `nace_classification`", {
-  nace_has_debug_value <- any(grepl("Z", nace_classification$original_code))
+  nace_has_debug_value <- any(grepl("Z", nace_classification$code))
   expect_false(nace_has_debug_value)
 })

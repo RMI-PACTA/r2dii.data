@@ -1,6 +1,8 @@
 dataset,column,typeof,definition
-nace_classification,original_code,character,Original NACE code
-nace_classification,code,character,Formatted NACE code with periods removed
-nace_classification,code_level,double,Level of granularity of NACE code
-nace_classification,sector,character,Associated 2dii sector
-nace_classification,borderline,logical,Flag indicating if 2dii sector and classification code are a borderline match. The value TRUE indicates that the match is uncertain between the 2dii sector and the classification. The value FALSE indicates that the match is certainly perfect or the classification is certainly out of 2dii's scope.
+nace_classification,NACE21_CODE,character,Original NACE version 2.1 code
+nace_classification,LEVEL,character,Original NACE version 2.1 code level
+nace_classification,NACE21_HEADING,character,Original NACE version 2.1 description
+nace_classification,code,character,NACE version 2.1 code with top-level letter prepended
+nace_classification,sector,character,Associated PACTA sector
+nace_classification,borderline,logical,Flag indicating if PACTA sector and classification code are a borderline match. The value TRUE indicates that the match is uncertain between the PACTA sector and the classification. The value FALSE indicates that the match is certainly perfect or the classification is certainly out of PACTA's scope
+nace_classification,version,character,Column identifying to which NACE version the code belongs

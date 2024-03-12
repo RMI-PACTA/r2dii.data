@@ -3,14 +3,69 @@ library(usethis)
 
 source(file.path("data-raw", "utils.R"))
 
-nace_classification_raw <- read_bridge(
-  file.path("data-raw", "nace_classification.csv")
+nace_classification_raw <- readr::read_tsv(
+  file.path("data-raw", "NACE2.1_NACE2_Table.tsv")
+)
+
+nace_classification <- dplyr::distinct(
+  nace_classification_raw,
+  .data[["NACE21_CODE"]],
+  .data[["LEVEL"]],
+  .data[["NACE21_HEADING"]]
 )
 
 nace_classification <- prepend_letter_nace_code(
-  nace_classification_raw,
-  col_from = "original_code",
+  nace_classification,
+  col_from = "NACE21_CODE",
   col_to = "code"
+)
+
+nace_classification <- dplyr::mutate(
+  nace_classification,
+  sector = dplyr::case_when(
+    grepl("^B05", code) ~ "coal",
+    grepl("^B06", code) ~ "oil and gas",
+    grepl("^B09.1", code) ~ "oil and gas", # borderline
+    grepl("^B09.9", code) ~ "coal", # borderline
+    .data$code == "C23.5" ~ "cement", #borderline
+    grepl("^C23.51", code) ~ "cement",
+    grepl("^C23.52", code) ~ "cement", #borderline
+    grepl("^C23.6", code) ~ "cement", #borderline
+    grepl("^C23.95", code) ~ "cement", # borderline
+    grepl("^C24.1", code) ~ "steel",
+    grepl("^C24.2", code) ~"steel", # borderline
+    grepl("^C24.3", code) ~"steel", # borderline
+    grepl("^C24.52", code) ~"steel", # borderline
+    grepl("^C29.1", code) ~ "automotive", # borderline
+    grepl("^C29.2", code) ~ "automotive", # borderline
+    grepl("^D35.1", code) ~ "power", # some of these are borderline
+    grepl("^H50", code) ~ "shipping",
+    grepl("^H51.1", code) ~ "aviation",
+    TRUE ~ "not in scope"
+  ),
+  borderline = dplyr::case_when(
+    grepl("^B09.1", code) ~ TRUE,
+    grepl("^B09.9", code) ~ TRUE,
+     .data$code == "C23.5" ~ TRUE,
+     grepl("^C23.52", code) ~ TRUE,
+     grepl("^C23.6", code) ~ TRUE,
+    grepl("^C24.2", code) ~ TRUE,
+    grepl("^C24.3", code) ~ TRUE,
+    grepl("^C24.52", code) ~ TRUE,
+    grepl("^C29.1", code) ~ TRUE,
+    grepl("^C29.2", code) ~ TRUE,
+    code == "D35.1" ~ TRUE,
+    grepl("^D35.13", code) ~ TRUE,
+    grepl("^D35.14", code) ~ TRUE,
+    grepl("^D35.15", code) ~ TRUE,
+    grepl("^D35.16", code) ~ TRUE,
+    TRUE ~ FALSE
+  ),
+)
+
+nace_classification <- dplyr::mutate(
+  nace_classification,
+  version = "2.1"
 )
 
 use_data(nace_classification, overwrite = TRUE)
