@@ -1,5 +1,5 @@
 dataset,column,typeof,definition
+naics_classification,description,character,Original NAICS sector title
 naics_classification,code,character,Six-digit NAICS code
-naics_classification,naics_title,character,Original NAICS sector title
-naics_classification,sector,character,Associated 2dii sector
-naics_classification,borderline,logical,Flag indicating if 2dii sector and classification code are a borderline match. The value TRUE indicates that the match is uncertain between the 2dii sector and the classification. The value FALSE indicates that the match is certainly perfect or the classification is certainly out of 2dii's scope.
+naics_classification,sector,character,Associated PACTA sector
+naics_classification,borderline,logical,Flag indicating if PACTA sector and classification code are a borderline match. The value TRUE indicates that the match is uncertain between the PACTA sector and the classification. The value FALSE indicates that the match is certainly perfect or the classification is certainly out of PACTA's scope.
