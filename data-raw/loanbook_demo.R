@@ -72,4 +72,18 @@ loanbook_demo <- prepend_letter_nace_code(
 
 loanbook_demo <- mutate(loanbook_demo, original_code = NULL)
 
+# add ABCD LEIs to loanbook_demo
+abcd_leis <- distinct(abcd_demo, name_company, lei)
+loanbook_demo <- left_join(
+  loanbook_demo,
+  abcd_leis,
+  by = c("name_ultimate_parent" = "name_company")
+)
+
+loanbook_demo <- dplyr::mutate(
+  loanbook_demo,
+  lei_direct_loantaker = lei,
+  lei = NULL
+  )
+
 usethis::use_data(loanbook_demo, overwrite = TRUE)
