@@ -1,6 +1,6 @@
 dataset,column,typeof,definition
-isic_classification,ISIC Rev 5 Code,character,Original ISIC Rev 5 code
-isic_classification,ISIC Rev 5 Title,character,Original ISIC Rev 5 title
+isic_classification,original_code,character,Original ISIC Rev 5 code
+isic_classification,description,character,Original ISIC Rev 5 title
 isic_classification,code,character,ISIC Rev 5 code with top-level letter prepended
 isic_classification,sector,character,Associated PACTA sector
 isic_classification,borderline,logical,Flag indicating if PACTA sector and classification code are a borderline match. The value TRUE indicates that the match is uncertain between the PACTA sector and the classification. The value FALSE indicates that the match is certainly perfect or the classification is certainly out of PACTA's scope.
