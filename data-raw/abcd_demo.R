@@ -6,36 +6,6 @@ library(usethis)
 
 source(file.path("data-raw", "utils.R"))
 
-generate_lei <- function(id) {
-  # function to generate random but reproducible LEIs
-  # 4 characters, 2 zeroes, 12 characters, 2 check digits
-  alpha_num <- c(0:9, LETTERS)
-
-  withr::with_seed(
-    id,
-    {
-      four <- do.call(
-        paste0,
-        replicate(4, sample(0:9, 1, TRUE), FALSE)
-      )
-
-      twelve <- do.call(
-        paste0,
-        replicate(12, sample(alpha_num, 1, TRUE), FALSE)
-      )
-
-      two <- do.call(
-        paste0,
-        replicate(2, sample(0:9, 1, TRUE), FALSE)
-      )
-    }
-  )
-
-  paste0(four, "00", twelve, two)
-}
-
-vgenerate_lei <- Vectorize(generate_lei)
-
 path <- file.path("data-raw", "abcd_demo.csv")
 abcd_demo <- read_csv(path, na = "", show_col_types = FALSE)
 
