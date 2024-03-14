@@ -1,5 +1,6 @@
 # r2dii.data (development version)
 
+* `loanbook_demo` and `abcd_demo` gain sample entries for `lei_direct_loantaker` and `lei` respectively (#349).
 * `nace_classification` updated to version 2.1 (#234).
 * `isic_classification` updated to revision 5 (#329).
 * Begin deprecation of `cnb_classification` (#329).
