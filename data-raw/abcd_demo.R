@@ -194,9 +194,6 @@ abcd_demo <- rename(abcd_demo, abcd_timestamp = ald_timestamp)
 # remove Shipping data
 abcd_demo <- filter(abcd_demo, sector != "shipping")
 
-# remove LEIs
-abcd_demo <- mutate(abcd_demo, lei = NA)
-
 # stop if there are duplicate company names with different IDs
 stopifnot(
   !abcd_demo %>%
