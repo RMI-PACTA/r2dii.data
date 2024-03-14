@@ -48,8 +48,26 @@ loanbook_demo <- loanbook_demo %>%
     )
   )
 
-nace_classification_raw <- read_bridge(
-  file.path("data-raw", "nace_classification.csv")
+nace_classification_raw <- readr::read_tsv(
+  file.path("data-raw", "NACE2.1_NACE2_Table.tsv")
+)
+
+nace_classification <- dplyr::distinct(
+  nace_classification_raw,
+  .data[["NACE21_CODE"]],
+  .data[["LEVEL"]],
+  .data[["NACE21_HEADING"]]
+)
+
+nace_classification <- prepend_letter_nace_code(
+  nace_classification,
+  col_from = "NACE21_CODE",
+  col_to = "code"
+)
+
+nace_classification <- dplyr::mutate(
+  nace_classification,
+  original_code = stringr::str_replace(.data[["NACE21_CODE"]], "\\.", "")
 )
 
 # this gets the `original_code` back to the `loanbook_demo` dataset
@@ -60,16 +78,15 @@ loanbook_demo <- mutate(
 
 loanbook_demo <- left_join(
   loanbook_demo,
-  select(nace_classification_raw, original_code, code),
-  by = c("sector_classification_direct_loantaker" = "code")
+  select(nace_classification, original_code, code),
+  by = c("sector_classification_direct_loantaker" = "original_code")
 )
 
-loanbook_demo <- prepend_letter_nace_code(
+loanbook_demo <- mutate(
   loanbook_demo,
-  col_from = "original_code",
-  col_to = "sector_classification_direct_loantaker"
-)
-
-loanbook_demo <- mutate(loanbook_demo, original_code = NULL)
+  sector_classification_direct_loantaker = code,
+  original_code = NULL,
+  code = NULL
+  )
 
 usethis::use_data(loanbook_demo, overwrite = TRUE)
