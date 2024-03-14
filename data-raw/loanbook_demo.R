@@ -1,5 +1,6 @@
 library(dplyr)
 library(usethis)
+devtools::load_all()
 
 source(file.path("data-raw", "utils.R"))
 
