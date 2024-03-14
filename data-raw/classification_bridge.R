@@ -186,6 +186,7 @@ isic_classification <- dplyr::mutate(
 
 isic_classification <- dplyr::select(
   isic_classification,
+  original_code = "ISIC Rev 5 Code",
   description = "ISIC Rev 5 Title",
   "code",
   "sector",

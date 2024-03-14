@@ -1,4 +1,5 @@
 dataset,column,typeof,definition
+isic_classification,original_code,character,Original ISIC Rev 5 code
 isic_classification,description,character,Original ISIC Rev 5 title
 isic_classification,code,character,ISIC Rev 5 code with top-level letter prepended
 isic_classification,sector,character,Associated PACTA sector
