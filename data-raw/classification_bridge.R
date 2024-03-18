@@ -80,16 +80,44 @@ nace_classification <- dplyr::select(
 
 use_data(nace_classification, overwrite = TRUE)
 
-naics_classification_raw <- read_bridge(
-  file.path("data-raw", "naics_classification.csv")
+naics_classification_raw <- readr::read_csv(
+  file.path("data-raw", "naics-6-digit_2022_Codes.csv"),
+  col_names = c("code", "description"),
+  col_types = "cc",
+  skip = 2
 )
 
-naics_classification <- dplyr::select(
+naics_classification <- dplyr::mutate(
   naics_classification_raw,
-  description = "naics_title",
+  sector = dplyr::case_when(
+    grepl("^3361", code) ~ "automotive",
+    grepl("^481111", code) ~ "aviation",
+    grepl("^481211", code) ~ "aviation",
+    grepl("^3273", code) ~ "cement",
+    grepl("^21211", code) ~ "coal",
+    grepl("^2111", code) ~ "oil and gas",
+    grepl("^22111", code) ~ "power",
+    grepl("^483", code) ~ "shipping",
+    code %in% c("331110", "331512", "331513") ~ "steel",
+    TRUE ~ "not in scope"
+  ),
+  borderline = dplyr::case_when(
+    grepl("^33613", code) ~ TRUE,
+    code %in% c("32732", "32733", "32739") ~ TRUE,
+    code == "213113" ~ TRUE,
+    TRUE ~ FALSE
+  ),
+)
+
+naics_classification <- dplyr::mutate(naics_classification, version = "2022")
+
+naics_classification <- dplyr::select(
+  naics_classification,
+  "description",
   "code",
   "sector",
-  "borderline"
+  "borderline",
+  "version"
 )
 
 usethis::use_data(naics_classification, overwrite = TRUE)
