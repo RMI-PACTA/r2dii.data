@@ -92,7 +92,6 @@ naics_classification <- dplyr::mutate(
   sector = dplyr::case_when(
     grepl("^3361", code) ~ "automotive",
     grepl("^4811", code) ~ "aviation",
-    grepl("^481111", code) ~ "aviation",
     grepl("^481211", code) ~ "aviation",
     grepl("^3273", code) ~ "cement",
     grepl("^2121", code) ~ "coal",
