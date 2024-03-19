@@ -168,6 +168,7 @@ gics_classification <- dplyr::mutate(
   sector = dplyr::case_when(
     grepl("^2510", code) ~ "automotive",
     code == "20106010" ~ "automotive",
+    grepl("^20301", code) ~ "aviation",
     grepl("^20302", code) ~ "aviation",
     grepl("^15102", code) ~ "cement",
     grepl("^1010205", code) ~ "coal",
