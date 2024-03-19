@@ -173,7 +173,9 @@ gics_classification <- dplyr::mutate(
     grepl("^15102", code) ~ "cement",
     grepl("^1010205", code) ~ "coal",
     grepl("^10102", code) ~ "oil and gas",
-    grepl("^55", code) ~ "power",
+    grepl("^551010", code) ~ "power",
+    grepl("^551030", code) ~ "power",
+    grepl("^551050", code) ~ "power",
     grepl("^20303", code) ~ "shipping",
     grepl("^1510405", code) ~ "steel",
     TRUE ~ "not in scope"
