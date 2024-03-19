@@ -178,6 +178,7 @@ gics_classification <- dplyr::mutate(
     TRUE ~ "not in scope"
   ),
   borderline = dplyr::case_when(
+    code == "20106010" ~TRUE,
     code == "2510" ~ TRUE,
     grepl("^25101", code) ~ TRUE,
     grepl("^15102", code) ~ TRUE,
