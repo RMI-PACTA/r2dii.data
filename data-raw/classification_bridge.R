@@ -147,15 +147,15 @@ gics_subset <- function(data, industry) {
     )
 }
 
-gics_classifiation <- dplyr::bind_rows(
+gics_classification <- dplyr::bind_rows(
   gics_subset(gics_classification, "sector"),
   gics_subset(gics_classification, "industry_group"),
   gics_subset(gics_classification, "industry_main"),
   gics_subset(gics_classification, "sub_industry")
 )
 
-gics_classifiation <- dplyr::mutate(
-  gics_classifiation,
+gics_classification <- dplyr::mutate(
+  gics_classification,
   industry_level = dplyr::if_else(
     industry_level == "industry_main",
     "industry",
@@ -163,27 +163,39 @@ gics_classifiation <- dplyr::mutate(
   )
 )
 
-gics_classifiation <- dplyr::mutate(
-  gics_classifiation,
+gics_classification <- dplyr::mutate(
+  gics_classification,
   sector = dplyr::case_when(
     grepl("^2510", code) ~ "automotive",
-    grepl("^203020", code) ~ "aviation",
-    grepl("^15102010", code) ~ "cement",
-    grepl("^10102050", code) ~ "coal",
-    grepl("^101020", code) ~ "oil and gas",
-    grepl("^", code) ~ "power",
-    grepl("^", code) ~ "steel",
+    grepl("^20302", code) ~ "aviation",
+    grepl("^15102", code) ~ "cement",
+    grepl("^1010205", code) ~ "coal",
+    grepl("^10102", code) ~ "oil and gas",
+    grepl("^55", code) ~ "power",
+    grepl("^20303", code) ~ "shipping",
+    grepl("^1510405", code) ~ "steel",
     TRUE ~ "not in scope"
   ),
   borderline = dplyr::case_when(
-    grepl("^2510", code) ~ TRUE,
-    grepl("^251010", code) ~ TRUE,
+    code == "2510" ~ TRUE,
+    grepl("^25101", code) ~ TRUE,
+    grepl("^15102", code) ~ TRUE,
+    grepl("^1010203", code) ~ TRUE,
+    grepl("^1010204", code) ~ TRUE,
     TRUE ~ FALSE
   ),
 )
 
-gics_classifiation <- dplyr::mutate(
-  gics_classifiation,
+gics_classification <- dplyr::filter(
+  gics_classification,
+  # sometimes there are two similar descriptions,
+  # take the one that is more precise.
+  nchar(description) == max(nchar(description)),
+  .by = -description
+)
+
+gics_classification <- dplyr::mutate(
+  gics_classification,
   version = "2023"
 )
 
