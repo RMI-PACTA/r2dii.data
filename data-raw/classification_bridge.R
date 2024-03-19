@@ -81,9 +81,9 @@ nace_classification <- dplyr::select(
 use_data(nace_classification, overwrite = TRUE)
 
 naics_classification_raw <- readr::read_csv(
-  file.path("data-raw", "naics-6-digit_2022_Codes.csv"),
+  file.path("data-raw", "naics-2-6-digit_2022_Codes.csv"),
   col_names = c("code", "description"),
-  col_types = "cc",
+  col_types = "_cc__",
   skip = 2
 )
 
@@ -91,6 +91,7 @@ naics_classification <- dplyr::mutate(
   naics_classification_raw,
   sector = dplyr::case_when(
     grepl("^3361", code) ~ "automotive",
+    grepl("^4811", code) ~ "aviation",
     grepl("^481111", code) ~ "aviation",
     grepl("^481211", code) ~ "aviation",
     grepl("^3273", code) ~ "cement",
@@ -102,8 +103,12 @@ naics_classification <- dplyr::mutate(
     TRUE ~ "not in scope"
   ),
   borderline = dplyr::case_when(
-    grepl("^33613", code) ~ TRUE,
-    code %in% c("32732", "32733", "32739") ~ TRUE,
+    code == "3361" ~ TRUE,
+    grepl("^33612", code) ~ TRUE,
+    code %in% c("4811", "481112") ~ TRUE,
+    grepl("^32732", code) ~ TRUE,
+    grepl("^32733", code) ~ TRUE,
+    grepl("^32739", code) ~ TRUE,
     code == "213113" ~ TRUE,
     TRUE ~ FALSE
   ),
