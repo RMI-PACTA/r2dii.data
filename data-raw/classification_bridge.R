@@ -182,6 +182,7 @@ gics_classification <- dplyr::mutate(
     code == "20106010" ~TRUE,
     code == "2510" ~ TRUE,
     grepl("^25101", code) ~ TRUE,
+    grepl("^20301", code) ~ TRUE,
     grepl("^15102", code) ~ TRUE,
     grepl("^1010203", code) ~ TRUE,
     grepl("^1010204", code) ~ TRUE,
