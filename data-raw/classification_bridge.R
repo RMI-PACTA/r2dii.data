@@ -100,6 +100,7 @@ naics_classification <- dplyr::mutate(
     grepl("^211", code) ~ "oil and gas",
     code %in% c("213111", "213112") ~ "oil and gas",
     grepl("^22111", code) ~ "power",
+    code == "2211" ~ "power",
     grepl("^483", code) ~ "shipping",
     code %in% c("331110", "331512", "331513") ~ "steel",
     TRUE ~ "not in scope"
