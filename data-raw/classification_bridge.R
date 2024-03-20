@@ -106,7 +106,7 @@ naics_classification <- dplyr::mutate(
     TRUE ~ "not in scope"
   ),
   borderline = dplyr::case_when(
-    code == "3361" ~ TRUE,
+    code %in% c("336", "3361") ~ TRUE,
     grepl("^33612", code) ~ TRUE,
     code %in% c("4811", "48111", "481112") ~ TRUE,
     code %in% c("4812", "48121", "481212", "481219") ~ TRUE,
