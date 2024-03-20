@@ -140,16 +140,56 @@ naics_classification <- dplyr::select(
 
 usethis::use_data(naics_classification, overwrite = TRUE)
 
-sic_classification_raw <- read_bridge(
-  file.path("data-raw", "sic_classification.csv")
+sic_classification_raw <- readr::read_csv(
+  "https://raw.githubusercontent.com/saintsjd/sic4-list/master/sic-codes.csv",
+  col_types = "ccccc"
+  )
+
+# freeze the data in this package in-case the above link ever gets removed
+# readr::write_csv(sic_classification_raw, "data-raw/sic_classification.csv")
+
+sic_classification <- dplyr::mutate(
+  sic_classification_raw,
+  sector = dplyr::case_when(
+    grepl("^371", SIC) ~ "automotive",
+    SIC %in% c("5012", "5013") ~ "automotive",
+    grepl("^451", SIC) ~ "aviation",
+    grepl("^452", SIC) ~ "aviation",
+    grepl("^324", SIC) ~ "cement",
+    grepl("^122", SIC) ~ "coal",
+    grepl("^124", SIC) ~ "coal",
+    grepl("^13", SIC) ~ "oil and gas",
+    SIC %in% c("4911", "4931") ~ "power",
+    SIC %in% c("3312", "3315", "3316", "3317", "3324", "3325", "3462") ~ "steel",
+    grepl("^44", SIC) ~ "shipping",
+    TRUE ~ "not in scope"
+  ),
+  borderline = dplyr::case_when(
+    grepl("^371", SIC) ~ TRUE,
+    grepl("^5013", SIC) ~ TRUE,
+    grepl("^451", SIC) ~ TRUE,
+    grepl("^452", SIC) ~ TRUE,
+    grepl("^124", SIC) ~ TRUE,
+    SIC %in% c("1321", "1381", "1382", "1389") ~ TRUE,
+    SIC %in% c("4911", "4931") ~ TRUE,
+    SIC %in% c("3315", "3316", "3317", "3462") ~ TRUE,
+    SIC %in% c("4482", "4491", "4492", "4493", "4499") ~ TRUE,
+    TRUE ~ FALSE
+  ),
+)
+
+sic_classification <- dplyr::mutate(
+  sic_classification,
+  version = "1987"
 )
 
 sic_classification <- dplyr::select(
-  sic_classification_raw,
-  "description",
-  "code",
+  sic_classification,
+  description = "Description",
+  code = "SIC",
   "sector",
-  "borderline"
+  "borderline",
+  "version"
 )
 
 usethis::use_data(sic_classification, overwrite = TRUE)

@@ -3,3 +3,4 @@ sic_classification,description,character,Original SIC description
 sic_classification,code,character,Original SIC code
 sic_classification,sector,character,Associated PACTA sector
 sic_classification,borderline,character,Flag indicating if PACTA sector and classification code are a borderline match. The value TRUE indicates that the match is uncertain between the PACTA sector and the classification. The value FALSE indicates that the match is certainly perfect or the classification is certainly out of PACTA's scope.
+sic_classification,version,character,Column identifying to which SIC version the code belongs
