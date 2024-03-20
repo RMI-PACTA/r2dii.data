@@ -271,12 +271,18 @@ psic_classification_raw <- read_bridge(
   file.path("data-raw", "psic_classification.csv")
 )
 
-psic_classification <- dplyr::select(
+psic_classification <- dplyr::mutate(
   psic_classification_raw,
+  version = "2019"
+)
+
+psic_classification <- dplyr::select(
+  psic_classification,
   description = "original_code",
   "code",
   "sector",
-  "borderline"
+  "borderline",
+  "version"
 )
 
 usethis::use_data(psic_classification, overwrite = TRUE)
