@@ -217,6 +217,8 @@ gics_classification <- dplyr::select(
   "version"
 )
 
+gics_classification <- dplyr::arrange(gics_classification, code)
+
 usethis::use_data(gics_classification, overwrite = TRUE)
 
 psic_classification_raw <- read_bridge(
