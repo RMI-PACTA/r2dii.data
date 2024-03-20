@@ -76,13 +76,13 @@ systems and sectors relevant to the 'PACTA' tool
 
     <div class="section level2">
     <h2 id="format">Format<a class="anchor" aria-label="anchor" href="#format"></a></h2>
-    <p>An object of class <code>tbl_df</code> (inherits from <code>tbl</code>, <code>data.frame</code>) with 256 rows and 4 columns.</p>
+    <p>An object of class <code>tbl_df</code> (inherits from <code>tbl</code>, <code>data.frame</code>) with 1005 rows and 5 columns.</p>
     </div>
     <div class="section level2">
     <h2 id="definitions">Definitions<a class="anchor" aria-label="anchor" href="#definitions"></a></h2>
     
 
-<ul><li><p><code>borderline</code> (character): Flag indicating if PACTA sector and classification code are a borderline match. The value TRUE indicates that the match is uncertain between the PACTA sector and the classification. The value FALSE indicates that the match is certainly perfect or the classification is certainly out of PACTA's scope.., * <code>code</code> (character): Original SIC code., * <code>description</code> (character): Original SIC description., * <code>sector</code> (character): Associated PACTA sector.</p></li>
+<ul><li><p><code>borderline</code> (character): Flag indicating if PACTA sector and classification code are a borderline match. The value TRUE indicates that the match is uncertain between the PACTA sector and the classification. The value FALSE indicates that the match is certainly perfect or the classification is certainly out of PACTA's scope.., * <code>code</code> (character): Original SIC code., * <code>description</code> (character): Original SIC description., * <code>sector</code> (character): Associated PACTA sector., * <code>version</code> (character): Column identifying to which SIC version the code belongs.</p></li>
 </ul></div>
     <div class="section level2">
     <h2 id="details">Details<a class="anchor" aria-label="anchor" href="#details"></a></h2>
@@ -107,15 +107,15 @@ the wild to a relevant subset including 'power', 'oil and gas', 'coal',
     <div class="section level2">
     <h2 id="ref-examples">Examples<a class="anchor" aria-label="anchor" href="#ref-examples"></a></h2>
     <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span><span class="fu"><a href="https://rdrr.io/r/utils/head.html" class="external-link">head</a></span><span class="op">(</span><span class="va">sic_classification</span><span class="op">)</span></span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;"># A tibble: 6 × 4</span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>   description                                            code  sector borderline</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>   <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>                                                  <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>  <span style="color: #949494; font-style: italic;">&lt;lgl&gt;</span>     </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">1</span> private households, exterritorial organisations, repr… 0     not i… FALSE     </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">2</span> private households, exterritorial organisations, repr… 00000 not i… FALSE     </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">3</span> growing of cereals and other crops n.e.c.              11110 not i… FALSE     </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">4</span> growing of fruit, nuts, beverage and spice crops       11130 not i… FALSE     </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">5</span> farming  of cattle, sheep, goats, horses, asses, mule… 11210 not i… FALSE     </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">6</span> growing of crops combined with farming of animals (mi… 11300 not i… FALSE     </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;"># A tibble: 6 × 5</span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>   description                           code  sector       borderline version</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>   <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>                                 <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>        <span style="color: #949494; font-style: italic;">&lt;lgl&gt;</span>      <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>  </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">1</span> Wheat                                 0111  not in scope FALSE      1987   </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">2</span> Rice                                  0112  not in scope FALSE      1987   </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">3</span> Corn                                  0115  not in scope FALSE      1987   </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">4</span> Soybeans                              0116  not in scope FALSE      1987   </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">5</span> Cash Grains, Not Elsewhere Classified 0119  not in scope FALSE      1987   </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">6</span> Cotton                                0131  not in scope FALSE      1987   </span>
 </code></pre></div>
     </div>
   </main><aside class="col-md-3"><nav id="toc"><h2>On this page</h2>
