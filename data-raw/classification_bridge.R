@@ -90,7 +90,9 @@ naics_classification_raw <- readr::read_csv(
 naics_classification <- dplyr::mutate(
   naics_classification_raw,
   sector = dplyr::case_when(
-    grepl("^336", code) ~ "automotive",
+    grepl("^3361", code) ~ "automotive",
+    grepl("^3362", code) ~ "automotive",
+    grepl("^3363", code) ~ "automotive",
     grepl("^4811", code) ~ "aviation",
     grepl("^4812", code) ~ "aviation",
     grepl("^3273", code) ~ "cement",
