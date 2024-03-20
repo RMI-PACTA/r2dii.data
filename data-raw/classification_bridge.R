@@ -161,6 +161,7 @@ sic_classification <- dplyr::mutate(
     grepl("^13", SIC) ~ "oil and gas",
     grepl("^4911", SIC) ~ "power",
     SIC %in% c("3312", "3315", "3316", "3317", "3324", "3325", "3462") ~ "steel",
+    grepl("^44", SIC) ~ "shipping",
     TRUE ~ "not in scope"
   ),
   borderline = dplyr::case_when(
