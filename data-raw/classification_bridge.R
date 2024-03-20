@@ -164,6 +164,9 @@ sic_classification <- dplyr::mutate(
     TRUE ~ "not in scope"
   ),
   borderline = dplyr::case_when(
+    grepl("^371", SIC) ~ TRUE,
+    grepl("^5013", SIC) ~ TRUE,
+    grepl("^451", SIC) ~ TRUE,
     grepl("^452", SIC) ~ TRUE,
     grepl("^124", SIC) ~ TRUE,
     SIC %in% c("1321", "1381", "1382", "1389") ~ TRUE,
