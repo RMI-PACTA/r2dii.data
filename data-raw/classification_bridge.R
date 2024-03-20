@@ -116,6 +116,7 @@ naics_classification <- dplyr::mutate(
     grepl("^32739", code) ~ TRUE,
     code == "3273" ~ TRUE,
     code == "213113" ~ TRUE,
+    code %in% c("213111", "213112") ~ TRUE,
     code == "2211" ~ TRUE,
     code %in% c("331512", "331513") ~ TRUE,
     TRUE ~ FALSE
