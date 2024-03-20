@@ -159,7 +159,7 @@ sic_classification <- dplyr::mutate(
     grepl("^122", SIC) ~ "coal",
     grepl("^124", SIC) ~ "coal",
     grepl("^13", SIC) ~ "oil and gas",
-    grepl("^4911", SIC) ~ "power",
+    SIC %in% c("4911", "4931") ~ "power",
     SIC %in% c("3312", "3315", "3316", "3317", "3324", "3325", "3462") ~ "steel",
     grepl("^44", SIC) ~ "shipping",
     TRUE ~ "not in scope"
