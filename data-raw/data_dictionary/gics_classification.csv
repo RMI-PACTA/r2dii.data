@@ -3,3 +3,4 @@ gics_classification,description,character,Original GICS description
 gics_classification,code,character,Original GICS code
 gics_classification,sector,character,Associated PACTA sector
 gics_classification,borderline,logical,Flag indicating if PACTA sector and classification code are a borderline match. The value TRUE indicates that the match is uncertain between the PACTA sector and the classification. The value FALSE indicates that the match is certainly perfect or the classification is certainly out of PACTA's scope.
+gics_classification,version,character,Column identifying to which GICS version the code belongs
