@@ -189,8 +189,8 @@ gics_classification <- dplyr::mutate(
     grepl("^1010203", code) ~ TRUE,
     grepl("^1010204", code) ~ TRUE,
     code == "15104050" ~ TRUE,
-    grepl("^551030", code) ~ "power",
-    grepl("^551050", code) ~ "power",
+    grepl("^551030", code) ~ TRUE,
+    grepl("^551050", code) ~ TRUE,
     TRUE ~ FALSE
   ),
 )
