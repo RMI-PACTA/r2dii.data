@@ -104,4 +104,9 @@ loanbook_demo <- dplyr::mutate(
   lei = NULL
   )
 
+loanbook_demo <- dplyr::filter(
+  loanbook_demo,
+  !is.na(sector_classification_direct_loantaker)
+)
+
 usethis::use_data(loanbook_demo, overwrite = TRUE)
