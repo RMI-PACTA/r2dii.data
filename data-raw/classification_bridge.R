@@ -98,7 +98,7 @@ naics_classification <- dplyr::mutate(
     code == "213113" ~ "coal",
     grepl("^211", code) ~ "oil and gas",
     code %in% c("213111", "213112") ~ "oil and gas",
-    grepl("^22111", code) ~ "power",
+    grepl("^2211", code) ~ "power",
     grepl("^483", code) ~ "shipping",
     grepl("^3311", code) ~ "steel",
     grepl("^3312", code) ~ "steel",
