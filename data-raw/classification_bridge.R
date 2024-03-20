@@ -151,7 +151,8 @@ sic_classification_raw <- readr::read_csv(
 sic_classification <- dplyr::mutate(
   sic_classification_raw,
   sector = dplyr::case_when(
-    grepl("^5012", SIC) ~ "automotive",
+    grepl("^371", SIC) ~ "automotive",
+    SIC %in% c("5012", "5013") ~ "automotive",
     grepl("^451", SIC) ~ "aviation",
     grepl("^452", SIC) ~ "aviation",
     grepl("^324", SIC) ~ "cement",
