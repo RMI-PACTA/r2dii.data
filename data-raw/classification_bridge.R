@@ -166,7 +166,7 @@ sic_classification <- dplyr::mutate(
     grepl("^452", SIC) ~ TRUE,
     grepl("^124", SIC) ~ TRUE,
     SIC %in% c("1321", "1381", "1382", "1389") ~ TRUE,
-    SIC %in% c("3313", "3315", "3316", "3317") ~ TRUE,
+    SIC %in% c("3315", "3316", "3317", "3462") ~ TRUE,
     TRUE ~ FALSE
   ),
 )
