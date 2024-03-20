@@ -80,16 +80,62 @@ nace_classification <- dplyr::select(
 
 use_data(nace_classification, overwrite = TRUE)
 
-naics_classification_raw <- read_bridge(
-  file.path("data-raw", "naics_classification.csv")
+naics_classification_raw <- readr::read_csv(
+  file.path("data-raw", "naics-2-6-digit_2022_Codes.csv"),
+  col_names = c("code", "description"),
+  col_types = "_cc__",
+  skip = 2
 )
 
-naics_classification <- dplyr::select(
+naics_classification <- dplyr::mutate(
   naics_classification_raw,
-  description = "naics_title",
+  sector = dplyr::case_when(
+    grepl("^3361", code) ~ "automotive",
+    grepl("^3362", code) ~ "automotive",
+    grepl("^3363", code) ~ "automotive",
+    grepl("^4811", code) ~ "aviation",
+    grepl("^4812", code) ~ "aviation",
+    grepl("^3273", code) ~ "cement",
+    grepl("^2121", code) ~ "coal",
+    code == "213113" ~ "coal",
+    grepl("^211", code) ~ "oil and gas",
+    code %in% c("213111", "213112") ~ "oil and gas",
+    grepl("^2211", code) ~ "power",
+    grepl("^483", code) ~ "shipping",
+    grepl("^3311", code) ~ "steel",
+    grepl("^3312", code) ~ "steel",
+    code %in% c("331512", "331513") ~ "steel",
+    TRUE ~ "not in scope"
+  ),
+  borderline = dplyr::case_when(
+    code %in% c("336", "3361") ~ TRUE,
+    grepl("^33612", code) ~ TRUE,
+    grepl("^3362", code) ~ TRUE,
+    grepl("^3363", code) ~ TRUE,
+    code %in% c("4811", "48111", "481112") ~ TRUE,
+    code %in% c("4812", "48121", "481212", "481219") ~ TRUE,
+    code == "3273" ~ TRUE,
+    grepl("^32732", code) ~ TRUE,
+    grepl("^32733", code) ~ TRUE,
+    grepl("^32739", code) ~ TRUE,
+    code %in% c("213111", "213112") ~ TRUE,
+    code == "213113" ~ TRUE,
+    code == "2211" ~ TRUE,
+    grepl("^22112", code) ~ TRUE,
+    grepl("^3312", code) ~ TRUE,
+    TRUE ~ FALSE
+  ),
+)
+
+naics_classification <- dplyr::mutate(naics_classification, version = "2022")
+
+naics_classification <- dplyr::select(
+  naics_classification,
+  "description",
   "code",
   "sector",
-  "borderline"
+  "borderline",
+  "version"
 )
 
 usethis::use_data(naics_classification, overwrite = TRUE)
@@ -257,12 +303,18 @@ psic_classification_raw <- read_bridge(
   file.path("data-raw", "psic_classification.csv")
 )
 
-psic_classification <- dplyr::select(
+psic_classification <- dplyr::mutate(
   psic_classification_raw,
+  version = "2019"
+)
+
+psic_classification <- dplyr::select(
+  psic_classification,
   description = "original_code",
   "code",
   "sector",
-  "borderline"
+  "borderline",
+  "version"
 )
 
 usethis::use_data(psic_classification, overwrite = TRUE)

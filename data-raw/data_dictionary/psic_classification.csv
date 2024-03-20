@@ -3,3 +3,4 @@ psic_classification,description,character,Original PSIC classification sector na
 psic_classification,code,character,Formatted PSIC classification code
 psic_classification,sector,character,Associated PACTA sector
 psic_classification,borderline,logical,Flag indicating if PACTA sector and classification code are a borderline match. The value TRUE indicates that the match is uncertain between the PACTA sector and the classification. The value FALSE indicates that the match is certainly perfect or the classification is certainly out of PACTA's scope.
+psic_classification,version,character,Column identifying which year the classification was published in.
