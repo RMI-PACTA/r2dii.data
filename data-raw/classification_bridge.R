@@ -155,17 +155,116 @@ sic_classification <- dplyr::select(
 
 usethis::use_data(sic_classification, overwrite = TRUE)
 
-gics_classification_raw <- read_bridge(
-  file.path("data-raw", "gics_classification.csv")
+gics_classification_raw <- readr::read_csv(
+  file.path("data-raw", "GICS Map 2023.csv"),
+  skip = 4,
+  col_names = c(
+    "sector_code",
+    "sector_description",
+    "industry_group_code",
+    "industry_group_description",
+    "industry_main_code",
+    "industry_main_description",
+    "sub_industry_code",
+    "sub_industry_description"
+  ),
+  col_types = "cccccccc",
+  na = c("", "\U000000A0", "NA")
+)
+
+gics_classification <- zoo::na.locf(
+  zoo::zoo(gics_classification_raw),
+  na.rm = FALSE
+  )
+
+gics_classification <- tibble::as_tibble(gics_classification)
+
+gics_subset <- function(data, industry) {
+  data |>
+    dplyr::select(
+      starts_with(industry)
+    ) |>
+    dplyr::distinct() |>
+    dplyr::rename(
+      code = glue::glue(industry, "_code"),
+      description = glue::glue(industry, "_description")
+    ) |>
+    dplyr::mutate(
+      industry_level = industry
+    )
+}
+
+gics_classification <- dplyr::bind_rows(
+  gics_subset(gics_classification, "sector"),
+  gics_subset(gics_classification, "industry_group"),
+  gics_subset(gics_classification, "industry_main"),
+  gics_subset(gics_classification, "sub_industry")
+)
+
+gics_classification <- dplyr::mutate(
+  gics_classification,
+  industry_level = dplyr::if_else(
+    industry_level == "industry_main",
+    "industry",
+    industry_level
+  )
+)
+
+gics_classification <- dplyr::mutate(
+  gics_classification,
+  sector = dplyr::case_when(
+    grepl("^2510", code) ~ "automotive",
+    code == "20106010" ~ "automotive",
+    grepl("^20301", code) ~ "aviation",
+    grepl("^20302", code) ~ "aviation",
+    grepl("^15102", code) ~ "cement",
+    grepl("^1010205", code) ~ "coal",
+    grepl("^10102", code) ~ "oil and gas",
+    grepl("^551010", code) ~ "power",
+    grepl("^551030", code) ~ "power",
+    grepl("^551050", code) ~ "power",
+    grepl("^20303", code) ~ "shipping",
+    grepl("^1510405", code) ~ "steel",
+    TRUE ~ "not in scope"
+  ),
+  borderline = dplyr::case_when(
+    code == "20106010" ~TRUE,
+    code == "2510" ~ TRUE,
+    grepl("^25101", code) ~ TRUE,
+    grepl("^20301", code) ~ TRUE,
+    grepl("^15102", code) ~ TRUE,
+    grepl("^1010203", code) ~ TRUE,
+    grepl("^1010204", code) ~ TRUE,
+    code == "15104050" ~ TRUE,
+    grepl("^551030", code) ~ TRUE,
+    grepl("^551050", code) ~ TRUE,
+    TRUE ~ FALSE
+  ),
+)
+
+gics_classification <- dplyr::filter(
+  gics_classification,
+  # sometimes there are two similar descriptions,
+  # take the one that is more precise.
+  nchar(description) == max(nchar(description)),
+  .by = -description
+)
+
+gics_classification <- dplyr::mutate(
+  gics_classification,
+  version = "2023"
 )
 
 gics_classification <- dplyr::select(
-  gics_classification_raw,
+  gics_classification,
   "description",
   "code",
   "sector",
-  "borderline"
+  "borderline",
+  "version"
 )
+
+gics_classification <- dplyr::arrange(gics_classification, code)
 
 usethis::use_data(gics_classification, overwrite = TRUE)
 

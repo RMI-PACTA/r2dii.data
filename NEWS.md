@@ -1,6 +1,7 @@
 # r2dii.data (development version)
 
 * `naics_classification` updated to version 2022 (#355).
+* `gics_classification` updated to version 2023 (#358).
 * `loanbook_demo` and `abcd_demo` gain sample entries for `lei_direct_loantaker` and `lei` respectively (#349).
 * `nace_classification` updated to version 2.1 (#234).
 * `isic_classification` updated to revision 5 (#329).
