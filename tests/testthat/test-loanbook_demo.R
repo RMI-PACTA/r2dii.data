@@ -24,3 +24,7 @@ test_that("loanbook_demo has at least one valid sector classification (#336)", {
 
   expect_true(number_of_sector_matches > 0)
 })
+
+test_that("has no NAs in `sector_classification_direct_loantaker`", {
+  expect_true(all(!is.na(loanbook_demo$sector_classification_direct_loantaker)))
+})
