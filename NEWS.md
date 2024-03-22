@@ -1,11 +1,15 @@
 # r2dii.data (development version)
 
-* `psic_classification` gains `version` column (#344).
-* `naics_classification` updated to version 2022 (#355).
-* `gics_classification` updated to version 2023 (#358).
 * `loanbook_demo` and `abcd_demo` gain sample entries for `lei_direct_loantaker` and `lei` respectively (#349).
-* `nace_classification` updated to version 2.1 (#234).
-* `isic_classification` updated to revision 5 (#329).
+
+* `nace_classification` updated to version `2.1` (#234).
+* `nace_classification` gains more specific `code` values to distinguish duplicates (#338).
+* `isic_classification` updated to revision `5` (#329).
+* `psic_classification` gains `version` column (#344).
+* `naics_classification` updated to version `2022` (#355).
+* `gics_classification` updated to version `2023` (#358).
+* `sic_classification` aligned against `1987` version of US SIC codes (#358).
+
 * Begin deprecation of `cnb_classification` (#329).
 * Complete deprecation of `ald_demo` in favor of `abcd_demo` (#328).
 * Complete deprecation of `green_or_brown` in favor of `increasing_or_decreasing` (#307).
@@ -13,7 +17,7 @@
 # r2dii.data 0.4.1
 
 * Fix of the demo data sets.
-* abcd_demo and loanbook_demo now use faked company names.
+* `abcd_demo` and `loanbook_demo` now use faked company names.
 
 # r2dii.data 0.4.0
 
