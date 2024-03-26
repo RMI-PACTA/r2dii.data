@@ -1,4 +1,4 @@
-# r2dii.data (development version)
+# r2dii.data 0.5.0
 
 * `loanbook_demo` and `abcd_demo` gain sample entries for `lei_direct_loantaker` and `lei` respectively (#349).
 
