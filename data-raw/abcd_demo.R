@@ -147,17 +147,12 @@ ordered_names <- c(
   "year",
   "production",
   "emission_factor",
-  "country_of_domicile",
   "plant_location",
   "is_ultimate_owner",
-  "ald_timestamp",
   emission_factor_unit = "ald_emission_factor_unit"
 )
 
 abcd_demo <- select(abcd_demo, all_of(ordered_names))
-
-abcd_demo <- rename(abcd_demo, abcd_timestamp = ald_timestamp)
-
 
 # hot fixes for late 2023 release ----------------------------------------------
 

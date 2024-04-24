@@ -8,8 +8,6 @@ abcd_demo,production_unit,character,The units that production is measured in
 abcd_demo,year,integer,Year at which the production value is predicted
 abcd_demo,production,double,Company level production of the technology
 abcd_demo,emission_factor,double,Company level emission factor of the technology
-abcd_demo,country_of_domicile,character,Country where company is registered
 abcd_demo,plant_location,character,Country where asset is located
 abcd_demo,is_ultimate_owner,logical,Flag if company is the ultimate parent in our database
-abcd_demo,abcd_timestamp,character,Date at which asset data was sourced from the data provider
 abcd_demo,emission_factor_unit,character,The units that the emission factor is measured in

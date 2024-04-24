@@ -9,12 +9,10 @@ source(file.path("data-raw", "utils.R"))
 path <- file.path("data-raw", "loanbook_demo.csv")
 loanbook_demo <- readr::read_csv(
   path,
-  col_types = readr::cols(
+  col_types = readr::cols_only(
     id_loan = "c",
     id_direct_loantaker = "c",
     name_direct_loantaker = "c",
-    id_intermediate_parent_1 = "c",
-    name_intermediate_parent_1 = "c",
     id_ultimate_parent = "c",
     name_ultimate_parent = "c",
     loan_size_outstanding = "d",
@@ -22,11 +20,7 @@ loanbook_demo <- readr::read_csv(
     loan_size_credit_limit = "d",
     loan_size_credit_limit_currency = "c",
     sector_classification_system = "c",
-    sector_classification_input_type = "c",
-    sector_classification_direct_loantaker = "d",
-    fi_type = "c",
-    flag_project_finance_loan = "c",
-    name_project = "c",
+    sector_classification_direct_loantaker = "c",
     lei_direct_loantaker = "c",
     isin_direct_loantaker = "c"
   )
