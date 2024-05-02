@@ -6,15 +6,13 @@
 <!-- badges: start -->
 
 [![Lifecycle:
-maturing](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://lifecycle.r-lib.org/articles/stages.html)
+stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html#stable)
 [![CRAN
 status](https://www.r-pkg.org/badges/version/r2dii.data)](https://CRAN.R-project.org/package=r2dii.data)
 [![](https://cranlogs.r-pkg.org/badges/grand-total/r2dii.data)](https://CRAN.R-project.org/package=r2dii.data)
 [![Codecov test
 coverage](https://codecov.io/gh/RMI-PACTA/r2dii.data/branch/main/graph/badge.svg)](https://app.codecov.io/gh/RMI-PACTA/r2dii.data?branch=main)
 [![R-CMD-check](https://github.com/RMI-PACTA/r2dii.data/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/RMI-PACTA/r2dii.data/actions/workflows/R-CMD-check.yaml)
-[![Lifecycle:
-stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html#stable)
 <!-- badges: end -->
 
 These datasets support the implementation in R of the software PACTA
@@ -49,19 +47,19 @@ library(r2dii.data)
 
 head(data_dictionary)
 #>     dataset               column    typeof
-#> 1 abcd_demo       abcd_timestamp character
-#> 2 abcd_demo           company_id character
-#> 3 abcd_demo  country_of_domicile character
-#> 4 abcd_demo      emission_factor    double
-#> 5 abcd_demo emission_factor_unit character
-#> 6 abcd_demo    is_ultimate_owner   logical
+#> 1 abcd_demo           company_id character
+#> 2 abcd_demo      emission_factor    double
+#> 3 abcd_demo emission_factor_unit character
+#> 4 abcd_demo    is_ultimate_owner   logical
+#> 5 abcd_demo                  lei character
+#> 6 abcd_demo         name_company character
 #>                                                            definition
-#> 1         Date at which asset data was sourced from the data provider
-#> 2 The id of the company owning the asset created by the data provider
-#> 3                                 Country where company is registered
-#> 4                     Company level emission factor of the technology
-#> 5                   The units that the emission factor is measured in
-#> 6              Flag if company is the ultimate parent in our database
+#> 1 The id of the company owning the asset created by the data provider
+#> 2                     Company level emission factor of the technology
+#> 3                   The units that the emission factor is measured in
+#> 4              Flag if company is the ultimate parent in our database
+#> 5         The legal entity identifier of the company owning the asset
+#> 6                            The name of the company owning the asset
 ```
 
 ## Funding
