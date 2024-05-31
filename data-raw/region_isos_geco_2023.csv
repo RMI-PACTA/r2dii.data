@@ -1,0 +1,366 @@
+source,isos,region
+geco_2023,ru,russia
+geco_2023,al,other balkan
+geco_2023,ba,other balkan
+geco_2023,rs,other balkan
+geco_2023,mk,other balkan
+geco_2023,md,other balkan
+geco_2023,me,other balkan
+geco_2023,rs,other balkan
+geco_2023,am,other cis
+geco_2023,az,other cis
+geco_2023,by,other cis
+geco_2023,ge,other cis
+geco_2023,kz,other cis
+geco_2023,kg,other cis
+geco_2023,tj,other cis
+geco_2023,tm,other cis
+geco_2023,uz,other cis
+geco_2023,ua,ukraine
+geco_2023,ar,argentina
+geco_2023,br,brazil
+geco_2023,ca,canada
+geco_2023,cl,chile
+geco_2023,mx,mexico
+geco_2023,us,us
+geco_2023,bs,rest central america
+geco_2023,bb,rest central america
+geco_2023,bz,rest central america
+geco_2023,bm,rest central america
+geco_2023,cr,rest central america
+geco_2023,cu,rest central america
+geco_2023,dm,rest central america
+geco_2023,do,rest central america
+geco_2023,sv,rest central america
+geco_2023,gd,rest central america
+geco_2023,gt,rest central america
+geco_2023,ht,rest central america
+geco_2023,hn,rest central america
+geco_2023,jm,rest central america
+geco_2023,ni,rest central america
+geco_2023,aw,rest central america
+geco_2023,pa,rest central america
+geco_2023,st,rest central america
+geco_2023,lc,rest central america
+geco_2023,vc,rest central america
+geco_2023,tt,rest central america
+geco_2023,bo,rest south america
+geco_2023,co,rest south america
+geco_2023,ec,rest south america
+geco_2023,gy,rest south america
+geco_2023,py,rest south america
+geco_2023,pe,rest south america
+geco_2023,sr,rest south america
+geco_2023,uy,rest south america
+geco_2023,ve,rest south america
+geco_2023,eg,egypt
+geco_2023,dz,algeria & libya
+geco_2023,ly,algeria & libya
+geco_2023,ma,morocco & tunisia
+geco_2023,tn,morocco & tunisia
+geco_2023,za,south africa
+geco_2023,bf,rest sub saharan africa
+geco_2023,bi,rest sub saharan africa
+geco_2023,cm,rest sub saharan africa
+geco_2023,cv,rest sub saharan africa
+geco_2023,cf,rest sub saharan africa
+geco_2023,td,rest sub saharan africa
+geco_2023,km,rest sub saharan africa
+geco_2023,cg,rest sub saharan africa
+geco_2023,cd,rest sub saharan africa
+geco_2023,ci,rest sub saharan africa
+geco_2023,dj,rest sub saharan africa
+geco_2023,gq,rest sub saharan africa
+geco_2023,er,rest sub saharan africa
+geco_2023,et,rest sub saharan africa
+geco_2023,ga,rest sub saharan africa
+geco_2023,gm,rest sub saharan africa
+geco_2023,gh,rest sub saharan africa
+geco_2023,gn,rest sub saharan africa
+geco_2023,gw,rest sub saharan africa
+geco_2023,ke,rest sub saharan africa
+geco_2023,ls,rest sub saharan africa
+geco_2023,lr,rest sub saharan africa
+geco_2023,mg,rest sub saharan africa
+geco_2023,mw,rest sub saharan africa
+geco_2023,ml,rest sub saharan africa
+geco_2023,mr,rest sub saharan africa
+geco_2023,mu,rest sub saharan africa
+geco_2023,mz,rest sub saharan africa
+geco_2023,NA,rest sub saharan africa
+geco_2023,ne,rest sub saharan africa
+geco_2023,ng,rest sub saharan africa
+geco_2023,rw,rest sub saharan africa
+geco_2023,sn,rest sub saharan africa
+geco_2023,sl,rest sub saharan africa
+geco_2023,so,rest sub saharan africa
+geco_2023,sd,rest sub saharan africa
+geco_2023,sz,rest sub saharan africa
+geco_2023,tz,rest sub saharan africa
+geco_2023,tg,rest sub saharan africa
+geco_2023,ug,rest sub saharan africa
+geco_2023,zm,rest sub saharan africa
+geco_2023,ao,rest sub saharan africa
+geco_2023,bj,rest sub saharan africa
+geco_2023,bw,rest sub saharan africa
+geco_2023,ir,iran
+geco_2023,sa,saudi arabia
+geco_2023,tr,turkey
+geco_2023,il,mediteranean middle east
+geco_2023,jo,mediteranean middle east
+geco_2023,lb,mediteranean middle east
+geco_2023,sy,mediteranean middle east
+geco_2023,bh,rest gulf
+geco_2023,iq,rest gulf
+geco_2023,kw,rest gulf
+geco_2023,om,rest gulf
+geco_2023,qa,rest gulf
+geco_2023,ae,rest gulf
+geco_2023,ye,rest gulf
+geco_2023,cn,china
+geco_2023,in,india
+geco_2023,id,indonesia
+geco_2023,my,malaysia
+geco_2023,th,thailand
+geco_2023,vn,vietnam
+geco_2023,af,rest south asia
+geco_2023,bd,rest south asia
+geco_2023,bt,rest south asia
+geco_2023,mv,rest south asia
+geco_2023,np,rest south asia
+geco_2023,pk,rest south asia
+geco_2023,sc,rest south asia
+geco_2023,lk,rest south asia
+geco_2023,bn,rest south east asia
+geco_2023,kh,rest south east asia
+geco_2023,la,rest south east asia
+geco_2023,mn,rest south east asia
+geco_2023,mm,rest south east asia
+geco_2023,kp,rest south east asia
+geco_2023,sg,rest south east asia
+geco_2023,tw,rest south east asia
+geco_2023,au,australia
+geco_2023,jp,japan
+geco_2023,kr,south korea
+geco_2023,nz,new zealand
+geco_2023,fj,rest pacific
+geco_2023,ki,rest pacific
+geco_2023,pg,rest pacific
+geco_2023,ws,rest pacific
+geco_2023,sb,rest pacific
+geco_2023,to,rest pacific
+geco_2023,vu,rest pacific
+geco_2023,gb,uk
+geco_2023,at,eu27
+geco_2023,be,eu27
+geco_2023,bg,eu27
+geco_2023,hr,eu27
+geco_2023,cy,eu27
+geco_2023,cz,eu27
+geco_2023,dk,eu27
+geco_2023,ee,eu27
+geco_2023,fi,eu27
+geco_2023,fr,eu27
+geco_2023,de,eu27
+geco_2023,gr,eu27
+geco_2023,hu,eu27
+geco_2023,ie,eu27
+geco_2023,it,eu27
+geco_2023,lv,eu27
+geco_2023,lt,eu27
+geco_2023,lu,eu27
+geco_2023,mt,eu27
+geco_2023,nl,eu27
+geco_2023,pl,eu27
+geco_2023,pt,eu27
+geco_2023,ro,eu27
+geco_2023,sk,eu27
+geco_2023,si,eu27
+geco_2023,es,eu27
+geco_2023,se,eu27
+geco_2023,ch,global
+geco_2023,no,global
+geco_2023,is,global
+geco_2023,li,global
+geco_2023,ru,global
+geco_2023,al,global
+geco_2023,ba,global
+geco_2023,rs,global
+geco_2023,mk,global
+geco_2023,md,global
+geco_2023,me,global
+geco_2023,rs,global
+geco_2023,am,global
+geco_2023,az,global
+geco_2023,by,global
+geco_2023,ge,global
+geco_2023,kz,global
+geco_2023,kg,global
+geco_2023,tj,global
+geco_2023,tm,global
+geco_2023,uz,global
+geco_2023,ua,global
+geco_2023,ar,global
+geco_2023,br,global
+geco_2023,ca,global
+geco_2023,cl,global
+geco_2023,mx,global
+geco_2023,us,global
+geco_2023,bs,global
+geco_2023,bb,global
+geco_2023,bz,global
+geco_2023,bm,global
+geco_2023,cr,global
+geco_2023,cu,global
+geco_2023,dm,global
+geco_2023,do,global
+geco_2023,sv,global
+geco_2023,gd,global
+geco_2023,gt,global
+geco_2023,ht,global
+geco_2023,hn,global
+geco_2023,jm,global
+geco_2023,ni,global
+geco_2023,aw,global
+geco_2023,pa,global
+geco_2023,st,global
+geco_2023,lc,global
+geco_2023,vc,global
+geco_2023,tt,global
+geco_2023,bo,global
+geco_2023,co,global
+geco_2023,ec,global
+geco_2023,gy,global
+geco_2023,py,global
+geco_2023,pe,global
+geco_2023,sr,global
+geco_2023,uy,global
+geco_2023,ve,global
+geco_2023,eg,global
+geco_2023,dz,global
+geco_2023,ly,global
+geco_2023,ma,global
+geco_2023,tn,global
+geco_2023,za,global
+geco_2023,bf,global
+geco_2023,bi,global
+geco_2023,cm,global
+geco_2023,cv,global
+geco_2023,cf,global
+geco_2023,td,global
+geco_2023,km,global
+geco_2023,cg,global
+geco_2023,cd,global
+geco_2023,ci,global
+geco_2023,dj,global
+geco_2023,gq,global
+geco_2023,er,global
+geco_2023,et,global
+geco_2023,ga,global
+geco_2023,gm,global
+geco_2023,gh,global
+geco_2023,gn,global
+geco_2023,gw,global
+geco_2023,ke,global
+geco_2023,ls,global
+geco_2023,lr,global
+geco_2023,mg,global
+geco_2023,mw,global
+geco_2023,ml,global
+geco_2023,mr,global
+geco_2023,mu,global
+geco_2023,mz,global
+geco_2023,NA,global
+geco_2023,ne,global
+geco_2023,ng,global
+geco_2023,rw,global
+geco_2023,sn,global
+geco_2023,sl,global
+geco_2023,so,global
+geco_2023,sd,global
+geco_2023,sz,global
+geco_2023,tz,global
+geco_2023,tg,global
+geco_2023,ug,global
+geco_2023,zm,global
+geco_2023,ao,global
+geco_2023,bj,global
+geco_2023,bw,global
+geco_2023,ir,global
+geco_2023,sa,global
+geco_2023,tr,global
+geco_2023,il,global
+geco_2023,jo,global
+geco_2023,lb,global
+geco_2023,sy,global
+geco_2023,bh,global
+geco_2023,iq,global
+geco_2023,kw,global
+geco_2023,om,global
+geco_2023,qa,global
+geco_2023,ae,global
+geco_2023,ye,global
+geco_2023,cn,global
+geco_2023,in,global
+geco_2023,id,global
+geco_2023,my,global
+geco_2023,th,global
+geco_2023,vn,global
+geco_2023,af,global
+geco_2023,bd,global
+geco_2023,bt,global
+geco_2023,mv,global
+geco_2023,np,global
+geco_2023,pk,global
+geco_2023,sc,global
+geco_2023,lk,global
+geco_2023,bn,global
+geco_2023,kh,global
+geco_2023,la,global
+geco_2023,mn,global
+geco_2023,mm,global
+geco_2023,kp,global
+geco_2023,sg,global
+geco_2023,tw,global
+geco_2023,au,global
+geco_2023,jp,global
+geco_2023,kr,global
+geco_2023,nz,global
+geco_2023,fj,global
+geco_2023,ki,global
+geco_2023,pg,global
+geco_2023,ws,global
+geco_2023,sb,global
+geco_2023,to,global
+geco_2023,vu,global
+geco_2023,gb,global
+geco_2023,at,global
+geco_2023,be,global
+geco_2023,bg,global
+geco_2023,hr,global
+geco_2023,cy,global
+geco_2023,cz,global
+geco_2023,dk,global
+geco_2023,ee,global
+geco_2023,fi,global
+geco_2023,fr,global
+geco_2023,de,global
+geco_2023,gr,global
+geco_2023,hu,global
+geco_2023,ie,global
+geco_2023,it,global
+geco_2023,lv,global
+geco_2023,lt,global
+geco_2023,lu,global
+geco_2023,mt,global
+geco_2023,nl,global
+geco_2023,pl,global
+geco_2023,pt,global
+geco_2023,ro,global
+geco_2023,sk,global
+geco_2023,si,global
+geco_2023,es,global
+geco_2023,se,global
+geco_2023,ch,switzerland
+geco_2023,is,iceland
+geco_2023,no,norway

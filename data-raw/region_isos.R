@@ -272,6 +272,20 @@ region_isos_weo_2022 <- process_countries(
   source_year
 )
 
+# Process region_isos_weo_2023.csv ----------------------------------------
+
+# Source: region_isos_weo_2023.csv was transcribed from
+# https://iea.blob.core.windows.net/assets/86ede39e-4436-42d7-ba2a-edf61467e070/WorldEnergyOutlook2023.pdf
+source_year <- "weo_2023"
+region_data <- read_regions(regions_path(source_year)) %>%
+  mutate(type = "country_name") %>%
+  rename(value = "isos")
+
+region_isos_weo_2023 <- process_countries(
+  region_data,
+  abcd_isos,
+  source_year
+)
 
 
 # Process raw_regions_geco_2020.csv ----------------------------------------
@@ -301,7 +315,7 @@ region_isos_geco_2021 <- process_countries(
 )
 
 
-# Process raw_regions_geco_2022.csv
+# Process raw_regions_geco_2022.csv ----------------------------------------
 
 # Source: raw_regions_geco_2021.csv was transcribed from
 # https://publications.jrc.ec.europa.eu/repository/handle/JRC131864
@@ -316,6 +330,35 @@ region_isos_geco_2022 <- process_countries(
   source_year
 )
 
+# Process region_isos_geco_2023.csv ----------------------------------------
+
+# Source: region_isos_geco_2023.csv was transcribed from
+# https://publications.jrc.ec.europa.eu/repository/handle/JRC136265
+source_year <- "geco_2023"
+region_data <- read_regions(regions_path(source_year)) %>%
+  mutate(type = "country_name") %>%
+  rename(value = "isos")
+
+region_isos_geco_2023 <- process_countries(
+  region_data,
+  abcd_isos,
+  source_year
+)
+
+# Process region_isos_isf_2023.csv ----------------------------------------
+
+# Source: region_isos_isf_2023.csv was transcribed from
+# https://datadryad.org/stash/dataset/doi:10.5061/dryad.cz8w9gj82
+source_year <- "isf_2023"
+region_data <- read_regions(regions_path(source_year)) %>%
+  mutate(type = "country_name") %>%
+  rename(value = "isos")
+
+region_isos_isf_2023 <- process_countries(
+  region_data,
+  abcd_isos,
+  source_year
+)
 # Combine -----------------------------------------------------------------
 
 region_isos <- rbind(
@@ -327,9 +370,12 @@ region_isos <- rbind(
   region_isos_etp_2020,
   region_isos_weo_2021,
   region_isos_weo_2022,
+  region_isos_weo_2023,
   region_isos_geco_2020,
   region_isos_geco_2021,
-  region_isos_geco_2022
+  region_isos_geco_2022,
+  region_isos_geco_2023,
+  region_isos_isf_2023
 ) %>%
   group_by(region, source) %>%
   distinct(isos) %>%
