@@ -1,0 +1,5 @@
+exclusions: list(
+  "data-raw",
+  "tests/testthat/",
+  "vignettes/r2dii-data-0-0-3.Rmd"
+  )
