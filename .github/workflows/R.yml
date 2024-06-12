@@ -20,3 +20,9 @@ jobs:
   R-package:
     name: R Package Checks
     uses: RMI-PACTA/actions/.github/workflows/R.yml@main
+
+  revdep_check:
+    name: Reverse check most dependents
+    uses: r-devel/recheck/.github/workflows/recheck.yml@v1
+    with:
+      which: most
