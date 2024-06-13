@@ -1,4 +1,4 @@
-# r2dii.data (development version)
+# r2dii.data 0.6.0
 
 * Complete deprecation of `cnb_classification` (#329).
 * `region_isos` gains entries for `weo_2023`, `geco_2023` and `isf_2023`.
