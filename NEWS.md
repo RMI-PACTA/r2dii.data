@@ -1,5 +1,6 @@
 # r2dii.data (development version)
 
+* Complete deprecation of `cnb_classification` (#329).
 * `region_isos` gains entries for `weo_2023`, `geco_2023` and `isf_2023`.
 * r2dii.data is now [stable](https://lifecycle.r-lib.org/articles/stages.html).
 * use minimal demo data for `abcd_demo` and `loanbook_demo` (#257).

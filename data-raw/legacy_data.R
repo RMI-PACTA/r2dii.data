@@ -19,14 +19,8 @@ green_or_brown_hdv <- green_or_brown %>%
 legacy_green_or_brown <- green_or_brown %>%
   dplyr::bind_rows(green_or_brown_hdv)
 
-# Deprecated cnb_classification
-cnb_classification_ <- read_bridge(
-  file.path("data-raw", "cnb_classification.csv")
-)
-
 usethis::use_data(
   legacy_green_or_brown,
-  cnb_classification_,
   overwrite = TRUE,
   internal = TRUE
 )
