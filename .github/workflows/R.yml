@@ -21,7 +21,6 @@ jobs:
     name: R Package Checks
     uses: RMI-PACTA/actions/.github/workflows/R.yml@ci/95-r-rev-dep-check
 
-
   revdep-check:
     name: Check reverse dependencies
     uses: RMI-PACTA/actions/.github/workflows/R-revdeps.yml@ci/95-r-rev-dep-check
