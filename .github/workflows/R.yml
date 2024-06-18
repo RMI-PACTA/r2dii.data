@@ -25,18 +25,8 @@ jobs:
           [
             {"pkg": "RMI-PACTA/r2dii.analysis"},
             {"pkg": "RMI-PACTA/r2dii.match"},
+            {"pkg": "RMI-PACTA/r2dii.plot"},
             {"pkg": "r2dii.analysis"},
             {"pkg": "r2dii.match"}
+            {"pkg": "r2dii.plot"}
           ]
-
-  # revdep-check:
-  #   name: Check reverse dependencies
-  #   uses: RMI-PACTA/actions/.github/workflows/R-revdeps.yml@ci/95-r-rev-dep-check
-  #   with:
-  #     revdeps: |
-  #         [
-  #           {"pkg": "RMI-PACTA/r2dii.analysis"},
-  #           {"pkg": "RMI-PACTA/r2dii.match"},
-  #           {"pkg": "r2dii.analysis"},
-  #           {"pkg": "r2dii.match"}
-  #         ]
