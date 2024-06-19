@@ -19,7 +19,7 @@ name: R
 jobs:
   R-package:
     name: R Package Checks
-    uses: RMI-PACTA/actions/.github/workflows/R.yml@ci/95-r-rev-dep-check
+    uses: RMI-PACTA/actions/.github/workflows/R.yml@main
     with:
       revdeps: |
           [
