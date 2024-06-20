@@ -12,11 +12,11 @@ they help to demonstrate and test the implementation in R of 'PACTA'
     <a href="#main" class="visually-hidden-focusable">Skip to contents</a>
     
 
-    <nav class="navbar fixed-top navbar-default navbar-expand-lg bg-info"><div class="container">
+    <nav class="navbar fixed-top navbar-default navbar-expand-lg bg-info" data-bs-theme="default"><div class="container">
     
     <a class="navbar-brand me-2" href="../index.html">r2dii.data</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">0.5.0</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">0.6.0</small>
 
     
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -79,13 +79,13 @@ they help to demonstrate and test the implementation in R of 'PACTA'
 
     <div class="section level2">
     <h2 id="format">Format<a class="anchor" aria-label="anchor" href="#format"></a></h2>
-    <p>An object of class <code>tbl_df</code> (inherits from <code>tbl</code>, <code>data.frame</code>) with 283 rows and 19 columns.</p>
+    <p>An object of class <code>tbl_df</code> (inherits from <code>tbl</code>, <code>data.frame</code>) with 283 rows and 13 columns.</p>
     </div>
     <div class="section level2">
     <h2 id="definitions">Definitions<a class="anchor" aria-label="anchor" href="#definitions"></a></h2>
     
 
-<ul><li><p><code>fi_type</code> (character): Financial instrument name or asset class., * <code>flag_project_finance_loan</code> (character): Project finance flag denoting whether a loan is given out to a particular asset or not., * <code>id_direct_loantaker</code> (character): Borrower identifier unique to each borrower/sector combination in loanbook., * <code>id_intermediate_parent_n</code> (character): Optional input: id of the n-th intermediate parent company within the company structure that can be used for more granular mapping than the ultimate parent. Smaller values of n are closer to the direct_loantaker., * <code>id_loan</code> (character): Unique loan identifier., * <code>id_ultimate_parent</code> (character): Ultimate parent identifier unique to each ultimate parent/sector combination., * <code>isin_direct_loantaker</code> (logical): Optional input: providing the isin identifier of the direct loan taker to improve the matching coverage., * <code>lei_direct_loantaker</code> (logical): Optional input: providing the lei (legal entity identifier) of the direct loan taker to improve the matching coverage., * <code>loan_size_credit_limit</code> (double): Total credit limit or exposure at default., * <code>loan_size_credit_limit_currency</code> (character): Currency corresponding to credit limit., * <code>loan_size_outstanding</code> (double): Amount drawn by borrower from total credit limit., * <code>loan_size_outstanding_currency</code> (character): Currency corresponding to outstandings., * <code>name_direct_loantaker</code> (character): Name of the company directly taking the loan., * <code>name_intermediate_parent_n</code> (character): Optional input: name of intermediate parent company within the company structure that can be used for more granular mapping than the ultimate parent. Smaller values of n are closer to the direct_loantaker., * <code>name_project</code> (logical): Required input for loans with the flag_project_finance_loan = TRUE: Name of the project being financed., * <code>name_ultimate_parent</code> (character): Name of the ultimate parent company to which the borrower belongs. Can be the same as borrower., * <code>sector_classification_direct_loantaker</code> (double): Sector classification code of the direct loantaker., * <code>sector_classification_input_type</code> (character): Flag identifying if the sector classification code or character description is used., * <code>sector_classification_system</code> (character): Name of the sector classification standard being used.</p></li>
+<ul><li><p><code>id_direct_loantaker</code> (character): Borrower identifier unique to each borrower/sector combination in loanbook., * <code>id_loan</code> (character): Unique loan identifier., * <code>id_ultimate_parent</code> (character): Ultimate parent identifier unique to each ultimate parent/sector combination., * <code>isin_direct_loantaker</code> (logical): Optional input: providing the isin identifier of the direct loan taker to improve the matching coverage., * <code>lei_direct_loantaker</code> (logical): Optional input: providing the lei (legal entity identifier) of the direct loan taker to improve the matching coverage., * <code>loan_size_credit_limit</code> (double): Total credit limit or exposure at default., * <code>loan_size_credit_limit_currency</code> (character): Currency corresponding to credit limit., * <code>loan_size_outstanding</code> (double): Amount drawn by borrower from total credit limit., * <code>loan_size_outstanding_currency</code> (character): Currency corresponding to outstandings., * <code>name_direct_loantaker</code> (character): Name of the company directly taking the loan., * <code>name_ultimate_parent</code> (character): Name of the ultimate parent company to which the borrower belongs. Can be the same as borrower., * <code>sector_classification_direct_loantaker</code> (double): Sector classification code of the direct loantaker., * <code>sector_classification_system</code> (character): Name of the sector classification standard being used.</p></li>
 </ul></div>
     <div class="section level2">
     <h2 id="see-also">See also<a class="anchor" aria-label="anchor" href="#see-also"></a></h2>
@@ -101,22 +101,20 @@ they help to demonstrate and test the implementation in R of 'PACTA'
     <div class="section level2">
     <h2 id="ref-examples">Examples<a class="anchor" aria-label="anchor" href="#ref-examples"></a></h2>
     <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span><span class="fu"><a href="https://rdrr.io/r/utils/head.html" class="external-link">head</a></span><span class="op">(</span><span class="va">loanbook_demo</span><span class="op">)</span></span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;"># A tibble: 6 × 19</span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>   id_loan id_direct_loantaker name_direct_loantaker id_intermediate_parent_1</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>   <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>   <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>               <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>                 <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>                   </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">1</span> L1      C294                Vitale Group          <span style="color: #BB0000;">NA</span>                      </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">2</span> L2      C293                Moen-Moen             <span style="color: #BB0000;">NA</span>                      </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">3</span> L3      C292                Rowe-Rowe             IP5                     </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">4</span> L4      C299                Fadel-Fadel           <span style="color: #BB0000;">NA</span>                      </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">5</span> L5      C305                Ring AG &amp; Co. KGaA    <span style="color: #BB0000;">NA</span>                      </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">6</span> L6      C304                Kassulke-Kassulke     <span style="color: #BB0000;">NA</span>                      </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;"># ℹ 15 more variables: name_intermediate_parent_1 &lt;chr&gt;,</span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;">#   id_ultimate_parent &lt;chr&gt;, name_ultimate_parent &lt;chr&gt;,</span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;">#   loan_size_outstanding &lt;dbl&gt;, loan_size_outstanding_currency &lt;chr&gt;,</span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;">#   loan_size_credit_limit &lt;dbl&gt;, loan_size_credit_limit_currency &lt;chr&gt;,</span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;">#   sector_classification_system &lt;chr&gt;, sector_classification_input_type &lt;chr&gt;,</span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;">#   sector_classification_direct_loantaker &lt;chr&gt;, fi_type &lt;chr&gt;,</span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;">#   flag_project_finance_loan &lt;chr&gt;, name_project &lt;chr&gt;, …</span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;"># A tibble: 6 × 13</span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>   id_loan id_direct_loantaker name_direct_loantaker id_ultimate_parent</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>   <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>   <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>               <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>                 <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>             </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">1</span> L1      C294                Vitale Group          UP15              </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">2</span> L2      C293                Moen-Moen             UP84              </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">3</span> L3      C292                Rowe-Rowe             UP288             </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">4</span> L4      C299                Fadel-Fadel           UP54              </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">5</span> L5      C305                Ring AG &amp; Co. KGaA    UP104             </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">6</span> L6      C304                Kassulke-Kassulke     UP83              </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;"># ℹ 9 more variables: name_ultimate_parent &lt;chr&gt;, loan_size_outstanding &lt;dbl&gt;,</span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;">#   loan_size_outstanding_currency &lt;chr&gt;, loan_size_credit_limit &lt;dbl&gt;,</span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;">#   loan_size_credit_limit_currency &lt;chr&gt;, sector_classification_system &lt;chr&gt;,</span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;">#   sector_classification_direct_loantaker &lt;chr&gt;, lei_direct_loantaker &lt;chr&gt;,</span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;">#   isin_direct_loantaker &lt;chr&gt;</span></span>
 </code></pre></div>
     </div>
   </main><aside class="col-md-3"><nav id="toc"><h2>On this page</h2>
