@@ -1,6 +1,0 @@
-dataset,column,typeof,definition
-cnb_classification,original_code,character,Original CNB sector name
-cnb_classification,code_level,double,Level of granularity of CNB code
-cnb_classification,code,character,Formatted CNB code
-cnb_classification,sector,character,Associated PACTA sector
-cnb_classification,borderline,logical,Flag indicating if PACTA sector and classification code are a borderline match. The value TRUE indicates that the match is uncertain between the PACTA sector and the classification. The value FALSE indicates that the match is certainly perfect or the classification is certainly out of PACTA's scope.
