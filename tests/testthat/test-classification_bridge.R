@@ -33,7 +33,6 @@ test_that("In classification datasets, values of `code` are unique per sector an
 
   # FIXME: This removes known offending datasets from the test.
   # These datasets will be deprecated. Deprecation process tracked in #329
-  datasets$cnb_classification <- NULL
   datasets$isic_classification <- NULL
   datasets$sector_classifications <- NULL
 

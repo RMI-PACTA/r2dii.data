@@ -91,14 +91,3 @@
 #' @examples
 #' head(isic_classification)
 "isic_classification"
-
-#' @inherit nace_classification title
-#' @inherit nace_classification description
-#'
-#' @description
-#' `r lifecycle::badge("deprecated")`
-#'
-#' See `?sector_classifications`
-#'
-#' @keywords internal
-"cnb_classification"
