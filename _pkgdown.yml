@@ -13,13 +13,6 @@ navbar:
      left:  [intro, reference, articles, news]
      right: [search, packages, github]
    components:
-     articles:
-       text: Articles
-       menu:
-       - text: Calculating Matching Coverage
-         href: articles/matching-coverage.html
-       - text: Using `match_name()` with large loanbooks
-         href: articles/chunk-your-data.html
      news:
        text: News
        menu:
