@@ -11,7 +11,7 @@ Authors@R: c(
            comment = c(ORCID = "0009-0000-8281-8129")),
     person("Mauro", "Lepore", , "maurolepore@gmail.com", role = c("aut", "ctr"),
            comment = c(ORCID = "0000-0002-1986-7988")),
-    person("Rocky Mountain Institute", , , "PACTA4banks@rmi.org", role = c("cph", "fnd"))
+    person("RMI", , , "PACTA4banks@rmi.org", role = c("cph", "fnd"))
   )
 Description: These datasets support the implementation in R of the
     software 'PACTA' (Paris Agreement Capital Transition Assessment),
