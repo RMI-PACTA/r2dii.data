@@ -1,3 +1,8 @@
+# r2dii.data (development version)
+
+* @jacobvjk is now the maintainer
+
+
 # r2dii.data 0.6.0
 
 * Complete deprecation of `cnb_classification` (#329).
