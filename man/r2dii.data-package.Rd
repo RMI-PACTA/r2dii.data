@@ -20,12 +20,12 @@ Useful links:
 
 }
 \author{
-\strong{Maintainer}: Alex Axthelm \email{aaxthelm@rmi.org} (\href{https://orcid.org/0000-0001-8579-8565}{ORCID}) [data contributor]
+\strong{Maintainer}: Jacob Kastl \email{jacob.kastl@gmail.com} (\href{https://orcid.org/0009-0000-8281-8129}{ORCID}) [contractor]
 
 Authors:
 \itemize{
+  \item Alex Axthelm \email{aaxthelm@rmi.org} (\href{https://orcid.org/0000-0001-8579-8565}{ORCID}) [contractor, data contributor]
   \item Jackson Hoffart \email{jackson.hoffart@gmail.com} (\href{https://orcid.org/0000-0002-8600-5042}{ORCID}) [contractor, data contributor]
-  \item Jacob Kastl \email{jacob.kastl@gmail.com} (\href{https://orcid.org/0009-0000-8281-8129}{ORCID}) [contractor]
   \item Mauro Lepore \email{maurolepore@gmail.com} (\href{https://orcid.org/0000-0002-1986-7988}{ORCID}) [contractor]
 }
 
