@@ -1,10 +1,12 @@
-#' A prepared co2 intensity climate scenario dataset for demonstration
+#' A prepared \ifelse{html}{\out{CO<sub>2</sub}}{\eqn{CO_2}{CO~2~}} intensity
+#' climate scenario dataset for demonstration
 #'
 #' @description
-#' Fake co2 intensity climate scenario dataset, prepared for the software
-#' PACTA (Paris Agreement Capital Transition Assessment). It imitates
-#' climate scenario data (e.g. from the International Energy Agency (IEA))
-#' including the change through time in production across industrial sectors.
+#' Fake \ifelse{html}{\out{CO<sub>2</sub}}{\eqn{CO_2}{CO~2~}} intensity climate
+#' scenario dataset, prepared for the software PACTA (Paris Agreement Capital
+#' Transition Assessment). It imitates climate scenario data (e.g. from the
+#' International Energy Agency (IEA)) including the change through time in
+#' production across industrial sectors.
 #'
 #' @template info_demo-datasets
 #'
