@@ -3,15 +3,15 @@
     {
       "type": "list",
       "attributes": {
-        "names": {
-          "type": "character",
-          "attributes": {},
-          "value": ["scenario_source", "scenario", "sector", "region", "year", "emission_factor_unit", "emission_factor"]
-        },
         "row.names": {
           "type": "integer",
           "attributes": {},
           "value": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+        },
+        "names": {
+          "type": "character",
+          "attributes": {},
+          "value": ["scenario_source", "scenario", "sector", "region", "year", "emission_factor_unit", "emission_factor"]
         },
         "class": {
           "type": "character",
@@ -48,7 +48,7 @@
         {
           "type": "character",
           "attributes": {},
-          "value": ["tonnes of CO2 per tonne of Cement", "tonnes of CO2 per tonne of Cement", "tonnes of CO2 per tonne of Cement", "tonnes of CO2 per tonne of Cement", "tonnes of CO2 per tonne of Cement", "tonnes of CO2 per tonne of Cement", "tonnes of CO2 per tonne of Cement", "tonnes of CO2 per tonne of Cement", "tonnes of CO2 per tonne of Cement", "tonnes of CO2 per tonne of Cement", "tonnes of CO2 per tonne of Cement", "tonnes of CO2 per tonne of Steel", "tonnes of CO2 per tonne of Steel", "tonnes of CO2 per tonne of Steel", "tonnes of CO2 per tonne of Steel", "tonnes of CO2 per tonne of Steel", "tonnes of CO2 per tonne of Steel", "tonnes of CO2 per tonne of Steel", "tonnes of CO2 per tonne of Steel", "tonnes of CO2 per tonne of Steel", "tonnes of CO2 per tonne of Steel", "tonnes of CO2 per tonne of Steel"]
+          "value": ["tonnes of CO₂ per tonne of Cement", "tonnes of CO₂ per tonne of Cement", "tonnes of CO₂ per tonne of Cement", "tonnes of CO₂ per tonne of Cement", "tonnes of CO₂ per tonne of Cement", "tonnes of CO₂ per tonne of Cement", "tonnes of CO₂ per tonne of Cement", "tonnes of CO₂ per tonne of Cement", "tonnes of CO₂ per tonne of Cement", "tonnes of CO₂ per tonne of Cement", "tonnes of CO₂ per tonne of Cement", "tonnes of CO₂ per tonne of Steel", "tonnes of CO₂ per tonne of Steel", "tonnes of CO₂ per tonne of Steel", "tonnes of CO₂ per tonne of Steel", "tonnes of CO₂ per tonne of Steel", "tonnes of CO₂ per tonne of Steel", "tonnes of CO₂ per tonne of Steel", "tonnes of CO₂ per tonne of Steel", "tonnes of CO₂ per tonne of Steel", "tonnes of CO₂ per tonne of Steel", "tonnes of CO₂ per tonne of Steel"]
         },
         {
           "type": "double",
