@@ -1,8 +1,8 @@
-#' A prepared \ifelse{html}{\out{CO<sub>2</sub}}{\eqn{CO_2}{CO~2~}} intensity
+#' A prepared \ifelse{html}{\out{CO<sub>2</sub>}}{\eqn{CO_2}{CO~2~}} intensity
 #' climate scenario dataset for demonstration
 #'
 #' @description
-#' Fake \ifelse{html}{\out{CO<sub>2</sub}}{\eqn{CO_2}{CO~2~}} intensity climate
+#' Fake \ifelse{html}{\out{CO<sub>2</sub>}}{\eqn{CO_2}{CO~2~}} intensity climate
 #' scenario dataset, prepared for the software PACTA (Paris Agreement Capital
 #' Transition Assessment). It imitates climate scenario data (e.g. from the
 #' International Energy Agency (IEA)) including the change through time in
