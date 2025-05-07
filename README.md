@@ -12,7 +12,7 @@ status](https://www.r-pkg.org/badges/version/r2dii.data)](https://CRAN.R-project
 [![](https://cranlogs.r-pkg.org/badges/grand-total/r2dii.data)](https://CRAN.R-project.org/package=r2dii.data)
 [![Codecov test
 coverage](https://codecov.io/gh/RMI-PACTA/r2dii.data/branch/main/graph/badge.svg)](https://app.codecov.io/gh/RMI-PACTA/r2dii.data?branch=main)
-[![R-CMD-check](https://github.com/RMI-PACTA/r2dii.data/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/RMI-PACTA/r2dii.data/actions/workflows/R-CMD-check.yaml)
+[![R-CMD-check](https://github.com/RMI-PACTA/r2dii.data/actions/workflows/R.yaml/badge.svg)](https://github.com/RMI-PACTA/r2dii.data/actions/workflows/R.yaml)
 <!-- badges: end -->
 
 These datasets support the implementation in R of the software PACTA
