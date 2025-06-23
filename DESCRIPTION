@@ -1,7 +1,7 @@
 Package: r2dii.data
 Title: Datasets to Measure the Alignment of Corporate Loan Books with
     Climate Goals
-Version: 0.6.1
+Version: 0.6.1.9000
 Authors@R: c(
     person("Jacob", "Kastl", , "jacob.kastl@gmail.com", role = c("aut", "cre", "ctr"),
            comment = c(ORCID = "0009-0000-8281-8129")),
